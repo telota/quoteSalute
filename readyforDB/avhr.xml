@@ -39,22 +39,22 @@
                      <catDesc>male to male</catDesc>
                   </category>
                   <category xml:id="f-f">
-                     <catDesc>male to female</catDesc>
+                     <catDesc>female to female</catDesc>
                   </category>
                   <category xml:id="f-m">
-                     <catDesc>male to male</catDesc>
+                     <catDesc>female to male</catDesc>
                   </category>
                   <category xml:id="f-n">
-                     <catDesc>male to female</catDesc>
+                     <catDesc>female to neutral</catDesc>
                   </category>
                   <category xml:id="n-n">
-                     <catDesc>male to female</catDesc>
+                     <catDesc>neutral to neutral</catDesc>
                   </category>
                   <category xml:id="n-m">
-                     <catDesc>male to male</catDesc>
+                     <catDesc>neutral to male</catDesc>
                   </category>
                   <category xml:id="n-f">
-                     <catDesc>male to female</catDesc>
+                     <catDesc>neutral to female</catDesc>
                   </category>
                </category>
             </taxonomy>
