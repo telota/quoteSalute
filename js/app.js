@@ -1,16 +1,19 @@
-class Salute {
-    constructor(id, quote, sender, receiver, edition, date, baseURL) {
-        this.id = id;
-        this.quote = quote;
-        this.sender = sender;
-        this.receiver = receiver;
-        this.edition = edition;
-        this.date = date;
-        this.baseURL = baseURL;
-        this.fullURL = baseURL + id;
+import Vue from 'vue';
+import VueClipboard from 'vue-clipboard2';
 
-        console.log(this);
-    }
+class Salute {
+  constructor(id, quote, sender, receiver, edition, date, baseURL) {
+    this.id = id;
+    this.quote = quote;
+    this.sender = sender;
+    this.receiver = receiver;
+    this.edition = edition;
+    this.date = date;
+    this.baseURL = baseURL;
+    this.fullURL = baseURL + id;
+
+    console.log(this);
+  }
 }
 
 const app = new Vue({
@@ -26,6 +29,5 @@ const app = new Vue({
             this.salute = new Salute(1, 'Welt', 'du', 'ich', 'BBAW', '21.03.2018', 'BBAW.de');
             console.log(this.filter);
         },
-
     },
 });
