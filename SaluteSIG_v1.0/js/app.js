@@ -10,10 +10,11 @@ class Salute {
         this.fullURL = baseURL + id;
 
         console.log(this);
+        this.copyText = `"${quote}"\n- ${edition} (${this.fullURL})\n${sender} an ${receiver}, ${date}`;
     }
 }
 
-const app = new Vue({
+let app = new Vue({
     el: '#app',
     data: {
         salute: new Salute(1, 'Hallo', 'ich', 'du', 'BBAW', '21.03.2018', 'BBAW.de'),

@@ -1,61 +1,97 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml" xmlns:v-bind="http://www.w3.org/1999/xhtml"
+      xmlns:v-clipboard="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>SaluteSIG Prototype</title>
 
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <script src="js/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
             integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
             crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js"
+            integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l"
+            crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js"
+            integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c"
+            crossorigin="anonymous"></script>
 </head>
 <body>
-<div id="app" class="container-fluid">
-    <div class="row">
-        <div class="col">
-            <div class="card ">
-                <div id="quote" class="card-body">"{{ salute.quote }}"</div>
-                <div id="source" class="card-footer">- <a target="_blank" v-bind:href="salute.fullURL"><b>{{ salute.edition }}</b></a> </br>
-                    <b>{{salute.sender}}</b> an <b>{{salute.receiver}}</b> </br>
-                    <b>{{salute.date}}</b>
+<div id="app" class="container">
+    <div class="card">
+        <div class="card-header">
+            SaluteSIG
+        </div>
+        <div id="quote" class="card-body">"{{ salute.quote }}"</div>
+        <div id="source" class="card-footer"><a target="_blank" class="show" v-bind:href="salute.fullURL"><i
+                class="fa fa-arrow-circle-right"></i><b> {{
+            salute.edition }}</b></a> </br>
+            <b>{{salute.sender}}</b> an <b>{{salute.receiver}}</b> </br>
+            <b>{{salute.date}}</b>
+        </div>
+    </div>
+    <div class="container">
+        <div id="filter" class="row card">
+            <div class="card-header">
+                <div>
+                    <button class="btn btn-primary" data-toggle="collapse" href="#collapseFilter" aria-expanded="false"
+                            aria-controls="collapseFilter">Filter
+                    </button>
+                    <button id="refresh" class="btn" v-on:click="refresh()"><i class="fas fa-redo-alt"></i></button>
+                    <button id="copy" class="btn btn-default" v-clipboard:copy="salute.copyText"><i class="fas fa-copy"></i></button>
                 </div>
             </div>
-            <div>
-                <button id="refresh" class="btn btn-primary" v-on:click="refresh()">Neues Zitat</button>
-                <button id="copy" class="btn btn-default">Kopieren</button>
-            </div>
-        </div>
-        <div id="filter" class="col">
-            <div id="genderSender">
-                <label>Sender</label>
-                <div class="checkbox"><label><input type="checkbox" value="send-f" v-model="filter">femaleIcon</label></div>
-                <div class="checkbox"><label><input type="checkbox" value="send-m" v-model="filter">maleIcon</label></div>
-                <div class="checkbox"><label><input type="checkbox" value="send-n" v-model="filter">neutralIcon</label></div>
-            </div>
-            <div id="genderReceiver">
-                <label>Empfänger</label>
-                <div class="checkbox"><label><input type="checkbox" value="receive-f" v-model="filter">femaleIcon</label></div>
-                <div class="checkbox"><label><input type="checkbox" value="receive-m" v-model="filter">maleIcon</label></div>
-                <div class="checkbox"><label><input type="checkbox" value="receive-n" v-model="filter">neutralIcon</label></div>
-            </div>
-            <div id="formality">
-                <label>Form</label>
-                <div class="checkbox"><label><input type="checkbox" value="formal" v-model="filter">formal</label></div>
-                <div class="checkbox"><label><input type="checkbox" value="informal" v-model="filter">informal</label></div>
+            <div class="card-body collapse" id="collapseFilter">
+                <div class="row">
+                    <div id="genderSender" class="col">
+                        <label>Sender</label>
+                        <div class="checkbox checkbox-circle"><input type="checkbox" value="send-f" v-model="filter"><i
+                                class="fas fa-venus"></i>
+                        </div>
+                        <div class="checkbox"><input type="checkbox" value="send-m" v-model="filter"><i
+                                class="fas fa-mars"></i>
+                        </div>
+                        <div class="checkbox"><label><input type="checkbox" value="send-n" v-model="filter"><i
+                                class="fas fa-genderless"></i></label>
+                        </div>
+                    </div>
+                    <div id="genderReceiver" class="col">
+                        <label>Empfänger</label>
+                        <div class="checkbox"><input type="checkbox" value="receive-f"
+                                                            v-model="filter"><i class="fas fa-venus"></i>
+                        </div>
+                        <div class="checkbox"><input type="checkbox" value="receive-m" v-model="filter"><i
+                                class="fas fa-mars"></i>
+                        </div>
+                        <div class="checkbox"><input type="checkbox" value="receive-n"
+                                                            v-model="filter"><i
+                                class="fas fa-genderless"></i>
+                        </div>
+                    </div>
+                    <div id="formality" class="col">
+                        <label>Form</label>
+                        <div class="checkbox"><input type="checkbox" value="formal" v-model="filter"><i
+                                class="fas fa-handshake"></i></div>
+                        <div class="checkbox"><input type="checkbox" value="informal" v-model="filter"><i
+                                class="fas fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
+
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="app.js"></script>
+<script src="js/app.js"></script>
+
 </body>
 </html>
