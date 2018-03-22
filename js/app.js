@@ -1,7 +1,9 @@
 import Vue from 'vue';
 import VueClipboard from 'vue-clipboard2';
+import VueResouorce from 'vue-resource';
 
 Vue.use(VueClipboard);
+Vue.use(VueResouorce);
 
 class Salute {
   constructor(id, quote, sender, receiver, edition, date, baseURL) {
@@ -28,6 +30,7 @@ const app = new Vue({
     methods: {
         refresh() {
             //AJAX AUFRUF
+
             this.salute = new Salute(1, 'Welt', 'du', 'ich', 'BBAW', '21.03.2018', 'BBAW.de');
             console.log(this.filter);
         },
