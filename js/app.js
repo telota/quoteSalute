@@ -1,20 +1,24 @@
-class Salute {
-    constructor(id, quote, sender, receiver, edition, date, baseURL) {
-        this.id = id;
-        this.quote = quote;
-        this.sender = sender;
-        this.receiver = receiver;
-        this.edition = edition;
-        this.date = date;
-        this.baseURL = baseURL;
-        this.fullURL = baseURL + id;
+import Vue from 'vue';
+import VueClipboard from 'vue-clipboard2';
 
-        console.log(this);
-        this.copyText = `"${quote}"\n- ${edition} (${this.fullURL})\n${sender} an ${receiver}, ${date}`;
-    }
+Vue.use(VueClipboard);
+
+class Salute {
+  constructor(id, quote, sender, receiver, edition, date, baseURL) {
+    this.id = id;
+    this.quote = quote;
+    this.sender = sender;
+    this.receiver = receiver;
+    this.edition = edition;
+    this.date = date;
+    this.baseURL = baseURL;
+    this.fullURL = baseURL + id;
+
+    console.log(this);
+  }
 }
 
-let app = new Vue({
+const app = new Vue({
     el: '#app',
     data: {
         salute: new Salute(1, 'Hallo', 'ich', 'du', 'BBAW', '21.03.2018', 'BBAW.de'),
@@ -27,6 +31,5 @@ let app = new Vue({
             this.salute = new Salute(1, 'Welt', 'du', 'ich', 'BBAW', '21.03.2018', 'BBAW.de');
             console.log(this.filter);
         },
-
     },
 });
