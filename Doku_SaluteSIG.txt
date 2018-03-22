@@ -1,0 +1,54 @@
+Montag: Textkorpus erstellen, Daten holen
+
+XQuery Abfrage und Transformation in TEI XML Dateien: 1 pro Vorhaben
+-Jean Pauls
+-Iffland
+-Humboldt
+-Lehndorff
+
+Noch ausstehend:
+-Hirth
+-AvHR
+
+
+Dienstag: Textkorpus bearbeiten, bereinigen
+
+1. quotes taggen:
+
+	<quote type="[Typ]" n="[Beziehung]">
+	
+	Typ:
+		formal,
+		informal
+	
+	Beziehung:
+		m-m, m-f, m-n,
+		f-f, f-m, f-n,
+		n-n, n-m, n-f
+
+2. sexistisches, rasistisches raus
+3. Dopplungen weitestgehend raus
+4. zu kurz oder sinnlose raus
+
+
+Mittwoch: 
+
+1. Webansicht/Ausgabe beginnen
+
+- JQuery Viewer Einführung von Oli
+- Rumbasteln
+
+Snippit: 
+- Abfrage [vielleicht am Donnerstag mit Stefan]
+- refresh/random button
+- Copy button (Quote + Link zur Edition)
+- Filer: Gender, NSFW
+- Quote
+- Quelle: Edition + Zitationsangabe (von, an, Datum)
+
+
+2. Wenn möglich: Textkorpus restliche [Hirth, AvHR] bearbeiten
+
+
+Donnerstag: 
+

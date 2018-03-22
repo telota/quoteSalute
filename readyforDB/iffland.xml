@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>August Wilhelm Ifflands dramaturgisches und administratives Archiv</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>BBAW</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Quelle telotadev: iffland/data/Akten</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category>
+                  <catDesc>Type</catDesc>
+                  <category xml:id="formal">
+                     <catDesc>formell</catDesc>
+                  </category>
+                  <category xml:id="informal">
+                     <catDesc>informell</catDesc>
+                  </category>
+               </category>
+               <category>
+                  <catDesc>Relation</catDesc>
+                  <category xml:id="m-m">
+                     <catDesc>male to male</catDesc>
+                  </category>
+                  <category xml:id="m-f">
+                     <catDesc>male to female</catDesc>
+                  </category>
+                  <category xml:id="m-n">
+                     <catDesc>male to male</catDesc>
+                  </category>
+                  <category xml:id="f-f">
+                     <catDesc>male to female</catDesc>
+                  </category>
+                  <category xml:id="f-m">
+                     <catDesc>male to male</catDesc>
+                  </category>
+                  <category xml:id="f-n">
+                     <catDesc>male to female</catDesc>
+                  </category>
+                  <category xml:id="n-n">
+                     <catDesc>male to female</catDesc>
+                  </category>
+                  <category xml:id="n-m">
+                     <catDesc>male to male</catDesc>
+                  </category>
+                  <category xml:id="n-f">
+                     <catDesc>male to female</catDesc>
+                  </category>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc> 
+   </teiHeader>
+   <text>
+      <body>
+         <div type="citList" xml:base="http://iffland.bbaw.de/briefe/detail.xql?id="><!-- base uri rausfinden, die zusammen mit den IDs den Link zum jeweiligen Brief ergibt -->
+            <cit>
+               <quote ana="#formal #m-n">Ihr gehorsamster Diener</quote>
+               <bibl corresp="A0000617">
+                  <edition>August Wilhelm Ifflands dramaturgisches und administratives
+                     Archiv</edition>
+                  <title>Von Hartmann Christian Wunder. Berlin, 29. Juni 1797. Donnerstag</title>
+                  <name type="sender">
+                     <persName key="A0002509">Wunder, Hartmann Christian (1754-1810)
+                        (Sänger)</persName>
+                  </name>
+                  <date type="sent">
+                     <date when="1797-06-29" cert="high"/>
+                  </date>
+                  <name type="receiver">
+                     <persName key="A0001480">Iffland, August Wilhelm (1759-1814) (Schauspieler,
+                        Dramatiker und Theaterdirektor, 1796-1814 in Berlin, Debüt 1777 in
+                        Gotha)</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#formal #f-n">Ew Wohlgeb gehorsame Dienerin</quote>
+               <bibl corresp="A0001031">
+                  <edition>August Wilhelm Ifflands dramaturgisches und administratives
+                     Archiv</edition>
+                  <title>Von Marianne Müller. Berlin, 19. Februar 1798. Montag</title>
+                  <name type="sender">
+                     <persName key="A0002971">Müller, Marianne, geb. Hellmuth (1772-1851) (Sängerin
+                        und Schauspielerin, seit 1789 am Berliner Königlichen Nationaltheater, Debüt
+                        1780 in Bonn)</persName>
+                  </name>
+                  <date type="sent">
+                     <date when="1798-02-19" cert="high"/>
+                  </date>
+                  <name type="receiver">
+                     <persName key="A0001480">Iffland, August Wilhelm (1759-1814) (Schauspieler,
+                        Dramatiker und Theaterdirektor, 1796-1814 in Berlin, Debüt 1777 in
+                        Gotha)</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#formal #m-n">Ganz der Ihrige</quote>
+               <bibl corresp="A0000881">
+                  <edition>August Wilhelm Ifflands dramaturgisches und administratives
+                     Archiv</edition>
+                  <title>Von Johann Friedrich Ritz. Potsdam, 30. April 1797. Sonntag</title>
+                  <name type="sender">
+                     <persName key="A0002750">Ritz, Johann Friedrich (1755-1809) (Sekretär von
+                        Friedrich Wilhelm II.)</persName>
+                  </name>
+                  <date type="sent">
+                     <date when="1797-04-30" cert="high"/>
+                  </date>
+                  <name type="receiver">
+                     <persName key="A0001480">Iffland, August Wilhelm (1759-1814) (Schauspieler,
+                        Dramatiker und Theaterdirektor, 1796-1814 in Berlin, Debüt 1777 in
+                        Gotha)</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#formal #f-n">Ich habe die Ehre zu seyn Ew Wohlgebohren gehorsamste Dienerin</quote>
+               <bibl corresp="A0001023">
+                  <edition>August Wilhelm Ifflands dramaturgisches und administratives
+                     Archiv</edition>
+                  <title>Von Charlotte Wilhelmine Caroline Bachmann. Berlin, 26. März 1798.
+                     Montag</title>
+                  <name type="sender">
+                     <persName key="A0002314">Bachmann, Charlotte Wilhelmine Caroline, geb. Stöwe
+                        (1757-1817) (Sängerin, Gründungsmitglied der Berliner Singakademie, seit
+                        1785 verh. mit dem Kammermusiker Karl Ludwig B.)</persName>
+                  </name>
+                  <date type="sent">
+                     <date when="1798-03-26" cert="high"/>
+                  </date>
+                  <name type="receiver">
+                     <persName key="A0001480">Iffland, August Wilhelm (1759-1814) (Schauspieler,
+                        Dramatiker und Theaterdirektor, 1796-1814 in Berlin, Debüt 1777 in
+                        Gotha)</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#formal #m-n">Euer Wohlgeboren Ergebner</quote>
+               <bibl corresp="A0000998">
+                  <edition>August Wilhelm Ifflands dramaturgisches und administratives
+                     Archiv</edition>
+                  <title>An Thiele (der Ältere). Berlin, 2. September 1797. Samstag</title>
+                  <name type="sender">
+                     <persName key="A0001480">Iffland, August Wilhelm (1759-1814) (Schauspieler,
+                        Dramatiker und Theaterdirektor, 1796-1814 in Berlin, Debüt 1777 in
+                        Gotha)</persName>
+                  </name>
+                  <date type="sent">
+                     <date when="1797-09-02" cert="high"/>
+                  </date>
+                  <name type="receiver">
+                     <persName key="A0002546">Thiele, senior (-1832) (Violinist, spätestens seit Mai
+                        1786 Kammermusikus in der Kapelle des Prinzen, dann Orchestermitglied der
+                        königlichen Kapelle in Berlin)</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#formal #f-n">Mit vorzüglicher Hochachtung habe ich die Ehre zu seyn, Ihre Ihnen
+                  ergebene</quote>
+               <bibl corresp="A0000994">
+                  <edition>August Wilhelm Ifflands dramaturgisches und administratives
+                     Archiv</edition>
+                  <title>Von Charlotta Elisabeth Konstantia Baronin von der Recke. Berlin, vor 25.
+                     Februar 1798</title>
+                  <name type="sender">
+                     <persName key="A0002722">Recke, Charlotta Elisabeth Konstantia Baronin von der,
+                        geb. von Medem ( 1754-1833) (Schriftstellerin)</persName>
+                  </name>
+                  <date type="sent">
+                     <date notBefore="1798-02-01" notAfter="1798-02-25" cert="high"/>
+                  </date>
+                  <name type="receiver">
+                     <persName key="A0001480">Iffland, August Wilhelm (1759-1814) (Schauspieler,
+                        Dramatiker und Theaterdirektor, 1796-1814 in Berlin, Debüt 1777 in
+                        Gotha)</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#formal #m-n">Mit aller Hochachtung bin ich Ihr ergebenster </quote>
+               <bibl corresp="A0001007">
+                  <edition>August Wilhelm Ifflands dramaturgisches und administratives
+                     Archiv</edition>
+                  <title>Von Johann Friedrich Bolt. Berlin, 16. Juli 1798. Montag</title>
+                  <name type="sender">
+                     <persName key="A0002396">Bolt, Johann Friedrich (1769-1836) (Zeichner und
+                        Kupferstecher)</persName>
+                  </name>
+                  <date type="sent">
+                     <date when="1798-07-16" cert="high"/>
+                  </date>
+                  <name type="receiver">
+                     <persName key="A0001480">Iffland, August Wilhelm (1759-1814) (Schauspieler,
+                        Dramatiker und Theaterdirektor, 1796-1814 in Berlin, Debüt 1777 in
+                        Gotha)</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#formal #m-n">J'ay l'honneur d'être tres parfaitement Monsieur Votre tres humble et
+                  obeissant Serviteur</quote>
+               <bibl corresp="A0001058">
+                  <edition>August Wilhelm Ifflands dramaturgisches und administratives
+                     Archiv</edition>
+                  <title>Von Belleau im Auftrag der Prinzessin Ferdinand. Berlin. 19. Mai 1797.
+                     Freitag</title>
+                  <name type="sender">
+                     <persName key="A0002341">Belleau, (-) (Sekretär der Prinzessin Anna Elisabeth
+                        Louise von Preußen)</persName>
+                     <persName key="A0002812">Preußen, Anna Elisabeth Louise Prinzessin von, geb.
+                        Prinzessin von Brandenburg-Schwedt (1738-1820) (seit 1755 mit Prinz August
+                        Ferdinand von Preußen verheiratet)</persName>
+                  </name>
+                  <date type="sent">
+                     <date when="1797-05-19" cert="high"/>
+                  </date>
+                  <name type="receiver">
+                     <persName key="A0001480">Iffland, August Wilhelm (1759-1814) (Schauspieler,
+                        Dramatiker und Theaterdirektor, 1796-1814 in Berlin, Debüt 1777 in
+                        Gotha)</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#informal #m-n">Ihr reiner Verehrer </quote>
+               <bibl corresp="A0000992">
+                  <edition>August Wilhelm Ifflands dramaturgisches und administratives
+                     Archiv</edition>
+                  <title>Von Gottlieb Wilhelm Burmann. Berlin, 30. Dezember1797. Samstag</title>
+                  <name type="sender">
+                     <persName key="A0002429">Burmann, Gottlieb Wilhelm (1737-1805) (Journalist und
+                        Schriftsteller)</persName>
+                  </name>
+                  <date type="sent">
+                     <date when="1797-12-30" cert="high"/>
+                  </date>
+                  <name type="receiver">
+                     <persName key="A0001480">Iffland, August Wilhelm (1759-1814) (Schauspieler,
+                        Dramatiker und Theaterdirektor, 1796-1814 in Berlin, Debüt 1777 in
+                        Gotha)</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#formal #m-n">Mit vollständigster Hochachtung beharrend Ew Wohlgeboren ganz
+                  gehorsamer</quote>
+               <bibl corresp="A0000981">
+                  <edition>August Wilhelm Ifflands dramaturgisches und administratives
+                     Archiv</edition>
+                  <title>Von Gottlob Wolfgang Christoph von Egloffstein. Berlin, 29. Juli 1798.
+                     Sonntag</title>
+                  <name type="sender">
+                     <persName key="A0000891">Egloffstein, Gottlob Wolfgang Christoph von
+                        (1766-1815) (Beamter in Weimar, seit 1794 Hofrat und Kammerherr)</persName>
+                  </name>
+                  <date type="sent">
+                     <date when="1798-07-29" cert="high"/>
+                  </date>
+                  <name type="receiver">
+                     <persName key="A0001480">Iffland, August Wilhelm (1759-1814) (Schauspieler,
+                        Dramatiker und Theaterdirektor, 1796-1814 in Berlin, Debüt 1777 in
+                        Gotha)</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#formal #m-n">Ich verehre mit Hochachtung Ew Wohlgebohren ganz ergebener</quote>
+               <bibl corresp="A0003903">
+                  <edition>August Wilhelm Ifflands dramaturgisches und administratives
+                     Archiv</edition>
+                  <title>Von Johann Friedrich Ludwig Niethe. Potsdam, 22. Oktober 1800.
+                     Mittwoch</title>
+                  <name type="sender">
+                     <persName key="A0002886">Niethe, Johann Friedrich Ludwig (-) (preußischer
+                        Beamter, Geheimer Sekretär)</persName>
+                  </name>
+                  <date type="sent">
+                     <date when="1800-10-22" cert="high"/>
+                  </date>
+                  <name type="receiver">
+                     <persName key="A0001480">Iffland, August Wilhelm (1759-1814) (Schauspieler,
+                        Dramatiker und Theaterdirektor, von 1796 bis 1814 Direktor des Berliner
+                        Königlichen Nationaltheaters, Debüt 1777 in Gotha)</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#formal #m-n">Ihr aufrichtig ergebener</quote>
+               <bibl corresp="iffland_el3_xqq_bdb">
+                  <edition>August Wilhelm Ifflands dramaturgisches und administratives
+                     Archiv</edition>
+                  <title>Von Johann Friedrich Ludwig Niethe. Potsdam, 30. November 1801.
+                     Montag</title>
+                  <name type="sender">
+                     <persName key="A0002886">Niethe, Johann Friedrich Ludwig (-) (preußischer
+                        Beamter, Geheimer Sekretär)</persName>
+                  </name>
+                  <date type="sent">
+                     <date when="1801-11-30" cert="high"/>
+                  </date>
+                  <name type="receiver">
+                     <persName key="A0001480">Iffland, August Wilhelm (1759-1814) (Schauspieler,
+                        Dramatiker und Theaterdirektor, von 1796 bis 1814 Direktor des Berliner
+                        Königlichen Nationaltheaters, Debüt 1777 in Gotha)</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#formal #m-n">Der Ihrige</quote>
+               <bibl corresp="A0000195">
+                  <edition>August Wilhelm Ifflands dramaturgisches und administratives
+                     Archiv</edition>
+                  <title>Von Siegfried Gotthelf Koch. Wien, 27. Dezember 1799. Freitag</title>
+                  <name type="sender">
+                     <persName key="A0001438">Koch (eigentlich: Eckardt), Siegfried Gotthelf
+                        (1754-1831) (Schauspieler, Theaterdirektor und Dramatiker, seit 1798
+                        Schauspieler in Wien)</persName>
+                  </name>
+                  <date type="sent">
+                     <date when="1799-12-27" cert="high"/>
+                  </date>
+                  <name type="receiver">
+                     <persName key="A0001480">Iffland, August Wilhelm (1759-1814) (Schauspieler,
+                        Dramatiker und Theaterdirektor, von 1796 bis 1814 Direktor des Berliner
+                        Königlichen Nationaltheaters, Debüt 1777 in Gotha)</persName>
+                  </name>
+               </bibl>
+            </cit>
+           <cit>
+               <quote ana="#formal #m-n">Dero gehorsamst ergebenster</quote>
+               <bibl corresp="A0001240">
+                  <edition>August Wilhelm Ifflands dramaturgisches und administratives
+                     Archiv</edition>
+                  <title>Von Karl Alexander Herklots. Berlin, 29. September 1799. Sonntag</title>
+                  <name type="sender">
+                     <persName key="A0001533">Herklots, Karl Alexander (1759-1830) (Schriftsteller,
+                        Übersetzer, Redenschreiber am Berliner Königlichen
+                        Nationaltheater)</persName>
+                  </name>
+                  <date type="sent">
+                     <date when="1799-09-29" cert="high"/>
+                  </date>
+                  <name type="receiver">
+                     <persName key="A0001480">Iffland, August Wilhelm (1759-1814) (Schauspieler,
+                        Dramatiker und Theaterdirektor, von 1796 bis 1814 Direktor des Berliner
+                        Königlichen Nationaltheaters, Debüt 1777 in Gotha)</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#formal #n-n">Mit Verehrung bin ich</quote>
+               <bibl corresp="A0000294">
+                  <edition>August Wilhelm Ifflands dramaturgisches und administratives
+                     Archiv</edition>
+                  <title>An Adolph Friedrich von Scheve. Berlin, 3. März 1805. Sonntag</title>
+                  <name type="sender">
+                     <persName key="A0002588">Scheve, Adolph Friedrich von</persName>
+                  </name>
+                  <date type="sent">
+                     <date when="1805-03-03" cert="high"/>
+                  </date>
+                  <name type="receiver">
+                     <persName key="A0001480">Iffland, August Wilhelm</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#informal #m-n">Im Gefühl der Verehrung und Liebe Ihr ergebenster </quote>
+               <bibl corresp="A0000235">
+                  <edition>August Wilhelm Ifflands dramaturgisches und administratives
+                     Archiv</edition>
+                  <title>Von Mittel. Dessau, 10. Juli 1805. Mittwoch</title>
+                  <name type="sender">
+                     <persName key="A0002946">Mittel, ( - ) </persName>
+                  </name>
+                  <date type="sent">
+                     <date when="1805-07-10" cert="high"/>
+                  </date>
+                  <name type="receiver">
+                     <persName key="A0001480">Iffland, August Wilhelm (1759 - 1814) </persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#formal #m-n">Mit Achtung der Ihrige</quote>
+               <bibl corresp="A0000306">
+                  <edition>August Wilhelm Ifflands dramaturgisches und administratives
+                     Archiv</edition>
+                  <title>Von Johann Gottfried Schadow. Berlin, 12. März 1805. Dienstag</title>
+                  <name type="sender">
+                     <persName key="A0002580">Schadow, Johann Gottfried</persName>
+                  </name>
+                  <date type="sent">
+                     <date when="1805-03-12" cert="high"/>
+                  </date>
+                  <name type="receiver">
+                     <persName key="A0001480">Iffland, August Wilhelm</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#formal #f-n">Ihre Dankbare und gehorsamste Dienerin</quote>
+               <bibl corresp="A0000231">
+                  <edition>August Wilhelm Ifflands dramaturgisches und administratives
+                     Archiv</edition>
+                  <title>Von Wilhelmine Müller. Berlin, 30. Juni 1805. Sonntag</title>
+                  <name type="sender">
+                     <persName key="A0002973">Müller, Wilhelmine ( geb. Maisch, 1767 - 1807)
+                     </persName>
+                  </name>
+                  <date type="sent">
+                     <date when="1805-06-30" cert="high"/>
+                  </date>
+                  <name type="receiver">
+                     <persName key="A0001480">Iffland, August Wilhelm (1759 - 1814) </persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#formal #m-n">Der ich mit Achtung verehre Ihr ergebener </quote>
+               <bibl corresp="A0000212">
+                  <edition>August Wilhelm Ifflands dramaturgisches und administratives
+                     Archiv</edition>
+                  <title>Von Karl August Wilhelm Schwadtke. Berlin, 2. Mai 1805. Donnerstag</title>
+                  <name type="sender">
+                     <persName key="A0002647">Schwadke, Karl August Wilhelm (1768 - 1837)
+                     </persName>
+                  </name>
+                  <date type="sent">
+                     <date when="1805-05-02" cert="high"/>
+                  </date>
+                  <name type="receiver">
+                     <persName key="A0001480">Iffland, August Wilhelm (1759 - 1814) </persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#formal #m-n">Wie immer der Ihrige</quote>
+               <bibl corresp="A0000484">
+                  <edition>August Wilhelm Ifflands dramaturgisches und administratives
+                     Archiv</edition>
+                  <title>Von Jacob Herzfeld. Hamburg, 6. November 1804. Dienstag</title>
+                  <name type="sender">
+                     <persName key="A0001536">Herzfeld, Jakob (1763 - 1826)</persName>
+                  </name>
+                  <date type="sent">
+                     <date when="1804-11-06" cert="high"/>
+                  </date>
+                  <name type="receiver">
+                     <persName key="A0001480">Iffland, August Wilhelm(1759 - 1814)</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#informal #m-n">Ihr Freund u Diener</quote>
+               <bibl corresp="A0000206">
+                  <edition>August Wilhelm Ifflands dramaturgisches und administratives
+                     Archiv</edition>
+                  <title>An Reinhard. Berlin, 20. April 1805. Samstag</title>
+                  <name type="sender">
+                     <persName key="A0001480">Iffland, August Wilhelm (1759 - 1814)</persName>
+                  </name>
+                  <date type="sent">
+                     <date when="1805-04-20" cert="high"/>
+                  </date>
+                  <name type="receiver">
+                     <persName key="A0002732">Reinhard, Carl ( - )</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#formal #m-n">Je suis avec estime et respect, Monsieur Votre tres humble Seviteur </quote>
+               <bibl corresp="A0000211">
+                  <edition>August Wilhelm Ifflands dramaturgisches und administratives
+                     Archiv</edition>
+                  <title>Von Manfredi. Berlin 11. Mai 1805. Samstag</title>
+                  <name type="sender">
+                     <persName key="A0002897">Manfredi, ( - ) </persName>
+                  </name>
+                  <date type="sent">
+                     <date when="1805-05-11" cert="high"/>
+                  </date>
+                  <name type="receiver">
+                     <persName key="A0001480">Iffland, August Wilhelm (1759 - 1814) </persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#formal #f-n">Die ich mit schuldiger Achtung verharre Dero ergebene </quote>
+               <bibl corresp="A0000287">
+                  <edition>August Wilhelm Ifflands dramaturgisches und administratives
+                     Archiv</edition>
+                  <title>Von Caroline Schulz. Soldin, 17. Februar 1805 Monat Jahr. Sonntag</title>
+                  <name type="sender">
+                     <persName key="A0002635">Schulz, Caroline (-) (Theaterprinzipalin in
+                        Soldin)</persName>
+                  </name>
+                  <date type="sent">
+                     <date when="1805-02-17" cert="high">
+                        <placeName key="A0001661">Soldin</placeName>
+                     </date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="A0001480">Iffland, August Wilhelm (1759-1814) (Schauspieler,
+                        Dramatiker und Theaterdirektor, 1796-1814 in Berlin, Debüt 1777 in
+                        Gotha)</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#formal #m-n">Hochachtungsvoll beharre ich Ewer König. Generaldirektion ganz
+                  ergebenster</quote>
+               <bibl corresp="A0000284">
+                  <edition>August Wilhelm Ifflands dramaturgisches und administratives
+                     Archiv</edition>
+                  <title>Von Joseph Karl Ambrosch. Berlin, 9. Februar 1805. Samstag</title>
+                  <name type="sender">
+                     <persName key="A0002300">Ambrosch, Joseph Karl (1759 - 1822)</persName>
+                  </name>
+                  <date type="sent">
+                     <date when="1805-02-09" cert="high"/>
+                  </date>
+                  <name type="receiver">
+                     <persName key="A0001480">Iffland, August Wilhelm(1759 - 1814)</persName>
+                  </name>
+               </bibl>
+            </cit>
+           <cit>
+               <quote ana="#informal #m-n">Ihr aufrichtiger Freund</quote>
+               <bibl corresp="A0003177">
+                  <edition>August Wilhelm Ifflands dramaturgisches und administratives
+                     Archiv</edition>
+                  <title>An Karl AugustWilhelm Schwadtke. Berlin, 31. Januar 1799.
+                     Donnerstag</title>
+                  <name type="sender">
+                     <persName key="A0001480">Iffland, August Wilhelm (1759-1814) (Schauspieler,
+                        Dramatiker und Theaterdirektor, 1796-1814 in Berlin, Debüt 1777 in
+                        Gotha)</persName>
+                  </name>
+                  <date type="sent">
+                     <date when="1799-01-31" cert="high"/>
+                  </date>
+                  <name type="receiver">
+                     <persName key="A0002647">Schwadtke, Karl August Wilhelm (1768-1837)
+                        (Schauspieler, 1795 bis 1807 am Berliner Königlichen Nationaltheater, Debüt
+                        1786 in Stralsund)</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#informal #m-n">Ew Wohlgeb innigster Verehrer</quote>
+               <bibl corresp="A0001212">
+                  <edition>August Wilhelm Ifflands dramaturgisches und administratives
+                     Archiv</edition>
+                  <title>Von Karl Alexander Herklots. Berlin, 2. März 1799. Samstag</title>
+                  <name type="sender">
+                     <persName key="A0001533">Herklots, Karl Alexander (1759-1830) (Schriftsteller,
+                        Übersetzer, Redenschreiber am Berliner Königlichen
+                        Nationaltheater)</persName>
+                  </name>
+                  <date type="sent">
+                     <date when="1799-03-02" cert="high"/>
+                  </date>
+                  <name type="receiver">
+                     <persName key="A0001480">Iffland, August Wilhelm (1759-1814) (Schauspieler,
+                        Dramatiker und Theaterdirektor, Debüt 1777 in Gotha, 1796-1814 Direktor des
+                        Berliner Königlichen Nationaltheaters)</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#formal #m-n">Mit Achtung harrend Dero Ergebenster</quote>
+               <bibl corresp="A0003140">
+                  <edition>August Wilhelm Ifflands dramaturgisches und administratives
+                     Archiv</edition>
+                  <title>Von Samuel Georg Herdt. Berlin, 23. Januar 1799. Freitag</title>
+                  <name type="sender">
+                     <persName key="A0001532">Herdt, Samuel Georg (1755-1818 ) (Schauspieler , seit
+                        1786 am Berliner Königlichen Nationaltheater, Debüt 1782 in
+                        Schleswig)</persName>
+                  </name>
+                  <date type="sent">
+                     <date when="1799-01-23" cert="high"/>
+                  </date>
+                  <name type="receiver">
+                     <persName key="A0001480">Iffland, August Wilhelm (1759-1814) (Schauspieler,
+                        Dramatiker und Theaterdirektor, Debüt 1777 in Gotha, 1796-1814 Direktor des
+                        Berliner Königlichen Nationaltheaters)</persName>
+                  </name>
+               </bibl>
+            </cit>
+         </div>
+      </body>
+   </text>
+</TEI>

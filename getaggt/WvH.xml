@@ -1,0 +1,3029 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>BBAW</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Quelle xmldev: WvH/briefe</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="citList" xml:base="https://xmldev.bbaw.de/expath/apps/WvH/Brief?section=all&amp;id="><!-- ID als URI ergänzung -->
+            <cit>
+               <quote type="formal" n="m-n">Leben Sie herzlich wohl! Ihr </quote>
+               <bibl corresp="162">
+                  <!-- bbaw- hinzugefügt -->
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Franz Bopp, 05.03.1829</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1829-03-05">1829.03.05.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="bopp" type="recipient">Bopp, Franz</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="m-n">Mit der lebhaftesten u. hochachtungsvollsten Freundschaft der Ihrige </quote>
+               <bibl corresp="1064">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Friedrich Gottlieb Welcker, 16.05.1825</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1825-05-16">1825.05.16.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="fgwelcker">Welcker, Friedrich
+                        Gottlieb</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="n-m">I have the honour to be with the highest consideration, Sir, your most
+                  obedient &amp; most humble servant </quote>
+               <bibl corresp="447">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>John Pickering an Wilhelm von Humboldt, 27.11.1827</title>
+                  <name type="sender">
+                     <persName type="sender" key="jpickering">Pickering, John</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1827-11-27">1827.11.27.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="n-n">
+                  <pb n="2*"/>Ich freue mich sehr diese Gelegenheit benutzen zu können Ew die
+                  Versicherung meiner ausgezeichnetsten Hochachtung zu wiederholen. </quote>
+               <bibl corresp="1038">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Friedrich Wilhelm Constantin von Knobelsdorff,
+                     30.03.1827</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1827-03-30">1827.03.30.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="fwcknobelsdorff">Knobelsdorff, Friedrich
+                        Wilhelm Constantin von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">An die theuren Ihrigen bitte ich meine besten Empfehlungen und Grüße. Mit
+                  aufrichtigster Verehrung Ew. Excellenz treu ergebenster </quote>
+               <bibl corresp="1113">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Friedrich Gottlieb Welcker an Wilhelm von Humboldt, 30.12.1821</title>
+                  <name type="sender">
+                     <persName type="sender" key="fgwelcker">Welcker, Friedrich Gottlieb</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1821-12-30">1821.12.30.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="m-m">Leben Sie herzlich wohl, liebster Freund, und erhalten Sie mir Ihr
+                  wohlwollendes Andenken. Ich bleibe mit der hochachtungsvollsten Freundschaft der
+                  Ihrige, </quote>
+               <bibl corresp="1001">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Friedrich August Rosen, 25.01.1829</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1829-01-25">1829.01.25.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="farosen" type="recipient">Rosen, Friedrich August</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="n-m">Erhalten Sie mir theuerster Freund Ihr wohlwollendes Andenken und <pb n="4*"
+                  />nehmen Sie die erneuerte Versicherung meiner herzlichsten und hochachtungsvollen
+                  Freundschaft an. </quote>
+               <bibl corresp="1009">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Friedrich August Rosen, 20.03.1831</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1831-03-20">1831.03.20.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="farosen" type="recipient">Rosen, Friedrich August</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="n-n">Nun leben Sie herzlich wohl. Verzeihen Sie mein flüchtiges Schreiben, u.
+                  antworten Sie mir recht bald. Mit der herzlichsten Freundschaft Ihr </quote>
+               <bibl corresp="91">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Franz Bopp, 00.06.1822 (Datierung unklar)91 </title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1822-06">1822.06.00. Datierung unklar</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="bopp" type="recipient">Bopp, Franz</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="m-n">Indem ich Ew. Hochwohlgeb. meinen Dank für die gütige Mittheilung wiederhole,
+                  verbleibe ich mit den hochachtungsvollsten u. freundschaftlichsten Gesinnungen Ew.
+                  Hochwohlgeb. ergebenster, </quote>
+               <bibl corresp="1084">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an August Wilhelm von Schlegel, 19.01.1822</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1822-01-19">1822.01.19.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="awschlegel">Schlegel, August Wilhelm
+                        von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="n-n">Ich bitte Ew. Excellenz mir auch in diesem Jahre Ihre gütige Gewogenheit zu
+                  erhalten, u. die Versicherung meiner ausgezeichnetesten Verehrung anzunehmen. </quote>
+               <bibl corresp="703">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Heinrich Friedrich Karl Freiherr vom und zum Stein,
+                     03.01.1812</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1812-01-03">1812.01.03.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="hfkstein">Stein, Heinrich Friedrich Karl
+                        Freiherr vom und zum</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Ich wünsche Ew. Excellenz von ganzem Herzen fortdauernde Gesundheit und
+                  heitre Stimmung zur Fortsetzung Ihrer unermeßlichen Forschungen und besonders zur
+                  Mittheilung aus dem reichen Vorrathe. Ich bitte Sie, die Versicherung meiner
+                  innigsten Verehrung und Bewunderung zu genehmigen. Ew. Excellenz gehorsamster </quote>
+               <bibl corresp="1081">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>August Wilhelm von Schlegel an Wilhelm von Humboldt, 29.10.–12.11.1826</title>
+                  <name type="sender">
+                     <persName type="sender" key="awschlegel">Schlegel, August Wilhelm
+                        von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1826-10-29">1826.10.29.–11.12.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="n-n">Ich verzweifle noch immer nicht, noch vor Ew. Hochwohlgebornen Abreise das
+                  Vergnügen zu haben, Sie hier bei mir zu sehen, und bitte Sie indeß die
+                  Versicherung meiner ausgezeichneten Hochachtung anzunehmen. </quote>
+               <bibl corresp="882">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Ignaz von Olfers, 13.08.1826</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1826-08-13">1826.08.13.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="ifwmolfers">Olfers, Ignaz Franz Werner Maria
+                        von</persName>
+                  </name>
+               </bibl>
+            </cit>
+           <cit>
+              <quote type="formal" n="n-m">Allow me, Sir, to have the pleasure of hearing from you as often as your
+                  leisure will permit; and accept the assurances of the very great consideration
+                  with which I have the honour to be, Sir, your most obedient &amp; most humble
+                  servant </quote>
+               <bibl corresp="446">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>John Pickering an Wilhelm von Humboldt, 14.02.1823</title>
+                  <name type="sender">
+                     <persName type="sender" key="jpickering">Pickering, John</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1823-02-14">1823.02.14.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Genehmigen Hochdieselben die Ausdrücke tiefster Ehrfurcht und Ergebenheit,
+                  womit ich verharre Ew. Excellenz unterthänigster Diener, </quote>
+               <bibl corresp="281">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Johann Karl Eduard Buschmann an Wilhelm von Humboldt, 02.11.1832</title>
+                  <name type="sender">
+                     <persName type="sender" key="jcebuschmann">Buschmann, Johann Karl
+                        Eduard</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1832-11-02">1832.11.02.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="n-n">Erhalten Sie mir u. der Zeit, die wir vor langen Jahren zusammen zubrachten,
+                  u. die mir immer sehr theuer bleibt, Ihr gütiges Andenken, u. nehmen Sie die
+                  Versicherung meiner ausgezeichnetesten u. freundschaftlichsten Hochachtung an. </quote>
+               <bibl corresp="606">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an August Wilhelm von Schlegel, 05.05.1821</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1821-05-05">1821.05.05.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="awschlegel">Schlegel, August Wilhelm
+                        von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="n-n">Leben Sie recht wohl! mit herzlicher Freundschaft. <handShift scribe="wvh"
+                  />der Ihrige </quote>
+               <bibl corresp="1007">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Friedrich August Rosen, 24.05.1830</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1830-05-24">1830.05.24.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="farosen">Rosen, Friedrich August</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Ich ergreife übrigens diese Gelegenheit, Ew. Excellenz zu versichern, daß ich
+                  jederzeit mit der vollkommensten Hochachtung und Ergebenheit verbleiben werde Ew.
+                  Excellenz ergebenster Diener </quote>
+               <bibl corresp="417">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Carl Eduard Meinicke an Wilhelm von Humboldt, 08.11.1832</title>
+                  <name type="sender">
+                     <persName type="sender" key="cemeinicke">Meinicke, Carl Eduard</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1832-11-08">1832.11.08.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="n-n">Leben Sie recht wohl und nehmen Sie die Versicherung meiner herzlichen und
+                  ausgezeichneten Hochachtung und aufrichtige Freundschaft an! </quote>
+               <bibl corresp="1003">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Friedrich August Rosen, 18.06.1829</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1829-06-18">1829.06.18.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="farosen" type="recipient">Rosen, Friedrich August</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Ich bitte Ew. Excellenz, mich meine Langsamkeit im Briefschreiben nicht
+                  entgelten zu lassen, und bin mit der aufrichtigsten Verehrung und unveränderlich
+                  ergebenen Gesinnungen Ew. Excellenz gehorsamster </quote>
+               <bibl corresp="1079">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>August Wilhelm von Schlegel an Wilhelm von Humboldt, 20.–26.06.1824</title>
+                  <name type="sender">
+                     <persName type="sender" key="awschlegel">Schlegel, August Wilhelm
+                        von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1824-06-20">1824.06.20.–26.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Mit frdsch Empfehlung von meiner Frau Aufrichtigst d Ihrige </quote>
+               <bibl corresp="573">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Friedrich August Rosen an Wilhelm von Humboldt, März 1831 </title>
+                  <name type="sender">
+                     <persName type="sender" key="farosen">Rosen, Friedrich August</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1831-03">1831.03.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="n-n">In verehrungsvollster Ergebenheit </quote>
+               <bibl corresp="405">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Martin Hinrich Lichtenstein an Wilhelm von Humboldt, 18.04.1833</title>
+                  <name type="sender">
+                     <persName type="sender" key="mhclichtenstein">Lichtenstein, Martin
+                        Hinrich</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1833-04-18">1833.04.18.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="n-n">In Erwartung einer baldigen Antwort auf die obige Anfrage wiederhole ich Ew.
+                  die Versicherung meiner vollkommensten Hochachtung. </quote>
+               <bibl corresp="339">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Ferdinand Dümmler, 25.04.1833</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1833-04-25">1833.04.25.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="fduemmler" type="recipient">Dümmler, Ferdinand</persName>
+                  </name>
+               </bibl>
+            </cit>
+           <cit> 
+              <quote type="informal" n="n-n">Yrs. very faithfully. </quote>
+               <bibl corresp="845">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>George Ticknor an John Pickering, 20.01.1828</title>
+                  <name type="sender">
+                     <persName key="gticknor" type="sender">Ticknor, George</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1828-01-20">1828.01.20.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="jpickering" type="recipient">Pickering, John</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="n-n">Mein Brief ist aber von einer übermäßigen Länge geworden. Der Inhalt des
+                  Ihrigen hatte mich aber so angezogen, daß es mir unmöglich gewesen wäre, nicht auf
+                  jede einzelne Stelle desselben wieder einzugehen. Erhalten Sie mir Ihr
+                  wohlwollendes Andenken u. Ihre Freundschaft, und nehmen Sie die Versichrung meiner
+                  ausgezeichnetesten Hochachtung u. Ergebenheit an. </quote>
+               <bibl corresp="1097">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an August Wilhelm von Schlegel, 05.03.1826</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1826-03-05">1826.03.05.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="awschlegel">Schlegel, August Wilhelm
+                        von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Mit der herzlichsten und hochachtungsvollsten Anhänglichkeit der Ihrige, </quote>
+               <bibl corresp="151">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Franz Bopp, 26.09.1826</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1826-09-26">1826.09.26.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="bopp" type="recipient">Bopp, Franz</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Indem ich endlich Ew. Excellenz noch um Verzeihung bitte, wenn meine
+                  Redseligkeit Ihnen lästig fallen sollte, unterzeichne ich mich mit der
+                  Versicherung meiner innigsten Hochachtung Ew. Excellenz ganz ergebenster </quote>
+               <bibl corresp="419">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Carl Eduard Meinicke an Wilhelm von Humboldt, 09.01.1834</title>
+                  <name type="sender">
+                     <persName type="sender" key="cemeinicke">Meinicke, Carl Eduard</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1834-01-09">1834.01.09.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Wenn die Tugend in einer Mitte zwischen zwei Extremen besteht, so übe ich sie
+                  beim Briefwechsel gewiß nicht aus, indem ich entweder gar nicht oder endlos lange
+                  Briefe schreibe. Ich schließe mit dem Versprechen, mich wo möglich in beiden
+                  Punkten zu bessern. Mit unwandelbarer Verehrung und Ergebenheit Ew. Excellenz
+                  gehorsamster </quote>
+               <bibl corresp="1080">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>August Wilhelm von Schlegel an Wilhelm von Humboldt, 21.02.1826</title>
+                  <name type="sender">
+                     <persName type="sender" key="awschlegel">Schlegel, August Wilhelm
+                        von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1826-02-21">1826.02.21.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Hoffend bald die Ehre zu haben mich über diese Untersuchungen mit Ew
+                  Excellenz mündlich zu besprechen, verharrt in tiefster Ehrerbietung Ew Excellenz
+                  Unterthäniger </quote>
+               <bibl corresp="250">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Franz Bopp an Wilhelm von Humboldt, 17.03.1822</title>
+                  <name type="sender">
+                     <persName key="bopp" type="sender">Bopp, Franz</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1822-03-17">1822.03.17.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="wvh" type="recipient">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="m-n">Verzeihen Sie die vielen Fragen. Mit herzlichster Freundschaft der Ihrige, </quote>
+               <bibl corresp="761">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Franz Bopp, 30.10.1823 (Mattson; Datierung
+                     unklar)761 </title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1823-10-30">1823.10.30. Datierung unklar</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="bopp" type="recipient">Bopp, Franz</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Ich schließe mit der Bitte, daß Ew. Hochwohlgebohrnen auch in diesem Jahre
+                  mir u. meinen wissenschaftlichen Beschäftigungen Ihren freundschaftlichen Antheil
+                  schenken mögen, u. verbleibe mit den hochachtungsvollsten Gesinnungen u. den
+                  besten Wünschen Ew. Hochwohlgeb. ergebenster, </quote>
+               <bibl corresp="1089">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an August Wilhelm von Schlegel, 03.01.1823</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1823-01-03">1823.01.03.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="awschlegel">Schlegel, August Wilhelm
+                        von</persName>
+                  </name>
+               </bibl>
+            </cit>
+           <cit>
+              <quote type="formal" n="m-n">Leben Sie recht wohl, u. arbeiten Sie mit der Ruhe u. Heiterkeit, die ein
+                  Gelingen der Arbeit, wie dasjenige ist, dessen Sie Sich immer erfreuen können,
+                  einflößen muß. Mit hochachtungsvollster Freundschaft der Ihrige, </quote>
+               <bibl corresp="1093">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an August Wilhelm von Schlegel, 15.04.1824</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1824-04-15">1824.04.15.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="awschlegel">Schlegel, August Wilhelm
+                        von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Mit der wiederholten Bitte um Ihre gütige Nachsicht wegen meines langen
+                  Schweigens, wage ich es mich der Fortdauer Ihrer wohlwollenden Theilnahme
+                  ehrerbietigst zu empfehlen, als Ew. Excellenz gehorsamster Diener </quote>
+               <bibl corresp="487">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Friedrich August Rosen an Wilhelm von Humboldt, 22.01.1833</title>
+                  <name type="sender">
+                     <persName key="farosen" type="sender">Rosen, Friedrich August</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1833-01-22">1833.01.22.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="wvh" type="recipient">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="m-n">Ich schließe jetzt diesen langen Brief. Leben Sie herzlich wohl, verzeihen
+                  Sie die Länge erst meines Stillschweigens u. nun meines Schreibens u. erhalten Sie
+                  mir Ihre gütigen u. wohlwollenden Gesinnungen, auf die ich so hohen Werth lege.
+                  Mit der hochachtungsvollsten Freundschaft der Ihrige, </quote>
+               <bibl corresp="1095">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an August Wilhelm von Schlegel, 17.06.1825</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1825-06-17">1825.06.17.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="awschlegel">Schlegel, August Wilhelm
+                        von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="n-n">Ich habe Nichts beizufügen, als den innigsten Wunsch, daß <placeName
+                     ref="Norderney">Norderney</placeName> seine ganze Kraft erproben möge, und den
+                  Ausdruck der aufrichtigsten Ehrerbietung und Ergebenheit. </quote>
+               <bibl corresp="503">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Christian Friedrich Wurm an Wilhelm von Humboldt, 09.07.1833</title>
+                  <name type="sender">
+                     <persName type="sender" key="cfwurm">Wurm, Christian Friedrich</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1833-07-09">1833.07.09.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="n-n">Mit inniger Liebe </quote>
+               <bibl corresp="646">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Christian Gottfried Körner, 03.01.1812</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1812-01-03">1812.01.03.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="cgkoerner">Körner, Christian
+                        Gottfried</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Mit der innigsten Ehrerbietung und Dankbarkeit empfehle ich mich der
+                  Fortdauer Ihres gütigen Wohlwollens, Ew. Excellenz gehorsamster Diener </quote>
+               <bibl corresp="486">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Friedrich August Rosen an Wilhelm von Humboldt, 17.09.1831</title>
+                  <name type="sender">
+                     <persName key="farosen" type="sender">Rosen, Friedrich August</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1831-09-17">1831.09.17.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="wvh" type="recipient">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit type="formal" n="n-m">
+               <quote>I am with the most sincere gratitude and esteem, Sir, </quote>
+               <bibl corresp="311">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Joseph John Freeman, September 1830 </title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1830-09">1830.09.00</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="jjfreeman">Freeman, Joseph John</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">und leben Sie recht wohl indeß! Adieu! Ihr </quote>
+               <bibl corresp="576">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an August Wilhelm Schlegel, 16.11.1793</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1793-11-16">1793.11.16.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="awschlegel">Schlegel, August Wilhelm
+                        von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="n-m">Ich hoffe liebster Freund recht bald erwünschte Nachricht von Ihnen zu
+                  erhalten und wiederhole Ihnen indeß die Versicherung meiner herzlichen und
+                  aufrichtigen Hochachtung. </quote>
+               <bibl corresp="1014">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Friedrich August Rosen, 25.11.1832</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1832-11-25">1832.11.25.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="farosen" type="recipient">Rosen, Friedrich August</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Ich hoffe daß Ew Excellenz Sich werden der besten Gesundheit erfreuen und
+                  habe die Ehre in tiefster Ehrerbietung zu verharren Ew Excellenz Unterthäniger </quote>
+               <bibl corresp="248">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Franz Bopp an Wilhelm von Humboldt, 29.07.1822 (?)248 </title>
+                  <name type="sender">
+                     <persName key="bopp" type="sender">Bopp, Franz</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1822-07-29">1822.07.29. (?)</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="wvh" type="recipient">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="n-m">Ich will Sie aber nicht länger ermüden und bitte Sie, liebster Freund, nur
+                  noch die Versicherung anzunehmen, daß ich, auch entfernt, Sie und Ihre so schön
+                  fortschreitenden wissenschaftlichen Arbeiten mit dem lebhaftesten und
+                  freundschaftlichsten Antheile begleite. </quote>
+               <bibl corresp="1015">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Friedrich August Rosen, 16.02.1833</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1833-02-16">1833.02.16.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="farosen" type="recipient">Rosen, Friedrich August</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Ehrfurchtsvoll verharre ich Ew. Excellenz gehorsamster </quote>
+               <bibl corresp="481">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Friedrich August Rosen an Wilhelm von Humboldt, 20.02.1827</title>
+                  <name type="sender">
+                     <persName key="farosen" type="sender">Rosen, Friedrich August</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1827-02-20">1827.02.20.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="wvh" type="recipient">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Ich nehme mir die Freiheit diese Gelegenheit noch zu benutzen, Ew. Excellenz
+                  hohem Wohlwollen mich angelegentlichst zu empfehlen und Ihnen die Versicherung der
+                  größten Verehrung darzubringen, womit ich zu verharren die Ehre habe. Ew Excellenz
+                  ganz gehorsamster Diener </quote>
+               <bibl corresp="396">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Johann Emmanuel von Küster an Wilhelm von Humboldt, 03.11.1824</title>
+                  <name type="sender">
+                     <persName type="sender" key="jekuester">Küster, Johann Emmanuel von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1824-11-03">1824.11.03.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="m-n">Von Herzen Ihr </quote>
+               <bibl corresp="163">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Franz Bopp, 11.03.1829 (Datierung unklar)163 </title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1829-03-11">1829.03.11. Datierung unklar</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="bopp" type="recipient">Bopp, Franz</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Mit Verehrung und ausgezeichnetester Hochachtung habe ich die Ehre zu
+                  verharren Ew Excellenz unterthänigster Diener </quote>
+               <bibl corresp="470">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Andreas Daniel Berthold von Schepeler an Wilhelm von Humboldt,
+                     03.02.1823</title>
+                  <name type="sender">
+                     <persName type="sender" key="adbschepeler">Schepeler, Andreas Daniel Berthold
+                        von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1823-02-03">1823.02.03.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Indem ich Ew. Excellenz ersuche, diese geringen Andeutungen gütigst
+                  anzunehmen, kann ich zugleich nicht umhin, mit der Versicherung der innigsten
+                  Hochachtung mich zu unterzeichnen Ew Excellenz ergebenster </quote>
+               <bibl corresp="910">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Carl Eduard Meinicke an Wilhelm von Humboldt, 09.12.1832</title>
+                  <name type="sender">
+                     <persName type="sender" key="cemeinicke">Meinicke, Carl Eduard</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1832-12-09">1832.12.09.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Mit der lebhaftesten Hochachtung Ew. Wohlgeb. ergebenster </quote>
+               <bibl corresp="88">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Franz Bopp, 12.03.1822</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1822-03-12">1822.03.12.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="bopp" type="recipient">Bopp, Franz</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Ich ergreife diese Gelegenheit, um mich Ew. Excellenz’ fernerem Wohlwollen zu
+                  empfehlen und bin mit Hochachtung und Ergebenheit Ew. Hochwohlgebohren
+                  gehorsamster Diener </quote>
+               <bibl corresp="10">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Julius Heinrich Klaproth an Wilhelm von Humboldt, 08.05.1824</title>
+                  <name type="sender">
+                     <persName type="sender" key="jhklaproth">Klaproth, Julius Heinrich</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1824-05-08">1824.05.08.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Ehrfurchtsvoll verharre ich Ew. Excellenz gehorsamster Diener </quote>
+               <bibl corresp="482">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Friedrich August Rosen an Wilhelm von Humboldt, 24.12.1827</title>
+                  <name type="sender">
+                     <persName key="farosen" type="sender">Rosen, Friedrich August</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1827-12-24">1827.12.24.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="wvh" type="recipient">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Genehmigen Hochdieselben die Gefühle tiefster Ehrfurcht, Ergebenheit und
+                  Dankbarkeit, womit ich verharre Ew. Excellenz unterthänigster Diener, </quote>
+               <bibl corresp="284">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Johann Karl Eduard Buschmann an Wilhelm von Humboldt, 22.12.1832</title>
+                  <name type="sender">
+                     <persName type="sender" key="jcebuschmann">Buschmann, Johann Karl
+                        Eduard</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1832-12-22">1832.12.22.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Mit aufrichtiger Ehrerbietung empfehle ich mich der Fortdauer Ihres gütigen
+                  Wohlwollens Ew. Excellenz gehorsamster </quote>
+               <bibl corresp="490">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Friedrich August Rosen an Wilhelm von Humboldt, 06.10.1833</title>
+                  <name type="sender">
+                     <persName key="farosen" type="sender">Rosen, Friedrich August</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1833-10-06">1833.10.06.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="wvh" type="recipient">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="m-n">Verzeihen Sie die vielen Bitten und leben Sie recht herzlich wohl. Mit der
+                  aufrichtigsten und Hochachtungsvollsten Freundschaft. <handShift scribe="wvh"/>Der
+                  Ihrige, </quote>
+               <bibl corresp="1004">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Friedrich August Rosen, 15.01.1830</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1830-01-15">1830.01.15.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="farosen" type="recipient">Rosen, Friedrich August</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Ew Excellenz <sic>Unterthanig</sic> gehorsamster </quote>
+               <bibl corresp="259">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Franz Bopp an Wilhelm von Humboldt, 08.06.1825</title>
+                  <name type="sender">
+                     <persName key="bopp" type="sender">Bopp, Franz</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1825-06-08">1825.06.08.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="wvh" type="recipient">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-m">
+                  <add>Je Vous supplie, M<hi rend="superscript">r</hi>. le Baron, d’agréer
+                     l’assurance renouvellée de la haute considération avec laquelle j’ai l’honneur
+                     d’être, M<hi rend="superscript">r</hi>. le Baron de VE. le très-humble &amp;
+                     très obéissant serviteur,</add>
+               </quote>
+               <bibl corresp="328">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Godert Baron van der Capellen, Datierung unklar328 </title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author">Datierung unklar</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="gagpcapellen">Capellen, Godert Baron van
+                        der</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-m">Veuillez, Monsieur, agréer l’<unclear>assurance</unclear> réitérée des
+                  sentimens très-distingués avec lesquels j’ai l’honneur d’être, Monsieur, Votre
+                  très-humble &amp; très-obéissant serviteur, </quote>
+               <bibl corresp="870">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Peter Stephen Duponceau, 13.11.1828</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1828-11-13">1828.11.13.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="psduponceau">Duponceau, Peter
+                        Stephen</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="n-m">Mit der vollkommensten Hochachtung nenne ich mich Ew: Excellenz! ganz
+                  ergebener Diener </quote>
+               <bibl corresp="425">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Johannes Müller an Wilhelm von Humboldt, 10.11.1831</title>
+                  <name type="sender">
+                     <persName type="sender" key="jmueller">Müller, Johannes</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1831-11-10">1831.11.10.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="n-n">Empfangen Ew. Wohlgeboren die Versicherung meiner ausgezeichneten
+                  Hochachtung. </quote>
+               <bibl corresp="996">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Friedrich August Rosen, 28.08.1826</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1826-08-28">1826.08.28.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="farosen" type="recipient">Rosen, Friedrich August</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="n-m">J’ai l’honneur d’être avec la considération la plus distinguée, Monsieur,
+                  Votre </quote>
+               <bibl corresp="337">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an John Crawfurd, September bis Dezember 1831,
+                     Datierung unklar337 </title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent"> Undatiert </date>
+                  <name type="receiver">
+                     <persName key="jcrawfurd" type="recipient">Crawfurd, John</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Ew. Excellenz gehorsamster Diener </quote>
+               <bibl corresp="49">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>August von Liebermann an Wilhelm von Humboldt, 16.12.1827</title>
+                  <name type="sender">
+                     <persName key="aliebermann" type="sender">Liebermann, August von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1827-12-16">1827.12.16.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="wvh" type="recipient">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Mit der hochachtungsvollsten Ergebenheit Ihr </quote>
+               <bibl corresp="136">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Franz Bopp, 13.03.1824 (Mattson)136 </title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent"> Undatiert </date>
+                  <name type="receiver">
+                     <persName key="bopp" type="recipient">Bopp, Franz</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="n-m">Mit der hochachtungsvollsten Freundschaft <handShift scribe="wvh"/>der
+                  Ihrige, </quote>
+               <bibl corresp="202">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Franz Bopp, 06.01.1834</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1834-01-06">1834.01.06.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="bopp" type="recipient">Bopp, Franz</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Genehmigen Hochdieselben die Gefühle tiefster Ehrfurcht und Ergebenheit,
+                  womit ich verharre Ew. Excellenz unterthänigster Diener, </quote>
+               <bibl corresp="298">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Johann Karl Eduard Buschmann an Wilhelm von Humboldt, 09.03.1834</title>
+                  <name type="sender">
+                     <persName key="jcebuschmann" type="sender">Buschmann, Johann Karl
+                        Eduard</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1834-03-09">1834.03.09.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="wvh" type="recipient">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="m-n">Mit inniger Freundschaft der Ihrige, </quote>
+               <bibl corresp="648">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Friedrich Gottlieb Welcker, 27.01.1817</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1817-01-27">1817.01.27.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="fgwelcker">Welcker, Friedrich
+                        Gottlieb</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="n-n">Leben Sie recht wohl! </quote>
+               <bibl corresp="997">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Friedrich August Rosen, 24.04.1827</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1827-04-24">1827.04.24.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="farosen" type="recipient">Rosen, Friedrich August</persName>
+                  </name>
+               </bibl>
+            </cit>
+           
+            <cit>
+               <quote type="formal" n="m-n">In tiefster Ehrerbietung Ew. Excellenz Unterthänigster </quote>
+               <bibl corresp="95">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Franz Bopp an Wilhelm von Humboldt, 16.03.1823 (?)95 </title>
+                  <name type="sender">
+                     <persName key="bopp" type="sender">Bopp, Franz</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1823-03-16">1823.03.16. (?)</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="wvh" type="recipient">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="m-n">Sagen Sie mir doch ob ich bald etwas von Ihnen erhalten kann, und leben Sie
+                  recht wohl. Mit der innigsten Freundschaft <handShift scribe="wvh"/> der Ihrige </quote>
+               <bibl corresp="171">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Franz Bopp, 06.02.1830</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1830-02-06">1830.02.06.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="bopp" type="recipient">Bopp, Franz</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="m-n">Genehmigen Hochdieselben die Gefühle tiefster Ehrfurcht, Ergebenheit und
+                  Dankbarkeit, womit ich verharre Ew. Excellenz unterthänigster Diener, </quote>
+               <bibl corresp="300">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Johann Karl Eduard Buschmann an Wilhelm von Humboldt, 10.04.1834</title>
+                  <name type="sender">
+                     <persName key="jcebuschmann" type="sender">Buschmann, Johann Karl
+                        Eduard</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1834-04-10">1834.04.10.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="wvh" type="recipient">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="m-n">
+                  <handShift scribe="wvh"/> Mit herzlicher Freundschaft Ihr </quote>
+               <bibl corresp="201">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Franz Bopp, 27.12.1833</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1833-12-27">1833.12.27.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="bopp" type="recipient">Bopp, Franz</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-m">with apologies for the delay that has occured, I have the honour to be, with
+                  the highest respect, My dear Sir, Your faithful &amp; obedient servant </quote>
+               <bibl corresp="415">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>William Marsden an Wilhelm von Humboldt, 21.05.1831</title>
+                  <name type="sender">
+                     <persName type="sender" key="wmarsden">Marsden, William</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1831-05-21">1831.05.21.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="n-n">Meinen lebhaften Glückwunsch zu der Wiedererlangung dieser litterarischen
+                  Schätze wiederholend, ersuche ich Ew: Wohlgeboren zugleich die Versicherung meiner
+                  vollkommensten Hochachtung anzunehmen. </quote>
+               <bibl corresp="929">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Friedrich Wilken, 12.01.1816</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1816-01-12">1816.01.12.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="fwilken">Wilken, Friedrich</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Ich ergreife endlich diese Gelegenheit, hier die Versicherung hinzuzufügen,
+                  daß ich jederzeit mit der vollkommensten Hochachtung und Verehrung sein werde Ew.
+                  Excellenz ergebenster </quote>
+               <bibl corresp="418">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Carl Eduard Meinicke an Wilhelm von Humboldt, 19.11.1832</title>
+                  <name type="sender">
+                     <persName type="sender" key="cemeinicke">Meinicke, Carl Eduard</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1832-11-19">1832.11.19.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Leben Sie herzlich wohl! Ihr </quote>
+               <bibl corresp="160">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Franz Bopp, 02.11.1828</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1828-11-02">1828.11.02.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="bopp" type="recipient">Bopp, Franz</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="n-n">Empfangen Ew. Wohlgeb. die erneuerte Versicherung meiner herzlichen u.
+                  ausgezeichneten Hochachtung. </quote>
+               <bibl corresp="80">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Franz Bopp, 09.02.1820</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1820-02-09">1820.02.09.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="bopp" type="recipient">Bopp, Franz</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="m-n">Mit der innigsten u. hochachtungsvollsten Freundschaft der Ihrige </quote>
+               <bibl corresp="1066">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Friedrich Gottlieb Welcker, 03.12.1828</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1828-12-03">1828.12.03.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="fgwelcker">Welcker, Friedrich
+                        Gottlieb</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="n-n">u. bitte Sie, die Versichrung meiner herzlichsten u. hochachtungsvollsten
+                  Freundschaft anzunehmen. </quote>
+               <bibl corresp="1087">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an August Wilhelm von Schlegel, 30.12.1822</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1822-12-30">1822.12.30.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="awschlegel">Schlegel, August Wilhelm
+                        von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Ich empfehle mich angelegentlich zu ferneren Mittheilungen, und bin mit der
+                  ausgezeichnetsten Verehrung Ew. Excellenz gehorsamster </quote>
+               <bibl corresp="1072">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>August Wilhelm von Schlegel an Wilhelm von Humboldt, 25.11.1821</title>
+                  <name type="sender">
+                     <persName type="sender" key="aschlegel">Schlegel, August Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1821-11-25">1821.11.25.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Mit der innigsten Ehrerbietung und Dankbarkeit empfehle ich mich der
+                  Fortdauer Ihres gütigen Wohlwollens, als Ew. Excellenz gehorsamster Diener </quote>
+               <bibl corresp="484">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Friedrich August Rosen an Wilhelm von Humboldt, 21.03.1830</title>
+                  <name type="sender">
+                     <persName key="farosen" type="sender">Rosen, Friedrich August</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1830-03-21">1830.03.21.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="wvh" type="recipient">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-m">I have the honor to remain Sir Your most obliged &amp; faithful Ser.<hi
+                     rend="superscript">t</hi>
+               </quote>
+               <bibl corresp="310">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Joseph John Freeman an Wilhelm von Humboldt, 30.01.1833</title>
+                  <name type="sender">
+                     <persName type="sender" key="jjfreeman">Freeman, Joseph John</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1833-01-30">1833.01.30.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="n-n">Empfangen Ew. Wohlgebohren die ausgezeichneteste und freundschaftlichste
+                  Versicherung meiner Hochachtung </quote>
+               <bibl corresp="170">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Franz Bopp, 23.09.1829</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1829-09-23">1829.09.23.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="bopp" type="recipient">Bopp, Franz</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Mit der herzlichsten und ausgezeichnetesten Hochachtung ganz der Ihrige </quote>
+               <bibl corresp="1104">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an August Wilhelm von Schlegel, 16.06.1829</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1829-06-16">1829.06.16.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="awschlegel">Schlegel, August Wilhelm
+                        von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Mit der hochachtungsvollsten Freundschaft der Ihrige, </quote>
+               <bibl corresp="135">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Franz Bopp, 07.03.1824 (Mattson)135 </title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent"> Undatiert </date>
+                  <name type="receiver">
+                     <persName key="bopp" type="recipient">Bopp, Franz</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Ehrerbietigst empfehle ich mich der Fortdauer Ihres gütigen Wohlwollens, Ew.
+                  Excellenz gehorsamster </quote>
+               <bibl corresp="55">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Friedrich August Rosen an Wilhelm von Humboldt, 09.01.1829</title>
+                  <name type="sender">
+                     <persName key="farosen" type="sender">Rosen, Friedrich August</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1829-01-09">1829.01.09.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="wvh" type="recipient">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Ehrerbietigst empfehle ich mich als Ew. Excellenz gehorsamster </quote>
+               <bibl corresp="480">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Friedrich August Rosen an Wilhelm von Humboldt, 01.03.1826</title>
+                  <name type="sender">
+                     <persName key="farosen" type="sender">Rosen, Friedrich August</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1826-03-01">1826.03.01.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="wvh" type="recipient">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Euer Excellenz unterthäniger Diener, </quote>
+               <bibl corresp="897">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Carl Friedrich Philipp von Martius an Wilhelm von Humboldt, 06.08.1827</title>
+                  <name type="sender">
+                     <persName type="sender" key="cfpmartius">Martius, Carl Friedrich Philipp
+                        von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1827-08-06">1827.08.06.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Genehmigen Hochdieselben die Gefühle tiefster Ehrfurcht und Ergebenheit,
+                  womit ich verharre Ew. Excellenz unterthänigster Diener, </quote>
+               <bibl corresp="282">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Johann Karl Eduard Buschmann an Wilhelm von Humboldt, 13.12.1832</title>
+                  <name type="sender">
+                     <persName type="sender" key="jcebuschmann">Buschmann, Johann Karl
+                        Eduard</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1832-12-13">1832.12.13.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">In tiefster Ehrerbietung Ew Excellenz ganz gehorsamster </quote>
+               <bibl corresp="269">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Franz Bopp an Wilhelm von Humboldt, 21.05.1833</title>
+                  <name type="sender">
+                     <persName key="bopp" type="sender">Bopp, Franz</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1833-05-21">1833.05.21.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="wvh" type="recipient">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-m">I am with great esteem &amp; regard My dear Baron Most truly yours </quote>
+               <bibl corresp="387">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Sir Alexander Johnston an Wilhelm von Humboldt, 05.05.1831</title>
+                  <name type="sender">
+                     <persName type="sender" key="ajohnston">Johnston, Sir Alexander</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1831-05-05">1831.05.05.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-m">In tiefster Verehrung verharrt, Hochgebietender Herr Minister, Ew. Excellenz
+                  Unterthänigster </quote>
+               <bibl corresp="79">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Franz Bopp an Wilhelm von Humboldt, 05.09.1819</title>
+                  <name type="sender">
+                     <persName key="bopp" type="sender">Bopp, Franz</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1819-09-05">1819.09.05.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="wvh" type="recipient">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="n-n">Genehmigen Ew. Hochwohlgebohren die Versicherung meiner ausgezeichnetsten
+                  Hochachtung u. aufrichtigen Ergebenheit. </quote>
+               <bibl corresp="850">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Ignaz von Olfers, 27.06.1821</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1821-06-27">1821.06.27.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="ifwmolfers">Olfers, Ignaz Franz Werner Maria
+                        von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Mit der innigsten Verehrung beharre ich Ew. Excellenz gehorsamster </quote>
+               <bibl corresp="500">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Friedrich Wilken an Wilhelm von Humboldt, 02.02.1833</title>
+                  <name type="sender">
+                     <persName type="sender" key="fwilken">Wilken, Friedrich</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1833-02-02">1833.02.02.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-m">I have the honour to be Sir, your most obedient &amp; faithful servant </quote>
+               <bibl corresp="449">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>John Pickering an Wilhelm von Humboldt, 14.01.1828</title>
+                  <name type="sender">
+                     <persName type="sender" key="jpickering">Pickering, John</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1828-01-14">1828.01.14.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-m">&amp; c’est en Vous <pb n="83v"/>réitérant mes sincères remerciemens aussi
+                  que l’assurance de ma profonde éstime &amp; de ma considération très-distinguée
+                  que je suis, Monsieur, Vôtre très-humble &amp; très-obéissant Serviteur, </quote>
+               <bibl corresp="1116">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Jean-Louis Burnouf, 07.01.1825</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1825-01-07">1825.01.07.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="jlburnouf">Burnouf, Jean-Louis</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="m-n">Leben Sie herzlich wohl! Mit der aufrichtigsten Freundschaft <handShift
+                     scribe="wvh"/> der Ihrige </quote>
+               <bibl corresp="172">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Franz Bopp, 22.03.1830</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1830-03-22">1830.03.22.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="bopp" type="recipient">Bopp, Franz</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="n-n">Ich bitte Ew. Hochwohlgebornen, mir Ihre gütige Theilnahme und Ihr
+                  freundschaftliches Vertrauen zu erhalten, und wiederhole Ihnen die Versicherung
+                  meiner ausgezeichnetesten Hochachtung. </quote>
+               <bibl corresp="1105">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an August Wilhelm von Schlegel, 03.07.1829</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1829-07-03">1829.07.03</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="awschlegel">Schlegel, August Wilhelm
+                        von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Genehmigen Hochdieselben die Gefühle tiefster Ehrfurcht und Ergebenheit,
+                  womit ich verharre Ew. Excellenz unterthänigster Diener, </quote>
+               <bibl corresp="293">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Johann Karl Eduard Buschmann an Wilhelm von Humboldt, 11.04.1833</title>
+                  <name type="sender">
+                     <persName type="sender" key="jcebuschmann">Buschmann, Johann Karl
+                        Eduard</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1833-04-11">1833.04.11.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvj">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-m">Señor de V. E. su mas obsequente y rendido servidor D.S.M.B. </quote>
+               <bibl corresp="370">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Francisco Garcia Huydobro an Wilhelm von Humboldt, 07.02.1828</title>
+                  <name type="sender">
+                     <persName key="fghuydobro" type="sender">Huydobro, Francisco García
+                        de</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1828-02-07">1828.02.07.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="wvh" type="recipient">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">u. wiederhole Ihnen die Versichrung der Gesinnungen der hochachtungsvollsten
+                  Freundschaft, mit welcher ich verharre Ew. Hochwohlgeb. ergebenster, </quote>
+               <bibl corresp="1085">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an August Wilhelm von Schlegel, 18.10.1822</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1822-10-18">1822.10.18.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="awschlegel">Schlegel, August Wilhelm
+                        von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Ew. Wohlgebornen ergebenster, </quote>
+               <bibl corresp="1057">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Bartholomäus Kopitar, 18.08.1826</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1826-08-18">1826.08.18.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="bkopitar">Kopitar, Bartholomäus</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Mit unveränderlicher Verehrung Ew. Excellenz ganz gehorsamster </quote>
+               <bibl corresp="673">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Christian Karl Josias Bunsen an Wilhelm von Humboldt, 06.12.1826</title>
+                  <name type="sender">
+                     <persName type="sender" key="ckjbunsen">Bunsen, Christian Karl
+                        Josias</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1826-12-06">1826.12.06.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">&amp;. soy con la mayor consideracion su att.<hi rend="superscript">o</hi> y
+                  S. S. </quote>
+               <bibl corresp="865">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Antonio Maria de la Rosa an Carl Wilhelm Koppe, 21.04.1830</title>
+                  <name type="sender">
+                     <persName key="amdelarosa" type="sender">Rosa, Antonio Maria de la</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1830-04-21">1830.04.21.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="cwkoppe" type="recipient">Koppe, Carl Wilhelm</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Mit der größten Hochachtung habe ich die Ehre zu seyn Ew Excellenz
+                  ergebenster </quote>
+               <bibl corresp="321">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Ernst Hofmann an Alexander von Humboldt, Datierung unklar321 </title>
+                  <name type="sender">
+                     <persName key="ehofmann" type="sender">Hofmann, Ernst</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author">Datierung unklar</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="avh" type="recipient">Humboldt, Alexander von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Ich wünsche Ew. Excellenz einen recht heitern Sommeraufenthalt in vollkommnem
+                  Wohlseyn mit den Ihrigen. Mit der aufrichtigsten Verehrung und Ergebenheit Ew.
+                  Excellenz gehorsamster </quote>
+               <bibl corresp="1078">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>August Wilhelm von Schlegel an Wilhelm von Humboldt, 19.05.1823</title>
+                  <name type="sender">
+                     <persName type="sender" key="awschlegel">Schlegel, August Wilhelm
+                        von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1823-05-19">1823.05.19.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">In tiefster Ehrerbietung Ew Excellenz Unterthäniger </quote>
+               <bibl corresp="249">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Franz Bopp an Wilhelm von Humboldt, 27.02.1822</title>
+                  <name type="sender">
+                     <persName key="bopp" type="sender">Bopp, Franz</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1822-02-27">1822.02.27.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="wvh" type="recipient">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="n-n">Empfangen Sie die erneuerte Versicherung meiner herzlichsten und
+                  hochachtungsvollsten Freundschaft. </quote>
+               <bibl corresp="194">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Franz Bopp, 19.02.1833</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1833-02-19">1833.02.19.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="bopp" type="recipient">Bopp, Franz</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="m-n">Mit hochachtungsvollster Freundschaft der Ihrige, </quote>
+               <bibl corresp="133">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Franz Bopp, 30.03.1824</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1824-03-30">1824.03.30. Datierung unklar</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="bopp" type="recipient">Bopp, Franz</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Genehmigen Hochdieselben die Gefühle tiefster Ehrfurcht und Ergebenheit,
+                  womit ich verharre Ew. Excellenz unterthänigster Diener, </quote>
+               <bibl corresp="296">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Johann Karl Eduard Buschmann an Wilhelm von Humboldt, 30.12.1833</title>
+                  <name type="sender">
+                     <persName key="jcebuschmann" type="sender">Buschmann, Johann Karl
+                        Eduard</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1833-12-30">1833.12.30.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="wvh" type="recipient">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-m">Believe me, My dear Baron Most truly yours </quote>
+               <bibl corresp="385">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Sir Alexander Johnston an Wilhelm von Humboldt, 08.10.1830</title>
+                  <name type="sender">
+                     <persName type="sender" key="ajohnston">Johnston, Sir Alexander</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1830-10-08">1830.10.08.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+           
+           
+            <cit>
+               <quote type="formal" n="n-n">Empfangen Ew. Hochwohlgeboren die Versicherung meiner ausgezeichneten
+                  Hochachtung. </quote>
+               <bibl corresp="1052">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Adelbert von Chamisso, 06.07.1827</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1827-07-06">1827.07.06.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="achamisso" type="recipient">Chamisso, Adelbert von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-m">Je vous prie, Monsieur le Baron de vouloir bien agréer l’expression de ma
+                  consideration la plus distinguée et la mieux sentie </quote>
+               <bibl corresp="379">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Eugène Vincent Stanislas Jacquet an Wilhelm von Humboldt, 05.07.1832</title>
+                  <name type="sender">
+                     <persName key="evsjacquet" type="sender">Jacquet, Eugène Vincent
+                        Stanislas</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1832-07-05">1832.07.05.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="wvh" type="recipient">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="n-n">Leben Sie herzlich wohl, erhalten Sie mir Ihre gütigen u. wohlwollenden
+                  Gesinnungen, u. seyn Sie meiner hochachtungsvollsten u. unveränderlichen
+                  Freundschaft gewiß. </quote>
+               <bibl corresp="572">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Barthold Georg Niebuhr, 08.07.1820</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1820-07-08">1820.07.08.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="bgniebuhr">Niebuhr, Barthold Georg</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="n-n">Leben Sie recht wohl, grüßen Sie <persName ref="bopp">
+                     <hi rend="antiqua">Bopp</hi>
+                  </persName> herzlich von mir, und seyn Sie der ununterbrochnen Dauer meiner
+                  vorzüglichen Hochachtung gewiß. </quote>
+               <bibl corresp="999">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Friedrich August Rosen, 19.05.1827</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1827-05-19">1827.05.19.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="farosen" type="recipient">Rosen, Friedrich August</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="n-n">Leben Sie indeß recht wohl, und seyn Sie meiner hochachtungsvollsten und
+                  aufrichtigsten Theilnahme versichert. </quote>
+               <bibl corresp="1112">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Johann Nicolaus Bach, 24.06.1827</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1827-06-24">1827.06.24.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="jnbach" type="recipient">Bach, Johann Nicolaus</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-m">Veuillez, Monsieur, pardonner la longueur presqu’indiscrète de cette lettre,
+                  &amp; agréez l’assurance de la considération très-distinguée avec laquelle j’ai
+                  l’honneur d’être, Monsieur, Vôtre très-humble &amp; très-obéissant Serviteur, </quote>
+               <bibl corresp="1117">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Jean-Louis Burnouf, 15.09.1825</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1825-09-15">1825.09.15.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="jlburnouf">Burnouf, Jean-Louis</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Mit der herzlichsten und hochachtungsvollsten Freundschaft der Ihrige, </quote>
+               <bibl corresp="186">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Franz Bopp, 10.02.1832</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1832-02-10">1832.02.10.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="bopp" type="recipient">Bopp, Franz</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Genehmigen Ewr. Excellenz bey dieser Veranlassung gütigst den erneuten
+                  Ausdruck der ausgezeichnetsten Hochachtung und Respectsvollen Ergebenheit, womit
+                  ich die Ehre habe zu verharren Ew. Excellenz ganz gehorsamster Diener </quote>
+               <bibl corresp="48">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>August von Liebermann an Wilhelm von Humboldt, 18.10.1827</title>
+                  <name type="sender">
+                     <persName key="aliebermann" type="sender">Liebermann, August von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1827-10-18">1827.10.18.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="wvh" type="recipient">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="m-n">Mit herzlicher Hochachtung und Freundschaft. Der<note type="footnote"
+                     resp="editor">Leitzmann ändert „Freundschaft. |Absatz| Der“ zu „Freundschaft
+                     |Absatz| der“.</note> Ihrige, </quote>
+               <bibl corresp="531">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Alexander von Rennenkampff, 30.05.1812</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1812-05-30">1812.05.30.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="arennenkampff">Rennenkampff, Alexander
+                        von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="n-n">Genehmigen Ew. Wohlgebornen die Versicherung meiner wahren und
+                  ausgezeichneten Hochachtung und Ergebenheit. </quote>
+               <bibl corresp="542">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Jacob Grimm, 26.03.1826</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1826-03-26">1826.03.26.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="jgrimm" type="recipient">Grimm, Jacob</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="n-n">Erhalten Sie mir Ihr gütiges Andenken und erlauben Sie mir, Ihnen die
+                  Versicherung meiner ausgezeichneten Hochachtung zu wiederholen. </quote>
+               <bibl corresp="1109">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an August Wilhelm von Schlegel, 24.10.1832</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1832-10-24">1832.10.24.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="awschlegel">Schlegel, August Wilhelm
+                        von</persName>
+                  </name>
+               </bibl>
+            </cit>
+           
+           
+            <cit>
+               <quote type="informal" n="m-n">Leben Sie herzlich u. innigst wohl! Ihr </quote>
+               <bibl corresp="1111">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Friedrich Gottlieb Welcker, 18.03.1812</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1812-03-18">1812.03.18.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="fgwelcker">Welcker, Friedrich
+                        Gottlieb</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="n-m">Empfangen Sie theuerster Freund die erneuerte Versicherung meiner
+                  ausgezeichneten und freundschaftlichen Hochachtung. </quote>
+               <bibl corresp="193">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Franz Bopp, 30.01.1833</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1833-01-30">1833.01.30.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="bopp" type="recipient">Bopp, Franz</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="n-n">Ich bitte Ew. Wohlgeboren die Ausführlichkeit dieses Schreibens gütigst zu
+                  entschuldigen und die Versicherung meiner vollkommensten Hochachtung anzunehmen. </quote>
+               <bibl corresp="912">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Carl Eduard Meinicke, 25.11.1832</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1832-11-25">1832.11.25.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="cemeinicke">Meinicke, Carl Eduard</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Genehmigen Hochdieselben die Gefühle tiefster Ehrfurcht und Ergebenheit,
+                  womit ich verharre Ew. Excellenz unterthänigster Diener, </quote>
+               <bibl corresp="288">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Johann Karl Eduard Buschmann an Wilhelm von Humboldt, 21.01.1833</title>
+                  <name type="sender">
+                     <persName type="sender" key="jcebuschmann">Buschmann, Johann Karl
+                        Eduard</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1833-01-21">1833.01.21.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="n-n">Indem ich E. Wohlgeboren meinen herzlichen Dank, u. meine wärmsten Wünsche
+                  für den glücklichen Erfolg Ihrer wichtigen wissenschaftlichen Untersuchungen
+                  wiederhole, bitte ich Sie die Versicherung meiner aufrichtigsten u.
+                  ausgezeichneten Hochachtung anzunehmen. </quote>
+               <bibl corresp="1032">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Julius Heinrich Klaproth, 25.05.1824</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1824-05-25">1824.05.25.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="jhklaproth">Klaproth, Julius
+                        Heinrich</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-m">En attendant je Vous prie de me croire avec la considération la plus
+                  distinguée, Monsieur Votre très-humble et très-obéissant serviteur, </quote>
+               <bibl corresp="793">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an George Bancroft, 17.09.1821</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1821-09-17">1821.09.17.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="gbancroft">Bancroft, George</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="n-n">Leben Sie herzlich wohl. Mit der innigsten und hochachtungsvollsten
+                  Freundschaft, <handShift scribe="wvh"/> der Ihrige, </quote>
+               <bibl corresp="1018">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Friedrich August Rosen, 11.04.1834</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1834-04-11">1834.04.11.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="farosen" type="recipient">Rosen, Friedrich August</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Ich schließe hier u. verharre mit der ausgezeichnetesten Hochachtung u.
+                  herzlichsten Ergebenheit der Ihrige, </quote>
+               <bibl corresp="1086">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an August Wilhelm von Schlegel, 13.12.1822</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1822-12-13">1822.12.13.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="awschlegel">Schlegel, August Wilhelm
+                        von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="n-n">Genehmigen Ew. Excellenz die Versicherung meiner innigsten Hochachtung und
+                  Verehrung </quote>
+               <bibl corresp="437">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Ignaz von Olfers an Wilhelm von Humboldt, 26.01.1822</title>
+                  <name type="sender">
+                     <persName type="sender" key="ifwmolfers">Olfers, Ignaz Franz Werner Maria
+                        von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1822-01-26">1822.01.26.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Ew: Excellenz ganz ergebenster Diener </quote>
+               <bibl corresp="1037">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Friedrich Wilhelm Constantin von Knobelsdorff an Wilhelm von Humboldt,
+                     23.03.1827</title>
+                  <name type="sender">
+                     <persName type="sender" key="fwcknobelsdorff">Knobelsdorff, Friedrich Wilhelm
+                        Constantin von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1827-03-23">1827.03.23.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="n-m">
+                  <add>J’ai l’honneur d’être avec la considération la plus distinguée,
+                     Monsieur,</add>
+               </quote>
+               <bibl corresp="336">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an John Crawfurd, August 1831 </title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1831-08-01" from="1831-08-01" to="1831-08-30">August
+                        1831</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="jcrawfurd" type="recipient">Crawfurd, John</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-m">J’ai l’honneur d’offrir à votre Excellence quatre ouvrages cijoints <add>ou
+                     dans quelques jours</add> comme tèmoignage de la parfaite bienveillance et de
+                  l’affection la plus distinguée avec lesquelles j’ai l’honneur d’être. Monseigneur!
+                  De votre Excellence le plus obèissant et le plus devoué Serviteur </quote>
+               <bibl corresp="462">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Philippus Pieter Roorda van Eysinga an Wilhelm von Humboldt,
+                     31.07.–25.09.1831</title>
+                  <name type="sender">
+                     <persName type="sender" key="pproorda">Roorda van Eysinga, Philippus
+                        Pieter</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1831-07-31" from="1831-07-31" to="1831-09-25"
+                        >1831.07.31.–1831.09.25.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Euer Excellenz ganz gehorsamster </quote>
+               <bibl corresp="397">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Carl Wilhelm Koppe an Wilhelm von Humboldt, 25.04.1830</title>
+                  <name type="sender">
+                     <persName key="cwkoppe" type="sender">Koppe, Carl Wilhelm</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1830-04-25">1830.04.25.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="wvh" type="recipient">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="n-n">Ich empfehle mich Ew. Hochwohlgebohrnen gütigem Andenken u. verbleibe mit der
+                  ausgezeichnetesten Hochachtung
+               </quote>
+               <bibl corresp="1098">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an August Wilhelm von Schlegel, 04.09.1826</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1826-09-04">1826.09.04.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="awschlegel">Schlegel, August Wilhelm
+                        von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="m-n">Leben Sie herzlich wohl! Mit der hochachtungsvollsten Freundschaft der
+                  Ihrige, </quote>
+               <bibl corresp="144">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Franz Bopp, 20.06.1825 (Mattson)144 </title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent"> Undatiert </date>
+                  <name type="receiver">
+                     <persName key="bopp" type="recipient">Bopp, Franz</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="m-n">Ich will aber Ew. Hochwohlgebornen heute in der That nicht mit einem zweiten
+                  Bogen ermüden, sondern hier mit dem herzlichen Wunsche schließen, daß Sie mögen in
+                  vollkommner Gesundheit u. Heiterkeit Ihre so treflichen Arbeiten u. Studien
+                  fortsetzen können, u. nur die Bitte um die Fortdauer Ihres gütigen u.
+                  freundschaftlichen Wohlwollens hinzufügen. Mit der hochachtungsvollsten
+                  Ergebenheit der Ihrige, </quote>
+               <bibl corresp="1091">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an August Wilhelm von Schlegel, 06.05.1823</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1823-05-06">1823.05.06.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="awschlegel">Schlegel, August Wilhelm
+                        von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="n-m">I am, Dear Sir Yours very faithfully </quote>
+               <bibl corresp="382">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Sir Alexander Johnston an Wilhelm von Humboldt, 15.10.1827</title>
+                  <name type="sender">
+                     <persName type="sender" key="ajohnston">Johnston, Sir Alexander</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1827-10-15">1827.10.15.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="n-n">I am, Sir, with the highest respect your very obedient servant </quote>
+               <bibl corresp="460">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>John Pickering an Wilhelm von Humboldt, 26.07.1834</title>
+                  <name type="sender">
+                     <persName type="sender" key="jpickering">Pickering, John</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1834-07-26">1834.07.26.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Ich habe die Ehre, mit der ausgezeichnetsten Hochachtung zu verharren. Ew.
+                  Hochwohlgeb. ergebenster </quote>
+               <bibl corresp="879">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Ignaz von Olfers, 06.11.1821</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1821-11-06">1821.11.06.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="ifwmolfers">Olfers, Ignaz Franz Werner Maria
+                        von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Ihren ferneren Befehlen entgegensehend, verharre ich in tiefster Ehrfurcht
+                  und Ergebenheit Ew. Excellenz unterthänigster Diener, </quote>
+               <bibl corresp="294">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Johann Karl Eduard Buschmann an Wilhelm von Humboldt, 30.04.1833</title>
+                  <name type="sender">
+                     <persName type="sender" key="jcebuschmann">Buschmann, Johann Karl
+                        Eduard</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1833-04-30">1833.04.30.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="m-n">Leben Sie herzlich wohl, u. lassen Sie mich bald hören, daß der Frühling jede
+                  der Klagen verscheucht hat, die Ihr <ref type="link" target="1076">Brief</ref>
+                  über Ihre Gesundheit enthält. Ich bin sehr wohl, u. habe auch von dem Winter wenig
+                  gelitten, allein mich ihm auch fast nicht ausgesetzt. Mit der hochachtungsvollsten
+                  Freundschaft, der Ihrige, </quote>
+               <bibl corresp="1090">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an August Wilhelm von Schlegel, 08.04.1823</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1823-04-08">1823.04.08.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="awschlegel">Schlegel, August Wilhelm
+                        von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Ich wünsche von ganzem Herzen, daß Ew. Excellenz der vollkommensten
+                  Gesundheit und Heiterkeit bey diesen mühseligen Arbeiten genießen mögen, welche
+                  der Wissenschaft so große Resultate versprechen, und verbleibe mit unbegränzter
+                  Verehrung Ew. Excellenz unterthänig gehorsamster </quote>
+               <bibl corresp="1074">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>August Wilhelm von Schlegel an Wilhelm von Humboldt 01.12.1822</title>
+                  <name type="sender">
+                     <persName type="sender" key="awschlegel">Schlegel, August Wilhelm
+                        von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1822-12-01">1822.12.01.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="m-n">Leben Sie herzlich wohl Mit innigster Freundschaft <handShift scribe="wvh"/>
+                  der Ihrige, </quote>
+               <bibl corresp="1062">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Friedrich Gottlieb Welcker, 29.01.1830</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1830-01-29">1830.01.29.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="fgwelcker">Welcker, Friedrich
+                        Gottlieb</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Genehmigen Hochdieselben die Gefühle tiefster Ehrfurcht und Ergebenheit,
+                  womit ich verharre Ew. Excellenz unterthänigster Diener, </quote>
+               <bibl corresp="290">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Johann Karl Eduard Buschmann an Wilhelm von Humboldt, 25.02.1833</title>
+                  <name type="sender">
+                     <persName type="sender" key="jcebuschmann">Buschmann, Johann Karl
+                        Eduard</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1833-02-25">1833.02.25.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Mit den hochachtungsvollsten Gesinnungen Ew. Wohlgeb. ergebenster </quote>
+               <bibl corresp="89">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Franz Bopp, 18.03.1822</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1822-03-18">1822.03.18.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="bopp" type="recipient">Bopp, Franz</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="n-m">Veuillez agréer, Monsieur, l’assurance de la considération très-distinguée
+                  avec laquelle j’ai l’honneur d’être, Monsieur, </quote>
+               <bibl corresp="342">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Sir Alexander Johnston, wohl 01.12.1830</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent"> Undatiert </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="ajohnston">Johnston, Sir Alexander</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Mit schuldiger Verehrung Euer Excellenz gehorsamster Diener </quote>
+               <bibl corresp="313">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Jakob Friedrich Fries an Wilhelm von Humboldt, 26.–27.01.1827</title>
+                  <name type="sender">
+                     <persName type="sender" key="jffries">Fries, Jakob Friedrich</persName>
+                  </name>
+                  <date type="sent"> Undatiert </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="n-n">Ich empfehle mich nochmals Euer Excellenz gütigem Andenken. </quote>
+               <bibl corresp="313">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Jakob Friedrich Fries an Wilhelm von Humboldt, 26.–27.01.1827</title>
+                  <name type="sender">
+                     <persName type="sender" key="jffries">Fries, Jakob Friedrich</persName>
+                  </name>
+                  <date type="sent"> Undatiert </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Ich habe die Ehre mit der ausgezeichnetsten Hochachtung u. der aufrichtigsten
+                  Anhänglichkeit zu verbleiben Ew. Wohlgeb. ergebenster, </quote>
+               <bibl corresp="1034">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Arnold Hermann Ludwig Heeren, 06.11.1821</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1821-11-06">1821.11.06.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="ahlheeren">Heeren, Arnold Hermann
+                        Ludwig</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Mit der <sic>grösten</sic> Hochachtung Ew. Excellenz ganz ergebenster </quote>
+               <bibl corresp="441">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Gustav Parthey an Wilhelm von Humboldt, 23.11.1833</title>
+                  <name type="sender">
+                     <persName type="sender" key="gparthey">Parthey, Gustav</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1833-11-23">1833.11.23.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Mit der aufrichtigsten Hochachtung der Ihrige, </quote>
+               <bibl corresp="158">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Franz Bopp, 25.11.1827</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1827-11-25">1827.11.25.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="bopp" type="recipient">Bopp, Franz</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Ich ergreife mit wahrem Vergnügen diese Gelegenheit, der Fortdauer meiner
+                  innigen Verehrung zu versichern &amp; beharre Ew. Excellenz ganz gehorsamster
+                  Diener </quote>
+               <bibl corresp="230">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Carl Christian Becher an Wilhelm von Humboldt, 20.07.1828</title>
+                  <name type="sender">
+                     <persName key="ccbecher" type="sender">Becher, Carl Christian</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1828-07-20">1828.07.20.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="wvh" type="recipient">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="n-n">Mille tendres amitiés. </quote>
+               <bibl corresp="737">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Alexander von Humboldt an Wilhelm von Humboldt, 04.06.1823</title>
+                  <name type="sender">
+                     <persName type="sender" key="avh">Humboldt, Alexander von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1823-06-04">1823.06.04.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="m-n">Mit hochachtungsvoller Freundschaft der Ihrige, </quote>
+               <bibl corresp="998">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Friedrich August Rosen, 03.05.1827</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1827-05-03">1827.05.03.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="farosen" type="recipient">Rosen, Friedrich August</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="n-n">Leben Sie herzlich wohl mit der aufrichtigsten und unwandelbarsten
+                  Freundschaft </quote>
+               <bibl corresp="187">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Franz Bopp, 24.04.1832</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1832-04-24">1832.04.24.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="bopp" type="recipient">Bopp, Franz</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Genehmigen Hochdieselben die Gefühle tiefster Ehrfurcht und Ergebenheit,
+                  womit ich verharre Ew. Excellenz unterthänigster Diener, </quote>
+               <bibl corresp="301">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Johann Karl Eduard Buschmann an Wilhelm von Humboldt, 10.04.1834</title>
+                  <name type="sender">
+                     <persName key="jcebuschmann" type="sender">Buschmann, Johann Karl
+                        Eduard</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1834-04-10">1834.04.10.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="wvh" type="recipient">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="n-m">Ich danke Ihnen herzlich, theuerster Freund, für Ihre <pb n="2*"/>gütigen
+                  Wünsche zum neuen Jahr, die ich mit der Bitte um Ihr fortdauerndes Wohlwollen, für
+                  Sie und die Ihrigen von ganzem Herzen erwiedere. Mit unveränderlicher Freundschaft
+                     <handShift scribe="wvh"/> Ihr </quote>
+               <bibl corresp="184">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Franz Bopp, 30.12.1831</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1831-12-30">1831.12.30.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="bopp" type="recipient">Bopp, Franz</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">In tiefster Ehrerbietung Ew. Excellenz ganz gehorsamster </quote>
+               <bibl corresp="263">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Franz Bopp an Wilhelm von Humboldt, 29.11.1830</title>
+                  <name type="sender">
+                     <persName key="bopp" type="sender">Bopp, Franz</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1830-11-29">1830.11.29.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="wvh" type="recipient">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="m-n">Mit der herzlichsten Freundschaft ganz der Ihrige, </quote>
+               <bibl corresp="146">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Franz Bopp, 16.11.1825</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1825-11-16">1825.11.16.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="bopp" type="recipient">Bopp, Franz</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="n-n">I am &amp;.<hi rend="superscript">c</hi>
+               </quote>
+               <bibl corresp="840">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>John Pickering an Wilhelm von Humboldt, 24.02.1824</title>
+                  <name type="sender">
+                     <persName type="sender" key="jpickering">Pickering, John</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1824-02-24">1824.02.24.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="n-n">Leben Sie herzlich wohl mit hochachtungsvollster Freundschaft <handShift
+                     scribe="wvh"/> der Ihrige, </quote>
+               <bibl corresp="182">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Franz Bopp, 05.06.1831</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1831-06-05">1831.06.05.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="bopp" type="recipient">Bopp, Franz</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-m">Je Vous en félicite bien sincèrement et Vous prie de me conserver Votre
+                  souvenir amical, comme je ne cesserai jamais de Vous vouer les sentimens d’éstime
+                  et de considération bien particuliers avec lesquels j’ai l’honneur d’être,
+                  Monsieur, Votre très-humble &amp; très-obéissant serviteur, </quote>
+               <bibl corresp="792">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an George Bancroft, 12.07.1828</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1828-07-12">1828.07.12.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="gbancroft">Bancroft, George</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="n-n">for which I will ever Remain your most <sic>obednt</sic> Servent </quote>
+               <bibl corresp="475">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Alexander Strong an Christian Friedrich Wurm, 20.10.1829</title>
+                  <name type="sender">
+                     <persName key="astrong" type="sender">Strong, Alexander</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1829-10-20">1829.10.20.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="cfwurm" type="recipient">Wurm, Christian Friedrich</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="n-m">I have the honor to be My dear Sir, Your faithful humble S.<hi
+                     rend="superscript">t</hi>
+               </quote>
+               <bibl corresp="928">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>William Marsden an Wilhelm von Humboldt, 07.05.1831</title>
+                  <name type="sender">
+                     <persName type="sender" key="wmarsden">Marsden, William</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1831-05-07">1831.05.07.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="n-m">I hope soon to hear from you; and remain, Sir, with the highest respect your
+                  obedient &amp; faithful servant </quote>
+               <bibl corresp="456">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>John Pickering an Wilhelm von Humboldt, 27.04.1830</title>
+                  <name type="sender">
+                     <persName type="sender" key="jpickering">Pickering, John</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1830-04-27">1830.04.27.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="m-n">Ich verbleibe mit der hochachtungsvollsten Freundschaft <handShift
+                     scribe="wvh"/> der Ihrige, </quote>
+               <bibl corresp="188">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Franz Bopp, 02.05.1832</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1832-05-02">1832.05.02.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="bopp" type="recipient">Bopp, Franz</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="n-n">Empfangen Ew. Wohlgeboren die Versicherung meiner ausgezeichneten Hochachtung </quote>
+               <bibl corresp="874">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Franz Lieber, 27.10.1831</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1831-10-27">1831.10.27.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="flieber" type="recipient">Lieber, Franz</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Genehmigen Ew. Hochwohlgeboren die Gesinnungen der ausgezeichnetsten und
+                  innigsten Hochachtung, mit welcher ich die Ehre habe zu verharren Ew.
+                  Hochwohlgeboren ergebenster, </quote>
+               <bibl corresp="663">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Christian Karl Josias Bunsen, 16.04.1829</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1829-04-16">1829.04.16.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="ckjbunsen" type="recipient">Bunsen, Christian Karl
+                        Josias</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Leben Sie herzlich wohl! Ihr </quote>
+               <bibl corresp="161">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Franz Bopp, 10.11.1828</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1828-11-10">1828.11.10.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="bopp" type="recipient">Bopp, Franz</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="n-n">Verzeihen Ew: Wohlgeboren die Länge dieses Briefes und empfangen Sie die
+                  Versicherung meiner herzlichen und ausgezeichneten Hochachtung. </quote>
+               <bibl corresp="815">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Christian Lassen, 10.11.1830</title>
+                  <name type="sender">
+                     <persName type="sender" key="wvh">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1830-11-10">1830.11.10.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName type="recipient" key="classen">Lassen, Christian</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Genehmigen Ew. Excellenz hochgeneigt die Versicherung meiner tiefen Verehrung
+                  und aufrichtigen Ergebenheit mit welcher ich Ehre habe mich zu unterzeichnen Ew.
+                  Excellenz gehorsamer Diener </quote>
+               <bibl corresp="434">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Ludwig Niederstetter an Wilhelm von Humboldt, 25.10.1827</title>
+                  <name type="sender">
+                     <persName key="lniederstetter" type="sender">Niederstetter, Ludwig</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1827-10-25">1827.10.25.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="wvh" type="recipient">Humboldt, Wilhelm von</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="informal" n="n-n">Ich habe leider heute nicht Zeit, weiter etwas hinzuzusetzen, u. bitte Sie
+                  nur die erneuerte Versicherung meiner hochachtungsvollsten Freundschaft
+                  anzunehmen. </quote>
+               <bibl corresp="810">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Franz Bopp, 09.07.1822</title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1822-07-09">1822.07.09.</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="bopp" type="recipient">Bopp, Franz</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Leben Sie recht wohl! Ihr </quote>
+               <bibl corresp="1019">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Friedrich August Rosen, 19.04.1827 (Mattson)1019 </title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1827-04-19">1827.04.19. (Mattson)</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="farosen" type="recipient">Rosen, Friedrich August</persName>
+                  </name>
+               </bibl>
+            </cit>
+            <cit>
+               <quote type="formal" n="m-n">Mit herzlicher Hochachtung Ihr </quote>
+               <bibl corresp="1019">
+                  <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
+                  <title>Wilhelm von Humboldt an Friedrich August Rosen, 19.04.1827 (Mattson)1019 </title>
+                  <name type="sender">
+                     <persName key="wvh" type="sender">Humboldt, Wilhelm von</persName>
+                  </name>
+                  <date type="sent">
+                     <date type="author" when="1827-04-19">1827.04.19. (Mattson)</date>
+                  </date>
+                  <name type="receiver">
+                     <persName key="farosen" type="recipient">Rosen, Friedrich August</persName>
+                  </name>
+               </bibl>
+            </cit>
+         </div>
+      </body>
+   </text>
+</TEI>
