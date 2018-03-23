@@ -1,5 +1,26 @@
-input[type="checkbox"]{
-    margin-right: 10px;
-    height: 10px;
+#filter {
+    margin-top: 1em;
+}
 
+.filterLabel {
+    font-weight: bold;
+    font-size: large;
+}
+
+.card-header {
+    background-color: #2A7299;
+    color: white;
+}
+
+.card-body {
+    background-color: white;
+}
+
+#quote p {
+    font-style: oblique;
+    font-size: large;
+}
+
+#source a {
+    color: #3098D1;
 }

@@ -32,10 +32,11 @@ const app = new Vue({
     methods: {
         refresh() {
             //AJAX AUFRUF
-            this.$http.get('http://localhost:8080/exist/apps/salute-demo/abfrage.xql').then(response => {
-                console.log("success");
+            this.$http.get('http://localhost:8080/exist/apps/salute-demo/abfrage.xql', {params: {sender: filter[0], receiver: filter[1], formal: filter[2]}}).then(response => {
+                console.log('Succes');
                 console.log(response.body);
             }).catch(error => {
+                console.log('Failure');
                 console.log(error);
             });
 
