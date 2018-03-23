@@ -33,8 +33,7 @@
         <div id="source" class="card-footer"><a target="_blank" class="show" v-bind:href="salute.fullURL"><i
                 class="fa fa-arrow-circle-right"></i><b> {{
             salute.edition }}</b></a> </br>
-            <b>{{salute.sender}}</b> an <b>{{salute.receiver}}</b> </br>
-            <b>{{salute.date}}</b>
+            {{ salute.title }}
         </div>
     </div>
     <div class="container">
@@ -45,7 +44,10 @@
                             aria-controls="collapseFilter">Filter
                     </button>
                     <button id="refresh" class="btn btn-default" v-on:click="refresh()"><i class="fas fa-redo-alt"></i></button>
-                    <button id="copy" class="btn btn-default" v-clipboard:copy="salute.copyText"><i class="fas fa-copy"></i></button>
+                    <button id="copy" class="btn btn-default" v-clipboard:copy="copyMessage"><i class="fas fa-copy"></i></button>
+                    <span id="error" class="alert alert-danger" v-if="error">
+                        Es wurde leider keine passende Grußformel gefunden. Bitte nutzen Sie eine andere Filterkombination.
+                    </span>
                 </div>
             </div>
             <div class="card-body collapse" id="collapseFilter">
@@ -53,41 +55,41 @@
                     <div id="genderSender" class="col">
                         <label class="filterLabel">Sender</label>
                         <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="checkboxSender-F" value="sender-f" v-model="filter">
+                            <input type="checkbox" class="custom-control-input" id="checkboxSender-F" value="s-f" v-model="filter_sender">
                             <label class="custom-control-label" for="checkboxSender-F"><i class="fas fa-venus"></i> Female</label></label>
                         </div>
                         <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="checkboxSender-M" value="sender-m" v-model="filter">
+                            <input type="checkbox" class="custom-control-input" id="checkboxSender-M" value="s-m" v-model="filter_sender">
                             <label class="custom-control-label" for="checkboxSender-M"><i class="fas fa-mars"></i> Male</label>
                         </div>
                         <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="checkboxSender-N" value="sender-n" v-model="filter">
+                            <input type="checkbox" class="custom-control-input" id="checkboxSender-N" value="s-n" v-model="filter_sender">
                             <label class="custom-control-label" for="checkboxSender-N"><i class="fas fa-genderless"></i> Neutral</label>
                         </div>
                     </div>
                     <div id="genderReceiver" class="col">
                         <label class="filterLabel">Empfänger</label>
                         <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="checkboxReceiver-F" value="receiver-f" v-model="filter">
+                            <input type="checkbox" class="custom-control-input" id="checkboxReceiver-F" value="r-f" v-model="filter_receiver">
                             <label class="custom-control-label" for="checkboxReceiver-F"><i class="fas fa-venus"></i> Female</label></label>
                         </div>
                         <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="checkboxReceiver-M" value="receiver-m" v-model="filter">
+                            <input type="checkbox" class="custom-control-input" id="checkboxReceiver-M" value="r-m" v-model="filter_receiver">
                             <label class="custom-control-label" for="checkboxReceiver-M"><i class="fas fa-mars"></i> Male</label>
                         </div>
                         <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="checkboxReceiver-N" value="receiver-n" v-model="filter">
+                            <input type="checkbox" class="custom-control-input" id="checkboxReceiver-N" value="r-n" v-model="filter_receiver">
                             <label class="custom-control-label" for="checkboxReceiver-N"><i class="fas fa-genderless"></i> Neutral</label>
                         </div>
                     </div>
                     <div id="formality" class="col">
                         <label class="filterLabel">Form</label>
                         <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="checkboxFormal" value="formal" v-model="filter">
+                            <input type="checkbox" class="custom-control-input" id="checkboxFormal" value="formal" v-model="filter_type">
                             <label class="custom-control-label" for="checkboxFormal"><i class="fas fa-handshake"></i> Formal</label>
                         </div>
                         <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="checkboxInformal" value="informal" v-model="filter">
+                            <input type="checkbox" class="custom-control-input" id="checkboxInformal" value="informal" v-model="filter_type">
                             <label class="custom-control-label" for="checkboxInformal"><i class="fas fa-heart"></i> Informal</label>
                         </div>
                     </div>

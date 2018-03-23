@@ -16,30 +16,62 @@ class Salute {
   }
 }
 
+const defaultSender = ["s-f","s-m","s-n"];
+const defaultReceiver = ["r-f","r-m","r-n"];
+const defaultType = ["formal","informal"];
+
 const app = new Vue({
     el: '#app',
     data: {
         salute: new Salute('Hier steht eine Grußformel', 'SaluteSig TechSprint Gruppe', 'TELOTA', 'http://www.bbaw.de/telota/telota'),
         // all defined filter values, to have boxes pre-checked
-        filter_sender: ["s-f","s-m","s-n"],
-        filter_receiver: ["r-f","r-m","r-n"],
-        filter_type: ["formal","informal"]
+        filter_sender: defaultSender,
+        filter_receiver: defaultReceiver,
+        filter_type: defaultType,
+        error: false,
+    },
+    computed: {
+        senderParam() {
+            if (this.filter_sender.length) {
+                return this.filter_sender.join('X');
+            }
+            return defaultSender.join('X');
+        },
+        receiverParam() {
+            if (this.filter_receiver.length) {
+                return this.filter_receiver.join('X');
+            }
+            return defaultReceiver.join('X');
+        },
+        typeParam() {
+            if (this.filter_type.length) {
+                return this.filter_type.join('X');
+            }
+            return defaultType.join('X');
+        },
+        copyMessage() {
+            return `${this.salute.quote}
+            ${this.salute.edition}
+            ${this.salute.fullURL}
+            ${this.salute.title}`;
+        }
     },
     methods: {
         refresh() {
             let baseURL = "http://localhost:8080/exist/apps/salute-demo/abfrage.xql";
             //AJAX AUFRUF
             this.$http.get(baseURL, {params: {
-                    sender: this.filter_sender,
-                    receiver: this.filter_receiver,
-                    type: this.filter_type
+                    sender: this.senderParam,
+                    receiver: this.receiverParam,
+                    type: this.typeParam
                 }
             }).then(response => {
                 const { quote, title, edition, url } = response.body;
                 this.salute = new Salute(quote, title, edition, url);
+                this.error = false;
             }).catch(error => {
-                console.log('Failure');
                 console.log(error);
+                this.error = true;
             });
 
             console.log(this.filter_receiver);
