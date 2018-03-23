@@ -50,10 +50,11 @@ const app = new Vue({
             return defaultType.join('X');
         },
         copyMessage() {
-            return `${this.salute.quote}
+            return `"${this.salute.quote}" \n
+            ${this.salute.title}
             ${this.salute.edition}
             ${this.salute.fullURL}
-            ${this.salute.title}`;
+            `;
         }
     },
     methods: {

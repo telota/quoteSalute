@@ -4,7 +4,7 @@ module.exports = {
     main: './js/app.js'
   },
   output: {
-    'filename': 'bundle.js',
+    'filename': 'salutesig.js',
     'path': __dirname + '/js'
   },
   module: {

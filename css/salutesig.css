@@ -1,3 +1,7 @@
+body {
+    font-family: ptserif, serif;
+}
+
 #filter {
     margin-top: 1em;
 }
@@ -10,6 +14,25 @@
 .card-header {
     background-color: #2A7299;
     color: white;
+}
+
+.card-header label {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.card-header a {
+    color: white;
+    margin-top: auto;
+    margin-bottom: 5px;
+}
+.card-header a:hover {
+    color: #294c72;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .card-body {

@@ -2,37 +2,33 @@
 <html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml" xmlns:v-bind="http://www.w3.org/1999/xhtml"
       xmlns:v-clipboard="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 
     <title>SaluteSIG Prototype</title>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/index.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/salutesig.css" rel="stylesheet"/>
     <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/bootstrap.bundle.js"></script>
+   
+    <script src="js/bootstrap.js"></script> 
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js"
-            integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l"
-            crossorigin="anonymous"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js"
-            integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c"
-            crossorigin="anonymous"></script>
+    
 </head>
 <body>
 <div id="app" class="container">
     <div class="card">
-        <div class="card-header">
-            SaluteSIG
+        <div class="card-header" id="mainHeader">
+            <label>SaluteSIG</label>
+            <a target="_blank" class="btn"><i class="fa fa-info-circle"></i></a>
+            <a target="_blank" href="https://github.com/telota/salutesig" class="btn"><i class="fa fa-github"></i></a>
         </div>
         <div id="quote" class="card-body"><p>"{{ salute.quote }}"</p></div>
-        <div id="source" class="card-footer"><a target="_blank" class="show" v-bind:href="salute.fullURL"><i
-                class="fa fa-arrow-circle-right"></i><b> {{
-            salute.edition }}</b></a> </br>
+        <div id="source" class="card-footer">
+            <a target="_blank" class="show" v-bind:href="salute.fullURL">
+                <i class="fa fa-arrow-circle-right"></i> 
+                {{salute.edition }}
+            </a> <br></br>
             {{ salute.title }}
         </div>
     </div>
@@ -41,10 +37,9 @@
             <div class="card-header">
                 <div>
                     <button class="btn btn-default btn-dark" data-toggle="collapse" href="#collapseFilter" aria-expanded="false"
-                            aria-controls="collapseFilter">Filter
-                    </button>
-                    <button id="refresh" class="btn btn-default" v-on:click="refresh()"><i class="fas fa-redo-alt"></i></button>
-                    <button id="copy" class="btn btn-default" v-clipboard:copy="copyMessage"><i class="fas fa-copy"></i></button>
+                            aria-controls="collapseFilter">Filter</button>
+                    <button id="refresh" class="btn btn-default" v-on:click="refresh()"><i class="fa fa-redo-alt"></i></button>
+                    <button id="copy" class="btn btn-default" v-clipboard:copy="copyMessage"><i class="fa fa-copy"></i></button>
                     <span id="error" class="alert alert-danger" v-if="error">
                         Es wurde leider keine passende Grußformel gefunden. Bitte nutzen Sie eine andere Filterkombination.
                     </span>
@@ -55,42 +50,42 @@
                     <div id="genderSender" class="col">
                         <label class="filterLabel">Sender</label>
                         <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="checkboxSender-F" value="s-f" v-model="filter_sender">
-                            <label class="custom-control-label" for="checkboxSender-F"><i class="fas fa-venus"></i> Female</label></label>
+                            <input type="checkbox" class="custom-control-input" id="checkboxSender-F" value="s-f" v-model="filter_sender"/>
+                            <label class="custom-control-label" for="checkboxSender-F"><i class="fa fa-venus"></i> Female</label>
                         </div>
                         <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="checkboxSender-M" value="s-m" v-model="filter_sender">
-                            <label class="custom-control-label" for="checkboxSender-M"><i class="fas fa-mars"></i> Male</label>
+                            <input type="checkbox" class="custom-control-input" id="checkboxSender-M" value="s-m" v-model="filter_sender"/>
+                            <label class="custom-control-label" for="checkboxSender-M"><i class="fa fa-mars"></i> Male</label>
                         </div>
                         <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="checkboxSender-N" value="s-n" v-model="filter_sender">
-                            <label class="custom-control-label" for="checkboxSender-N"><i class="fas fa-genderless"></i> Neutral</label>
+                            <input type="checkbox" class="custom-control-input" id="checkboxSender-N" value="s-n" v-model="filter_sender"/>
+                            <label class="custom-control-label" for="checkboxSender-N"><i class="fa fa-genderless"></i> Neutral</label>
                         </div>
                     </div>
                     <div id="genderReceiver" class="col">
                         <label class="filterLabel">Empfänger</label>
                         <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="checkboxReceiver-F" value="r-f" v-model="filter_receiver">
-                            <label class="custom-control-label" for="checkboxReceiver-F"><i class="fas fa-venus"></i> Female</label></label>
+                            <input type="checkbox" class="custom-control-input" id="checkboxReceiver-F" value="r-f" v-model="filter_receiver"/>
+                            <label class="custom-control-label" for="checkboxReceiver-F"><i class="fa fa-venus"></i> Female</label></label>
                         </div>
                         <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="checkboxReceiver-M" value="r-m" v-model="filter_receiver">
-                            <label class="custom-control-label" for="checkboxReceiver-M"><i class="fas fa-mars"></i> Male</label>
+                            <input type="checkbox" class="custom-control-input" id="checkboxReceiver-M" value="r-m" v-model="filter_receiver"/>
+                            <label class="custom-control-label" for="checkboxReceiver-M"><i class="fa fa-mars"></i> Male</label>
                         </div>
                         <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="checkboxReceiver-N" value="r-n" v-model="filter_receiver">
-                            <label class="custom-control-label" for="checkboxReceiver-N"><i class="fas fa-genderless"></i> Neutral</label>
+                            <input type="checkbox" class="custom-control-input" id="checkboxReceiver-N" value="r-n" v-model="filter_receiver"/>
+                            <label class="custom-control-label" for="checkboxReceiver-N"><i class="fa fa-genderless"></i> Neutral</label>
                         </div>
                     </div>
                     <div id="formality" class="col">
                         <label class="filterLabel">Form</label>
                         <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="checkboxFormal" value="formal" v-model="filter_type">
-                            <label class="custom-control-label" for="checkboxFormal"><i class="fas fa-handshake"></i> Formal</label>
+                            <input type="checkbox" class="custom-control-input" id="checkboxFormal" value="formal" v-model="filter_type"/>
+                            <label class="custom-control-label" for="checkboxFormal"><i class="fa fa-handshake"></i> Formal</label>
                         </div>
                         <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="checkboxInformal" value="informal" v-model="filter_type">
-                            <label class="custom-control-label" for="checkboxInformal"><i class="fas fa-heart"></i> Informal</label>
+                            <input type="checkbox" class="custom-control-input" id="checkboxInformal" value="informal" v-model="filter_type"/>
+                            <label class="custom-control-label" for="checkboxInformal"><i class="fa fa-heart"></i> Informal</label>
                         </div>
                     </div>
                 </div>
@@ -100,7 +95,7 @@
 </div>
 
 
-<script src="js/bundle.js"></script>
+<script src="js/salutesig.js"></script>
 
 </body>
 </html>
