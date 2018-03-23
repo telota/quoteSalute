@@ -8,40 +8,44 @@ Vue.use(VueResouorce);
 Vue.http.headers.common['Access-Control-Allow-Origin'] = '*';
 
 class Salute {
-  constructor(id, quote, sender, receiver, edition, date, baseURL) {
-    this.id = id;
+  constructor(quote, title, edition, fullURL) {
     this.quote = quote;
-    this.sender = sender;
-    this.receiver = receiver;
+    this.title = title;
     this.edition = edition;
-    this.date = date;
-    this.baseURL = baseURL;
-    this.fullURL = baseURL + id;
-
-    console.log(this);
+    this.fullURL = fullURL;
   }
 }
 
 const app = new Vue({
     el: '#app',
     data: {
-        salute: new Salute(1, 'Hallo', 'ich', 'du', 'BBAW', '21.03.2018', 'BBAW.de'),
+        salute: new Salute('Hier steht eine Grußformel', 'SaluteSig TechSprint Gruppe', 'TELOTA', 'http://www.bbaw.de/telota/telota'),
         // all defined filter values, to have boxes pre-checked
-        filter: ["sender-f","sender-m","sender-n","receiver-f","receiver-m","receiver-n","formal","informal"]
+        filter_sender: ["s-f","s-m","s-n"],
+        filter_receiver: ["r-f","r-m","r-n"],
+        filter_type: ["formal","informal"]
     },
     methods: {
         refresh() {
+            let baseURL = "http://localhost:8080/exist/apps/salute-demo/abfrage.xql";
             //AJAX AUFRUF
-            this.$http.get('http://localhost:8080/exist/apps/salute-demo/abfrage.xql', {params: {sender: filter[0], receiver: filter[1], formal: filter[2]}}).then(response => {
-                console.log('Succes');
-                console.log(response.body);
+            this.$http.get(baseURL, {params: {
+                    sender: this.filter_sender,
+                    receiver: this.filter_receiver,
+                    type: this.filter_type
+                }
+            }).then(response => {
+                const { quote, title, edition, url } = response.body;
+                this.salute = new Salute(quote, title, edition, url);
             }).catch(error => {
                 console.log('Failure');
                 console.log(error);
             });
 
-            this.salute = new Salute(1, 'Welt', 'du', 'ich', 'BBAW', '21.03.2018', 'BBAW.de');
-            console.log(this.filter);
+            console.log(this.filter_receiver);
         },
     },
+    mounted() {
+        this.refresh();
+    }
 });
