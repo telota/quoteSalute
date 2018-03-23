@@ -26,8 +26,9 @@
 <body>
 <div id="app" class="container">
     <div class="card">
-        <div class="card-header">
-            SaluteSIG
+        <div class="card-header" id="mainHeader">
+            <label>SaluteSIG</label>
+            <a href="http://correspsearch.net/index.xql" class="btn"><i class="fas fa-info-circle"></i></a>
         </div>
         <div id="quote" class="card-body"><p>"{{ salute.quote }}"</p></div>
         <div id="source" class="card-footer"><a target="_blank" class="show" v-bind:href="salute.fullURL"><i
