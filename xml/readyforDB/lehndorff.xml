@@ -30,32 +30,23 @@
                </category>
                <category>
                   <catDesc>Relation</catDesc>
-                  <category xml:id="m-m">
-                     <catDesc>male to male</catDesc>
+                  <category xml:id="s-m">
+                     <catDesc>sender is male</catDesc>
                   </category>
-                  <category xml:id="m-f">
-                     <catDesc>male to female</catDesc>
+                  <category xml:id="s-f">
+                     <catDesc>sender is female</catDesc>
                   </category>
-                  <category xml:id="m-n">
-                     <catDesc>male to male</catDesc>
+                  <category xml:id="s-n">
+                     <catDesc>sender is neutral</catDesc>
                   </category>
-                  <category xml:id="f-f">
-                     <catDesc>female to female</catDesc>
+                  <category xml:id="r-f">
+                     <catDesc>reciever is female</catDesc>
                   </category>
-                  <category xml:id="f-m">
-                     <catDesc>female to male</catDesc>
+                  <category xml:id="r-m">
+                     <catDesc>reciever is male</catDesc>
                   </category>
-                  <category xml:id="f-n">
-                     <catDesc>female to neutral</catDesc>
-                  </category>
-                  <category xml:id="n-n">
-                     <catDesc>neutral to neutral</catDesc>
-                  </category>
-                  <category xml:id="n-m">
-                     <catDesc>neutral to male</catDesc>
-                  </category>
-                  <category xml:id="n-f">
-                     <catDesc>neutral to female</catDesc>
+                  <category xml:id="r-n">
+                     <catDesc>reciever is neutral</catDesc>
                   </category>
                </category>
             </taxonomy>
@@ -67,7 +58,7 @@
          <div type="citList" xml:base="http://lebenswelten-lehndorff.bbaw.de/dokumente/detail.xql?id=">
             <!-- Base URI für Link zu brief mit xml-ID -->
             <cit>
-               <quote ana="#informal #m-n"> Meine Frau wünscht die empfohlen zu sein und ich bitte um die Fortdauer
+               <quote ana="#informal #s-m #r-n"> Meine Frau wünscht die empfohlen zu sein und ich bitte um die Fortdauer
                   deiner freundschaftlichen Zuneigung </quote>
                <bibl corresp="lehndorff_lth_k3r_ddb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -86,7 +77,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> Mit der Bitte, meinen lieben Vetter Carl und meiner Cousine Annily mich
+               <quote ana="#formal #s-m #r-n"> Mit der Bitte, meinen lieben Vetter Carl und meiner Cousine Annily mich
                   angelegentlich zu empfehlen, Ihr in treuester Verehrung und Ergebenheit
                   gehorsamster </quote>
                <bibl corresp="lehndorff_sxf_zrl_ycb">
@@ -100,7 +91,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> Euer Hochgeboren ganz gehorsamster Diener </quote>
+               <quote ana="#formal #s-m #r-n"> Euer Hochgeboren ganz gehorsamster Diener </quote>
                <bibl corresp="lehndorff_btt_1tj_ycb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -116,7 +107,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> Es zeichnet Euer Hochwohlgeboren gehorsamster Diener </quote>
+               <quote ana="#formal #s-m #r-n"> Es zeichnet Euer Hochwohlgeboren gehorsamster Diener </quote>
                <bibl corresp="lehndorff_fg4_2pd_py">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -135,7 +126,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #f-m"> Allerdurchlauchtigster Großmächtigster König <lb/>Allergnädigster König und
+               <quote ana="#formal #s-f #r-m"> Allerdurchlauchtigster Großmächtigster König <lb/>Allergnädigster König und
                   Herr <lb/>Ew. Königlichen Majestät alleruntertänigste Dienerin </quote>
                <bibl corresp="lehndorff_z43_j5x_d1b">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -156,7 +147,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-m"> Der Geheime Kabinetts-Rat Seiner Majestät des deutschen Kaisers und Königs
+               <quote ana="#formal #s-n #r-m"> Der Geheime Kabinetts-Rat Seiner Majestät des deutschen Kaisers und Königs
                   von Preußen <lb/>v.
                   [<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>...?<?oxy_custom_end?>] </quote>
                <bibl corresp="lehndorff_qdc_lf4_my">
@@ -174,7 +165,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> Ich bin mit der vorzüglichsten Hochachtung Euer Wohlgeboren ganz ergebenster
+               <quote ana="#formal #s-m #r-n"> Ich bin mit der vorzüglichsten Hochachtung Euer Wohlgeboren ganz ergebenster
                   Diener und treuer Freund </quote>
                <bibl corresp="lehndorff_xcp_1d1_hy">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -192,7 +183,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> Euer Hochgeboren ganz ergebenster </quote>
+               <quote ana="#formal #s-m #r-n"> Euer Hochgeboren ganz ergebenster </quote>
                <bibl corresp="lehndorff_nbn_xbp_dz">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -211,7 +202,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> Der ich mit unbegrenzter Hochachtung beharre <lb/>Ew. Hochwürden Hochgeboren
+               <quote ana="#formal #s-m #r-n"> Der ich mit unbegrenzter Hochachtung beharre <lb/>Ew. Hochwürden Hochgeboren
                   ganz gehorsamster Diener </quote>
                <bibl corresp="lehndorff_fyv_5rg_4bb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -231,7 +222,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> Ew. Durchlaucht gehorsamster </quote>
+               <quote ana="#formal #s-m #r-n"> Ew. Durchlaucht gehorsamster </quote>
                <bibl corresp="lehndorff_p4h_ylk_z1b">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -251,7 +242,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> Siebert <lb/>Rechtsanwalt </quote>
+               <quote ana="#formal #s-m #r-n"> Siebert <lb/>Rechtsanwalt </quote>
                <bibl corresp="lehndorff_knx_k3q_pz">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -270,7 +261,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n"> Gott mit Ihnen </quote>
+               <quote ana="#formal #s-n #r-n"> Gott mit Ihnen </quote>
                <bibl corresp="lehndorff_hxy_ldm_zcb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -290,7 +281,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #f-f"> Mit der ganz untertänigsten Bitte an die Hohe Gräfliche Familie einen schönen
+               <quote ana="#informal #s-f #r-f"> Mit der ganz untertänigsten Bitte an die Hohe Gräfliche Familie einen schönen
                   Handkuss samt herzlichem Gruß entrichten zu wollen, unterzeichnet sich Euer
                   Hochgeboren gnädigster Frau Gräfin stets viel Dank schuldige Dienerin </quote>
                <bibl corresp="lehndorff_nxg_g3y_ny">
@@ -311,7 +302,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #f-n"> Ihre ganz ergebenste </quote>
+               <quote ana="#formal #s-f #r-n"> Ihre ganz ergebenste </quote>
                <bibl corresp="lehndorff_dkw_mxh_4bb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -331,7 +322,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> In vollkommenster Ehrerbietung und Hochachtung zeichen ich Euer Hochgeboren
+               <quote ana="#formal #s-m #r-n"> In vollkommenster Ehrerbietung und Hochachtung zeichen ich Euer Hochgeboren
                   ganz ergebenster </quote>
                <bibl corresp="lehndorff_e2b_byy_ny">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -351,7 +342,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-f"> Indem ich bitte, mich der Grau Gräfin zu Füßen zu legen bin ich mit bestem
+               <quote ana="#informal #s-m #r-f"> Indem ich bitte, mich der Grau Gräfin zu Füßen zu legen bin ich mit bestem
                   Gruß Ihr ergebener </quote>
                <bibl corresp="lehndorff_xn4_frh_my">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -368,7 +359,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n"> Lebe wohl und schreibe </quote>
+               <quote ana="#formal #s-n #r-n"> Lebe wohl und schreibe </quote>
                <bibl corresp="lehndorff_hbb_df1_hy">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -388,7 +379,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> Vortre tres humble et tres ob... serviteur </quote>
+               <quote ana="#formal #s-m #r-n"> Vortre tres humble et tres ob... serviteur </quote>
                <bibl corresp="lehndorff_ftf_4tf_nbb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -407,7 +398,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-m"> mein Herr, Ihr Freund und Diener </quote>
+               <quote ana="#formal #s-m #r-m"> mein Herr, Ihr Freund und Diener </quote>
                <bibl corresp="lehndorff_y4r_1g5_jz">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -427,7 +418,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #f-n"> Ich bleibe Ihre Ihnen ergebene </quote>
+               <quote ana="#formal #s-f #r-n"> Ich bleibe Ihre Ihnen ergebene </quote>
                <bibl corresp="lehndorff_qqj_4bc_5bb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -446,7 +437,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> Gott segne Sie allenthalben! Ihr treu gehorsamster Diener </quote>
+               <quote ana="#formal #s-m #r-n"> Gott segne Sie allenthalben! Ihr treu gehorsamster Diener </quote>
                <bibl corresp="lehndorff_ttz_n2c_ycb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -465,7 +456,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n"> Ihr sehr wohlgesinnter Freund </quote>
+               <quote ana="#informal #s-m #r-n"> Ihr sehr wohlgesinnter Freund </quote>
                <bibl corresp="lehndorff_e4v_kvq_bz">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -485,7 +476,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> Mit der Bitte um baldige Nachricht über das Terrain zum Jagdreiten und mit
+               <quote ana="#formal #s-m #r-n"> Mit der Bitte um baldige Nachricht über das Terrain zum Jagdreiten und mit
                   vorzüglicher Hochachtung bleibe ich Euer Hochgeboren sehr ergebenster </quote>
                <bibl corresp="lehndorff_r5s_ckm_xcb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -505,7 +496,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-f"> Mit aufrichtiger Verehrung Gnädigster Gräfin ganz gehorsamster </quote>
+               <quote ana="#formal #s-m #r-f"> Mit aufrichtiger Verehrung Gnädigster Gräfin ganz gehorsamster </quote>
                <bibl corresp="lehndorff_i35_g3g_j1b">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -524,7 +515,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-n"> Wir denken an euch mit vielen guten Wünschen </quote>
+               <quote ana="#informal #s-n #r-n"> Wir denken an euch mit vielen guten Wünschen </quote>
                <bibl corresp="lehndorff_qmh_btz_pcb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -535,7 +526,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #f-n"> In aufrichtiger Verehrung <lb/>Ihre ergebene </quote>
+               <quote ana="#informal #s-f #r-n"> In aufrichtiger Verehrung <lb/>Ihre ergebene </quote>
                <bibl corresp="lehndorff_fhy_fwb_5bb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -554,7 +545,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-f"> Mit tiefer Verehrung habe ich die Ehre mich zu nennen Gnädigster Gräfin ganz
+               <quote ana="#informal #s-m #r-f"> Mit tiefer Verehrung habe ich die Ehre mich zu nennen Gnädigster Gräfin ganz
                   gehorsamster </quote>
                <bibl corresp="lehndorff_sc5_whg_j1b">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -575,7 +566,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n"> Mit einer sehr herzlichen Empfehlung bin ich in Dankbarkeit für Ihr
+               <quote ana="#formal #s-n #r-n"> Mit einer sehr herzlichen Empfehlung bin ich in Dankbarkeit für Ihr
                   freundliches Interesse </quote>
                <bibl corresp="lehndorff_a1m_j3v_fz">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -595,7 +586,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> Ew. Hochgeboren gehorsamster Diener </quote>
+               <quote ana="#formal #s-m #r-n"> Ew. Hochgeboren gehorsamster Diener </quote>
                <bibl corresp="lehndorff_chz_pkk_ycb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -607,7 +598,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-f"> Meine Schwester empfiehlt sich angelegentlich Ihnen, ihrem Herrn <persName
+               <quote ana="#informal #s-m #r-f"> Meine Schwester empfiehlt sich angelegentlich Ihnen, ihrem Herrn <persName
                      key="ed_zkm_whl_2y">Gemahl</persName> und den Comtessen <persName
                      key="ed_ggg_cbm_2y">
                      <persName key="ed_vhr_wjh_cy">Töchtern</persName>
@@ -631,7 +622,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-m"> Es sind die Gesinnungen der vorzüglichsten Hochachtung und wahren
+               <quote ana="#informal #s-n #r-m"> Es sind die Gesinnungen der vorzüglichsten Hochachtung und wahren
                   freundschaftlichen Anhänglichkeit, mit denen ich verharre, teurer Herr Graf
                   <lb/>Ew. Exzellenz ganz ergebenster Diener </quote>
                <bibl corresp="lehndorff_skt_pmg_2db">
@@ -651,7 +642,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> Ihr aufrichtig ergebenster </quote>
+               <quote ana="#formal #s-m #r-n"> Ihr aufrichtig ergebenster </quote>
                <bibl corresp="lehndorff_scf_31c_gy">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -670,7 +661,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n"> Grüße alle herzlich von Deinem alten </quote>
+               <quote ana="#informal #s-m #r-n"> Grüße alle herzlich von Deinem alten </quote>
                <bibl corresp="lehndorff_cby_g5m_2db">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -690,7 +681,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n"> Dein Dich liebender gehorsamer </quote>
+               <quote ana="#informal #s-m #r-n"> Dein Dich liebender gehorsamer </quote>
                <bibl corresp="lehndorff_f1p_511_hy">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -710,7 +701,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> Dein gehorsamster Neffe </quote>
+               <quote ana="#formal #s-m #r-n"> Dein gehorsamster Neffe </quote>
                <bibl corresp="lehndorff_oq3_1d3_wz">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -730,7 +721,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #f-n"> In bekannter Verehrung verharre ich <lb/>Ihre gehorsamste Dienerin </quote>
+               <quote ana="#formal #s-f #r-n"> In bekannter Verehrung verharre ich <lb/>Ihre gehorsamste Dienerin </quote>
                <bibl corresp="lehndorff_ikd_bjh_4bb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -749,7 +740,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n">
+               <quote ana="#formal #s-n #r-n">
                   <seg type="comment">
                      <orig>treu der Ihrige</orig>
                      <note corresp="nh3y_5bh_2db">Im Findbuch ist als Absender Klinkowström
@@ -773,7 +764,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> Mit Hochachtung zeichne ich mich als Ew. Wohlgeboren ganz ergebenster </quote>
+               <quote ana="#formal #s-m #r-n"> Mit Hochachtung zeichne ich mich als Ew. Wohlgeboren ganz ergebenster </quote>
                <bibl corresp="lehndorff_jfm_pwm_xcb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -792,7 +783,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n"> Verbleibe übrigens mit vieler Confideration <lb/>des Herrn Kammerherrn
+               <quote ana="#informal #s-m #r-n"> Verbleibe übrigens mit vieler Confideration <lb/>des Herrn Kammerherrn
                   wohlaffektionierter Freund </quote>
                <bibl corresp="lehndorff_tcn_glh_t1b">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -813,7 +804,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #f-n"> Ew. Hochgeboren gehorsamste Dienerin </quote>
+               <quote ana="#formal #s-f #r-n"> Ew. Hochgeboren gehorsamste Dienerin </quote>
                <bibl corresp="lehndorff_vp5_skr_ddb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -833,7 +824,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n"> Achtungsvoll </quote>
+               <quote ana="#formal #s-n #r-n"> Achtungsvoll </quote>
                <bibl corresp="lehndorff_bj1_fdm_xcb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -850,7 +841,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n"> Ich ersterbe mit tiefstem Respekt <lb/>Ew. Hochgeboren ganz untertänigster
+               <quote ana="#informal #s-m #r-n"> Ich ersterbe mit tiefstem Respekt <lb/>Ew. Hochgeboren ganz untertänigster
                   Diener </quote>
                <bibl corresp="lehndorff_rdj_d3y_3bb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -870,7 +861,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> ganz gehorsamster </quote>
+               <quote ana="#formal #s-m #r-n"> ganz gehorsamster </quote>
                <bibl corresp="lehndorff_esl_2zl_l1b">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -886,7 +877,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n"> In tiefster Ehrfurcht ersterbe ich <lb/>Euer Königlichen Hoheit ganz
+               <quote ana="#informal #s-m #r-n"> In tiefster Ehrfurcht ersterbe ich <lb/>Euer Königlichen Hoheit ganz
                   untertänigster </quote>
                <bibl corresp="lehndorff_sxf_zv2_cy">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -908,7 +899,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #f-f"> Im Geiste Ihre Hand küssend, liebe, verehrte Frau Gräfin, bleibe ich allezeit
+               <quote ana="#informal #s-f #r-f"> Im Geiste Ihre Hand küssend, liebe, verehrte Frau Gräfin, bleibe ich allezeit
                   <lb/>Ihre dankbar ergebene </quote>
                <bibl corresp="lehndorff_jrq_zmh_4bb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -928,7 +919,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n"> Von ganzem Herzen Ihr Ihnen sehr zugetaner Freund </quote>
+               <quote ana="#informal #s-m #r-n"> Von ganzem Herzen Ihr Ihnen sehr zugetaner Freund </quote>
                <bibl corresp="lehndorff_phv_pnm_cz">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -948,7 +939,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n"> Nichts ist übrigens so vollkommen als der Respekt, mit welchem ich mich zu
+               <quote ana="#informal #s-m #r-n"> Nichts ist übrigens so vollkommen als der Respekt, mit welchem ich mich zu
                   meiner Ehre nenne <lb/>Euer Hochgeboren ganz gehorsamster treuer Diener </quote>
                <bibl corresp="lehndorff_hgd_vhj_gy">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -968,7 +959,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> Mit vorzüglicher Hochachtung zeichne ich mich als Ew. Hochgeboren ganz
+               <quote ana="#formal #s-m #r-n"> Mit vorzüglicher Hochachtung zeichne ich mich als Ew. Hochgeboren ganz
                   ergebenster </quote>
                <bibl corresp="lehndorff_wd4_4k1_tbb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -986,7 +977,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #f-n"> Ihre ganz ergebenste </quote>
+               <quote ana="#formal #s-f #r-n"> Ihre ganz ergebenste </quote>
                <bibl corresp="lehndorff_ycr_4dr_ddb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -1005,7 +996,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> In größtem Respekt verharre Euer Hochgeboren untertänigster Diener </quote>
+               <quote ana="#formal #s-m #r-n"> In größtem Respekt verharre Euer Hochgeboren untertänigster Diener </quote>
                <bibl corresp="lehndorff_jnj_t3q_dz">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -1020,7 +1011,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n"> In ausgezeichneter Hochachtung ergebenst </quote>
+               <quote ana="#formal #s-n #r-n"> In ausgezeichneter Hochachtung ergebenst </quote>
                <bibl corresp="lehndorff_l4j_qsq_pz">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -1039,7 +1030,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #f-n"> In herzlicher Verehrung Ihre ergebene </quote>
+               <quote ana="#informal #s-f #r-n"> In herzlicher Verehrung Ihre ergebene </quote>
                <bibl corresp="lehndorff_wct_dpc_py">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -1058,7 +1049,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> Euer Hochgeboren untertänigster Diener </quote>
+               <quote ana="#formal #s-m #r-n"> Euer Hochgeboren untertänigster Diener </quote>
                <bibl corresp="lehndorff_sk1_m3r_51b">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -1077,7 +1068,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n"> In alter Treue verbleibe ich Euer Kaiserlichen Hoheit untertänigster </quote>
+               <quote ana="#informal #s-m #r-n"> In alter Treue verbleibe ich Euer Kaiserlichen Hoheit untertänigster </quote>
                <bibl corresp="lehndorff_ewm_ypx_fcb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -1097,7 +1088,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n"> Ich ersterbe mit tiefstem Respekt <lb/>Ew. Hochgeboren untertänigster Diener </quote>
+               <quote ana="#informal #s-m #r-n"> Ich ersterbe mit tiefstem Respekt <lb/>Ew. Hochgeboren untertänigster Diener </quote>
                <bibl corresp="lehndorff_vqg_kdq_51b">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -1116,7 +1107,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n"> Herzliche Grüße von Haus zu Haus <lb/>Dein gehorsamster Neffe </quote>
+               <quote ana="#informal #s-m #r-n"> Herzliche Grüße von Haus zu Haus <lb/>Dein gehorsamster Neffe </quote>
                <bibl corresp="lehndorff_y3g_2tv_2db">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -1133,7 +1124,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> Bis dahin lebe wohl, erhalte immer dein Wohlwollen deinem treu ergebenen </quote>
+               <quote ana="#formal #s-m #r-n"> Bis dahin lebe wohl, erhalte immer dein Wohlwollen deinem treu ergebenen </quote>
                <bibl corresp="lehndorff_iy4_sgh_qcb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -1151,7 +1142,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> Stets Ihr ergebenster </quote>
+               <quote ana="#formal #s-m #r-n"> Stets Ihr ergebenster </quote>
                <bibl corresp="lehndorff_ph2_nb1_fy">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -1170,7 +1161,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-m"> Nun adieu mein teurer Freund. Sagen Sie Ihrer schönen, hübschen und wenn sie
+               <quote ana="#informal #s-m #r-m"> Nun adieu mein teurer Freund. Sagen Sie Ihrer schönen, hübschen und wenn sie
                   mir gnädig ist, sehr liebenswürdigen Frau sehr – sehr viel Liebes, Gutes und
                   Schönes von mir, und bleiben Sie mit ein bisschen Liebe zugetan Ihrem treuen
                   Knecht </quote>
@@ -1193,7 +1184,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n"> Die ich in tiefster Submission verbleibe <lb/>
+               <quote ana="#formal #s-n #r-n"> Die ich in tiefster Submission verbleibe <lb/>
                   <seg type="comment">
                      <orig>Euer Königlichen Majestät alleruntertänigste</orig>
                      <note corresp="nmw5_hlm_xz">Bis hierhin verfasst von Johann Jacob Dörffer,
@@ -1219,7 +1210,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #f-n"> Mit den besten Grüßen für alle deinen bin ich mit treuer Anhänglichkeit Deine </quote>
+               <quote ana="#informal #s-f #r-n"> Mit den besten Grüßen für alle deinen bin ich mit treuer Anhänglichkeit Deine </quote>
                <bibl corresp="lehndorff_c3v_xkh_4bb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -1238,7 +1229,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n"> Empfangen Sie die gehorsamsten Empfehlungen meiner Mutter und Schwester,
+               <quote ana="#informal #s-m #r-n"> Empfangen Sie die gehorsamsten Empfehlungen meiner Mutter und Schwester,
                   denen es gut geht, und bleiben Sie mit immer geübter Nachsicht gnädigst gewogen
                   Euer Hochgeboren untertänigster Diener </quote>
                <bibl corresp="lehndorff_xrh_lb4_my">
@@ -1259,7 +1250,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-f"> Gottes Segen über Sie, meine teure Mutter </quote>
+               <quote ana="#formal #s-n #r-f"> Gottes Segen über Sie, meine teure Mutter </quote>
                <bibl corresp="lehndorff_yx3_zrm_zcb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -1281,7 +1272,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n"> Mit herzlichem Gruß </quote>
+               <quote ana="#formal #s-n #r-n"> Mit herzlichem Gruß </quote>
                <bibl corresp="lehndorff_n1p_yrj_z1b">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -1299,7 +1290,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> Treu Ihr </quote>
+               <quote ana="#formal #s-m #r-n"> Treu Ihr </quote>
                <bibl corresp="lehndorff_igf_n1g_cdb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -1321,7 +1312,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-m"> Mit dem herzlichsten Wunsche, dass Sie und Comtesse glücklich rückkehren,
+               <quote ana="#informal #s-m #r-m"> Mit dem herzlichsten Wunsche, dass Sie und Comtesse glücklich rückkehren,
                   verbinde ich die Bitte, Letztere wie Carol, Rudolch und Mokritz von mir herzliche
                   Grüße zu bestellen. In treuester Ergebenheit bin ich Ihr gehorsamster Diener </quote>
                <bibl corresp="lehndorff_zg2_czb_ycb">
@@ -1342,7 +1333,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #f-n"> Mit den besten Grüßen auch von meinem Mann bin ich Ihre </quote>
+               <quote ana="#formal #s-f #r-n"> Mit den besten Grüßen auch von meinem Mann bin ich Ihre </quote>
                <bibl corresp="lehndorff_yzh_r55_2cb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -1356,7 +1347,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-m"> In treuer Anhänglichkeit, verehrter Herr Graf Ihr gehorsamster </quote>
+               <quote ana="#formal #s-m #r-m"> In treuer Anhänglichkeit, verehrter Herr Graf Ihr gehorsamster </quote>
                <bibl corresp="lehndorff_is5_14r_kcb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -1376,7 +1367,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-n"> Gott erhalte Euch und führe Euch auf ebener Bahn zu Eurem wahren Freunde </quote>
+               <quote ana="#informal #s-n #r-n"> Gott erhalte Euch und führe Euch auf ebener Bahn zu Eurem wahren Freunde </quote>
                <bibl corresp="lehndorff_i15_jjm_bdb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -1396,7 +1387,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-m"> Adieu, Herr Graf, verzeihen Sie die Kritzelei und die Unordnung in meinem
+               <quote ana="#informal #s-n #r-m"> Adieu, Herr Graf, verzeihen Sie die Kritzelei und die Unordnung in meinem
                   Briefe und denken Sie bisweilen an die Abwesenden. </quote>
                <bibl corresp="lehndorff_s1h_xfn_fz">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -1416,7 +1407,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n"> Sind Euch mit Gnaden und geneigtem Willen wohl beigetan. </quote>
+               <quote ana="#formal #s-n #r-n"> Sind Euch mit Gnaden und geneigtem Willen wohl beigetan. </quote>
                <bibl corresp="lehndorff_avf_rbx_d1b">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -1433,7 +1424,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-f"> In unveränderlicher Hochachtung bleibe ich sehr geehrte gnädigste Frau Gräfin
+               <quote ana="#informal #s-m #r-f"> In unveränderlicher Hochachtung bleibe ich sehr geehrte gnädigste Frau Gräfin
                   Ihr treu ergebener </quote>
                <bibl corresp="lehndorff_s1r_hnn_my">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -1453,7 +1444,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> Carl Lehndorff </quote>
+               <quote ana="#formal #s-m #r-n"> Carl Lehndorff </quote>
                <bibl corresp="lehndorff_t25_x3c_wcb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -1473,7 +1464,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-f"> Gott befohlen, liebe Anni, grüße Carl und bleibe gut deinem alten </quote>
+               <quote ana="#informal #s-m #r-f"> Gott befohlen, liebe Anni, grüße Carl und bleibe gut deinem alten </quote>
                <bibl corresp="lehndorff_atl_vdm_2db">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -1493,7 +1484,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-n"> innige Grüße </quote>
+               <quote ana="#informal #s-n #r-n"> innige Grüße </quote>
                <bibl corresp="lehndorff_ogv_csh_2db">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -1513,7 +1504,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-f"> Ihr ewig treuer Sohn </quote>
+               <quote ana="#informal #s-m #r-f"> Ihr ewig treuer Sohn </quote>
                <bibl corresp="lehndorff_cfs_rs2_ycb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -1535,7 +1526,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-m"> Gott mit Ihnen, lieber Berent, und mit allen meinen guten Steinortern. </quote>
+               <quote ana="#informal #s-n #r-m"> Gott mit Ihnen, lieber Berent, und mit allen meinen guten Steinortern. </quote>
                <bibl corresp="lehndorff_mc4_wf2_ycb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -1555,7 +1546,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-f"> Die Hoffnung, von Ihnen, teure Mutter, geliebt zu sein, erhält Ihren
+               <quote ana="#informal #s-m #r-f"> Die Hoffnung, von Ihnen, teure Mutter, geliebt zu sein, erhält Ihren
                   unglücklichen Sohn </quote>
                <bibl corresp="lehndorff_b53_21t_lcb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -1576,7 +1567,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> Nochmalen bitte ich um Verzeihung meiner Dreistigkeit, und verbleibe mit der
+               <quote ana="#formal #s-m #r-n"> Nochmalen bitte ich um Verzeihung meiner Dreistigkeit, und verbleibe mit der
                   größesten Hochachtung und Zutrauen Ew. Hochgeboren ganz ergebenster Diener </quote>
                <bibl corresp="lehndorff_gxm_pkq_bbb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -1596,7 +1587,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #f-n"> Nun Gottes Segen über Euch! nach dem innigsten Wunsch Eurer treuen Mutter </quote>
+               <quote ana="#informal #s-f #r-n"> Nun Gottes Segen über Euch! nach dem innigsten Wunsch Eurer treuen Mutter </quote>
                <bibl corresp="lehndorff_q4v_jkg_nbb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -1616,7 +1607,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n"> Genehmigen Exzellenz den Ausdruck der vollkommensten Hochachtung
+               <quote ana="#informal #s-m #r-n"> Genehmigen Exzellenz den Ausdruck der vollkommensten Hochachtung
                   <lb/>Exzellenz ganz gehorsamster treuer Diener </quote>
                <bibl corresp="lehndorff_kqb_psm_xz">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -1636,7 +1627,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n"> Ad mand. </quote>
+               <quote ana="#formal #s-n #r-n"> Ad mand. </quote>
                <bibl corresp="lehndorff_t3w_xxh_yz">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -1652,7 +1643,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-n"> Bitte grüße von mir alle deine Gäste freundlich und behalte lieb Deine Dich
+               <quote ana="#informal #s-n #r-n"> Bitte grüße von mir alle deine Gäste freundlich und behalte lieb Deine Dich
                   treu und innig liebenden Geschwister! </quote>
                <bibl corresp="lehndorff_gnw_vgn_2db">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -1670,7 +1661,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n"> Votre tres humble serviteur et amis </quote>
+               <quote ana="#informal #s-m #r-n"> Votre tres humble serviteur et amis </quote>
                <bibl corresp="lehndorff_zzb_nv2_g1b">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -1690,7 +1681,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n"> In Leid und Freud Ihr Sie treu liebender Sohn </quote>
+               <quote ana="#informal #s-m #r-n"> In Leid und Freud Ihr Sie treu liebender Sohn </quote>
                <bibl corresp="lehndorff_s14_bts_lcb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -1710,7 +1701,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> Euer gnädiger König </quote>
+               <quote ana="#formal #s-m #r-n"> Euer gnädiger König </quote>
                <bibl corresp="lehndorff_kd1_4l5_jz">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -1730,7 +1721,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-n"> ganz der Deinige </quote>
+               <quote ana="#informal #s-n #r-n"> ganz der Deinige </quote>
                <bibl corresp="lehndorff_zxr_zsf_2db">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -1748,7 +1739,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n"> Mit dem Wunsch, dass Ew. Hochgeboren Ihre Zufriedenheit mit dem geringen
+               <quote ana="#informal #s-m #r-n"> Mit dem Wunsch, dass Ew. Hochgeboren Ihre Zufriedenheit mit dem geringen
                   [<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>...?<?oxy_custom_end?>]
                   einer Hochachtung und Dankbarkeit bezeugen möchte, verharre ich mit dem
                   aufrichtigsten
@@ -1774,7 +1765,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> Sonst bin allerstets Ihro Hochgeboren p. dienstwilliger Diener </quote>
+               <quote ana="#formal #s-m #r-n"> Sonst bin allerstets Ihro Hochgeboren p. dienstwilliger Diener </quote>
                <bibl corresp="lehndorff_nl3_qq5_cbb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -1794,7 +1785,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-n"> In dankbarer Erinnerung und treuer Ergebenheit </quote>
+               <quote ana="#informal #s-n #r-n"> In dankbarer Erinnerung und treuer Ergebenheit </quote>
                <bibl corresp="lehndorff_es3_sxq_ddb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -1806,7 +1797,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n"> Sind euch mit Gnaden gewogen </quote>
+               <quote ana="#formal #s-n #r-n"> Sind euch mit Gnaden gewogen </quote>
                <bibl corresp="lehndorff_kyh_gcl_2bb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -1823,7 +1814,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-m"> Hochgeborener Graf <lb/>Meines Hochzuehrenden Herrn Hauptmanns und Gnädigen
+               <quote ana="#informal #s-m #r-m"> Hochgeborener Graf <lb/>Meines Hochzuehrenden Herrn Hauptmanns und Gnädigen
                   Herrn <lb/>dienstschuldigster Knecht </quote>
                <bibl corresp="lehndorff_of3_1jr_pz">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -1843,7 +1834,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-m"> Lebe wohl, lieber Heinrich, mache hiervon den Gebrauch den du kannst und
+               <quote ana="#informal #s-n #r-m"> Lebe wohl, lieber Heinrich, mache hiervon den Gebrauch den du kannst und
                   willst. </quote>
                <bibl corresp="lehndorff_k11_g2g_j1b">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -1864,7 +1855,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n"> Dein braver Neffe </quote>
+               <quote ana="#informal #s-m #r-n"> Dein braver Neffe </quote>
                <bibl corresp="lehndorff_vkq_nvv_2db">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -1876,7 +1867,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-n"> Je vous embrasse tendrement. </quote>
+               <quote ana="#informal #s-n #r-n"> Je vous embrasse tendrement. </quote>
                <bibl corresp="lehndorff_mxb_qgc_5bb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -1896,7 +1887,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-f"> Gott befohlen meine liebe Anna, grüße Agnes recht herzlich und bleibe gut
+               <quote ana="#informal #s-m #r-f"> Gott befohlen meine liebe Anna, grüße Agnes recht herzlich und bleibe gut
                   Deinem alten Freund </quote>
                <bibl corresp="lehndorff_efx_hbm_2db">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -1917,7 +1908,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n"> Mit dem gehorsamsten Dank für die an das Seminar ergangenen Einladung
+               <quote ana="#informal #s-m #r-n"> Mit dem gehorsamsten Dank für die an das Seminar ergangenen Einladung
                   verharre ich in unbschränkter Verehrung als Euer Hochgeboren ganz gehorsamster </quote>
                <bibl corresp="lehndorff_ilz_lzj_ycb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -1937,7 +1928,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #f-n"> Gott segne!, Gott erhalte uns unseren geliebten Kaiser, das erfleht bei dem
+               <quote ana="#informal #s-f #r-n"> Gott segne!, Gott erhalte uns unseren geliebten Kaiser, das erfleht bei dem
                   baldigen Segen meines neuen Lebensjahres mit doppelter Inbrunst Euer Majestät
                   alleruntertänigste </quote>
                <bibl corresp="lehndorff_zd5_jpn_my">
@@ -1959,7 +1950,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n"> treu und ehrfurchtsvoll Ihr </quote>
+               <quote ana="#informal #s-m #r-n"> treu und ehrfurchtsvoll Ihr </quote>
                <bibl corresp="lehndorff_hl3_c12_ycb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -1981,7 +1972,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-n"> Übrigens verbleibe mit aller Consideration </quote>
+               <quote ana="#informal #s-n #r-n"> Übrigens verbleibe mit aller Consideration </quote>
                <bibl corresp="lehndorff_zht_h4l_cz">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -2001,7 +1992,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n"> Mit den lebhaftesten, auch von meiner Frau gesagten Wünschen für Ihro und
+               <quote ana="#informal #s-m #r-n"> Mit den lebhaftesten, auch von meiner Frau gesagten Wünschen für Ihro und
                   dero verehrter Angehörigen Wohlgeboren, insbesondere auch für eine baldige <seg
                      type="comment">
                      <orig>Genesung</orig>
@@ -2029,7 +2020,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n"> Es grüßt </quote>
+               <quote ana="#formal #s-n #r-n"> Es grüßt </quote>
                <bibl corresp="lehndorff_zqb_4yl_l1b">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -2048,7 +2039,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n"> des Herrn Lieutenant wohlaffektionierter Freund </quote>
+               <quote ana="#informal #s-m #r-n"> des Herrn Lieutenant wohlaffektionierter Freund </quote>
                <bibl corresp="lehndorff_ek3_kwj_dbb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -2068,7 +2059,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-m"> Empfangen Herr Graf diese meine offenherzige Antwort mit größter Achtung </quote>
+               <quote ana="#formal #s-n #r-m"> Empfangen Herr Graf diese meine offenherzige Antwort mit größter Achtung </quote>
                <bibl corresp="lehndorff_ukv_ql1_my">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -2087,7 +2078,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n"> Meine Frau empfiehlt sich mit mir ganz untertänigst der gnädigsten Frau
+               <quote ana="#informal #s-m #r-n"> Meine Frau empfiehlt sich mit mir ganz untertänigst der gnädigsten Frau
                   Gräfin und deren ganzem teuren Hause in Groß und Klein. Gott der Herr segne
                   dasselbe in Haupt und Gliedern. <lb/>In treuester Dankbarkeit gehorsamst. </quote>
                <bibl corresp="lehndorff_kbz_qk1_my">
@@ -2108,7 +2099,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-m"> Allerdurchlauchtigster Großmächtigster König <lb/>Allergnädigster Herr
+               <quote ana="#formal #s-m #r-m"> Allerdurchlauchtigster Großmächtigster König <lb/>Allergnädigster Herr
                   <lb/>Ew. Königlichen Majestät alleruntertänigster Vasall </quote>
                <bibl corresp="lehndorff_hsk_yc5_xz">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -2129,7 +2120,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> In bekannter dankbarer Ehrerbietung verharre ich <lb/>Ew. Exzellenz ganz
+               <quote ana="#formal #s-m #r-n"> In bekannter dankbarer Ehrerbietung verharre ich <lb/>Ew. Exzellenz ganz
                   gehorsamster </quote>
                <bibl corresp="lehndorff_ldz_zzh_yz">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -2150,7 +2141,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n"> Mit herzlichem dank für alle Güte und mit einem freundlichen Gott befohlen
+               <quote ana="#informal #s-m #r-n"> Mit herzlichem dank für alle Güte und mit einem freundlichen Gott befohlen
                   bin ich Euer Hochgeboren ergebenster </quote>
                <bibl corresp="lehndorff_i1s_pmq_ycb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -2166,7 +2157,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n"> Um eine wohlwollende Erwägung bitte mit größter Hochachtung </quote>
+               <quote ana="#formal #s-n #r-n"> Um eine wohlwollende Erwägung bitte mit größter Hochachtung </quote>
                <bibl corresp="lehndorff_irc_xmk_fbb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -2184,7 +2175,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> Euer Erlauchten und Hochwürdigsten Exzellenz untertänigster Knecht </quote>
+               <quote ana="#formal #s-m #r-n"> Euer Erlauchten und Hochwürdigsten Exzellenz untertänigster Knecht </quote>
                <bibl corresp="lehndorff_thx_lpx_rz">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -2203,7 +2194,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #f-n"> Ich ersterbe meines allergnädigsten Kaisers und Königs alleruntertänigste </quote>
+               <quote ana="#formal #s-f #r-n"> Ich ersterbe meines allergnädigsten Kaisers und Königs alleruntertänigste </quote>
                <bibl corresp="lehndorff_py4_fxk_ycb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -2223,7 +2214,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #f-m"> Deine treue Mutter Lehndorff </quote>
+               <quote ana="#formal #s-f #r-m"> Deine treue Mutter Lehndorff </quote>
                <bibl corresp="lehndorff_iyh_bvk_gy">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -2243,7 +2234,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-f"> Der ich verharre. <lb/>Unserer Hochgeehrten Frau Gräfin dienstwilliger </quote>
+               <quote ana="#formal #s-m #r-f"> Der ich verharre. <lb/>Unserer Hochgeehrten Frau Gräfin dienstwilliger </quote>
                <bibl corresp="lehndorff_ivw_hl5_cbb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -2264,7 +2255,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> Erlauben Exzellenz mir mich zu nennen <lb/>Ihren treu ergebenen gehorsamsten </quote>
+               <quote ana="#formal #s-m #r-n"> Erlauben Exzellenz mir mich zu nennen <lb/>Ihren treu ergebenen gehorsamsten </quote>
                <bibl corresp="lehndorff_exh_4hc_gy">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -2283,7 +2274,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #f-n"> Mit den herzlichsten Grüßen für die liebe Gräfin, verbleibe ich mein bester
+               <quote ana="#informal #s-f #r-n"> Mit den herzlichsten Grüßen für die liebe Gräfin, verbleibe ich mein bester
                   Graf, Ihre sehr ergebene </quote>
                <bibl corresp="lehndorff_ywp_djg_j1b">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -2301,7 +2292,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n"> Ihr ergebener Freund und Schwager </quote>
+               <quote ana="#informal #s-m #r-n"> Ihr ergebener Freund und Schwager </quote>
                <bibl corresp="lehndorff_m42_zs3_wz">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -2320,7 +2311,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> Eurer Königlichen Majestät alleruntertänigster treugehorsamster </quote>
+               <quote ana="#formal #s-m #r-n"> Eurer Königlichen Majestät alleruntertänigster treugehorsamster </quote>
                <bibl corresp="lehndorff_ejp_1xm_v1b">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -2340,7 +2331,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n"> Ihrem aufrichtigen Freund </quote>
+               <quote ana="#informal #s-m #r-n"> Ihrem aufrichtigen Freund </quote>
                <bibl corresp="lehndorff_tn1_nqr_ddb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -2358,7 +2349,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n"> Ew. Königlichen Majestät freundwilliger Bruder und Freund </quote>
+               <quote ana="#informal #s-m #r-n"> Ew. Königlichen Majestät freundwilliger Bruder und Freund </quote>
                <bibl corresp="lehndorff_zlz_czh_yz">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -2377,7 +2368,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n"> Bald küsst Ihnen die Hand Ihr treu liebender Sohn </quote>
+               <quote ana="#informal #s-m #r-n"> Bald küsst Ihnen die Hand Ihr treu liebender Sohn </quote>
                <bibl corresp="lehndorff_njn_m3g_cdb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -2399,7 +2390,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-m"> Leben Sie wohl, lieber Graf, seien Sie überzeugt, dass Sie immer in mir einen
+               <quote ana="#informal #s-m #r-m"> Leben Sie wohl, lieber Graf, seien Sie überzeugt, dass Sie immer in mir einen
                   ganz aufrichtigen Freund finden werden und fahren Sie fort, mir von Ihnen
                   Nachricht zu geben. </quote>
                <bibl corresp="lehndorff_snp_qrm_cz">
@@ -2421,7 +2412,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-n"> Empfangen Euer Hochgeboren die Versicherung meiner vorzüglichen Hochachtung </quote>
+               <quote ana="#informal #s-n #r-n"> Empfangen Euer Hochgeboren die Versicherung meiner vorzüglichen Hochachtung </quote>
                <bibl corresp="lehndorff_bph_kn1_my">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -2441,7 +2432,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #f-f"> Mit der Bitte, an die Hochgräfliche Familie einen teuren Handkuss zu
+               <quote ana="#informal #s-f #r-f"> Mit der Bitte, an die Hochgräfliche Familie einen teuren Handkuss zu
                   entrichten, unterzeichnet sich Euer Hochgeboren gnädigste Frau Gräfin stets
                   untertänigste Dienerin </quote>
                <bibl corresp="lehndorff_ust_3hy_ny">
@@ -2462,7 +2453,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> Ihr Freund </quote>
+               <quote ana="#formal #s-m #r-n"> Ihr Freund </quote>
                <bibl corresp="lehndorff_zvv_ssg_gcb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -2481,7 +2472,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n"> Hochachtend </quote>
+               <quote ana="#formal #s-n #r-n"> Hochachtend </quote>
                <bibl corresp="lehndorff_d3z_jnr_wcb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -2495,7 +2486,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> Euer Hochgeboren untertänigster Diener </quote>
+               <quote ana="#formal #s-m #r-n"> Euer Hochgeboren untertänigster Diener </quote>
                <bibl corresp="lehndorff_sqx_hc1_hy">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -2514,7 +2505,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n"> Berlin, den 7. Januar 1919 </quote>
+               <quote ana="#formal #s-n #r-n"> Berlin, den 7. Januar 1919 </quote>
                <bibl corresp="lehndorff_mgs_bbr_pz">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -2533,7 +2524,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n"> Herzliche Grüße <lb/>Dein gehorsamster Neffe </quote>
+               <quote ana="#informal #s-m #r-n"> Herzliche Grüße <lb/>Dein gehorsamster Neffe </quote>
                <bibl corresp="lehndorff_xz4_qxn_2db">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -2545,7 +2536,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n"> Mit herzlichem Gruß </quote>
+               <quote ana="#formal #s-n #r-n"> Mit herzlichem Gruß </quote>
                <bibl corresp="lehndorff_rtw_bfd_gy">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -2565,7 +2556,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> Ich bin in vollkommener Hochachtung <lb/>Euer Hochgeboren untertänigster </quote>
+               <quote ana="#formal #s-m #r-n"> Ich bin in vollkommener Hochachtung <lb/>Euer Hochgeboren untertänigster </quote>
                <bibl corresp="lehndorff_h4b_czf_nbb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -2584,7 +2575,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n"> Hochachtungsvoll und ergebenst </quote>
+               <quote ana="#formal #s-n #r-n"> Hochachtungsvoll und ergebenst </quote>
                <bibl corresp="lehndorff_ib2_pzx_pz">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -2600,7 +2591,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-n"> Wenig aber herzlich! </quote>
+               <quote ana="#informal #s-n #r-n"> Wenig aber herzlich! </quote>
                <bibl corresp="lehndorff_evp_zz5_ry">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -2621,7 +2612,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-m"> Mit der Bitte mich Ihrer Hochverehrten Frau Gemahlin bestens zu empfehlen Ihr
+               <quote ana="#informal #s-m #r-m"> Mit der Bitte mich Ihrer Hochverehrten Frau Gemahlin bestens zu empfehlen Ihr
                   ganz ergebener </quote>
                <bibl corresp="lehndorff_flt_cb1_tbb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -2641,7 +2632,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-m"> In
+               <quote ana="#formal #s-m #r-m"> In
                   [<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>...<?oxy_custom_end?>?]
                   Hochachtung habe ich die Ehre zu sein <lb/>Ew. Hochwohlgeboren ganz ergebener </quote>
                <bibl corresp="lehndorff_kgm_thg_qcb">
@@ -2663,7 +2654,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n"> (Handschriftlich) Mit frdl. Gruß </quote>
+               <quote ana="#formal #s-n #r-n"> (Handschriftlich) Mit frdl. Gruß </quote>
                <bibl corresp="lehndorff_hy3_qww_pz">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -2680,7 +2671,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n"> antworte mir bitte bald auf meine Frage und denke manchmal an deinen Dich
+               <quote ana="#informal #s-m #r-n"> antworte mir bitte bald auf meine Frage und denke manchmal an deinen Dich
                   zärtlich innig liebenden jüngsten Bruder </quote>
                <bibl corresp="lehndorff_b5v_3cn_2db">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -2700,7 +2691,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n"> Gott befohlen! Mit größter Hochachtung und kameradschaftlichem Gruß </quote>
+               <quote ana="#informal #s-m #r-n"> Gott befohlen! Mit größter Hochachtung und kameradschaftlichem Gruß </quote>
                <bibl corresp="lehndorff_jwq_qjg_j1b">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -2719,7 +2710,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n"> Mit treuer hochachtungsvoller Ergebenheit </quote>
+               <quote ana="#formal #s-n #r-n"> Mit treuer hochachtungsvoller Ergebenheit </quote>
                <bibl corresp="lehndorff_qxk_hrj_fbb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -2738,7 +2729,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> Mit vorzüglichster Hochachtung beharre ich Euer Hochgeboren ganz ergebenst
+               <quote ana="#formal #s-m #r-n"> Mit vorzüglichster Hochachtung beharre ich Euer Hochgeboren ganz ergebenst
                   treuer Freund und Diener </quote>
                <bibl corresp="lehndorff_n3f_wxj_dbb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -2759,7 +2750,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-m"> Ade lieber Carl. Lebe wohl, äußerst wohl! </quote>
+               <quote ana="#informal #s-n #r-m"> Ade lieber Carl. Lebe wohl, äußerst wohl! </quote>
                <bibl corresp="lehndorff_jbq_qx2_hy">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -2779,7 +2770,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> Dein treuer Bruder </quote>
+               <quote ana="#formal #s-m #r-n"> Dein treuer Bruder </quote>
                <bibl corresp="lehndorff_kp3_r4c_wcb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -2799,7 +2790,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #f-n"> Gott kröne Euer Majestät mit reichstem Segen, das erfleht aus Herzensgrunde
+               <quote ana="#informal #s-f #r-n"> Gott kröne Euer Majestät mit reichstem Segen, das erfleht aus Herzensgrunde
                   Euer Majestät Alleruntertänigste </quote>
                <bibl corresp="lehndorff_gzd_zg2_cy">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -2820,7 +2811,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-f"> Indem ich mir nun noch gestatte, meine eigenen ehrerbietigsten Empfehlungen
+               <quote ana="#informal #s-m #r-f"> Indem ich mir nun noch gestatte, meine eigenen ehrerbietigsten Empfehlungen
                   und an Ihren Herrn Gemahl freundlichsten Gruß hinzuzufügen, verharre ich mit dem
                   Ausdruck vorzüglichster Verehrung und Hochachtung als der gnädigsten Gräfin
                   gehorsamster Diener </quote>
@@ -2843,7 +2834,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-m"> In der festen Hoffnung, Ew. Hochgeboren Gnaden diesen Sommer persönlich zu
+               <quote ana="#informal #s-m #r-m"> In der festen Hoffnung, Ew. Hochgeboren Gnaden diesen Sommer persönlich zu
                   sehen und zu sprechen, verharre mit aller Hochschätzung und Freundschaft <lb/>Ew.
                   Hochgeboren ganz ergebenster Freund und Diener </quote>
                <bibl corresp="lehndorff_xtx_25c_g1b">
@@ -2865,7 +2856,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n"> Wir schließen mit der Versicherung unserer ausgezeichnetesten Hochachtung </quote>
+               <quote ana="#formal #s-n #r-n"> Wir schließen mit der Versicherung unserer ausgezeichnetesten Hochachtung </quote>
                <bibl corresp="lehndorff_zxr_r2q_ycb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -2877,7 +2868,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n"> Mit den herzlichsten Wünschen, dass sie gestärkt wieder zu uns kommen und mit
+               <quote ana="#informal #s-m #r-n"> Mit den herzlichsten Wünschen, dass sie gestärkt wieder zu uns kommen und mit
                   meinen Empfehlungen an Frau Gräfin Reichenbach und Ihre Kinder bin ich in tiefster
                   Ergebenheit Ihro Hochgeboren gehorsamster Diener </quote>
                <bibl corresp="lehndorff_y22_c5b_ycb">
@@ -2898,7 +2889,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #f-n"> Ihre Ihnen herzlich ergebene </quote>
+               <quote ana="#informal #s-f #r-n"> Ihre Ihnen herzlich ergebene </quote>
                <bibl corresp="lehndorff_ddb_bsc_py">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -2918,7 +2909,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n"> Gott erhalte Sie wohl! </quote>
+               <quote ana="#formal #s-n #r-n"> Gott erhalte Sie wohl! </quote>
                <bibl corresp="lehndorff_rxn_qpd_wcb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -2938,7 +2929,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n"> Mit herzlichen Empfehlungen </quote>
+               <quote ana="#formal #s-n #r-n"> Mit herzlichen Empfehlungen </quote>
                <bibl corresp="lehndorff_izn_4tl_l1b">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -2958,7 +2949,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n"> Ihr alter Freund </quote>
+               <quote ana="#informal #s-m #r-n"> Ihr alter Freund </quote>
                <bibl corresp="lehndorff_xvv_hgd_gy">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -2977,7 +2968,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n"> Es verharrt in begründeter Hochachtung und Bewunderung Ihr treu gehorsamster </quote>
+               <quote ana="#informal #s-m #r-n"> Es verharrt in begründeter Hochachtung und Bewunderung Ihr treu gehorsamster </quote>
                <bibl corresp="lehndorff_mpn_zhh_2db">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -2995,7 +2986,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-f"> Nächst untertänigen Empfehlungen an die ganze hochgräfliche Familie bin ich
+               <quote ana="#informal #s-m #r-f"> Nächst untertänigen Empfehlungen an die ganze hochgräfliche Familie bin ich
                   meiner gnädigsten Frau Gräfin gehorsamster Diener </quote>
                <bibl corresp="lehndorff_xjh_lmb_ycb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -3015,7 +3006,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> In aller Ehrfurcht Euer Hochgeboren gehorsamster Oberförster </quote>
+               <quote ana="#formal #s-m #r-n"> In aller Ehrfurcht Euer Hochgeboren gehorsamster Oberförster </quote>
                <bibl corresp="lehndorff_ng1_dc5_xcb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -3034,7 +3025,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-m"> In tiefster Ehrfurcht ersterben wir als Euer Königlichen Majestät
+               <quote ana="#formal #s-n #r-m"> In tiefster Ehrfurcht ersterben wir als Euer Königlichen Majestät
                   alleruntertänigst treu gehorsamste </quote>
                <bibl corresp="lehndorff_cj4_ghr_bbb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -3055,7 +3046,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #f-n"> Ich ersehne mich einer huldreichen Erhörung, und ersterbe in tiefster
+               <quote ana="#formal #s-f #r-n"> Ich ersehne mich einer huldreichen Erhörung, und ersterbe in tiefster
                   Devotion <lb/>Ew. Königlichen Majestät alleruntertänigste </quote>
                <bibl corresp="lehndorff_k3s_fvt_xz">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -3076,7 +3067,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-n"> Mit unbegrenzter Verehrung </quote>
+               <quote ana="#informal #s-n #r-n"> Mit unbegrenzter Verehrung </quote>
                <bibl corresp="lehndorff_brp_kgg_j1b">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -3093,7 +3084,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n"> Gott erhalte Sie mir und dem Vaterlande! </quote>
+               <quote ana="#formal #s-n #r-n"> Gott erhalte Sie mir und dem Vaterlande! </quote>
                <bibl corresp="lehndorff_f4y_drz_wy">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -3112,7 +3103,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #f-n"> Mit warmem Gruß Ihre Ihnen herzlich ergebene </quote>
+               <quote ana="#informal #s-f #r-n"> Mit warmem Gruß Ihre Ihnen herzlich ergebene </quote>
                <bibl corresp="lehndorff_z3q_55c_py">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -3132,7 +3123,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n"> ergebenst </quote>
+               <quote ana="#formal #s-n #r-n"> ergebenst </quote>
                <bibl corresp="lehndorff_wvv_2n5_2cb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -3143,7 +3134,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> Hochachtungsvoll mich zeichnend <lb/>Euer Hochgeboren ganz ergebener </quote>
+               <quote ana="#formal #s-m #r-n"> Hochachtungsvoll mich zeichnend <lb/>Euer Hochgeboren ganz ergebener </quote>
                <bibl corresp="lehndorff_us2_1mk_dbb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -3163,7 +3154,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n"> Königliches Konsistorium Königliche Regierung, Abteilung des Innern </quote>
+               <quote ana="#formal #s-n #r-n"> Königliches Konsistorium Königliche Regierung, Abteilung des Innern </quote>
                <bibl corresp="lehndorff_rsv_kbn_4bb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -3180,7 +3171,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> Mit vorzüglicher Hochachtung verharrt gehorsamster </quote>
+               <quote ana="#formal #s-m #r-n"> Mit vorzüglicher Hochachtung verharrt gehorsamster </quote>
                <bibl corresp="lehndorff_l2x_gxb_5bb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -3197,7 +3188,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n"> Ihr wohlaffektionierter Freund </quote>
+               <quote ana="#informal #s-m #r-n"> Ihr wohlaffektionierter Freund </quote>
                <bibl corresp="lehndorff_u4j_bfm_cz">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -3217,7 +3208,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n"> Auch der Frau Gemahlin Gnaden versichert seine Ehrfurcht <lb/>Ew. Hochgeboren
+               <quote ana="#informal #s-m #r-n"> Auch der Frau Gemahlin Gnaden versichert seine Ehrfurcht <lb/>Ew. Hochgeboren
                   untertänigster </quote>
                <bibl corresp="lehndorff_lyy_t2p_h1b">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -3237,7 +3228,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-m"> Addio, caro amice </quote>
+               <quote ana="#informal #s-n #r-m"> Addio, caro amice </quote>
                <bibl corresp="lehndorff_sw5_cqm_cz">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -3257,7 +3248,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n"> v. g. u. </quote>
+               <quote ana="#formal #s-n #r-n"> v. g. u. </quote>
                <bibl corresp="lehndorff_dqq_1cx_pz">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -3269,7 +3260,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-m"> Ich wünsche Ihnen und Ihrer Frau Gemahlin nun noch für den Rest der Ferien
+               <quote ana="#informal #s-m #r-m"> Ich wünsche Ihnen und Ihrer Frau Gemahlin nun noch für den Rest der Ferien
                   das schönste Wetter und schließe mit einer Empfehlung als Ihr ganz gehorsamster </quote>
                <bibl corresp="lehndorff_wy3_2r4_fy">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -3289,7 +3280,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n"> Ihrer gefälligen Äußerung entgegensehend, <lb/>in ausgezeichneter Hochachtung
+               <quote ana="#formal #s-n #r-n"> Ihrer gefälligen Äußerung entgegensehend, <lb/>in ausgezeichneter Hochachtung
                   ergebenst </quote>
                <bibl corresp="lehndorff_fyn_kzq_pz">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -3309,7 +3300,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> Euer Hochreichsgräflichen Gnaden empfehle mich untertänigst zu fernerer hohen
+               <quote ana="#formal #s-m #r-n"> Euer Hochreichsgräflichen Gnaden empfehle mich untertänigst zu fernerer hohen
                   Gnade und Gewogenheit <lb/>und verbleibe mit tiefstem Respekt <lb/>Euer
                   Hochreichsgräflichen Gnaden untertänigster Diener und Fürbitter </quote>
                <bibl corresp="lehndorff_zyf_pdj_wz">
@@ -3330,7 +3321,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #f-m"> Mit meinem herzlichsten Dank im Voraus für Ihre freundliche Antwort, die ich
+               <quote ana="#formal #s-f #r-m"> Mit meinem herzlichsten Dank im Voraus für Ihre freundliche Antwort, die ich
                   bald möglichst erhoffe, verbleibe ich, mein werter Herr von Mülverstedt, in
                   aufrichtiger Hochachtung Ihre sehr ergebene </quote>
                <bibl corresp="lehndorff_hfg_5kz_sbb">
@@ -3352,7 +3343,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n"> Wir sind gerne zu Ihren Diensten und empfehlen uns hochachtungsvoll </quote>
+               <quote ana="#formal #s-n #r-n"> Wir sind gerne zu Ihren Diensten und empfehlen uns hochachtungsvoll </quote>
                <bibl corresp="lehndorff_udp_23t_xcb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -3369,7 +3360,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n"> Deinen alten </quote>
+               <quote ana="#informal #s-m #r-n"> Deinen alten </quote>
                <bibl corresp="lehndorff_azg_pyl_2db">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -3389,7 +3380,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n"> Ihr wohlgesinnter Freund </quote>
+               <quote ana="#informal #s-m #r-n"> Ihr wohlgesinnter Freund </quote>
                <bibl corresp="lehndorff_kx2_1s3_tcb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -3409,7 +3400,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-n"> Es umarmt Euch und liebt Euch über alles auf der Welt </quote>
+               <quote ana="#informal #s-n #r-n"> Es umarmt Euch und liebt Euch über alles auf der Welt </quote>
                <bibl corresp="lehndorff_pyk_kv1_dy">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -3429,7 +3420,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-n"> Gott erhalte Sie und sei Ihr Schutz das von Herzen </quote>
+               <quote ana="#informal #s-n #r-n"> Gott erhalte Sie und sei Ihr Schutz das von Herzen </quote>
                <bibl corresp="lehndorff_fnt_r1z_wy">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -3448,7 +3439,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n"> Mit gehorsamster Empfehlung </quote>
+               <quote ana="#formal #s-n #r-n"> Mit gehorsamster Empfehlung </quote>
                <bibl corresp="lehndorff_sm1_bzh_tbb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -3467,7 +3458,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-f"> Das Weitere von Ihrer großen Gnade, gnädigste Gräfin, erwartend und ergebenst
+               <quote ana="#formal #s-n #r-f"> Das Weitere von Ihrer großen Gnade, gnädigste Gräfin, erwartend und ergebenst
                   erbittend zeichne hocchachtungsvoll in dankbarer Ergebung </quote>
                <bibl corresp="lehndorff_kzf_pj4_xcb">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
@@ -3484,7 +3475,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> Der Minister pp. <lb/>gez. von Puttkamer </quote>
+               <quote ana="#formal #s-m #r-n"> Der Minister pp. <lb/>gez. von Puttkamer </quote>
                <bibl corresp="lehndorff_cgq_ytm_xz">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -3501,7 +3492,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n"> Lebenslang Euer Exzellenz aufrichtig treu ergebener </quote>
+               <quote ana="#formal #s-m #r-n"> Lebenslang Euer Exzellenz aufrichtig treu ergebener </quote>
                <bibl corresp="lehndorff_m2p_ghf_4y">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
                      Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</edition>
@@ -3518,7 +3509,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-m"> Monsieur le Baron de Vôtre Excellence le tres humble et tres obéissant
+               <quote ana="#formal #s-m #r-m"> Monsieur le Baron de Vôtre Excellence le tres humble et tres obéissant
                   serviteur </quote>
                <bibl corresp="lehndorff_fvs_nsz_xz">
                   <edition>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen

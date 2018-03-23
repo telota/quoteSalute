@@ -29,32 +29,23 @@
                </category>
                <category>
                   <catDesc>Relation</catDesc>
-                  <category xml:id="m-m">
-                     <catDesc>male to male</catDesc>
+                  <category xml:id="s-m">
+                     <catDesc>sender is male</catDesc>
                   </category>
-                  <category xml:id="m-f">
-                     <catDesc>male to female</catDesc>
+                  <category xml:id="s-f">
+                     <catDesc>sender is female</catDesc>
                   </category>
-                  <category xml:id="m-n">
-                     <catDesc>male to male</catDesc>
+                  <category xml:id="s-n">
+                     <catDesc>sender is neutral</catDesc>
                   </category>
-                  <category xml:id="f-f">
-                     <catDesc>female to female</catDesc>
+                  <category xml:id="r-f">
+                     <catDesc>reciever is female</catDesc>
                   </category>
-                  <category xml:id="f-m">
-                     <catDesc>female to male</catDesc>
+                  <category xml:id="r-m">
+                     <catDesc>reciever is male</catDesc>
                   </category>
-                  <category xml:id="f-n">
-                     <catDesc>female to neutral</catDesc>
-                  </category>
-                  <category xml:id="n-n">
-                     <catDesc>neutral to neutral</catDesc>
-                  </category>
-                  <category xml:id="n-m">
-                     <catDesc>neutral to male</catDesc>
-                  </category>
-                  <category xml:id="n-f">
-                     <catDesc>neutral to female</catDesc>
+                  <category xml:id="r-n">
+                     <catDesc>reciever is neutral</catDesc>
                   </category>
                </category>
             </taxonomy>
@@ -65,7 +56,7 @@
       <body>
          <div type="citList" xml:base="https://xmldev.bbaw.de/expath/apps/WvH/Brief?section=all&amp;id="><!-- ID als URI ergänzung -->
             <cit>
-               <quote ana="#formal #m-n">Leben Sie herzlich wohl! Ihr </quote>
+               <quote ana="#formal #s-m #r-n">Leben Sie herzlich wohl! Ihr </quote>
                <bibl corresp="162">
                   <!-- bbaw- hinzugefügt -->
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -82,7 +73,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n">Mit der lebhaftesten u. hochachtungsvollsten Freundschaft der Ihrige </quote>
+               <quote ana="#informal #s-m #r-n">Mit der lebhaftesten u. hochachtungsvollsten Freundschaft der Ihrige </quote>
                <bibl corresp="1064">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Wilhelm von Humboldt an Friedrich Gottlieb Welcker, 16.05.1825</title>
@@ -99,7 +90,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-m">I have the honour to be with the highest consideration, Sir, your most
+               <quote ana="#formal #s-n #r-m">I have the honour to be with the highest consideration, Sir, your most
                   obedient &amp; most humble servant </quote>
                <bibl corresp="447">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -116,7 +107,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n">
+               <quote ana="#formal #s-n #r-n">
                   <pb n="2*"/>Ich freue mich sehr diese Gelegenheit benutzen zu können Ew die
                   Versicherung meiner ausgezeichnetsten Hochachtung zu wiederholen. </quote>
                <bibl corresp="1038">
@@ -136,7 +127,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">An die theuren Ihrigen bitte ich meine besten Empfehlungen und Grüße. Mit
+               <quote ana="#formal #s-m #r-n">An die theuren Ihrigen bitte ich meine besten Empfehlungen und Grüße. Mit
                   aufrichtigster Verehrung Ew. Excellenz treu ergebenster </quote>
                <bibl corresp="1113">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -153,7 +144,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-m">Leben Sie herzlich wohl, liebster Freund, und erhalten Sie mir Ihr
+               <quote ana="#informal #s-m #r-m">Leben Sie herzlich wohl, liebster Freund, und erhalten Sie mir Ihr
                   wohlwollendes Andenken. Ich bleibe mit der hochachtungsvollsten Freundschaft der
                   Ihrige, </quote>
                <bibl corresp="1001">
@@ -171,7 +162,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-m">Erhalten Sie mir theuerster Freund Ihr wohlwollendes Andenken und <pb n="4*"
+               <quote ana="#informal #s-n #r-m">Erhalten Sie mir theuerster Freund Ihr wohlwollendes Andenken und <pb n="4*"
                   />nehmen Sie die erneuerte Versicherung meiner herzlichsten und hochachtungsvollen
                   Freundschaft an. </quote>
                <bibl corresp="1009">
@@ -189,7 +180,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-n">Nun leben Sie herzlich wohl. Verzeihen Sie mein flüchtiges Schreiben, u.
+               <quote ana="#informal #s-n #r-n">Nun leben Sie herzlich wohl. Verzeihen Sie mein flüchtiges Schreiben, u.
                   antworten Sie mir recht bald. Mit der herzlichsten Freundschaft Ihr </quote>
                <bibl corresp="91">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -206,7 +197,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n">Indem ich Ew. Hochwohlgeb. meinen Dank für die gütige Mittheilung wiederhole,
+               <quote ana="#informal #s-m #r-n">Indem ich Ew. Hochwohlgeb. meinen Dank für die gütige Mittheilung wiederhole,
                   verbleibe ich mit den hochachtungsvollsten u. freundschaftlichsten Gesinnungen Ew.
                   Hochwohlgeb. ergebenster, </quote>
                <bibl corresp="1084">
@@ -225,7 +216,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n">Ich bitte Ew. Excellenz mir auch in diesem Jahre Ihre gütige Gewogenheit zu
+               <quote ana="#formal #s-n #r-n">Ich bitte Ew. Excellenz mir auch in diesem Jahre Ihre gütige Gewogenheit zu
                   erhalten, u. die Versicherung meiner ausgezeichnetesten Verehrung anzunehmen. </quote>
                <bibl corresp="703">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -244,7 +235,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Ich wünsche Ew. Excellenz von ganzem Herzen fortdauernde Gesundheit und
+               <quote ana="#formal #s-m #r-n">Ich wünsche Ew. Excellenz von ganzem Herzen fortdauernde Gesundheit und
                   heitre Stimmung zur Fortsetzung Ihrer unermeßlichen Forschungen und besonders zur
                   Mittheilung aus dem reichen Vorrathe. Ich bitte Sie, die Versicherung meiner
                   innigsten Verehrung und Bewunderung zu genehmigen. Ew. Excellenz gehorsamster </quote>
@@ -264,7 +255,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n">Ich verzweifle noch immer nicht, noch vor Ew. Hochwohlgebornen Abreise das
+               <quote ana="#formal #s-n #r-n">Ich verzweifle noch immer nicht, noch vor Ew. Hochwohlgebornen Abreise das
                   Vergnügen zu haben, Sie hier bei mir zu sehen, und bitte Sie indeß die
                   Versicherung meiner ausgezeichneten Hochachtung anzunehmen. </quote>
                <bibl corresp="882">
@@ -283,7 +274,7 @@
                </bibl>
             </cit>
            <cit>
-              <quote ana="#formal #n-m">Allow me, Sir, to have the pleasure of hearing from you as often as your
+              <quote ana="#formal #s-n #r-m">Allow me, Sir, to have the pleasure of hearing from you as often as your
                   leisure will permit; and accept the assurances of the very great consideration
                   with which I have the honour to be, Sir, your most obedient &amp; most humble
                   servant </quote>
@@ -302,7 +293,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Genehmigen Hochdieselben die Ausdrücke tiefster Ehrfurcht und Ergebenheit,
+               <quote ana="#formal #s-m #r-n">Genehmigen Hochdieselben die Ausdrücke tiefster Ehrfurcht und Ergebenheit,
                   womit ich verharre Ew. Excellenz unterthänigster Diener, </quote>
                <bibl corresp="281">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -320,7 +311,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-n">Erhalten Sie mir u. der Zeit, die wir vor langen Jahren zusammen zubrachten,
+               <quote ana="#informal #s-n #r-n">Erhalten Sie mir u. der Zeit, die wir vor langen Jahren zusammen zubrachten,
                   u. die mir immer sehr theuer bleibt, Ihr gütiges Andenken, u. nehmen Sie die
                   Versicherung meiner ausgezeichnetesten u. freundschaftlichsten Hochachtung an. </quote>
                <bibl corresp="606">
@@ -339,7 +330,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-n">Leben Sie recht wohl! mit herzlicher Freundschaft. <handShift scribe="wvh"
+               <quote ana="#informal #s-n #r-n">Leben Sie recht wohl! mit herzlicher Freundschaft. <handShift scribe="wvh"
                   />der Ihrige </quote>
                <bibl corresp="1007">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -356,7 +347,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Ich ergreife übrigens diese Gelegenheit, Ew. Excellenz zu versichern, daß ich
+               <quote ana="#formal #s-m #r-n">Ich ergreife übrigens diese Gelegenheit, Ew. Excellenz zu versichern, daß ich
                   jederzeit mit der vollkommensten Hochachtung und Ergebenheit verbleiben werde Ew.
                   Excellenz ergebenster Diener </quote>
                <bibl corresp="417">
@@ -374,7 +365,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-n">Leben Sie recht wohl und nehmen Sie die Versicherung meiner herzlichen und
+               <quote ana="#informal #s-n #r-n">Leben Sie recht wohl und nehmen Sie die Versicherung meiner herzlichen und
                   ausgezeichneten Hochachtung und aufrichtige Freundschaft an! </quote>
                <bibl corresp="1003">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -391,7 +382,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Ich bitte Ew. Excellenz, mich meine Langsamkeit im Briefschreiben nicht
+               <quote ana="#formal #s-m #r-n">Ich bitte Ew. Excellenz, mich meine Langsamkeit im Briefschreiben nicht
                   entgelten zu lassen, und bin mit der aufrichtigsten Verehrung und unveränderlich
                   ergebenen Gesinnungen Ew. Excellenz gehorsamster </quote>
                <bibl corresp="1079">
@@ -410,7 +401,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Mit frdsch Empfehlung von meiner Frau Aufrichtigst d Ihrige </quote>
+               <quote ana="#formal #s-m #r-n">Mit frdsch Empfehlung von meiner Frau Aufrichtigst d Ihrige </quote>
                <bibl corresp="573">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Friedrich August Rosen an Wilhelm von Humboldt, März 1831 </title>
@@ -426,7 +417,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n">In verehrungsvollster Ergebenheit </quote>
+               <quote ana="#formal #s-n #r-n">In verehrungsvollster Ergebenheit </quote>
                <bibl corresp="405">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Martin Hinrich Lichtenstein an Wilhelm von Humboldt, 18.04.1833</title>
@@ -443,7 +434,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n">In Erwartung einer baldigen Antwort auf die obige Anfrage wiederhole ich Ew.
+               <quote ana="#formal #s-n #r-n">In Erwartung einer baldigen Antwort auf die obige Anfrage wiederhole ich Ew.
                   die Versicherung meiner vollkommensten Hochachtung. </quote>
                <bibl corresp="339">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -460,7 +451,7 @@
                </bibl>
             </cit>
            <cit> 
-              <quote ana="#informal #n-n">Yrs. very faithfully. </quote>
+              <quote ana="#informal #s-n #r-n">Yrs. very faithfully. </quote>
                <bibl corresp="845">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>George Ticknor an John Pickering, 20.01.1828</title>
@@ -476,7 +467,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-n">Mein Brief ist aber von einer übermäßigen Länge geworden. Der Inhalt des
+               <quote ana="#informal #s-n #r-n">Mein Brief ist aber von einer übermäßigen Länge geworden. Der Inhalt des
                   Ihrigen hatte mich aber so angezogen, daß es mir unmöglich gewesen wäre, nicht auf
                   jede einzelne Stelle desselben wieder einzugehen. Erhalten Sie mir Ihr
                   wohlwollendes Andenken u. Ihre Freundschaft, und nehmen Sie die Versichrung meiner
@@ -497,7 +488,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Mit der herzlichsten und hochachtungsvollsten Anhänglichkeit der Ihrige, </quote>
+               <quote ana="#formal #s-m #r-n">Mit der herzlichsten und hochachtungsvollsten Anhänglichkeit der Ihrige, </quote>
                <bibl corresp="151">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Wilhelm von Humboldt an Franz Bopp, 26.09.1826</title>
@@ -513,7 +504,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Indem ich endlich Ew. Excellenz noch um Verzeihung bitte, wenn meine
+               <quote ana="#formal #s-m #r-n">Indem ich endlich Ew. Excellenz noch um Verzeihung bitte, wenn meine
                   Redseligkeit Ihnen lästig fallen sollte, unterzeichne ich mich mit der
                   Versicherung meiner innigsten Hochachtung Ew. Excellenz ganz ergebenster </quote>
                <bibl corresp="419">
@@ -531,7 +522,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Wenn die Tugend in einer Mitte zwischen zwei Extremen besteht, so übe ich sie
+               <quote ana="#formal #s-m #r-n">Wenn die Tugend in einer Mitte zwischen zwei Extremen besteht, so übe ich sie
                   beim Briefwechsel gewiß nicht aus, indem ich entweder gar nicht oder endlos lange
                   Briefe schreibe. Ich schließe mit dem Versprechen, mich wo möglich in beiden
                   Punkten zu bessern. Mit unwandelbarer Verehrung und Ergebenheit Ew. Excellenz
@@ -552,7 +543,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Hoffend bald die Ehre zu haben mich über diese Untersuchungen mit Ew
+               <quote ana="#formal #s-m #r-n">Hoffend bald die Ehre zu haben mich über diese Untersuchungen mit Ew
                   Excellenz mündlich zu besprechen, verharrt in tiefster Ehrerbietung Ew Excellenz
                   Unterthäniger </quote>
                <bibl corresp="250">
@@ -570,7 +561,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n">Verzeihen Sie die vielen Fragen. Mit herzlichster Freundschaft der Ihrige, </quote>
+               <quote ana="#informal #s-m #r-n">Verzeihen Sie die vielen Fragen. Mit herzlichster Freundschaft der Ihrige, </quote>
                <bibl corresp="761">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Wilhelm von Humboldt an Franz Bopp, 30.10.1823 (Mattson; Datierung
@@ -587,7 +578,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Ich schließe mit der Bitte, daß Ew. Hochwohlgebohrnen auch in diesem Jahre
+               <quote ana="#formal #s-m #r-n">Ich schließe mit der Bitte, daß Ew. Hochwohlgebohrnen auch in diesem Jahre
                   mir u. meinen wissenschaftlichen Beschäftigungen Ihren freundschaftlichen Antheil
                   schenken mögen, u. verbleibe mit den hochachtungsvollsten Gesinnungen u. den
                   besten Wünschen Ew. Hochwohlgeb. ergebenster, </quote>
@@ -607,7 +598,7 @@
                </bibl>
             </cit>
            <cit>
-              <quote ana="#formal #m-n">Leben Sie recht wohl, u. arbeiten Sie mit der Ruhe u. Heiterkeit, die ein
+              <quote ana="#formal #s-m #r-n">Leben Sie recht wohl, u. arbeiten Sie mit der Ruhe u. Heiterkeit, die ein
                   Gelingen der Arbeit, wie dasjenige ist, dessen Sie Sich immer erfreuen können,
                   einflößen muß. Mit hochachtungsvollster Freundschaft der Ihrige, </quote>
                <bibl corresp="1093">
@@ -626,7 +617,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Mit der wiederholten Bitte um Ihre gütige Nachsicht wegen meines langen
+               <quote ana="#formal #s-m #r-n">Mit der wiederholten Bitte um Ihre gütige Nachsicht wegen meines langen
                   Schweigens, wage ich es mich der Fortdauer Ihrer wohlwollenden Theilnahme
                   ehrerbietigst zu empfehlen, als Ew. Excellenz gehorsamster Diener </quote>
                <bibl corresp="487">
@@ -644,7 +635,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n">Ich schließe jetzt diesen langen Brief. Leben Sie herzlich wohl, verzeihen
+               <quote ana="#informal #s-m #r-n">Ich schließe jetzt diesen langen Brief. Leben Sie herzlich wohl, verzeihen
                   Sie die Länge erst meines Stillschweigens u. nun meines Schreibens u. erhalten Sie
                   mir Ihre gütigen u. wohlwollenden Gesinnungen, auf die ich so hohen Werth lege.
                   Mit der hochachtungsvollsten Freundschaft der Ihrige, </quote>
@@ -664,7 +655,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n">Ich habe Nichts beizufügen, als den innigsten Wunsch, daß <placeName
+               <quote ana="#formal #s-n #r-n">Ich habe Nichts beizufügen, als den innigsten Wunsch, daß <placeName
                      ref="Norderney">Norderney</placeName> seine ganze Kraft erproben möge, und den
                   Ausdruck der aufrichtigsten Ehrerbietung und Ergebenheit. </quote>
                <bibl corresp="503">
@@ -682,7 +673,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-n">Mit inniger Liebe </quote>
+               <quote ana="#informal #s-n #r-n">Mit inniger Liebe </quote>
                <bibl corresp="646">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Wilhelm von Humboldt an Christian Gottfried Körner, 03.01.1812</title>
@@ -699,7 +690,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Mit der innigsten Ehrerbietung und Dankbarkeit empfehle ich mich der
+               <quote ana="#formal #s-m #r-n">Mit der innigsten Ehrerbietung und Dankbarkeit empfehle ich mich der
                   Fortdauer Ihres gütigen Wohlwollens, Ew. Excellenz gehorsamster Diener </quote>
                <bibl corresp="486">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -715,8 +706,8 @@
                   </name>
                </bibl>
             </cit>
-            <cit ana="#formal #n-m">
-               <quote ana="#formal #n-m">I am with the most sincere gratitude and esteem, Sir, </quote>
+            <cit ana="#formal #s-n #r-m">
+               <quote ana="#formal #s-n #r-m">I am with the most sincere gratitude and esteem, Sir, </quote>
                <bibl corresp="311">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Wilhelm von Humboldt an Joseph John Freeman, September 1830 </title>
@@ -732,7 +723,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">und leben Sie recht wohl indeß! Adieu! Ihr </quote>
+               <quote ana="#formal #s-m #r-n">und leben Sie recht wohl indeß! Adieu! Ihr </quote>
                <bibl corresp="576">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Wilhelm von Humboldt an August Wilhelm Schlegel, 16.11.1793</title>
@@ -749,7 +740,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-m">Ich hoffe liebster Freund recht bald erwünschte Nachricht von Ihnen zu
+               <quote ana="#informal #s-n #r-m">Ich hoffe liebster Freund recht bald erwünschte Nachricht von Ihnen zu
                   erhalten und wiederhole Ihnen indeß die Versicherung meiner herzlichen und
                   aufrichtigen Hochachtung. </quote>
                <bibl corresp="1014">
@@ -767,7 +758,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Ich hoffe daß Ew Excellenz Sich werden der besten Gesundheit erfreuen und
+               <quote ana="#formal #s-m #r-n">Ich hoffe daß Ew Excellenz Sich werden der besten Gesundheit erfreuen und
                   habe die Ehre in tiefster Ehrerbietung zu verharren Ew Excellenz Unterthäniger </quote>
                <bibl corresp="248">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -784,7 +775,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-m">Ich will Sie aber nicht länger ermüden und bitte Sie, liebster Freund, nur
+               <quote ana="#informal #s-n #r-m">Ich will Sie aber nicht länger ermüden und bitte Sie, liebster Freund, nur
                   noch die Versicherung anzunehmen, daß ich, auch entfernt, Sie und Ihre so schön
                   fortschreitenden wissenschaftlichen Arbeiten mit dem lebhaftesten und
                   freundschaftlichsten Antheile begleite. </quote>
@@ -803,7 +794,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Ehrfurchtsvoll verharre ich Ew. Excellenz gehorsamster </quote>
+               <quote ana="#formal #s-m #r-n">Ehrfurchtsvoll verharre ich Ew. Excellenz gehorsamster </quote>
                <bibl corresp="481">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Friedrich August Rosen an Wilhelm von Humboldt, 20.02.1827</title>
@@ -819,7 +810,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Ich nehme mir die Freiheit diese Gelegenheit noch zu benutzen, Ew. Excellenz
+               <quote ana="#formal #s-m #r-n">Ich nehme mir die Freiheit diese Gelegenheit noch zu benutzen, Ew. Excellenz
                   hohem Wohlwollen mich angelegentlichst zu empfehlen und Ihnen die Versicherung der
                   größten Verehrung darzubringen, womit ich zu verharren die Ehre habe. Ew Excellenz
                   ganz gehorsamster Diener </quote>
@@ -838,7 +829,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n">Von Herzen Ihr </quote>
+               <quote ana="#informal #s-m #r-n">Von Herzen Ihr </quote>
                <bibl corresp="163">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Wilhelm von Humboldt an Franz Bopp, 11.03.1829 (Datierung unklar)163 </title>
@@ -854,7 +845,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Mit Verehrung und ausgezeichnetester Hochachtung habe ich die Ehre zu
+               <quote ana="#formal #s-m #r-n">Mit Verehrung und ausgezeichnetester Hochachtung habe ich die Ehre zu
                   verharren Ew Excellenz unterthänigster Diener </quote>
                <bibl corresp="470">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -873,7 +864,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Indem ich Ew. Excellenz ersuche, diese geringen Andeutungen gütigst
+               <quote ana="#formal #s-m #r-n">Indem ich Ew. Excellenz ersuche, diese geringen Andeutungen gütigst
                   anzunehmen, kann ich zugleich nicht umhin, mit der Versicherung der innigsten
                   Hochachtung mich zu unterzeichnen Ew Excellenz ergebenster </quote>
                <bibl corresp="910">
@@ -891,7 +882,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Mit der lebhaftesten Hochachtung Ew. Wohlgeb. ergebenster </quote>
+               <quote ana="#formal #s-m #r-n">Mit der lebhaftesten Hochachtung Ew. Wohlgeb. ergebenster </quote>
                <bibl corresp="88">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Wilhelm von Humboldt an Franz Bopp, 12.03.1822</title>
@@ -907,7 +898,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Ich ergreife diese Gelegenheit, um mich Ew. Excellenz’ fernerem Wohlwollen zu
+               <quote ana="#formal #s-m #r-n">Ich ergreife diese Gelegenheit, um mich Ew. Excellenz’ fernerem Wohlwollen zu
                   empfehlen und bin mit Hochachtung und Ergebenheit Ew. Hochwohlgebohren
                   gehorsamster Diener </quote>
                <bibl corresp="10">
@@ -925,7 +916,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Ehrfurchtsvoll verharre ich Ew. Excellenz gehorsamster Diener </quote>
+               <quote ana="#formal #s-m #r-n">Ehrfurchtsvoll verharre ich Ew. Excellenz gehorsamster Diener </quote>
                <bibl corresp="482">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Friedrich August Rosen an Wilhelm von Humboldt, 24.12.1827</title>
@@ -941,7 +932,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Genehmigen Hochdieselben die Gefühle tiefster Ehrfurcht, Ergebenheit und
+               <quote ana="#formal #s-m #r-n">Genehmigen Hochdieselben die Gefühle tiefster Ehrfurcht, Ergebenheit und
                   Dankbarkeit, womit ich verharre Ew. Excellenz unterthänigster Diener, </quote>
                <bibl corresp="284">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -959,7 +950,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Mit aufrichtiger Ehrerbietung empfehle ich mich der Fortdauer Ihres gütigen
+               <quote ana="#formal #s-m #r-n">Mit aufrichtiger Ehrerbietung empfehle ich mich der Fortdauer Ihres gütigen
                   Wohlwollens Ew. Excellenz gehorsamster </quote>
                <bibl corresp="490">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -976,7 +967,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n">Verzeihen Sie die vielen Bitten und leben Sie recht herzlich wohl. Mit der
+               <quote ana="#informal #s-m #r-n">Verzeihen Sie die vielen Bitten und leben Sie recht herzlich wohl. Mit der
                   aufrichtigsten und Hochachtungsvollsten Freundschaft. <handShift scribe="wvh"/>Der
                   Ihrige, </quote>
                <bibl corresp="1004">
@@ -994,7 +985,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Ew Excellenz <sic>Unterthanig</sic> gehorsamster </quote>
+               <quote ana="#formal #s-m #r-n">Ew Excellenz <sic>Unterthanig</sic> gehorsamster </quote>
                <bibl corresp="259">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Franz Bopp an Wilhelm von Humboldt, 08.06.1825</title>
@@ -1010,7 +1001,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-m">
+               <quote ana="#formal #s-m #r-m">
                   <add>Je Vous supplie, M<hi rend="superscript">r</hi>. le Baron, d’agréer
                      l’assurance renouvellée de la haute considération avec laquelle j’ai l’honneur
                      d’être, M<hi rend="superscript">r</hi>. le Baron de VE. le très-humble &amp;
@@ -1032,7 +1023,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-m">Veuillez, Monsieur, agréer l’<unclear>assurance</unclear> réitérée des
+               <quote ana="#formal #s-m #r-m">Veuillez, Monsieur, agréer l’<unclear>assurance</unclear> réitérée des
                   sentimens très-distingués avec lesquels j’ai l’honneur d’être, Monsieur, Votre
                   très-humble &amp; très-obéissant serviteur, </quote>
                <bibl corresp="870">
@@ -1051,7 +1042,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-m">Mit der vollkommensten Hochachtung nenne ich mich Ew: Excellenz! ganz
+               <quote ana="#formal #s-n #r-m">Mit der vollkommensten Hochachtung nenne ich mich Ew: Excellenz! ganz
                   ergebener Diener </quote>
                <bibl corresp="425">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -1068,7 +1059,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n">Empfangen Ew. Wohlgeboren die Versicherung meiner ausgezeichneten
+               <quote ana="#formal #s-n #r-n">Empfangen Ew. Wohlgeboren die Versicherung meiner ausgezeichneten
                   Hochachtung. </quote>
                <bibl corresp="996">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -1085,7 +1076,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-m">J’ai l’honneur d’être avec la considération la plus distinguée, Monsieur,
+               <quote ana="#formal #s-n #r-m">J’ai l’honneur d’être avec la considération la plus distinguée, Monsieur,
                   Votre </quote>
                <bibl corresp="337">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -1101,7 +1092,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Ew. Excellenz gehorsamster Diener </quote>
+               <quote ana="#formal #s-m #r-n">Ew. Excellenz gehorsamster Diener </quote>
                <bibl corresp="49">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>August von Liebermann an Wilhelm von Humboldt, 16.12.1827</title>
@@ -1117,7 +1108,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Mit der hochachtungsvollsten Ergebenheit Ihr </quote>
+               <quote ana="#formal #s-m #r-n">Mit der hochachtungsvollsten Ergebenheit Ihr </quote>
                <bibl corresp="136">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Wilhelm von Humboldt an Franz Bopp, 13.03.1824 (Mattson)136 </title>
@@ -1131,7 +1122,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-m">Mit der hochachtungsvollsten Freundschaft <handShift scribe="wvh"/>der
+               <quote ana="#informal #s-n #r-m">Mit der hochachtungsvollsten Freundschaft <handShift scribe="wvh"/>der
                   Ihrige, </quote>
                <bibl corresp="202">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -1148,7 +1139,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Genehmigen Hochdieselben die Gefühle tiefster Ehrfurcht und Ergebenheit,
+               <quote ana="#formal #s-m #r-n">Genehmigen Hochdieselben die Gefühle tiefster Ehrfurcht und Ergebenheit,
                   womit ich verharre Ew. Excellenz unterthänigster Diener, </quote>
                <bibl corresp="298">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -1166,7 +1157,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n">Mit inniger Freundschaft der Ihrige, </quote>
+               <quote ana="#informal #s-m #r-n">Mit inniger Freundschaft der Ihrige, </quote>
                <bibl corresp="648">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Wilhelm von Humboldt an Friedrich Gottlieb Welcker, 27.01.1817</title>
@@ -1183,7 +1174,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n">Leben Sie recht wohl! </quote>
+               <quote ana="#formal #s-n #r-n">Leben Sie recht wohl! </quote>
                <bibl corresp="997">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Wilhelm von Humboldt an Friedrich August Rosen, 24.04.1827</title>
@@ -1200,7 +1191,7 @@
             </cit>
            
             <cit>
-               <quote ana="#formal #m-n">In tiefster Ehrerbietung Ew. Excellenz Unterthänigster </quote>
+               <quote ana="#formal #s-m #r-n">In tiefster Ehrerbietung Ew. Excellenz Unterthänigster </quote>
                <bibl corresp="95">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Franz Bopp an Wilhelm von Humboldt, 16.03.1823 (?)95 </title>
@@ -1216,7 +1207,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n">Sagen Sie mir doch ob ich bald etwas von Ihnen erhalten kann, und leben Sie
+               <quote ana="#informal #s-m #r-n">Sagen Sie mir doch ob ich bald etwas von Ihnen erhalten kann, und leben Sie
                   recht wohl. Mit der innigsten Freundschaft <handShift scribe="wvh"/> der Ihrige </quote>
                <bibl corresp="171">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -1233,7 +1224,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n">Genehmigen Hochdieselben die Gefühle tiefster Ehrfurcht, Ergebenheit und
+               <quote ana="#informal #s-m #r-n">Genehmigen Hochdieselben die Gefühle tiefster Ehrfurcht, Ergebenheit und
                   Dankbarkeit, womit ich verharre Ew. Excellenz unterthänigster Diener, </quote>
                <bibl corresp="300">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -1251,7 +1242,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n">
+               <quote ana="#informal #s-m #r-n">
                   <handShift scribe="wvh"/> Mit herzlicher Freundschaft Ihr </quote>
                <bibl corresp="201">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -1268,7 +1259,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-m">with apologies for the delay that has occured, I have the honour to be, with
+               <quote ana="#formal #s-m #r-m">with apologies for the delay that has occured, I have the honour to be, with
                   the highest respect, My dear Sir, Your faithful &amp; obedient servant </quote>
                <bibl corresp="415">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -1285,7 +1276,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n">Meinen lebhaften Glückwunsch zu der Wiedererlangung dieser litterarischen
+               <quote ana="#formal #s-n #r-n">Meinen lebhaften Glückwunsch zu der Wiedererlangung dieser litterarischen
                   Schätze wiederholend, ersuche ich Ew: Wohlgeboren zugleich die Versicherung meiner
                   vollkommensten Hochachtung anzunehmen. </quote>
                <bibl corresp="929">
@@ -1303,7 +1294,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Ich ergreife endlich diese Gelegenheit, hier die Versicherung hinzuzufügen,
+               <quote ana="#formal #s-m #r-n">Ich ergreife endlich diese Gelegenheit, hier die Versicherung hinzuzufügen,
                   daß ich jederzeit mit der vollkommensten Hochachtung und Verehrung sein werde Ew.
                   Excellenz ergebenster </quote>
                <bibl corresp="418">
@@ -1321,7 +1312,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Leben Sie herzlich wohl! Ihr </quote>
+               <quote ana="#formal #s-m #r-n">Leben Sie herzlich wohl! Ihr </quote>
                <bibl corresp="160">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Wilhelm von Humboldt an Franz Bopp, 02.11.1828</title>
@@ -1337,7 +1328,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n">Empfangen Ew. Wohlgeb. die erneuerte Versicherung meiner herzlichen u.
+               <quote ana="#formal #s-n #r-n">Empfangen Ew. Wohlgeb. die erneuerte Versicherung meiner herzlichen u.
                   ausgezeichneten Hochachtung. </quote>
                <bibl corresp="80">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -1354,7 +1345,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n">Mit der innigsten u. hochachtungsvollsten Freundschaft der Ihrige </quote>
+               <quote ana="#informal #s-m #r-n">Mit der innigsten u. hochachtungsvollsten Freundschaft der Ihrige </quote>
                <bibl corresp="1066">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Wilhelm von Humboldt an Friedrich Gottlieb Welcker, 03.12.1828</title>
@@ -1371,7 +1362,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-n">u. bitte Sie, die Versichrung meiner herzlichsten u. hochachtungsvollsten
+               <quote ana="#informal #s-n #r-n">u. bitte Sie, die Versichrung meiner herzlichsten u. hochachtungsvollsten
                   Freundschaft anzunehmen. </quote>
                <bibl corresp="1087">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -1389,7 +1380,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Ich empfehle mich angelegentlich zu ferneren Mittheilungen, und bin mit der
+               <quote ana="#formal #s-m #r-n">Ich empfehle mich angelegentlich zu ferneren Mittheilungen, und bin mit der
                   ausgezeichnetsten Verehrung Ew. Excellenz gehorsamster </quote>
                <bibl corresp="1072">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -1406,7 +1397,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Mit der innigsten Ehrerbietung und Dankbarkeit empfehle ich mich der
+               <quote ana="#formal #s-m #r-n">Mit der innigsten Ehrerbietung und Dankbarkeit empfehle ich mich der
                   Fortdauer Ihres gütigen Wohlwollens, als Ew. Excellenz gehorsamster Diener </quote>
                <bibl corresp="484">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -1423,7 +1414,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-m">I have the honor to remain Sir Your most obliged &amp; faithful Ser.<hi
+               <quote ana="#formal #s-m #r-m">I have the honor to remain Sir Your most obliged &amp; faithful Ser.<hi
                      rend="superscript">t</hi>
                </quote>
                <bibl corresp="310">
@@ -1441,7 +1432,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-n">Empfangen Ew. Wohlgebohren die ausgezeichneteste und freundschaftlichste
+               <quote ana="#informal #s-n #r-n">Empfangen Ew. Wohlgebohren die ausgezeichneteste und freundschaftlichste
                   Versicherung meiner Hochachtung </quote>
                <bibl corresp="170">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -1458,7 +1449,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Mit der herzlichsten und ausgezeichnetesten Hochachtung ganz der Ihrige </quote>
+               <quote ana="#formal #s-m #r-n">Mit der herzlichsten und ausgezeichnetesten Hochachtung ganz der Ihrige </quote>
                <bibl corresp="1104">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Wilhelm von Humboldt an August Wilhelm von Schlegel, 16.06.1829</title>
@@ -1475,7 +1466,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Mit der hochachtungsvollsten Freundschaft der Ihrige, </quote>
+               <quote ana="#formal #s-m #r-n">Mit der hochachtungsvollsten Freundschaft der Ihrige, </quote>
                <bibl corresp="135">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Wilhelm von Humboldt an Franz Bopp, 07.03.1824 (Mattson)135 </title>
@@ -1489,7 +1480,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Ehrerbietigst empfehle ich mich der Fortdauer Ihres gütigen Wohlwollens, Ew.
+               <quote ana="#formal #s-m #r-n">Ehrerbietigst empfehle ich mich der Fortdauer Ihres gütigen Wohlwollens, Ew.
                   Excellenz gehorsamster </quote>
                <bibl corresp="55">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -1506,7 +1497,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Ehrerbietigst empfehle ich mich als Ew. Excellenz gehorsamster </quote>
+               <quote ana="#formal #s-m #r-n">Ehrerbietigst empfehle ich mich als Ew. Excellenz gehorsamster </quote>
                <bibl corresp="480">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Friedrich August Rosen an Wilhelm von Humboldt, 01.03.1826</title>
@@ -1522,7 +1513,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Euer Excellenz unterthäniger Diener, </quote>
+               <quote ana="#formal #s-m #r-n">Euer Excellenz unterthäniger Diener, </quote>
                <bibl corresp="897">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Carl Friedrich Philipp von Martius an Wilhelm von Humboldt, 06.08.1827</title>
@@ -1539,7 +1530,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Genehmigen Hochdieselben die Gefühle tiefster Ehrfurcht und Ergebenheit,
+               <quote ana="#formal #s-m #r-n">Genehmigen Hochdieselben die Gefühle tiefster Ehrfurcht und Ergebenheit,
                   womit ich verharre Ew. Excellenz unterthänigster Diener, </quote>
                <bibl corresp="282">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -1557,7 +1548,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">In tiefster Ehrerbietung Ew Excellenz ganz gehorsamster </quote>
+               <quote ana="#formal #s-m #r-n">In tiefster Ehrerbietung Ew Excellenz ganz gehorsamster </quote>
                <bibl corresp="269">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Franz Bopp an Wilhelm von Humboldt, 21.05.1833</title>
@@ -1573,7 +1564,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-m">I am with great esteem &amp; regard My dear Baron Most truly yours </quote>
+               <quote ana="#formal #s-m #r-m">I am with great esteem &amp; regard My dear Baron Most truly yours </quote>
                <bibl corresp="387">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Sir Alexander Johnston an Wilhelm von Humboldt, 05.05.1831</title>
@@ -1589,7 +1580,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-m">In tiefster Verehrung verharrt, Hochgebietender Herr Minister, Ew. Excellenz
+               <quote ana="#formal #s-m #r-m">In tiefster Verehrung verharrt, Hochgebietender Herr Minister, Ew. Excellenz
                   Unterthänigster </quote>
                <bibl corresp="79">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -1606,7 +1597,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n">Genehmigen Ew. Hochwohlgebohren die Versicherung meiner ausgezeichnetsten
+               <quote ana="#formal #s-n #r-n">Genehmigen Ew. Hochwohlgebohren die Versicherung meiner ausgezeichnetsten
                   Hochachtung u. aufrichtigen Ergebenheit. </quote>
                <bibl corresp="850">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -1624,7 +1615,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Mit der innigsten Verehrung beharre ich Ew. Excellenz gehorsamster </quote>
+               <quote ana="#formal #s-m #r-n">Mit der innigsten Verehrung beharre ich Ew. Excellenz gehorsamster </quote>
                <bibl corresp="500">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Friedrich Wilken an Wilhelm von Humboldt, 02.02.1833</title>
@@ -1640,7 +1631,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-m">I have the honour to be Sir, your most obedient &amp; faithful servant </quote>
+               <quote ana="#formal #s-m #r-m">I have the honour to be Sir, your most obedient &amp; faithful servant </quote>
                <bibl corresp="449">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>John Pickering an Wilhelm von Humboldt, 14.01.1828</title>
@@ -1656,7 +1647,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-m">&amp; c’est en Vous <pb n="83v"/>réitérant mes sincères remerciemens aussi
+               <quote ana="#formal #s-m #r-m">&amp; c’est en Vous <pb n="83v"/>réitérant mes sincères remerciemens aussi
                   que l’assurance de ma profonde éstime &amp; de ma considération très-distinguée
                   que je suis, Monsieur, Vôtre très-humble &amp; très-obéissant Serviteur, </quote>
                <bibl corresp="1116">
@@ -1674,7 +1665,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n">Leben Sie herzlich wohl! Mit der aufrichtigsten Freundschaft <handShift
+               <quote ana="#informal #s-m #r-n">Leben Sie herzlich wohl! Mit der aufrichtigsten Freundschaft <handShift
                      scribe="wvh"/> der Ihrige </quote>
                <bibl corresp="172">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -1691,7 +1682,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-n">Ich bitte Ew. Hochwohlgebornen, mir Ihre gütige Theilnahme und Ihr
+               <quote ana="#informal #s-n #r-n">Ich bitte Ew. Hochwohlgebornen, mir Ihre gütige Theilnahme und Ihr
                   freundschaftliches Vertrauen zu erhalten, und wiederhole Ihnen die Versicherung
                   meiner ausgezeichnetesten Hochachtung. </quote>
                <bibl corresp="1105">
@@ -1710,7 +1701,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Genehmigen Hochdieselben die Gefühle tiefster Ehrfurcht und Ergebenheit,
+               <quote ana="#formal #s-m #r-n">Genehmigen Hochdieselben die Gefühle tiefster Ehrfurcht und Ergebenheit,
                   womit ich verharre Ew. Excellenz unterthänigster Diener, </quote>
                <bibl corresp="293">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -1728,7 +1719,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-m">Señor de V. E. su mas obsequente y rendido servidor D.S.M.B. </quote>
+               <quote ana="#formal #s-m #r-m">Señor de V. E. su mas obsequente y rendido servidor D.S.M.B. </quote>
                <bibl corresp="370">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Francisco Garcia Huydobro an Wilhelm von Humboldt, 07.02.1828</title>
@@ -1745,7 +1736,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">u. wiederhole Ihnen die Versichrung der Gesinnungen der hochachtungsvollsten
+               <quote ana="#formal #s-m #r-n">u. wiederhole Ihnen die Versichrung der Gesinnungen der hochachtungsvollsten
                   Freundschaft, mit welcher ich verharre Ew. Hochwohlgeb. ergebenster, </quote>
                <bibl corresp="1085">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -1763,7 +1754,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Ew. Wohlgebornen ergebenster, </quote>
+               <quote ana="#formal #s-m #r-n">Ew. Wohlgebornen ergebenster, </quote>
                <bibl corresp="1057">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Wilhelm von Humboldt an Bartholomäus Kopitar, 18.08.1826</title>
@@ -1779,7 +1770,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Mit unveränderlicher Verehrung Ew. Excellenz ganz gehorsamster </quote>
+               <quote ana="#formal #s-m #r-n">Mit unveränderlicher Verehrung Ew. Excellenz ganz gehorsamster </quote>
                <bibl corresp="673">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Christian Karl Josias Bunsen an Wilhelm von Humboldt, 06.12.1826</title>
@@ -1796,7 +1787,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">&amp;. soy con la mayor consideracion su att.<hi rend="superscript">o</hi> y
+               <quote ana="#formal #s-m #r-n">&amp;. soy con la mayor consideracion su att.<hi rend="superscript">o</hi> y
                   S. S. </quote>
                <bibl corresp="865">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -1813,7 +1804,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Mit der größten Hochachtung habe ich die Ehre zu seyn Ew Excellenz
+               <quote ana="#formal #s-m #r-n">Mit der größten Hochachtung habe ich die Ehre zu seyn Ew Excellenz
                   ergebenster </quote>
                <bibl corresp="321">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -1830,7 +1821,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Ich wünsche Ew. Excellenz einen recht heitern Sommeraufenthalt in vollkommnem
+               <quote ana="#formal #s-m #r-n">Ich wünsche Ew. Excellenz einen recht heitern Sommeraufenthalt in vollkommnem
                   Wohlseyn mit den Ihrigen. Mit der aufrichtigsten Verehrung und Ergebenheit Ew.
                   Excellenz gehorsamster </quote>
                <bibl corresp="1078">
@@ -1849,7 +1840,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">In tiefster Ehrerbietung Ew Excellenz Unterthäniger </quote>
+               <quote ana="#formal #s-m #r-n">In tiefster Ehrerbietung Ew Excellenz Unterthäniger </quote>
                <bibl corresp="249">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Franz Bopp an Wilhelm von Humboldt, 27.02.1822</title>
@@ -1865,7 +1856,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-n">Empfangen Sie die erneuerte Versicherung meiner herzlichsten und
+               <quote ana="#informal #s-n #r-n">Empfangen Sie die erneuerte Versicherung meiner herzlichsten und
                   hochachtungsvollsten Freundschaft. </quote>
                <bibl corresp="194">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -1882,7 +1873,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n">Mit hochachtungsvollster Freundschaft der Ihrige, </quote>
+               <quote ana="#informal #s-m #r-n">Mit hochachtungsvollster Freundschaft der Ihrige, </quote>
                <bibl corresp="133">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Wilhelm von Humboldt an Franz Bopp, 30.03.1824</title>
@@ -1898,7 +1889,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Genehmigen Hochdieselben die Gefühle tiefster Ehrfurcht und Ergebenheit,
+               <quote ana="#formal #s-m #r-n">Genehmigen Hochdieselben die Gefühle tiefster Ehrfurcht und Ergebenheit,
                   womit ich verharre Ew. Excellenz unterthänigster Diener, </quote>
                <bibl corresp="296">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -1916,7 +1907,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-m">Believe me, My dear Baron Most truly yours </quote>
+               <quote ana="#formal #s-m #r-m">Believe me, My dear Baron Most truly yours </quote>
                <bibl corresp="385">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Sir Alexander Johnston an Wilhelm von Humboldt, 08.10.1830</title>
@@ -1934,7 +1925,7 @@
            
            
             <cit>
-               <quote ana="#formal #n-n">Empfangen Ew. Hochwohlgeboren die Versicherung meiner ausgezeichneten
+               <quote ana="#formal #s-n #r-n">Empfangen Ew. Hochwohlgeboren die Versicherung meiner ausgezeichneten
                   Hochachtung. </quote>
                <bibl corresp="1052">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -1951,7 +1942,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-m">Je vous prie, Monsieur le Baron de vouloir bien agréer l’expression de ma
+               <quote ana="#formal #s-m #r-m">Je vous prie, Monsieur le Baron de vouloir bien agréer l’expression de ma
                   consideration la plus distinguée et la mieux sentie </quote>
                <bibl corresp="379">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -1969,7 +1960,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-n">Leben Sie herzlich wohl, erhalten Sie mir Ihre gütigen u. wohlwollenden
+               <quote ana="#informal #s-n #r-n">Leben Sie herzlich wohl, erhalten Sie mir Ihre gütigen u. wohlwollenden
                   Gesinnungen, u. seyn Sie meiner hochachtungsvollsten u. unveränderlichen
                   Freundschaft gewiß. </quote>
                <bibl corresp="572">
@@ -1987,7 +1978,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n">Leben Sie recht wohl, grüßen Sie <persName ref="bopp">
+               <quote ana="#formal #s-n #r-n">Leben Sie recht wohl, grüßen Sie <persName ref="bopp">
                      <hi rend="antiqua">Bopp</hi>
                   </persName> herzlich von mir, und seyn Sie der ununterbrochnen Dauer meiner
                   vorzüglichen Hochachtung gewiß. </quote>
@@ -2006,7 +1997,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n">Leben Sie indeß recht wohl, und seyn Sie meiner hochachtungsvollsten und
+               <quote ana="#formal #s-n #r-n">Leben Sie indeß recht wohl, und seyn Sie meiner hochachtungsvollsten und
                   aufrichtigsten Theilnahme versichert. </quote>
                <bibl corresp="1112">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -2023,7 +2014,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-m">Veuillez, Monsieur, pardonner la longueur presqu’indiscrète de cette lettre,
+               <quote ana="#formal #s-m #r-m">Veuillez, Monsieur, pardonner la longueur presqu’indiscrète de cette lettre,
                   &amp; agréez l’assurance de la considération très-distinguée avec laquelle j’ai
                   l’honneur d’être, Monsieur, Vôtre très-humble &amp; très-obéissant Serviteur, </quote>
                <bibl corresp="1117">
@@ -2041,7 +2032,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Mit der herzlichsten und hochachtungsvollsten Freundschaft der Ihrige, </quote>
+               <quote ana="#formal #s-m #r-n">Mit der herzlichsten und hochachtungsvollsten Freundschaft der Ihrige, </quote>
                <bibl corresp="186">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Wilhelm von Humboldt an Franz Bopp, 10.02.1832</title>
@@ -2057,7 +2048,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Genehmigen Ewr. Excellenz bey dieser Veranlassung gütigst den erneuten
+               <quote ana="#formal #s-m #r-n">Genehmigen Ewr. Excellenz bey dieser Veranlassung gütigst den erneuten
                   Ausdruck der ausgezeichnetsten Hochachtung und Respectsvollen Ergebenheit, womit
                   ich die Ehre habe zu verharren Ew. Excellenz ganz gehorsamster Diener </quote>
                <bibl corresp="48">
@@ -2075,7 +2066,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n">Mit herzlicher Hochachtung und Freundschaft. Der<note type="footnote"
+               <quote ana="#informal #s-m #r-n">Mit herzlicher Hochachtung und Freundschaft. Der<note type="footnote"
                      resp="editor">Leitzmann ändert „Freundschaft. |Absatz| Der“ zu „Freundschaft
                      |Absatz| der“.</note> Ihrige, </quote>
                <bibl corresp="531">
@@ -2094,7 +2085,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n">Genehmigen Ew. Wohlgebornen die Versicherung meiner wahren und
+               <quote ana="#formal #s-n #r-n">Genehmigen Ew. Wohlgebornen die Versicherung meiner wahren und
                   ausgezeichneten Hochachtung und Ergebenheit. </quote>
                <bibl corresp="542">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -2111,7 +2102,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n">Erhalten Sie mir Ihr gütiges Andenken und erlauben Sie mir, Ihnen die
+               <quote ana="#formal #s-n #r-n">Erhalten Sie mir Ihr gütiges Andenken und erlauben Sie mir, Ihnen die
                   Versicherung meiner ausgezeichneten Hochachtung zu wiederholen. </quote>
                <bibl corresp="1109">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -2131,7 +2122,7 @@
            
            
             <cit>
-               <quote ana="#informal #m-n">Leben Sie herzlich u. innigst wohl! Ihr </quote>
+               <quote ana="#informal #s-m #r-n">Leben Sie herzlich u. innigst wohl! Ihr </quote>
                <bibl corresp="1111">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Wilhelm von Humboldt an Friedrich Gottlieb Welcker, 18.03.1812</title>
@@ -2148,7 +2139,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-m">Empfangen Sie theuerster Freund die erneuerte Versicherung meiner
+               <quote ana="#informal #s-n #r-m">Empfangen Sie theuerster Freund die erneuerte Versicherung meiner
                   ausgezeichneten und freundschaftlichen Hochachtung. </quote>
                <bibl corresp="193">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -2165,7 +2156,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n">Ich bitte Ew. Wohlgeboren die Ausführlichkeit dieses Schreibens gütigst zu
+               <quote ana="#formal #s-n #r-n">Ich bitte Ew. Wohlgeboren die Ausführlichkeit dieses Schreibens gütigst zu
                   entschuldigen und die Versicherung meiner vollkommensten Hochachtung anzunehmen. </quote>
                <bibl corresp="912">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -2182,7 +2173,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Genehmigen Hochdieselben die Gefühle tiefster Ehrfurcht und Ergebenheit,
+               <quote ana="#formal #s-m #r-n">Genehmigen Hochdieselben die Gefühle tiefster Ehrfurcht und Ergebenheit,
                   womit ich verharre Ew. Excellenz unterthänigster Diener, </quote>
                <bibl corresp="288">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -2200,7 +2191,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n">Indem ich E. Wohlgeboren meinen herzlichen Dank, u. meine wärmsten Wünsche
+               <quote ana="#formal #s-n #r-n">Indem ich E. Wohlgeboren meinen herzlichen Dank, u. meine wärmsten Wünsche
                   für den glücklichen Erfolg Ihrer wichtigen wissenschaftlichen Untersuchungen
                   wiederhole, bitte ich Sie die Versicherung meiner aufrichtigsten u.
                   ausgezeichneten Hochachtung anzunehmen. </quote>
@@ -2220,7 +2211,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-m">En attendant je Vous prie de me croire avec la considération la plus
+               <quote ana="#formal #s-m #r-m">En attendant je Vous prie de me croire avec la considération la plus
                   distinguée, Monsieur Votre très-humble et très-obéissant serviteur, </quote>
                <bibl corresp="793">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -2237,7 +2228,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-n">Leben Sie herzlich wohl. Mit der innigsten und hochachtungsvollsten
+               <quote ana="#informal #s-n #r-n">Leben Sie herzlich wohl. Mit der innigsten und hochachtungsvollsten
                   Freundschaft, <handShift scribe="wvh"/> der Ihrige, </quote>
                <bibl corresp="1018">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -2254,7 +2245,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Ich schließe hier u. verharre mit der ausgezeichnetesten Hochachtung u.
+               <quote ana="#formal #s-m #r-n">Ich schließe hier u. verharre mit der ausgezeichnetesten Hochachtung u.
                   herzlichsten Ergebenheit der Ihrige, </quote>
                <bibl corresp="1086">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -2272,7 +2263,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n">Genehmigen Ew. Excellenz die Versicherung meiner innigsten Hochachtung und
+               <quote ana="#formal #s-n #r-n">Genehmigen Ew. Excellenz die Versicherung meiner innigsten Hochachtung und
                   Verehrung </quote>
                <bibl corresp="437">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -2290,7 +2281,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Ew: Excellenz ganz ergebenster Diener </quote>
+               <quote ana="#formal #s-m #r-n">Ew: Excellenz ganz ergebenster Diener </quote>
                <bibl corresp="1037">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Friedrich Wilhelm Constantin von Knobelsdorff an Wilhelm von Humboldt,
@@ -2308,7 +2299,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-m">
+               <quote ana="#formal #s-n #r-m">
                   <add>J’ai l’honneur d’être avec la considération la plus distinguée,
                      Monsieur,</add>
                </quote>
@@ -2328,7 +2319,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-m">J’ai l’honneur d’offrir à votre Excellence quatre ouvrages cijoints <add>ou
+               <quote ana="#formal #s-m #r-m">J’ai l’honneur d’offrir à votre Excellence quatre ouvrages cijoints <add>ou
                      dans quelques jours</add> comme tèmoignage de la parfaite bienveillance et de
                   l’affection la plus distinguée avec lesquelles j’ai l’honneur d’être. Monseigneur!
                   De votre Excellence le plus obèissant et le plus devoué Serviteur </quote>
@@ -2350,7 +2341,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Euer Excellenz ganz gehorsamster </quote>
+               <quote ana="#formal #s-m #r-n">Euer Excellenz ganz gehorsamster </quote>
                <bibl corresp="397">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Carl Wilhelm Koppe an Wilhelm von Humboldt, 25.04.1830</title>
@@ -2366,7 +2357,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n">Ich empfehle mich Ew. Hochwohlgebohrnen gütigem Andenken u. verbleibe mit der
+               <quote ana="#formal #s-n #r-n">Ich empfehle mich Ew. Hochwohlgebohrnen gütigem Andenken u. verbleibe mit der
                   ausgezeichnetesten Hochachtung
                </quote>
                <bibl corresp="1098">
@@ -2385,7 +2376,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n">Leben Sie herzlich wohl! Mit der hochachtungsvollsten Freundschaft der
+               <quote ana="#informal #s-m #r-n">Leben Sie herzlich wohl! Mit der hochachtungsvollsten Freundschaft der
                   Ihrige, </quote>
                <bibl corresp="144">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -2400,7 +2391,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n">Ich will aber Ew. Hochwohlgebornen heute in der That nicht mit einem zweiten
+               <quote ana="#informal #s-m #r-n">Ich will aber Ew. Hochwohlgebornen heute in der That nicht mit einem zweiten
                   Bogen ermüden, sondern hier mit dem herzlichen Wunsche schließen, daß Sie mögen in
                   vollkommner Gesundheit u. Heiterkeit Ihre so treflichen Arbeiten u. Studien
                   fortsetzen können, u. nur die Bitte um die Fortdauer Ihres gütigen u.
@@ -2422,7 +2413,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-m">I am, Dear Sir Yours very faithfully </quote>
+               <quote ana="#formal #s-n #r-m">I am, Dear Sir Yours very faithfully </quote>
                <bibl corresp="382">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Sir Alexander Johnston an Wilhelm von Humboldt, 15.10.1827</title>
@@ -2438,7 +2429,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n">I am, Sir, with the highest respect your very obedient servant </quote>
+               <quote ana="#formal #s-n #r-n">I am, Sir, with the highest respect your very obedient servant </quote>
                <bibl corresp="460">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>John Pickering an Wilhelm von Humboldt, 26.07.1834</title>
@@ -2454,7 +2445,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Ich habe die Ehre, mit der ausgezeichnetsten Hochachtung zu verharren. Ew.
+               <quote ana="#formal #s-m #r-n">Ich habe die Ehre, mit der ausgezeichnetsten Hochachtung zu verharren. Ew.
                   Hochwohlgeb. ergebenster </quote>
                <bibl corresp="879">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -2472,7 +2463,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Ihren ferneren Befehlen entgegensehend, verharre ich in tiefster Ehrfurcht
+               <quote ana="#formal #s-m #r-n">Ihren ferneren Befehlen entgegensehend, verharre ich in tiefster Ehrfurcht
                   und Ergebenheit Ew. Excellenz unterthänigster Diener, </quote>
                <bibl corresp="294">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -2490,7 +2481,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n">Leben Sie herzlich wohl, u. lassen Sie mich bald hören, daß der Frühling jede
+               <quote ana="#informal #s-m #r-n">Leben Sie herzlich wohl, u. lassen Sie mich bald hören, daß der Frühling jede
                   der Klagen verscheucht hat, die Ihr <ref type="link" target="1076">Brief</ref>
                   über Ihre Gesundheit enthält. Ich bin sehr wohl, u. habe auch von dem Winter wenig
                   gelitten, allein mich ihm auch fast nicht ausgesetzt. Mit der hochachtungsvollsten
@@ -2511,7 +2502,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Ich wünsche von ganzem Herzen, daß Ew. Excellenz der vollkommensten
+               <quote ana="#formal #s-m #r-n">Ich wünsche von ganzem Herzen, daß Ew. Excellenz der vollkommensten
                   Gesundheit und Heiterkeit bey diesen mühseligen Arbeiten genießen mögen, welche
                   der Wissenschaft so große Resultate versprechen, und verbleibe mit unbegränzter
                   Verehrung Ew. Excellenz unterthänig gehorsamster </quote>
@@ -2531,7 +2522,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n">Leben Sie herzlich wohl Mit innigster Freundschaft <handShift scribe="wvh"/>
+               <quote ana="#informal #s-m #r-n">Leben Sie herzlich wohl Mit innigster Freundschaft <handShift scribe="wvh"/>
                   der Ihrige, </quote>
                <bibl corresp="1062">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -2549,7 +2540,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Genehmigen Hochdieselben die Gefühle tiefster Ehrfurcht und Ergebenheit,
+               <quote ana="#formal #s-m #r-n">Genehmigen Hochdieselben die Gefühle tiefster Ehrfurcht und Ergebenheit,
                   womit ich verharre Ew. Excellenz unterthänigster Diener, </quote>
                <bibl corresp="290">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -2567,7 +2558,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Mit den hochachtungsvollsten Gesinnungen Ew. Wohlgeb. ergebenster </quote>
+               <quote ana="#formal #s-m #r-n">Mit den hochachtungsvollsten Gesinnungen Ew. Wohlgeb. ergebenster </quote>
                <bibl corresp="89">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Wilhelm von Humboldt an Franz Bopp, 18.03.1822</title>
@@ -2583,7 +2574,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-m">Veuillez agréer, Monsieur, l’assurance de la considération très-distinguée
+               <quote ana="#formal #s-n #r-m">Veuillez agréer, Monsieur, l’assurance de la considération très-distinguée
                   avec laquelle j’ai l’honneur d’être, Monsieur, </quote>
                <bibl corresp="342">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -2598,7 +2589,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Mit schuldiger Verehrung Euer Excellenz gehorsamster Diener </quote>
+               <quote ana="#formal #s-m #r-n">Mit schuldiger Verehrung Euer Excellenz gehorsamster Diener </quote>
                <bibl corresp="313">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Jakob Friedrich Fries an Wilhelm von Humboldt, 26.–27.01.1827</title>
@@ -2612,7 +2603,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n">Ich empfehle mich nochmals Euer Excellenz gütigem Andenken. </quote>
+               <quote ana="#formal #s-n #r-n">Ich empfehle mich nochmals Euer Excellenz gütigem Andenken. </quote>
                <bibl corresp="313">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Jakob Friedrich Fries an Wilhelm von Humboldt, 26.–27.01.1827</title>
@@ -2626,7 +2617,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Ich habe die Ehre mit der ausgezeichnetsten Hochachtung u. der aufrichtigsten
+               <quote ana="#formal #s-m #r-n">Ich habe die Ehre mit der ausgezeichnetsten Hochachtung u. der aufrichtigsten
                   Anhänglichkeit zu verbleiben Ew. Wohlgeb. ergebenster, </quote>
                <bibl corresp="1034">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -2644,7 +2635,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Mit der <sic>grösten</sic> Hochachtung Ew. Excellenz ganz ergebenster </quote>
+               <quote ana="#formal #s-m #r-n">Mit der <sic>grösten</sic> Hochachtung Ew. Excellenz ganz ergebenster </quote>
                <bibl corresp="441">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Gustav Parthey an Wilhelm von Humboldt, 23.11.1833</title>
@@ -2660,7 +2651,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Mit der aufrichtigsten Hochachtung der Ihrige, </quote>
+               <quote ana="#formal #s-m #r-n">Mit der aufrichtigsten Hochachtung der Ihrige, </quote>
                <bibl corresp="158">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Wilhelm von Humboldt an Franz Bopp, 25.11.1827</title>
@@ -2676,7 +2667,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Ich ergreife mit wahrem Vergnügen diese Gelegenheit, der Fortdauer meiner
+               <quote ana="#formal #s-m #r-n">Ich ergreife mit wahrem Vergnügen diese Gelegenheit, der Fortdauer meiner
                   innigen Verehrung zu versichern &amp; beharre Ew. Excellenz ganz gehorsamster
                   Diener </quote>
                <bibl corresp="230">
@@ -2694,7 +2685,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-n">Mille tendres amitiés. </quote>
+               <quote ana="#informal #s-n #r-n">Mille tendres amitiés. </quote>
                <bibl corresp="737">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Alexander von Humboldt an Wilhelm von Humboldt, 04.06.1823</title>
@@ -2710,7 +2701,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n">Mit hochachtungsvoller Freundschaft der Ihrige, </quote>
+               <quote ana="#informal #s-m #r-n">Mit hochachtungsvoller Freundschaft der Ihrige, </quote>
                <bibl corresp="998">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Wilhelm von Humboldt an Friedrich August Rosen, 03.05.1827</title>
@@ -2726,7 +2717,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-n">Leben Sie herzlich wohl mit der aufrichtigsten und unwandelbarsten
+               <quote ana="#informal #s-n #r-n">Leben Sie herzlich wohl mit der aufrichtigsten und unwandelbarsten
                   Freundschaft </quote>
                <bibl corresp="187">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -2743,7 +2734,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Genehmigen Hochdieselben die Gefühle tiefster Ehrfurcht und Ergebenheit,
+               <quote ana="#formal #s-m #r-n">Genehmigen Hochdieselben die Gefühle tiefster Ehrfurcht und Ergebenheit,
                   womit ich verharre Ew. Excellenz unterthänigster Diener, </quote>
                <bibl corresp="301">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -2761,7 +2752,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-m">Ich danke Ihnen herzlich, theuerster Freund, für Ihre <pb n="2*"/>gütigen
+               <quote ana="#informal #s-n #r-m">Ich danke Ihnen herzlich, theuerster Freund, für Ihre <pb n="2*"/>gütigen
                   Wünsche zum neuen Jahr, die ich mit der Bitte um Ihr fortdauerndes Wohlwollen, für
                   Sie und die Ihrigen von ganzem Herzen erwiedere. Mit unveränderlicher Freundschaft
                      <handShift scribe="wvh"/> Ihr </quote>
@@ -2780,7 +2771,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">In tiefster Ehrerbietung Ew. Excellenz ganz gehorsamster </quote>
+               <quote ana="#formal #s-m #r-n">In tiefster Ehrerbietung Ew. Excellenz ganz gehorsamster </quote>
                <bibl corresp="263">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Franz Bopp an Wilhelm von Humboldt, 29.11.1830</title>
@@ -2796,7 +2787,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n">Mit der herzlichsten Freundschaft ganz der Ihrige, </quote>
+               <quote ana="#informal #s-m #r-n">Mit der herzlichsten Freundschaft ganz der Ihrige, </quote>
                <bibl corresp="146">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Wilhelm von Humboldt an Franz Bopp, 16.11.1825</title>
@@ -2812,7 +2803,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n">I am &amp;.<hi rend="superscript">c</hi>
+               <quote ana="#formal #s-n #r-n">I am &amp;.<hi rend="superscript">c</hi>
                </quote>
                <bibl corresp="840">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -2829,7 +2820,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-n">Leben Sie herzlich wohl mit hochachtungsvollster Freundschaft <handShift
+               <quote ana="#informal #s-n #r-n">Leben Sie herzlich wohl mit hochachtungsvollster Freundschaft <handShift
                      scribe="wvh"/> der Ihrige, </quote>
                <bibl corresp="182">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -2846,7 +2837,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-m">Je Vous en félicite bien sincèrement et Vous prie de me conserver Votre
+               <quote ana="#formal #s-m #r-m">Je Vous en félicite bien sincèrement et Vous prie de me conserver Votre
                   souvenir amical, comme je ne cesserai jamais de Vous vouer les sentimens d’éstime
                   et de considération bien particuliers avec lesquels j’ai l’honneur d’être,
                   Monsieur, Votre très-humble &amp; très-obéissant serviteur, </quote>
@@ -2865,7 +2856,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n">for which I will ever Remain your most <sic>obednt</sic> Servent </quote>
+               <quote ana="#formal #s-n #r-n">for which I will ever Remain your most <sic>obednt</sic> Servent </quote>
                <bibl corresp="475">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Alexander Strong an Christian Friedrich Wurm, 20.10.1829</title>
@@ -2881,7 +2872,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-m">I have the honor to be My dear Sir, Your faithful humble S.<hi
+               <quote ana="#formal #s-n #r-m">I have the honor to be My dear Sir, Your faithful humble S.<hi
                      rend="superscript">t</hi>
                </quote>
                <bibl corresp="928">
@@ -2899,7 +2890,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-m">I hope soon to hear from you; and remain, Sir, with the highest respect your
+               <quote ana="#formal #s-n #r-m">I hope soon to hear from you; and remain, Sir, with the highest respect your
                   obedient &amp; faithful servant </quote>
                <bibl corresp="456">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -2916,7 +2907,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n">Ich verbleibe mit der hochachtungsvollsten Freundschaft <handShift
+               <quote ana="#informal #s-m #r-n">Ich verbleibe mit der hochachtungsvollsten Freundschaft <handShift
                      scribe="wvh"/> der Ihrige, </quote>
                <bibl corresp="188">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -2933,7 +2924,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n">Empfangen Ew. Wohlgeboren die Versicherung meiner ausgezeichneten Hochachtung </quote>
+               <quote ana="#formal #s-n #r-n">Empfangen Ew. Wohlgeboren die Versicherung meiner ausgezeichneten Hochachtung </quote>
                <bibl corresp="874">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Wilhelm von Humboldt an Franz Lieber, 27.10.1831</title>
@@ -2949,7 +2940,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Genehmigen Ew. Hochwohlgeboren die Gesinnungen der ausgezeichnetsten und
+               <quote ana="#formal #s-m #r-n">Genehmigen Ew. Hochwohlgeboren die Gesinnungen der ausgezeichnetsten und
                   innigsten Hochachtung, mit welcher ich die Ehre habe zu verharren Ew.
                   Hochwohlgeboren ergebenster, </quote>
                <bibl corresp="663">
@@ -2968,7 +2959,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Leben Sie herzlich wohl! Ihr </quote>
+               <quote ana="#formal #s-m #r-n">Leben Sie herzlich wohl! Ihr </quote>
                <bibl corresp="161">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Wilhelm von Humboldt an Franz Bopp, 10.11.1828</title>
@@ -2984,7 +2975,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n">Verzeihen Ew: Wohlgeboren die Länge dieses Briefes und empfangen Sie die
+               <quote ana="#formal #s-n #r-n">Verzeihen Ew: Wohlgeboren die Länge dieses Briefes und empfangen Sie die
                   Versicherung meiner herzlichen und ausgezeichneten Hochachtung. </quote>
                <bibl corresp="815">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
@@ -3001,7 +2992,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Genehmigen Ew. Excellenz hochgeneigt die Versicherung meiner tiefen Verehrung
+               <quote ana="#formal #s-m #r-n">Genehmigen Ew. Excellenz hochgeneigt die Versicherung meiner tiefen Verehrung
                   und aufrichtigen Ergebenheit mit welcher ich Ehre habe mich zu unterzeichnen Ew.
                   Excellenz gehorsamer Diener </quote>
                <bibl corresp="434">
@@ -3019,7 +3010,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-n">Ich habe leider heute nicht Zeit, weiter etwas hinzuzusetzen, u. bitte Sie
+               <quote ana="#informal #s-n #r-n">Ich habe leider heute nicht Zeit, weiter etwas hinzuzusetzen, u. bitte Sie
                   nur die erneuerte Versicherung meiner hochachtungsvollsten Freundschaft
                   anzunehmen. </quote>
                <bibl corresp="810">
@@ -3037,7 +3028,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Leben Sie recht wohl! Ihr </quote>
+               <quote ana="#formal #s-m #r-n">Leben Sie recht wohl! Ihr </quote>
                <bibl corresp="1019">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Wilhelm von Humboldt an Friedrich August Rosen, 19.04.1827 (Mattson)1019 </title>
@@ -3053,7 +3044,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Mit herzlicher Hochachtung Ihr </quote>
+               <quote ana="#formal #s-m #r-n">Mit herzlicher Hochachtung Ihr </quote>
                <bibl corresp="1019">
                   <edition>Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</edition>
                   <title>Wilhelm von Humboldt an Friedrich August Rosen, 19.04.1827 (Mattson)1019 </title>

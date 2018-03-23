@@ -29,32 +29,23 @@
                </category>
                <category>
                   <catDesc>Relation</catDesc>
-                  <category xml:id="m-m">
-                     <catDesc>male to male</catDesc>
+                  <category xml:id="s-m">
+                     <catDesc>sender is male</catDesc>
                   </category>
-                  <category xml:id="m-f">
-                     <catDesc>male to female</catDesc>
+                  <category xml:id="s-f">
+                     <catDesc>sender is female</catDesc>
                   </category>
-                  <category xml:id="m-n">
-                     <catDesc>male to male</catDesc>
+                  <category xml:id="s-n">
+                     <catDesc>sender is neutral</catDesc>
                   </category>
-                  <category xml:id="f-f">
-                     <catDesc>female to female</catDesc>
+                  <category xml:id="r-f">
+                     <catDesc>reciever is female</catDesc>
                   </category>
-                  <category xml:id="f-m">
-                     <catDesc>female to male</catDesc>
+                  <category xml:id="r-m">
+                     <catDesc>reciever is male</catDesc>
                   </category>
-                  <category xml:id="f-n">
-                     <catDesc>female to neutral</catDesc>
-                  </category>
-                  <category xml:id="n-n">
-                     <catDesc>neutral to neutral</catDesc>
-                  </category>
-                  <category xml:id="n-m">
-                     <catDesc>neutral to male</catDesc>
-                  </category>
-                  <category xml:id="n-f">
-                     <catDesc>neutral to female</catDesc>
+                  <category xml:id="r-n">
+                     <catDesc>reciever is neutral</catDesc>
                   </category>
                </category>
             </taxonomy>
@@ -65,7 +56,7 @@
       <body>
          <div type="citList" xml:base="http://iffland.bbaw.de/briefe/detail.xql?id="><!-- base uri rausfinden, die zusammen mit den IDs den Link zum jeweiligen Brief ergibt -->
             <cit>
-               <quote ana="#formal #m-n">Ihr gehorsamster Diener</quote>
+               <quote ana="#formal #s-m #r-n">Ihr gehorsamster Diener</quote>
                <bibl corresp="A0000617">
                   <edition>August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</edition>
@@ -85,7 +76,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #f-n">Ew Wohlgeb gehorsame Dienerin</quote>
+               <quote ana="#formal #s-f #r-n">Ew Wohlgeb gehorsame Dienerin</quote>
                <bibl corresp="A0001031">
                   <edition>August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</edition>
@@ -106,7 +97,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Ganz der Ihrige</quote>
+               <quote ana="#formal #s-m #r-n">Ganz der Ihrige</quote>
                <bibl corresp="A0000881">
                   <edition>August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</edition>
@@ -126,7 +117,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #f-n">Ich habe die Ehre zu seyn Ew Wohlgebohren gehorsamste Dienerin</quote>
+               <quote ana="#formal #s-f #r-n">Ich habe die Ehre zu seyn Ew Wohlgebohren gehorsamste Dienerin</quote>
                <bibl corresp="A0001023">
                   <edition>August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</edition>
@@ -148,7 +139,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Euer Wohlgeboren Ergebner</quote>
+               <quote ana="#formal #s-m #r-n">Euer Wohlgeboren Ergebner</quote>
                <bibl corresp="A0000998">
                   <edition>August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</edition>
@@ -169,7 +160,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #f-n">Mit vorzüglicher Hochachtung habe ich die Ehre zu seyn, Ihre Ihnen
+               <quote ana="#formal #s-f #r-n">Mit vorzüglicher Hochachtung habe ich die Ehre zu seyn, Ihre Ihnen
                   ergebene</quote>
                <bibl corresp="A0000994">
                   <edition>August Wilhelm Ifflands dramaturgisches und administratives
@@ -191,7 +182,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Mit aller Hochachtung bin ich Ihr ergebenster </quote>
+               <quote ana="#formal #s-m #r-n">Mit aller Hochachtung bin ich Ihr ergebenster </quote>
                <bibl corresp="A0001007">
                   <edition>August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</edition>
@@ -211,7 +202,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">J'ay l'honneur d'être tres parfaitement Monsieur Votre tres humble et
+               <quote ana="#formal #s-m #r-n">J'ay l'honneur d'être tres parfaitement Monsieur Votre tres humble et
                   obeissant Serviteur</quote>
                <bibl corresp="A0001058">
                   <edition>August Wilhelm Ifflands dramaturgisches und administratives
@@ -236,7 +227,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n">Ihr reiner Verehrer </quote>
+               <quote ana="#informal #s-m #r-n">Ihr reiner Verehrer </quote>
                <bibl corresp="A0000992">
                   <edition>August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</edition>
@@ -256,7 +247,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Mit vollständigster Hochachtung beharrend Ew Wohlgeboren ganz
+               <quote ana="#formal #s-m #r-n">Mit vollständigster Hochachtung beharrend Ew Wohlgeboren ganz
                   gehorsamer</quote>
                <bibl corresp="A0000981">
                   <edition>August Wilhelm Ifflands dramaturgisches und administratives
@@ -278,7 +269,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Ich verehre mit Hochachtung Ew Wohlgebohren ganz ergebener</quote>
+               <quote ana="#formal #s-m #r-n">Ich verehre mit Hochachtung Ew Wohlgebohren ganz ergebener</quote>
                <bibl corresp="A0003903">
                   <edition>August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</edition>
@@ -299,7 +290,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Ihr aufrichtig ergebener</quote>
+               <quote ana="#formal #s-m #r-n">Ihr aufrichtig ergebener</quote>
                <bibl corresp="iffland_el3_xqq_bdb">
                   <edition>August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</edition>
@@ -320,7 +311,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Der Ihrige</quote>
+               <quote ana="#formal #s-m #r-n">Der Ihrige</quote>
                <bibl corresp="A0000195">
                   <edition>August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</edition>
@@ -341,7 +332,7 @@
                </bibl>
             </cit>
            <cit>
-               <quote ana="#formal #m-n">Dero gehorsamst ergebenster</quote>
+               <quote ana="#formal #s-m #r-n">Dero gehorsamst ergebenster</quote>
                <bibl corresp="A0001240">
                   <edition>August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</edition>
@@ -362,7 +353,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n">Mit Verehrung bin ich</quote>
+               <quote ana="#formal #s-n #r-n">Mit Verehrung bin ich</quote>
                <bibl corresp="A0000294">
                   <edition>August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</edition>
@@ -379,7 +370,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n">Im Gefühl der Verehrung und Liebe Ihr ergebenster </quote>
+               <quote ana="#informal #s-m #r-n">Im Gefühl der Verehrung und Liebe Ihr ergebenster </quote>
                <bibl corresp="A0000235">
                   <edition>August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</edition>
@@ -396,7 +387,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Mit Achtung der Ihrige</quote>
+               <quote ana="#formal #s-m #r-n">Mit Achtung der Ihrige</quote>
                <bibl corresp="A0000306">
                   <edition>August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</edition>
@@ -413,7 +404,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #f-n">Ihre Dankbare und gehorsamste Dienerin</quote>
+               <quote ana="#formal #s-f #r-n">Ihre Dankbare und gehorsamste Dienerin</quote>
                <bibl corresp="A0000231">
                   <edition>August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</edition>
@@ -431,7 +422,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Der ich mit Achtung verehre Ihr ergebener </quote>
+               <quote ana="#formal #s-m #r-n">Der ich mit Achtung verehre Ihr ergebener </quote>
                <bibl corresp="A0000212">
                   <edition>August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</edition>
@@ -449,7 +440,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Wie immer der Ihrige</quote>
+               <quote ana="#formal #s-m #r-n">Wie immer der Ihrige</quote>
                <bibl corresp="A0000484">
                   <edition>August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</edition>
@@ -466,7 +457,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n">Ihr Freund u Diener</quote>
+               <quote ana="#informal #s-m #r-n">Ihr Freund u Diener</quote>
                <bibl corresp="A0000206">
                   <edition>August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</edition>
@@ -483,7 +474,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Je suis avec estime et respect, Monsieur Votre tres humble Seviteur </quote>
+               <quote ana="#formal #s-m #r-n">Je suis avec estime et respect, Monsieur Votre tres humble Seviteur </quote>
                <bibl corresp="A0000211">
                   <edition>August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</edition>
@@ -500,7 +491,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #f-n">Die ich mit schuldiger Achtung verharre Dero ergebene </quote>
+               <quote ana="#formal #s-f #r-n">Die ich mit schuldiger Achtung verharre Dero ergebene </quote>
                <bibl corresp="A0000287">
                   <edition>August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</edition>
@@ -522,7 +513,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Hochachtungsvoll beharre ich Ewer König. Generaldirektion ganz
+               <quote ana="#formal #s-m #r-n">Hochachtungsvoll beharre ich Ewer König. Generaldirektion ganz
                   ergebenster</quote>
                <bibl corresp="A0000284">
                   <edition>August Wilhelm Ifflands dramaturgisches und administratives
@@ -540,7 +531,7 @@
                </bibl>
             </cit>
            <cit>
-               <quote ana="#informal #m-n">Ihr aufrichtiger Freund</quote>
+               <quote ana="#informal #s-m #r-n">Ihr aufrichtiger Freund</quote>
                <bibl corresp="A0003177">
                   <edition>August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</edition>
@@ -562,7 +553,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n">Ew Wohlgeb innigster Verehrer</quote>
+               <quote ana="#informal #s-m #r-n">Ew Wohlgeb innigster Verehrer</quote>
                <bibl corresp="A0001212">
                   <edition>August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</edition>
@@ -583,7 +574,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Mit Achtung harrend Dero Ergebenster</quote>
+               <quote ana="#formal #s-m #r-n">Mit Achtung harrend Dero Ergebenster</quote>
                <bibl corresp="A0003140">
                   <edition>August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</edition>

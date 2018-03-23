@@ -5,6 +5,8 @@ import VueResouorce from 'vue-resource';
 Vue.use(VueClipboard);
 Vue.use(VueResouorce);
 
+Vue.http.headers.common['Access-Control-Allow-Origin'] = '*';
+
 class Salute {
   constructor(id, quote, sender, receiver, edition, date, baseURL) {
     this.id = id;
@@ -25,11 +27,17 @@ const app = new Vue({
     data: {
         salute: new Salute(1, 'Hallo', 'ich', 'du', 'BBAW', '21.03.2018', 'BBAW.de'),
         // all defined filter values, to have boxes pre-checked
-        filter: ["send-f","send-m","send-n","receive-f","receive-m","receive-n","formal","informal"]
+        filter: ["sender-f","sender-m","sender-n","receiver-f","receiver-m","receiver-n","formal","informal"]
     },
     methods: {
         refresh() {
             //AJAX AUFRUF
+            this.$http.get('http://localhost:8080/exist/apps/salute-demo/abfrage.xql').then(response => {
+                console.log("success");
+                console.log(response.body);
+            }).catch(error => {
+                console.log(error);
+            });
 
             this.salute = new Salute(1, 'Welt', 'du', 'ich', 'BBAW', '21.03.2018', 'BBAW.de');
             console.log(this.filter);

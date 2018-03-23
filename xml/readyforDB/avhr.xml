@@ -29,32 +29,23 @@
                </category>
                <category>
                   <catDesc>Relation</catDesc>
-                  <category xml:id="m-m">
-                     <catDesc>male to male</catDesc>
+                  <category xml:id="s-m">
+                     <catDesc>sender is male</catDesc>
                   </category>
-                  <category xml:id="m-f">
-                     <catDesc>male to female</catDesc>
+                  <category xml:id="s-f">
+                     <catDesc>sender is female</catDesc>
                   </category>
-                  <category xml:id="m-n">
-                     <catDesc>male to male</catDesc>
+                  <category xml:id="s-n">
+                     <catDesc>sender is neutral</catDesc>
                   </category>
-                  <category xml:id="f-f">
-                     <catDesc>female to female</catDesc>
+                  <category xml:id="r-f">
+                     <catDesc>reciever is female</catDesc>
                   </category>
-                  <category xml:id="f-m">
-                     <catDesc>female to male</catDesc>
+                  <category xml:id="r-m">
+                     <catDesc>reciever is male</catDesc>
                   </category>
-                  <category xml:id="f-n">
-                     <catDesc>female to neutral</catDesc>
-                  </category>
-                  <category xml:id="n-n">
-                     <catDesc>neutral to neutral</catDesc>
-                  </category>
-                  <category xml:id="n-m">
-                     <catDesc>neutral to male</catDesc>
-                  </category>
-                  <category xml:id="n-f">
-                     <catDesc>neutral to female</catDesc>
+                  <category xml:id="r-n">
+                     <catDesc>reciever is neutral</catDesc>
                   </category>
                </category>
             </taxonomy>
@@ -65,7 +56,7 @@
       <body>
          <div type="citList" xml:base="edition-humboldt.de/briefe/detail.xql?id=">
             <cit>
-               <quote ana="#informal #m-n">Mit innigster Verehrung <lb/>Ihr <lb/>dankbar ergebenster</quote>
+               <quote ana="#informal #s-m #r-n">Mit innigster Verehrung <lb/>Ihr <lb/>dankbar ergebenster</quote>
                <bibl corresp="H0015156">
                   <edition>edition humboldt digital</edition>
                   <title>Carl Sigismund Kunth an Alexander von Humboldt. [Berlin], nach 24. November
@@ -85,7 +76,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-n">Liebevoll</quote>
+               <quote ana="#informal #s-n #r-n">Liebevoll</quote>
                <bibl corresp="H0002931">
                   <edition>edition humboldt digital</edition>
                   <title>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Donnerstag, [19.
@@ -102,7 +93,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-n">Mit inniger Liebe</quote>
+               <quote ana="#informal #s-n #r-n">Mit inniger Liebe</quote>
                <bibl corresp="H0002930">
                   <edition>edition humboldt digital</edition>
                   <title>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin, vor 28. Dezember
@@ -119,7 +110,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-n">Je Vous <lb/>embrasse tendrement</quote>
+               <quote ana="#informal #s-n #r-n">Je Vous <lb/>embrasse tendrement</quote>
                <bibl corresp="H0015158">
                   <edition>edition humboldt digital</edition>
                   <title>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], nach September
@@ -136,7 +127,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n">Mit tiefster Verehrung Ihr <lb/>dankbar ergebenster</quote>
+               <quote ana="#informal #s-m #r-n">Mit tiefster Verehrung Ihr <lb/>dankbar ergebenster</quote>
                <bibl corresp="H0005461">
                   <edition>edition humboldt digital</edition>
                   <title>Carl Sigismund Kunth an Alexander von Humboldt. [Berlin], 1. Februar
@@ -153,7 +144,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n">Mit inniger Freundschaft <lb/>Ihr <lb/>AlHumboldt</quote>
+               <quote ana="#informal #s-m #r-n">Mit inniger Freundschaft <lb/>Ihr <lb/>AlHumboldt</quote>
                <bibl corresp="H0014768">
                   <edition>edition humboldt digital</edition>
                   <title>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Sonnabend, [5.
@@ -170,7 +161,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-f">Mes tendres respects à <lb/>l'excellente <persName key="H0001516">Madame
+               <quote ana="#informal #s-n #r-f">Mes tendres respects à <lb/>l'excellente <persName key="H0001516">Madame
                      Kunth</persName>
                   <supplied cert="high" prev="Kunth">.</supplied>
                   <lb/>Elle aura eu ma lettre <lb/>par <choice>
@@ -199,7 +190,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-n">Mit alter Freundschaft</quote>
+               <quote ana="#informal #s-n #r-n">Mit alter Freundschaft</quote>
                <bibl corresp="H0005737">
                   <edition>edition humboldt digital</edition>
                   <title>Alexander von Humboldt an Carl Sigismund Kunth. Potsdam, 14. November
@@ -214,7 +205,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n">Freundlichst</quote>
+               <quote ana="#formal #s-n #r-n">Freundlichst</quote>
                <bibl corresp="H0002649">
                   <edition>edition humboldt digital</edition>
                   <title>Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], nach
@@ -231,7 +222,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n">In Eile</quote>
+               <quote ana="#formal #s-n #r-n">In Eile</quote>
                <bibl corresp="H0002650">
                   <edition>edition humboldt digital</edition>
                   <title>Alexander von Humboldt an Franz Julius Ferdinand Meyen. Teplitz, 22. Juli
@@ -248,7 +239,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n">Mit freundschaftlichster Hochachtung</quote>
+               <quote ana="#formal #s-n #r-n">Mit freundschaftlichster Hochachtung</quote>
                <bibl corresp="H0001202">
                   <edition>edition humboldt digital</edition>
                   <title>Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch,
@@ -265,7 +256,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n">Mit der ausgezeichnetsten Hochachtung</quote>
+               <quote ana="#formal #s-n #r-n">Mit der ausgezeichnetsten Hochachtung</quote>
                <bibl corresp="H0001203">
                   <edition>edition humboldt digital</edition>
                   <title>Alexander von Humboldt an die Witwe von Franz Julius Ferdinand Meyen.
@@ -282,7 +273,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-n">Mit innigster Freund<lb break="no"/>schaft und Hochschäzung</quote>
+               <quote ana="#informal #s-n #r-n">Mit innigster Freund<lb break="no"/>schaft und Hochschäzung</quote>
                <bibl corresp="H0006175">
                   <edition>edition humboldt digital</edition>
                   <title>Alexander von Humboldt an Franz Julius Ferdinand Meyen. Berlin, Montag,
@@ -299,7 +290,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-n">Mit freundschaft<lb break="no"/>licher Anhänglichkeit,</quote>
+               <quote ana="#informal #s-n #r-n">Mit freundschaft<lb break="no"/>licher Anhänglichkeit,</quote>
                <bibl corresp="H0001224">
                   <edition>edition humboldt digital</edition>
                   <title>Alexander von Humboldt an Franz Julius Ferdinand Meyen. Berlin, 24. Januar
@@ -316,7 +307,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-n">Freundschaftlichst</quote>
+               <quote ana="#informal #s-n #r-n">Freundschaftlichst</quote>
                <bibl corresp="H0006507">
                   <edition>edition humboldt digital</edition>
                   <title>Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], nach 22.
@@ -333,7 +324,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-n">Mit brüderlicher Liebe.</quote>
+               <quote ana="#informal #s-m #r-n">Mit brüderlicher Liebe.</quote>
                <bibl corresp="H0001200">
                   <edition>edition humboldt digital</edition>
                   <title>Alexander von Humboldt an Karl Ludwig Willdenow. Aranjuez, 20. April
@@ -350,7 +341,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #n-n">Ich umarme Sie herzlich. Schreiben <lb/>Sie mir <hi rendition="#u">nach <rs
+               <quote ana="#informal #s-n #r-n">Ich umarme Sie herzlich. Schreiben <lb/>Sie mir <hi rendition="#u">nach <rs
                         type="place" key="H0005176">Bayreuth </rs>
                   </hi>, wo ich den <lb/>15ten sein werde u von wo <lb/>aus Sie <choice>
                      <abbr>MSS.</abbr>
@@ -373,7 +364,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-m">Leben Sie wohl, mein Bester!<lb/>
+               <quote ana="#formal #s-n #r-m">Leben Sie wohl, mein Bester!<lb/>
                   <seg type="comment">
                      <orig>Forsters</orig>
                      <note corresp="nsvt_kqh_1cb">
@@ -398,7 +389,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">Ihren närrischen</quote>
+               <quote ana="#formal #s-m #r-n">Ihren närrischen</quote>
                <bibl corresp="H0002655">
                   <edition>edition humboldt digital</edition>
                   <title>Alexander von Humboldt an Samuel Thomas Soemmerring. Berg, 5. Dezember

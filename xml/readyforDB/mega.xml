@@ -29,32 +29,23 @@
                </category>
                <category>
                   <catDesc>Relation</catDesc>
-                  <category xml:id="m-m">
-                     <catDesc>male to male</catDesc>
+                  <category xml:id="s-m">
+                     <catDesc>sender is male</catDesc>
                   </category>
-                  <category xml:id="m-f">
-                     <catDesc>male to female</catDesc>
+                  <category xml:id="s-f">
+                     <catDesc>sender is female</catDesc>
                   </category>
-                  <category xml:id="m-n">
-                     <catDesc>male to male</catDesc>
+                  <category xml:id="s-n">
+                     <catDesc>sender is neutral</catDesc>
                   </category>
-                  <category xml:id="f-f">
-                     <catDesc>female to female</catDesc>
+                  <category xml:id="r-f">
+                     <catDesc>reciever is female</catDesc>
                   </category>
-                  <category xml:id="f-m">
-                     <catDesc>female to male</catDesc>
+                  <category xml:id="r-m">
+                     <catDesc>reciever is male</catDesc>
                   </category>
-                  <category xml:id="f-n">
-                     <catDesc>female to neutral</catDesc>
-                  </category>
-                  <category xml:id="n-n">
-                     <catDesc>neutral to neutral</catDesc>
-                  </category>
-                  <category xml:id="n-m">
-                     <catDesc>neutral to male</catDesc>
-                  </category>
-                  <category xml:id="n-f">
-                     <catDesc>neutral to female</catDesc>
+                  <category xml:id="r-n">
+                     <catDesc>reciever is neutral</catDesc>
                   </category>
                </category>
             </taxonomy>
@@ -65,7 +56,7 @@
       <body>
          <div type="citList" xml:base="megadigital.bbaw.de/briefe/detail.xql?id=">
             <cit>
-               <quote ana="#formal #n-n">Besten Gruß <lb/>
+               <quote ana="#formal #s-n #r-n">Besten Gruß <lb/>
               </quote>
                <bibl corresp="mega_sp3_kzs_gz">
                   <edition>MEGAdigital</edition>
@@ -83,7 +74,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-m">Dear Sir <lb/>Faithfully yours <lb/>
+               <quote ana="#formal #s-n #r-m">Dear Sir <lb/>Faithfully yours <lb/>
               </quote>
                <bibl corresp="mega_b5c_qwz_sy">
                   <edition>MEGAdigital</edition>
@@ -100,7 +91,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #m-n">stets der Ihrige <lb/>
+               <quote ana="#formal #s-m #r-n">stets der Ihrige <lb/>
               </quote>
                <bibl corresp="B00079">
                   <edition>MEGAdigital</edition>
@@ -118,7 +109,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #n-n">agreez nos Salutations <lb/>
+               <quote ana="#formal #s-n #r-n">agreez nos Salutations <lb/>
               </quote>
                <bibl corresp="mega_vwc_vxs_sy">
                   <edition>MEGAdigital</edition>
@@ -137,7 +128,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #m-m">Fraternelles <lb/>
+               <quote ana="#informal #s-m #r-m">Fraternelles <lb/>
                   <lb/>
               </quote>
                <bibl corresp="mega_vwc_vxs_sy">
@@ -158,7 +149,7 @@
             </cit>    
            
             <cit>
-               <quote ana="#formal #m-n">Ihr treu ergebner <lb/>K. Marx</quote>
+               <quote ana="#formal #s-m #r-n">Ihr treu ergebner <lb/>K. Marx</quote>
                <bibl corresp="B00012">
                   <edition>MEGAdigital</edition>
                   <title>11Karl Marx an Louis Kugelmann in Hannover. London, Montag, 15. Januar
