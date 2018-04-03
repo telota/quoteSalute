@@ -148,5 +148,23 @@
 - Partizipationsmöglichkeiten
 - bisher verwendete Editionen
 
-Salute ist eine Anwendung, die inspirierende Grußformeln für ihre Korrespondenz bietet. Geboren in einem Studentischen Projekt der TELOTA Initiative, schöpft Salute aus aktuellen digitalen Briefeditionen und schafft so . Salute eifert damit der großen Idee ihrer Mutterseite correspSearch nach.
+### Grußformeln suchen
+
+Salute ist eine Anwendung, die inspirierende Grußformeln für ihre Korrespondenz bietet. Enstanden in einem studentischen Projekt der TELOTA Initiative, schöpft Salute aus aktuellen digitalen Briefeditionen und schafft so einen spielerischen Zugang in die Welt digitaler Briefe. 
+
+Salute wertet Dateien im TEI-Format aus. Die Anwendung basiert derzeit auf einem lokalen und kuratierten Textkorpus.
+
+### Mitmachen
+
+Sie arbeiten an einer Digitalen Briefedition und finden die Grußformeln dieser Briefe sollen auch dabei sein? 
+
+Gerne möchten wir den Bestand erweitern. Jede digitale Briefedition, die auf dem TEI-Format basiert, kann partizipieren. Mehr Infos hier.
+
+
+### Technologien
+
+
+
+### Schnittstelle
+
 
