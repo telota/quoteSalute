@@ -91,13 +91,62 @@
 
 ----------
 
-- Datenbankanbindung + Daten in JS bearbeiten
+- Datenbankanbindung: XQuery Abfrage, Einführung mit Stefan, danach rumbasteln
+- Korpus nachbearbeiten: Attributvergabe für Filter anpassen. Für Sender- und Empfändgergeschlecht eigenes Kürzel #s-f #r-m
+- JS Objekt aus gelieferten Daten erstellen (die Felder mit den "passenden" Daten befüllen)  
+
+[//]: <> (was war hier mit "Daten in JS bearbeiten" gemeint?)
 
 ----------
 
 ## Freitag
-
 ### Präsentation
-
 ----------
+
+- XQuery Abfrage: Filter
+- Copy button
+- auf correspSearch Webseite einbinden
+
+## Offen geblieben
+--------
+- Funktionabilität:
+	- URL zu avhr: da stimmt noch was nicht (mit dem Encoding)
+	- URL zu Jean Paul: DE noch nicht online...
+	- Filterfunktion prüfen
+
+- Usability/CSS:
+	- Refresh button zu klein und zu weit unten positioniert (Überlegung eines zweiten "go buttons" )
+	- Filter immer offen, nicht intuitiv, dass man dann nochmal auf den refresh button klicken muss
+	- Farbliche Hervorhebungen? 
+	- Zitat hervorheben durch farbigen Hintergrund?
+
+- Erklärungstext fehlt noch
+- Was tun, wenn andere Vorhaben partizipieren möchten? Wie bieten wir das an? Welche Form von XML Daten brauchen wir von denen? 
+- Name "SaluteSig" ist irreführend. Was könnten alternativen sein? 
+	- correspSalute
+	- saluteSearch
+	- SaluteFinder
+	- SaluteAdd
+	- Salute
+	- schönerGrüßen
+	- Grußgenerator
+	- salutecrate
+	- ...
+	- Wörter, die irgendwas damit zu tun haben: create, find, connect, search, correspond, write, goodbye, greet, catch
+- Git repo noch privat
+- Infobutton leer (brauchen wir den überhaupt?)
+- Doku vervollständigen (mehr technische Details!)
+
+
+
+## Beschreibungstext
+----------
+
+- studentisches Projekt der Telota Initiative
+- kuratierter Datenkorpus
+- TEI Standard
+- Partizipationsmöglichkeiten
+- bisher verwendete Editionen
+
+Salute ist eine Anwendung, die inspirierende Grußformeln für ihre Korrespondenz bietet. Geboren in einem Studentischen Projekt der TELOTA Initiative, schöpft Salute aus aktuellen digitalen Briefeditionen und schafft so . Salute eifert damit der großen Idee ihrer Mutterseite correspSearch nach.
 
