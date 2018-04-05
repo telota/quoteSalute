@@ -152,7 +152,7 @@
 
 ### Das Projekt
 
-Salute ist eine Webanwendung, die inspirierende Grußformeln für ihre Korrespondenz bietet. Enstanden in einem studentischen Projekt der TELOTA Initiative, schöpft Salute aus aktuellen digitalen Briefeditionen und schafft so einen spielerischen Zugang in die Welt digitaler Briefe. 
+Salute ist eine Webanwendung, die inspirierende Grußformeln für ihre Korrespondenz bietet. Enstanden in einem Studierendenprojekt der TELOTA Initiative, schöpft Salute aus aktuellen digitalen Briefeditionen und schafft so einen spielerischen Zugang in die Welt digitaler Briefe. 
 
 
 ### Grußformeln suchen
@@ -182,5 +182,4 @@ dramaturgisches und administratives Archiv (http://iffland.bbaw.de/index.xql)
 
 ### Technologien
 
-### Schnittstelle
-
+Das Generieren der Grußformeln wurde in einer Webapplikation umgesetzt. Diese wurde mit HTML, CSS und Javascript realisiert. Zusätzlich benutzen wir das Front-End-Framework VueJS für die Verarbeitung der Daten und für den dynamischen Austausch von HTML-Elementen und ziehen Bootstrap zur einheitlichen Darstellung auf der Website zur Hilfe.
