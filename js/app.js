@@ -59,7 +59,7 @@ const app = new Vue({
     },
     methods: {
         refresh() {
-            let baseURL = "http://localhost:8080/exist/apps/salute-demo/abfrage.xql";
+            let baseURL = "https://correspsearch.net/salute/abfrage.xql";
             //AJAX AUFRUF
             this.$http.get(baseURL, {params: {
                     sender: this.senderParam,
