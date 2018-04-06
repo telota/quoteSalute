@@ -152,7 +152,7 @@
 
 ### Das Projekt
 
-Salute ist eine Webanwendung, die inspirierende Grußformeln für ihre Korrespondenz bietet. Enstanden in einem Studierendenprojekt der TELOTA Initiative, schöpft Salute aus aktuellen digitalen Briefeditionen und schafft so einen spielerischen Zugang in die Welt digitaler Briefe. 
+Salute ist eine Webanwendung, die inspirierende Grußformeln für Ihre Korrespondenz bietet. Enstanden in einem Studierendenprojekt der TELOTA Initiative, schöpft Salute aus aktuellen digitalen Briefeditionen und schafft so einen spielerischen Zugang in die Welt digitaler Briefe. 
 
 
 ### Grußformeln suchen

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>edition humboldt digital</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>BBAW</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Quelle telotadev: projects/avhr</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category>
+                  <catDesc>Type</catDesc>
+                  <category xml:id="formal">
+                     <catDesc>formell</catDesc>
+                  </category>
+                  <category xml:id="informal">
+                     <catDesc>informell</catDesc>
+                  </category>
+               </category>
+               <category>
+                  <catDesc>Relation</catDesc>
+                  <category xml:id="s-m">
+                     <catDesc>sender is male</catDesc>
+                  </category>
+                  <category xml:id="s-f">
+                     <catDesc>sender is female</catDesc>
+                  </category>
+                  <category xml:id="s-n">
+                     <catDesc>sender is neutral</catDesc>
+                  </category>
+                  <category xml:id="r-f">
+                     <catDesc>reciever is female</catDesc>
+                  </category>
+                  <category xml:id="r-m">
+                     <catDesc>reciever is male</catDesc>
+                  </category>
+                  <category xml:id="r-n">
+                     <catDesc>reciever is neutral</catDesc>
+                  </category>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc> 
+   </teiHeader>
+   <text>
+      <body>
+         <div type="citList">
+            <cit>
+               <quote ana="#informal #s-m #r-n">Mit innigster Verehrung <lb/>Ihr <lb/>dankbar ergebenster</quote>
+               <bibl>
+                  <edition>edition humboldt digital</edition>
+                  <title>Carl Sigismund Kunth an Alexander von Humboldt. [Berlin], nach 24. November
+                     1848</title>
+                  <ref target="edition-humboldt.de/briefe/detail.xql?id=H0015156"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#informal #s-n #r-n">Liebevoll</quote>
+               <bibl>
+                  <edition>edition humboldt digital</edition>
+                  <title>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Donnerstag, [19.
+                     September 1844]</title>
+                  <ref target="edition-humboldt.de/briefe/detail.xql?id=H0002931"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#informal #s-n #r-n">Mit inniger Liebe</quote>
+               <bibl>
+                  <edition>edition humboldt digital</edition>
+                  <title>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin, vor 28. Dezember
+                     1844]</title>
+                  <ref target="edition-humboldt.de/briefe/detail.xql?id=H0002930"/>
+               </bibl>
+            </cit>
+         </div>
+      </body>
+   </text>
+</TEI>
