@@ -56,7 +56,7 @@
       <body>
          <div type="citList">
             <cit>
-               <quote ana="#informal #s-m #r-n">Mit innigster Verehrung <lb/>Ihr <lb/>dankbar ergebenster</quote>
+               <quote xml:lang="deu" ana="#informal #s-m #r-n">Mit innigster Verehrung <lb/>Ihr <lb/>dankbar ergebenster</quote>
                <bibl>
                   <edition>edition humboldt digital</edition>
                   <title>Carl Sigismund Kunth an Alexander von Humboldt. [Berlin], nach 24. November
