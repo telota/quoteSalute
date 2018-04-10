@@ -30,7 +30,11 @@
                <p>saluteSig ist eine Webanwendung, die inspirierende Grußformeln für ihre
                   Korrespondenz bietet. Enstanden in einem Studierendenprojekt der TELOTA
                   Initiative, schöpft saluteSig aus aktuellen digitalen Briefeditionen und schafft
-                  so einen spielerischen Zugang in die Welt digitaler Briefe. </p>
+                  so einen spielerischen Zugang in die Welt digitaler Briefe. 
+               <!-- quoteSalute ist eine Webanwendung, die inspirierende Grußformeln für Ihre
+                  email-Korrespondenz bietet. quoteSalute stellt Grußformeln aus digitalen Briefeditionen bereit und schafft
+                  so einen spielerischen Zugang in die Welt historischer Korrespondenzen und ermöglicht die Einbindung wissenschaflicher Editionsarbeit in den Alltag ihrer email-Kommunikation. 
+<lb/>quoteSalute ist ein Studierendenprojekt der TELOTA-Initiative an der Berlin-Brandenburgischen Akademie der Wissenschaften. --></p>
             </div>
             <div>
                <head>Grußformeln suchen</head>
@@ -42,7 +46,17 @@
                   dann einfach in die nächste Mail einfügen und versenden!</p>
                <p>NEWS: Ein Plugin für den E-Mail Client Thunderbird ist bereits in Planung, sodass
                   Sie bald auch direkt in ihrem E-Mail Programm inspirierende Grußformeln
-                  erhalten.</p>
+                  erhalten.
+               <!-- Auf der Webseite können Sie direkt nach Grußformeln stöbern. Wenn Ihnen die
+                  angezeigte Grußformel nicht gefällt, generieren Sie sich einfach mit Klick auf den orangenen
+                  Refresh-Button eine andere. Mit Filtern können Sie die Suchanfrage außerdem nach Ihren Wünschen
+                  einschränken. Haben Sie die passende Grußformel gefunden, können Sie sie mit dem
+                  Copy-Button ganz einfach kopieren. Öffnen Sie das E-Mailprogramm Ihrer Wahl und
+                  dann einfach in die nächste Mail einfügen und versenden!</p>
+               <p>NEWS: Ein Plugin für den E-Mail Client Thunderbird ist bereits in Planung, sodass
+                  Sie bald auch direkt in Ihrem E-Mail Programm inspirierende Grußformeln
+                  erhalten. --> 
+               </p>
             </div>
             <div>
                <head>Textkorpus</head>
@@ -58,7 +72,20 @@
                   Empfänger*in aus dem Sinnzusammenhang deutlich wird. Und schließlich wurde die
                   jeweilige Sprache ausgezeichnet. Dieses tagging ermöglicht die spätere
                   Filterfunktion und macht, zusammen mit der o.g. Bereinigung, eine Kuratierung der
-                  Daten notwendig. </p>
+                  Daten notwendig. <!--
+                  Ein kuratiertes Korpus aus Grußformeln verschiedener digitaler Briefeditionen ist die Grundlage von 
+ quoteSalute. Dafür wurden <salute>-Elemente aus den TEI/XML-Daten der Editionen automatisiert extrahiert und für jede Edition eine
+TEI/XML-Datei erstellt, die eine Liste der Grußformeln sowie dazugehörige
+                  bibliographische Angaben enhält. Bei der Kuratierung wurden die Daten (1) von
+                  Wiederholungen, unpassenden Inhalten und sehr kurzen Grußformeln bereinigt und (2)
+                  mit einem eigenen Tagging versehen, um ein späteres Filtern der Grußformlen zu
+                  ermöglichen. Die Grußformeln wurden nach drei Kriterien getaggt. Zum einen wurde
+                  festgestellt, ob die Grußformel inhaltlich eher formal oder freundschaftlich
+                  anmutet. Zum anderen wurde verzeichnet, ob das Geschlecht von Sender*in oder
+                  Empfänger*in aus dem Sinnzusammenhang deutlich wird. Und schließlich wurde die
+                  jeweilige Sprache ausgezeichnet. Dieses tagging ermöglicht die spätere
+                  Filterfunktion und macht, zusammen mit der o.g. Bereinigung, eine Kuratierung der
+                  Daten notwendig.--> </p>
                <p>Der Textkorpus wird derzeit von folgenden digitalen Briefeditionen gespeist: </p>
                <list>
                   <item>
