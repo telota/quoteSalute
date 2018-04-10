@@ -29,8 +29,8 @@
                <head>Das Projekt</head>
                <p>saluteSig ist eine Webanwendung, die inspirierende Grußformeln für ihre
                   Korrespondenz bietet. Enstanden in einem Studierendenprojekt der TELOTA
-                  Initiative, schöpft saluteSig aus aktuellen digitalen Briefeditionen und schafft so
-                  einen spielerischen Zugang in die Welt digitaler Briefe. </p>
+                  Initiative, schöpft saluteSig aus aktuellen digitalen Briefeditionen und schafft
+                  so einen spielerischen Zugang in die Welt digitaler Briefe. </p>
             </div>
             <div>
                <head>Grußformeln suchen</head>
@@ -52,26 +52,39 @@
                   bibliographische Angaben. Bei der Kuratierung wurden die Daten (1) von
                   Wiederholungen, unpassenden Inhalten und sehr kurzen Grußformeln bereinigt und (2)
                   mit einem eigenen Tagging versehen, um ein späteres Filtern der Grußformlen zu
-                  ermöglichen. Die Grußformeln wurden nach zwei Kriterien getaggt. Zum einen wurde
+                  ermöglichen. Die Grußformeln wurden nach drei Kriterien getaggt. Zum einen wurde
                   festgestellt, ob die Grußformel inhaltlich eher formal oder freundschaftlich
                   anmutet. Zum anderen wurde verzeichnet, ob das Geschlecht von Sender*in oder
-                  Empfänger*in aus dem Sinnzusammenhang deutlich wird. Dieses tagging ermöglicht die
-                  spätere Filterfunktion und macht, zusammen mit der o.g. Bereinigung, eine
-                  Kuratierung der Daten notwendig. </p>
+                  Empfänger*in aus dem Sinnzusammenhang deutlich wird. Und schließlich wurde die
+                  jeweilige Sprache ausgezeichnet. Dieses tagging ermöglicht die spätere
+                  Filterfunktion und macht, zusammen mit der o.g. Bereinigung, eine Kuratierung der
+                  Daten notwendig. </p>
                <p>Der Textkorpus wird derzeit von folgenden digitalen Briefeditionen gespeist: </p>
                <list>
-                  <item><ref target="http://edition-humboldt.de/index.xql"> edition humboldt
-                        digital</ref></item>
-                  <item><ref target="">Jean Paul</ref></item>
-                  <item><ref target="http://iffland.bbaw.de/index.xql">August Wilhelm Ifflands
-                        dramaturgisches und administratives Archiv</ref></item>
-                  <item><ref target="https://xmldev.bbaw.de/expath/apps/WvH/Briefe?section=all"
-                        >Wilhelm von Humboldt - Spachwissenschaftliche Korrepondenz</ref></item>
-                  <item><ref target="http://aloys-hirt.bbaw.de/index.xql">Aloys Hirt – Briefwechsel
-                        1787–1837</ref></item>
-                  <item><ref target="http://lebenswelten-lehndorff.bbaw.de/index.xql">Lebenswelten,
+                  <item>
+                     <ref target="http://edition-humboldt.de/index.xql"> edition humboldt
+                        digital</ref>
+                  </item>
+                  <item>
+                     <ref target="">Jean Paul</ref>
+                  </item>
+                  <item>
+                     <ref target="http://iffland.bbaw.de/index.xql">August Wilhelm Ifflands
+                        dramaturgisches und administratives Archiv</ref>
+                  </item>
+                  <item>
+                     <ref target="https://xmldev.bbaw.de/expath/apps/WvH/Briefe?section=all">Wilhelm
+                        von Humboldt - Spachwissenschaftliche Korrepondenz</ref>
+                  </item>
+                  <item>
+                     <ref target="http://aloys-hirt.bbaw.de/index.xql">Aloys Hirt – Briefwechsel
+                        1787–1837</ref>
+                  </item>
+                  <item>
+                     <ref target="http://lebenswelten-lehndorff.bbaw.de/index.xql">Lebenswelten,
                         Erfahrungsräume und politische Horizonte der ostpreußischen Adelsfamilie
-                        Lehndorff vom 18. bis in das 20.Jahrhundert</ref></item>
+                        Lehndorff vom 18. bis in das 20.Jahrhundert</ref>
+                  </item>
                </list>
             </div>
             <div>
@@ -81,12 +94,12 @@
                   erweitern. Jede digitale Briefedition, die auf dem TEI-Format basiert, kann
                   partizipieren.</p>
                <p> Für eine Beteiligung Ihres Projektes benötigen wir TEI-XML-Dateien. Eine Beispiel
-                  Datei finden Sie <ref target="../examples/example.xml">hier</ref>. Ihre Datei sollte aus
-                  einer Liste aus cit-Elementen bestehen, die jeweils ein quote-Element mit der
-                  jeweiligen Grußformel und ein bilbl-Element mit den bibliographischen Angaben
-                  (Titel der Edition, Titel des Briefs) zur und Quelle der Grußformel enthalten.
-                  Jedes cit-Element sollte die URL zum Quellbrief in der digitalen Edition enthalen.
-                  <!-- wie beschreibe ich das hier?? -->
+                  Datei finden Sie <ref target="../examples/example.xml">hier</ref>. Ihre Datei
+                  sollte aus einer Liste aus cit-Elementen bestehen, die jeweils ein quote-Element
+                  mit der jeweiligen Grußformel und ein bilbl-Element mit den bibliographischen
+                  Angaben (Titel der Edition, Titel des Briefs) zur und Quelle der Grußformel
+                  enthalten. Jedes cit-Element sollte die URL zum Quellbrief in der digitalen
+                  Edition enthalen. <!-- wie beschreibe ich das hier?? -->
                </p>
                <p> Wenn Sie möchten, dass Ihre Grußformeln mit der Filterfunktion durchsuchbar sein
                   sollen, müssen Sie die Grußformeln inhaltlich prüfen. Dabei erhält jedes
@@ -98,9 +111,9 @@
                <p>Eine Vorlage können Sie sich <ref target="../templates/template.xml">hier</ref>
                   runterladen</p>
                <p>Um Ihnen die Abfrage Ihrer Daten und Transformation in unser benötigtes Format zu
-                  erleichter, stellen wir Ihnen <ref target="../templates/template.xslt">hier</ref> eine XSLT
-                  Datei bereit. Diese müssen Sie gegebenenfalls an die spezifischen Anforderungen
-                  Ihrer Edition anpassen.</p>
+                  erleichter, stellen wir Ihnen <ref target="../templates/template.xslt">hier</ref>
+                  eine XSLT Datei bereit. Diese müssen Sie gegebenenfalls an die spezifischen
+                  Anforderungen Ihrer Edition anpassen.</p>
             </div>
             <div>
                <head>Technologien</head>
@@ -116,7 +129,7 @@
                <head>Details</head>
                <div>
                   <head>Tagging</head>
-                  <p></p>
+                  <p/>
                   <table>
                      <row role="label">
                         <cell>XPath</cell>
@@ -125,48 +138,57 @@
                      </row>
                      <row>
                         <cell rend="code">/teiHeader/encodingDesc</cell>
-                        <cell>Im teiHeader muss eine encoding description eingefügt werden, das die möglichen Werte für @ana deklariert.</cell>
-                        <cell>E.g. <hi rend="code"></hi></cell>
+                        <cell>Im teiHeader muss eine encoding description eingefügt werden, das die
+                           möglichen Werte für @ana deklariert.</cell>
+                        <cell>E.g. <hi rend="code"/></cell>
                      </row>
                      <row>
                         <cell rend="code">/teiHeader/correspDesc/category/@xml:id</cell>
                         <cell>Hier werden die möglichen Werte für @ana deklariert.</cell>
-                        <cell>E.g. <hi rend="code"></hi>"formal"</cell>
+                        <cell>E.g. <hi rend="code"/>"formal"</cell>
                      </row>
                      <row>
                         <cell rend="code">/body/div/@type="citList"</cell>
-                        <cell>Der Body besteht aus einem div, das eine Liste ist. Daher braucht er @type.</cell>
-                        <cell>E.g. <hi rend="code"></hi></cell>
+                        <cell>Der Body besteht aus einem div, das eine Liste ist. Daher braucht er
+                           @type.</cell>
+                        <cell>E.g. <hi rend="code"/></cell>
                      </row>
                      <row>
                         <cell rend="code">/body/div/cit</cell>
                         <cell>Der Body besteht aus einer Liste von cits</cell>
-                        <cell>E.g. <hi rend="code"></hi></cell>
+                        <cell>E.g. <hi rend="code"/></cell>
                      </row>
                      <row>
                         <cell rend="code">/body/div/cit/quote</cell>
-                        <cell></cell>
-                        <cell>E.g. <hi rend="code"></hi></cell>
+                        <cell/>
+                        <cell>E.g. <hi rend="code"/></cell>
                      </row>
                      <row>
                         <cell rend="code">/body/div/cit/quote/@ana</cell>
-                        <cell>Hier wird das semantische Tagging vorgenommen und im @ana festgehalten.</cell>
+                        <cell>Hier wird das semantische Tagging vorgenommen und im @ana
+                           festgehalten.</cell>
                         <cell>E.g. <hi rend="code">"#informal #s-f #r-m"</hi></cell>
+                     </row>
+                     <row>
+                        <cell rend="code">/body/div/cit/quote/@xml:lang</cell>
+                        <cell>Hier wird die Sprache der Grußformel verzeichnet.</cell>
+                        <cell>E.g. <hi rend="code">"deu"</hi></cell>
                      </row>
                      <row>
                         <cell rend="code">/body/div/cit/title</cell>
                         <cell>Titel des Briefs aus der die Grußformel stammt</cell>
-                        <cell>E.g. <hi rend="code"></hi></cell>
+                        <cell>E.g. <hi rend="code"/></cell>
                      </row>
                      <row>
                         <cell rend="code">/body/div/cit/edition</cell>
                         <cell>Edition aus der die Grußformel stammt</cell>
-                        <cell>E.g. <hi rend="code"></hi></cell>
+                        <cell>E.g. <hi rend="code"/></cell>
                      </row>
                      <row>
                         <cell rend="code">/body/div/cit/ref/@target</cell>
-                        <cell>Das @target enthält die URL, die auf den Quellbrief in der digitalen Edition verlinkt.</cell>
-                        <cell>E.g. <hi rend="code"></hi>"http://edition-humboldt.de/H0002656"</cell>
+                        <cell>Das @target enthält die URL, die auf den Quellbrief in der digitalen
+                           Edition verlinkt.</cell>
+                        <cell>E.g. <hi rend="code"/>"http://edition-humboldt.de/H0002656"</cell>
                      </row>
                   </table>
                </div>
