@@ -54,115 +54,65 @@
    </teiHeader>
    <text>
       <body>
-         <div type="citList" xml:base="megadigital.bbaw.de/briefe/detail.xql?id=">
+         <div type="citList">
             <cit>
                <quote ana="#formal #s-n #r-n" xml:lang="deu">Besten Gruß <lb/>
-              </quote>
-               <bibl corresp="mega_sp3_kzs_gz">
-                  <edition>MEGAdigital</edition>
-                  <title>S. Nördlinger an Friedrich Engels in Manchester. Manchester, Dienstag, 8.
+               </quote>
+               <bibl>
+                  <title type="edition">MEGAdigital</title>
+                  <title type="letter">S. Nördlinger an Friedrich Engels in Manchester. Manchester, Dienstag, 8.
                      Januar 1867 </title>
-                  <name type="sender">
-                     <persName key="ed_q1x_tqj_sx">Nördlinger, S. (-)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1867-01-08" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="ed_eyg_crj_sx">Engels, Friedrich (1820-1895)</persName>
-                  </name>
+                  <ref target="megadigital.bbaw.de/briefe/detail.xql?id=mega_sp3_kzs_gz"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-n #r-m" xml:lang="eng">Dear Sir <lb/>Faithfully yours <lb/>
-              </quote>
-               <bibl corresp="mega_b5c_qwz_sy">
-                  <edition>MEGAdigital</edition>
-                  <title>Ernest Jones an Edmond Beales, 31. Mai 1866 </title>
-                  <name type="sender">
-                     <persName key="pdrPo.001.004.000002387">Jones, Ernest</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1866-05-31" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="pdrPo.001.004.000000296">Beales, Edmond</persName>
-                  </name>
+               </quote>
+               <bibl>
+                  <title type="edition">MEGAdigital</title>
+                  <title type="letter">Ernest Jones an Edmond Beales, 31. Mai 1866 </title>
+                  <ref target="megadigital.bbaw.de/briefe/detail.xql?id=mega_b5c_qwz_sy"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-m #r-n" xml:lang="deu">stets der Ihrige <lb/>
-              </quote>
-               <bibl corresp="B00079">
-                  <edition>MEGAdigital</edition>
-                  <title>76Louis Kugelmann an Karl Marx in London. Hannover, Freitag, 30. März
+               </quote>
+               <bibl>
+                  <title type="edition">MEGAdigital</title>
+                  <title type="letter">76Louis Kugelmann an Karl Marx in London. Hannover, Freitag, 30. März
                      1866</title>
-                  <name type="sender">
-                     <persName key="pdrPo.001.004.000002616">Louis Kugelmann</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1866-03-30"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="ed_ats_ysj_wx">Karl Marx</persName>
-                  </name>
+                  <ref target="megadigital.bbaw.de/briefe/detail.xql?id=B00079"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-n #r-n" xml:lang="fra">agreez nos Salutations <lb/>
-              </quote>
-               <bibl corresp="mega_vwc_vxs_sy">
-                  <edition>MEGAdigital</edition>
-                  <title>Charles Rochat und Jean-Baptiste Dupleix an Hermann Jung vom 18. Juli
+               </quote>
+               <bibl>
+                  <title type="edition">MEGAdigital</title>
+                  <title type="letter">Charles Rochat und Jean-Baptiste Dupleix an Hermann Jung vom 18. Juli
                      1866.</title>
-                  <name type="sender">
-                     <persName key="ed_jqz_kwx_wy">Rochat, Charles (1844-)</persName>
-                     <persName key="pdrPo.001.004.000001278">Dupleix, Jean-Baptiste</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1866-07-18" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="pdrPo.001.004.000002417">Jung, Hermann (1830-1901)</persName>
-                  </name>
+                  <ref target="megadigital.bbaw.de/briefe/detail.xql?id=mega_vwc_vxs_sy"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#informal #s-m #r-m" xml:lang="deu">Fraternelles <lb/>
                   <lb/>
-              </quote>
-               <bibl corresp="mega_vwc_vxs_sy">
-                  <edition>MEGAdigital</edition>
-                  <title>Charles Rochat und Jean-Baptiste Dupleix an Hermann Jung vom 18. Juli
+               </quote>
+               <bibl>
+                  <title type="edition">MEGAdigital</title>
+                  <title type="letter">Charles Rochat und Jean-Baptiste Dupleix an Hermann Jung vom 18. Juli
                      1866.</title>
-                  <name type="sender">
-                     <persName key="ed_jqz_kwx_wy">Rochat, Charles (1844-)</persName>
-                     <persName key="pdrPo.001.004.000001278">Dupleix, Jean-Baptiste</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1866-07-18" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="pdrPo.001.004.000002417">Jung, Hermann (1830-1901)</persName>
-                  </name>
+                  <ref target="megadigital.bbaw.de/briefe/detail.xql?id=mega_vwc_vxs_sy"/>
                </bibl>
             </cit>    
-           
+            
             <cit>
                <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihr treu ergebner <lb/>K. Marx</quote>
-               <bibl corresp="B00012">
-                  <edition>MEGAdigital</edition>
-                  <title>11Karl Marx an Louis Kugelmann in Hannover. London, Montag, 15. Januar
+               <bibl>
+                  <title type="edition">MEGAdigital</title>
+                  <title type="letter">11Karl Marx an Louis Kugelmann in Hannover. London, Montag, 15. Januar
                      1866</title>
-                  <name type="sender">
-                     <persName key="ed_ats_ysj_wx">Karl Marx</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1866-01-15"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="pdrPo.001.004.000002616">Louis Kugelmann</persName>
-                  </name>
+                  <ref target="megadigital.bbaw.de/briefe/detail.xql?id=B00012"/>
                </bibl>
             </cit>
          </div>

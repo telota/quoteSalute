@@ -50,1985 +50,1086 @@
                </category>
             </taxonomy>
          </classDecl>
-      </encodingDesc> 
+      </encodingDesc>
    </teiHeader>
    <text>
       <body>
-         <div type="citList" xml:base="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=">
+         <div type="citList">
             <cit>
-               <quote ana="#formal #s-n #r-m" xml:lang="deu">adieu lieber guter!<lb/></quote>
-               <bibl corresp="prov_sl4_g43_s5">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>Von Johann Kaspar Lavater. Zürich, den 17. Januar 1789. Sonnabend</title>
-                  <name type="sender">
-                     <persName key="prov_zqn_wx5_35">Lavater, Johann Kaspar (1741 - 1801)
-                     </persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1789-01-17" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759 - 1837) </persName>
-                  </name>
+               <quote ana="#formal #s-n #r-m" xml:lang="deu">adieu lieber guter!<lb/>
+               </quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">Von Johann Kaspar Lavater. Zürich, den 17. Januar 1789.
+                     Sonnabend</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_sl4_g43_s5"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-n" xml:lang="deu">Leben Sie wohl, empfehlen Sie mich allen, auch der niedlichen <persName
-                     key="prov_w3h_3rj_gv">Jagemann</persName> – und laßen Sie <del rendition="#s"
-                     next="bald">sich</del> bald wieder etwas von sich hören – <lb/>Ihr</quote>
-               <bibl corresp="prov_ert_gcm_4v">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Karl August Böttiger. Berlin, den 7. Dezember 1798. Freitag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1798-12-07" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_g5d_v2p_5r">Böttiger, Karl August</persName>
-                  </name>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Leben Sie wohl, empfehlen Sie mich
+                  allen, auch der niedlichen <persName key="prov_w3h_3rj_gv">Jagemann</persName> –
+                  und laßen Sie <del rendition="#s" next="bald">sich</del> bald wieder etwas von
+                  sich hören – <lb/>Ihr</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Karl August Böttiger. Berlin, den 7. Dezember 1798.
+                     Freitag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_ert_gcm_4v"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-n" xml:lang="deu">Jezt leben Sie wohl! Sorgen Sie für Ihr Beßerwerden und gedenken Sie
-                  <lb/>Ihres ergebenen</quote>
-               <bibl corresp="hirt_sg4_pq3_nx">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Karl August Böttiger. Berlin, 29. Oktober 1822. Dienstag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1822-10-29" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_g5d_v2p_5r">Böttiger, Karl August (1760-1835)
-                        (Schriftsteller)</persName>
-                  </name>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Jezt leben Sie wohl! Sorgen Sie für Ihr
+                  Beßerwerden und gedenken Sie <lb/>Ihres ergebenen</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Karl August Böttiger. Berlin, 29. Oktober 1822.
+                     Dienstag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_sg4_pq3_nx"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Die fernern gnädigen Befehle Ew. Königlichen Hoheit erwartend, geharre wie
-                  immer <lb/>Ihr Gehorsamster</quote>
-               <bibl corresp="hirt_ip2_ycp_wx">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Prinz Wilhelm von Preußen (Bruder des Königs). Berlin, 16. April 1826.
-                     Sonntag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1826-04-16" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_vpp_kmx_2v">Preußen, Friedrich Wilhelm Karl, Prinz von
-                        (1783-1851) (jüngster Sohn von König Friedrich Wilhelm II. und Prinzessin
-                        Friederike Luise von Hessen-Darmstadt, Bruder von Friedrich Wilhelm III.,
-                        1799 Stabskapitän, General, Generalgouverneur der Rheinprovinzen und
-                        Gouverneur der Bundesfestung Mainz, seit 1804 verh. mit Marianne von
-                        Hessen-Homburg)</persName>
-                  </name>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Die fernern gnädigen Befehle Ew.
+                  Königlichen Hoheit erwartend, geharre wie immer <lb/>Ihr Gehorsamster</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Prinz Wilhelm von Preußen (Bruder des Königs). Berlin, 16.
+                     April 1826. Sonntag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_ip2_ycp_wx"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-n #r-n" xml:lang="deu">Danckbar, treu verbunden</quote>
-               <bibl corresp="hirt_yp3_shw_yx">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>Von Johann Wolfgang von Goethe. Weimar, 12. August 1827. Sonntag</title>
-                  <name type="sender">
-                     <persName key="prov_hwd_hmp_5r">Goethe, Johann Wolfgang von (1749-1832)
-                        (Schriftsteller)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1827-08-12" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">Von Johann Wolfgang von Goethe. Weimar, 12. August 1827.
+                     Sonntag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_yp3_shw_yx"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#informal #s-m #r-n" xml:lang="spa">il vostro amico vero</quote>
-               <bibl corresp="prov_ldd_4wt_rv">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Georg Zoega. Berlin, den 8. Juni 1800. Sonntag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1800-06-08" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_ijp_xvr_xr">Zoega, Georg</persName>
-                  </name>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Georg Zoega. Berlin, den 8. Juni 1800. Sonntag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_ldd_4wt_rv"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n" xml:lang="deu">Der ich recht wohl zu leben wünsche, <del rendition="#s" next="und" xml:lang="deu">W.
-                     d.</del> und mich geneigtem Andenken empfehle.</quote>
-               <bibl corresp="prov_jzw_krw_pv">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>Von Johann Wolfgang von Goethe. Weimar, den 4. November 1799.
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Der ich recht wohl zu leben wünsche,
+                     <del rendition="#s" next="und" xml:lang="deu">W. d.</del> und mich geneigtem
+                  Andenken empfehle.</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">Von Johann Wolfgang von Goethe. Weimar, den 4. November 1799.
                      Montag</title>
-                  <name type="sender">
-                     <persName key="prov_hwd_hmp_5r">Goethe, Johann Wolfgang von</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1799-11-04" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys</persName>
-                  </name>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_jzw_krw_pv"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihr treuergebner</quote>
-               <bibl corresp="hirt_psf_dsm_cy">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Christian Daniel Rauch. Berlin, 20. Januar 1828. Sonntag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1828-01-20" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="ed_p41_xpz_lw">Rauch, Christian Daniel (1777-1857) (Bildhauer
-                        des deutschen Klassizismus, Schüler von J. G. Schadow, Berliner
-                        Bildhauerschule)</persName>
-                  </name>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Christian Daniel Rauch. Berlin, 20. Januar 1828.
+                     Sonntag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_psf_dsm_cy"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n" xml:lang="deu">Ihren <lb/>gänzlich Ihnen ergebenen und treuherzigen, <lb/>wahren
-                  Verehrer</quote>
-               <bibl corresp="prov_pft_t3s_cv">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Wilhelmine Rietz (Gräfin Lichtenau). Rom, 15.(?) April 1796 .
-                     Freitag(?)</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1796-04-15" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_qvp_1gm_cv">Lichtenau, Wilhelmine Gräfin von, geb. Enke
-                        (Encke), verh. Rietz</persName>
-                  </name>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Ihren <lb/>gänzlich Ihnen ergebenen
+                  und treuherzigen, <lb/>wahren Verehrer</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Wilhelmine Rietz (Gräfin Lichtenau). Rom, 15.(?) April
+                     1796 . Freitag(?)</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_pft_t3s_cv"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">ich verbleibe mit aller Unterthänigkeit <lb/>Euer Königlichen Majestät
-                  <lb/>allerunterthänigster</quote>
-               <bibl corresp="hirt_wzx_scz_lw">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An König Friedrich Wilhelm III. von Preußen. Berlin, 22. April 1818.
-                     Mittwoch</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1818-04-22" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_bxf_jt5_fv">Preußen, Friedrich Wilhelm III. von (1770-1840)
-                        (Kronprinz, 16.11.1797-7.6.1840 König von Preußen)</persName>
-                  </name>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">ich verbleibe mit aller Unterthänigkeit
+                  <lb/>Euer Königlichen Majestät <lb/>allerunterthänigster</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An König Friedrich Wilhelm III. von Preußen. Berlin, 22.
+                     April 1818. Mittwoch</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_wzx_scz_lw"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-n" xml:lang="deu">Leben Sie wohl, u. bleiben Sie von meiner dauernden Freundschaft
-                  überzeugt</quote>
-               <bibl corresp="hirt_ijy_bh4_fw">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Karl August Böttiger. Berlin, 5. Oktober 1810. Freitag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1810-10-05" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_g5d_v2p_5r">Böttiger, Karl August (1760-1835)
-                        (Schriftsteller)</persName>
-                  </name>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Leben Sie wohl, u. bleiben Sie von
+                  meiner dauernden Freundschaft überzeugt</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Karl August Böttiger. Berlin, 5. Oktober 1810.
+                     Freitag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_ijy_bh4_fw"/>
                </bibl>
             </cit>
-            
+
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Genug für heute von Ihrem ergebnen</quote>
-               <bibl corresp="hirt_i3t_k3m_vw">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Karl August Böttiger. Berlin, 15. November 1819. Freitag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1819-11-19" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_g5d_v2p_5r">Böttiger, Karl August (1760-1835)
-                        (Schriftsteller)</persName>
-                  </name>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Genug für heute von Ihrem
+                  ergebnen</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Karl August Böttiger. Berlin, 15. November 1819.
+                     Freitag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_i3t_k3m_vw"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-m" xml:lang="deu">Mit den Gesinnungen der tiefsten Verehrung geharre ich <lb/>Ew. Königlichen
-                  Hoheit, <lb/>Meines Gnädigsten Herrn <lb/>unterthänigster</quote>
-               <bibl corresp="hirt_wkp_yql_vx">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An den Kronprinzen Friedrich Wilhelm (IV.) von Preußen. Berlin, 24. August
-                     1825. Mittwoch</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1825-08-24" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_rrj_mk5_fv">Preußen, Friedrich Wilhelm (IV.) von
-                        (1795-1861) (Kronprinz, 1840-1861 König von Preußen)</persName>
-                  </name>
+               <quote ana="#formal #s-m #r-m" xml:lang="deu">Mit den Gesinnungen der tiefsten
+                  Verehrung geharre ich <lb/>Ew. Königlichen Hoheit, <lb/>Meines Gnädigsten Herrn
+                  <lb/>unterthänigster</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An den Kronprinzen Friedrich Wilhelm (IV.) von Preußen.
+                     Berlin, 24. August 1825. Mittwoch</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_wkp_yql_vx"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Erhalten <add place="superlinear" xml:lang="deu">Sie</add> mich in Ihrem Andenken; mit den
-                  nemlichen Gesinnungen bin ich <lb/> fortdaurend Ihr ganz ergebner</quote>
-               <bibl corresp="prov_j1t_gnv_y5">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Johann Wolfgang von Goethe. Rom, den 28. Juni 1794. Sonnabend</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1794-06-28" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_hwd_hmp_5r">Goethe, Johann Wolfgang von</persName>
-                  </name>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Erhalten <add place="superlinear"
+                     xml:lang="deu">Sie</add> mich in Ihrem Andenken; mit den nemlichen Gesinnungen
+                  bin ich <lb/> fortdaurend Ihr ganz ergebner</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Johann Wolfgang von Goethe. Rom, den 28. Juni 1794.
+                     Sonnabend</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_j1t_gnv_y5"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Der Himmel erhalte Sie froh und glücklich noch eine lange Reihe von Jahren
-                  <lb/>Unterthänigster</quote>
-               <bibl corresp="hirt_tsm_xlp_wy">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An den Kronprinzen Friedrich Wilhelm (IV.) von Preußen. Berlin, 18. Januar
-                     1837. Mittwoch</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1837-01-18" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_rrj_mk5_fv">Preußen, Friedrich Wilhelm (IV.) von
-                        (1795-1861) (Kronprinz, 1840-1861 König von Preußen)</persName>
-                  </name>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Der Himmel erhalte Sie froh und
+                  glücklich noch eine lange Reihe von Jahren <lb/>Unterthänigster</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An den Kronprinzen Friedrich Wilhelm (IV.) von Preußen.
+                     Berlin, 18. Januar 1837. Mittwoch</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_tsm_xlp_wy"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n" xml:lang="deu">Ihr <lb/>herzlich ergebner <lb/>Fr<ex>eund</ex>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Ihr <lb/>herzlich ergebner
+                     <lb/>Fr<ex>eund</ex>
                </quote>
-               <bibl corresp="hirt_uxv_xmh_yx">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Christian Daniel Rauch. Berlin, 12. Juli 1827. Donnerstag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1827-07-12" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="ed_p41_xpz_lw">Rauch, Christian Daniel (1777-1857) (Bildhauer
-                        des deutschen Klassizismus, Schüler von J. G. Schadow, Berliner
-                        Bildhauerschule)</persName>
-                  </name>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Christian Daniel Rauch. Berlin, 12. Juli 1827.
+                     Donnerstag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_uxv_xmh_yx"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Mit unbegrenzter Verehrung und Anhänglichkeit verbleibe ich <lb/>Ew.
-                  Königlichen Hoheit <lb/>ergebenster</quote>
-               <bibl corresp="hirt_fcd_cqx_3x">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An den Kronprinzen Friedrich Wilhelm (IV.) von Preußen. Berlin, 5.
-                     September 1821. Mittwoch</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1821-09-05" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_rrj_mk5_fv">Preußen, Friedrich Wilhelm (IV.) von
-                        (1795-1861) (Kronprinz, 1840-1861 König von Preußen)</persName>
-                  </name>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Mit unbegrenzter Verehrung und
+                  Anhänglichkeit verbleibe ich <lb/>Ew. Königlichen Hoheit <lb/>ergebenster</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An den Kronprinzen Friedrich Wilhelm (IV.) von Preußen.
+                     Berlin, 5. September 1821. Mittwoch</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_fcd_cqx_3x"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Hochachtungsvoll <lb/>Ihr <lb/>ergebenster</quote>
-               <bibl corresp="hirt_fhk_fyt_mx">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Wilhelm Dorow. Berlin, 5. August 1822. Montag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1822-08-05" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="ed_v2p_zb3_nx">Dorow, Karl Friedrich Ferdinand Wilhelm
-                        (1790-1845) (Altertumsforscher, preuß. Beamter, 1819 Hofrat, 1820 Direktor
-                        der Verwaltung für Altertumskunde im Rheinland und in Westfalen, Gründer des
-                        Altertumsmuseums in Bonn)</persName>
-                  </name>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Hochachtungsvoll <lb/>Ihr
+                  <lb/>ergebenster</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Wilhelm Dorow. Berlin, 5. August 1822. Montag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_fhk_fyt_mx"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-n" xml:lang="deu">Suchen Sie mich dort im Andenken zu erhalten, und sagen Sie mir bald wieder
-                  ein Wörtchen</quote>
-               <bibl corresp="prov_hz3_gyx_gv">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Karl August Böttiger. Berlin, den 12. Dezember 1797. Dienstag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1797-12-12" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_g5d_v2p_5r">Böttiger, Karl August</persName>
-                  </name>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Suchen Sie mich dort im Andenken zu
+                  erhalten, und sagen Sie mir bald wieder ein Wörtchen</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Karl August Böttiger. Berlin, den 12. Dezember 1797.
+                     Dienstag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_hz3_gyx_gv"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Erhalten Sie mich in freundschaftlichem Andenken, und bleiben Sie von meiner
-                  ganzen Hochachtung überzeugt <lb/>Ihr ergebenster</quote>
-               <bibl corresp="hirt_tkh_j14_pw">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Friedrich Gottlieb Welcker. Berlin, 10. Mai 1818</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1818-05-10" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="ed_yhh_z14_pw">Welcker, Friedrich Gottlieb (1784-1868) (dt.
-                        klassischer Philologe und Archäologe, Prof. in Gießen (1809-1816), Göttingen
-                        (1816-1819) und Bonn (1819-1868))</persName>
-                  </name>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Erhalten Sie mich in freundschaftlichem
+                  Andenken, und bleiben Sie von meiner ganzen Hochachtung überzeugt <lb/>Ihr
+                  ergebenster</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Friedrich Gottlieb Welcker. Berlin, 10. Mai 1818</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_tkh_j14_pw"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-n #r-n" xml:lang="deu">Ew. Durchlaucht<lb/>
                </quote>
-               <bibl corresp="prov_pt4_1bk_s5">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Anna Amalia von Sachsen-Weimar und Eisenach. Rom, den 18. September
-                     1789. Freitag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759 - 1837) </persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1789-09-18" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_qn2_zhp_5r">Sachsen-Weimar-Eisenach, Anna-Amalia von (1739
-                        - 1807) </persName>
-                  </name>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Anna Amalia von Sachsen-Weimar und Eisenach. Rom, den 18.
+                     September 1789. Freitag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_pt4_1bk_s5"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Euer Herzoglichen Durchlaucht / unterthänigster</quote>
-               <bibl corresp="prov_iy1_zls_1v">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Karl August von Sachsen-Weimar und Eisenach. Rom, den 28. Juni 1794.
-                     Sonnabend</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1794-06-28" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_mpb_byv_y5">Sachsen-Weimar und Eisenach, Karl August Herzog
-                        von</persName>
-                  </name>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Euer Herzoglichen Durchlaucht /
+                  unterthänigster</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Karl August von Sachsen-Weimar und Eisenach. Rom, den 28.
+                     Juni 1794. Sonnabend</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_iy1_zls_1v"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-n" xml:lang="deu">Indem ich um die Fortdauer Ihres Andenkens bitte, <subst>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Indem ich um die Fortdauer Ihres
+                  Andenkens bitte, <subst>
                      <del rendition="#ow">erg</del>
                      <add place="across">ver</add>
                   </subst>bleibe ich mit wahrer Hochachtung <lb/>mein verehrtester Herr Director
                   <lb/>Ihr ergebenster <lb/>D<ex>iener</ex>
                </quote>
-               <bibl corresp="hirt_yjq_jrf_cy">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Friedrich Wilhelm Joseph Schelling. Berlin, 30. Mai 1818.
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Friedrich Wilhelm Joseph Schelling. Berlin, 30. Mai 1818.
                      Sonnabend</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1818-05-30" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="ed_xzs_sml_jw">Schelling, Friedrich Wilhelm Joseph (1775-1854)
-                        (ab 1812 Ritter von Schelling, Philosoph, Hauptvertreter des Deutschen
-                        Idealismus)</persName>
-                  </name>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_yjq_jrf_cy"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-m #r-n" xml:lang="deu">Bald ein mehrers von <lb/>Ihrem</quote>
-               <bibl corresp="hirt_j3d_3bf_vw">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Karl August Böttiger. Berlin, 2. November 1819. Dienstag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1819-11-02" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_g5d_v2p_5r">Böttiger, Karl August (1760-1835)
-                        (Schriftsteller)</persName>
-                  </name>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Karl August Böttiger. Berlin, 2. November 1819.
+                     Dienstag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_j3d_3bf_vw"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich bin mit unwandelbaren Gesinnungen fortdaurend <lb/>Ihr ganz
-                  ergebner</quote>
-               <bibl corresp="prov_lss_f1q_pv">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Johann Wolfgang von Goethe. Berlin, den 22. August 1799.
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich bin mit unwandelbaren Gesinnungen
+                  fortdaurend <lb/>Ihr ganz ergebner</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Johann Wolfgang von Goethe. Berlin, den 22. August 1799.
                      Donnerstag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1799-08-22" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_hwd_hmp_5r">Goethe, Johann Wolfgang von</persName>
-                  </name>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_lss_f1q_pv"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#informal #s-m #r-n" xml:lang="deu">Ihr ewig ergebner Freund</quote>
-               <bibl corresp="hirt_zqg_rkn_my">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Karl August Böttiger. Berlin, 13. Oktober 1830. Mittwoch</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1830-10-13" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_g5d_v2p_5r">Böttiger, Karl August (1760-1835)
-                        (Schriftsteller)</persName>
-                  </name>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Karl August Böttiger. Berlin, 13. Oktober 1830.
+                     Mittwoch</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_zqg_rkn_my"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n" xml:lang="deu">Es umarmt Sie herzlich <lb/>Ihr treuergebener <lb/>Freund</quote>
-               <bibl corresp="hirt_rpm_5jx_lw">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Joseph von Laßberg. Berlin, 12. Mai 1818. Dienstag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1818-05-12" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="ed_stp_kmd_2w">Laßberg, Joseph Maria Christoph Freiherr von
-                        (1770-1855) (Forstmann, Germanist und Schriftsteller, Oberforstmeister im
-                        Fürstentum Fürstenberg, Lebensgemeinschaft mit Fürstin Elisabeth zu
-                        Fürstenberg, geb. Thurn und Taxis (1767-1822), ab 1838 Besitzer der Burg
-                        Meersburg am Bodensee, Schwager von Annette von Droste-Hülshoff)</persName>
-                  </name>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Es umarmt Sie herzlich <lb/>Ihr
+                  treuergebener <lb/>Freund</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Joseph von Laßberg. Berlin, 12. Mai 1818. Dienstag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_rpm_5jx_lw"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Mit unwandelbaren Gesinnungen treuerster Ergebenheit verbleibe ich <lb/>Ew.
-                  Königlichen Hoheit <lb/>unterthänigst <lb/>gehorsamster</quote>
-               <bibl corresp="hirt_owq_3gl_xw">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Prinzessin Marianne von Preußen. Berlin, 23. Oktober 1820.
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Mit unwandelbaren Gesinnungen
+                  treuerster Ergebenheit verbleibe ich <lb/>Ew. Königlichen Hoheit
+                  <lb/>unterthänigst <lb/>gehorsamster</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Prinzessin Marianne von Preußen. Berlin, 23. Oktober 1820.
                      Montag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1820-10-23" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="ed_dyv_35f_dw">Preußen, Marie Anne Amalie (Marianne), Prinzessin
-                        von, geb. Prinzessin von Hessen-Homburg (1785-1846) (seit 1804 verheiratet
-                        mit Prinz Wilhelm von Preußen, dem jüngsten Bruder König Friedrich Wilhelms
-                        III.; nach dem Tod von Königin Luise "First Lady" am preuß. Hof, großes
-                        polit. und soziales Engagement)</persName>
-                  </name>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_owq_3gl_xw"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich unterzeichne mich in aller Unterthänigkeit und der tiefesten Ehranbietung
-                  <lb/>Ew. hochfürstlichen Durchlaucht <lb/>unterthänigster gehorsamster</quote>
-               <bibl corresp="hirt_wpr_tk2_hw">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Erbprinz Friedrich von Anhalt-Dessau . Berlin, 30. Dezember 1811.
-                     Montag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1811-12-30" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_ak2_x5c_qv">Anhalt-Dessau, Friedrich von (1769-1814) (Sohn
-                        von Fürst Leopold III. von Anhalt-Dessau und seiner Frau Louise, Erbprinz
-                        des Fürstentums Anhalt-Dessau, 1788-Anfang 1794 Offizier in preuß.
-                        Diensten)</persName>
-                  </name>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich unterzeichne mich in aller
+                  Unterthänigkeit und der tiefesten Ehranbietung <lb/>Ew. hochfürstlichen
+                  Durchlaucht <lb/>unterthänigster gehorsamster</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Erbprinz Friedrich von Anhalt-Dessau . Berlin, 30.
+                     Dezember 1811. Montag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_wpr_tk2_hw"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich habe die Ehre zu seyn <lb/>Ew. Wohlgeboren<lb/>ergebenster Diener</quote>
-               <bibl corresp="prov_s2r_dbx_pv">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An die Buchhandlung Voss und Comp. in Leipzig. Berlin, den 6. Dezember
-                     1799. Freitag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1799-12-06" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_nw1_gdx_pv">Voß, Georg(1765 - 1842)</persName>
-                     <persName key="prov_sf2_gcx_pv">Buchhandlung Voß und Comp. in Leipzig,
-                     </persName>
-                  </name>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich habe die Ehre zu seyn <lb/>Ew.
+                  Wohlgeboren<lb/>ergebenster Diener</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An die Buchhandlung Voss und Comp. in Leipzig. Berlin, den 6.
+                     Dezember 1799. Freitag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_s2r_dbx_pv"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="fra">Agréez, Monsieur le chevalier, les temoignages de la haute consideration avec
-                  laquelle j'ai l'honneur d' être <lb/>votre très humble serviteur</quote>
-               <bibl corresp="hirt_rlf_1t2_jx">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Alvar Augustin Naria de Liagno. Berlin, 21. Oktober 1821.
+               <quote ana="#formal #s-m #r-n" xml:lang="fra">Agréez, Monsieur le chevalier, les
+                  temoignages de la haute consideration avec laquelle j'ai l'honneur d' être
+                  <lb/>votre très humble serviteur</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Alvar Augustin Naria de Liagno. Berlin, 21. Oktober 1821.
                      Sonntag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1821-10-21" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="ed_wcm_ft2_jx">Liagno, Alvar Augustin Naria de (1782-1848)
-                        (span. Adliger, vormals röm.-kathol. Priester, konvertierte zum Calvinismus,
-                        1809-1822 in Berlin, königl. Bibliothekar, Lehrer für Spanisch und
-                        Französisch an der Berliner Universität, nach 1822 Privatgelehrter in
-                        Neuwied)</persName>
-                  </name>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_rlf_1t2_jx"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich bitte Ew. Durchlaucht, diese Nachricht mit gewohnter Huld aufzunehmen von
-                  Ihrem dienstwilligsten gehorsamsten D<ex>iener</ex>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich bitte Ew. Durchlaucht, diese
+                  Nachricht mit gewohnter Huld aufzunehmen von Ihrem dienstwilligsten gehorsamsten
+                     D<ex>iener</ex>
                </quote>
-               <bibl corresp="prov_hd1_gbt_1v">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>Beilage Hirts zu einem Brief von Friedrich Bury an Anna Amalia von
-                     Sachsen-Weimar und Eisenach. Rom, den 19. Januar 1793. Sonnabend</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1793-01-19" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_qn2_zhp_5r">Sachsen-Weimar-Eisenach, Anna-Amalia
-                        von</persName>
-                  </name>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">Beilage Hirts zu einem Brief von Friedrich Bury an Anna
+                     Amalia von Sachsen-Weimar und Eisenach. Rom, den 19. Januar 1793.
+                     Sonnabend</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_hd1_gbt_1v"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-m" xml:lang="deu">Ewer Königlichen Hoheit, <lb/>meines gnädigsten Herren <lb/>unterthänigst
-                  ergebner</quote>
-               <bibl corresp="hirt_rtd_rpx_5x">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An den Kronprinzen Friedrich Wilhelm (IV.) von Preußen. Berlin, 13. August
-                     1825. Sonnabend</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1825-08-13" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_rrj_mk5_fv">Preußen, Friedrich Wilhelm (IV.) von
-                        (1795-1861) (Kronprinz, 1840-1861 König von Preußen)</persName>
-                  </name>
+               <quote ana="#formal #s-m #r-m" xml:lang="deu">Ewer Königlichen Hoheit, <lb/>meines
+                  gnädigsten Herren <lb/>unterthänigst ergebner</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An den Kronprinzen Friedrich Wilhelm (IV.) von Preußen.
+                     Berlin, 13. August 1825. Sonnabend</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_rtd_rpx_5x"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-n #r-n" xml:lang="deu">treulichst</quote>
-               <bibl corresp="hirt_pw3_vng_my">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>Von Johann Wolfgang von Goethe. Weimar, 24. Mai 1830. Montag</title>
-                  <name type="sender">
-                     <persName key="prov_hwd_hmp_5r">Goethe, Johann Wolfgang von (1749-1832)
-                        (Schriftsteller)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1830-05-24" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">Von Johann Wolfgang von Goethe. Weimar, 24. Mai 1830.
+                     Montag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_pw3_vng_my"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-n" xml:lang="fra">J'ai l'honneur d'être avec la consideration la plus distinguées</quote>
-               <bibl corresp="prov_yxq_vfj_2v">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An das Direktorium der Akademie der Wissenschaften zu Berlin. Berlin, den
-                     29. Oktober 1796. Sonnabend</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1796-10-29" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_qr5_g12_2v">Akademie der Wissenschaften zu Berlin,
-                        Königlich-Preußische</persName>
-                  </name>
+               <quote ana="#formal #s-n #r-n" xml:lang="fra">J'ai l'honneur d'être avec la
+                  consideration la plus distinguées</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An das Direktorium der Akademie der Wissenschaften zu Berlin.
+                     Berlin, den 29. Oktober 1796. Sonnabend</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_yxq_vfj_2v"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-m #r-n" xml:lang="deu">Wie immer <lb/>Ihr ergebner</quote>
-               <bibl corresp="hirt_sv1_tgx_5x">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Christian Daniel Rauch. Berlin, 11. September 1824. Sonnabend</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1824-09-11" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="ed_p41_xpz_lw">Rauch, Christian Daniel (1777-1857) (Bildhauer
-                        des deutschen Klassizismus, Schüler von J. G. Schadow, Berliner
-                        Bildhauerschule)</persName>
-                  </name>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Christian Daniel Rauch. Berlin, 11. September 1824.
+                     Sonnabend</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_sv1_tgx_5x"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#informal #s-m #r-n" xml:lang="deu">Hiemit wie immer der Ihrige</quote>
-               <bibl corresp="hirt_dnl_jty_xw">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Karl August Böttiger. Berlin, 25. November 1820. Sonnabend</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1820-11-25" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_g5d_v2p_5r">Böttiger, Karl August (1760-1835)
-                        (Schriftsteller)</persName>
-                  </name>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Karl August Böttiger. Berlin, 25. November 1820.
+                     Sonnabend</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_dnl_jty_xw"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihr unwandelbarer</quote>
-               <bibl corresp="prov_vcb_ch2_4v">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Karl August Böttiger. Berlin, den 24. November 1798. Sonnabend</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1798-11-24" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_g5d_v2p_5r">Böttiger, Karl August</persName>
-                  </name>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Karl August Böttiger. Berlin, den 24. November 1798.
+                     Sonnabend</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_vcb_ch2_4v"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-m #r-n" xml:lang="deu">Der Ihrige</quote>
-               <bibl corresp="prov_rb5_3bn_tv">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Karl August Böttiger. Berlin, den 27. Februar und 17. März 1801. Freitag
-                     und Dienstag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1801-02-27" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_g5d_v2p_5r">Böttiger, Karl August</persName>
-                  </name>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Karl August Böttiger. Berlin, den 27. Februar und 17. März
+                     1801. Freitag und Dienstag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_rb5_3bn_tv"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ew. Königl<ex>iche</ex> Hoheit <lb/>vergeb<del rendition="#s" xml:lang="deu">b</del>en Dem
-                  Kranken</quote>
-               <bibl corresp="hirt_tgx_5jt_xy">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An den Kronprinze n Friedrich Wilhelm (IV.) von Preußen. Berlin, kurz nach
-                     7. April 1837</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date notBefore="1837-04-07" notAfter="1837-06-29" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_rrj_mk5_fv">Preußen, Friedrich Wilhelm (IV.) von
-                        (1795-1861) (Kronprinz, 1840-1861 König von Preußen)</persName>
-                  </name>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ew. Königl<ex>iche</ex> Hoheit
+                     <lb/>vergeb<del rendition="#s" xml:lang="deu">b</del>en Dem Kranken</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An den Kronprinze n Friedrich Wilhelm (IV.) von Preußen.
+                     Berlin, kurz nach 7. April 1837</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_tgx_5jt_xy"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-n" xml:lang="deu">Herzlichen Gruß und nochmaligen Danck von</quote>
-               <bibl corresp="hirt_fgk_ryc_gw">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>Von einem Neffen Hirts und von Unbekannt (Notar?) [Dankbrief ]. Nach 20.
-                     Februar 1811</title>
-                  <name type="sender">
-                     <persName key="ed_vzk_czc_gw">Hirt, Xaver (-) (Neffe Aloys Hirts, wohnhaft in
-                        Asen)</persName>
-                  </name>
-                  <date type="sent">
-                     <date notBefore="1811-02-20" notAfter="1811-12-31" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Herzlichen Gruß und nochmaligen Danck
+                  von</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">Von einem Neffen Hirts und von Unbekannt (Notar?) [Dankbrief
+                     ]. Nach 20. Februar 1811</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_fgk_ryc_gw"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n" xml:lang="deu">State bene, ed amate mi<lb/>il vostro vero amico</quote>
-               <bibl corresp="prov_p3q_1b1_y5">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Georg Zoega. Florenz, den 12. September 1792. Mittwoch</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys(1759 - 1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1792-09-12" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_ijp_xvr_xr">Zoega, Georg(1755 - 1809)</persName>
-                  </name>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">State bene, ed amate mi<lb/>il vostro
+                  vero amico</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Georg Zoega. Florenz, den 12. September 1792.
+                     Mittwoch</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_p3q_1b1_y5"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#informal #s-m #r-n" xml:lang="deu">Ihr ergebenster Verehrer</quote>
-               <bibl corresp="prov_ghk_gkg_35">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Johann Kaspar Lavater. Rom, den 27. Dezember 1788. Sonnabend</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759 - 1837) </persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1788-12-27" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_zqn_wx5_35">Lavater, Johann Kaspar (1741 - 1801)
-                     </persName>
-                  </name>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Johann Kaspar Lavater. Rom, den 27. Dezember 1788.
+                     Sonnabend</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_ghk_gkg_35"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#informal #s-m #r-n" xml:lang="deu">Ihr ganz wahrer Freund</quote>
-               <bibl corresp="prov_fjc_gt1_dv">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Wilhelmine Rietz (Gräfin Lichtenau). Rom, den 19. April 1796.
-                     Dienstag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1796-04-19" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_qvp_1gm_cv">Lichtenau, Wilhelmine Gräfin von, geb. Enke
-                        (Encke), verh. Rietz</persName>
-                  </name>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Wilhelmine Rietz (Gräfin Lichtenau). Rom, den 19. April
+                     1796. Dienstag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_fjc_gt1_dv"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihr wahrer unveränderlicher</quote>
-               <bibl corresp="prov_d5m_v35_dv">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Wilhelmine Rietz (Gräfin Lichtenau). Rom, den 14. Mai 1796.
-                     Sonnabend</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1796-05-14" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_qvp_1gm_cv">Lichtenau, Wilhelmine Gräfin von, geb. Enke
-                        (Encke), verh. Rietz</persName>
-                  </name>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Wilhelmine Rietz (Gräfin Lichtenau). Rom, den 14. Mai
+                     1796. Sonnabend</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_d5m_v35_dv"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#informal #s-n #r-n" xml:lang="deu">Gruß u. Freundschaft</quote>
-               <bibl corresp="prov_w4x_gsb_sv">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Karl August Böttiger. Berlin, den 28. Juni 1800. Sonnabend</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1800-06-28" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_g5d_v2p_5r">Böttiger, Karl August</persName>
-                  </name>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Karl August Böttiger. Berlin, den 28. Juni 1800.
+                     Sonnabend</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_w4x_gsb_sv"/>
                </bibl>
             </cit>
-          
+
             <cit>
-               <quote ana="#formal #s-n #r-n" xml:lang="deu">Leben Sie recht wohl und erfreuen Sie uns von Zeit zu Zeit mit Nachrichten von
-                  Ihren Geschäfften und Unternehmungen.</quote>
-               <bibl corresp="prov_nbq_xd5_hv">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>Von Johann Wolfgang von Goethe. Weimar, den [30. Januar 1798].
-                     Dienstag</title>
-                  <name type="sender">
-                     <persName key="prov_hwd_hmp_5r">Goethe, Johann Wolfgang von</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1798-01-30" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys</persName>
-                  </name>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Leben Sie recht wohl und erfreuen Sie
+                  uns von Zeit zu Zeit mit Nachrichten von Ihren Geschäfften und
+                  Unternehmungen.</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">Von Johann Wolfgang von Goethe. Weimar, den [30. Januar
+                     1798]. Dienstag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_nbq_xd5_hv"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-m #r-n" xml:lang="deu">Derselbe</quote>
-               <bibl corresp="hirt_d4m_bfn_yv">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Unbekannt (“lieber Freund“ ). Berlin, 15. April 1806 . Dienstag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1806-04-15" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="ed_ijf_jfn_yv">Unbekannt ("lieber Freund" in Berlin),
-                        (-)</persName>
-                  </name>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Unbekannt (“lieber Freund“ ). Berlin, 15. April 1806 .
+                     Dienstag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_d4m_bfn_yv"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihr treuergebner</quote>
-               <bibl corresp="hirt_v4v_jp2_jw">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Karl August Böttiger. Berlin, 30. August 1816. Freitag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1816-08-30" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_g5d_v2p_5r">Böttiger, Karl August (1760-1835)
-                        (Schriftsteller)</persName>
-                  </name>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Karl August Böttiger. Berlin, 30. August 1816.
+                     Freitag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_v4v_jp2_jw"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Leben Sie wohl und gedenken Sie meiner, so wie ich Ihrer gedenke als <lb/>Ihr
-                  ergebenster</quote>
-               <bibl corresp="hirt_osg_whr_5y">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Friedrich Gottlieb Welcker. Berlin, 8. Juli 1833. Montag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1833-07-08" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="ed_yhh_z14_pw">Welcker, Friedrich Gottlieb (1784-1868) (dt.
-                        klassischer Philologe und Archäologe, Prof. in Gießen (1809-1816), Göttingen
-                        (1816-1819) und Bonn (1819-1868))</persName>
-                  </name>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Leben Sie wohl und gedenken Sie meiner,
+                  so wie ich Ihrer gedenke als <lb/>Ihr ergebenster</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Friedrich Gottlieb Welcker. Berlin, 8. Juli 1833.
+                     Montag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_osg_whr_5y"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-m #r-n" xml:lang="deu">Wie immer aufrichtig der Ihrige</quote>
-               <bibl corresp="hirt_f1l_qfl_hw">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Karl August Böttiger. Berlin, 26. September 1812. Sonnabend</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1812-09-26" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_g5d_v2p_5r">Böttiger, Karl August (1760-1835)
-                        (Schriftsteller)</persName>
-                  </name>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Karl August Böttiger. Berlin, 26. September 1812.
+                     Sonnabend</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_f1l_qfl_hw"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-m #r-n" xml:lang="deu">Unveränderlich <lb/>Ihr College</quote>
-               <bibl corresp="hirt_ad4_ppn_hw">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Karl August Böttiger. Berlin, 1. November 1814. Dienstag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1814-11-01" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_g5d_v2p_5r">Böttiger, Karl August (1760-1835)
-                        (Schriftsteller)</persName>
-                  </name>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Karl August Böttiger. Berlin, 1. November 1814.
+                     Dienstag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_ad4_ppn_hw"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#informal #s-n #r-n" xml:lang="deu">Mit alter Freundschaft</quote>
-               <bibl corresp="hirt_rv2_lft_xy">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>Vom Kronprinzen Friedrich Wilhelm (IV.) von Preußen. Berlin, 7. April 1837.
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">Vom Kronprinzen Friedrich Wilhelm (IV.) von Preußen. Berlin,
+                     7. April 1837. Freitag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_rv2_lft_xy"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich harre wie von jeher, und für immer
+                  mit der innigsten und tiefsten Verehrung <lb/>Ew. königl<ex>iche</ex> Hoheit
+                  <lb/>ganz ergebenster <lb/>gehorsamster</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Prinzessin Marianne von Preußen. Berlin, 17. Mai 1816.
                      Freitag</title>
-                  <name type="sender">
-                     <persName key="prov_rrj_mk5_fv">Preußen, Friedrich Wilhelm (IV.) von
-                        (1795-1861) (Kronprinz, 1840-1861 König von Preußen)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1837-04-07" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_ugs_vc2_jw"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich harre wie von jeher, und für immer mit der innigsten und tiefsten
-                  Verehrung <lb/>Ew. königl<ex>iche</ex> Hoheit <lb/>ganz ergebenster
-                  <lb/>gehorsamster</quote>
-               <bibl corresp="hirt_ugs_vc2_jw">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Prinzessin Marianne von Preußen. Berlin, 17. Mai 1816. Freitag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1816-05-17" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="ed_dyv_35f_dw">Preußen, Marie Anne Amalie (Marianne), Prinzessin
-                        von, geb. Prinzessin von Hessen-Homburg (1785-1846) (seit 1804 verheiratet
-                        mit Prinz Wilhelm von Preußen, dem jüngsten Bruder König Friedrich Wilhelms
-                        III.; nach dem Tod von Königin Luise "First Lady" am preuß. Hof, großes
-                        polit. und soziales Engagement)</persName>
-                  </name>
-               </bibl>
-            </cit>
-            <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich verbleibe wie immer <lb/>Ihr aufrichtig ergebner</quote>
-               <bibl corresp="hirt_kjn_2px_bw">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Johann Wolfgang von Goethe. Berlin, 23. Mai 1809 . Dienstag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1809-05-23" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_hwd_hmp_5r">Goethe, Johann Wolfgang von (1749-1832)
-                        (Schriftsteller)</persName>
-                  </name>
-               </bibl>
-            </cit>
-            
-            <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Mit wahrer Anhänglichkeit verbleibe ich <lb/>Ew. Königlichen Hoheit
-                  <lb/>treugehorsamster</quote>
-               <bibl corresp="hirt_shl_tbx_nw">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Prinz Wilhelm von Preußen (Bruder des Königs). Berlin, 12. Mai 1818.
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich verbleibe wie immer <lb/>Ihr
+                  aufrichtig ergebner</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Johann Wolfgang von Goethe. Berlin, 23. Mai 1809 .
                      Dienstag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1818-05-12" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_vpp_kmx_2v">Preußen, Friedrich Wilhelm Karl, Prinz von
-                        (1783-1851) (jüngster Sohn von König Friedrich Wilhelm II. und Prinzessin
-                        Friederike Luise von Hessen-Darmstadt, Bruder von Friedrich Wilhelm III.,
-                        1799 Stabskapitän, General, Generalgouverneur der Rheinprovinzen und
-                        Gouverneur der Bundesfestung Mainz, seit 1804 verh. mit Marianne von
-                        Hessen-Homburg)</persName>
-                  </name>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_kjn_2px_bw"/>
+               </bibl>
+            </cit>
+
+            <cit>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Mit wahrer Anhänglichkeit verbleibe ich
+                  <lb/>Ew. Königlichen Hoheit <lb/>treugehorsamster</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Prinz Wilhelm von Preußen (Bruder des Königs). Berlin, 12.
+                     Mai 1818. Dienstag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_shl_tbx_nw"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihr unterthänigster</quote>
-               <bibl corresp="hirt_kgl_k2r_5y">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An den Kronprinzen Friedrich Wilhelm (IV.) von Preußen. Berlin, zwischen
-                     1829 und 1832???</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date notBefore="1829-01-01" notAfter="1832-12-31" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_rrj_mk5_fv">Preußen, Friedrich Wilhelm (IV.) von
-                        (1795-1861) (Kronprinz, 1840-1861 König von Preußen)</persName>
-                  </name>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An den Kronprinzen Friedrich Wilhelm (IV.) von Preußen.
+                     Berlin, zwischen 1829 und 1832???</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_kgl_k2r_5y"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-m #r-n" xml:lang="deu">wie immer <lb/>Der Ihrige</quote>
-               <bibl corresp="hirt_fhz_vgw_3x">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Friedrich August Wolf. Berlin, 4. Juni 1821. Montag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1821-06-04" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="ed_jzw_xhq_bw">Wolf, Friedrich August (1759-1824) (Altphilologe
-                        und Altertumswissenschaftler, ab April 1807 in Berlin, seit 1799 auswärtiges
-                        Mitglied der Akademie der Wissenschaften zu Berlin, seit 1812 EM, 1810
-                        Direktor der Wissenschaftlichen Deputation für die Sektion des öffentlichen
-                        Unterrichts im Ministerium und Prof. für klassische Philologie)</persName>
-                  </name>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Friedrich August Wolf. Berlin, 4. Juni 1821.
+                     Montag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_fhz_vgw_3x"/>
                </bibl>
             </cit>
-           
+
             <cit>
                <quote ana="#informal #s-m #r-n" xml:lang="deu">Ich bin von Herzen<lb/>Ihr</quote>
-               <bibl corresp="prov_br2_k22_qv">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Karl August Böttiger. Berlin, den 8. März 1800. Sonnabend</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1800-03-08" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_g5d_v2p_5r">Böttiger, Karl August</persName>
-                  </name>
-               </bibl>
-            </cit>
-            
-            <cit>
-               <quote ana="#formal #s-n #r-n" xml:lang="deu">Ich empfehle mich der fernern Huld Ew. Durchlaucht, und verbleibe in tiefester
-                  Verehrung</quote>
-               <bibl corresp="prov_nhx_tyf_w5">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Anna Amalia von Sachsen-Weimar und Eisenach. Rom, den 14. August 1790.
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Karl August Böttiger. Berlin, den 8. März 1800.
                      Sonnabend</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys(1759 - 1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1790-08-01" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_qn2_zhp_5r">Sachsen-Weimar-Eisenach, Anna-Amalia von (1739
-                        - 1807)</persName>
-                  </name>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_br2_k22_qv"/>
+               </bibl>
+            </cit>
+
+            <cit>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Ich empfehle mich der fernern Huld Ew.
+                  Durchlaucht, und verbleibe in tiefester Verehrung</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Anna Amalia von Sachsen-Weimar und Eisenach. Rom, den 14.
+                     August 1790. Sonnabend</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_nhx_tyf_w5"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ew. Herzoglichen Durchlaucht / unterthänigster</quote>
-               <bibl corresp="prov_gpp_2m5_1v">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Anna Amalia von Sachsen-Weimar und Eisenach. Rom, den 28. Juni 1794.
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ew. Herzoglichen Durchlaucht /
+                  unterthänigster</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Anna Amalia von Sachsen-Weimar und Eisenach. Rom, den 28.
+                     Juni 1794. Sonnabend</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_gpp_2m5_1v"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Leben Sie wohl! Ich bin wie
+                  immer<lb/>Ihr</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Karl August Böttiger. Berlin, den 3. Mai 1800.
                      Sonnabend</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1794-06-28" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_qn2_zhp_5r">Sachsen-Weimar-Eisenach, Anna-Amalia
-                        von</persName>
-                  </name>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_i1t_ldr_qv"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n" xml:lang="deu">Leben Sie wohl! Ich bin wie immer<lb/>Ihr</quote>
-               <bibl corresp="prov_i1t_ldr_qv">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Karl August Böttiger. Berlin, den 3. Mai 1800. Sonnabend</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1800-05-03" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_g5d_v2p_5r">Böttiger, Karl August</persName>
-                  </name>
-               </bibl>
-            </cit>
-            <cit>
-               <quote ana="#formal #s-n #r-n" xml:lang="deu">Ich empfehle mich zu fernern Gnaden Ew. Durchlaucht, indem ich in aller
-                  Unterthänigkeit geharre</quote>
-               <bibl corresp="prov_yms_ljg_w5">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Anna Amalia von Sachsen-Weimar und Eisenach. Neapel, den 11. Mai 1791.
-                     Mittwoch</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys(1759 - 1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1791-05-11" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_qn2_zhp_5r">Sachsen-Weimar-Eisenach, Anna-Amalia von(1739 -
-                        1807)</persName>
-                  </name>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Ich empfehle mich zu fernern Gnaden Ew.
+                  Durchlaucht, indem ich in aller Unterthänigkeit geharre</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Anna Amalia von Sachsen-Weimar und Eisenach. Neapel, den
+                     11. Mai 1791. Mittwoch</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_yms_ljg_w5"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#informal #s-m #r-n" xml:lang="deu">Herzlich <lb/>Ihr ergebner</quote>
-               <bibl corresp="hirt_cmt_q3y_sx">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Friedrich Münter, Berlin, nach 12. Februar 1824</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date notBefore="1823-03-04" notAfter="1824-02-12" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="ed_byb_ql5_4x">Münter, Friedrich (Frederik) Christian Carl
-                        Heinrich (1761-1830) (dt. luther. Theologe, Orientalist, Altertumsforscher,
-                        älterer Bruder von Friederike Brun, ab 1788 Prof. der Theologie an der
-                        Universität Kopenhagen, 1808 Bischof von Seeland)</persName>
-                  </name>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Friedrich Münter, Berlin, nach 12. Februar 1824</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_cmt_q3y_sx"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Leben Sie wohl, und gedenken Sie manchmal <lb/>Ihres dankbar
-                  ergebensten</quote>
-               <bibl corresp="hirt_whh_gnj_lw">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Joseph von Laßberg. Frankfurt am Main, 28. Juli 1817. Montag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1817-07-28" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="ed_stp_kmd_2w">Laßberg, Joseph Maria Christoph Freiherr von
-                        (1770-1855) (Forstmann, Germanist und Schriftsteller, Oberforstmeister im
-                        Fürstentum Fürstenberg, Lebensgemeinschaft mit Fürstin Elisabeth zu
-                        Fürstenberg, geb. Thurn und Taxis (1767-1822), ab 1838 Besitzer der Burg
-                        Meersburg am Bodensee, Schwager von Annette von Droste-Hülshoff)</persName>
-                  </name>
-               </bibl>
-            </cit>
-            <cit>
-               <quote ana="#informal #s-n #r-n" xml:lang="deu">Ich verbleibe mit der Wärme einer wahren Verehrung</quote>
-               <bibl corresp="prov_dmn_nfp_w5">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Johann Kaspar Lavater. Rom, den 17. Februar 1792. Freitag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys(1759 - 1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1792-02-17" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_zqn_wx5_35">Lavater, Johann Kaspar(1741 - 1801)</persName>
-                  </name>
-               </bibl>
-            </cit>
-            <cit>
-               <quote ana="#formal #s-m #r-m" xml:lang="deu">Empfangen Sie, mein Herr Baron, die Beweise meiner vollkommensten Hochachtung
-                  -<lb/>Ihr gehorsamster / Diener</quote>
-               <bibl corresp="hirt_hzt_xld_2w">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Joseph von Laßberg. Berlin, 18. Dezember 1809. Montag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1809-12-18" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="ed_stp_kmd_2w">Laßberg, Joseph Maria Christoph Freiherr von
-                        (1770-1855) (Forstmann, Germanist und Schriftsteller, Oberforstmeister im
-                        Fürstentum Fürstenberg, Lebensgemeinschaft mit Fürstin Elisabeth zu
-                        Fürstenberg, geb. Thurn und Taxis (1767-1822), ab 1838 Besitzer der Burg
-                        Meersburg am Bodensee, Schwager von Annette von Droste-Hülshoff)</persName>
-                  </name>
-               </bibl>
-            </cit>
-            <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich verbleibe mit Hochachtung <lb/>Ihr <lb/>ergebener</quote>
-               <bibl corresp="hirt_oyz_ybd_5y">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An ["Herr Collega"]. Berlin, 3. März 1832. Sonnabend</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1832-03-03" cert="high"/>
-                  </date>
-                  <name type="receiver"/>
-               </bibl>
-            </cit>
-            <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihr <lb/>ergebenster Diener u Freund</quote>
-               <bibl corresp="hirt_xhk_hbt_4x">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>Von Christian Daniel Rauch. Berlin, 30. November 1822. Sonnabend</title>
-                  <name type="sender">
-                     <persName key="ed_p41_xpz_lw">Rauch, Christian Daniel (1777-1857) (Bildhauer
-                        des deutschen Klassizismus, Schüler von J. G. Schadow, Berliner
-                        Bildhauerschule)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1822-11-30" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-               </bibl>
-            </cit>
-            <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Mit tiefester Ergebung und treuester Anhänglichkeit geharre ich <lb/>Ew.
-                  Königlichen Hoheit <lb/>unterthänigster</quote>
-               <bibl corresp="hirt_lys_q11_fy">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Prinz Wilhelm von Preußen (Bruder des Königs). Berlin, 31. März 1828.
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Leben Sie wohl, und gedenken Sie
+                  manchmal <lb/>Ihres dankbar ergebensten</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Joseph von Laßberg. Frankfurt am Main, 28. Juli 1817.
                      Montag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1828-03-31" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_vpp_kmx_2v">Preußen, Friedrich Wilhelm Karl, Prinz von
-                        (1783-1851) (jüngster Sohn von König Friedrich Wilhelm II. und Prinzessin
-                        Friederike Luise von Hessen-Darmstadt, Bruder von Friedrich Wilhelm III.,
-                        1799 Stabskapitän, General, Generalgouverneur der Rheinprovinzen und
-                        Gouverneur der Bundesfestung Mainz, seit 1804 verh. mit Marianne von
-                        Hessen-Homburg)</persName>
-                  </name>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_whh_gnj_lw"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n" xml:lang="deu">Ich bin wie immer Ihr wahrer Verehrer</quote>
-               <bibl corresp="prov_w52_1ls_cv">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Johann Wolfgang von Goethe. Rom, den 12. April 1796. Dienstag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1796-04-12" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_hwd_hmp_5r">Goethe, Johann Wolfgang von</persName>
-                  </name>
-               </bibl>
-            </cit>
-           
-            <cit>
-               <quote ana="#informal #s-m #r-n" xml:lang="deu">Mit steter anhänglicher Gesinnung <lb/>Ihr ergebenster</quote>
-               <bibl corresp="hirt_vlf_gbb_3y">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Johann Wolfgang von Goethe. Berlin, 10. Mai 1830.</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1830-05-10" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_hwd_hmp_5r">Goethe, Johann Wolfgang von (1749-1832)
-                        (Schriftsteller)</persName>
-                  </name>
-               </bibl>
-            </cit>
-            
-            <cit>
-               <quote ana="#formal #s-n #r-n" xml:lang="deu">Ich bitte um fernere Erhaltung Ihrer huldvollen Gnade, und verbleibe mit
-                  tiefester Verehrung<lb/>Ewer Durchlaucht</quote>
-               <bibl corresp="prov_vzl_gkf_f5">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Anna Amalia von Sachsen-Weimar und Eisenach. Rom, 29. Mai 1789.
+               <quote ana="#informal #s-n #r-n" xml:lang="deu">Ich verbleibe mit der Wärme einer
+                  wahren Verehrung</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Johann Kaspar Lavater. Rom, den 17. Februar 1792.
                      Freitag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1789-05-29" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_qn2_zhp_5r">Sachsen-Weimar-Eisenach, Anna-Amalia von
-                        (1739-1807)</persName>
-                  </name>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_dmn_nfp_w5"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-m" xml:lang="deu">Leben Sie wohl, bester Freund! – Ich möchte noch so manches mit Ihnen plaudern
-                  – aber für heute genug <lb/>unwandelbar <lb/>der Ihrige</quote>
-               <bibl corresp="prov_b3v_qrm_4v">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Karl August Böttiger. Berlin, den 11. April 1799. Donnerstag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1799-04-11" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_g5d_v2p_5r">Böttiger, Karl August</persName>
-                  </name>
+               <quote ana="#formal #s-m #r-m" xml:lang="deu">Empfangen Sie, mein Herr Baron, die
+                  Beweise meiner vollkommensten Hochachtung -<lb/>Ihr gehorsamster / Diener</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Joseph von Laßberg. Berlin, 18. Dezember 1809.
+                     Montag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_hzt_xld_2w"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich verbleibe mit tiefester Verehrung und Anhänglichkeit <lb/>Ew.
-                     Königl<ex>ichen</ex> Hoheit <lb/>unterthanigstgehorsamster</quote>
-               <bibl corresp="hirt_wvg_zpt_vv">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Prinz Wilhelm von Preußen (Bruder des Königs). Berlin, 6. November 1801
-                     . Freitag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1801-11-06" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_vpp_kmx_2v">Preußen, Friedrich Wilhelm Karl, Prinz von
-                        (1783-1851) (jüngster Sohn von König Friedrich Wilhelm II. und Prinzessin
-                        Friederike Luise von Hessen-Darmstadt, Bruder von Friedrich Wilhelm III.,
-                        1799 Stabskapitän, General, Generalgouverneur der Rheinprovinzen und
-                        Gouverneur der Bundesfestung Mainz, seit 1804 verh. mit Marianne von
-                        Hessen-Homburg)</persName>
-                  </name>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich verbleibe mit Hochachtung <lb/>Ihr
+                  <lb/>ergebener</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An ["Herr Collega"]. Berlin, 3. März 1832. Sonnabend</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_oyz_ybd_5y"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-n" xml:lang="deu">Ich geharre <lb/>in tiefster Unter-/thänigkeit</quote>
-               <bibl corresp="hirt_vkd_p4p_5y">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An den Kronprinzen Friedrich Wilhelm (IV.) von Preußen. Berlin, 22. April
-                     1833. Montag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1833-04-22" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_rrj_mk5_fv">Preußen, Friedrich Wilhelm (IV.) von
-                        (1795-1861) (Kronprinz, 1840-1861 König von Preußen)</persName>
-                  </name>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihr <lb/>ergebenster Diener u
+                  Freund</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">Von Christian Daniel Rauch. Berlin, 30. November 1822.
+                     Sonnabend</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_xhk_hbt_4x"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich bitte Ew. Durchlaucht für die Fortdauer Ihrer hohen Gnade, indem mit
-                  tiefester Ehrfurcht fortfahre zu seyn <lb/>Ew. Herzoglichen Durchlaucht
-                  <lb/>unterthänigst gehorsamster</quote>
-               <bibl corresp="prov_vyn_2rd_cv">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Anna Amalia von Sachsen-Weimar und Eisenach. Rom, den 1. Oktober 1794.
-                     Mittwoch</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1794-10-01" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_qn2_zhp_5r">Sachsen-Weimar-Eisenach, Anna-Amalia
-                        von</persName>
-                  </name>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Mit tiefester Ergebung und treuester
+                  Anhänglichkeit geharre ich <lb/>Ew. Königlichen Hoheit
+                  <lb/>unterthänigster</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Prinz Wilhelm von Preußen (Bruder des Königs). Berlin, 31.
+                     März 1828. Montag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_lys_q11_fy"/>
                </bibl>
             </cit>
-            
             <cit>
-               <quote ana="#formal #s-m #r-m" xml:lang="deu">Ich geharre ich <ex>[!]</ex> in tiefester Verehrung <lb/>Ew. Königlichen
-                  Hoheit <lb/>meines gnädigsten Herrn <lb/>unterthänigster</quote>
-               <bibl corresp="hirt_n3w_yv4_wx">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Prinz Wilhelm von Preußen (Bruder des Königs). Berlin, 29. Oktober
-                     1825.</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent"> Undatiert </date>
-                  <name type="receiver">
-                     <persName key="prov_vpp_kmx_2v">Preußen, Friedrich Wilhelm Karl, Prinz von
-                        (1783-1851) (jüngster Sohn von König Friedrich Wilhelm II. und Prinzessin
-                        Friederike Luise von Hessen-Darmstadt, Bruder von Friedrich Wilhelm III.,
-                        1799 Stabskapitän, General, Generalgouverneur der Rheinprovinzen und
-                        Gouverneur der Bundesfestung Mainz, seit 1804 verh. mit Marianne von
-                        Hessen-Homburg)</persName>
-                  </name>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Ich bin wie immer Ihr wahrer
+                  Verehrer</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Johann Wolfgang von Goethe. Rom, den 12. April 1796.
+                     Dienstag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_w52_1ls_cv"/>
+               </bibl>
+            </cit>
+
+            <cit>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Mit steter anhänglicher Gesinnung
+                  <lb/>Ihr ergebenster</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Johann Wolfgang von Goethe. Berlin, 10. Mai 1830.</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_vlf_gbb_3y"/>
+               </bibl>
+            </cit>
+
+            <cit>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Ich bitte um fernere Erhaltung Ihrer
+                  huldvollen Gnade, und verbleibe mit tiefester Verehrung<lb/>Ewer
+                  Durchlaucht</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Anna Amalia von Sachsen-Weimar und Eisenach. Rom, 29. Mai
+                     1789. Freitag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_vzl_gkf_f5"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#informal #s-m #r-m" xml:lang="deu">Leben Sie wohl, bester Freund! – Ich
+                  möchte noch so manches mit Ihnen plaudern – aber für heute genug <lb/>unwandelbar
+                  <lb/>der Ihrige</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Karl August Böttiger. Berlin, den 11. April 1799.
+                     Donnerstag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_b3v_qrm_4v"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich verbleibe mit tiefester Verehrung
+                  und Anhänglichkeit <lb/>Ew. Königl<ex>ichen</ex> Hoheit
+                  <lb/>unterthanigstgehorsamster</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Prinz Wilhelm von Preußen (Bruder des Königs). Berlin, 6.
+                     November 1801 . Freitag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_wvg_zpt_vv"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Ich geharre <lb/>in tiefster
+                  Unter-/thänigkeit</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An den Kronprinzen Friedrich Wilhelm (IV.) von Preußen.
+                     Berlin, 22. April 1833. Montag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_vkd_p4p_5y"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich bitte Ew. Durchlaucht für die
+                  Fortdauer Ihrer hohen Gnade, indem mit tiefester Ehrfurcht fortfahre zu seyn
+                  <lb/>Ew. Herzoglichen Durchlaucht <lb/>unterthänigst gehorsamster</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Anna Amalia von Sachsen-Weimar und Eisenach. Rom, den 1.
+                     Oktober 1794. Mittwoch</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_vyn_2rd_cv"/>
+               </bibl>
+            </cit>
+
+            <cit>
+               <quote ana="#formal #s-m #r-m" xml:lang="deu">Ich geharre ich <ex>[!]</ex> in
+                  tiefester Verehrung <lb/>Ew. Königlichen Hoheit <lb/>meines gnädigsten Herrn
+                  <lb/>unterthänigster</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Prinz Wilhelm von Preußen (Bruder des Königs). Berlin, 29.
+                     Oktober 1825.</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_n3w_yv4_wx"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihr D<ex>iene</ex>r</quote>
-               <bibl corresp="prov_lhy_1bm_cv">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Prinz Augustus Frederick von Hannover-England. [Rom], den 2. Februar
-                     1796. Dienstag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1796-02-02" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_o12_bfx_w5">Augustus Frederick, Duke of Sussex, </persName>
-                  </name>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Prinz Augustus Frederick von Hannover-England. [Rom], den
+                     2. Februar 1796. Dienstag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_lhy_1bm_cv"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihr treuergebner</quote>
-               <bibl corresp="hirt_jtg_lbm_yv">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Johann Wolfgang von Goethe. Berlin, 6. Mai 1805 . Montag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1805-05-06" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_hwd_hmp_5r">Goethe, Johann Wolfgang von (1749-1832)
-                        (Schriftsteller)</persName>
-                  </name>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Johann Wolfgang von Goethe. Berlin, 6. Mai 1805 .
+                     Montag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_jtg_lbm_yv"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich empfehle mich zur huldvollen Gnade Ew. Durchlaucht und verbleibe in
-                  tiefster Unterthänigkeit<lb/>Ew. Durchlaucht<lb/>unterthänigst
-                  gehorsamster</quote>
-               <bibl corresp="prov_mp3_kwc_x5">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Anna Amalia von Sachsen-Weimar und Eisenach. Rom, den 31. Mai 1792.
-                     Donnerstag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys(1759 - 1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date cert="high" when="1792-05-31"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_qn2_zhp_5r">Sachsen-Weimar-Eisenach, Anna-Amalia von(1739 -
-                        1807)</persName>
-                  </name>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich empfehle mich zur huldvollen Gnade
+                  Ew. Durchlaucht und verbleibe in tiefster Unterthänigkeit<lb/>Ew.
+                  Durchlaucht<lb/>unterthänigst gehorsamster</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Anna Amalia von Sachsen-Weimar und Eisenach. Rom, den 31.
+                     Mai 1792. Donnerstag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_mp3_kwc_x5"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-m #r-n" xml:lang="deu">Leben Sie wohl - ihr</quote>
-               <bibl corresp="prov_ecm_xkh_3v">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Karl August Böttiger. Berlin, den 10. Februar 1798. Sonnabend</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1798-02-10" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_g5d_v2p_5r">Böttiger, Karl August</persName>
-                  </name>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Karl August Böttiger. Berlin, den 10. Februar 1798.
+                     Sonnabend</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_ecm_xkh_3v"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#informal #s-m #r-n" xml:lang="deu">Verehrer u. Freund</quote>
-               <bibl corresp="prov_w32_jry_v5">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Johann Gottfried Herder. Rom, den 21. Mai 1790. Freitag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys(1759 - 1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1790-05-21" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_hy4_jx2_rs">Herder, Johann Gottfried(1744 -
-                        1803)</persName>
-                  </name>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Johann Gottfried Herder. Rom, den 21. Mai 1790.
+                     Freitag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_w32_jry_v5"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n" xml:lang="deu">Ihr ganz eigener / Fr<ex>eund</ex> u. D<ex>iener</ex>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Ihr ganz eigener / Fr<ex>eund</ex> u.
+                     D<ex>iener</ex>
                </quote>
-               <bibl corresp="prov_pkz_jjf_f5">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An August Rode. Berlin, den 17. August 1799. Sonnabend</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1799-08-17" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_ams_xtr_js">Rode, August von (1751 - 1837) </persName>
-                  </name>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An August Rode. Berlin, den 17. August 1799.
+                     Sonnabend</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_pkz_jjf_f5"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihr ergebner Diener</quote>
-               <bibl corresp="prov_x21_jz5_y5">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Johann Isaak Gerning. Rom, den 24. Juni 1794. Dienstag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1794-06-24" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_zqd_xc4_wr">Gerning, Johann Isaakvon</persName>
-                  </name>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Johann Isaak Gerning. Rom, den 24. Juni 1794.
+                     Dienstag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_x21_jz5_y5"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich empfehle <add place="superlinear" xml:lang="deu">mich</add> zu hoher Gnade, und bin mit
-                  wahrer Anhänglichkeit <lb/>Ew. königl<ex>ichen</ex> Hoheit
-                  <lb/>gehorsamster</quote>
-               <bibl corresp="hirt_hcw_gqy_vv">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Prinz Wilhelm von Preußen. Berlin, 29. November 1801 . Sonntag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1801-11-29" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_vpp_kmx_2v">Preußen, Friedrich Wilhelm Karl, Prinz von
-                        (1783-1851) (jüngster Sohn von König Friedrich Wilhelm II. und Prinzessin
-                        Friederike Luise von Hessen-Darmstadt, Bruder von Friedrich Wilhelm III.,
-                        1799 Stabskapitän, General, Generalgouverneur der Rheinprovinzen und
-                        Gouverneur der Bundesfestung Mainz, seit 1804 verh. mit Marianne von
-                        Hessen-Homburg)</persName>
-                  </name>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich empfehle <add place="superlinear"
+                     xml:lang="deu">mich</add> zu hoher Gnade, und bin mit wahrer Anhänglichkeit
+                  <lb/>Ew. königl<ex>ichen</ex> Hoheit <lb/>gehorsamster</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Prinz Wilhelm von Preußen. Berlin, 29. November 1801 .
+                     Sonntag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_hcw_gqy_vv"/>
                </bibl>
             </cit>
-            
+
             <cit>
                <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihr treuer</quote>
-               <bibl corresp="hirt_q15_wn5_4x">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Karl August Böttiger. Berlin, 28. November 1823. Freitag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1823-11-28" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_g5d_v2p_5r">Böttiger, Karl August (1760-1835)
-                        (Schriftsteller)</persName>
-                  </name>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Karl August Böttiger. Berlin, 28. November 1823.
+                     Freitag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_q15_wn5_4x"/>
                </bibl>
             </cit>
-            
+
             <cit>
-               <quote ana="#formal #s-m #r-m" xml:lang="deu">Ich zähle, mein lieber Herr Pfarrer, auf Ihre Freundschaft, wenn Sie mich
-                  nicht unwürdig finden sollen. Befehlen Sie<lb/>Ihrem ergebensten Diener<lb/>
+               <quote ana="#formal #s-m #r-m" xml:lang="deu">Ich zähle, mein lieber Herr Pfarrer,
+                  auf Ihre Freundschaft, wenn Sie mich nicht unwürdig finden sollen. Befehlen
+                  Sie<lb/>Ihrem ergebensten Diener<lb/>
                </quote>
-               <bibl corresp="prov_j44_bfj_s5">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Johann Kaspar Lavater. Rom, den 27. Mai 1789. Mittwoch</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759 - 1837) </persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1789-05-27" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_zqn_wx5_35">Lavater, Johann Kaspar (1741 - 1801)
-                     </persName>
-                  </name>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Johann Kaspar Lavater. Rom, den 27. Mai 1789.
+                     Mittwoch</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_j44_bfj_s5"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Mit tiefster Verehrung <lb/>Ew. Excellenz! <lb/>gehorsamster</quote>
-               <bibl corresp="hirt_mrm_5px_lw">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Kultusminister Karl Freiherr von Altenstein. Berlin, 23. März 1818.
-                     Montag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1818-03-23" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="ed_iwb_fpx_lw">Altenstein, Karl Sigmund Franz Freiherr vom Stein
-                        zum (1770-1840) (preuß. Reformer, ab 1817 Leiter des neu gebildeten
-                        Kultusministeriums)</persName>
-                  </name>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Mit tiefster Verehrung <lb/>Ew.
+                  Excellenz! <lb/>gehorsamster</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Kultusminister Karl Freiherr von Altenstein. Berlin, 23.
+                     März 1818. Montag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_mrm_5px_lw"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n" xml:lang="ita">Salutate la <persName key="prov_tfl_sbl_cv">Sig<hi rendition="#u" xml:lang="deu">
+               <quote ana="#informal #s-m #r-n" xml:lang="ita">Salutate la <persName
+                     key="prov_tfl_sbl_cv">Sig<hi rendition="#u" xml:lang="deu">
                         <hi rendition="#sup">ra</hi>
                      </hi> Maria</persName>, e tutti gli amici caramente <lb/>il vostro vero
                   amico</quote>
-               <bibl corresp="prov_vsg_ssk_cv">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Georg Zoega. Neapel, den 20. Januar 1795. Dienstag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1795-01-20" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_ijp_xvr_xr">Zoega, Georg</persName>
-                  </name>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Georg Zoega. Neapel, den 20. Januar 1795. Dienstag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_vsg_ssk_cv"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Mit tiefester Ergebenheit und treuester Anhänglichkeit geharre ich <lb/>Ew.
-                  Königlichen Hoheit <lb/>unterthänigster</quote>
-               <bibl corresp="hirt_dbq_yqy_2y">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Prinz Wilhelm von Preußen (Bruder des Königs). Berlin, 20. März 1828.
-                     Donnerstag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1828-03-20" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_vpp_kmx_2v">Preußen, Friedrich Wilhelm Karl, Prinz von
-                        (1783-1851) (jüngster Sohn von König Friedrich Wilhelm II. und Prinzessin
-                        Friederike Luise von Hessen-Darmstadt, Bruder von Friedrich Wilhelm III.,
-                        1799 Stabskapitän, General, Generalgouverneur der Rheinprovinzen und
-                        Gouverneur der Bundesfestung Mainz, seit 1804 verh. mit Marianne von
-                        Hessen-Homburg)</persName>
-                  </name>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Mit tiefester Ergebenheit und treuester
+                  Anhänglichkeit geharre ich <lb/>Ew. Königlichen Hoheit
+                  <lb/>unterthänigster</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Prinz Wilhelm von Preußen (Bruder des Königs). Berlin, 20.
+                     März 1828. Donnerstag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_dbq_yqy_2y"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Seyen Sie wohl gemuthet, und gedenken Sie <lb/>Ihres ergebnen</quote>
-               <bibl corresp="hirt_wfj_zn2_hy">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Karl August Böttiger. Berlin, 20. September 1829. Sonntag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1829-09-20" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_g5d_v2p_5r">Böttiger, Karl August (1760-1835)
-                        (Schriftsteller)</persName>
-                  </name>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Seyen Sie wohl gemuthet, und gedenken
+                  Sie <lb/>Ihres ergebnen</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Karl August Böttiger. Berlin, 20. September 1829.
+                     Sonntag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_wfj_zn2_hy"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Indeßen verbleibe ich wie immer <lb/>Ihr <lb/>wahrhaft ergebener</quote>
-               <bibl corresp="hirt_tt2_dbm_jx">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Karl August Böttiger. Berlin, 22. Dezember 1821. Sonnabend</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1821-12-22" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_g5d_v2p_5r">Böttiger, Karl August (1760-1835)
-                        (Schriftsteller)</persName>
-                  </name>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Indeßen verbleibe ich wie immer
+                  <lb/>Ihr <lb/>wahrhaft ergebener</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Karl August Böttiger. Berlin, 22. Dezember 1821.
+                     Sonnabend</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_tt2_dbm_jx"/>
                </bibl>
             </cit>
-           
+
             <cit>
                <quote ana="#informal #s-m #r-n" xml:lang="deu">Ihr Freund und Bewunderer</quote>
-               <bibl corresp="prov_it3_3zd_2v">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>Von Frederick Augustus Hervey, Earl of Bristol. Triest, den 13. März 1797.
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">Von Frederick Augustus Hervey, Earl of Bristol. Triest, den
+                     13. März 1797. Montag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_it3_3zd_2v"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Grüßen Sie unsern dortigen Architekten,
+                  u. bleiben Sie meiner eingedenkt – <lb/>Derselbe</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Karl August Böttiger. Berlin, 24. August 1801 .
                      Montag</title>
-                  <name type="sender">
-                     <persName key="prov_jvs_32v_dv">Bristol, Frederick Augustus Hervey, 4th Earl of
-                     </persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1797-03-13" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys</persName>
-                  </name>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_vtd_p3m_vv"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Grüßen Sie unsern dortigen Architekten, u. bleiben Sie meiner eingedenkt –
-                  <lb/>Derselbe</quote>
-               <bibl corresp="hirt_vtd_p3m_vv">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Karl August Böttiger. Berlin, 24. August 1801 . Montag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1801-08-24" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_g5d_v2p_5r">Böttiger, Karl August (1760-1835)
-                        (Schriftsteller)</persName>
-                  </name>
-               </bibl>
-            </cit>
-            <cit>
-               <quote ana="#formal #s-n #r-n" xml:lang="deu">In tiefster Unterwürfigkeit ersterbe ich <lb/>Euer Königlichen Hoheit</quote>
-               <bibl corresp="hirt_g2k_xmt_xy">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>Von Paul Mila an den Kronprinzen Friedrich Wilhelm (IV.) von Preußen.
-                     Berlin, 29. Juni 1837. Donnerstag</title>
-                  <name type="sender">
-                     <persName key="prov_zb3_klg_f5">Mila, Auguste Paul Emile (gen. Paul)
-                        (1798-1865) (Historien- und Porträtmaler, unehelicher Sohn von Hirt, galt
-                        als Sohn von Wilhelm (de) Mila und Charlotte Savary, (Halb-)Bruder von
-                        Maximilian Mila)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1837-06-29" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_rrj_mk5_fv">Preußen, Friedrich Wilhelm (IV.) von
-                        (1795-1861) (Kronprinz, 1840-1861 König von Preußen)</persName>
-                  </name>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">In tiefster Unterwürfigkeit ersterbe
+                  ich <lb/>Euer Königlichen Hoheit</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">Von Paul Mila an den Kronprinzen Friedrich Wilhelm (IV.) von
+                     Preußen. Berlin, 29. Juni 1837. Donnerstag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_g2k_xmt_xy"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#informal #s-m #r-n" xml:lang="deu">Wie immer der<lb/>Ihrige</quote>
-               <bibl corresp="prov_xvd_zjq_sv">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Karl August Böttiger. Berlin, den 19. November 1800. Mittwoch</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1800-11-19" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_g5d_v2p_5r">Böttiger, Karl August</persName>
-                  </name>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Karl August Böttiger. Berlin, den 19. November 1800.
+                     Mittwoch</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_xvd_zjq_sv"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n" xml:lang="deu">ich bin unwandelbar / Ihr Freund</quote>
-               <bibl corresp="prov_mtf_st1_gv">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Friedrich Karl und Elsina von La Roche. Berlin, den 9. Oktober 1797.
-                     Montag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1797-10-09" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_mzn_gcx_w5">La Roche, Friedrich Karl (Fritz) von</persName>
-                  </name>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">ich bin unwandelbar / Ihr
+                  Freund</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Friedrich Karl und Elsina von La Roche. Berlin, den 9.
+                     Oktober 1797. Montag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_mtf_st1_gv"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n" xml:lang="deu">Leben Sie wohl, und bleiben Sie von meiner Hochachtung und Freundschaft
-                  überzeugt <lb/>Der Ihrige</quote>
-               <bibl corresp="hirt_x2p_css_xw">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Friedrich Wilhelm Thiersch. Berlin, 18. November 1820. Sonnabend</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1820-11-18" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="ed_qnt_bnm_vw">Thiersch, Friedrich Wilhelm (von) (1784-1860)
-                        (dt. Philologe, "Praeceptor Bavariae", 1812 Gründer des Philologischen
-                        Instituts an der Bayerischen Akademie der Wissenschaften, 1826-1859 Prof.
-                        für Griechische Philologie an der Universität München)</persName>
-                  </name>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Leben Sie wohl, und bleiben Sie von
+                  meiner Hochachtung und Freundschaft überzeugt <lb/>Der Ihrige</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Friedrich Wilhelm Thiersch. Berlin, 18. November 1820.
+                     Sonnabend</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_x2p_css_xw"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-n #r-m" xml:lang="deu">Leben Sie wohl bester Freund, ich schreibe Ihnen nächstens wieder</quote>
-               <bibl corresp="prov_dnl_v1t_jv">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Karl August Böttiger. Berlin, den 18. September 1798. Dienstag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1798-09-18" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_g5d_v2p_5r">Böttiger, Karl August</persName>
-                  </name>
+               <quote ana="#informal #s-n #r-m" xml:lang="deu">Leben Sie wohl bester Freund, ich
+                  schreibe Ihnen nächstens wieder</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Karl August Böttiger. Berlin, den 18. September 1798.
+                     Dienstag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_dnl_v1t_jv"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihr dankbarester und ergebenster D<ex>iener</ex>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihr dankbarester und ergebenster
+                     D<ex>iener</ex>
                </quote>
-               <bibl corresp="prov_acm_ckf_f5">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Johann Wolfgang von Goethe. Rom, den 23. August 1788. Sonnabend</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759 - 1837) </persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1788-08-23" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_hwd_hmp_5r">Goethe, Johann Wolfgang von (1749 - 1832)
-                     </persName>
-                  </name>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Johann Wolfgang von Goethe. Rom, den 23. August 1788.
+                     Sonnabend</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_acm_ckf_f5"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-n #r-n" xml:lang="deu">Dieß zum freundschaftlichen Andenken von</quote>
-               <bibl corresp="prov_x3z_cbt_1v">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Johann Kaspar Lavater. Rom, den 1. Dezember 1792. Sonnabend</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1792-12-01" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_zqn_wx5_35">Lavater, Johann Kaspar</persName>
-                  </name>
+               <quote ana="#informal #s-n #r-n" xml:lang="deu">Dieß zum freundschaftlichen Andenken
+                  von</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Johann Kaspar Lavater. Rom, den 1. Dezember 1792.
+                     Sonnabend</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_x3z_cbt_1v"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-n" xml:lang="deu">Leben Sie wohl, bald sage ich Ihnen mehr <lb/>Ihr</quote>
-               <bibl corresp="hirt_orj_cvt_vv">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Karl August Böttiger. Berlin, 14. November 1801. Sonnabend</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1801-11-14" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_g5d_v2p_5r">Böttiger, Karl August (1760-1835)
-                        (Schriftsteller)</persName>
-                  </name>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Leben Sie wohl, bald sage ich Ihnen
+                  mehr <lb/>Ihr</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Karl August Böttiger. Berlin, 14. November 1801.
+                     Sonnabend</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_orj_cvt_vv"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-m #r-n" xml:lang="deu">der Ihnen ewig ergebene</quote>
-               <bibl corresp="prov_jmd_yms_2v">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Wilhelmine Rietz (Gräfin Lichtenau). Wörlitz, den 29. Juli 1797.
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Wilhelmine Rietz (Gräfin Lichtenau). Wörlitz, den 29. Juli
+                     1797. Sonnabend</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_jmd_yms_2v"/>
+               </bibl>
+            </cit>
+
+            <cit>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich bin mit vollkommenster Hochachtung
+                  <lb/>Ihr ergebenster</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Georg Andreas Reimer. Berlin, 10. Juni 1809.
                      Sonnabend</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1797-07-29" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_qvp_1gm_cv">Lichtenau, Wilhelmine Gräfin von, geb. Enke
-                        (Encke), verh. Rietz</persName>
-                  </name>
-               </bibl>
-            </cit>
-            
-            <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich bin mit vollkommenster Hochachtung <lb/>Ihr ergebenster</quote>
-               <bibl corresp="hirt_mnt_pdn_dw">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Georg Andreas Reimer. Berlin, 10. Juni 1809. Sonnabend</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys (1759-1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1809-06-10" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="ed_oy5_xy4_bw">Reimer, Georg Andreas (1776-1842) (Verleger in
-                        Berlin, ab 1800 Leiter der Buchhandlung der Königlichen Realschule in Berlin
-                        (ab 1817 Reimersche Buchhandlung), kaufte u.a. später die Weidmannsche
-                        Buchhandlung in Leipzig, politisch engagiert in der preuß.
-                        Reformbewegung)</persName>
-                  </name>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_mnt_pdn_dw"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Meiner gnädigen Frau<lb/>ganz ergeb<ex>enster</ex> gehorsamster</quote>
-               <bibl corresp="prov_xxp_ymv_w5">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Marie Sophie von La Roche. Rom, den 27. Mai 1792. Sonntag</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys(1759 - 1837)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1792-05-27" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_dyh_pnv_w5">La Roche, Marie Sophie von, geb. Gutermann von
-                        Gutershofen(1730 - 1807)</persName>
-                  </name>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Meiner gnädigen Frau<lb/>ganz
+                     ergeb<ex>enster</ex> gehorsamster</quote>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Marie Sophie von La Roche. Rom, den 27. Mai 1792.
+                     Sonntag</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_xxp_ymv_w5"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihres / dankbarergebnen</quote>
-               <bibl corresp="prov_vrd_phq_2v">
-                  <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
-                  <title>An Anna Henriette Schütz. Weimar, den 12. Juli 1797. Mittwoch</title>
-                  <name type="sender">
-                     <persName key="prov_ztg_3sx_sr">Hirt, Aloys</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1797-07-12" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="prov_py2_bzq_2v">Schütz, Anna Henriette, geb.
-                        Danovius</persName>
-                  </name>
+               <bibl>
+                  <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
+                  <title type="letter">An Anna Henriette Schütz. Weimar, den 12. Juli 1797.
+                     Mittwoch</title>
+                  <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_vrd_phq_2v"/>
                </bibl>
             </cit>
          </div>

@@ -54,115 +54,64 @@
    </teiHeader>
    <text>
       <body>
-         <div type="citList" xml:base="edition-humboldt.de/briefe/detail.xql?id=">
+         <div type="citList">
             <cit>
                <quote ana="#informal #s-m #r-n" xml:lang="deu">Mit innigster Verehrung <lb/>Ihr <lb/>dankbar ergebenster</quote>
-               <bibl corresp="H0015156">
-                  <edition>edition humboldt digital</edition>
-                  <title>Carl Sigismund Kunth an Alexander von Humboldt. [Berlin], nach 24. November
+               <bibl>
+                  <title type="edition">edition humboldt digital</title>
+                  <title type="letter">Carl Sigismund Kunth an Alexander von Humboldt. [Berlin], nach 24. November
                      1848</title>
-                  <name type="sender">
-                     <persName key="H0001517"
-                        >Kunth, Carl Sigismund (1788–1850 ) </persName>
-                  </name>
-                  <date type="sent">
-                     <date from="1848-11-25"
-                        to="1850-03-22" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="H0012069"
-                        >Humboldt, Alexander von (1769–1859) </persName>
-                  </name>
+                  <ref target="edition-humboldt.de/briefe/detail.xql?id=H0015156"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#informal #s-n #r-n" xml:lang="deu">Liebevoll</quote>
-               <bibl corresp="H0002931">
-                  <edition>edition humboldt digital</edition>
-                  <title>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Donnerstag, [19.
+               <bibl>
+                  <title type="edition">edition humboldt digital</title>
+                  <title type="letter">Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Donnerstag, [19.
                      September 1844]</title>
-                  <name type="sender">
-                     <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1844-09-19" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="H0001517">Kunth, Carl Sigismund (1788-1850)</persName>
-                  </name>
+                  <ref target="edition-humboldt.de/briefe/detail.xql?id=H0002931"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#informal #s-n #r-n" xml:lang="deu">Mit inniger Liebe</quote>
-               <bibl corresp="H0002930">
-                  <edition>edition humboldt digital</edition>
-                  <title>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin, vor 28. Dezember
+               <bibl>
+                  <title type="edition">edition humboldt digital</title>
+                  <title type="letter">Alexander von Humboldt an Carl Sigismund Kunth. [Berlin, vor 28. Dezember
                      1844]</title>
-                  <name type="sender">
-                     <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
-                  </name>
-                  <date type="sent">
-                     <date notBefore="1844-12-01" notAfter="1844-12-28" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="H0001517">Kunth, Carl Sigismund (1788-1850)</persName>
-                  </name>
+                  <ref target="edition-humboldt.de/briefe/detail.xql?id=H0002930"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#informal #s-n #r-n" xml:lang="fra">Je Vous <lb/>embrasse tendrement</quote>
-               <bibl corresp="H0015158">
-                  <edition>edition humboldt digital</edition>
-                  <title>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], nach September
+               <bibl>
+                  <title type="edition">edition humboldt digital</title>
+                  <title type="letter">Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], nach September
                      1828</title>
-                  <name type="sender">
-                     <persName key="H0012069">Humboldt, Alexander von (1769–1859) </persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1828-09-01" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="H0001517">Kunth, Carl Sigismund (1788–1850 ) </persName>
-                  </name>
+                  <ref target="edition-humboldt.de/briefe/detail.xql?id=H0015158"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#informal #s-m #r-n" xml:lang="deu">Mit tiefster Verehrung Ihr <lb/>dankbar ergebenster</quote>
-               <bibl corresp="H0005461">
-                  <edition>edition humboldt digital</edition>
-                  <title>Carl Sigismund Kunth an Alexander von Humboldt. [Berlin], 1. Februar
+               <bibl>
+                  <title type="edition">edition humboldt digital</title>
+                  <title type="letter">Carl Sigismund Kunth an Alexander von Humboldt. [Berlin], 1. Februar
                      1849</title>
-                  <name type="sender">
-                     <persName key="H0001517">Kunth, Carl Sigismund (1788–1850 ) </persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1849-02-01" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="H0012069">Humboldt, Alexander von (1769–1859) </persName>
-                  </name>
+                  <ref target="edition-humboldt.de/briefe/detail.xql?id=H0005461"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#informal #s-m #r-n" xml:lang="deu">Mit inniger Freundschaft <lb/>Ihr <lb/>AlHumboldt</quote>
-               <bibl corresp="H0014768">
-                  <edition>edition humboldt digital</edition>
-                  <title>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Sonnabend, [5.
+               <bibl>
+                  <title type="edition">edition humboldt digital</title>
+                  <title type="letter">Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Sonnabend, [5.
                      Dezember 1846]</title>
-                  <name type="sender">
-                     <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1846-12-05" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="H0001517">Kunth, Carl Sigismund (1788-1850)</persName>
-                  </name>
+                  <ref target="edition-humboldt.de/briefe/detail.xql?id=H0014768"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#informal #s-n #r-f" xml:lang="fra">Mes tendres respects à <lb/>l'excellente <persName key="H0001516">Madame
-                     Kunth</persName>
+                  Kunth</persName>
                   <supplied cert="high" prev="Kunth">.</supplied>
                   <lb/>Elle aura eu ma lettre <lb/>par <choice>
                      <abbr>Mr</abbr>
@@ -174,193 +123,105 @@
                   </choice>
                   <supplied cert="high" prev="espere">.</supplied>
                </quote>
-               <bibl corresp="H0006048">
-                  <edition>edition humboldt digital</edition>
-                  <title>Alexander von Humboldt an Carl Sigismund Kunth. Potsdam, Donnerstag [28.
+               <bibl>
+                  <title type="edition">edition humboldt digital</title>
+                  <title type="letter">Alexander von Humboldt an Carl Sigismund Kunth. Potsdam, Donnerstag [28.
                      Mai 1846]</title>
-                  <name type="sender">
-                     <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1846-05-28" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="H0001517">Kunth, Carl Sigismund (1788-1850)</persName>
-                  </name>
+                  <ref target="edition-humboldt.de/briefe/detail.xql?id=H0006048"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#informal #s-n #r-n" xml:lang="deu">Mit alter Freundschaft</quote>
-               <bibl corresp="H0005737">
-                  <edition>edition humboldt digital</edition>
-                  <title>Alexander von Humboldt an Carl Sigismund Kunth. Potsdam, 14. November
+               <bibl>
+                  <title type="edition">edition humboldt digital</title>
+                  <title type="letter">Alexander von Humboldt an Carl Sigismund Kunth. Potsdam, 14. November
                      1846</title>
-                  <name type="sender"/>
-                  <date type="sent">
-                     <date when="1846-11-14" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="H0001517">Kunth, Carl Sigismund (1788–1850 ) </persName>
-                  </name>
+                  <ref target="edition-humboldt.de/briefe/detail.xql?id=H0005737"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-n #r-n" xml:lang="deu">Freundlichst</quote>
-               <bibl corresp="H0002649">
-                  <edition>edition humboldt digital</edition>
-                  <title>Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], nach
+               <bibl>
+                  <title type="edition">edition humboldt digital</title>
+                  <title type="letter">Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], nach
                      1834</title>
-                  <name type="sender">
-                     <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
-                  </name>
-                  <date type="sent">
-                     <date notBefore="1835-01-01" notAfter="1835-12-31" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="H0014181">Meyen, Franz Julius Ferdinand (1804-1840)</persName>
-                  </name>
+                  <ref target="edition-humboldt.de/briefe/detail.xql?id=H0002649"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-n #r-n" xml:lang="deu">In Eile</quote>
-               <bibl corresp="H0002650">
-                  <edition>edition humboldt digital</edition>
-                  <title>Alexander von Humboldt an Franz Julius Ferdinand Meyen. Teplitz, 22. Juli
+               <bibl>
+                  <title type="edition">edition humboldt digital</title>
+                  <title type="letter">Alexander von Humboldt an Franz Julius Ferdinand Meyen. Teplitz, 22. Juli
                      1837</title>
-                  <name type="sender">
-                     <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1837-07-22" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="H0014181">Meyen, Franz Julius Ferdinand (1804-1840)</persName>
-                  </name>
+                  <ref target="edition-humboldt.de/briefe/detail.xql?id=H0002650"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-n #r-n" xml:lang="deu">Mit freundschaftlichster Hochachtung</quote>
-               <bibl corresp="H0001202">
-                  <edition>edition humboldt digital</edition>
-                  <title>Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch,
+               <bibl>
+                  <title type="edition">edition humboldt digital</title>
+                  <title type="letter">Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch,
                      vor 22. August 1834</title>
-                  <name type="sender">
-                     <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
-                  </name>
-                  <date type="sent">
-                     <date notBefore="1833-08-22" notAfter="1834-08-21" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="H0014181">Meyen, Franz Julius Ferdinand (1804-1840)</persName>
-                  </name>
+                  <ref target="edition-humboldt.de/briefe/detail.xql?id=H0001202"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-n #r-n" xml:lang="deu">Mit der ausgezeichnetsten Hochachtung</quote>
-               <bibl corresp="H0001203">
-                  <edition>edition humboldt digital</edition>
-                  <title>Alexander von Humboldt an die Witwe von Franz Julius Ferdinand Meyen.
+               <bibl>
+                  <title type="edition">edition humboldt digital</title>
+                  <title type="letter">Alexander von Humboldt an die Witwe von Franz Julius Ferdinand Meyen.
                      Berlin, 09. Oktober 1840</title>
-                  <name type="sender">
-                     <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1840-10-09" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="H0014181">Meyen, Franz Julius Ferdinand (1804-1840)</persName>
-                  </name>
+                  <ref target="edition-humboldt.de/briefe/detail.xql?id=H0001203"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#informal #s-n #r-n" xml:lang="deu">Mit innigster Freund<lb break="no"/>schaft und Hochschäzung</quote>
-               <bibl corresp="H0006175">
-                  <edition>edition humboldt digital</edition>
-                  <title>Alexander von Humboldt an Franz Julius Ferdinand Meyen. Berlin, Montag,
+               <bibl>
+                  <title type="edition">edition humboldt digital</title>
+                  <title type="letter">Alexander von Humboldt an Franz Julius Ferdinand Meyen. Berlin, Montag,
                      [1838]</title>
-                  <name type="sender">
-                     <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
-                  </name>
-                  <date type="sent">
-                     <date notBefore="1838-01-01" notAfter="1838-12-31" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="H0014181">Meyen, Franz Julius Ferdinand (1804-1840)</persName>
-                  </name>
+                  <ref target="edition-humboldt.de/briefe/detail.xql?id=H0006175"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#informal #s-n #r-n" xml:lang="deu">Mit freundschaft<lb break="no"/>licher Anhänglichkeit,</quote>
-               <bibl corresp="H0001224">
-                  <edition>edition humboldt digital</edition>
-                  <title>Alexander von Humboldt an Franz Julius Ferdinand Meyen. Berlin, 24. Januar
+               <bibl>
+                  <title type="edition">edition humboldt digital</title>
+                  <title type="letter">Alexander von Humboldt an Franz Julius Ferdinand Meyen. Berlin, 24. Januar
                      1836</title>
-                  <name type="sender">
-                     <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1836-01-24" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="H0014181">Meyen, Franz Julius Ferdinand (1804-1840)</persName>
-                  </name>
+                  <ref target="edition-humboldt.de/briefe/detail.xql?id=H0001224"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#informal #s-n #r-n" xml:lang="deu">Freundschaftlichst</quote>
-               <bibl corresp="H0006507">
-                  <edition>edition humboldt digital</edition>
-                  <title>Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], nach 22.
+               <bibl>
+                  <title type="edition">edition humboldt digital</title>
+                  <title type="letter">Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], nach 22.
                      August 1834</title>
-                  <name type="sender">
-                     <persName key="H0012069">Humboldt, Alexander von (1769-1859)</persName>
-                  </name>
-                  <date type="sent">
-                     <date notBefore="1834-08-23" notAfter="1835-08-22" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="H0014181">Meyen, Franz Julius Ferdinand (1804-1840)</persName>
-                  </name>
+                  <ref target="edition-humboldt.de/briefe/detail.xql?id=H0006507"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#informal #s-m #r-n" xml:lang="deu">Mit brüderlicher Liebe.</quote>
-               <bibl corresp="H0001200">
-                  <edition>edition humboldt digital</edition>
-                  <title>Alexander von Humboldt an Karl Ludwig Willdenow. Aranjuez, 20. April
+               <bibl>
+                  <title type="edition">edition humboldt digital</title>
+                  <title type="letter">Alexander von Humboldt an Karl Ludwig Willdenow. Aranjuez, 20. April
                      1799</title>
-                  <name type="sender">
-                     <persName key="H0012069">Humboldt, Alexander von (1769–1859) </persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1799-04-20" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="H0006403">Willdenow, Karl Ludwig (1765–1812) </persName>
-                  </name>
+                  <ref target="edition-humboldt.de/briefe/detail.xql?id=H0001200"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-n #r-n" xml:lang="deu">Ich umarme Sie herzlich. Schreiben <lb/>Sie mir <hi rendition="#u" xml:lang="deu">nach <rs
-                        type="place" key="H0005176">Bayreuth </rs>
-                  </hi>, wo ich den <lb/>15ten sein werde u von wo <lb/>aus Sie <choice>
-                     <abbr>MSS.</abbr>
-                     <expan>Manuscripte</expan>
-                  </choice> erhalten.</quote>
-               <bibl corresp="H0002727">
-                  <edition>edition humboldt digital</edition>
-                  <title>Alexander von Humboldt an Samuel Thomas Soemmerring. Berlin, 9. April
+               <quote ana="#informal #s-n #r-n" xml:lang="deu">Ich umarme Sie herzlich. Schreiben <lb/>Sie mir <hi rendition="#u" xml:lang="deu">nach <rs type="place" key="H0005176">Bayreuth </rs>
+               </hi>, wo ich den <lb/>15ten sein werde u von wo <lb/>aus Sie <choice>
+                  <abbr>MSS.</abbr>
+                  <expan>Manuscripte</expan>
+               </choice> erhalten.</quote>
+               <bibl>
+                  <title type="edition">edition humboldt digital</title>
+                  <title type="letter">Alexander von Humboldt an Samuel Thomas Soemmerring. Berlin, 9. April
                      1796</title>
-                  <name type="sender">
-                     <persName key="H0012069">Humboldt, Alexander von (1769–1859) </persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1796-04-09" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="H0015944">Soemmerring, Samuel Thomas Ritter von (1755–1830)
-                     </persName>
-                  </name>
+                  <ref target="edition-humboldt.de/briefe/detail.xql?id=H0002727"/>
                </bibl>
             </cit>
             <cit>
@@ -369,41 +230,23 @@
                      <orig>Forsters</orig>
                      <note corresp="nsvt_kqh_1cb">
                         <persName key="H0000177">Georg Forster</persName> und dessen Ehefrau
-                           <persName key="H0012030">Therese Huber</persName>, die wie Soemmerring in
-                           <placeName key="H0008587">Mainz</placeName> lebten.</note>
+                        <persName key="H0012030">Therese Huber</persName>, die wie Soemmerring in
+                        <placeName key="H0008587">Mainz</placeName> lebten.</note>
                   </seg> und vergessen Sie nicht Ihren</quote>
-               <bibl corresp="H0002656">
-                  <edition>edition humboldt digital</edition>
-                  <title>Alexander von Humboldt an Samuel Thomas Soemmerring. Hamburg, 28. Januar
+               <bibl>
+                  <title type="edition">edition humboldt digital</title>
+                  <title type="letter">Alexander von Humboldt an Samuel Thomas Soemmerring. Hamburg, 28. Januar
                      und 20. Februar 1791</title>
-                  <name type="sender">
-                     <persName key="H0012069">Humboldt, Alexander von (1769–1859) </persName>
-                  </name>
-                  <date type="sent">
-                     <date from="1791-01-28" to="1791-02-20" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="H0015944">Soemmerring, Samuel Thomas Ritter von
-                        (1755-1830)</persName>
-                  </name>
+                  <ref target="edition-humboldt.de/briefe/detail.xql?id=H0002656"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihren närrischen</quote>
-               <bibl corresp="H0002655">
-                  <edition>edition humboldt digital</edition>
-                  <title>Alexander von Humboldt an Samuel Thomas Soemmerring. Berg, 5. Dezember
+               <bibl>
+                  <title type="edition">edition humboldt digital</title>
+                  <title type="letter">Alexander von Humboldt an Samuel Thomas Soemmerring. Berg, 5. Dezember
                      1793</title>
-                  <name type="sender">
-                     <persName key="H0012069">Humboldt, Alexander von (1769–1859) </persName>
-                  </name>
-                  <date type="sent">
-                     <date when="1793-12-05" cert="high"/>
-                  </date>
-                  <name type="receiver">
-                     <persName key="H0015944">Soemmerring, Samuel Thomas Ritter von (1755–1830)
-                     </persName>
-                  </name>
+                  <ref target="edition-humboldt.de/briefe/detail.xql?id=H0002655"/>
                </bibl>
             </cit>
          </div>
