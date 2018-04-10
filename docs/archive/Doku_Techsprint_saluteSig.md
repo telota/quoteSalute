@@ -1,6 +1,6 @@
 ![Telota Logo](https://pbs.twimg.com/profile_images/661615298462765056/Ga3OHVTz_400x400.png "Telota Logo")
 
-# SaluteSig TechSprint Dokumentation
+# saluteSig TechSprint Dokumentation
 
 *(19.03-23.03.2018)*
 

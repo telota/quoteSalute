@@ -35,8 +35,7 @@ let $data := "collection('/db/apps/salute-demo/data')//tei:cit"
 
 let $language-contains :=
     for $item in tokenize($language, 'X')
-        let $contain := concat("#", $item)
-        return concat('contains(.//@xml:lang, "', $contain, '")')
+        return concat('contains(.//@xml:lang, "', $item, '")')
         
 
 let $filter-language :=
@@ -101,14 +100,14 @@ let $listelements :=
     element root {
         for $x in util:eval($query)
             let $quote := element quote {normalize-space(string-join(local:clean-up($x/tei:quote))) }
-            let $edition := element edition { normalize-space($x//tei:edition) }
-            let $title := element title { normalize-space($x//tei:title) }
+            let $edition := element edition { normalize-space($x//tei:title[@type='edition']) }
+            let $title := element title { normalize-space($x//tei:title[@type='letter']) }
             let $language := element language { normalize-space($x//tei:quote/@xml:lang) }
             let $urlbase := $x/parent::tei:div/@xml:base/data(.)
             let $urltail := $x//tei:bibl/@corresp
-            let $url := element url { concat($urlbase, $urltail) } (:let $url := $x//tei:bibl/tei:ref/@target:)
+            let $url := element url { $x//tei:bibl/tei:ref/@target }
         return
-        element cit {$quote,$edition,$title, $url, $language }
+        element cit {$quote,$edition,$title,$url,$language}
     }
 
 let $max := 

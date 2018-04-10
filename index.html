@@ -10,7 +10,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet"/>
     <link href="css/salutesig.css" rel="stylesheet"/>
     <script src="js/jquery-3.3.1.min.js"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    <script defer="defer" src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
     <script src="js/bootstrap.js"></script> 
     <script src="js/bootstrap.bundle.min.js"></script>
 </head>
@@ -35,7 +35,7 @@
             {{ salute.title }}
         </div>
     </div>
-    <div class="container">
+    <div class="grid_8" class="container">
         <div id="filter" class="row card">
             <div class="card-header">
                 <div>
@@ -67,7 +67,7 @@
                         <label class="filterLabel">Empfänger</label>
                         <div class="custom-control custom-checkbox">
                             <input type="checkbox" class="custom-control-input" id="checkboxReceiver-F" value="r-f" v-model="filter_receiver"/>
-                            <label class="custom-control-label" for="checkboxReceiver-F"><i class="fa fa-venus"></i> Female</label></label>
+                            <label class="custom-control-label" for="checkboxReceiver-F"><i class="fa fa-venus"></i> Female</label>
                         </div>
                         <div class="custom-control custom-checkbox">
                             <input type="checkbox" class="custom-control-input" id="checkboxReceiver-M" value="r-m" v-model="filter_receiver"/>
@@ -116,9 +116,18 @@
             </div>
         </div>
     </div>
-    <div>
-        <a target="_blank" href="https://github.com/telota/salutesig" class="btn"><i class="fa fa-github"></i></a>
-        <a href="mailto:klappenbach@bbaw.de"><i class="fa fa-envelope"></i></a>
+    <div class="grid_4">
+        <div id="description" class="row card">
+            <div class="card-header">
+                <div>
+                    <label>Beschreibungstext</label>
+                </div>
+            </div>
+            <div class="card-body" id="">
+                <div class="row"> <a target="_blank" href="https://github.com/telota/salutesig" class="btn"><i class="fa fa-github"></i></a>
+                    <a href="mailto:klappenbach@bbaw.de"><i class="fa fa-envelope"></i></a></div>
+            </div>
+        </div>
     </div>
 </div>
 

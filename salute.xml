@@ -1,0 +1,164 @@
+<body xmlns:v-on="http://www.w3.org/1999/xhtml" xmlns:v-bind="http://www.w3.org/1999/xhtml"
+    xmlns:v-clipboard="http://www.w3.org/1999/xhtml">
+    <div class="outerWrap contentTop">
+        <div class="container_12">
+            <div class="grid_12 center">
+                <img id="betabutton"
+                    src="http://correspsearch.net/resources/images/button_beta2.png"/>
+                <h1>Salute</h1>
+                <h2>Inspirierende Grußformeln für Ihre Korrespondenz</h2>
+            </div>
+        </div>
+    </div>
+    <div class="outerWrap contentBottom">
+        <!-- CMIF Creator -->
+        <!-- vue.js Application -->
+        <div class="container_12">
+            <div id="app" class="container grid_8">
+                <div class="card">
+                    <div class="card-header" id="mainHeader">
+                        <label>Grußformel aussuchen und kopieren!</label>
+                        <a target="_blank" href="https://github.com/telota/salutesig" class="btn">
+                            <i class="fab fa-github"/>
+                        </a>
+                    </div>
+                    <div id="quote" class="card-body">
+                        <p>"{{ salute.quote }}"</p>
+                    </div>
+                    <div id="source" class="card-footer">
+                        <a target="_blank" class="show" v-bind:href="salute.fullURL">
+                            <i class="fa fa-arrow-circle-right"/> {{salute.edition }} </a>
+                        <br/> {{ salute.title }} </div>
+                </div>
+                <div class="container">
+                    <div id="filter" class="row card">
+                        <div class="card-header">
+                            <div>
+                                <button class="btn btn-default btn-dark" data-toggle="collapse"
+                                    href="" aria-expanded="false" aria-controls="" id="filter-btn"
+                                    v-on:click="refresh()">Filter anwenden</button>
+                                <span id="error" class="alert alert-danger" v-if="error"> Es wurde
+                                    leider keine passende Grußformel gefunden. Bitte nutzen Sie eine
+                                    andere Filterkombination. </span>
+                            </div>
+                        </div>
+                        <div class="card-body" id="">
+                            <div class="row">
+                                <div id="genderSender" class="col">
+                                    <label class="filterLabel">Sender</label>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input"
+                                            id="checkboxSender-F" value="s-f"
+                                            v-model="filter_sender"/>
+                                        <label class="custom-control-label" for="checkboxSender-F"
+                                                ><i class="fa fa-venus"/> Female</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input"
+                                            id="checkboxSender-M" value="s-m"
+                                            v-model="filter_sender"/>
+                                        <label class="custom-control-label" for="checkboxSender-M"
+                                                ><i class="fa fa-mars"/> Male</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input"
+                                            id="checkboxSender-N" value="s-n"
+                                            v-model="filter_sender"/>
+                                        <label class="custom-control-label" for="checkboxSender-N"
+                                                ><i class="fa fa-genderless"/> Neutral</label>
+                                    </div>
+                                </div>
+                                <div id="genderReceiver" class="col">
+                                    <label class="filterLabel">Empfänger</label>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input"
+                                            id="checkboxReceiver-F" value="r-f"
+                                            v-model="filter_receiver"/>
+                                        <label class="custom-control-label" for="checkboxReceiver-F"
+                                                ><i class="fa fa-venus"/> Female</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input"
+                                            id="checkboxReceiver-M" value="r-m"
+                                            v-model="filter_receiver"/>
+                                        <label class="custom-control-label" for="checkboxReceiver-M"
+                                                ><i class="fa fa-mars"/> Male</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input"
+                                            id="checkboxReceiver-N" value="r-n"
+                                            v-model="filter_receiver"/>
+                                        <label class="custom-control-label" for="checkboxReceiver-N"
+                                                ><i class="fa fa-genderless"/> Neutral</label>
+                                    </div>
+                                </div>
+                                <div id="formality" class="col">
+                                    <label class="filterLabel">Form</label>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input"
+                                            id="checkboxFormal" value="formal" v-model="filter_type"/>
+                                        <label class="custom-control-label" for="checkboxFormal"><i
+                                                class="fa fa-handshake"/> Formal</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input"
+                                            id="checkboxInformal" value="informal"
+                                            v-model="filter_type"/>
+                                        <label class="custom-control-label" for="checkboxInformal"
+                                                ><i class="fa fa-heart"/> Informal</label>
+                                    </div>
+                                </div>
+                                <div id="language" class="col">
+                                    <label class="filterLabel">Sprache</label>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input"
+                                            id="checkboxDeu" value="deu" v-model="filter_language"/>
+                                        <label class="custom-control-label" for="checkboxDeu"><i
+                                                class=""/> Deutsch</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input"
+                                            id="checkboxEng" value="eng" v-model="filter_language"/>
+                                        <label class="custom-control-label" for="checkboxEng"><i
+                                                class=""/> Englisch</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input"
+                                            id="checkboxSpa" value="spa" v-model="filter_language"/>
+                                        <label class="custom-control-label" for="checkboxSpa"><i
+                                                class=""/> Spanisch</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input"
+                                            id="checkboxIta" value="ita" v-model="filter_language"/>
+                                        <label class="custom-control-label" for="checkboxIta"><i
+                                                class=""/> Italienisch</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input"
+                                            id="checkboxFra" value="fra" v-model="filter_language"/>
+                                        <label class="custom-control-label" for="checkboxFra"><i
+                                                class=""/> Französisch</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid_4">
+                <div id="description" class="row card">
+                    <div class="card-header">
+                        <div>
+                            <label>Beschreibungstext</label>
+                        </div>
+                    </div>
+                    <div class="card-body" id="">
+                        <div class="row"> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/salutesig.js"> </script>
+</body>

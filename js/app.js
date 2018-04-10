@@ -72,7 +72,8 @@ const app = new Vue({
             this.$http.get(baseURL, {params: {
                     sender: this.senderParam,
                     receiver: this.receiverParam,
-                    type: this.typeParam
+                    type: this.typeParam,
+                    language: this.lanugageParam
                 }
             }).then(response => {
                 const { quote, title, edition, url } = response.body;
@@ -83,7 +84,7 @@ const app = new Vue({
                 this.error = true;
             });
 
-            console.log(this.filter_receiver);
+            console.log(this.filter_language);
         },
     },
     mounted() {
