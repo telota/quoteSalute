@@ -19,6 +19,7 @@ class Salute {
 const defaultSender = ["s-f","s-m","s-n"];
 const defaultReceiver = ["r-f","r-m","r-n"];
 const defaultType = ["formal","informal"];
+const defaultLanguage = ["deu","eng","spa","fra","ita"];
 
 const app = new Vue({
     el: '#app',
@@ -28,6 +29,7 @@ const app = new Vue({
         filter_sender: defaultSender,
         filter_receiver: defaultReceiver,
         filter_type: defaultType,
+        filter_language: defaultLanguage,
         error: false,
     },
     computed: {
@@ -48,6 +50,12 @@ const app = new Vue({
                 return this.filter_type.join('X');
             }
             return defaultType.join('X');
+        },
+        lanugageParam() {
+            if (this.filter_language.length) {
+                return this.filter_language.join('X');
+            }
+            return defaultLanguage.join('X');
         },
         copyMessage() {
             return `"${this.salute.quote}" \n

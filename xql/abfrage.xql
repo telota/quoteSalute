@@ -9,6 +9,7 @@ declare option exist:serialize "media-type=application/json";
 declare variable $type := request:get-parameter('type', ());
 declare variable $sender := request:get-parameter('sender', ());
 declare variable $receiver := request:get-parameter('receiver', ());
+declare variable $language := request:get-parameter('language', ());
 
 declare function local:clean-up($nodes as node()*) as xs:string* {
     for $node in $nodes
@@ -31,6 +32,20 @@ declare function local:clean-up($nodes as node()*) as xs:string* {
 
 
 let $data := "collection('/db/apps/salute-demo/data')//tei:cit"
+
+let $language-contains :=
+    for $item in tokenize($language, 'X')
+        let $contain := concat("#", $item)
+        return concat('contains(.//@xml:lang, "', $contain, '")')
+        
+
+let $filter-language :=
+     if (count($language) >= 1) then
+        let $containQuery := string-join($language-contains, ' or ')
+        return concat('[', $containQuery, ']')
+     else () 
+
+
 
 let $type-contains :=
     for $item in tokenize($type, 'X')
@@ -77,7 +92,7 @@ let $filter-receiver :=
     :)
 
 
-let $query := ($data||$filter-type||$filter-sender||$filter-receiver)
+let $query := ($data||$filter-type||$filter-sender||$filter-receiver||$filter-language)
 
 
 (: let $urlbase := :)
@@ -88,11 +103,12 @@ let $listelements :=
             let $quote := element quote {normalize-space(string-join(local:clean-up($x/tei:quote))) }
             let $edition := element edition { normalize-space($x//tei:edition) }
             let $title := element title { normalize-space($x//tei:title) }
+            let $language := element language { normalize-space($x//tei:quote/@xml:lang) }
             let $urlbase := $x/parent::tei:div/@xml:base/data(.)
             let $urltail := $x//tei:bibl/@corresp
             let $url := element url { concat($urlbase, $urltail) } (:let $url := $x//tei:bibl/tei:ref/@target:)
         return
-        element cit {$quote,$edition,$title, $url }
+        element cit {$quote,$edition,$title, $url, $language }
     }
 
 let $max := 
