@@ -90,7 +90,7 @@ let $listelements :=
             let $title := element title { normalize-space($x//tei:title) }
             let $urlbase := $x/parent::tei:div/@xml:base/data(.)
             let $urltail := $x//tei:bibl/@corresp
-            let $url := element url { concat($urlbase, $urltail) }
+            let $url := element url { concat($urlbase, $urltail) } (:let $url := $x//tei:bibl/tei:ref/@target:)
         return
         element cit {$quote,$edition,$title, $url }
     }
