@@ -39,13 +39,13 @@
                      <catDesc>sender is neutral</catDesc>
                   </category>
                   <category xml:id="r-f">
-                     <catDesc>reciever is female</catDesc>
+                     <catDesc>receiver is female</catDesc>
                   </category>
                   <category xml:id="r-m">
-                     <catDesc>reciever is male</catDesc>
+                     <catDesc>receiver is male</catDesc>
                   </category>
                   <category xml:id="r-n">
-                     <catDesc>reciever is neutral</catDesc>
+                     <catDesc>receiver is neutral</catDesc>
                   </category>
                </category>
             </taxonomy>
@@ -56,7 +56,7 @@
       <body>
          <div type="citList" xml:base="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=">
             <cit>
-               <quote ana="#formal #s-n #r-m">adieu lieber guter!<lb/></quote>
+               <quote ana="#formal #s-n #r-m" xml:lang="deu">adieu lieber guter!<lb/></quote>
                <bibl corresp="prov_sl4_g43_s5">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>Von Johann Kaspar Lavater. Zürich, den 17. Januar 1789. Sonnabend</title>
@@ -73,7 +73,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-n">Leben Sie wohl, empfehlen Sie mich allen, auch der niedlichen <persName
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Leben Sie wohl, empfehlen Sie mich allen, auch der niedlichen <persName
                      key="prov_w3h_3rj_gv">Jagemann</persName> – und laßen Sie <del rendition="#s"
                      next="bald">sich</del> bald wieder etwas von sich hören – <lb/>Ihr</quote>
                <bibl corresp="prov_ert_gcm_4v">
@@ -91,7 +91,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-n">Jezt leben Sie wohl! Sorgen Sie für Ihr Beßerwerden und gedenken Sie
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Jezt leben Sie wohl! Sorgen Sie für Ihr Beßerwerden und gedenken Sie
                   <lb/>Ihres ergebenen</quote>
                <bibl corresp="hirt_sg4_pq3_nx">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
@@ -109,7 +109,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Die fernern gnädigen Befehle Ew. Königlichen Hoheit erwartend, geharre wie
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Die fernern gnädigen Befehle Ew. Königlichen Hoheit erwartend, geharre wie
                   immer <lb/>Ihr Gehorsamster</quote>
                <bibl corresp="hirt_ip2_ycp_wx">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
@@ -132,7 +132,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-n">Danckbar, treu verbunden</quote>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Danckbar, treu verbunden</quote>
                <bibl corresp="hirt_yp3_shw_yx">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>Von Johann Wolfgang von Goethe. Weimar, 12. August 1827. Sonntag</title>
@@ -149,7 +149,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n">il vostro amico vero</quote>
+               <quote ana="#informal #s-m #r-n" xml:lang="spa">il vostro amico vero</quote>
                <bibl corresp="prov_ldd_4wt_rv">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Georg Zoega. Berlin, den 8. Juni 1800. Sonntag</title>
@@ -165,7 +165,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n">Der ich recht wohl zu leben wünsche, <del rendition="#s" next="und">W.
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Der ich recht wohl zu leben wünsche, <del rendition="#s" next="und" xml:lang="deu">W.
                      d.</del> und mich geneigtem Andenken empfehle.</quote>
                <bibl corresp="prov_jzw_krw_pv">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
@@ -183,7 +183,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Ihr treuergebner</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihr treuergebner</quote>
                <bibl corresp="hirt_psf_dsm_cy">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Christian Daniel Rauch. Berlin, 20. Januar 1828. Sonntag</title>
@@ -201,7 +201,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n">Ihren <lb/>gänzlich Ihnen ergebenen und treuherzigen, <lb/>wahren
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Ihren <lb/>gänzlich Ihnen ergebenen und treuherzigen, <lb/>wahren
                   Verehrer</quote>
                <bibl corresp="prov_pft_t3s_cv">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
@@ -220,7 +220,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">ich verbleibe mit aller Unterthänigkeit <lb/>Euer Königlichen Majestät
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">ich verbleibe mit aller Unterthänigkeit <lb/>Euer Königlichen Majestät
                   <lb/>allerunterthänigster</quote>
                <bibl corresp="hirt_wzx_scz_lw">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
@@ -239,7 +239,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-n">Leben Sie wohl, u. bleiben Sie von meiner dauernden Freundschaft
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Leben Sie wohl, u. bleiben Sie von meiner dauernden Freundschaft
                   überzeugt</quote>
                <bibl corresp="hirt_ijy_bh4_fw">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
@@ -258,7 +258,7 @@
             </cit>
             
             <cit>
-               <quote ana="#formal #s-m #r-n">Genug für heute von Ihrem ergebnen</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Genug für heute von Ihrem ergebnen</quote>
                <bibl corresp="hirt_i3t_k3m_vw">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Karl August Böttiger. Berlin, 15. November 1819. Freitag</title>
@@ -275,7 +275,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-m">Mit den Gesinnungen der tiefsten Verehrung geharre ich <lb/>Ew. Königlichen
+               <quote ana="#formal #s-m #r-m" xml:lang="deu">Mit den Gesinnungen der tiefsten Verehrung geharre ich <lb/>Ew. Königlichen
                   Hoheit, <lb/>Meines Gnädigsten Herrn <lb/>unterthänigster</quote>
                <bibl corresp="hirt_wkp_yql_vx">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
@@ -294,7 +294,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Erhalten <add place="superlinear">Sie</add> mich in Ihrem Andenken; mit den
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Erhalten <add place="superlinear" xml:lang="deu">Sie</add> mich in Ihrem Andenken; mit den
                   nemlichen Gesinnungen bin ich <lb/> fortdaurend Ihr ganz ergebner</quote>
                <bibl corresp="prov_j1t_gnv_y5">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
@@ -311,7 +311,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Der Himmel erhalte Sie froh und glücklich noch eine lange Reihe von Jahren
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Der Himmel erhalte Sie froh und glücklich noch eine lange Reihe von Jahren
                   <lb/>Unterthänigster</quote>
                <bibl corresp="hirt_tsm_xlp_wy">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
@@ -330,7 +330,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n">Ihr <lb/>herzlich ergebner <lb/>Fr<ex>eund</ex>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Ihr <lb/>herzlich ergebner <lb/>Fr<ex>eund</ex>
                </quote>
                <bibl corresp="hirt_uxv_xmh_yx">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
@@ -349,7 +349,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Mit unbegrenzter Verehrung und Anhänglichkeit verbleibe ich <lb/>Ew.
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Mit unbegrenzter Verehrung und Anhänglichkeit verbleibe ich <lb/>Ew.
                   Königlichen Hoheit <lb/>ergebenster</quote>
                <bibl corresp="hirt_fcd_cqx_3x">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
@@ -368,7 +368,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Hochachtungsvoll <lb/>Ihr <lb/>ergebenster</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Hochachtungsvoll <lb/>Ihr <lb/>ergebenster</quote>
                <bibl corresp="hirt_fhk_fyt_mx">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Wilhelm Dorow. Berlin, 5. August 1822. Montag</title>
@@ -387,7 +387,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-n">Suchen Sie mich dort im Andenken zu erhalten, und sagen Sie mir bald wieder
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Suchen Sie mich dort im Andenken zu erhalten, und sagen Sie mir bald wieder
                   ein Wörtchen</quote>
                <bibl corresp="prov_hz3_gyx_gv">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
@@ -404,7 +404,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Erhalten Sie mich in freundschaftlichem Andenken, und bleiben Sie von meiner
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Erhalten Sie mich in freundschaftlichem Andenken, und bleiben Sie von meiner
                   ganzen Hochachtung überzeugt <lb/>Ihr ergebenster</quote>
                <bibl corresp="hirt_tkh_j14_pw">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
@@ -423,7 +423,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-n">Ew. Durchlaucht<lb/>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Ew. Durchlaucht<lb/>
                </quote>
                <bibl corresp="prov_pt4_1bk_s5">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
@@ -442,7 +442,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Euer Herzoglichen Durchlaucht / unterthänigster</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Euer Herzoglichen Durchlaucht / unterthänigster</quote>
                <bibl corresp="prov_iy1_zls_1v">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Karl August von Sachsen-Weimar und Eisenach. Rom, den 28. Juni 1794.
@@ -460,7 +460,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-n">Indem ich um die Fortdauer Ihres Andenkens bitte, <subst>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Indem ich um die Fortdauer Ihres Andenkens bitte, <subst>
                      <del rendition="#ow">erg</del>
                      <add place="across">ver</add>
                   </subst>bleibe ich mit wahrer Hochachtung <lb/>mein verehrtester Herr Director
@@ -484,7 +484,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Bald ein mehrers von <lb/>Ihrem</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Bald ein mehrers von <lb/>Ihrem</quote>
                <bibl corresp="hirt_j3d_3bf_vw">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Karl August Böttiger. Berlin, 2. November 1819. Dienstag</title>
@@ -501,7 +501,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Ich bin mit unwandelbaren Gesinnungen fortdaurend <lb/>Ihr ganz
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich bin mit unwandelbaren Gesinnungen fortdaurend <lb/>Ihr ganz
                   ergebner</quote>
                <bibl corresp="prov_lss_f1q_pv">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
@@ -519,7 +519,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n">Ihr ewig ergebner Freund</quote>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Ihr ewig ergebner Freund</quote>
                <bibl corresp="hirt_zqg_rkn_my">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Karl August Böttiger. Berlin, 13. Oktober 1830. Mittwoch</title>
@@ -536,7 +536,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n">Es umarmt Sie herzlich <lb/>Ihr treuergebener <lb/>Freund</quote>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Es umarmt Sie herzlich <lb/>Ihr treuergebener <lb/>Freund</quote>
                <bibl corresp="hirt_rpm_5jx_lw">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Joseph von Laßberg. Berlin, 12. Mai 1818. Dienstag</title>
@@ -556,7 +556,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Mit unwandelbaren Gesinnungen treuerster Ergebenheit verbleibe ich <lb/>Ew.
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Mit unwandelbaren Gesinnungen treuerster Ergebenheit verbleibe ich <lb/>Ew.
                   Königlichen Hoheit <lb/>unterthänigst <lb/>gehorsamster</quote>
                <bibl corresp="hirt_owq_3gl_xw">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
@@ -578,7 +578,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Ich unterzeichne mich in aller Unterthänigkeit und der tiefesten Ehranbietung
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich unterzeichne mich in aller Unterthänigkeit und der tiefesten Ehranbietung
                   <lb/>Ew. hochfürstlichen Durchlaucht <lb/>unterthänigster gehorsamster</quote>
                <bibl corresp="hirt_wpr_tk2_hw">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
@@ -599,7 +599,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Ich habe die Ehre zu seyn <lb/>Ew. Wohlgeboren<lb/>ergebenster Diener</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich habe die Ehre zu seyn <lb/>Ew. Wohlgeboren<lb/>ergebenster Diener</quote>
                <bibl corresp="prov_s2r_dbx_pv">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An die Buchhandlung Voss und Comp. in Leipzig. Berlin, den 6. Dezember
@@ -618,7 +618,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Agréez, Monsieur le chevalier, les temoignages de la haute consideration avec
+               <quote ana="#formal #s-m #r-n" xml:lang="fra">Agréez, Monsieur le chevalier, les temoignages de la haute consideration avec
                   laquelle j'ai l'honneur d' être <lb/>votre très humble serviteur</quote>
                <bibl corresp="hirt_rlf_1t2_jx">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
@@ -640,7 +640,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Ich bitte Ew. Durchlaucht, diese Nachricht mit gewohnter Huld aufzunehmen von
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich bitte Ew. Durchlaucht, diese Nachricht mit gewohnter Huld aufzunehmen von
                   Ihrem dienstwilligsten gehorsamsten D<ex>iener</ex>
                </quote>
                <bibl corresp="prov_hd1_gbt_1v">
@@ -660,7 +660,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-m">Ewer Königlichen Hoheit, <lb/>meines gnädigsten Herren <lb/>unterthänigst
+               <quote ana="#formal #s-m #r-m" xml:lang="deu">Ewer Königlichen Hoheit, <lb/>meines gnädigsten Herren <lb/>unterthänigst
                   ergebner</quote>
                <bibl corresp="hirt_rtd_rpx_5x">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
@@ -679,7 +679,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-n">treulichst</quote>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">treulichst</quote>
                <bibl corresp="hirt_pw3_vng_my">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>Von Johann Wolfgang von Goethe. Weimar, 24. Mai 1830. Montag</title>
@@ -696,7 +696,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-n">J'ai l'honneur d'être avec la consideration la plus distinguées</quote>
+               <quote ana="#formal #s-n #r-n" xml:lang="fra">J'ai l'honneur d'être avec la consideration la plus distinguées</quote>
                <bibl corresp="prov_yxq_vfj_2v">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An das Direktorium der Akademie der Wissenschaften zu Berlin. Berlin, den
@@ -714,7 +714,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Wie immer <lb/>Ihr ergebner</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Wie immer <lb/>Ihr ergebner</quote>
                <bibl corresp="hirt_sv1_tgx_5x">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Christian Daniel Rauch. Berlin, 11. September 1824. Sonnabend</title>
@@ -732,7 +732,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n">Hiemit wie immer der Ihrige</quote>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Hiemit wie immer der Ihrige</quote>
                <bibl corresp="hirt_dnl_jty_xw">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Karl August Böttiger. Berlin, 25. November 1820. Sonnabend</title>
@@ -749,7 +749,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Ihr unwandelbarer</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihr unwandelbarer</quote>
                <bibl corresp="prov_vcb_ch2_4v">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Karl August Böttiger. Berlin, den 24. November 1798. Sonnabend</title>
@@ -765,7 +765,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Der Ihrige</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Der Ihrige</quote>
                <bibl corresp="prov_rb5_3bn_tv">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Karl August Böttiger. Berlin, den 27. Februar und 17. März 1801. Freitag
@@ -782,7 +782,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Ew. Königl<ex>iche</ex> Hoheit <lb/>vergeb<del rendition="#s">b</del>en Dem
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ew. Königl<ex>iche</ex> Hoheit <lb/>vergeb<del rendition="#s" xml:lang="deu">b</del>en Dem
                   Kranken</quote>
                <bibl corresp="hirt_tgx_5jt_xy">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
@@ -801,7 +801,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-n">Herzlichen Gruß und nochmaligen Danck von</quote>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Herzlichen Gruß und nochmaligen Danck von</quote>
                <bibl corresp="hirt_fgk_ryc_gw">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>Von einem Neffen Hirts und von Unbekannt (Notar?) [Dankbrief ]. Nach 20.
@@ -819,7 +819,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n">State bene, ed amate mi<lb/>il vostro vero amico</quote>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">State bene, ed amate mi<lb/>il vostro vero amico</quote>
                <bibl corresp="prov_p3q_1b1_y5">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Georg Zoega. Florenz, den 12. September 1792. Mittwoch</title>
@@ -835,7 +835,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n">Ihr ergebenster Verehrer</quote>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Ihr ergebenster Verehrer</quote>
                <bibl corresp="prov_ghk_gkg_35">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Johann Kaspar Lavater. Rom, den 27. Dezember 1788. Sonnabend</title>
@@ -852,7 +852,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n">Ihr ganz wahrer Freund</quote>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Ihr ganz wahrer Freund</quote>
                <bibl corresp="prov_fjc_gt1_dv">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Wilhelmine Rietz (Gräfin Lichtenau). Rom, den 19. April 1796.
@@ -870,7 +870,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Ihr wahrer unveränderlicher</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihr wahrer unveränderlicher</quote>
                <bibl corresp="prov_d5m_v35_dv">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Wilhelmine Rietz (Gräfin Lichtenau). Rom, den 14. Mai 1796.
@@ -888,7 +888,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-n #r-n">Gruß u. Freundschaft</quote>
+               <quote ana="#informal #s-n #r-n" xml:lang="deu">Gruß u. Freundschaft</quote>
                <bibl corresp="prov_w4x_gsb_sv">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Karl August Böttiger. Berlin, den 28. Juni 1800. Sonnabend</title>
@@ -905,7 +905,7 @@
             </cit>
           
             <cit>
-               <quote ana="#formal #s-n #r-n">Leben Sie recht wohl und erfreuen Sie uns von Zeit zu Zeit mit Nachrichten von
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Leben Sie recht wohl und erfreuen Sie uns von Zeit zu Zeit mit Nachrichten von
                   Ihren Geschäfften und Unternehmungen.</quote>
                <bibl corresp="prov_nbq_xd5_hv">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
@@ -923,7 +923,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Derselbe</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Derselbe</quote>
                <bibl corresp="hirt_d4m_bfn_yv">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Unbekannt (“lieber Freund“ ). Berlin, 15. April 1806 . Dienstag</title>
@@ -940,7 +940,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Ihr treuergebner</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihr treuergebner</quote>
                <bibl corresp="hirt_v4v_jp2_jw">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Karl August Böttiger. Berlin, 30. August 1816. Freitag</title>
@@ -957,7 +957,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Leben Sie wohl und gedenken Sie meiner, so wie ich Ihrer gedenke als <lb/>Ihr
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Leben Sie wohl und gedenken Sie meiner, so wie ich Ihrer gedenke als <lb/>Ihr
                   ergebenster</quote>
                <bibl corresp="hirt_osg_whr_5y">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
@@ -976,7 +976,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Wie immer aufrichtig der Ihrige</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Wie immer aufrichtig der Ihrige</quote>
                <bibl corresp="hirt_f1l_qfl_hw">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Karl August Böttiger. Berlin, 26. September 1812. Sonnabend</title>
@@ -993,7 +993,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Unveränderlich <lb/>Ihr College</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Unveränderlich <lb/>Ihr College</quote>
                <bibl corresp="hirt_ad4_ppn_hw">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Karl August Böttiger. Berlin, 1. November 1814. Dienstag</title>
@@ -1010,7 +1010,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-n #r-n">Mit alter Freundschaft</quote>
+               <quote ana="#informal #s-n #r-n" xml:lang="deu">Mit alter Freundschaft</quote>
                <bibl corresp="hirt_rv2_lft_xy">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>Vom Kronprinzen Friedrich Wilhelm (IV.) von Preußen. Berlin, 7. April 1837.
@@ -1028,7 +1028,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Ich harre wie von jeher, und für immer mit der innigsten und tiefsten
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich harre wie von jeher, und für immer mit der innigsten und tiefsten
                   Verehrung <lb/>Ew. königl<ex>iche</ex> Hoheit <lb/>ganz ergebenster
                   <lb/>gehorsamster</quote>
                <bibl corresp="hirt_ugs_vc2_jw">
@@ -1050,7 +1050,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Ich verbleibe wie immer <lb/>Ihr aufrichtig ergebner</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich verbleibe wie immer <lb/>Ihr aufrichtig ergebner</quote>
                <bibl corresp="hirt_kjn_2px_bw">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Johann Wolfgang von Goethe. Berlin, 23. Mai 1809 . Dienstag</title>
@@ -1068,7 +1068,7 @@
             </cit>
             
             <cit>
-               <quote ana="#formal #s-m #r-n">Mit wahrer Anhänglichkeit verbleibe ich <lb/>Ew. Königlichen Hoheit
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Mit wahrer Anhänglichkeit verbleibe ich <lb/>Ew. Königlichen Hoheit
                   <lb/>treugehorsamster</quote>
                <bibl corresp="hirt_shl_tbx_nw">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
@@ -1091,7 +1091,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Ihr unterthänigster</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihr unterthänigster</quote>
                <bibl corresp="hirt_kgl_k2r_5y">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An den Kronprinzen Friedrich Wilhelm (IV.) von Preußen. Berlin, zwischen
@@ -1109,7 +1109,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">wie immer <lb/>Der Ihrige</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">wie immer <lb/>Der Ihrige</quote>
                <bibl corresp="hirt_fhz_vgw_3x">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Friedrich August Wolf. Berlin, 4. Juni 1821. Montag</title>
@@ -1130,7 +1130,7 @@
             </cit>
            
             <cit>
-               <quote ana="#informal #s-m #r-n">Ich bin von Herzen<lb/>Ihr</quote>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Ich bin von Herzen<lb/>Ihr</quote>
                <bibl corresp="prov_br2_k22_qv">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Karl August Böttiger. Berlin, den 8. März 1800. Sonnabend</title>
@@ -1147,7 +1147,7 @@
             </cit>
             
             <cit>
-               <quote ana="#formal #s-n #r-n">Ich empfehle mich der fernern Huld Ew. Durchlaucht, und verbleibe in tiefester
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Ich empfehle mich der fernern Huld Ew. Durchlaucht, und verbleibe in tiefester
                   Verehrung</quote>
                <bibl corresp="prov_nhx_tyf_w5">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
@@ -1166,7 +1166,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Ew. Herzoglichen Durchlaucht / unterthänigster</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ew. Herzoglichen Durchlaucht / unterthänigster</quote>
                <bibl corresp="prov_gpp_2m5_1v">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Anna Amalia von Sachsen-Weimar und Eisenach. Rom, den 28. Juni 1794.
@@ -1184,7 +1184,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n">Leben Sie wohl! Ich bin wie immer<lb/>Ihr</quote>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Leben Sie wohl! Ich bin wie immer<lb/>Ihr</quote>
                <bibl corresp="prov_i1t_ldr_qv">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Karl August Böttiger. Berlin, den 3. Mai 1800. Sonnabend</title>
@@ -1200,7 +1200,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-n">Ich empfehle mich zu fernern Gnaden Ew. Durchlaucht, indem ich in aller
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Ich empfehle mich zu fernern Gnaden Ew. Durchlaucht, indem ich in aller
                   Unterthänigkeit geharre</quote>
                <bibl corresp="prov_yms_ljg_w5">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
@@ -1219,7 +1219,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n">Herzlich <lb/>Ihr ergebner</quote>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Herzlich <lb/>Ihr ergebner</quote>
                <bibl corresp="hirt_cmt_q3y_sx">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Friedrich Münter, Berlin, nach 12. Februar 1824</title>
@@ -1238,7 +1238,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Leben Sie wohl, und gedenken Sie manchmal <lb/>Ihres dankbar
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Leben Sie wohl, und gedenken Sie manchmal <lb/>Ihres dankbar
                   ergebensten</quote>
                <bibl corresp="hirt_whh_gnj_lw">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
@@ -1259,7 +1259,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-n #r-n">Ich verbleibe mit der Wärme einer wahren Verehrung</quote>
+               <quote ana="#informal #s-n #r-n" xml:lang="deu">Ich verbleibe mit der Wärme einer wahren Verehrung</quote>
                <bibl corresp="prov_dmn_nfp_w5">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Johann Kaspar Lavater. Rom, den 17. Februar 1792. Freitag</title>
@@ -1275,7 +1275,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-m">Empfangen Sie, mein Herr Baron, die Beweise meiner vollkommensten Hochachtung
+               <quote ana="#formal #s-m #r-m" xml:lang="deu">Empfangen Sie, mein Herr Baron, die Beweise meiner vollkommensten Hochachtung
                   -<lb/>Ihr gehorsamster / Diener</quote>
                <bibl corresp="hirt_hzt_xld_2w">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
@@ -1296,7 +1296,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Ich verbleibe mit Hochachtung <lb/>Ihr <lb/>ergebener</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich verbleibe mit Hochachtung <lb/>Ihr <lb/>ergebener</quote>
                <bibl corresp="hirt_oyz_ybd_5y">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An ["Herr Collega"]. Berlin, 3. März 1832. Sonnabend</title>
@@ -1310,7 +1310,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Ihr <lb/>ergebenster Diener u Freund</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihr <lb/>ergebenster Diener u Freund</quote>
                <bibl corresp="hirt_xhk_hbt_4x">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>Von Christian Daniel Rauch. Berlin, 30. November 1822. Sonnabend</title>
@@ -1328,7 +1328,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Mit tiefester Ergebung und treuester Anhänglichkeit geharre ich <lb/>Ew.
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Mit tiefester Ergebung und treuester Anhänglichkeit geharre ich <lb/>Ew.
                   Königlichen Hoheit <lb/>unterthänigster</quote>
                <bibl corresp="hirt_lys_q11_fy">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
@@ -1351,7 +1351,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n">Ich bin wie immer Ihr wahrer Verehrer</quote>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Ich bin wie immer Ihr wahrer Verehrer</quote>
                <bibl corresp="prov_w52_1ls_cv">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Johann Wolfgang von Goethe. Rom, den 12. April 1796. Dienstag</title>
@@ -1368,7 +1368,7 @@
             </cit>
            
             <cit>
-               <quote ana="#informal #s-m #r-n">Mit steter anhänglicher Gesinnung <lb/>Ihr ergebenster</quote>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Mit steter anhänglicher Gesinnung <lb/>Ihr ergebenster</quote>
                <bibl corresp="hirt_vlf_gbb_3y">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Johann Wolfgang von Goethe. Berlin, 10. Mai 1830.</title>
@@ -1386,7 +1386,7 @@
             </cit>
             
             <cit>
-               <quote ana="#formal #s-n #r-n">Ich bitte um fernere Erhaltung Ihrer huldvollen Gnade, und verbleibe mit
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Ich bitte um fernere Erhaltung Ihrer huldvollen Gnade, und verbleibe mit
                   tiefester Verehrung<lb/>Ewer Durchlaucht</quote>
                <bibl corresp="prov_vzl_gkf_f5">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
@@ -1405,7 +1405,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-m">Leben Sie wohl, bester Freund! – Ich möchte noch so manches mit Ihnen plaudern
+               <quote ana="#informal #s-m #r-m" xml:lang="deu">Leben Sie wohl, bester Freund! – Ich möchte noch so manches mit Ihnen plaudern
                   – aber für heute genug <lb/>unwandelbar <lb/>der Ihrige</quote>
                <bibl corresp="prov_b3v_qrm_4v">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
@@ -1422,7 +1422,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Ich verbleibe mit tiefester Verehrung und Anhänglichkeit <lb/>Ew.
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich verbleibe mit tiefester Verehrung und Anhänglichkeit <lb/>Ew.
                      Königl<ex>ichen</ex> Hoheit <lb/>unterthanigstgehorsamster</quote>
                <bibl corresp="hirt_wvg_zpt_vv">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
@@ -1445,7 +1445,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-n">Ich geharre <lb/>in tiefster Unter-/thänigkeit</quote>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Ich geharre <lb/>in tiefster Unter-/thänigkeit</quote>
                <bibl corresp="hirt_vkd_p4p_5y">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An den Kronprinzen Friedrich Wilhelm (IV.) von Preußen. Berlin, 22. April
@@ -1463,7 +1463,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Ich bitte Ew. Durchlaucht für die Fortdauer Ihrer hohen Gnade, indem mit
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich bitte Ew. Durchlaucht für die Fortdauer Ihrer hohen Gnade, indem mit
                   tiefester Ehrfurcht fortfahre zu seyn <lb/>Ew. Herzoglichen Durchlaucht
                   <lb/>unterthänigst gehorsamster</quote>
                <bibl corresp="prov_vyn_2rd_cv">
@@ -1484,7 +1484,7 @@
             </cit>
             
             <cit>
-               <quote ana="#formal #s-m #r-m">Ich geharre ich <ex>[!]</ex> in tiefester Verehrung <lb/>Ew. Königlichen
+               <quote ana="#formal #s-m #r-m" xml:lang="deu">Ich geharre ich <ex>[!]</ex> in tiefester Verehrung <lb/>Ew. Königlichen
                   Hoheit <lb/>meines gnädigsten Herrn <lb/>unterthänigster</quote>
                <bibl corresp="hirt_n3w_yv4_wx">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
@@ -1505,7 +1505,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Ihr D<ex>iene</ex>r</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihr D<ex>iene</ex>r</quote>
                <bibl corresp="prov_lhy_1bm_cv">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Prinz Augustus Frederick von Hannover-England. [Rom], den 2. Februar
@@ -1522,7 +1522,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Ihr treuergebner</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihr treuergebner</quote>
                <bibl corresp="hirt_jtg_lbm_yv">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Johann Wolfgang von Goethe. Berlin, 6. Mai 1805 . Montag</title>
@@ -1539,7 +1539,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Ich empfehle mich zur huldvollen Gnade Ew. Durchlaucht und verbleibe in
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich empfehle mich zur huldvollen Gnade Ew. Durchlaucht und verbleibe in
                   tiefster Unterthänigkeit<lb/>Ew. Durchlaucht<lb/>unterthänigst
                   gehorsamster</quote>
                <bibl corresp="prov_mp3_kwc_x5">
@@ -1559,7 +1559,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Leben Sie wohl - ihr</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Leben Sie wohl - ihr</quote>
                <bibl corresp="prov_ecm_xkh_3v">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Karl August Böttiger. Berlin, den 10. Februar 1798. Sonnabend</title>
@@ -1575,7 +1575,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n">Verehrer u. Freund</quote>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Verehrer u. Freund</quote>
                <bibl corresp="prov_w32_jry_v5">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Johann Gottfried Herder. Rom, den 21. Mai 1790. Freitag</title>
@@ -1592,7 +1592,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n">Ihr ganz eigener / Fr<ex>eund</ex> u. D<ex>iener</ex>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Ihr ganz eigener / Fr<ex>eund</ex> u. D<ex>iener</ex>
                </quote>
                <bibl corresp="prov_pkz_jjf_f5">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
@@ -1609,7 +1609,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Ihr ergebner Diener</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihr ergebner Diener</quote>
                <bibl corresp="prov_x21_jz5_y5">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Johann Isaak Gerning. Rom, den 24. Juni 1794. Dienstag</title>
@@ -1625,7 +1625,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Ich empfehle <add place="superlinear">mich</add> zu hoher Gnade, und bin mit
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich empfehle <add place="superlinear" xml:lang="deu">mich</add> zu hoher Gnade, und bin mit
                   wahrer Anhänglichkeit <lb/>Ew. königl<ex>ichen</ex> Hoheit
                   <lb/>gehorsamster</quote>
                <bibl corresp="hirt_hcw_gqy_vv">
@@ -1649,7 +1649,7 @@
             </cit>
             
             <cit>
-               <quote ana="#formal #s-m #r-n">Ihr treuer</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihr treuer</quote>
                <bibl corresp="hirt_q15_wn5_4x">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Karl August Böttiger. Berlin, 28. November 1823. Freitag</title>
@@ -1667,7 +1667,7 @@
             </cit>
             
             <cit>
-               <quote ana="#formal #s-m #r-m">Ich zähle, mein lieber Herr Pfarrer, auf Ihre Freundschaft, wenn Sie mich
+               <quote ana="#formal #s-m #r-m" xml:lang="deu">Ich zähle, mein lieber Herr Pfarrer, auf Ihre Freundschaft, wenn Sie mich
                   nicht unwürdig finden sollen. Befehlen Sie<lb/>Ihrem ergebensten Diener<lb/>
                </quote>
                <bibl corresp="prov_j44_bfj_s5">
@@ -1686,7 +1686,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Mit tiefster Verehrung <lb/>Ew. Excellenz! <lb/>gehorsamster</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Mit tiefster Verehrung <lb/>Ew. Excellenz! <lb/>gehorsamster</quote>
                <bibl corresp="hirt_mrm_5px_lw">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Kultusminister Karl Freiherr von Altenstein. Berlin, 23. März 1818.
@@ -1705,7 +1705,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n">Salutate la <persName key="prov_tfl_sbl_cv">Sig<hi rendition="#u">
+               <quote ana="#informal #s-m #r-n" xml:lang="ita">Salutate la <persName key="prov_tfl_sbl_cv">Sig<hi rendition="#u" xml:lang="deu">
                         <hi rendition="#sup">ra</hi>
                      </hi> Maria</persName>, e tutti gli amici caramente <lb/>il vostro vero
                   amico</quote>
@@ -1724,7 +1724,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Mit tiefester Ergebenheit und treuester Anhänglichkeit geharre ich <lb/>Ew.
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Mit tiefester Ergebenheit und treuester Anhänglichkeit geharre ich <lb/>Ew.
                   Königlichen Hoheit <lb/>unterthänigster</quote>
                <bibl corresp="hirt_dbq_yqy_2y">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
@@ -1747,7 +1747,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Seyen Sie wohl gemuthet, und gedenken Sie <lb/>Ihres ergebnen</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Seyen Sie wohl gemuthet, und gedenken Sie <lb/>Ihres ergebnen</quote>
                <bibl corresp="hirt_wfj_zn2_hy">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Karl August Böttiger. Berlin, 20. September 1829. Sonntag</title>
@@ -1764,7 +1764,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Indeßen verbleibe ich wie immer <lb/>Ihr <lb/>wahrhaft ergebener</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Indeßen verbleibe ich wie immer <lb/>Ihr <lb/>wahrhaft ergebener</quote>
                <bibl corresp="hirt_tt2_dbm_jx">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Karl August Böttiger. Berlin, 22. Dezember 1821. Sonnabend</title>
@@ -1782,7 +1782,7 @@
             </cit>
            
             <cit>
-               <quote ana="#informal #s-m #r-n">Ihr Freund und Bewunderer</quote>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Ihr Freund und Bewunderer</quote>
                <bibl corresp="prov_it3_3zd_2v">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>Von Frederick Augustus Hervey, Earl of Bristol. Triest, den 13. März 1797.
@@ -1800,7 +1800,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Grüßen Sie unsern dortigen Architekten, u. bleiben Sie meiner eingedenkt –
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Grüßen Sie unsern dortigen Architekten, u. bleiben Sie meiner eingedenkt –
                   <lb/>Derselbe</quote>
                <bibl corresp="hirt_vtd_p3m_vv">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
@@ -1818,7 +1818,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-n">In tiefster Unterwürfigkeit ersterbe ich <lb/>Euer Königlichen Hoheit</quote>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">In tiefster Unterwürfigkeit ersterbe ich <lb/>Euer Königlichen Hoheit</quote>
                <bibl corresp="hirt_g2k_xmt_xy">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>Von Paul Mila an den Kronprinzen Friedrich Wilhelm (IV.) von Preußen.
@@ -1839,7 +1839,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n">Wie immer der<lb/>Ihrige</quote>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Wie immer der<lb/>Ihrige</quote>
                <bibl corresp="prov_xvd_zjq_sv">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Karl August Böttiger. Berlin, den 19. November 1800. Mittwoch</title>
@@ -1855,7 +1855,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n">ich bin unwandelbar / Ihr Freund</quote>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">ich bin unwandelbar / Ihr Freund</quote>
                <bibl corresp="prov_mtf_st1_gv">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Friedrich Karl und Elsina von La Roche. Berlin, den 9. Oktober 1797.
@@ -1872,7 +1872,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n">Leben Sie wohl, und bleiben Sie von meiner Hochachtung und Freundschaft
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Leben Sie wohl, und bleiben Sie von meiner Hochachtung und Freundschaft
                   überzeugt <lb/>Der Ihrige</quote>
                <bibl corresp="hirt_x2p_css_xw">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
@@ -1892,7 +1892,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-n #r-m">Leben Sie wohl bester Freund, ich schreibe Ihnen nächstens wieder</quote>
+               <quote ana="#informal #s-n #r-m" xml:lang="deu">Leben Sie wohl bester Freund, ich schreibe Ihnen nächstens wieder</quote>
                <bibl corresp="prov_dnl_v1t_jv">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Karl August Böttiger. Berlin, den 18. September 1798. Dienstag</title>
@@ -1908,7 +1908,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Ihr dankbarester und ergebenster D<ex>iener</ex>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihr dankbarester und ergebenster D<ex>iener</ex>
                </quote>
                <bibl corresp="prov_acm_ckf_f5">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
@@ -1926,7 +1926,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-n #r-n">Dieß zum freundschaftlichen Andenken von</quote>
+               <quote ana="#informal #s-n #r-n" xml:lang="deu">Dieß zum freundschaftlichen Andenken von</quote>
                <bibl corresp="prov_x3z_cbt_1v">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Johann Kaspar Lavater. Rom, den 1. Dezember 1792. Sonnabend</title>
@@ -1942,7 +1942,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-n">Leben Sie wohl, bald sage ich Ihnen mehr <lb/>Ihr</quote>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Leben Sie wohl, bald sage ich Ihnen mehr <lb/>Ihr</quote>
                <bibl corresp="hirt_orj_cvt_vv">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Karl August Böttiger. Berlin, 14. November 1801. Sonnabend</title>
@@ -1959,7 +1959,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">der Ihnen ewig ergebene</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">der Ihnen ewig ergebene</quote>
                <bibl corresp="prov_jmd_yms_2v">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Wilhelmine Rietz (Gräfin Lichtenau). Wörlitz, den 29. Juli 1797.
@@ -1978,7 +1978,7 @@
             </cit>
             
             <cit>
-               <quote ana="#formal #s-m #r-n">Ich bin mit vollkommenster Hochachtung <lb/>Ihr ergebenster</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich bin mit vollkommenster Hochachtung <lb/>Ihr ergebenster</quote>
                <bibl corresp="hirt_mnt_pdn_dw">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Georg Andreas Reimer. Berlin, 10. Juni 1809. Sonnabend</title>
@@ -1998,7 +1998,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Meiner gnädigen Frau<lb/>ganz ergeb<ex>enster</ex> gehorsamster</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Meiner gnädigen Frau<lb/>ganz ergeb<ex>enster</ex> gehorsamster</quote>
                <bibl corresp="prov_xxp_ymv_w5">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Marie Sophie von La Roche. Rom, den 27. Mai 1792. Sonntag</title>
@@ -2015,7 +2015,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Ihres / dankbarergebnen</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihres / dankbarergebnen</quote>
                <bibl corresp="prov_vrd_phq_2v">
                   <edition>Aloys Hirt – Briefwechsel 1787–1837</edition>
                   <title>An Anna Henriette Schütz. Weimar, den 12. Juli 1797. Mittwoch</title>

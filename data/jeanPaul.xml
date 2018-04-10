@@ -39,13 +39,13 @@
                      <catDesc>sender is neutral</catDesc>
                   </category>
                   <category xml:id="r-f">
-                     <catDesc>reciever is female</catDesc>
+                     <catDesc>receiver is female</catDesc>
                   </category>
                   <category xml:id="r-m">
-                     <catDesc>reciever is male</catDesc>
+                     <catDesc>receiver is male</catDesc>
                   </category>
                   <category xml:id="r-n">
-                     <catDesc>reciever is neutral</catDesc>
+                     <catDesc>receiver is neutral</catDesc>
                   </category>
                </category>
             </taxonomy>
@@ -56,7 +56,7 @@
       <body>
          <div type="citList" xml:base="www.jp-briefwechsel...///"><!-- base uri noch nicht entschieden -->
             <cit>
-               <quote ana="#formal #s-n #r-n">Mit tiefster Ehrfurcht</quote>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Mit tiefster Ehrfurcht</quote>
                <bibl corresp="VII_85">
                   <edition>Jean Paul Briefwechsel</edition>
                   <title>An Königin Karoline von Bayern.</title>
@@ -75,7 +75,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n">Dein Vater</quote>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Dein Vater</quote>
                <bibl corresp="VII_596">
                   <edition>Jean Paul Briefwechsel</edition>
                   <title>An Max Richter in München.</title>
@@ -94,7 +94,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-n">Zum Andenken zu kurzer Minuten</quote>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Zum Andenken zu kurzer Minuten</quote>
                <bibl corresp="VII_339">
                   <edition>Jean Paul Briefwechsel</edition>
                   <title>Ins stammbuch der Generalin Vincenti.</title>
@@ -113,7 +113,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-n">Mit tiefster Ehrfurcht</quote>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Mit tiefster Ehrfurcht</quote>
                <bibl corresp="VII_129">
                   <edition>Jean Paul Briefwechsel</edition>
                   <title>An König Max Joseph von Bayern.</title>
@@ -132,7 +132,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Mit Verehrung Ihr ergebenster etc.</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Mit Verehrung Ihr ergebenster etc.</quote>
                <bibl corresp="VII_612">
                   <edition>Jean Paul Briefwechsel</edition>
                   <title>An Frau von Ompteda in Berlin.</title>
@@ -152,7 +152,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-n #r-m">Dem freundschaftlichen Dreiklang Ammon Grahl Zeschau der sich wechselseitig 3
+               <quote ana="#informal #s-n #r-m" xml:lang="deu">Dem freundschaftlichen Dreiklang Ammon Grahl Zeschau der sich wechselseitig 3
                   Feiertage oder 3 Himmel bereitet, geb’ ich hier auf dessen Wunsch meine
                   Handschrift und meine Hand dazu zum Angedenken.</quote>
                <bibl corresp="VII_202">
@@ -177,7 +177,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Der Ihrige</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Der Ihrige</quote>
                <bibl corresp="VII_424">
                   <edition>Jean Paul Briefwechsel</edition>
                   <title>An Herrn und Frau Engelmann in Heidelberg.</title>
@@ -198,7 +198,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-n #r-m">Kräftiger <persName>Jacobi</persName>, erkennst du in diesem Bilde den Sohn deines Vaters?
+               <quote ana="#informal #s-n #r-m" xml:lang="deu">Kräftiger <persName>Jacobi</persName>, erkennst du in diesem Bilde den Sohn deines Vaters?
                   —</quote>
                <bibl corresp="VII_336">
                   <edition>Jean Paul Briefwechsel</edition>
@@ -218,7 +218,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-n">Mit schuldigstem Respekt</quote>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Mit schuldigstem Respekt</quote>
                <bibl corresp="VII_124">
                   <edition>Jean Paul Briefwechsel</edition>
                   <title>An Graf Montgelas in München.</title>
@@ -237,7 +237,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-n">Ihr höchstachtender</quote>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Ihr höchstachtender</quote>
                <bibl corresp="VII_248">
                   <edition>Jean Paul Briefwechsel</edition>
                   <title>An Finanzrat Chr. Karl Barth in Bayreuth.</title>
@@ -256,7 +256,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-n #r-m">Zum Andenken unserer gestrigen Stunden, lieber <persName>Bursy</persName>, schriebs <persName>Jean
+               <quote ana="#informal #s-n #r-m" xml:lang="deu">Zum Andenken unserer gestrigen Stunden, lieber <persName>Bursy</persName>, schriebs <persName>Jean
                   Paul</persName></quote>
                <bibl corresp="VII_178">
                   <edition>Jean Paul Briefwechsel</edition>
@@ -277,7 +277,7 @@
             </cit>
             
             <cit>
-               <quote ana="#formal #s-n #r-n">Mit tiefer Ehrfurcht u.s.w.</quote>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Mit tiefer Ehrfurcht u.s.w.</quote>
                <bibl corresp="VII_119">
                   <edition>Jean Paul Briefwechsel</edition>
                   <title>An Fürst Hardenberg.</title>
@@ -297,7 +297,7 @@
             </cit>
             
             <cit>
-               <quote ana="#formal #s-m #r-n">Ihriger.</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihriger.</quote>
                <bibl corresp="IV_429">
                   <edition>Jean Paul Briefwechsel</edition>
                   <title>An Emanuel.</title>
@@ -318,7 +318,7 @@
             </cit>
             
             <cit>
-               <quote ana="#informal #s-m #r-n">Ihr Alter</quote>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Ihr Alter</quote>
                <bibl corresp="IV_480">
                   <edition>Jean Paul Briefwechsel</edition>
                   <title>An Emanuel.</title>
@@ -338,7 +338,7 @@
             </cit>
             
             <cit>
-               <quote ana="#formal #s-n #r-n">Adieu, edle Seele!</quote>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Adieu, edle Seele!</quote>
                <bibl corresp="IV_69">
                   <edition>Jean Paul Briefwechsel</edition>
                   <title>An Karoline Mayer.</title>
@@ -357,7 +357,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-n #r-n">Abzugeben an Dich bei Dir.</quote>
+               <quote ana="#informal #s-n #r-n" xml:lang="deu">Abzugeben an Dich bei Dir.</quote>
                <bibl corresp="IV_68">
                   <edition>Jean Paul Briefwechsel</edition>
                   <title>An Ahlefeldt.</title>
@@ -377,7 +377,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n">Dein ewiger, ewiger Freund.</quote>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Dein ewiger, ewiger Freund.</quote>
                <bibl corresp="III_273">
                   <edition>Jean Paul Briefwechsel</edition>
                   <title>In Emilie von Berlepschs Stammbuch.</title>
@@ -396,7 +396,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-n">Guten Tag!</quote>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Guten Tag!</quote>
                <bibl corresp="V_344">
                   <edition>Jean Paul Briefwechsel</edition>
                   <title>An Emanuel.</title>
@@ -416,7 +416,7 @@
             </cit>
             
             <cit>
-               <quote ana="#informal #s-n #r-n">Immer und immer Ihr Freund</quote>
+               <quote ana="#informal #s-n #r-n" xml:lang="deu">Immer und immer Ihr Freund</quote>
                <bibl corresp="II_270">
                   <edition>Jean Paul Briefwechsel</edition>
                   <title>An Renate und Christoph Otto.</title>
@@ -439,7 +439,7 @@
 
 
             <cit>
-               <quote ana="#formal #s-n #r-n">Ihrer Hoheit ꝛc. ꝛc. ꝛc.</quote>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Ihrer Hoheit ꝛc. ꝛc. ꝛc.</quote>
                <bibl corresp="VI_111">
                   <edition>Jean Paul Briefwechsel</edition>
                   <title>An Emanuel.</title>
@@ -459,7 +459,7 @@
             </cit>
            
             <cit>
-               <quote ana="#formal #s-n #r-n">Euerer Kaiserlichen Majestät</quote>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Euerer Kaiserlichen Majestät</quote>
                <bibl corresp="VI_863">
                   <edition>Jean Paul Briefwechsel</edition>
                   <title>An Kaiser Alexander von Rußland.</title>
@@ -478,7 +478,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Der in Baireuth privatisierende Einsame</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Der in Baireuth privatisierende Einsame</quote>
                <bibl corresp="VI_901">
                   <edition>Jean Paul Briefwechsel</edition>
                   <title>An Emanuel.</title>
@@ -497,7 +497,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">Der Verf.</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Der Verf.</quote>
                <bibl corresp="VI_678">
                   <edition>Jean Paul Briefwechsel</edition>
                   <title>An Cotta.</title>
@@ -517,7 +517,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n">Dein Alter.</quote>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Dein Alter.</quote>
                <bibl corresp="IX_15">
                   <edition>Jean Paul Briefwechsel</edition>
                   <title>An Christian Otto in Bayreuth.</title>
@@ -536,7 +536,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n">Ew. Hochedelgeboren gehorsamster Diener, Gefatter und wärmster Freund.</quote>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Ew. Hochedelgeboren gehorsamster Diener, Gefatter und wärmster Freund.</quote>
                <bibl corresp="I_6">
                   <edition>Jean Paul Briefwechsel</edition>
                   <title>An Rektor Werner in Schwarzenbach.</title>
@@ -555,7 +555,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">
                   Ew. Hochedelgeboren gehors. Diener </quote>
                <bibl corresp="I_72">
                   <edition>Jean Paul Briefwechsel</edition>
@@ -575,7 +575,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-n">Ich habe die Ehre zu sein Ew. Hochedelgeboren</quote>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Ich habe die Ehre zu sein Ew. Hochedelgeboren</quote>
                <bibl corresp="I_230">
                   <edition>Jean Paul Briefwechsel</edition>
                   <title>An Buchhändler Beckmann in Gera.</title>
@@ -594,7 +594,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n">Dein Freund?</quote>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Dein Freund?</quote>
                <bibl corresp="I_212">
                   <edition>Jean Paul Briefwechsel</edition>
                   <title>In Hermanns Stammbuch.</title>
@@ -614,7 +614,7 @@
             </cit>
            
             <cit>
-               <quote ana="#informal #s-f #r-n">Euer Hoch Edelgebohren gehorsamste Dienerin und Schwägerin</quote>
+               <quote ana="#informal #s-f #r-n" xml:lang="deu">Euer Hoch Edelgebohren gehorsamste Dienerin und Schwägerin</quote>
                <bibl corresp="I_178">
                   <edition>Jean Paul Briefwechsel</edition>
                   <title>An Stadtsyndikus Ruß in Wunsiedel.</title>
@@ -633,7 +633,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-n">Ich bin natürlicherweise Ihr ꝛc.</quote>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Ich bin natürlicherweise Ihr ꝛc.</quote>
                <bibl corresp="I_197">
                   <edition>Jean Paul Briefwechsel</edition>
                   <title>An Pfarrer Chr. Morus in Töpen.</title>
@@ -652,7 +652,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-n">der Verfasser.</quote>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">der Verfasser.</quote>
                <bibl corresp="VIII_375">
                   <edition>Jean Paul Briefwechsel</edition>
                   <title>An Emil und Luise von Herder in Bayreuth.</title>
@@ -673,7 +673,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-n">Zum Andenken des schönen Gestern</quote>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Zum Andenken des schönen Gestern</quote>
                <bibl corresp="VIII_66">
                   <edition>Jean Paul Briefwechsel</edition>
                   <title>In Adelaide von Maréchaux’ Stammbuch.</title>
@@ -693,7 +693,7 @@
             </cit>
             
             <cit>
-               <quote ana="#formal #s-m #r-n">Ihr ergebenster ꝛc.</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihr ergebenster ꝛc.</quote>
                <bibl corresp="VIII_74">
                   <edition>Jean Paul Briefwechsel</edition>
                   <title>An Hofprediger Schmidt in Nymphenburg.</title>
@@ -712,7 +712,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-f #r-n">Dero Ergebene Dienerin N. N.</quote>
+               <quote ana="#formal #s-f #r-n" xml:lang="deu">Dero Ergebene Dienerin N. N.</quote>
                <bibl corresp="VIII_421">
                   <edition>Jean Paul Briefwechsel</edition>
                   <title>An Frau.</title>
@@ -732,7 +732,7 @@
             </cit>
            
             <cit>
-               <quote ana="#formal #s-n #r-f">Zum Andenken an die holde Tochter eines dichterischen Vaters.</quote>
+               <quote ana="#formal #s-n #r-f" xml:lang="deu">Zum Andenken an die holde Tochter eines dichterischen Vaters.</quote>
                <bibl corresp="VIII_306">
                   <edition>Jean Paul Briefwechsel</edition>
                   <title>In Dorothea Tiecks Stammbuch.</title>
@@ -753,7 +753,7 @@
             
            
             <cit>
-               <quote ana="#formal #s-m #r-n">Euer Exzellenz ergebenster</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Euer Exzellenz ergebenster</quote>
                <bibl corresp="VIII_334">
                   <edition>Jean Paul Briefwechsel</edition>
                   <title>An Freiherrn von Welden in Bayreuth.</title>
@@ -772,7 +772,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-f">Aber auf Ihres gehört für Ihre Liebe und Stimme nur eine wolduftende Blume von
+               <quote ana="#informal #s-m #r-f" xml:lang="deu">Aber auf Ihres gehört für Ihre Liebe und Stimme nur eine wolduftende Blume von
                   Ihrem</quote>
                <bibl corresp="VIII_67">
                   <edition>Jean Paul Briefwechsel</edition>
@@ -794,7 +794,7 @@
            
            
             <cit>
-               <quote ana="#formal #s-n #r-f">Zum Andenken der würdigen Gattin des würdigen Gatten, die ihr Vaterland
+               <quote ana="#formal #s-n #r-f" xml:lang="deu">Zum Andenken der würdigen Gattin des würdigen Gatten, die ihr Vaterland
                   verließ, um den zu beglücken, der tausend beglückt.</quote>
                <bibl corresp="VIII_288">
                   <edition>Jean Paul Briefwechsel</edition>
@@ -814,7 +814,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-n">Zum Andenken einer heitern Stunde</quote>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Zum Andenken einer heitern Stunde</quote>
                <bibl corresp="VIII_69">
                   <edition>Jean Paul Briefwechsel</edition>
                   <title>In Henriette von Millers Stammbuch.</title>
@@ -834,7 +834,7 @@
             </cit>
            
             <cit>
-               <quote ana="#formal #s-n #r-n">Erfreuen Sie sich recht des Glückes, daß Sie durch die Nähe der väterlichen
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Erfreuen Sie sich recht des Glückes, daß Sie durch die Nähe der väterlichen
                   Verdienste den Jünglingen der Zeit un- ähnlich geblieben.</quote>
                <bibl corresp="VIII_70">
                   <edition>Jean Paul Briefwechsel</edition>

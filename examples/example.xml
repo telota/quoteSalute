@@ -39,13 +39,13 @@
                      <catDesc>sender is neutral</catDesc>
                   </category>
                   <category xml:id="r-f">
-                     <catDesc>reciever is female</catDesc>
+                     <catDesc>receiver is female</catDesc>
                   </category>
                   <category xml:id="r-m">
-                     <catDesc>reciever is male</catDesc>
+                     <catDesc>reveiver is male</catDesc>
                   </category>
                   <category xml:id="r-n">
-                     <catDesc>reciever is neutral</catDesc>
+                     <catDesc>reveiver is neutral</catDesc>
                   </category>
                </category>
             </taxonomy>

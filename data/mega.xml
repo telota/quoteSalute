@@ -39,13 +39,13 @@
                      <catDesc>sender is neutral</catDesc>
                   </category>
                   <category xml:id="r-f">
-                     <catDesc>reciever is female</catDesc>
+                     <catDesc>receiver is female</catDesc>
                   </category>
                   <category xml:id="r-m">
-                     <catDesc>reciever is male</catDesc>
+                     <catDesc>receiver is male</catDesc>
                   </category>
                   <category xml:id="r-n">
-                     <catDesc>reciever is neutral</catDesc>
+                     <catDesc>receiver is neutral</catDesc>
                   </category>
                </category>
             </taxonomy>
@@ -56,7 +56,7 @@
       <body>
          <div type="citList" xml:base="megadigital.bbaw.de/briefe/detail.xql?id=">
             <cit>
-               <quote ana="#formal #s-n #r-n">Besten Gruß <lb/>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Besten Gruß <lb/>
               </quote>
                <bibl corresp="mega_sp3_kzs_gz">
                   <edition>MEGAdigital</edition>
@@ -74,7 +74,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-m">Dear Sir <lb/>Faithfully yours <lb/>
+               <quote ana="#formal #s-n #r-m" xml:lang="eng">Dear Sir <lb/>Faithfully yours <lb/>
               </quote>
                <bibl corresp="mega_b5c_qwz_sy">
                   <edition>MEGAdigital</edition>
@@ -91,7 +91,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n">stets der Ihrige <lb/>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">stets der Ihrige <lb/>
               </quote>
                <bibl corresp="B00079">
                   <edition>MEGAdigital</edition>
@@ -109,7 +109,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-n">agreez nos Salutations <lb/>
+               <quote ana="#formal #s-n #r-n" xml:lang="fra">agreez nos Salutations <lb/>
               </quote>
                <bibl corresp="mega_vwc_vxs_sy">
                   <edition>MEGAdigital</edition>
@@ -128,7 +128,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-m">Fraternelles <lb/>
+               <quote ana="#informal #s-m #r-m" xml:lang="deu">Fraternelles <lb/>
                   <lb/>
               </quote>
                <bibl corresp="mega_vwc_vxs_sy">
@@ -149,7 +149,7 @@
             </cit>    
            
             <cit>
-               <quote ana="#formal #s-m #r-n">Ihr treu ergebner <lb/>K. Marx</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihr treu ergebner <lb/>K. Marx</quote>
                <bibl corresp="B00012">
                   <edition>MEGAdigital</edition>
                   <title>11Karl Marx an Louis Kugelmann in Hannover. London, Montag, 15. Januar
