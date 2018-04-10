@@ -9,8 +9,7 @@
             <publisher>
                <ref target=""/>
             </publisher>
-            <idno type="url"
-               >https://github.com/telota/salutesig/tree/master/docs/salutesig-documentation_de.xml</idno>
+            <idno type="url">https://github.com/telota/salutesig/tree/master/docs/salutesig-documentation_de.xml</idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">This file is licensed
                   under the terms of the Creative Commons License CC-BY 4.0</licence>
@@ -27,55 +26,33 @@
             <head>saluteSig - Dokumentation</head>
             <div>
                <head>Das Projekt</head>
-               <p>saluteSig ist eine Webanwendung, die inspirierende Grußformeln für ihre
-                  Korrespondenz bietet. Enstanden in einem Studierendenprojekt der TELOTA
-                  Initiative, schöpft saluteSig aus aktuellen digitalen Briefeditionen und schafft
-                  so einen spielerischen Zugang in die Welt digitaler Briefe. 
-               <!-- quoteSalute ist eine Webanwendung, die inspirierende Grußformeln für Ihre
-                  email-Korrespondenz bietet. quoteSalute stellt Grußformeln aus digitalen Briefeditionen bereit und schafft
-                  so einen spielerischen Zugang in die Welt historischer Korrespondenzen und ermöglicht die Einbindung wissenschaflicher Editionsarbeit in den Alltag ihrer email-Kommunikation. 
-<lb/>quoteSalute ist ein Studierendenprojekt der TELOTA-Initiative an der Berlin-Brandenburgischen Akademie der Wissenschaften. --></p>
+               <p>quoteSalute ist eine Webanwendung, die inspirierende Grußformeln für Ihre
+                  E-Mail-Korrespondenz bietet. quoteSalute stellt Grußformeln aus digitalen
+                  Briefeditionen bereit und schafft so einen spielerischen Zugang in die Welt
+                  historischer Korrespondenzen und ermöglicht die Einbindung wissenschaflicher
+                  Editionsarbeit in den Alltag ihrer E-Mail-Kommunikation. <lb/>quoteSalute ist ein
+                  Studierendenprojekt der TELOTA-Initiative an der Berlin-Brandenburgischen Akademie
+                  der Wissenschaften.</p>
             </div>
             <div>
                <head>Grußformeln suchen</head>
-               <p>Nach Grußformeln können Sie direkt auf dieser Webseite stöbern. Wenn Ihnen die
-                  angezeigte Grußformel nicht gefällt, klicken Sie einfach auf den orangenen
-                  Refresh-Button. Mit den Filtern können Sie die Suchanfrage nach Ihren wünschen
-                  einschränken. Haben Sie die passende Grußformel gefunden, können Sie sie mit dem
-                  Copy-Button ganz einfach kopieren. Öffnen Sie das E-Mailprogramm Ihrer Wahl und
-                  dann einfach in die nächste Mail einfügen und versenden!</p>
+               <p>Auf der Webseite können Sie direkt nach Grußformeln stöbern. Wenn Ihnen die
+                  angezeigte Grußformel nicht gefällt, generieren Sie sich einfach mit Klick auf den
+                  orangenen Refresh-Button eine andere. Mit Filtern können Sie die Suchanfrage
+                  außerdem nach Ihren Wünschen einschränken. Haben Sie die passende Grußformel
+                  gefunden, können Sie sie mit dem Copy-Button ganz einfach kopieren. Öffnen Sie das
+                  E-Mail-Programm Ihrer Wahl und dann einfach in die nächste Mail einfügen und
+                  versenden!</p>
                <p>NEWS: Ein Plugin für den E-Mail Client Thunderbird ist bereits in Planung, sodass
-                  Sie bald auch direkt in ihrem E-Mail Programm inspirierende Grußformeln
-                  erhalten.
-               <!-- Auf der Webseite können Sie direkt nach Grußformeln stöbern. Wenn Ihnen die
-                  angezeigte Grußformel nicht gefällt, generieren Sie sich einfach mit Klick auf den orangenen
-                  Refresh-Button eine andere. Mit Filtern können Sie die Suchanfrage außerdem nach Ihren Wünschen
-                  einschränken. Haben Sie die passende Grußformel gefunden, können Sie sie mit dem
-                  Copy-Button ganz einfach kopieren. Öffnen Sie das E-Mailprogramm Ihrer Wahl und
-                  dann einfach in die nächste Mail einfügen und versenden!</p>
-               <p>NEWS: Ein Plugin für den E-Mail Client Thunderbird ist bereits in Planung, sodass
-                  Sie bald auch direkt in Ihrem E-Mail Programm inspirierende Grußformeln
-                  erhalten. --> 
+                  Sie bald auch direkt in Ihrem E-Mail-Programm inspirierende Grußformeln erhalten.
                </p>
             </div>
             <div>
                <head>Textkorpus</head>
-               <p>saluteSig wertet XML-Dateien im TEI-Format aus. Die Anwendung basiert auf einem
-                  lokalen und kuratierten Textkorpus. Für jede Editionen liegt eine XML-Datei vor.
-                  Diese beinhaltet eine Liste, bestehend aus den Grußformeln sowie dazugehörige
-                  bibliographische Angaben. Bei der Kuratierung wurden die Daten (1) von
-                  Wiederholungen, unpassenden Inhalten und sehr kurzen Grußformeln bereinigt und (2)
-                  mit einem eigenen Tagging versehen, um ein späteres Filtern der Grußformlen zu
-                  ermöglichen. Die Grußformeln wurden nach drei Kriterien getaggt. Zum einen wurde
-                  festgestellt, ob die Grußformel inhaltlich eher formal oder freundschaftlich
-                  anmutet. Zum anderen wurde verzeichnet, ob das Geschlecht von Sender*in oder
-                  Empfänger*in aus dem Sinnzusammenhang deutlich wird. Und schließlich wurde die
-                  jeweilige Sprache ausgezeichnet. Dieses tagging ermöglicht die spätere
-                  Filterfunktion und macht, zusammen mit der o.g. Bereinigung, eine Kuratierung der
-                  Daten notwendig. <!--
-                  Ein kuratiertes Korpus aus Grußformeln verschiedener digitaler Briefeditionen ist die Grundlage von 
- quoteSalute. Dafür wurden <salute>-Elemente aus den TEI/XML-Daten der Editionen automatisiert extrahiert und für jede Edition eine
-TEI/XML-Datei erstellt, die eine Liste der Grußformeln sowie dazugehörige
+               <p>Ein kuratiertes Korpus aus Grußformeln verschiedener digitaler Briefeditionen ist
+                  die Grundlage von quoteSalute. Dafür wurden &lt;salute&gt;-Elemente aus den
+                  TEI/XML-Daten der Editionen automatisiert extrahiert und für jede Edition eine
+                  TEI/XML-Datei erstellt, die eine Liste der Grußformeln sowie dazugehörige
                   bibliographische Angaben enhält. Bei der Kuratierung wurden die Daten (1) von
                   Wiederholungen, unpassenden Inhalten und sehr kurzen Grußformeln bereinigt und (2)
                   mit einem eigenen Tagging versehen, um ein späteres Filtern der Grußformlen zu
@@ -85,7 +62,7 @@ TEI/XML-Datei erstellt, die eine Liste der Grußformeln sowie dazugehörige
                   Empfänger*in aus dem Sinnzusammenhang deutlich wird. Und schließlich wurde die
                   jeweilige Sprache ausgezeichnet. Dieses tagging ermöglicht die spätere
                   Filterfunktion und macht, zusammen mit der o.g. Bereinigung, eine Kuratierung der
-                  Daten notwendig.--> </p>
+                  Daten notwendig.</p>
                <p>Der Textkorpus wird derzeit von folgenden digitalen Briefeditionen gespeist: </p>
                <list>
                   <item>
@@ -113,6 +90,16 @@ TEI/XML-Datei erstellt, die eine Liste der Grußformeln sowie dazugehörige
                         Lehndorff vom 18. bis in das 20.Jahrhundert</ref>
                   </item>
                </list>
+            </div>
+            <div>
+               <head>Technologien</head>
+               <p>Das Generieren der Grußformeln wurde in einer Webapplikation umgesetzt. Diese
+                  wurde mit HTML, CSS und Javascript realisiert. Zusätzlich benutzen wir das
+                  Front-End-Framework VueJS für die Verarbeitung der Daten und für den dynamischen
+                  Austausch von HTML-Elementen und ziehen Bootstrap zur einheitlichen Darstellung
+                  auf der Website zur Hilfe. Als Datenbank nutzen wir eXist db, die Datenbankabfrage
+                  erfolgt mittels XQuery und die Response-Daten werden im JSON-Format
+                  ausgegeben.</p>
             </div>
             <div>
                <head>MITMACHEN</head>
@@ -143,16 +130,6 @@ TEI/XML-Datei erstellt, die eine Liste der Grußformeln sowie dazugehörige
                   Anforderungen Ihrer Edition anpassen.</p>
             </div>
             <div>
-               <head>Technologien</head>
-               <p>Das Generieren der Grußformeln wurde in einer Webapplikation umgesetzt. Diese
-                  wurde mit HTML, CSS und Javascript realisiert. Zusätzlich benutzen wir das
-                  Front-End-Framework VueJS für die Verarbeitung der Daten und für den dynamischen
-                  Austausch von HTML-Elementen und ziehen Bootstrap zur einheitlichen Darstellung
-                  auf der Website zur Hilfe. Als Datenbank nutzen wir eXist db, die Datenbankabfrage
-                  erfolgt mittels XQuery und die Response-Daten werden im JSON-Format
-                  ausgegeben.</p>
-            </div>
-            <div>
                <head>Details</head>
                <div>
                   <head>Tagging</head>
@@ -176,13 +153,14 @@ TEI/XML-Datei erstellt, die eine Liste der Grußformeln sowie dazugehörige
                      </row>
                      <row>
                         <cell rend="code">/body/div/@type="citList"</cell>
-                        <cell>Der Body besteht aus einem div, das eine Liste ist. Daher braucht er
-                           @type.</cell>
+                        <cell>Der Body besteht aus einem &lt;div&gt;, das eine Liste ist. Daher
+                           braucht er @type.</cell>
                         <cell>E.g. <hi rend="code"/></cell>
                      </row>
                      <row>
                         <cell rend="code">/body/div/cit</cell>
-                        <cell>Der Body besteht aus einer Liste von cits</cell>
+                        <cell>Der Body besteht aus einer Liste von &lt;cit&gt;-Elementen, die die
+                           Grußformeln und die bibliographischen Angabend enthalten</cell>
                         <cell>E.g. <hi rend="code"/></cell>
                      </row>
                      <row>
@@ -202,17 +180,17 @@ TEI/XML-Datei erstellt, die eine Liste der Grußformeln sowie dazugehörige
                         <cell>E.g. <hi rend="code">"deu"</hi></cell>
                      </row>
                      <row>
-                        <cell rend="code">/body/div/cit/title</cell>
+                        <cell rend="code">/body/div/cit/title[@type="letter"]</cell>
                         <cell>Titel des Briefs aus der die Grußformel stammt</cell>
                         <cell>E.g. <hi rend="code"/></cell>
                      </row>
                      <row>
-                        <cell rend="code">/body/div/cit/edition</cell>
+                        <cell rend="code">/body/div/cit/title[@type="edition"]</cell>
                         <cell>Edition aus der die Grußformel stammt</cell>
                         <cell>E.g. <hi rend="code"/></cell>
                      </row>
                      <row>
-                        <cell rend="code">/body/div/cit/ref/@target</cell>
+                        <cell rend="code">/body/div/cit/bibl/ref/@target</cell>
                         <cell>Das @target enthält die URL, die auf den Quellbrief in der digitalen
                            Edition verlinkt.</cell>
                         <cell>E.g. <hi rend="code"/>"http://edition-humboldt.de/H0002656"</cell>

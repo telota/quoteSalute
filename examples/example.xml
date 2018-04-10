@@ -58,8 +58,8 @@
             <cit>
                <quote xml:lang="deu" ana="#informal #s-m #r-n">Mit innigster Verehrung <lb/>Ihr <lb/>dankbar ergebenster</quote>
                <bibl>
-                  <edition>edition humboldt digital</edition>
-                  <title>Carl Sigismund Kunth an Alexander von Humboldt. [Berlin], nach 24. November
+                  <title type="edition">edition humboldt digital</title>
+                  <title type="letter">Carl Sigismund Kunth an Alexander von Humboldt. [Berlin], nach 24. November
                      1848</title>
                   <ref target="edition-humboldt.de/briefe/detail.xql?id=H0015156"/>
                </bibl>
@@ -67,19 +67,10 @@
             <cit>
                <quote xml:lang="deu" ana="#informal #s-n #r-n">Liebevoll</quote>
                <bibl>
-                  <edition>edition humboldt digital</edition>
-                  <title>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Donnerstag, [19.
+                  <title type="edition">edition humboldt digital</title>
+                  <title type="letter">Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Donnerstag, [19.
                      September 1844]</title>
                   <ref target="edition-humboldt.de/briefe/detail.xql?id=H0002931"/>
-               </bibl>
-            </cit>
-            <cit>
-               <quote xml:lang="deu" ana="#informal #s-n #r-n">Mit inniger Liebe</quote>
-               <bibl>
-                  <edition>edition humboldt digital</edition>
-                  <title>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin, vor 28. Dezember
-                     1844]</title>
-                  <ref target="edition-humboldt.de/briefe/detail.xql?id=H0002930"/>
                </bibl>
             </cit>
          </div>

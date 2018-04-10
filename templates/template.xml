@@ -58,8 +58,8 @@
             <cit>
                <quote xml:lang="[Sprache]" ana="#[Formalität] #[Sendergeschlecht] #[Empfängergeschlecht]">[Grußformel]</quote>
                <bibl>
-                  <edition>[Titel der Edition]</edition>
-                  <title>[Titel des Briefes]</title>
+                  <title type="edition">[Titel der Edition]</title>
+                  <title type="letter">[Titel des Briefes]</title>
                   <ref target="[URL zum Brief]"/>
                </bibl>
             </cit>
