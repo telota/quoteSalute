@@ -109,12 +109,13 @@
                   erweitern. Jede digitale Briefedition, die auf dem TEI-Format basiert, kann
                   partizipieren.</p>
                <p> Für eine Beteiligung Ihres Projektes benötigen wir TEI-XML-Dateien. Eine Beispiel
-                  Datei finden Sie <ref target="../examples/example.xml">hier</ref>. Ihre Datei
+                  Datei finden Sie <ref target="../examples/example.xml">hier</ref> <--! eine leere template-Datei hier...-->. Ihre Datei
                   sollte aus einer Liste aus cit-Elementen bestehen, die jeweils ein quote-Element
                   mit der jeweiligen Grußformel und ein bilbl-Element mit den bibliographischen
                   Angaben (Titel der Edition, Titel des Briefs) zur und Quelle der Grußformel
                   enthalten. Jedes cit-Element sollte die URL zum Quellbrief in der digitalen
-                  Edition enthalen. <!-- wie beschreibe ich das hier?? -->
+                  Edition enthalen. <!-- wie beschreibe ich das hier?? FN: Gar nicht. weiteres entnehmen Sie bitte der untenstehenden Tabelle,
+in der die TEI-Elemente und ihre Funktion aufgelistet sind, sowie den Kommentaren in der Template-Datei.-->
                </p>
                <p> Wenn Sie möchten, dass Ihre Grußformeln mit der Filterfunktion durchsuchbar sein
                   sollen, müssen Sie die Grußformeln inhaltlich prüfen. Dabei erhält jedes
