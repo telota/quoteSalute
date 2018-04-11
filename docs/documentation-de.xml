@@ -23,14 +23,15 @@
    <text>
       <body>
          <div>
-            <head>saluteSig - Dokumentation</head>
+            <head>quoteSalute - Dokumentation</head>
             <div>
                <head>Das Projekt</head>
                <p>quoteSalute ist eine Webanwendung, die inspirierende Grußformeln für Ihre
                   E-Mail-Korrespondenz bietet. quoteSalute stellt Grußformeln aus digitalen
                   Briefeditionen bereit und schafft so einen spielerischen Zugang in die Welt
                   historischer Korrespondenzen und ermöglicht die Einbindung wissenschaflicher
-                  Editionsarbeit in den Alltag ihrer E-Mail-Kommunikation. <lb/>quoteSalute ist ein
+                  Editionsarbeit in den Alltag ihrer E-Mail-Kommunikation. 
+                  <br/>quoteSalute ist ein
                   Studierendenprojekt der TELOTA-Initiative an der Berlin-Brandenburgischen Akademie
                   der Wissenschaften.</p>
             </div>
@@ -104,7 +105,7 @@
             <div>
                <head>MITMACHEN</head>
                <p> Sie arbeiten an einer Digitalen Briefedition und finden die Grußformeln Ihrer
-                  Korrespondenz sollten auch dabei sein? Gerne möchten wir den saluteSig-Bestand
+                  Korrespondenz sollten auch dabei sein? Gerne möchten wir den quoteSalute-Bestand
                   erweitern. Jede digitale Briefedition, die auf dem TEI-Format basiert, kann
                   partizipieren.</p>
                <p> Für eine Beteiligung Ihres Projektes benötigen wir TEI-XML-Dateien. Eine Beispiel
