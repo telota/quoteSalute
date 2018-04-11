@@ -23,83 +23,36 @@
    </teiHeader>
    <text>
       <body>
-         <div>
-            <head>saluteSig - Dokumentation</head>
-            <div>
-               <head>Das Projekt</head>
-               <p>saluteSig ist eine Webanwendung, die inspirierende Grußformeln für ihre
-                  Korrespondenz bietet. Enstanden in einem Studierendenprojekt der TELOTA
-                  Initiative, schöpft Salute aus aktuellen digitalen Briefeditionen und schafft so
-                  einen spielerischen Zugang in die Welt digitaler Briefe. </p>
+         <div xmlns="" class="outerWrap contentBottom">
+            <div class="container_12">
+               <div id="app" class="grid_8"> </div>
+               <div id="description" class="grid_4">
+                  <div>
+                     <head>Das Projekt</head>
+                     <p>quoteSalute ist eine Webanwendung, die inspirierende Grußformeln für Ihre
+                        E-Mail-Korrespondenz bietet. quoteSalute stellt Grußformeln aus digitalen
+                        Briefeditionen bereit und schafft so einen spielerischen Zugang in die Welt
+                        historischer Korrespondenzen und ermöglicht die Einbindung wissenschaflicher
+                        Editionsarbeit in den Alltag ihrer E-Mail-Kommunikation. <lb/>quoteSalute
+                        ist ein Studierendenprojekt der TELOTA-Initiative an der
+                        Berlin-Brandenburgischen Akademie der Wissenschaften. </p>
+                  </div>
+                  <div>
+                     <head>Mitmachen</head>
+                     <p>Sie arbeiten an einer Digitalen Briefedition und finden die Grußformeln
+                        Ihrer Korrespondenz sollten auch dabei sein? Gerne möchten wir den
+                        saluteSig-Bestand erweitern. Jede digitale Briefedition, die auf dem
+                        TEI-Format basiert, kann partizipieren. Mehr Informationen finden Sie in der
+                           <a href="">Dokumentation</a></p>
+                  </div>
+                  <div>
+                     <head>News</head>
+                     <p>Ein Plugin für den E-Mail Client Thunderbird ist bereits in Planung, sodass
+                        Sie bald auch direkt in ihrem E-Mail Programm inspirierende Grußformeln
+                        erhalten.</p>
+                  </div>
+               </div>
             </div>
-            <div>
-               <head>Grußformeln suchen</head>
-               <p>Nach Grußformeln können Sie direkt auf dieser Webseite stöbern. Wenn Ihnen die
-                  angezeigte Grußformel nicht gefällt, klicken Sie einfach auf den orangenen
-                  Refresh-Button. Mit den Filtern können Sie die Suchanfrage nach Ihren wünschen
-                  einschränken. Haben Sie die passende Grußformel gefunden, können Sie sie mit dem
-                  Copy-Button ganz einfach kopieren. Öffnen Sie das E-Mailprogramm Ihrer Wahl und
-                  dann einfach in die nächste Mail einfügen und versenden!</p>
-               <p>NEWS: Ein Plugin für den E-Mail Client Thunderbird ist bereits in Planung, sodass
-                  Sie bald auch direkt in ihrem E-Mail Programm inspirierende Grußformeln
-                  erhalten.</p>
-            </div>
-            <div>
-               <head>Textkorpus</head>
-               <p>saluteSig wertet XML-Dateien im TEI-Format aus. Die Anwendung basiert auf einem
-                  lokalen und kuratierten Textkorpus. Dabei wurden die Daten (1) von Wiederholungen,
-                  unpassenden Inhalten und sehr kurzen Grußformeln bereinigt und (2) mit einem
-                  eigenen Tagging versehen, um ein späteres Filtern der Grußformlen zu ermöglichen.
-                  Für jede Editionen liegt eine XML-Datei vor. Diese beinhaltet eine Liste,
-                  bestehend aus den Grußformeln sowie dazugehörige bibliographische Angaben. </p>
-               <p>Der Textkorpus wird derzeit von folgenden digitalen Briefeditionen gespeist: </p>
-               <list>
-                  <item>
-                     <ref target="http://edition-humboldt.de/index.xql"> edition humboldt
-                        digital</ref>
-                  </item>
-                  <item>
-                     <ref target="">Jean Paul</ref>
-                  </item>
-                  <item>
-                     <ref target="http://iffland.bbaw.de/index.xql">August Wilhelm Ifflands
-                        dramaturgisches und administratives Archiv</ref>
-                  </item>
-                  <item>
-                     <ref target="https://xmldev.bbaw.de/expath/apps/WvH/Briefe?section=all">Wilhelm
-                        von Humboldt - Spachwissenschaftliche Korrepondenz</ref>
-                  </item>
-                  <item>
-                     <ref target="http://aloys-hirt.bbaw.de/index.xql">Aloys Hirt – Briefwechsel
-                        1787–1837</ref>
-                  </item>
-                  <item>
-                     <ref target="http://lebenswelten-lehndorff.bbaw.de/index.xql">Lebenswelten,
-                        Erfahrungsräume und politische Horizonte der ostpreußischen Adelsfamilie
-                        Lehndorff vom 18. bis in das 20.Jahrhundert</ref>
-                  </item>
-               </list>
-            </div>
-            <div>
-               <head>MITMACHEN</head>
-               <p> Sie arbeiten an einer Digitalen Briefedition und finden die Grußformeln Ihrer
-                  Korrespondenz sollten auch dabei sein? Gerne möchten wir den saluteSig-Bestand
-                  erweitern. Jede digitale Briefedition, die auf dem TEI-Format basiert, kann
-                  partizipieren. Mehr Infos und Beispieldateien finden Sie in <ref
-                     target="https://github.com/telota/salutesig/tree/master/docs/documentation-de.xml"
-                     >Dokumentation</ref>. </p>
-            </div>
-            <div>
-               <head>Technologien</head>
-               <p>Das Generieren der Grußformeln wurde in einer Webapplikation umgesetzt. Diese
-                  wurde mit HTML, CSS und Javascript realisiert. Zusätzlich benutzen wir das
-                  Front-End-Framework VueJS für die Verarbeitung der Daten und für den dynamischen
-                  Austausch von HTML-Elementen und ziehen Bootstrap zur einheitlichen Darstellung
-                  auf der Website zur Hilfe. Als Datenbank nutzen wir eXist db, die Datenbankabfrage
-                  erfolgt mittels XQuery und die Response-Daten werden im JSON-Format
-                  ausgegeben.</p>
-            </div>
-
          </div>
       </body>
    </text>
