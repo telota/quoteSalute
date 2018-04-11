@@ -133,33 +133,34 @@
             <div>
                <head>Details</head>
                <div>
-                  <head>Tagging</head>
+                  <head>Tagging</head><!-- Grundsätzliche Frage: Wollen wir das Tagging überhaupt dokumentieren, wenn wir die Daten eh nicht offen bereitstellen? M.E. müssen wir es dann nicht machen. Oder ist das hier sowieso nur intern gedacht? -->
                   <p/>
                   <table>
                      <row role="label">
-                        <cell>XPath</cell>
+                        <cell>XPath</cell><!-- FN: grundsätzlich würde ich vorschlagen, als ersten Pfad zwischen //teiHeader 
+und //text zu differenzieren -->
                         <cell>Description</cell>
                         <cell>Value(s) and Notes (anhängig von TEI-Wurzel)</cell>
                      </row>
                      <row>
-                        <cell rend="code">/teiHeader/encodingDesc</cell>
+                        <cell rend="code">/teiHeader/encodingDesc</cell><!-- //teiHeader/encodingDesc -->
                         <cell>Im teiHeader muss eine encoding description eingefügt werden, das die
                            möglichen Werte für @ana deklariert.</cell>
                         <cell>E.g. <hi rend="code"/></cell>
                      </row>
                      <row>
-                        <cell rend="code">/teiHeader/correspDesc/category/@xml:id</cell>
-                        <cell>Hier werden die möglichen Werte für @ana deklariert.</cell>
+                        <cell rend="code">/teiHeader/correspDesc/category/@xml:id</cell> <!-- ? //teiHeader/encodingDesc/classDecl/taxonomy wäre doch der Pfad --> 
+                        <cell>Hier werden <!-- in zwei Taxonomien --> die möglichen Werte für @ana deklariert.</cell>
                         <cell>E.g. <hi rend="code"/>"formal"</cell>
                      </row>
                      <row>
-                        <cell rend="code">/body/div/@type="citList"</cell>
+                        <cell rend="code">/body/div/@type="citList"</cell><!-- //text/body/div -->
                         <cell>Der Body besteht aus einem &lt;div&gt;, das eine Liste ist. Daher
-                           braucht er @type.</cell>
+                           braucht er @type <-- ne, braucht er nicht deshalb, habe ich nur so gemacht, den @type könnte man ach rausnehmen --> </cell>
                         <cell>E.g. <hi rend="code"/></cell>
                      </row>
                      <row>
-                        <cell rend="code">/body/div/cit</cell>
+                        <cell rend="code">/body/div/cit</cell> <!-- //text/body/div/cit -->
                         <cell>Der Body besteht aus einer Liste von &lt;cit&gt;-Elementen, die die
                            Grußformeln und die bibliographischen Angabend enthalten</cell>
                         <cell>E.g. <hi rend="code"/></cell>
@@ -177,12 +178,12 @@
                      </row>
                      <row>
                         <cell rend="code">/body/div/cit/quote/@xml:lang</cell>
-                        <cell>Hier wird die Sprache der Grußformel verzeichnet.</cell>
+                        <cell>Hier wird die Sprache der Grußformel verzeichnet <!-- nach ISO-Code... (wie war die Nummer nochmal) -->.</cell>
                         <cell>E.g. <hi rend="code">"deu"</hi></cell>
                      </row>
                      <row>
                         <cell rend="code">/body/div/cit/title[@type="letter"]</cell>
-                        <cell>Titel des Briefs aus der die Grußformel stammt</cell>
+                        <cell>Titel des Briefs aus der die Grußformel stammt <-- so wie er in der jeweiligen Edition angegeben ist --></cell>
                         <cell>E.g. <hi rend="code"/></cell>
                      </row>
                      <row>
@@ -192,7 +193,7 @@
                      </row>
                      <row>
                         <cell rend="code">/body/div/cit/bibl/ref/@target</cell>
-                        <cell>Das @target enthält die URL, die auf den Quellbrief in der digitalen
+                        <cell>Das @target enthält die URL, die auf den Quellbrief <-- einfach Brief --> in der digitalen
                            Edition verlinkt.</cell>
                         <cell>E.g. <hi rend="code"/>"http://edition-humboldt.de/H0002656"</cell>
                      </row>
