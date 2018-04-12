@@ -2963,6 +2963,15 @@
                </bibl>
             </cit>
          </div>
+         <!-- hier beginnt die Ausschlussliste -->
+         <div type="exclude">
+            <listRef>
+               <ref
+                  target="url"/>
+               <ref
+                  target="url"/>
+            </listRef>
+         </div> 
       </body>
    </text>
 </TEI>
