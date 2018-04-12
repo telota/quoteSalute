@@ -1,292 +1,297 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml"
-    xmlns:v-bind="http://www.w3.org/1999/xhtml" xmlns:v-clipboard="http://www.w3.org/1999/xhtml">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml" xmlns:v-bind="http://www.w3.org/1999/xhtml" xmlns:v-clipboard="http://www.w3.org/1999/xhtml">
 
-        <title>quoteSalute Prototype</title>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-        <link rel="shortcut icon" type="image/x-icon" href="https://correspsearch.net//resources/images/favicon.ico" />
-        <link rel="stylesheet" type="text/css" href="https://correspsearch.net//resources/css/reset.css" media="all" />
-        <link rel="stylesheet" type="text/css" href="https://correspsearch.net//resources/css/960.css" media="screen" />
-        <link href="css/bootstrap.min.css" rel="stylesheet" />
-        <link href="css/salutesig.css" rel="stylesheet" />
-        <script src="js/jquery-3.3.1.min.js"></script>
-        <script src="js/bootstrap.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <script src="js/fontawesome-all.js"></script>
-        <link rel="stylesheet" type="text/css"
-            href="https://correspsearch.net//resources/css/main.css" media="all" />
-        <link rel="alternate" type="application/rss+xml" title="RSS"
-            href="https://correspsearch.net//feed/news.rss" />
-    </head>
-    <body>
-        <div id="navbar" class="outerWrap">
-            <div class="innerWrap">
-                <h1><a href="/index.xql?l=en">correspSearch</a></h1>
-                <nav><a href="/index.xql?l=en">Home</a><a href="/search.xql?l=en">Search</a><a
-                        href="/data.xql?l=en">Data</a><a href="/index.xql?id=about&amp;l=en">About
-                        correspSearch</a><a href="/index.xql?id=api&amp;l=en">API</a><a
-                        href="/index.xql?id=participate&amp;l=en">Participate</a></nav>
-                <div id="language"><select id="languageSelect">
-                        <option selected="selected" title="This page in english">English</option>
-                        <option value="https://correspsearch.net/salute/index.xql?id=&amp;l=de"
-                            title="Diese Seite in deutsch">Deutsch</option>
-                    </select>
-                    <script>
-                                        $(function(){
-                                        // bind change event to select
-                                        $('#languageSelect').on('change', function () {
-                                        var url = $(this).val(); // get selected value
-                                        if (url) { // require a URL
-                                        window.location = url; // redirect
-                                        }
-                                        return false;
-                                        });
-                                        });
-                                    </script>
-                </div>
+    <title>quoteSalute Prototype</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://correspsearch.net//resources/images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="https://correspsearch.net//resources/css/reset.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="https://correspsearch.net//resources/css/960.css" media="screen" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/salutesig.css" rel="stylesheet" />
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/fontawesome-all.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://correspsearch.net//resources/css/main.css" media="all" />
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="https://correspsearch.net//feed/news.rss" />
+</head>
+
+<body>
+    <div id="navbar" class="outerWrap">
+        <div class="innerWrap">
+            <h1>
+                <a href="/index.xql?l=en">correspSearch</a>
+            </h1>
+            <nav>
+                <a href="/index.xql?l=en">Home</a>
+                <a href="/search.xql?l=en">Search</a>
+                <a href="/data.xql?l=en">Data</a>
+                <a href="/index.xql?id=about&amp;l=en">About correspSearch
+                </a>
+                <a href="/index.xql?id=api&amp;l=en">API</a>
+                <a href="/index.xql?id=participate&amp;l=en">Participate</a>
+            </nav>
+            <div id="language">
+                <select id="languageSelect">
+                    <option selected="selected" title="This page in english">English</option>
+                    <option value="https://correspsearch.net/salute/index.xql?id=&amp;l=de" title="Diese Seite in deutsch">Deutsch</option>
+                </select>
+                <script>
+                    $(function () {
+                        // bind change event to select
+                        $('#languageSelect').on('change', function () {
+                            var url = $(this).val(); // get selected value
+                            if (url) { // require a URL
+                                window.location = url; // redirect
+                            }
+                            return false;
+                        });
+                    });
+                </script>
             </div>
         </div>
-        <div xmlns="" class="outerWrap contentTop">
-            <div class="container_12">
-                <div class="grid_12 center">
-                    <img id="betabutton"
-                        src="http://correspsearch.net/resources/images/button_beta2.png" />
-                    <h1>quoteSalute</h1>
-                    <h2>Inspirierende Grußformeln für Ihre Korrespondenz</h2>
-                </div>
+    </div>
+    <div xmlns="" class="outerWrap contentTop">
+        <div class="container_12">
+            <div class="grid_12 center">
+                <img id="betabutton" src="http://correspsearch.net/resources/images/button_beta2.png" />
+                <h1>quoteSalute</h1>
+                <h2>Inspirierende Grußformeln für Ihre Korrespondenz</h2>
             </div>
         </div>
-        <div xmlns="" class="outerWrap contentBottom">
-            <!-- CMIF Creator -->
-            <!-- vue.js Application -->
-            <div class="container_12">
-                <div id="app" class="grid_8">
-                    <div class="card">
-                        <div class="card-header" id="mainHeader">
-                            <button id="refresh" class="btn btn-default" v-on:click="refresh()"><i
-                                    class="fa fa-redo-alt"></i>Nächster Gruß</button>
-                            <button id="copy" class="btn btn-default" v-clipboard:copy="copyMessage"
-                                    ><i class="fa fa-copy"></i>quote me!</button>
-                        </div>
-                        <div id="quote" class="card-body">
-                            <p>"{{ salute.quote }}"</p></div>
-                        <div id="source" class="card-footer">
-                            <a target="_blank" class="show" v-bind:href="salute.fullURL">
-                                <i class="fa fa-arrow-circle-right"></i> {{salute.edition }} </a>
-                            <br /> {{ salute.title }} </div>
+    </div>
+    <div xmlns="" class="outerWrap contentBottom">
+        <!-- CMIF Creator -->
+        <!-- vue.js Application -->
+        <div class="container_12">
+            <div id="app" class="grid_8">
+                <div class="card">
+                    <div class="card-header" id="mainHeader">
+                        <button id="refresh" class="btn btn-default" v-on:click="refresh()">
+                            <i class="fa fa-redo-alt"></i> Neuer Gruß</button>
+                        <button id="copy" class="btn button" v-clipboard:copy="copyMessage">
+                            <i class="fa fa-copy"></i> quote me!</button>
                     </div>
-                    <div id="filter" class="card">
-                        <div class="card-header">
+                    <div id="quote" class="card-body">
+                        <p>"{{ salute.quote }}"</p>
+                    </div>
+                    <div id="source" class="card-body">
+                        <a target="_blank" class="show" v-bind:href="salute.fullURL">
+                            <i class="fa fa-arrow-circle-right"></i> {{salute.edition }} </a>
+                        <br /> {{ salute.title }} </div>
+
+                    <div id="filter">
+                        <div class="card-footer">
                             <div>
+                                <!-- button ja oder nein?
                                 <button class="btn btn-default btn-dark" data-toggle="collapse"
                                     href="" aria-expanded="false" aria-controls="" id="filter-btn"
-                                    v-on:click="refresh()">Filter anwenden</button>
-                                <span id="error" class="alert alert-danger" v-if="error"> Es wurde
-                                    leider keine passende Grußformel gefunden. Bitte nutzen Sie eine
-                                    andere Filterkombination. </span>
+                                    v-on:click="refresh()">Filter anwenden</button>-->
+                                <span id="error" class="alert alert-danger" v-if="error"> Es wurde leider keine passende Grußformel gefunden. Bitte nutzen Sie eine andere Filterkombination.
+                                    </span>
                             </div>
-                        </div>
-                        <div class="card-body" id="filter">
                             <div class="row">
                                 <div id="genderSender" class="col">
                                     <label class="filterLabel">Sender</label>
                                     <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input"
-                                            id="checkboxSender-F" value="s-f"
-                                            v-model="filter_sender" />
-                                        <label class="custom-control-label" for="checkboxSender-F"
-                                                ><i class="fa fa-venus"></i> Female</label>
+                                        <input type="checkbox" class="custom-control-input" id="checkboxSender-F" value="s-f" v-model="filter_sender" />
+                                        <label class="custom-control-label" for="checkboxSender-F">
+                                            <i class="fa fa-venus"></i> Female</label>
                                     </div>
                                     <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input"
-                                            id="checkboxSender-M" value="s-m"
-                                            v-model="filter_sender" />
-                                        <label class="custom-control-label" for="checkboxSender-M"
-                                                ><i class="fa fa-mars"></i> Male</label>
+                                        <input type="checkbox" class="custom-control-input" id="checkboxSender-M" value="s-m" v-model="filter_sender" />
+                                        <label class="custom-control-label" for="checkboxSender-M">
+                                            <i class="fa fa-mars"></i> Male</label>
                                     </div>
                                     <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input"
-                                            id="checkboxSender-N" value="s-n"
-                                            v-model="filter_sender" />
-                                        <label class="custom-control-label" for="checkboxSender-N"
-                                                ><i class="fa fa-genderless"></i> Neutral</label>
+                                        <input type="checkbox" class="custom-control-input" id="checkboxSender-N" value="s-n" v-model="filter_sender" />
+                                        <label class="custom-control-label" for="checkboxSender-N">
+                                            <i class="fa fa-genderless"></i> Neutral</label>
                                     </div>
                                 </div>
                                 <div id="genderReceiver" class="col">
                                     <label class="filterLabel">Empfänger</label>
                                     <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input"
-                                            id="checkboxReceiver-F" value="r-f"
-                                            v-model="filter_receiver" />
-                                        <label class="custom-control-label" for="checkboxReceiver-F"
-                                                ><i class="fa fa-venus"></i> Female</label>
+                                        <input type="checkbox" class="custom-control-input" id="checkboxReceiver-F" value="r-f" v-model="filter_receiver" />
+                                        <label class="custom-control-label" for="checkboxReceiver-F">
+                                            <i class="fa fa-venus"></i> Female</label>
                                     </div>
                                     <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input"
-                                            id="checkboxReceiver-M" value="r-m"
-                                            v-model="filter_receiver" />
-                                        <label class="custom-control-label" for="checkboxReceiver-M"
-                                                ><i class="fa fa-mars"></i> Male</label>
+                                        <input type="checkbox" class="custom-control-input" id="checkboxReceiver-M" value="r-m" v-model="filter_receiver" />
+                                        <label class="custom-control-label" for="checkboxReceiver-M">
+                                            <i class="fa fa-mars"></i> Male</label>
                                     </div>
                                     <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input"
-                                            id="checkboxReceiver-N" value="r-n"
-                                            v-model="filter_receiver" />
-                                        <label class="custom-control-label" for="checkboxReceiver-N"
-                                                ><i class="fa fa-genderless"></i> Neutral</label>
+                                        <input type="checkbox" class="custom-control-input" id="checkboxReceiver-N" value="r-n" v-model="filter_receiver" />
+                                        <label class="custom-control-label" for="checkboxReceiver-N">
+                                            <i class="fa fa-genderless"></i> Neutral</label>
                                     </div>
                                 </div>
                                 <div id="formality" class="col">
                                     <label class="filterLabel">Form</label>
                                     <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input"
-                                            id="checkboxFormal" value="formal" v-model="filter_type" />
-                                        <label class="custom-control-label" for="checkboxFormal"><i
-                                                class="fa fa-handshake"></i> Formal</label>
+                                        <input type="checkbox" class="custom-control-input" id="checkboxFormal" value="formal" v-model="filter_type" />
+                                        <label class="custom-control-label" for="checkboxFormal">
+                                            <i class="fa fa-handshake"></i> Formal</label>
                                     </div>
                                     <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input"
-                                            id="checkboxInformal" value="informal"
-                                            v-model="filter_type" />
-                                        <label class="custom-control-label" for="checkboxInformal"
-                                                ><i class="fa fa-heart"></i> Informal</label>
+                                        <input type="checkbox" class="custom-control-input" id="checkboxInformal" value="informal" v-model="filter_type" />
+                                        <label class="custom-control-label" for="checkboxInformal">
+                                            <i class="fa fa-heart"></i> Informal</label>
                                     </div>
                                 </div>
                                 <div id="language" class="col">
                                     <label class="filterLabel">Sprache</label>
                                     <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input"
-                                            id="checkboxDeu" value="deu" v-model="filter_language" />
-                                        <label class="custom-control-label" for="checkboxDeu"><i
-                                                class=""></i> Deutsch</label>
+                                        <input type="checkbox" class="custom-control-input" id="checkboxDeu" value="deu" v-model="filter_language" />
+                                        <label class="custom-control-label" for="checkboxDeu">
+                                            <i class=""></i> Deutsch</label>
                                     </div>
                                     <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input"
-                                            id="checkboxEng" value="eng" v-model="filter_language" />
-                                        <label class="custom-control-label" for="checkboxEng"><i
-                                                class=""></i> Englisch</label>
+                                        <input type="checkbox" class="custom-control-input" id="checkboxEng" value="eng" v-model="filter_language" />
+                                        <label class="custom-control-label" for="checkboxEng">
+                                            <i class=""></i> Englisch</label>
                                     </div>
                                     <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input"
-                                            id="checkboxSpa" value="spa" v-model="filter_language" />
-                                        <label class="custom-control-label" for="checkboxSpa"><i
-                                                class=""></i> Spanisch</label>
+                                        <input type="checkbox" class="custom-control-input" id="checkboxSpa" value="spa" v-model="filter_language" />
+                                        <label class="custom-control-label" for="checkboxSpa">
+                                            <i class=""></i> Spanisch</label>
                                     </div>
                                     <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input"
-                                            id="checkboxIta" value="ita" v-model="filter_language" />
-                                        <label class="custom-control-label" for="checkboxIta"><i
-                                                class=""></i> Italienisch</label>
+                                        <input type="checkbox" class="custom-control-input" id="checkboxIta" value="ita" v-model="filter_language" />
+                                        <label class="custom-control-label" for="checkboxIta">
+                                            <i class=""></i> Italienisch</label>
                                     </div>
                                     <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input"
-                                            id="checkboxFra" value="fra" v-model="filter_language" />
-                                        <label class="custom-control-label" for="checkboxFra"><i
-                                                class=""></i> Französisch</label>
+                                        <input type="checkbox" class="custom-control-input" id="checkboxFra" value="fra" v-model="filter_language" />
+                                        <label class="custom-control-label" for="checkboxFra">
+                                            <i class=""></i> Französisch</label>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                 
-                
-                <div class="card"><div class="card-body">
+                </div>
+
+                    <div class="card" id="project-desc">
+                    <div class="card-body">
                         <h3 class="first">Über das Projekt</h3>
-                    <p><span>quoteSalute</span> bietet inspirierende Grußformeln aus digitalen
-                            Briefeditionen für Ihre
-                            E-Mail-Korrespondenz. Die Anwendung schafft so einen spielerischen Zugang in die Welt
-                            historischer Korrespondenzen und ermöglicht die Einbindung wissenschaflicher
-                            Editionsarbeit in Ihre Alltagskommunikation. </p>
-                    
+                        <p>
+                            <span>quoteSalute</span> bietet inspirierende Grußformeln aus digitalen Briefeditionen für Ihre E-Mail-Korrespondenz.
+                            Die Anwendung schafft so einen spielerischen Zugang in die Welt historischer Korrespondenzen
+                            und ermöglicht die Einbindung wissenschaflicher Editionsarbeit in Ihre Alltagskommunikation.
+                            </p>
+
                     </div>
-                    
                 </div>
+
+            </div>
+
+            <div xmlns="" id="description" class="grid_4">
+
+                <div id="participate" class="box orange">
+                    <h3 class="first">Mitmachen</h3>
+                    <p>Die Grußformel Ihrer digitalen Briefedition sollen bei quoteSalute dabei sein? Mehr Informationen finden
+                        Sie in der
+                        <a href="">Dokumentation</a> oder hier:
+                        <a target="_blank" href="https://github.com/telota/salutesig" class="btn">
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </p>
                 </div>
-            
-                <div xmlns="" id="description" class="grid_4">
-                        
-                        <div id="participate" class="box orange">
-                                <h3 class="first">Mitmachen</h3>
-                                <p>Die Grußformel Ihrer digitalen Briefedition sollen bei quoteSalute dabei sein? Mehr Informationen finden Sie in der
-                                    <a href="">Dokumentation</a> oder hier: 
-                                    <a target="_blank" href="https://github.com/telota/salutesig" class="btn"><i class="fa fa-github"></i></a></p>
-                        </div>
-                        <div id="news" class="box">
-                                <h3 class="first">News</h3>
-                            <p>Ein Plugin für den E-Mail Client Thunderbird ist bereits in Planung, sodass
-                                Sie bald auch direkt in ihrem E-Mail Programm inspirierende Grußformeln
-                                erhalten.</p>
-                        </div>
-                        <div id="contact" class="box">
-                                <h3 class="first">Kontakt</h3>
-                            <p><span>quoteSalute</span>
-                                ist ein Studierendenprojekt der TELOTA-Initiative an der
-                                Berlin-Brandenburgischen Akademie der Wissenschaften. </p>
-                                <p>Fragen? Kontakt: <a href="mailto:klappenbach@bbaw.de"><i class="fa fa-envelope"
-                                ></i></a></p>
-                        </div>
-                    </div>
-                
+                <div id="news" class="box">
+                    <h3 class="first">News</h3>
+                    <p>Ein Plugin für den E-Mail Client Thunderbird ist bereits in Planung, sodass Sie bald auch direkt in ihrem
+                        E-Mail Programm inspirierende Grußformeln erhalten.
+                    </p>
+                </div>
+                <div id="contact" class="box">
+                    <h3 class="first">Kontakt</h3>
+                    <p>
+                        <span>quoteSalute</span>
+                        ist ein Studierendenprojekt der TELOTA-Initiative an der Berlin-Brandenburgischen Akademie der Wissenschaften. </p>
+                    <p>Fragen? Kontakt:
+                        <a href="mailto:klappenbach@bbaw.de">
+                            <i class="fa fa-envelope"></i>
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="js/salutesig.js"></script>
+    <footer class="outerWrap">
+        <div class="innerWrap container_12">
+            <div class="grid_3">
+                <ul>
+                    <h3>Website</h3>
+                    <li>
+                        <a href="/index.xql?id=about&amp;l=en">About correspSearch</a>
+                    </li>
+                    <li>
+                        <a href="/index.xql?id=legal&amp;l=en">Legal notice &amp; privacy
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/correspSearch" target="_blank">
+                            <i class="fa fa-twitter"> </i>Follow us on Twitter</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="grid_3">
+                <p style="line-height: normal;"> correspSearch is a web service analysing files which are based on the TEI extension
+                    <a href="https://github.com/TEI-Correspondence-SIG/correspDesc">"correspDesc"</a> of the
+                    <a href="http://www.tei-c.org/Activities/SIG/Correspondence/index.xml">TEI Correspondence SIG</a>.
+                    <a href="https://correspsearch.net//index.xql?id=about&amp;l=en">[more]</a>
+                </p>
+                <p style="line-height: normal;"> The further development of correspSearch is funded by the German Research Foundation (DFG). </p>
+            </div>
+            <div class="grid_1">
+                <a href="http://www.tei-c.org">
+                    <img src="https://correspsearch.net//resources/images/tei_logo.png" />
+                </a>
+                <a href="http://www.dfg.de">
+                    <img width="300px" style="margin: 40px 0 0 0" src="https://correspsearch.net//resources/images/Logo_DFG.svg"
+                        title="Gefördert durch die Deutsche Forschungsgemeinschaft" />
+                </a>
+            </div>
+            <div class="grid_2">
+                <a href="http://www.exist-db.org">
+                    <img width="140px" src="https://correspsearch.net//resources/images/powered-by_white.svg" title="Powered by Open-Source-Software existdb"
+                    />
+                </a>
+            </div>
+            <div class="grid_3">
+                <a href="http://www.bbaw.de">
+                    <img src="https://correspsearch.net//resources/images/bbaw_logo.png" title="Developed by TELOTA, Berlin-Brandenburg Academy of Sciences and Humanities"
+                    />
+                </a>
             </div>
         </div>
-        <script src="js/salutesig.js"></script>
-        <footer class="outerWrap">
-            <div class="innerWrap container_12">
-                <div class="grid_3">
-                    <ul>
-                        <h3>Website</h3>
-                        <li><a href="/index.xql?id=about&amp;l=en">About correspSearch</a></li>
-                        <li><a href="/index.xql?id=legal&amp;l=en">Legal notice &amp;
-                            privacy</a></li>
-                        <li><a href="https://twitter.com/correspSearch" target="_blank"><i
-                                    class="fa fa-twitter"> </i>Follow us on Twitter</a></li>
-                    </ul>
-                </div>
-                <div class="grid_3">
-                    <p style="line-height: normal;"> correspSearch is a web service analysing files
-                        which are based on the TEI extension <a
-                            href="https://github.com/TEI-Correspondence-SIG/correspDesc"
-                            >"correspDesc"</a> of the <a
-                            href="http://www.tei-c.org/Activities/SIG/Correspondence/index.xml">TEI
-                            Correspondence SIG</a>. <a
-                            href="https://correspsearch.net//index.xql?id=about&amp;l=en"
-                        >[more]</a></p>
-                    <p style="line-height: normal;"> The further development of correspSearch is
-                        funded by the German Research Foundation (DFG). </p>
-                </div>
-                <div class="grid_1"><a href="http://www.tei-c.org"><img
-                            src="https://correspsearch.net//resources/images/tei_logo.png" /></a><a
-                        href="http://www.dfg.de"><img width="300px" style="margin: 40px 0 0 0"
-                            src="https://correspsearch.net//resources/images/Logo_DFG.svg"
-                            title="Gefördert durch die Deutsche Forschungsgemeinschaft" /></a></div>
-                <div class="grid_2"><a href="http://www.exist-db.org"><img width="140px"
-                            src="https://correspsearch.net//resources/images/powered-by_white.svg"
-                            title="Powered by Open-Source-Software existdb" /></a></div>
-                <div class="grid_3"><a href="http://www.bbaw.de"><img
-                            src="https://correspsearch.net//resources/images/bbaw_logo.png"
-                            title="Developed by TELOTA, Berlin-Brandenburg Academy of Sciences and Humanities"
-                         /></a></div>
-            </div>
-        </footer>
-        <script type="text/javascript">
-                            var _paq = _paq || [];
-                            _paq.push(["setVisitorCookieTimeout", "604800"]);
-                            _paq.push(["setSessionCookieTimeout", "0"]);
-                            /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-                            _paq.push(['trackPageView']);
-                            _paq.push(['enableLinkTracking']);
-                            (function() {
-                            var u="https://piwik.bbaw.de/";
-                            _paq.push(['setTrackerUrl', u+'piwik.php']);
-                            _paq.push(['setSiteId', '13']);
-                            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-                            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-                            })();
-                        </script>
-        <noscript><img src="https://piwik.bbaw.de/piwik.php?idsite=13&amp;rec=1" style="border:0"
-                alt="" /></noscript>
-    </body>
+    </footer>
+    <script type="text/javascript">
+        var _paq = _paq || [];
+        _paq.push(["setVisitorCookieTimeout", "604800"]);
+        _paq.push(["setSessionCookieTimeout", "0"]);
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function () {
+            var u = "https://piwik.bbaw.de/";
+            _paq.push(['setTrackerUrl', u + 'piwik.php']);
+            _paq.push(['setSiteId', '13']);
+            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
+        })();
+    </script>
+    <noscript>
+        <img src="https://piwik.bbaw.de/piwik.php?idsite=13&amp;rec=1" style="border:0" alt="" />
+    </noscript>
+</body>
+
 </html>

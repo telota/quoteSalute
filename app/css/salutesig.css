@@ -9,6 +9,7 @@ div img#betabutton {
 button#refresh {
     background-color: #F7931E;
     color: white;
+    margin-right: 0.5em;
 }
 
 #filter {
@@ -53,6 +54,10 @@ img {
     background-color: white;
 }
 
+.card-footer {
+    background-color: #F7F7F7;
+}
+
 #quote p {
     font-style: oblique;
     font-size: large;
@@ -60,4 +65,24 @@ img {
 
 #source a {
     color: #3098D1;
+}
+
+.button {
+padding: 0.5em;
+background-color: #3098D1;
+color: white;
+font-size: 0.9em;
+font-family: PTSans;
+}
+
+.custom-control-label::after {
+    background-color: #3098D1;
+    border-radius: .25rem;
+}
+
+#project-desc {
+    margin-top: 1em;
+}
+h3.first {
+    font-weight: bold;
 }
