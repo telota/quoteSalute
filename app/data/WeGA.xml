@@ -1,0 +1,128 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Carl Maria von Weber Gesamtausgabe</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>BBAW</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Quelle: https://weber-gesamtausgabe.de/</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category>
+                  <catDesc>Type</catDesc>
+                  <category xml:id="formal">
+                     <catDesc>formell</catDesc>
+                  </category>
+                  <category xml:id="informal">
+                     <catDesc>informell</catDesc>
+                  </category>
+               </category>
+               <category>
+                  <catDesc>Relation</catDesc>
+                  <category xml:id="s-m">
+                     <catDesc>sender is male</catDesc>
+                  </category>
+                  <category xml:id="s-f">
+                     <catDesc>sender is female</catDesc>
+                  </category>
+                  <category xml:id="s-n">
+                     <catDesc>sender is neutral</catDesc>
+                  </category>
+                  <category xml:id="r-f">
+                     <catDesc>receiver is female</catDesc>
+                  </category>
+                  <category xml:id="r-m">
+                     <catDesc>receiver is male</catDesc>
+                  </category>
+                  <category xml:id="r-n">
+                     <catDesc>receiver is neutral</catDesc>
+                  </category>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="citList">
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-n #r-n">
+                  Mit aller Achtung
+               </quote>
+               <bibl>
+                  <title type="edition">WeGA, Briefe, Digitale Edition</title>
+                  <title type="letter">Carl Maria von Weber an Carl August Fesca in Wien
+                     <lb/>Dresden, Donnerstag, 27 Februar 1817</title>
+                  <ref target="http://weber-gesamtausgabe.de/A041065"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-n #r-n">
+                  Mit der vollkommensten Hochachtung verharrend
+               </quote>
+               <bibl>
+                  <title type="edition">WeGA, Briefe, Digitale Edition</title>
+                  <title type="letter">Carl Maria von Weber an Karl Graf von Brühl in Berlin
+                     <lb/>Dresden, Donnerstag, 27. Februar 1817</title>
+                  <ref target="https://weber-gesamtausgabe.de/A041066"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-n #r-n">
+                  Alles Erdenkliche in Ihr Haus
+               </quote>
+               <bibl>
+                  <title type="edition">WeGA, Briefe, Digitale Edition</title>
+                  <title type="letter">Carl Maria von Weber an Johann Friedrich Rochlitz in Leipzig
+                     <lb/>Dresden, Donnerstag, 27. Februar 1817</title>
+                  <ref target="https://weber-gesamtausgabe.de/A041058"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-n #r-n">
+                  Grüße an Alle.
+               </quote>
+               <bibl>
+                  <title type="edition">WeGA, Briefe, Digitale Edition</title>
+                  <title type="letter">Carl Maria von Weber an Caroline Brandt in Prag
+                     <lb/>Dresden, Sonntag, 23. bis Montag, 24. Februar 1817 (Nr. 29)
+                  </title>
+                  <ref target="http://weber-gesamtausgabe.de/A041056"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#informal #s-m #r-n">
+                  also <hi rend="italic">adieu</hi> und vergeßen
+                  Sie nicht ihren alten Freund <hi rend="italic"><persName key="A002068">Weber</persName></hi>.
+               </quote>
+               <bibl>
+                  <title type="edition">WeGA, Briefe, Digitale Edition</title>
+                  <title type="letter">Carl Maria von Weber an Friederike Türke in Berlin
+                     <lb/>Dresden, 9. März 1818</title>
+                  <ref target="https://weber-gesamtausgabe.de/A041401"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="lat" ana="#formal #s-n #r-n">
+                  Quare hunc quoque ingenii, quod sentio quam
+                  sit exiguum, foetum, pietatis in Sedem Apostolicam, quam ornas et si vota valent diu ornabis testem,
+                  ut sanctissimo Beatitatis Tuae sinu excipias et ut vultu Serenitatis Tuae ut recrees precibus piissimis enixissimisque rogo,
+                  vel, si pateris, obsecro.
+               </quote>
+               <bibl>
+                  <title type="edition">WeGA, Briefe, Digitale Edition</title>
+                  <title type="letter">Carl Maria von Weber an Papst Pius VII. in Rom
+                     <lb/>Dresden, 1. November 1818</title>
+                  <ref target="http://weber-gesamtausgabe.de/A041458"/>
+               </bibl>
+            </cit>
+         </div>
+      </body>
+   </text>
+</TEI>
