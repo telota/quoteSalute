@@ -2,18 +2,32 @@ body {
     font-family: ptserif, serif;
 }
 
+div img#betabutton {
+    left: 210px;
+}
+
+button#refresh {
+    background-color: #F7931E;
+    color: white;
+}
+
 #filter {
     margin-top: 1em;
 }
 
 .filterLabel {
+    position: relative;
     font-weight: bold;
     font-size: large;
 }
 
+.custom-control-label {
+    position: static;
+}
+
 .card-header {
-    background-color: #2A7299;
-    color: white;
+    background-color: #F7F7F7;
+    color: black;
 }
 
 .card-header label {
@@ -31,7 +45,7 @@ body {
 }
 
 img {
-    max-width: 100%;
+/*    max-width: 100%;*/
     height: auto;
 }
 
