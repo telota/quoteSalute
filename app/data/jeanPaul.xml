@@ -21,10 +21,10 @@
                <category>
                   <catDesc>Type</catDesc>
                   <category xml:id="formal">
-                     <catDesc>formal</catDesc>
+                     <catDesc>formell</catDesc>
                   </category>
                   <category xml:id="informal">
-                     <catDesc>informal</catDesc>
+                     <catDesc>informell</catDesc>
                   </category>
                </category>
                <category>
@@ -59,32 +59,32 @@
                <quote ana="#formal #s-n #r-n" xml:lang="deu">Mit tiefster Ehrfurcht</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Königin Karoline von Bayern.[3. Abt, Bd. VII, Nr.
-                     85]</title><ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
+                  <title type="letter">An Königin Karoline von Bayern. [3. Abt, Bd. VII, Nr. 85]</title>
+<ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#informal #s-m #r-n" xml:lang="deu">Dein Vater</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Max Richter in München.[3. Abt, Bd. VII, Nr.
-                     596]</title><ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
+                  <title type="letter">An Max Richter in München. [3. Abt, Bd. VII, Nr. 596]</title>
+<ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-n #r-n" xml:lang="deu">Zum Andenken zu kurzer Minuten</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">Ins stammbuch der Generalin Vincenti.[3. Abt, Bd. VII, Nr.
-                     339]</title><ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
+                  <title type="letter">Ins stammbuch der Generalin Vincenti. [3. Abt, Bd. VII, Nr. 339]</title>
+<ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-n #r-n" xml:lang="deu">Mit tiefster Ehrfurcht</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An König Max Joseph von Bayern.[3. Abt, Bd. VII, Nr.
-                     129]</title><ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
+                  <title type="letter">An König Max Joseph von Bayern. [3. Abt, Bd. VII, Nr. 129]</title>
+<ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
                </bibl>
             </cit>
             <cit>
@@ -92,8 +92,8 @@
                   etc.</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Frau von Ompteda in Berlin.[3. Abt, Bd. VII, Nr.
-                     612]</title><ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
+                  <title type="letter">An Frau von Ompteda in Berlin. [3. Abt, Bd. VII, Nr. 612]</title>
+<ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
                </bibl>
             </cit>
             <cit>
@@ -103,8 +103,8 @@
                   Angedenken.</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">stammbuchblatt für Ammon, Grahl und Zeschau.[3. Abt, Bd. VII,
-                     Nr. 202]</title><ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"
+                  <title type="letter">stammbuchblatt für Ammon, Grahl und Zeschau. [3. Abt, Bd. VII, Nr. 202]</title>
+<ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"
                   />
                </bibl>
             </cit>
@@ -112,8 +112,8 @@
                <quote ana="#formal #s-m #r-n" xml:lang="deu">Der Ihrige</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Herrn und Frau Engelmann in Heidelberg.[3. Abt, Bd. VII,
-                     Nr. 424]</title><ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"
+                  <title type="letter">An Herrn und Frau Engelmann in Heidelberg. [3. Abt, Bd. VII, Nr. 424]</title>
+<ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"
                   />
                </bibl>
             </cit>
@@ -123,24 +123,24 @@
                   —</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">Ins stammbuch des Präsidenten Jacobi.[3. Abt, Bd. VII, Nr.
-                     336]</title><ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
+                  <title type="letter">Ins stammbuch des Präsidenten Jacobi. [3. Abt, Bd. VII, Nr. 336]</title>
+<ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-n #r-n" xml:lang="deu">Mit schuldigstem Respekt</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Graf Montgelas in München.[3. Abt, Bd. VII, Nr.
-                     124]</title><ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
+                  <title type="letter">An Graf Montgelas in München. [3. Abt, Bd. VII, Nr. 124]</title>
+<ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-n #r-n" xml:lang="deu">Ihr höchstachtender</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Finanzrat Chr. Karl Barth in Bayreuth.[3. Abt, Bd. VII,
-                     Nr. 248]</title><ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"
+                  <title type="letter">An Finanzrat Chr. Karl Barth in Bayreuth. [3. Abt, Bd. VII, Nr. 248]</title>
+<ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"
                   />
                </bibl>
             </cit>
@@ -151,8 +151,8 @@
                </quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">In Bursys Exemplar von „Jean Pauls Museum“.[3. Abt, Bd. VII,
-                     Nr. 178]</title><ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"
+                  <title type="letter">In Bursys Exemplar von „Jean Pauls Museum“. [3. Abt, Bd. VII, Nr. 178]</title>
+<ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"
                   />
                </bibl>
             </cit>
@@ -160,7 +160,8 @@
                <quote ana="#formal #s-n #r-n" xml:lang="deu">Mit tiefer Ehrfurcht u.s.w.</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Fürst Hardenberg.[3. Abt, Bd. VII, Nr. 119]</title><ref
+                  <title type="letter">An Fürst Hardenberg. [3. Abt, Bd. VII, Nr. 119]</title>
+<ref
                      target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
                </bibl>
             </cit>
@@ -168,7 +169,8 @@
                <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihriger.</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Emanuel.[3. Abt, Bd. IV, Nr. 429]</title><ref
+                  <title type="letter">An Emanuel. [3. Abt, Bd. IV, Nr. 429]</title>
+<ref
                      target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
                </bibl>
             </cit>
@@ -176,7 +178,8 @@
                <quote ana="#informal #s-m #r-n" xml:lang="deu">Ihr Alter</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Emanuel.[3. Abt, Bd. IV, Nr. 480]</title><ref
+                  <title type="letter">An Emanuel. [3. Abt, Bd. IV, Nr. 480]</title>
+<ref
                      target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
                </bibl>
             </cit>
@@ -184,7 +187,8 @@
                <quote ana="#formal #s-n #r-n" xml:lang="deu">Adieu, edle Seele!</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Karoline Mayer.[3. Abt, Bd. IV, Nr. 69]</title><ref
+                  <title type="letter">An Karoline Mayer. [3. Abt, Bd. IV, Nr. 69]</title>
+<ref
                      target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
                </bibl>
             </cit>
@@ -192,7 +196,8 @@
                <quote ana="#informal #s-n #r-n" xml:lang="deu">Abzugeben an Dich bei Dir.</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Ahlefeldt.[3. Abt, Bd. IV, Nr. 68]</title><ref
+                  <title type="letter">An Ahlefeldt. [3. Abt, Bd. IV, Nr. 68]</title>
+<ref
                      target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
                </bibl>
             </cit>
@@ -200,15 +205,16 @@
                <quote ana="#informal #s-m #r-n" xml:lang="deu">Dein ewiger, ewiger Freund.</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">In Emilie von Berlepschs Stammbuch.[3. Abt, Bd. III, Nr.
-                     273]</title><ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
+                  <title type="letter">In Emilie von Berlepschs Stammbuch. [3. Abt, Bd. III, Nr. 273]</title>
+<ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-n #r-n" xml:lang="deu">Guten Tag!</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Emanuel.[3. Abt, Bd. V, Nr. 344]</title><ref
+                  <title type="letter">An Emanuel. [3. Abt, Bd. V, Nr. 344]</title>
+<ref
                      target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
                </bibl>
             </cit>
@@ -216,15 +222,16 @@
                <quote ana="#informal #s-n #r-n" xml:lang="deu">Immer und immer Ihr Freund</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Renate und Christoph Otto.[3. Abt, Bd. II, Nr.
-                     270]</title><ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
+                  <title type="letter">An Renate und Christoph Otto. [3. Abt, Bd. II, Nr. 270]</title>
+<ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-n #r-n" xml:lang="deu">Ihrer Hoheit ꝛc. ꝛc. ꝛc.</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Emanuel.[3. Abt, Bd. VI, Nr. 111]</title><ref
+                  <title type="letter">An Emanuel. [3. Abt, Bd. VI, Nr. 111]</title>
+<ref
                      target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
                </bibl>
             </cit>
@@ -232,8 +239,8 @@
                <quote ana="#formal #s-n #r-n" xml:lang="deu">Euerer Kaiserlichen Majestät</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Kaiser Alexander von Rußland.[3. Abt, Bd. VI, Nr.
-                     863]</title><ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
+                  <title type="letter">An Kaiser Alexander von Rußland. [3. Abt, Bd. VI, Nr. 863]</title>
+<ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
                </bibl>
             </cit>
             <cit>
@@ -241,7 +248,8 @@
                   Einsame</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Emanuel.[3. Abt, Bd. VI, Nr. 901]</title><ref
+                  <title type="letter">An Emanuel. [3. Abt, Bd. VI, Nr. 901]</title>
+<ref
                      target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
                </bibl>
             </cit>
@@ -249,7 +257,8 @@
                <quote ana="#formal #s-m #r-n" xml:lang="deu">Der Verf.</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Cotta.[3. Abt, Bd. VI, Nr. 678]</title><ref
+                  <title type="letter">An Cotta. [3. Abt, Bd. VI, Nr. 678]</title>
+<ref
                      target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
                </bibl>
             </cit>
@@ -257,8 +266,8 @@
                <quote ana="#informal #s-m #r-n" xml:lang="deu">Dein Alter.</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Christian Otto in Bayreuth.[3. Abt, Bd. IX, Nr.
-                     15]</title><ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
+                  <title type="letter">An Christian Otto in Bayreuth. [3. Abt, Bd. IX, Nr. 15]</title>
+<ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
                </bibl>
             </cit>
             <cit>
@@ -266,16 +275,16 @@
                   Diener, Gefatter und wärmster Freund.</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Rektor Werner in Schwarzenbach.[3. Abt, Bd. I, Nr.
-                     6]</title><ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
+                  <title type="letter">An Rektor Werner in Schwarzenbach. [3. Abt, Bd. I, Nr. 6]</title>
+<ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-m #r-n" xml:lang="deu"> Ew. Hochedelgeboren gehors. Diener </quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Buchhändler Phil. Erasmus Reich in Leipzig?[3. Abt, Bd. I,
-                     Nr. 72]</title><ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"
+                  <title type="letter">An Buchhändler Phil. Erasmus Reich in Leipzig?[3. Abt, Bd. I, Nr. 72]</title>
+<ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"
                   />
                </bibl>
             </cit>
@@ -284,15 +293,16 @@
                   Hochedelgeboren</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Buchhändler Beckmann in Gera.[3. Abt, Bd. I, Nr.
-                     230]</title><ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
+                  <title type="letter">An Buchhändler Beckmann in Gera. [3. Abt, Bd. I, Nr. 230]</title>
+<ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#informal #s-m #r-n" xml:lang="deu">Dein Freund?</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">In Hermanns Stammbuch.[3. Abt, Bd. I, Nr. 212]</title><ref
+                  <title type="letter">In Hermanns Stammbuch. [3. Abt, Bd. I, Nr. 212]</title>
+<ref
                      target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
                </bibl>
             </cit>
@@ -301,8 +311,8 @@
                   Dienerin und Schwägerin</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Stadtsyndikus Ruß in Wunsiedel.[3. Abt, Bd. I, Nr.
-                     178]</title><ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
+                  <title type="letter">An Stadtsyndikus Ruß in Wunsiedel. [3. Abt, Bd. I, Nr. 178]</title>
+<ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
                </bibl>
             </cit>
             <cit>
@@ -310,16 +320,16 @@
                   ꝛc.</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Pfarrer Chr. Morus in Töpen.[3. Abt, Bd. I, Nr.
-                     197]</title><ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
+                  <title type="letter">An Pfarrer Chr. Morus in Töpen. [3. Abt, Bd. I, Nr. 197]</title>
+<ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-n #r-n" xml:lang="deu">der Verfasser.</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Emil und Luise von Herder in Bayreuth.[3. Abt, Bd. VIII,
-                     Nr. 375]</title><ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"
+                  <title type="letter">An Emil und Luise von Herder in Bayreuth. [3. Abt, Bd. VIII, Nr. 375]</title>
+<ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"
                   />
                </bibl>
             </cit>
@@ -328,23 +338,24 @@
                   Gestern</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">In Adelaide von Maréchaux’ Stammbuch.[3. Abt, Bd. VIII, Nr.
-                     66]</title><ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
+                  <title type="letter">In Adelaide von Maréchaux’ Stammbuch. [3. Abt, Bd. VIII, Nr. 66]</title>
+<ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihr ergebenster ꝛc.</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Hofprediger Schmidt in Nymphenburg.[3. Abt, Bd. VIII, Nr.
-                     74]</title><ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
+                  <title type="letter">An Hofprediger Schmidt in Nymphenburg. [3. Abt, Bd. VIII, Nr. 74]</title>
+<ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-f #r-n" xml:lang="deu">Dero Ergebene Dienerin N. N.</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Frau.[3. Abt, Bd. VIII, Nr. 421]</title><ref
+                  <title type="letter">An Frau. [3. Abt, Bd. VIII, Nr. 421]</title>
+<ref
                      target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
                </bibl>
             </cit>
@@ -353,16 +364,16 @@
                   dichterischen Vaters.</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">In Dorothea Tiecks Stammbuch.[3. Abt, Bd. VIII, Nr.
-                     306]</title><ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
+                  <title type="letter">In Dorothea Tiecks Stammbuch. [3. Abt, Bd. VIII, Nr. 306]</title>
+<ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-m #r-n" xml:lang="deu">Euer Exzellenz ergebenster</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Freiherrn von Welden in Bayreuth.[3. Abt, Bd. VIII, Nr.
-                     334]</title><ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
+                  <title type="letter">An Freiherrn von Welden in Bayreuth. [3. Abt, Bd. VIII, Nr. 334]</title>
+<ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
                </bibl>
             </cit>
             <cit>
@@ -370,8 +381,8 @@
                   und Stimme nur eine wolduftende Blume von Ihrem</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">In Luise von Müllers Stammbuch.[3. Abt, Bd. VIII, Nr.
-                     67]</title><ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
+                  <title type="letter">In Luise von Müllers Stammbuch. [3. Abt, Bd. VIII, Nr. 67]</title>
+<ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
                </bibl>
             </cit>
             <cit>
@@ -380,8 +391,8 @@
                   beglückt.</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">In Frau Schützens Stammbuch.[3. Abt, Bd. VIII, Nr.
-                     288]</title><ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
+                  <title type="letter">In Frau Schützens Stammbuch. [3. Abt, Bd. VIII, Nr. 288]</title>
+<ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
                </bibl>
             </cit>
             <cit>
@@ -389,8 +400,8 @@
                   Stunde</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">In Henriette von Millers Stammbuch.[3. Abt, Bd. VIII, Nr.
-                     69]</title><ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
+                  <title type="letter">In Henriette von Millers Stammbuch. [3. Abt, Bd. VIII, Nr. 69]</title>
+<ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
                </bibl>
             </cit>
             <cit>
@@ -399,8 +410,8 @@
                   ähnlich geblieben.</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">In Alfred Schlichtegrolls Stammbuch.[3. Abt, Bd. VIII, Nr.
-                     70]</title><ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
+                  <title type="letter">In Alfred Schlichtegrolls Stammbuch. [3. Abt, Bd. VIII, Nr. 70]</title>
+<ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht"/>
                </bibl>
             </cit>
          </div>
