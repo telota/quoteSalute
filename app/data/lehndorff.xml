@@ -1059,18 +1059,6 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu"> Carl Lehndorff </quote>
-               <bibl>
-                  <title type="edition">Lebenswelten, Erfahrungsräume und politische Horizonte der
-                     ostpreußischen Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</title>
-                  <title type="letter">Carl Friedrich Ludwig Graf von Lehndorff an Friedrich Karl
-                     Ludwig Herzog von Holstein-Beck . Möglin, 14. Januar 1810</title>
-                  <ref
-                     target="http://lebenswelten-lehndorff.bbaw.de/dokumente/detail.xql?id=lehndorff_t25_x3c_wcb"
-                  />
-               </bibl>
-            </cit>
-            <cit>
                <quote ana="#informal #s-m #r-f" xml:lang="deu"> Gott befohlen, liebe Anni, grüße
                   Carl und bleibe gut deinem alten </quote>
                <bibl>
@@ -2918,6 +2906,9 @@
                   target="http://lebenswelten-lehndorff.bbaw.de/dokumente/detail.xql?id=lehndorff_w4k_ll4_cbb"/>
                <ref
                   target="http://lebenswelten-lehndorff.bbaw.de/dokumente/detail.xql?id=lehndorff_ccz_lmj_dbb"
+               />
+               <ref
+                  target="http://lebenswelten-lehndorff.bbaw.de/dokumente/detail.xql?id=lehndorff_t25_x3c_wcb"
                />
             </listRef>
          </div>
