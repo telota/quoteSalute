@@ -58,10 +58,11 @@ const app = new Vue({
             return defaultLanguage.join('X');
         },
         copyMessage() {
-            return `"${this.salute.quote}" \n
+            return `»${this.salute.quote}« \n
             ${this.salute.title}
             ${this.salute.edition}
             ${this.salute.fullURL}
+            powered by quoteSalute, https://correspsearch.net/salute/abfrage.xql
             `;
         }
     },
