@@ -4,7 +4,7 @@ In diesem Git Repo finden Sie alle Infos zu quoteSalute - unserem Studierendenpr
 
 ## Über das Projekt
 
-quoteSalute bietet inspirierende Grußformeln aus digitalen Briefeditionen für Ihre E-Mail-Korrespondenz. Die Anwendung schafft so einen spielerischen Zugang in die Welt historischer Korrespondenzen und ermöglicht die Einbindung wissenschaflicher Editionsarbeit in Ihre Alltagskommunikation. 
+quoteSalute bietet inspirierende Grußformeln aus digitalen Briefeditionen für Ihre E-Mail-Korrespondenz. Die Webanwendung schafft so einen spielerischen Zugang in die Welt historischer Korrespondenzen und ermöglicht die Einbindung wissenschaflicher Editionsarbeit in Ihre Alltagskommunikation. 
 
 ## Mitmachen
 
