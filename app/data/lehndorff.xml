@@ -117,7 +117,7 @@
    </teiHeader>
    <text>
       <body>
-         <div type="citList">
+         <div type="included">
             <cit>
                <quote ana="#informal #s-m #r-n" xml:lang="deu"> Meine Frau wünscht die empfohlen zu
                   sein und ich bitte um die Fortdauer deiner freundschaftlichen Zuneigung </quote>
