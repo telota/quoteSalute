@@ -116,7 +116,7 @@
    </teiHeader>
    <text>
       <body>
-         <div type="citList">
+         <div type="included">
             <cit>
                <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihr gehorsamster Diener</quote>
                <bibl>
