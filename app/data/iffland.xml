@@ -6,13 +6,75 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>August Wilhelm Ifflands dramaturgisches und administratives Archiv</title>
+            <title>&lt;salute&gt;-elements of "August Wilhelm Ifflands
+               dramaturgisches und administratives Archiv"</title>
+            <respStmt>
+               <resp>
+                  <note>Collection, curation and processing of data</note>
+               </resp>
+               <persName>
+                  <surname>Dumont</surname>
+                  <forename>Stefan</forename>
+               </persName>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+               <persName>
+                  <surname>Marvin</surname>
+                  <forename>Kullick</forename>
+               </persName>
+               <persName>
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+               <persName>
+                  <surname>Luisa</surname>
+                  <forename>Philipp</forename>
+               </persName>
+               <persName>
+                  <surname>Oliver</surname>
+                  <forename>Pohl</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>
+                  <note>Hosting and provision of data and application</note>
+               </resp>
+               <orgName>TELOTA</orgName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
-            <p>BBAW</p>
+            <publisher>
+               <orgName>Berlin-Brandenburg Academy of Sciences and Humanities</orgName>
+               <orgName>TELOTA</orgName>
+               <email>telota@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018-04-18</date>
+            <!--  wenn nötig: <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0
+                     International license</p>
+               </licence>-->
+            <!--</availability>-->
          </publicationStmt>
+         <notesStmt>
+            <note type="data_integration">The data was taken over from <ref
+               target="https://iffland.bbaw.de"
+               >https://iffland.bbaw.de</ref> on 15.3.2018. Later
+               published contents of the edition may be added in the future.</note>
+            <note type="selection">For quoteSalute, those salutes were selected that are relevant
+               for the application in terms of content, form and length. </note>
+         </notesStmt>
          <sourceDesc>
-            <p>Quelle telotadev: iffland/data/Akten</p>
+            <bibl>August Wilhelm Ifflands
+               dramaturgisches und administratives Archiv, ed. by Klaus Gerlach.
+               Berlin-Brandenburgische Akademie der Wissenschaften, Berlin.</bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -50,7 +112,7 @@
                </category>
             </taxonomy>
          </classDecl>
-      </encodingDesc> 
+      </encodingDesc>
    </teiHeader>
    <text>
       <body>
@@ -60,7 +122,8 @@
                <bibl>
                   <title type="edition">August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</title>
-                  <title type="letter">Von Hartmann Christian Wunder. Berlin, 29. Juni 1797. Donnerstag</title>
+                  <title type="letter">Von Hartmann Christian Wunder. Berlin, 29. Juni 1797.
+                     Donnerstag</title>
                   <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000617"/>
                </bibl>
             </cit>
@@ -78,17 +141,19 @@
                <bibl>
                   <title type="edition">August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</title>
-                  <title type="letter">Von Johann Friedrich Ritz. Potsdam, 30. April 1797. Sonntag</title>
+                  <title type="letter">Von Johann Friedrich Ritz. Potsdam, 30. April 1797.
+                     Sonntag</title>
                   <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000881"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-f #r-n" xml:lang="deu">Ich habe die Ehre zu seyn Ew Wohlgebohren gehorsamste Dienerin</quote>
+               <quote ana="#formal #s-f #r-n" xml:lang="deu">Ich habe die Ehre zu seyn Ew
+                  Wohlgebohren gehorsamste Dienerin</quote>
                <bibl>
                   <title type="edition">August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</title>
-                  <title type="letter">Von Charlotte Wilhelmine Caroline Bachmann. Berlin, 26. März 1798.
-                     Montag</title>
+                  <title type="letter">Von Charlotte Wilhelmine Caroline Bachmann. Berlin, 26. März
+                     1798. Montag</title>
                   <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0001023"/>
                </bibl>
             </cit>
@@ -97,38 +162,41 @@
                <bibl>
                   <title type="edition">August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</title>
-                  <title type="letter">An Thiele (der Ältere). Berlin, 2. September 1797. Samstag</title>
+                  <title type="letter">An Thiele (der Ältere). Berlin, 2. September 1797.
+                     Samstag</title>
                   <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000998"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-f #r-n" xml:lang="deu">Mit vorzüglicher Hochachtung habe ich die Ehre zu seyn, Ihre Ihnen
-                  ergebene</quote>
+               <quote ana="#formal #s-f #r-n" xml:lang="deu">Mit vorzüglicher Hochachtung habe ich
+                  die Ehre zu seyn, Ihre Ihnen ergebene</quote>
                <bibl>
                   <title type="edition">August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</title>
-                  <title type="letter">Von Charlotta Elisabeth Konstantia Baronin von der Recke. Berlin, vor 25.
-                     Februar 1798</title>
+                  <title type="letter">Von Charlotta Elisabeth Konstantia Baronin von der Recke.
+                     Berlin, vor 25. Februar 1798</title>
                   <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000994"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Mit aller Hochachtung bin ich Ihr ergebenster </quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Mit aller Hochachtung bin ich Ihr
+                  ergebenster </quote>
                <bibl>
                   <title type="edition">August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</title>
-                  <title type="letter">Von Johann Friedrich Bolt. Berlin, 16. Juli 1798. Montag</title>
+                  <title type="letter">Von Johann Friedrich Bolt. Berlin, 16. Juli 1798.
+                     Montag</title>
                   <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0001007"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="fra">J'ay l'honneur d'être tres parfaitement Monsieur Votre tres humble et
-                  obeissant Serviteur</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="fra">J'ay l'honneur d'être tres parfaitement
+                  Monsieur Votre tres humble et obeissant Serviteur</quote>
                <bibl>
                   <title type="edition">August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</title>
-                  <title type="letter">Von Belleau im Auftrag der Prinzessin Ferdinand. Berlin. 19. Mai 1797.
-                     Freitag</title>
+                  <title type="letter">Von Belleau im Auftrag der Prinzessin Ferdinand. Berlin. 19.
+                     Mai 1797. Freitag</title>
                   <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0001058"/>
                </bibl>
             </cit>
@@ -137,28 +205,30 @@
                <bibl>
                   <title type="edition">August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</title>
-                  <title type="letter">Von Gottlieb Wilhelm Burmann. Berlin, 30. Dezember1797. Samstag</title>
+                  <title type="letter">Von Gottlieb Wilhelm Burmann. Berlin, 30. Dezember1797.
+                     Samstag</title>
                   <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000992"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Mit vollständigster Hochachtung beharrend Ew Wohlgeboren ganz
-                  gehorsamer</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Mit vollständigster Hochachtung
+                  beharrend Ew Wohlgeboren ganz gehorsamer</quote>
                <bibl>
                   <title type="edition">August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</title>
-                  <title type="letter">Von Gottlob Wolfgang Christoph von Egloffstein. Berlin, 29. Juli 1798.
-                     Sonntag</title>
+                  <title type="letter">Von Gottlob Wolfgang Christoph von Egloffstein. Berlin, 29.
+                     Juli 1798. Sonntag</title>
                   <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000981"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich verehre mit Hochachtung Ew Wohlgebohren ganz ergebener</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich verehre mit Hochachtung Ew
+                  Wohlgebohren ganz ergebener</quote>
                <bibl>
                   <title type="edition">August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</title>
-                  <title type="letter">Von Johann Friedrich Ludwig Niethe. Potsdam, 22. Oktober 1800.
-                     Mittwoch</title>
+                  <title type="letter">Von Johann Friedrich Ludwig Niethe. Potsdam, 22. Oktober
+                     1800. Mittwoch</title>
                   <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0003903"/>
                </bibl>
             </cit>
@@ -167,8 +237,8 @@
                <bibl>
                   <title type="edition">August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</title>
-                  <title type="letter">Von Johann Friedrich Ludwig Niethe. Potsdam, 30. November 1801.
-                     Montag</title>
+                  <title type="letter">Von Johann Friedrich Ludwig Niethe. Potsdam, 30. November
+                     1801. Montag</title>
                   <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=iffland_el3_xqq_bdb"/>
                </bibl>
             </cit>
@@ -177,16 +247,18 @@
                <bibl>
                   <title type="edition">August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</title>
-                  <title type="letter">Von Siegfried Gotthelf Koch. Wien, 27. Dezember 1799. Freitag</title>
+                  <title type="letter">Von Siegfried Gotthelf Koch. Wien, 27. Dezember 1799.
+                     Freitag</title>
                   <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000195"/>
                </bibl>
             </cit>
-           <cit>
+            <cit>
                <quote ana="#formal #s-m #r-n" xml:lang="deu">Dero gehorsamst ergebenster</quote>
                <bibl>
                   <title type="edition">August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</title>
-                  <title type="letter">Von Karl Alexander Herklots. Berlin, 29. September 1799. Sonntag</title>
+                  <title type="letter">Von Karl Alexander Herklots. Berlin, 29. September 1799.
+                     Sonntag</title>
                   <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0001240"/>
                </bibl>
             </cit>
@@ -195,12 +267,14 @@
                <bibl>
                   <title type="edition">August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</title>
-                  <title type="letter">An Adolph Friedrich von Scheve. Berlin, 3. März 1805. Sonntag</title>
+                  <title type="letter">An Adolph Friedrich von Scheve. Berlin, 3. März 1805.
+                     Sonntag</title>
                   <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000294"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n" xml:lang="deu">Im Gefühl der Verehrung und Liebe Ihr ergebenster </quote>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Im Gefühl der Verehrung und Liebe Ihr
+                  ergebenster </quote>
                <bibl>
                   <title type="edition">August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</title>
@@ -213,12 +287,14 @@
                <bibl>
                   <title type="edition">August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</title>
-                  <title type="letter">Von Johann Gottfried Schadow. Berlin, 12. März 1805. Dienstag</title>
+                  <title type="letter">Von Johann Gottfried Schadow. Berlin, 12. März 1805.
+                     Dienstag</title>
                   <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000306"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-f #r-n" xml:lang="deu">Ihre Dankbare und gehorsamste Dienerin</quote>
+               <quote ana="#formal #s-f #r-n" xml:lang="deu">Ihre Dankbare und gehorsamste
+                  Dienerin</quote>
                <bibl>
                   <title type="edition">August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</title>
@@ -227,11 +303,13 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Der ich mit Achtung verehre Ihr ergebener </quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Der ich mit Achtung verehre Ihr
+                  ergebener </quote>
                <bibl>
                   <title type="edition">August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</title>
-                  <title type="letter">Von Karl August Wilhelm Schwadtke. Berlin, 2. Mai 1805. Donnerstag</title>
+                  <title type="letter">Von Karl August Wilhelm Schwadtke. Berlin, 2. Mai 1805.
+                     Donnerstag</title>
                   <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000212"/>
                </bibl>
             </cit>
@@ -240,7 +318,8 @@
                <bibl>
                   <title type="edition">August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</title>
-                  <title type="letter">Von Jacob Herzfeld. Hamburg, 6. November 1804. Dienstag</title>
+                  <title type="letter">Von Jacob Herzfeld. Hamburg, 6. November 1804.
+                     Dienstag</title>
                   <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000484"/>
                </bibl>
             </cit>
@@ -254,7 +333,8 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="fra">Je suis avec estime et respect, Monsieur Votre tres humble Seviteur </quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="fra">Je suis avec estime et respect,
+                  Monsieur Votre tres humble Seviteur </quote>
                <bibl>
                   <title type="edition">August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</title>
@@ -263,25 +343,28 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-f #r-n" xml:lang="deu">Die ich mit schuldiger Achtung verharre Dero ergebene </quote>
+               <quote ana="#formal #s-f #r-n" xml:lang="deu">Die ich mit schuldiger Achtung verharre
+                  Dero ergebene </quote>
                <bibl>
                   <title type="edition">August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</title>
-                  <title type="letter">Von Caroline Schulz. Soldin, 17. Februar 1805 Monat Jahr. Sonntag</title>
+                  <title type="letter">Von Caroline Schulz. Soldin, 17. Februar 1805 Monat Jahr.
+                     Sonntag</title>
                   <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000287"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Hochachtungsvoll beharre ich Ewer König. Generaldirektion ganz
-                  ergebenster</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Hochachtungsvoll beharre ich Ewer
+                  König. Generaldirektion ganz ergebenster</quote>
                <bibl>
                   <title type="edition">August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</title>
-                  <title type="letter">Von Joseph Karl Ambrosch. Berlin, 9. Februar 1805. Samstag</title>
+                  <title type="letter">Von Joseph Karl Ambrosch. Berlin, 9. Februar 1805.
+                     Samstag</title>
                   <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000284"/>
                </bibl>
             </cit>
-           <cit>
+            <cit>
                <quote ana="#informal #s-m #r-n" xml:lang="deu">Ihr aufrichtiger Freund</quote>
                <bibl>
                   <title type="edition">August Wilhelm Ifflands dramaturgisches und administratives
@@ -296,19 +379,79 @@
                <bibl>
                   <title type="edition">August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</title>
-                  <title type="letter">Von Karl Alexander Herklots. Berlin, 2. März 1799. Samstag</title>
+                  <title type="letter">Von Karl Alexander Herklots. Berlin, 2. März 1799.
+                     Samstag</title>
                   <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0001212"/>
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Mit Achtung harrend Dero Ergebenster</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Mit Achtung harrend Dero
+                  Ergebenster</quote>
                <bibl>
                   <title type="edition">August Wilhelm Ifflands dramaturgisches und administratives
                      Archiv</title>
-                  <title type="letter">Von Samuel Georg Herdt. Berlin, 23. Januar 1799. Freitag</title>
+                  <title type="letter">Von Samuel Georg Herdt. Berlin, 23. Januar 1799.
+                     Freitag</title>
                   <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0003140"/>
                </bibl>
             </cit>
+         </div>
+         <div type="exclude">
+            <listRef>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000915"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000925"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0003189"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0001075"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0001040"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000312"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0001002"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000949"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0003597"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0003389"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0003409"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000506"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000446"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000480"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000478"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000219"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000214"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000230"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000486"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000481"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000207"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000283"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000464"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000497"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000203"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000443"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000309"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0003081"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0003076"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0003176"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0003078"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000647"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000612"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000571"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000521"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000543"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000583"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000607"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0001373"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0003057"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0003092"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0001379"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0003148"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000165"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0001190"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000152"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000123"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000381"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000400"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000131"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000148"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000145"/>
+               <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000380"/>
+            </listRef>
          </div>
       </body>
    </text>
