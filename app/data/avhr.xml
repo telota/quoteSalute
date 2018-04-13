@@ -80,10 +80,10 @@
                <category>
                   <catDesc>Type</catDesc>
                   <category xml:id="formal">
-                     <catDesc>formell</catDesc>
+                     <catDesc>formal</catDesc>
                   </category>
                   <category xml:id="informal">
-                     <catDesc>informell</catDesc>
+                     <catDesc>informal</catDesc>
                   </category>
                </category>
                <category>
