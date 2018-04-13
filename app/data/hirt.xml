@@ -6,13 +6,73 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Aloys Hirt – Briefwechsel 1787–1837</title>
+            <title>&lt;salute&gt;-elements of "Aloys Hirt – Briefwechsel 1787–1837"</title>
+            <respStmt>
+               <resp>
+                  <note>Collection, curation and processing of data</note>
+               </resp>
+               <persName>
+                  <surname>Dumont</surname>
+                  <forename>Stefan</forename>
+               </persName>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+               <persName>
+                  <surname>Marvin</surname>
+                  <forename>Kullick</forename>
+               </persName>
+               <persName>
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+               <persName>
+                  <surname>Luisa</surname>
+                  <forename>Philipp</forename>
+               </persName>
+               <persName>
+                  <surname>Oliver</surname>
+                  <forename>Pohl</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>
+                  <note>Hosting and provision of data and application</note>
+               </resp>
+               <orgName>TELOTA</orgName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
-            <p>BBAW</p>
+            <publisher>
+               <orgName>Berlin-Brandenburg Academy of Sciences and Humanities</orgName>
+               <orgName>TELOTA</orgName>
+               <email>telota@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018-04-18</date>
+            <!--  wenn nötig: <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0
+                     International license</p>
+               </licence>-->
+            <!--</availability>-->
          </publicationStmt>
+         <notesStmt>
+            <note type="data_integration">The data was taken over from <ref
+               target="https://aloys-hirt.bbaw.de"
+               >https://aloys-hirt.bbaw.de</ref> on 15.3.2018. Later
+               published contents of the edition may be added in the future.</note>
+            <note type="selection">For quoteSalute, those salutes were selected that are relevant
+               for the application in terms of content, form and length. </note>
+         </notesStmt>
          <sourceDesc>
-            <p>Quelle kvmmove3: hirt/data/briefe</p>
+            <bibl>Aloys Hirt – Briefwechsel 1787–1837, ed. by Uta Motschmann.
+               Berlin-Brandenburgische Akademie der Wissenschaften, Berlin.</bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -1132,6 +1192,30 @@
                   <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_vrd_phq_2v"/>
                </bibl>
             </cit>
+         </div>
+         <div type="excluded">
+            <listRef>
+               <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_eyn_sdg_f5"/>
+               <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_akb_djf_f5"/>
+               <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_kwd_5pr_lw"/>
+               <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_skt_lzh_gv"/>
+               <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_kws_2qm_f5"/>
+               <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_wnx_51n_tv"/>
+               <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_aqq_2jy_2y"/>
+               <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_ahw_vw1_wy"/>
+               <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_nlx_d3f_hy"/>
+               <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_orz_p3z_jw"/>
+               <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_tyj_tfm_cv"/>
+               <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_jjj_cp5_hv"/>
+               <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_bj3_d25_hw"/>
+               <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_qxs_wx2_cv"/>
+               <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=prov_hvs_tgp_gv"/>
+               <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_p1v_fvf_1w"/>
+               <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_utk_hvl_vv"/>
+               <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_wkp_23f_fw"/>
+               <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_emk_12t_4x"/>
+               <ref target="http://aloys-hirt.bbaw.de/briefe/detail.xql?id=hirt_gql_nvd_lx"/>
+            </listRef>
          </div>
       </body>
    </text>
