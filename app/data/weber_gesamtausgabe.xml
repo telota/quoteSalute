@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>&lt;salute&gt;-elements of "Carl-Maria-von-Weber-Gesamtausgabe"</title>
+            <respStmt>
+               <resp>
+                  <note>Collection, curation and processing of data</note>
+               </resp>
+               <persName ref="http://d-nb.info/gnd/1034877364">
+                  <surname>Dumont</surname>
+                  <forename>Stefan</forename>
+               </persName>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+               <persName>
+                  <surname>Kullick</surname>
+                  <forename>Marvin</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+               <persName>
+                  <surname>Philipp</surname>
+                  <forename>Luisa</forename>
+               </persName>
+               <persName>
+                  <surname>Pohl</surname>
+                  <forename>Oliver</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>
+                  <note>Hosting and provision of data and application</note>
+               </resp>
+               <orgName ref="http://www.bbaw.de/telota">TELOTA - The Electronic Life of the
+                  Academy</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Berlin-Brandenburg Academy of Sciences and Humanities</orgName>
+               <orgName>TELOTA</orgName>
+               <email>telota@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018-04-18</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="data_integration">The data was taken over manually from <ref
+                  target="http://www.weber-gesamtausgabe.de">http://www.weber-gesamtausgabe.de</ref>
+               on 15.3.2018. Later published contents of the edition may be added in the
+               future.</note>
+            <note type="selection">For quoteSalute, some salutes were selected manually that are
+               relevant for the application in terms of content, form and length. More information
+               on selection and tagging can be found in the <ref
+                  target="https://correspsearch.net/salute/dokumentation">documentation of the
+                  project</ref>.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>Carl-Maria-von-Weber-Gesamtausgabe, Digitale Edition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category>
+                  <catDesc>Type</catDesc>
+                  <category xml:id="formal">
+                     <catDesc>formal</catDesc>
+                  </category>
+                  <category xml:id="informal">
+                     <catDesc>informal</catDesc>
+                  </category>
+               </category>
+               <category>
+                  <catDesc>Relation</catDesc>
+                  <category xml:id="s-m">
+                     <catDesc>content implies male sender</catDesc>
+                  </category>
+                  <category xml:id="s-f">
+                     <catDesc>content implies female sender</catDesc>
+                  </category>
+                  <category xml:id="s-n">
+                     <catDesc>content implies neutral sender</catDesc>
+                  </category>
+                  <category xml:id="r-f">
+                     <catDesc>content implies female receiver</catDesc>
+                  </category>
+                  <category xml:id="r-m">
+                     <catDesc>content implies male receiver</catDesc>
+                  </category>
+                  <category xml:id="r-n">
+                     <catDesc>content implies neutral receiver</catDesc>
+                  </category>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="included">
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-n #r-n"> Mit aller Achtung </quote>
+               <bibl>
+                  <title type="edition">WeGA, Briefe, Digitale Edition</title>
+                  <title type="letter">Carl Maria von Weber an Carl August Fesca in Wien
+                     <lb/>Dresden, Donnerstag, 27 Februar 1817</title>
+                  <ref target="http://weber-gesamtausgabe.de/A041065"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-n #r-n"> Mit der vollkommensten Hochachtung
+                  verharrend </quote>
+               <bibl>
+                  <title type="edition">WeGA, Briefe, Digitale Edition</title>
+                  <title type="letter">Carl Maria von Weber an Karl Graf von Brühl in Berlin
+                     <lb/>Dresden, Donnerstag, 27. Februar 1817</title>
+                  <ref target="https://weber-gesamtausgabe.de/A041066"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-n #r-n"> Alles Erdenkliche in Ihr Haus </quote>
+               <bibl>
+                  <title type="edition">WeGA, Briefe, Digitale Edition</title>
+                  <title type="letter">Carl Maria von Weber an Johann Friedrich Rochlitz in Leipzig
+                     <lb/>Dresden, Donnerstag, 27. Februar 1817</title>
+                  <ref target="https://weber-gesamtausgabe.de/A041058"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-n #r-n"> Grüße an Alle. </quote>
+               <bibl>
+                  <title type="edition">WeGA, Briefe, Digitale Edition</title>
+                  <title type="letter">Carl Maria von Weber an Caroline Brandt in Prag <lb/>Dresden,
+                     Sonntag, 23. bis Montag, 24. Februar 1817 (Nr. 29) </title>
+                  <ref target="http://weber-gesamtausgabe.de/A041056"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#informal #s-m #r-n"> also <hi rend="italic">adieu</hi>
+                  und vergeßen Sie nicht ihren alten Freund <hi rend="italic"><persName
+                        key="A002068">Weber</persName></hi>. </quote>
+               <bibl>
+                  <title type="edition">WeGA, Briefe, Digitale Edition</title>
+                  <title type="letter">Carl Maria von Weber an Friederike Türke in Berlin
+                     <lb/>Dresden, 9. März 1818</title>
+                  <ref target="https://weber-gesamtausgabe.de/A041401"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="lat" ana="#formal #s-n #r-n"> Quare hunc quoque ingenii, quod sentio
+                  quam sit exiguum, foetum, pietatis in Sedem Apostolicam, quam ornas et si vota
+                  valent diu ornabis testem, ut sanctissimo Beatitatis Tuae sinu excipias et ut
+                  vultu Serenitatis Tuae ut recrees precibus piissimis enixissimisque rogo, vel, si
+                  pateris, obsecro. </quote>
+               <bibl>
+                  <title type="edition">WeGA, Briefe, Digitale Edition</title>
+                  <title type="letter">Carl Maria von Weber an Papst Pius VII. in Rom <lb/>Dresden,
+                     1. November 1818</title>
+                  <ref target="http://weber-gesamtausgabe.de/A041458"/>
+               </bibl>
+            </cit>
+         </div>
+      </body>
+   </text>
+</TEI>
