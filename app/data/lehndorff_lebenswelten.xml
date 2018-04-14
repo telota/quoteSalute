@@ -9,7 +9,7 @@
             <title>&lt;salute&gt;-elements of "Lebenswelten, Erfahrungsräume und politische
                Horizonte der ostpreußischen Adelsfamilie Lehndorff vom 18. bis in das
                20.Jahrhundert"</title>
-             <respStmt>
+            <respStmt>
                <resp>
                   <note>Collection, curation and processing of data</note>
                </resp>
@@ -42,7 +42,8 @@
                <resp>
                   <note>Hosting and provision of data and application</note>
                </resp>
-               <orgName>TELOTA</orgName>
+               <orgName ref="http://www.bbaw.de/telota">TELOTA - The Electronic Life of the
+                  Academy</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -70,7 +71,10 @@
                   >https://lebenswelten-lehndorff.bbaw.de/index.xql</ref> on 15.3.2018. Later
                published contents of the edition may be added in the future.</note>
             <note type="selection">For quoteSalute, those salutes were selected that are relevant
-               for the application in terms of content, form and length. </note>
+               for the application in terms of content, form and length. More information on
+               selection and tagging can be found in the <ref
+                  target="https://correspsearch.net/salute/dokumentation">documentation of the
+                  project</ref>.</note>
          </notesStmt>
          <sourceDesc>
             <bibl>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
