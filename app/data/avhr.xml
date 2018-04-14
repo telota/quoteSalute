@@ -11,7 +11,7 @@
                <resp>
                   <note>Collection, curation and processing of data</note>
                </resp>
-               <persName>
+               <persName ref="http://d-nb.info/gnd/1034877364">
                   <surname>Dumont</surname>
                   <forename>Stefan</forename>
                </persName>
@@ -20,20 +20,20 @@
                   <forename>Lou</forename>
                </persName>
                <persName>
-                  <surname>Marvin</surname>
-                  <forename>Kullick</forename>
+                  <surname>Kullick</surname>
+                  <forename>Marvin</forename>
                </persName>
-               <persName>
+               <persName ref="http://d-nb.info/gnd/1121508855">
                   <surname>Neuber</surname>
                   <forename>Frederike</forename>
                </persName>
                <persName>
-                  <surname>Luisa</surname>
-                  <forename>Philipp</forename>
+                  <surname>Philipp</surname>
+                  <forename>Luisa</forename>
                </persName>
                <persName>
-                  <surname>Oliver</surname>
-                  <forename>Pohl</forename>
+                  <surname>Pohl</surname>
+                  <forename>Oliver</forename>
                </persName>
             </respStmt>
             <respStmt>
@@ -55,12 +55,12 @@
             </publisher>
             <pubPlace>Berlin</pubPlace>
             <date>2018-04-18</date>
-            <!--  wenn nötig: <availability>
+            <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0
                      International license</p>
-               </licence>-->
-            <!--</availability>-->
+               </licence>
+            </availability>
          </publicationStmt>
          <notesStmt>
             <note type="data_integration">The data was taken over from <ref
@@ -89,7 +89,7 @@
                <category>
                   <catDesc>Relation</catDesc>
                   <category xml:id="s-m">
-                     <catDesc>content implies male sender</catDesc><!-- Vorschlag für verbesserte Formulierung-->
+                     <catDesc>content implies male sender</catDesc>
                   </category>
                   <category xml:id="s-f">
                      <catDesc>content implies female sender</catDesc>
