@@ -6,13 +6,72 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>edition humboldt digital</title>
+            <title>&lt;salute&gt;-elements of "edition humboldt digital"</title>
+            <respStmt>
+               <resp>
+                  <note>Collection, curation and processing of data</note>
+               </resp>
+               <persName>
+                  <surname>Dumont</surname>
+                  <forename>Stefan</forename>
+               </persName>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+               <persName>
+                  <surname>Marvin</surname>
+                  <forename>Kullick</forename>
+               </persName>
+               <persName>
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+               <persName>
+                  <surname>Luisa</surname>
+                  <forename>Philipp</forename>
+               </persName>
+               <persName>
+                  <surname>Oliver</surname>
+                  <forename>Pohl</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>
+                  <note>Hosting and provision of data and application</note>
+               </resp>
+               <orgName>TELOTA</orgName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
-            <p>BBAW</p>
+            <publisher>
+               <orgName>Berlin-Brandenburg Academy of Sciences and Humanities</orgName>
+               <orgName>TELOTA</orgName>
+               <email>telota@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018-04-18</date>
+            <!--  wenn nötig: <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0
+                     International license</p>
+               </licence>-->
+            <!--</availability>-->
          </publicationStmt>
+         <notesStmt>
+            <note type="data_integration">The data was taken over from <ref
+                  target="https://edition-humboldt.de">https://edition-humboldt.de</ref> on
+               15.3.2018. Later published contents of the edition may be added in the future.</note>
+            <note type="selection">For quoteSalute, those salutes were selected that are relevant
+               for the application in terms of content, form and length. </note>
+         </notesStmt>
          <sourceDesc>
-            <p>Quelle telotadev: projects/avhr</p>
+            <bibl>edition humboldt digital, ed. by Ottmar Ette. Berlin-Brandenburgische Akademie der
+               Wissenschaften, Berlin.</bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -21,58 +80,64 @@
                <category>
                   <catDesc>Type</catDesc>
                   <category xml:id="formal">
-                     <catDesc>formell</catDesc>
+                     <catDesc>formal</catDesc>
                   </category>
                   <category xml:id="informal">
-                     <catDesc>informell</catDesc>
+                     <catDesc>informal</catDesc>
                   </category>
                </category>
                <category>
                   <catDesc>Relation</catDesc>
                   <category xml:id="s-m">
-                     <catDesc>sender is male</catDesc>
+                     <catDesc>content implies male sender</catDesc>
                   </category>
                   <category xml:id="s-f">
-                     <catDesc>sender is female</catDesc>
+                     <catDesc>content implies female sender</catDesc>
                   </category>
                   <category xml:id="s-n">
-                     <catDesc>sender is neutral</catDesc>
+                     <catDesc>content implies neutral sender</catDesc>
                   </category>
                   <category xml:id="r-f">
-                     <catDesc>receiver is female</catDesc>
+                     <catDesc>content implies female receiver</catDesc>
                   </category>
                   <category xml:id="r-m">
-                     <catDesc>reveiver is male</catDesc>
+                     <catDesc>content implies male receiver</catDesc>
                   </category>
                   <category xml:id="r-n">
-                     <catDesc>reveiver is neutral</catDesc>
+                     <catDesc>content implies neutral receiver</catDesc>
                   </category>
                </category>
             </taxonomy>
          </classDecl>
-      </encodingDesc> 
+      </encodingDesc>
    </teiHeader>
    <text>
       <body>
-         <div type="citList">
+         <div type="included">
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-m #r-n">Mit innigster Verehrung <lb/>Ihr <lb/>dankbar ergebenster</quote>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Mit innigster Verehrung <lb/>Ihr
+                  <lb/>dankbar ergebenster</quote>
                <bibl>
                   <title type="edition">edition humboldt digital</title>
-                  <title type="letter">Carl Sigismund Kunth an Alexander von Humboldt. [Berlin], nach 24. November
-                     1848</title>
+                  <title type="letter">Carl Sigismund Kunth an Alexander von Humboldt. [Berlin],
+                     nach 24. November 1848</title>
                   <ref target="edition-humboldt.de/briefe/detail.xql?id=H0015156"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-n #r-n">Liebevoll</quote>
+               <quote ana="#informal #s-n #r-n" xml:lang="deu">Liebevoll</quote>
                <bibl>
                   <title type="edition">edition humboldt digital</title>
-                  <title type="letter">Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Donnerstag, [19.
-                     September 1844]</title>
+                  <title type="letter">Alexander von Humboldt an Carl Sigismund Kunth. [Berlin],
+                     Donnerstag, [19. September 1844]</title>
                   <ref target="edition-humboldt.de/briefe/detail.xql?id=H0002931"/>
                </bibl>
             </cit>
+         </div>
+         <div type="excluded">
+            <listRef>
+               <ref target="edition-humboldt.de/briefe/detail.xql?id=H0015080"/>
+            </listRef>
          </div>
       </body>
    </text>
