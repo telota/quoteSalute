@@ -40,7 +40,8 @@
                <resp>
                   <note>Hosting and provision of data and application</note>
                </resp>
-               <orgName>TELOTA</orgName>
+               <orgName ref="http://www.bbaw.de/telota">TELOTA - The Electronic Life of the
+                  Academy</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -57,18 +58,20 @@
             <date>2018-04-18</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
-                  <p>Distributed under the Creative Commons Attribution - 4.0 International
-                     license (CC BY 4.0)</p>
+                  <p>Distributed under the Creative Commons Attribution - 4.0 International license
+                     (CC BY 4.0)</p>
                </licence>
             </availability>
          </publicationStmt>
          <notesStmt>
             <note type="data_integration">The data was taken over from <ref
-               target="https://aloys-hirt.bbaw.de"
-               >https://aloys-hirt.bbaw.de</ref> on 15.3.2018. Later
-               published contents of the edition may be added in the future.</note>
+                  target="https://aloys-hirt.bbaw.de">https://aloys-hirt.bbaw.de</ref> on 15.3.2018.
+               Later published contents of the edition may be added in the future.</note>
             <note type="selection">For quoteSalute, those salutes were selected that are relevant
-               for the application in terms of content, form and length. </note>
+               for the application in terms of content, form and length. More information on
+               selection and tagging can be found in the <ref
+                  target="https://correspsearch.net/salute/dokumentation">documentation of the
+                  project</ref>.</note>
          </notesStmt>
          <sourceDesc>
             <bibl>Aloys Hirt – Briefwechsel 1787–1837, ed. by Uta Motschmann.
