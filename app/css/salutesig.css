@@ -71,13 +71,18 @@ img {
 padding: 0.5em;
 background-color: #3098D1;
 color: white;
-font-size: 0.9em;
 font-family: PTSans;
 }
 
-.custom-control-label::after {
+#filter-refresh {
     background-color: #3098D1;
-    border-radius: .25rem;
+    color: white;
+    font-family: PTSans;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::after {
+    background-color: #3098D1;
+    border-radius: 0.25em;
 }
 
 #project-desc {

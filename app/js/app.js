@@ -64,6 +64,12 @@ const app = new Vue({
             ${this.salute.fullURL}
             powered by quoteSalute, https://correspsearch.net/salute/abfrage.xql
             `;
+        },
+        filterClear() {
+            return this.defaultSender,
+            this.defaultReceiver,
+            this.defaultType,
+            this.defaultLanguage;
         }
     },
     methods: {

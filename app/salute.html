@@ -87,16 +87,12 @@
                     <div id="filter">
                         <div class="card-footer">
                             <div>
-                                <!-- button ja oder nein?
-                                <button class="btn btn-default btn-dark" data-toggle="collapse"
-                                    href="" aria-expanded="false" aria-controls="" id="filter-btn"
-                                    v-on:click="refresh()">Filter anwenden</button>-->
-                                <span id="error" class="alert alert-danger" v-if="error"> Es wurde leider keine passende Grußformel gefunden. Bitte nutzen Sie eine andere Filterkombination.
-                                    </span>
+                            <h3 class="first"> Grußformel-Suche filtern
+                            </span>
                             </div>
                             <div class="row">
                                 <div id="genderSender" class="col">
-                                    <label class="filterLabel">Sender</label>
+                                    <label class="filterLabel">Von</label>
                                     <div class="custom-control custom-checkbox">
                                         <input type="checkbox" class="custom-control-input" id="checkboxSender-F" value="s-f" v-model="filter_sender" />
                                         <label class="custom-control-label" for="checkboxSender-F">
@@ -114,7 +110,7 @@
                                     </div>
                                 </div>
                                 <div id="genderReceiver" class="col">
-                                    <label class="filterLabel">Empfänger</label>
+                                    <label class="filterLabel">An</label>
                                     <div class="custom-control custom-checkbox">
                                         <input type="checkbox" class="custom-control-input" id="checkboxReceiver-F" value="r-f" v-model="filter_receiver" />
                                         <label class="custom-control-label" for="checkboxReceiver-F">
@@ -172,6 +168,18 @@
                                             <i class=""></i> Französisch</label>
                                     </div>
                                 </div>
+                                
+                            </div>
+                            <div>
+                            <button id="filter-refresh" class="btn btn-default" v-on:click="refresh()">
+                                <i class="fas fa-check"></i> Filter anwenden</button>
+                            <button id="filter-clear" class="btn btn-default" v-on:click="filterClear()">
+                                <i class="fas fa-trash-alt"></i> Filter zurücksetzen</button>
+                            </div>
+                            <div>
+                                    <span id="error" class="alert alert-danger" role="alert" v-if="error"> Es wurde leider keine passende Grußformel gefunden.
+                                        Bitte nutzen Sie eine andere Filterkombination.
+                                    </span>
                             </div>
                         </div>
                     </div>
@@ -189,9 +197,9 @@
                             <p>
                                 <span>quoteSalute</span>
                                 ist ein Studierendenprojekt der TELOTA-Initiative an der Berlin-Brandenburgischen Akademie der Wissenschaften. </p>
-                            <p>Fragen? Kontakt:
+                            <p>Fragen? 
                                 <a href="mailto:telota@bbaw.de">
-                                    <i class="fa fa-envelope"></i>
+                                    <i class="fa fa-envelope"></i> Kontakt
                                 </a>
                             </p>
 
