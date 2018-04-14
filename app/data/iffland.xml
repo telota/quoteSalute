@@ -8,11 +8,11 @@
          <titleStmt>
             <title>&lt;salute&gt;-elements of "August Wilhelm Ifflands
                dramaturgisches und administratives Archiv"</title>
-            <respStmt>
+             <respStmt>
                <resp>
                   <note>Collection, curation and processing of data</note>
                </resp>
-               <persName>
+               <persName ref="http://d-nb.info/gnd/1034877364">
                   <surname>Dumont</surname>
                   <forename>Stefan</forename>
                </persName>
@@ -24,17 +24,17 @@
                   <surname>Kullick</surname>
                   <forename>Marvin</forename>
                </persName>
-               <persName>
+               <persName ref="http://d-nb.info/gnd/1121508855">
                   <surname>Neuber</surname>
                   <forename>Frederike</forename>
                </persName>
                <persName>
-                  <surname>Luisa</surname>
-                  <forename>Philipp</forename>
+                  <surname>Philipp</surname>
+                  <forename>Luisa</forename>
                </persName>
                <persName>
-                  <surname>Oliver</surname>
-                  <forename>Pohl</forename>
+                  <surname>Pohl</surname>
+                  <forename>Oliver</forename>
                </persName>
             </respStmt>
             <respStmt>
