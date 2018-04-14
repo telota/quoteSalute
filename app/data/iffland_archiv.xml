@@ -6,13 +6,13 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>&lt;salute&gt;-elements of "August Wilhelm Ifflands
-               dramaturgisches und administratives Archiv"</title>
+            <title>&lt;salute&gt;-elements of "August Wilhelm Ifflands dramaturgisches und
+               administratives Archiv"</title>
             <respStmt>
                <resp>
                   <note>Collection, curation and processing of data</note>
                </resp>
-               <persName>
+               <persName ref="http://d-nb.info/gnd/1034877364">
                   <surname>Dumont</surname>
                   <forename>Stefan</forename>
                </persName>
@@ -24,24 +24,25 @@
                   <surname>Kullick</surname>
                   <forename>Marvin</forename>
                </persName>
-               <persName>
+               <persName ref="http://d-nb.info/gnd/1121508855">
                   <surname>Neuber</surname>
                   <forename>Frederike</forename>
                </persName>
                <persName>
-                  <surname>Luisa</surname>
-                  <forename>Philipp</forename>
+                  <surname>Philipp</surname>
+                  <forename>Luisa</forename>
                </persName>
                <persName>
-                  <surname>Oliver</surname>
-                  <forename>Pohl</forename>
+                  <surname>Pohl</surname>
+                  <forename>Oliver</forename>
                </persName>
             </respStmt>
             <respStmt>
                <resp>
                   <note>Hosting and provision of data and application</note>
                </resp>
-               <orgName>TELOTA</orgName>
+               <orgName ref="http://www.bbaw.de/telota">TELOTA - The Electronic Life of the
+                  Academy</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -58,26 +59,28 @@
             <date>2018-04-18</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
-                  <p>Distributed under the Creative Commons Attribution - 4.0 International
-                     license (CC BY 4.0)</p>
+                  <p>Distributed under the Creative Commons Attribution - 4.0 International license
+                     (CC BY 4.0)</p>
                </licence>
             </availability>
          </publicationStmt>
          <notesStmt>
             <note type="data_integration">The data was taken over from <ref
-               target="https://iffland.bbaw.de"
-               >https://iffland.bbaw.de</ref> on 15.3.2018. Later
+                  target="https://iffland.bbaw.de">https://iffland.bbaw.de</ref> on 15.3.2018. Later
                published contents of the edition may be added in the future.</note>
             <note type="selection">For quoteSalute, those salutes were selected that are relevant
-               for the application in terms of content, form and length. </note>
+               for the application in terms of content, form and length. More information on
+               selection and tagging can be found in the <ref
+                  target="https://correspsearch.net/salute/dokumentation">documentation of the
+                  project</ref>.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl>August Wilhelm Ifflands dramaturgisches und administratives Archiv, ed. by Klaus Gerlach.
-               Berlin-Brandenburgische Akademie der Wissenschaften, Berlin.</bibl>
+            <bibl>August Wilhelm Ifflands dramaturgisches und administratives Archiv. Digitale
+               Edition hrsg. von Klaus Gerlach. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin.</bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-        <classDecl>
+         <classDecl>
             <taxonomy>
                <category>
                   <catDesc>Type</catDesc>
@@ -395,7 +398,7 @@
                </bibl>
             </cit>
          </div>
-         <div type="exclude">
+         <div type="excluded">
             <listRef>
                <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000915"/>
                <ref target="http://iffland.bbaw.de/briefe/detail.xql?id=A0000925"/>

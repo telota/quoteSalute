@@ -11,7 +11,7 @@
                <resp>
                   <note>Collection, curation and processing of data</note>
                </resp>
-               <persName>
+               <persName ref="http://d-nb.info/gnd/1034877364">
                   <surname>Dumont</surname>
                   <forename>Stefan</forename>
                </persName>
@@ -23,24 +23,25 @@
                   <surname>Kullick</surname>
                   <forename>Marvin</forename>
                </persName>
-               <persName>
+               <persName ref="http://d-nb.info/gnd/1121508855">
                   <surname>Neuber</surname>
                   <forename>Frederike</forename>
                </persName>
                <persName>
-                  <surname>Luisa</surname>
-                  <forename>Philipp</forename>
+                  <surname>Philipp</surname>
+                  <forename>Luisa</forename>
                </persName>
                <persName>
-                  <surname>Oliver</surname>
-                  <forename>Pohl</forename>
+                  <surname>Pohl</surname>
+                  <forename>Oliver</forename>
                </persName>
             </respStmt>
             <respStmt>
                <resp>
                   <note>Hosting and provision of data and application</note>
                </resp>
-               <orgName>TELOTA</orgName>
+               <orgName ref="http://www.bbaw.de/telota">TELOTA - The Electronic Life of the
+                  Academy</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -57,8 +58,8 @@
             <date>2018-04-18</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
-                  <p>Distributed under the Creative Commons Attribution - 4.0 International
-                     license (CC BY 4.0)</p>
+                  <p>Distributed under the Creative Commons Attribution - 4.0 International license
+                     (CC BY 4.0)</p>
                </licence>
             </availability>
          </publicationStmt>
@@ -67,7 +68,10 @@
                   target="http://megadigital.bbaw.de/">http://megadigital.bbaw.de/</ref> on
                15.3.2018. Later published contents of the edition may be added in the future.</note>
             <note type="selection">For quoteSalute, those salutes were selected that are relevant
-               for the application in terms of content, form and length.</note>
+               for the application in terms of content, form and length. More information on
+               selection and tagging can be found in the <ref
+                  target="https://correspsearch.net/salute/dokumentation">documentation of the
+                  project</ref>.</note>
          </notesStmt>
          <sourceDesc>
             <bibl>Marx-Engels-Gesamtausgabe digital. Hg. von der Internationalen
@@ -114,7 +118,7 @@
    </teiHeader>
    <text>
       <body>
-         <div type="citList">
+         <div type="included">
             <cit>
                <quote ana="#formal #s-n #r-n" xml:lang="deu">Besten Gruß <lb/>
                </quote>
@@ -170,8 +174,8 @@
                <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihr treu ergebner <lb/>K. Marx</quote>
                <bibl>
                   <title type="edition">Marx-Engels-Gesamtausgabe digital</title>
-                  <title type="letter">Karl Marx an Louis Kugelmann in Hannover. London, Montag,
-                     15. Januar 1866</title>
+                  <title type="letter">Karl Marx an Louis Kugelmann in Hannover. London, Montag, 15.
+                     Januar 1866</title>
                   <ref target="megadigital.bbaw.de/briefe/detail.xql?id=B00012"/>
                </bibl>
             </cit>

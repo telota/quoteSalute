@@ -11,7 +11,7 @@
                <resp>
                   <note>Collection, curation and processing of data</note>
                </resp>
-               <persName>
+               <persName ref="http://d-nb.info/gnd/1034877364">
                   <surname>Dumont</surname>
                   <forename>Stefan</forename>
                </persName>
@@ -20,27 +20,28 @@
                   <forename>Lou</forename>
                </persName>
                <persName>
-                  <surname>Marvin</surname>
-                  <forename>Kullick</forename>
+                  <surname>Kullick</surname>
+                  <forename>Marvin</forename>
                </persName>
-               <persName>
+               <persName ref="http://d-nb.info/gnd/1121508855">
                   <surname>Neuber</surname>
                   <forename>Frederike</forename>
                </persName>
                <persName>
-                  <surname>Luisa</surname>
-                  <forename>Philipp</forename>
+                  <surname>Philipp</surname>
+                  <forename>Luisa</forename>
                </persName>
                <persName>
-                  <surname>Oliver</surname>
-                  <forename>Pohl</forename>
+                  <surname>Pohl</surname>
+                  <forename>Oliver</forename>
                </persName>
             </respStmt>
             <respStmt>
                <resp>
                   <note>Hosting and provision of data and application</note>
                </resp>
-               <orgName>TELOTA</orgName>
+               <orgName ref="http://www.bbaw.de/telota">TELOTA - The Electronic Life of the
+                  Academy</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -55,19 +56,22 @@
             </publisher>
             <pubPlace>Berlin</pubPlace>
             <date>2018-04-18</date>
-            <!--  wenn nötig: <availability>
+            <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0
-                     International license</p>
-               </licence>-->
-            <!--</availability>-->
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
          </publicationStmt>
          <notesStmt>
             <note type="data_integration">The data was taken over from <ref
                   target="https://edition-humboldt.de">https://edition-humboldt.de</ref> on
                15.3.2018. Later published contents of the edition may be added in the future.</note>
             <note type="selection">For quoteSalute, those salutes were selected that are relevant
-               for the application in terms of content, form and length. </note>
+               for the application in terms of content, form and length. More information on
+               selection and tagging can be found in the <ref
+                  target="https://correspsearch.net/salute/dokumentation">documentation of the
+                  project</ref>.</note>
          </notesStmt>
          <sourceDesc>
             <bibl>edition humboldt digital, ed. by Ottmar Ette. Berlin-Brandenburgische Akademie der
@@ -89,7 +93,7 @@
                <category>
                   <catDesc>Relation</catDesc>
                   <category xml:id="s-m">
-                     <catDesc>content implies male sender</catDesc><!-- Vorschlag für verbesserte Formulierung-->
+                     <catDesc>content implies male sender</catDesc>
                   </category>
                   <category xml:id="s-f">
                      <catDesc>content implies female sender</catDesc>
