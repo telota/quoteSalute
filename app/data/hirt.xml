@@ -78,7 +78,7 @@
       <encodingDesc>
          <classDecl>
             <taxonomy>
-                <category>
+               <category>
                   <catDesc>Type</catDesc>
                   <category xml:id="formal">
                      <catDesc>formal</catDesc>
@@ -90,22 +90,22 @@
                <category>
                   <catDesc>Relation</catDesc>
                   <category xml:id="s-m">
-                     <catDesc>sender is male</catDesc>
+                     <catDesc>content implies male sender</catDesc>
                   </category>
                   <category xml:id="s-f">
-                     <catDesc>sender is female</catDesc>
+                     <catDesc>content implies female sender</catDesc>
                   </category>
                   <category xml:id="s-n">
-                     <catDesc>sender is neutral</catDesc>
+                     <catDesc>content implies neutral sender</catDesc>
                   </category>
                   <category xml:id="r-f">
-                     <catDesc>receiver is female</catDesc>
+                     <catDesc>content implies female receiver</catDesc>
                   </category>
                   <category xml:id="r-m">
-                     <catDesc>receiver is male</catDesc>
+                     <catDesc>content implies male receiver</catDesc>
                   </category>
                   <category xml:id="r-n">
-                     <catDesc>receiver is neutral</catDesc>
+                     <catDesc>content implies neutral receiver</catDesc>
                   </category>
                </category>
             </taxonomy>
