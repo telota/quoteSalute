@@ -72,7 +72,7 @@
                 <div class="card">
                     <div class="card-header" id="mainHeader">
                         <button id="refresh" class="btn btn-default" v-on:click="refresh()">
-                            <i class="fa fa-redo-alt"></i> Neuer Gruß</button>
+                            <i class="fa fa-redo-alt"></i> {{ $t("general.newGreeting") }}</button>
                         <button id="copy" class="btn button" v-clipboard:copy="copyMessage">
                             <i class="fa fa-copy"></i> quote me!</button>
                     </div>
@@ -87,99 +87,99 @@
                     <div id="filter">
                         <div class="card-footer">
                             <div>
-                            <h3 class="first"> Grußformel-Suche filtern
+                            <h3 class="first"> {{ $t("general.filterGreetings") }}
                             </span>
                             </div>
                             <div class="row">
                                 <div id="genderSender" class="col">
-                                    <label class="filterLabel">Von</label>
+                                    <label class="filterLabel">{{ $t("filters.sender") }}</label>
                                     <div class="custom-control custom-checkbox">
                                         <input type="checkbox" class="custom-control-input" id="checkboxSender-F" value="s-f" v-model="filter_sender" />
                                         <label class="custom-control-label" for="checkboxSender-F">
-                                            <i class="fa fa-venus"></i> Female</label>
+                                            <i class="fa fa-venus"></i> {{ $t("filters.female") }}</label>
                                     </div>
                                     <div class="custom-control custom-checkbox">
                                         <input type="checkbox" class="custom-control-input" id="checkboxSender-M" value="s-m" v-model="filter_sender" />
                                         <label class="custom-control-label" for="checkboxSender-M">
-                                            <i class="fa fa-mars"></i> Male</label>
+                                            <i class="fa fa-mars"></i> {{ $t("filters.male") }}</label>
                                     </div>
                                     <div class="custom-control custom-checkbox">
                                         <input type="checkbox" class="custom-control-input" id="checkboxSender-N" value="s-n" v-model="filter_sender" />
                                         <label class="custom-control-label" for="checkboxSender-N">
-                                            <i class="fa fa-genderless"></i> Neutral</label>
+                                            <i class="fa fa-genderless"></i> {{ $t("filters.neutral") }}</label>
                                     </div>
                                 </div>
                                 <div id="genderReceiver" class="col">
-                                    <label class="filterLabel">An</label>
+                                    <label class="filterLabel">{{ $t("filters.receiver") }}</label>
                                     <div class="custom-control custom-checkbox">
                                         <input type="checkbox" class="custom-control-input" id="checkboxReceiver-F" value="r-f" v-model="filter_receiver" />
                                         <label class="custom-control-label" for="checkboxReceiver-F">
-                                            <i class="fa fa-venus"></i> Female</label>
+                                            <i class="fa fa-venus"></i> {{ $t("filters.female") }}</label>
                                     </div>
                                     <div class="custom-control custom-checkbox">
                                         <input type="checkbox" class="custom-control-input" id="checkboxReceiver-M" value="r-m" v-model="filter_receiver" />
                                         <label class="custom-control-label" for="checkboxReceiver-M">
-                                            <i class="fa fa-mars"></i> Male</label>
+                                            <i class="fa fa-mars"></i> {{ $t("filters.male") }}</label>
                                     </div>
                                     <div class="custom-control custom-checkbox">
                                         <input type="checkbox" class="custom-control-input" id="checkboxReceiver-N" value="r-n" v-model="filter_receiver" />
                                         <label class="custom-control-label" for="checkboxReceiver-N">
-                                            <i class="fa fa-genderless"></i> Neutral</label>
+                                            <i class="fa fa-genderless"></i> {{ $t("filters.neutral") }}</label>
                                     </div>
                                 </div>
                                 <div id="formality" class="col">
-                                    <label class="filterLabel">Form</label>
+                                    <label class="filterLabel">{{ $t("filters.form") }}</label>
                                     <div class="custom-control custom-checkbox">
                                         <input type="checkbox" class="custom-control-input" id="checkboxFormal" value="formal" v-model="filter_type" />
                                         <label class="custom-control-label" for="checkboxFormal">
-                                            <i class="fa fa-handshake"></i> Formal</label>
+                                            <i class="fa fa-handshake"></i> {{ $t("filters.formal") }}</label>
                                     </div>
                                     <div class="custom-control custom-checkbox">
                                         <input type="checkbox" class="custom-control-input" id="checkboxInformal" value="informal" v-model="filter_type" />
                                         <label class="custom-control-label" for="checkboxInformal">
-                                            <i class="fa fa-heart"></i> Informal</label>
+                                            <i class="fa fa-heart"></i> {{ $t("filters.informal") }}</label>
                                     </div>
                                 </div>
                                 <div id="language" class="col">
-                                    <label class="filterLabel">Sprache</label>
+                                    <label class="filterLabel">{{ $t("filters.language") }}</label>
                                     <div class="custom-control custom-checkbox">
                                         <input type="checkbox" class="custom-control-input" id="checkboxDeu" value="deu" v-model="filter_language" />
                                         <label class="custom-control-label" for="checkboxDeu">
-                                            <i class=""></i> Deutsch</label>
+                                            <i class=""></i> {{ $t("filters.german") }}</label>
                                     </div>
                                     <div class="custom-control custom-checkbox">
                                         <input type="checkbox" class="custom-control-input" id="checkboxEng" value="eng" v-model="filter_language" />
                                         <label class="custom-control-label" for="checkboxEng">
-                                            <i class=""></i> Englisch</label>
+                                            <i class=""></i> {{ $t("filters.english") }}</label>
                                     </div>
                                     <div class="custom-control custom-checkbox">
                                         <input type="checkbox" class="custom-control-input" id="checkboxSpa" value="spa" v-model="filter_language" />
                                         <label class="custom-control-label" for="checkboxSpa">
-                                            <i class=""></i> Spanisch</label>
+                                            <i class=""></i> {{ $t("filters.spanish") }}</label>
                                     </div>
                                     <div class="custom-control custom-checkbox">
                                         <input type="checkbox" class="custom-control-input" id="checkboxIta" value="ita" v-model="filter_language" />
                                         <label class="custom-control-label" for="checkboxIta">
-                                            <i class=""></i> Italienisch</label>
+                                            <i class=""></i> {{ $t("filters.italian") }}</label>
                                     </div>
                                     <div class="custom-control custom-checkbox">
                                         <input type="checkbox" class="custom-control-input" id="checkboxFra" value="fra" v-model="filter_language" />
                                         <label class="custom-control-label" for="checkboxFra">
-                                            <i class=""></i> Französisch</label>
+                                            <i class=""></i> {{ $t("filters.french") }}</label>
                                     </div>
                                 </div>
                                 
                             </div>
                             <div>
                             <button id="filter-refresh" class="btn btn-default" v-on:click="refresh()">
-                                <i class="fas fa-check"></i> Filter anwenden</button>
+                                <i class="fas fa-check"></i> {{ $t("general.applyFilters") }}</button>
                             <button id="filter-clear" class="btn btn-default" v-on:click="filterClear()">
-                                <i class="fas fa-trash-alt"></i> Filter zurücksetzen</button>
+                                <i class="fas fa-trash-alt"></i> {{ $t("general.resetFilters") }}</button>
                             </div>
                             <div>
-                                    <span id="error" class="alert alert-danger" role="alert" v-if="error"> Es wurde leider keine passende Grußformel gefunden.
-                                        Bitte nutzen Sie eine andere Filterkombination.
-                                    </span>
+                                    <div id="error" class="alert alert-danger" role="alert" v-if="error"> 
+                                        {{ $t("errors.noMatches ")}}
+                                    </div>
                             </div>
                         </div>
                     </div>
