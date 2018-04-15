@@ -589,7 +589,7 @@
          </div>
          <!-- hier beginnt die Ausschlussliste 
  -->
-         <div type="exclude">
+         <div type="excluded">
             <listRef>
                <ref target="url"/>
                <ref target="url"/>
