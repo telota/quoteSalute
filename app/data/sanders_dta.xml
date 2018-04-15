@@ -65,8 +65,8 @@
          </publicationStmt>
          <notesStmt>
             <note type="data_integration">The data was taken over from <ref
-                  target="http://www.deutschestextarchiv.de/search/metadata?corpus=sanders-brief"
-                  >http://www.deutschestextarchiv.de/search/metadata?corpus=sanders-brief</ref> on
+                  target="http://www.deutschestextarchiv.de/search/metadata?corpus=sanders-briefe"
+                  >http://www.deutschestextarchiv.de/search/metadata?corpus=sanders-briefe</ref> on
                12.4.2018. Later published contents of the edition may be added in the future.</note>
             <note type="selection">For quoteSalute, those salutes were selected that are relevant
                for the application in terms of content, form and length. More information on
