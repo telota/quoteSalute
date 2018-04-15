@@ -16,15 +16,21 @@ class Salute {
   }
 }
 
+const clearSender = [];
+const clearReceiver = [];
+const clearType = [];
+const clearLanguage = [];
+
 const defaultSender = ["s-f","s-m","s-n"];
 const defaultReceiver = ["r-f","r-m","r-n"];
 const defaultType = ["formal","informal"];
 const defaultLanguage = ["deu","eng","spa","fra","ita"];
 
+
 const app = new Vue({
     el: '#app',
     data: {
-        salute: new Salute('Hier steht eine Grußformel', 'SaluteSig TechSprint Gruppe', 'TELOTA', 'http://www.bbaw.de/telota/telota'),
+        salute: new Salute('Hier steht eine Grußformel', 'quoteSalute TechSprint Gruppe', 'TELOTA', 'http://www.bbaw.de/telota/telota'),
         // all defined filter values, to have boxes pre-checked
         filter_sender: defaultSender,
         filter_receiver: defaultReceiver,
@@ -66,10 +72,10 @@ const app = new Vue({
             `;
         },
         filterClear() {
-            return this.defaultSender,
-            this.defaultReceiver,
-            this.defaultType,
-            this.defaultLanguage;
+            return this.filter_sender = clearSender,
+            this.filter_receiver = clearReceiver,
+            this.filter_type = clearType,
+            this.filter_language = clearLanguage;
         }
     },
     methods: {
