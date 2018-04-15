@@ -1,14 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Briefwechsel Daniel Sanders im Deutschen Textarchiv.</title>
+            <title>&lt;salute&gt;-elements of "Briefwechsel Daniel Sanders" im Deutschen Textarchiv</title>
+            <respStmt>
+               <resp>
+                  <note>Collection, curation and processing of data</note>
+               </resp>
+               <persName ref="http://d-nb.info/gnd/1034877364">
+                  <surname>Dumont</surname>
+                  <forename>Stefan</forename>
+               </persName>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+               <persName>
+                  <surname>Kullick</surname>
+                  <forename>Marvin</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+               <persName>
+                  <surname>Philipp</surname>
+                  <forename>Luisa</forename>
+               </persName>
+               <persName>
+                  <surname>Pohl</surname>
+                  <forename>Oliver</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>
+                  <note>Hosting and provision of data and application</note>
+               </resp>
+               <orgName ref="http://www.bbaw.de/telota">TELOTA - The Electronic Life of the
+                  Academy</orgName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
-            <p>BBAW</p>
+            <publisher>
+               <orgName>Berlin-Brandenburg Academy of Sciences and Humanities</orgName>
+               <orgName>TELOTA</orgName>
+               <email>telota@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018-04-18</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>Distributed under the Creative Commons Attribution - 4.0 International license
+                     (CC BY 4.0)</p>
+               </licence>
+            </availability>
          </publicationStmt>
+         <notesStmt>
+            <note type="data_integration">The data was taken over from <ref
+                  target="http://www.deutschestextarchiv.de/search/metadata?corpus=sanders-brief"
+                  >http://www.deutschestextarchiv.de/search/metadata?corpus=sanders-brief</ref> on
+               12.4.2018. Later published contents of the edition may be added in the future.</note>
+            <note type="selection">For quoteSalute, those salutes were selected that are relevant
+               for the application in terms of content, form and length. More information on
+               selection and tagging can be found in the <ref
+                  target="https://correspsearch.net/salute/dokumentation">documentation of the
+                  project</ref>.</note>
+         </notesStmt>
          <sourceDesc>
-            <p>Quelle: http://www.deutschestextarchiv.de/search/metadata?corpus=sanders-briefe</p>
+            <bibl>Briefwechsel Daniel Sanders, ed. by Sebastian Göttel, pub. in Deutsches Texarchiv, Berlin 2017-2018.</bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -17,31 +84,31 @@
                <category>
                   <catDesc>Type</catDesc>
                   <category xml:id="formal">
-                     <catDesc>formell</catDesc>
+                     <catDesc>formal</catDesc>
                   </category>
                   <category xml:id="informal">
-                     <catDesc>informell</catDesc>
+                     <catDesc>informal</catDesc>
                   </category>
                </category>
                <category>
                   <catDesc>Relation</catDesc>
                   <category xml:id="s-m">
-                     <catDesc>sender is male</catDesc>
+                     <catDesc>content implies male sender</catDesc>
                   </category>
                   <category xml:id="s-f">
-                     <catDesc>sender is female</catDesc>
+                     <catDesc>content implies female sender</catDesc>
                   </category>
                   <category xml:id="s-n">
-                     <catDesc>sender is neutral</catDesc>
+                     <catDesc>content implies neutral sender</catDesc>
                   </category>
                   <category xml:id="r-f">
-                     <catDesc>receiver is female</catDesc>
+                     <catDesc>content implies female receiver</catDesc>
                   </category>
                   <category xml:id="r-m">
-                     <catDesc>receiver is male</catDesc>
+                     <catDesc>content implies male receiver</catDesc>
                   </category>
                   <category xml:id="r-n">
-                     <catDesc>receiver is neutral</catDesc>
+                     <catDesc>content implies neutral receiver</catDesc>
                   </category>
                </category>
             </taxonomy>
@@ -50,7 +117,7 @@
    </teiHeader>
    <text>
       <body>
-         <div type="citList">
+         <div type="included">
             <cit>
                <quote xml:lang="deu" ana="#formal #s-m #r-m"> Der Präsident des <orgName
                      ref="http://d-nb.info/gnd/39894-9">Reichskanzler-Amt</orgName>
@@ -520,15 +587,14 @@
                </bibl>
             </cit>
          </div>
-         <!-- hier beginnt die Ausschlussliste -->
+         <!-- hier beginnt die Ausschlussliste 
+ -->
          <div type="exclude">
             <listRef>
-               <ref
-                  target="url"/>
-               <ref
-                  target="url"/>
+               <ref target="url"/>
+               <ref target="url"/>
             </listRef>
-         </div> 
+         </div>
       </body>
    </text>
 </TEI>
