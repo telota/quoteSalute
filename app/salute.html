@@ -20,42 +20,8 @@
     <link rel="alternate" type="application/rss+xml" title="RSS" href="https://correspsearch.net//feed/news.rss" />
 </head>
 
-<body>
-    <div id="navbar" class="outerWrap">
-        <div class="innerWrap">
-            <h1>
-                <a href="/index.xql?l=en">correspSearch</a>
-            </h1>
-            <nav>
-                <a href="/index.xql?l=en">Home</a>
-                <a href="/search.xql?l=en">Search</a>
-                <a href="/data.xql?l=en">Data</a>
-                <a href="/index.xql?id=about&amp;l=en">About correspSearch
-                </a>
-                <a href="/index.xql?id=api&amp;l=en">API</a>
-                <a href="/index.xql?id=participate&amp;l=en">Participate</a>
-            </nav>
-            <div id="language">
-                <select id="languageSelect">
-                    <option selected="selected" title="This page in english">English</option>
-                    <option value="https://correspsearch.net/salute/index.xql?id=&amp;l=de" title="Diese Seite in deutsch">Deutsch</option>
-                </select>
-                <script>
-                    $(function () {
-                        // bind change event to select
-                        $('#languageSelect').on('change', function () {
-                            var url = $(this).val(); // get selected value
-                            if (url) { // require a URL
-                                window.location = url; // redirect
-                            }
-                            return false;
-                        });
-                    });
-                </script>
-            </div>
-        </div>
-    </div>
-    <div xmlns="" class="outerWrap contentTop">
+<body>    
+    <div class="outerWrap contentTop">
         <div class="container_12">
             <div class="grid_12 center">
                 <img id="betabutton" src="http://correspsearch.net/resources/images/button_beta2.png" />
@@ -64,7 +30,7 @@
             </div>
         </div>
     </div>
-    <div xmlns="" class="outerWrap contentBottom">
+    <div class="outerWrap contentBottom">
         <!-- CMIF Creator -->
         <!-- vue.js Application -->
         <div class="container_12">
@@ -227,73 +193,6 @@
         </div>
     </div>
     <script src="js/salutesig.js"></script>
-    <footer class="outerWrap">
-        <div class="innerWrap container_12">
-            <div class="grid_3">
-                <ul>
-                    <h3>Website</h3>
-                    <li>
-                        <a href="/index.xql?id=about&amp;l=en">About correspSearch</a>
-                    </li>
-                    <li>
-                        <a href="/index.xql?id=legal&amp;l=en">Legal notice &amp; privacy
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/correspSearch" target="_blank">
-                            <i class="fa fa-twitter"> </i>Follow us on Twitter</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="grid_3">
-                <p style="line-height: normal;"> correspSearch is a web service analysing files which are based on the TEI extension
-                    <a href="https://github.com/TEI-Correspondence-SIG/correspDesc">"correspDesc"</a> of the
-                    <a href="http://www.tei-c.org/Activities/SIG/Correspondence/index.xml">TEI Correspondence SIG</a>.
-                    <a href="https://correspsearch.net//index.xql?id=about&amp;l=en">[more]</a>
-                </p>
-                <p style="line-height: normal;"> The further development of correspSearch is funded by the German Research Foundation (DFG). </p>
-            </div>
-            <div class="grid_1">
-                <a href="http://www.tei-c.org">
-                    <img src="https://correspsearch.net//resources/images/tei_logo.png" />
-                </a>
-                <a href="http://www.dfg.de">
-                    <img width="300px" style="margin: 40px 0 0 0" src="https://correspsearch.net//resources/images/Logo_DFG.svg"
-                        title="Gefördert durch die Deutsche Forschungsgemeinschaft" />
-                </a>
-            </div>
-            <div class="grid_2">
-                <a href="http://www.exist-db.org">
-                    <img width="140px" src="https://correspsearch.net//resources/images/powered-by_white.svg" title="Powered by Open-Source-Software existdb"
-                    />
-                </a>
-            </div>
-            <div class="grid_3">
-                <a href="http://www.bbaw.de">
-                    <img src="https://correspsearch.net//resources/images/bbaw_logo.png" title="Developed by TELOTA, Berlin-Brandenburg Academy of Sciences and Humanities"
-                    />
-                </a>
-            </div>
-        </div>
-    </footer>
-    <script type="text/javascript">
-        var _paq = _paq || [];
-        _paq.push(["setVisitorCookieTimeout", "604800"]);
-        _paq.push(["setSessionCookieTimeout", "0"]);
-        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-        _paq.push(['trackPageView']);
-        _paq.push(['enableLinkTracking']);
-        (function () {
-            var u = "https://piwik.bbaw.de/";
-            _paq.push(['setTrackerUrl', u + 'piwik.php']);
-            _paq.push(['setSiteId', '13']);
-            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
-            g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
-        })();
-    </script>
-    <noscript>
-        <img src="https://piwik.bbaw.de/piwik.php?idsite=13&amp;rec=1" style="border:0" alt="" />
-    </noscript>
 </body>
 
 </html>
