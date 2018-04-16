@@ -67,8 +67,8 @@
          </publicationStmt>
          <notesStmt>
             <note type="data_integration">The data was taken over from <ref
-                  target="https://lebenswelten-lehndorff.bbaw.de/index.xql"
-                  >https://lebenswelten-lehndorff.bbaw.de/index.xql</ref> on 15.3.2018. Later
+                  target="https://lebenswelten-lehndorff.bbaw.de"
+                  >https://lebenswelten-lehndorff.bbaw.de</ref> on 15.3.2018. Later
                published contents of the edition may be added in the future.</note>
             <note type="selection">For quoteSalute, those salutes were selected that are relevant
                for the application in terms of content, form and length. More information on
@@ -249,18 +249,6 @@
                      Berlin, 8. November 1889</title>
                   <ref
                      target="http://lebenswelten-lehndorff.bbaw.de/dokumente/detail.xql?id=lehndorff_p4h_ylk_z1b"
-                  />
-               </bibl>
-            </cit>
-            <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu"> Siebert <lb/>Rechtsanwalt </quote>
-               <bibl>
-                  <title type="edition">Lebenswelten, Erfahrungsräume und politische Horizonte der
-                     ostpreußischen Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</title>
-                  <title type="letter">Rechtsanwalt Siebert an Carol Graf von Lehndorff . Berlin,
-                     23. Januar 1913</title>
-                  <ref
-                     target="http://lebenswelten-lehndorff.bbaw.de/dokumente/detail.xql?id=lehndorff_knx_k3q_pz"
                   />
                </bibl>
             </cit>
@@ -2914,6 +2902,9 @@
                <ref
                   target="http://lebenswelten-lehndorff.bbaw.de/dokumente/detail.xql?id=lehndorff_t25_x3c_wcb"
                />
+               <ref
+                   target="http://lebenswelten-lehndorff.bbaw.de/dokumente/detail.xql?id=lehndorff_knx_k3q_pz"
+                  />
             </listRef>
          </div>
       </body>

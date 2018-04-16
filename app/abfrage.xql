@@ -31,7 +31,7 @@ declare function local:clean-up($nodes as node()*) as xs:string* {
 
 
 
-let $data := "collection('/db/apps/salute-demo/data')//tei:cit"
+let $data := "/db/projects/correspSearch/web/salute/data"
 
 let $language-contains :=
     for $item in tokenize($language, 'X')
@@ -83,42 +83,33 @@ let $filter-receiver :=
         return concat('[', $containQuery, ']')
      else () 
 
-(:
-let $filter-receiver :=
-    if ($receiver)
-    then '[matches(.//@ana, concat("#", $receiver))]'
-    else ()
-    :)
 
-
-let $query := ($data||$filter-type||$filter-sender||$filter-receiver||$filter-language)
-
-
-(: let $urlbase := :)
+let $query := ('$y//tei:cit'||$filter-type||$filter-sender||$filter-receiver||$filter-language)
 
 let $listelements :=
     element root {
+        for $y in collection($data)//tei:TEI
+        return
         for $x in util:eval($query)
             let $quote := element quote {normalize-space(string-join(local:clean-up($x/tei:quote))) }
             let $edition := element edition { normalize-space($x//tei:title[@type='edition']) }
             let $title := element title { normalize-space($x//tei:title[@type='letter']) }
             let $language := element language { normalize-space($x//tei:quote/@xml:lang) }
-            let $urlbase := $x/parent::tei:div/@xml:base/data(.)
-            let $urltail := $x//tei:bibl/@corresp
             let $url := element url { $x//tei:bibl/tei:ref/@target }
+            let $licence := element licence { $y//tei:licence/@target/data(.) }
         return
-        element cit {$quote,$edition,$title,$url,$language}
+        element cit {$quote,$edition,$title,$url,$language,$licence}
     }
 
-let $max := 
-    if ($listelements//cit)
-    then count($listelements//cit)
-    else 1
-    
-let $random := util:random($max)
+let $random := util:random(count($listelements//cit))
 
+let $cleanRandom :=
+    if ($random >= 1)
+    then $random
+    else 1
+   
 let $randomcit :=
-    for $cit in $listelements//cit[position()=$random]
+    for $cit in $listelements//cit[position()=$cleanRandom]
     return 
     $cit
     
