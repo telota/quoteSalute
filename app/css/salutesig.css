@@ -92,7 +92,7 @@ h3.first {
     font-weight: bold;
 }
 
-#licence {
+a#licence {
     font: 0.75em sans-serif;
     color: grey;
 }
