@@ -13,6 +13,20 @@ button#refresh {
     font-family: PTSans;
 }
 
+.button {
+    background-color: #3098D1;
+    color: white;
+    font-family: PTSans;
+    }
+    
+#filter-refresh {
+    background-color: #3098D1;
+    color: white;
+    margin-right: 0.5em;
+    font-family: PTSans;
+}
+
+
 #filter {
     margin-top: 1em;
 }
@@ -68,17 +82,6 @@ img {
     color: #3098D1;
 }
 
-.button {
-background-color: #3098D1;
-color: white;
-font-family: PTSans;
-}
-
-#filter-refresh {
-    background-color: #3098D1;
-    color: white;
-    font-family: PTSans;
-}
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label::after {
     background-color: #3098D1;

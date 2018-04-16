@@ -151,14 +151,15 @@ const app = new Vue({
             ${this.salute.title}
             ${this.salute.edition}
             ${this.salute.fullURL}
-            powered by quoteSalute, https://correspsearch.net/salute/index.xql
+            --
+            powered by quoteSalute, https://correspsearch.net/quotesalute/
             `;
         }
 
     },
     methods: {
         refresh() {
-            let baseURL = "https://correspsearch.net/salute/abfrage.xql";
+            let baseURL = "https://correspsearch.net/quotesalute/abfrage.xql/";
             //AJAX AUFRUF
             this.$http.get(baseURL, {params: {
                     sender: this.senderParam,
@@ -168,7 +169,7 @@ const app = new Vue({
                 }
             }).then(response => {
                 const { quote, title, edition, url, licence } = response.body;
-                this.salute = new Salute(quote, title, edition, url.target, licence);
+                this.salute = new Salute(quote, title, edition, url, licence);
                 this.error = false;
             }).catch(error => {
                 console.log(error);

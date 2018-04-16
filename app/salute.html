@@ -21,6 +21,26 @@
 </head>
 
 <body>    
+        <div id="navbar" class="outerWrap">
+                <div class="innerWrap">
+                    <div id="language"><select id="languageSelect">
+                        <option value="search.xql?l=en" title="This page in english">English</option>
+                        <option selected="selected" title="Diese Seite in deutsch">Deutsch</option></select>
+                        <script>
+                            $(function(){
+                            // bind change event to select
+                            $('#languageSelect').on('change', function () {
+                            var url = $(this).val(); // get selected value
+                            if (url) { // require a URL
+                            window.location = url; // redirect
+                            }
+                            return false;
+                            });
+                            });
+                        </script>
+                    </div>
+                </div>
+            </div>
     <div class="outerWrap contentTop">
         <div class="container_12">
             <div class="grid_12 center">
@@ -48,8 +68,7 @@
                     <div id="source" class="card-body">
                         <a target="_blank" class="show" v-bind:href="salute.fullURL">
                             <i class="fa fa-arrow-circle-right"></i> {{salute.edition }} </a>
-                        <br/> {{ salute.title }} 
-                        <br/><br/> <a target="_blank" id="licence" v-bind:href="salute.licenceUrl">{{salute.licence}}</a>
+                        <br/> {{ salute.title }} <br/><a target="_blank" id="licence" v-bind:href="salute.licenceUrl"> {{salute.licence}}</a>
                     </div>
 
                     <div id="filter">
