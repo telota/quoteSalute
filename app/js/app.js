@@ -142,13 +142,8 @@ const app = new Vue({
             ${this.salute.fullURL}
             powered by quoteSalute, https://correspsearch.net/salute/abfrage.xql
             `;
-        },
-        filterClear() {
-            return this.filter_sender = clearSender,
-            this.filter_receiver = clearReceiver,
-            this.filter_type = clearType,
-            this.filter_language = clearLanguage;
         }
+
     },
     methods: {
         refresh() {
@@ -171,6 +166,12 @@ const app = new Vue({
 
             console.log(this.filter_language);
         },
+        filterClear() {
+                this.filter_sender = clearSender,
+                this.filter_receiver = clearReceiver,
+                this.filter_type = clearType,
+                this.filter_language = clearLanguage;
+        }
     },
     mounted() {
         this.refresh();
