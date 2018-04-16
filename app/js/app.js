@@ -48,6 +48,7 @@ const messages = {
             newGreeting: 'Neuer Gruß',
             applyFilters: 'Filter anwenden',
             resetFilters: 'Filter aufheben',
+            allFilters: 'Alle Filter',
         },
         filters: {
             sender: 'Von',
@@ -78,6 +79,7 @@ const messages = {
             newGreeting: 'New Greeting',
             applyFilters: 'Apply Filters',
             resetFilters: 'Clear Filters',
+            allFilters: 'All Filters',
         },
         filters: {
             sender: 'From',
@@ -190,7 +192,13 @@ const app = new Vue({
                 this.filter_receiver = clearReceiver,
                 this.filter_type = clearType,
                 this.filter_language = clearLanguage;
-        }
+        },
+        filterAll() {
+                this.filter_sender = allSender,
+                this.filter_receiver = allReceiver,
+                this.filter_type = allType,
+                this.filter_language = allLanguage;
+        },
     },
     mounted() {
         this.refresh();
