@@ -37,7 +37,7 @@ const clearLanguage = [];
 const defaultSender = ["s-f","s-m","s-n"];
 const defaultReceiver = ["r-f","r-m","r-n"];
 const defaultType = ["formal","informal"];
-const defaultLanguage = ["deu","eng","spa","fra","ita", "grc"];
+const defaultLanguage = ["deu","eng","spa","fra","ita", "grc", "lat"];
 
 const messages = {
     de: {
@@ -62,7 +62,8 @@ const messages = {
             german: 'Deutsch',
             italian: 'Italienisch',
             spanish: 'Spanisch',
-            greek: 'Griechisch'
+            greek: 'Griechisch',
+            latin: 'Latein'
 
         },
         errors: {
@@ -91,7 +92,8 @@ const messages = {
             german: 'German',
             italian: 'Italian',
             spanish: 'Spanish',
-            greek: 'Greek'
+            greek: 'Greek',
+            latin: 'Latin'
         },
         errors: {
             noMatches: 'We could not find a matching greeting. Please try some other filters.'

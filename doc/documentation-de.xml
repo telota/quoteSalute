@@ -292,35 +292,60 @@
                      
                      <!-- Hier Taxonomie erläutern: Tabelle mit Wert, Definition und (?) Beispiel -->
                      <table>
+                        <head>Die Taxonomie für die Filterfunktion</head>
                         <row role="label">
-                           <cell>XPath (Relativ zu //teiHeader)</cell>
+                           <cell>Wert</cell>
                            <cell>Beschreibung</cell>
-                           <cell>Wert(e) und Beispiel(e)</cell>
                         </row>
                         <row>
-                           <cell rend="code">/encodingDesc/classDecl/taxonomy</cell>
-                           <cell>Hier wird die Taxonomie deklariert. Sie besteht aus zwei Kategorien in der die jeweiligen Attribute und möglichen Attributwerte zur Filterbereitstellung beschrieben werden.</cell>
+                           <cell rend="code">#formal</cell>
+                           <cell>Grußformel ist förmlich.</cell>
+                        </row>
+                        <row>
+                           <cell rend="code">#informal</cell>
+                           <cell>Grußformel ist freundschaftlich.</cell>
                            <cell>E.g. <hi rend="code"/></cell>
                         </row>
                         <row>
-                           <cell rend="code">/encodingDesc/classDecl/taxonomy/category</cell>
-                           <cell>Die Taxonomie enthält zwei Kategorien, in der jeweils der Attributname, sowie die zugehörigen Werte angegeben sind.</cell>
-                           <cell>E.g. <hi rend="code"/></cell>
+                           <cell rend="code">#s-m</cell>
+                           <cell>Grußformel impliziert einen männlichen Absender</cell> 
                         </row>
                         <row>
-                           <cell rend="code">/encodingDesc/classDecl/taxonomy/category/catDesc</cell>
-                           <cell>Beschreibt welches Attribut (also Type oder Relation) an dieser Stelle deklariert wird.</cell>
-                           <cell>E.g. <hi rend="code"/>Type</cell>
+                           <cell rend="code">#s-f</cell>
+                           <cell>Grußformel impliziert eine weibliche Absenderin</cell>
                         </row>
                         <row>
-                           <cell rend="code">/encodingDesc/classDecl/taxonomy/category/category/@xml:id</cell>
-                           <cell>Enthält den zugehörigen Wert für das jeweilige Attribut</cell>
-                           <cell>E.g. <hi rend="code"/>"formal"</cell>
+                           <cell rend="code">#s-n</cell>
+                           <cell>Grußformel impliziert kein Geschlecht der Abersenderin/des Absenders</cell>
                         </row>
                         <row>
-                           <cell rend="code">/encodingDesc/classDecl/taxonomy/category/category/catDesc</cell>
-                           <cell>Enthält eine Beschreibung der Bedeutung des Attributwertes.</cell>
-                           <cell>E.g. <hi rend="code"/>content implies female sender</cell>
+                           <cell rend="code">#r-m</cell>
+                           <cell>Grußformel impliziert einen männlichen Empfänger</cell>
+                        </row>
+                        <row>
+                           <cell rend="code">#r-f</cell>
+                           <cell>Grußformel impliziert eine weibliche Empfänger</cell>
+                        </row>
+                        <row>
+                           <cell rend="code">#r-n</cell>
+                           <cell>Grußformel impliziert kein Geschlecht der Empfängerin/des Empfängers</cell>
+                        </row>
+                        <row>
+                        <cell>Beispiel: Grußformel ist formal</cell>
+                        <cell><hi rend="code"/>&lt;quote xml:lang="deu" ana="#formal #s-n #r-n"&gt;Bis dahin empfiehlt sich Ihrem Wohlwollen
+                     hochachtungsvoll&lt;/quote&gt;</cell>
+                        </row>
+                        <row>
+                        <cell>Beispiel: Grußformel impliziert kein erkennbares Geschlecht</cell>
+                        <cell><hi rend="code"/>&lt;quote xml:lang="deu" ana="#informal #s-n #r-n"&gt;Leb wohl.&lt;/quote&gt;</cell></cell>
+                        </row>
+                        <row>
+                        <cell>Beispiel: Grußformel impliziert männlichen Absender</cell>
+                        <cell><hi rend="code"/>&lt;quote xml:lang="deu" ana="#formal #s-m #r-n"&gt;Ihr treuer Diener&lt;/quote&gt;</cell>
+                        </row>
+                        <row>
+                        <cell>Beispiel: Grußformel impliziert weibliche Empfängerin</cell>
+                        <cell><hi rend="code"/>&lt;quote xml:lang="deu" ana="#formal #s-n #r-f"&gt;Gottes Segen über Sie, meine teure Mutter&lt;/quote&gt;</cell>
                         </row>
                      </table>
                   </div>
