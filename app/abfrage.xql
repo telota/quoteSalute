@@ -95,7 +95,7 @@ let $listelements :=
             let $edition := element edition { normalize-space($x//tei:title[@type='edition']) }
             let $title := element title { normalize-space($x//tei:title[@type='letter']) }
             let $language := element language { normalize-space($x//tei:quote/@xml:lang) }
-            let $url := element url { $x//tei:bibl/tei:ref/@target }
+            let $url := element url { $x//tei:bibl/tei:ref/@target/data(.) }
             let $licence := element licence { $y//tei:licence/@target/data(.) }
         return
         element cit {$quote,$edition,$title,$url,$language,$licence}
