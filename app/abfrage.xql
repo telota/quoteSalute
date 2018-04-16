@@ -110,15 +110,15 @@ let $listelements :=
         element cit {$quote,$edition,$title,$url,$language}
     }
 
-let $max := 
-    if ($listelements//cit)
-    then count($listelements//cit)
-    else 1
-    
-let $random := util:random($max)
+let $random := util:random(count($listelements//cit))
 
+let $cleanRandom :=
+    if ($random >= 1)
+    then $random
+    else 1
+   
 let $randomcit :=
-    for $cit in $listelements//cit[position()=$random]
+    for $cit in $listelements//cit[position()=$cleanRandom]
     return 
     $cit
     
