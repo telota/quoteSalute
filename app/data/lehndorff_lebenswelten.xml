@@ -67,8 +67,8 @@
          </publicationStmt>
          <notesStmt>
             <note type="data_integration">The data was taken over from <ref
-                  target="https://lebenswelten-lehndorff.bbaw.de/index.xql"
-                  >https://lebenswelten-lehndorff.bbaw.de/index.xql</ref> on 15.3.2018. Later
+                  target="https://lebenswelten-lehndorff.bbaw.de"
+                  >https://lebenswelten-lehndorff.bbaw.de</ref> on 15.3.2018. Later
                published contents of the edition may be added in the future.</note>
             <note type="selection">For quoteSalute, those salutes were selected that are relevant
                for the application in terms of content, form and length. More information on
