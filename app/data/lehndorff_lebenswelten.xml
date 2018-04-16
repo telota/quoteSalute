@@ -253,18 +253,6 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu"> Siebert <lb/>Rechtsanwalt </quote>
-               <bibl>
-                  <title type="edition">Lebenswelten, Erfahrungsräume und politische Horizonte der
-                     ostpreußischen Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</title>
-                  <title type="letter">Rechtsanwalt Siebert an Carol Graf von Lehndorff . Berlin,
-                     23. Januar 1913</title>
-                  <ref
-                     target="http://lebenswelten-lehndorff.bbaw.de/dokumente/detail.xql?id=lehndorff_knx_k3q_pz"
-                  />
-               </bibl>
-            </cit>
-            <cit>
                <quote ana="#formal #s-n #r-n" xml:lang="deu"> Gott mit Ihnen </quote>
                <bibl>
                   <title type="edition">Lebenswelten, Erfahrungsräume und politische Horizonte der
@@ -2914,6 +2902,9 @@
                <ref
                   target="http://lebenswelten-lehndorff.bbaw.de/dokumente/detail.xql?id=lehndorff_t25_x3c_wcb"
                />
+               <ref
+                   target="http://lebenswelten-lehndorff.bbaw.de/dokumente/detail.xql?id=lehndorff_knx_k3q_pz"
+                  />
             </listRef>
          </div>
       </body>
