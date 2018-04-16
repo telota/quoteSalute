@@ -3,20 +3,21 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>saluteSig</title>
+            <title>quoteSalute</title>
          </titleStmt>
          <publicationStmt>
             <publisher>
                <ref target=""/>
             </publisher>
-            <idno type="url">https://github.com/telota/salutesig/tree/master/docs/salutesig-documentation_de.xml</idno>
+            <idno type="url"
+               >https://github.com/telota/salutesig/tree/master/doc/documentation_de.xml</idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">This file is licensed
                   under the terms of the Creative Commons License CC-BY 4.0</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>Born digital</p>
+            <p/>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -25,217 +26,280 @@
          <div>
             <head>quoteSalute - Dokumentation</head>
             <div>
-               <head>Das Projekt</head>
-               <p>quoteSalute bietet inspirierende Grußformeln aus digitalen Briefeditionen für Ihre E-Mail-Korrespondenz. Die Anwendung schafft so einen spielerischen Zugang in die Welt historischer Korrespondenzen und ermöglicht die Einbindung wissenschaflicher Editionsarbeit in Ihre Alltagskommunikation.</p>
-                  <p>quoteSalute ist ein
-                  Studierendenprojekt der TELOTA-Initiative an der Berlin-Brandenburgischen Akademie
-                  der Wissenschaften.</p>
-            </div>
-            <div>
-               <head>Grußformeln suchen</head>
-               <p>Auf der Webseite können Sie direkt nach Grußformeln stöbern. Wenn Ihnen die
-                  angezeigte Grußformel nicht gefällt, generieren Sie sich einfach mit Klick auf den
-                  orangenen Refresh-Button eine andere. Mit Filtern können Sie die Suchanfrage
-                  außerdem nach Ihren Wünschen einschränken. Haben Sie die passende Grußformel
-                  gefunden, können Sie sie mit dem Copy-Button ganz einfach kopieren. Öffnen Sie das
-                  E-Mail-Programm Ihrer Wahl und dann einfach in die nächste Mail einfügen und
-                  versenden!</p>
-            </div>
-            <div>
-               <head>Textkorpus</head>
-               <p>Ein kuratiertes Korpus aus Grußformeln verschiedener digitaler Briefeditionen ist
-                  die Grundlage von quoteSalute. Dafür wurden &lt;salute&gt;-Elemente aus den
-                  TEI/XML-Daten der Editionen automatisiert extrahiert und für jede Edition eine
-                  TEI/XML-Datei erstellt, die eine Liste der Grußformeln sowie dazugehörige
-                  bibliographische Angaben enhält. Bei der Kuratierung wurden die Daten (1) von
-                  Wiederholungen, unpassenden Inhalten und sehr kurzen Grußformeln bereinigt und (2)
-                  mit einem eigenen Tagging versehen, um ein späteres Filtern der Grußformlen zu
-                  ermöglichen. Die Grußformeln wurden nach drei Kriterien getaggt. Zum einen wurde
-                  festgestellt, ob die Grußformel inhaltlich eher formal oder freundschaftlich
-                  anmutet. Zum anderen wurde verzeichnet, ob das Geschlecht von Sender*in oder
-                  Empfänger*in aus dem Sinnzusammenhang deutlich wird. Und schließlich wurde die
-                  jeweilige Sprache ausgezeichnet. Dieses tagging ermöglicht die spätere
-                  Filterfunktion und macht, zusammen mit der o.g. Bereinigung, eine Kuratierung der
-                  Daten notwendig.</p>
-               <p>Der Textkorpus wird derzeit von folgenden digitalen Briefeditionen gespeist: </p>
-               <list>
-                  <item>
-                     <ref target="http://edition-humboldt.de/index.xql">edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin.</ref>
-                  </item>
-                  <item>
-                     <ref target="http://jean-paul.bbaw.de/">Jean Paul Edition. Hrsg. von Markus Bernauer. Berlin-Brandenburgische Akademie der Wissenschaften </ref><!-- noch herauszufinden -->
-                  </item>
-                  <item>
-                     <ref target="http://iffland.bbaw.de/index.xql">August Wilhelm Ifflands dramaturgisches und administratives Archiv. Digitale Edition hrsg. von Klaus Gerlach. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin.</ref>
-                  </item>
-                  <item>
-                     <ref target="https://wvh-briefe.bbaw.de/">Wilhelm
-                        von Humboldt - Spachwissenschaftliche Korrepondenz. Hrsg. von Martin Grötschel. Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                  </item>
-                  <item>
-                     <ref target="http://aloys-hirt.bbaw.de/index.xql">Aloys Hirt. Briefwechsel 1787–1837. Digitale Edition hrsg. von Uta Motschmann</ref>
-                  </item>
-                  <item>
-                     <ref target="http://lebenswelten-lehndorff.bbaw.de/index.xql">Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert. Digitale Edition. Bearbeitet von Gaby Huch. Berlin-Brandenburgische Akademie der Wissenschaften. Berlin 2017-2018.</ref>
-                  </item>
-                  <item>
-                     <ref target="http://www.weber-gesamtausgabe.de">Carl-Maria-von-Weber-Gesamtausgabe. Digitale Edition (Version 3.2.1 vom 8. Januar 2018).</ref>  <!-- steht so im cS, ist das vollständig? -->
-                  </item>
-                  <item>
-                     <ref target="http://www.berliner-intellektuelle.eu/">Briefe und Texte aus dem intellektuellen Berlin um 1800. Hrsg. v. Anne Baillot. Berlin: Humboldt-Universität zu Berlin.</ref> 
-                  </item>
-                  <item>
-                     <ref target="http://www.deutschestextarchiv.de/sanders-briefe">Briefwechsel Daniel Sanders. Digitale Edition (Version vom 8. Februar 2018).</ref> <!-- steht so im cS, ist das vollständig? -->
-                  </item>
-                  <item>
-                     <ref target="http://erdmuthe.thulb.uni-jena.de/">Prell, Martin u. Schmidt-Funke, Julia (Hg.): Digitale Edition der Briefe Erdmuthe Benignas von Reuß-Ebersdorf (1670-1732). Jena 2017 [Work in Progress]. </ref>
-                  </item>
-               </list>
-            </div>
-            <div>
-               <head>Technologien</head>
-               <p>Das Generieren der Grußformeln wurde in einer Webapplikation umgesetzt. Diese
-                  wurde mit HTML, CSS und Javascript realisiert. Zusätzlich benutzen wir das
-                  Front-End-Framework VueJS für die Verarbeitung der Daten und für den dynamischen
-                  Austausch von HTML-Elementen und ziehen Bootstrap zur einheitlichen Darstellung
-                  auf der Website zur Hilfe. Als Datenbank nutzen wir eXist db, die Datenbankabfrage
-                  erfolgt mittels XQuery und die Response-Daten werden im JSON-Format
-                  ausgegeben.</p>
-            </div>
-            <div>
-               <head>MITMACHEN</head>
-               <p> Sie arbeiten an einer Digitalen Briefedition und finden die Grußformeln Ihrer
-                  Korrespondenz sollten auch dabei sein? Gerne möchten wir den quoteSalute-Bestand
-                  erweitern. Jede digitale Briefedition, die auf dem TEI-Format basiert, kann
-                  partizipieren.</p>
-               <p> Für eine Beteiligung Ihres Projektes benötigen wir eine TEI-XML-Datei mit den Grußformeln Ihrer digitalen Briefedition. Damit Sie diese möglichst einfach generieren können, stellen wir Ihnen eine <ref target="../examples/example.xml">Beispieldatei</ref> und eine leere <ref target="../templates/template.xml">template-Datei</ref> zur Verfügung.
-                  Ihre Datei sollte neben den Grußformeln auch zugehörige bibliographische
-                  Angaben (Titel der Edition, Titel des Briefs) und einen Link zur Webansicht des jeweiligen Quell-Briefes in der digitalen Edition
-                  enthalten.  Technische Details entnehmen Sie bitte der untenstehenden Tabelle,
-in der die TEI-Elemente und ihre Funktion aufgelistet sind, sowie den Kommentaren in der Template-Datei.
-               </p>
-               <p> Wenn Sie möchten, dass Ihre Grußformeln mit der Filterfunktion durchsuchbar sind, müssen Sie die Grußformeln inhaltlich prüfen. Dabei erhält jede
-                  Grußformel ein @ana, indem markiert wird, ob (1) aus dem Sinnzusammenhang der Grußformel das
-                  Geschlecht von Sender*in und/oder Empfänger*in deutlich wird und ob (2) das Zitat
-                  formal oder freundschaftlich zu verstehen ist. Zudem sollten Sie die Sprache der Grußformel auszeichnen.
-                  Ansonsten werden Ihre Grußformeln nur dann angezeigt, wenn KEINE Filter gesetzt
-                  sind. </p>
-               <p>Um Ihnen die Abfrage Ihrer Daten und Transformation in unser benötigtes Format zu
-                  erleichter, stellen wir Ihnen eine <ref target="../templates/template.xslt">XSLT Datei</ref> bereit. Diese müssen Sie gegebenenfalls an die spezifischen
-                  Anforderungen Ihrer Edition anpassen.</p>
-            </div>
-            <div>
-               <head>Details</head>
+               <head>Über das Projekt</head>
                <div>
-                  <p>Die folgenden Tabellen bieten detaillierte Informationen über die Struktur der benötigten TEI XML Datei, die für eine Einbindung Ihrer Grußformeln erforderlich ist.</p>
-                  <table>
-                     <row role="label">
-                        <cell>XPath (relativ zu //teiHeader)</cell><!-- FN: grundsätzlich würde ich vorschlagen, als ersten Pfad zwischen //teiHeader 
-und //text zu differenzieren -->
-                        <cell>Beschreibung</cell>
-                        <cell>Wert(e) und Beispiel(e)</cell>
-                     </row>
-                     <row>
-                        <cell rend="code">/fileDesc/titleStmt/title</cell>
-                        <cell>Das ist der Titel der Datei. Er sollte den Namen Ihrer Edition enthalten.</cell>
-                        <cell>E.g. <hi rend="code">&lt;salute&gt;-elements of "edition humboldt digital"</hi></cell>
-                     </row>
-                     <row>
-                        <cell rend="code">/fileDesc/titleStmt/respStmt/note</cell>
-                        <cell></cell><!-- was kommt hier hin? -->
-                        <cell>E.g. <hi rend="code">Collection, curation and processing of data</hi></cell>
-                     </row>
-                     <row>
-                        <cell rend="code">/fileDesc/noteStmt/note/@tpye="data_integration"</cell>
-                        <cell>Angaben und Link zur Edition, aus der die Grußformeln stammen.</cell><!-- was kommt hier hin? -->
-                        <cell>E.g. <hi rend="code">The data was taken over from <ref
-                           target="https://edition-humboldt.de">https://edition-humboldt.de</ref> on
-                           15.3.2018. Later published contents of the edition may be added in the future.</hi></cell>
-                     </row>
-                     <row>
-                        <cell rend="code">/fileDesc/noteStmt/note/@tpye="selection"</cell>
-                        <cell></cell><!-- was kommt hier hin? -->
-                        <cell>E.g. <hi rend="code">For quoteSalute, those salutes were selected that are relevant
-                           for the application in terms of content, form and length.</hi></cell>
-                     </row>
-                     <row>
-                        <cell rend="code">/fileDesc/sourceDesc/bibl</cell>
-                        <cell>Hier ist die vollständige Quellenagabe der Edition einzufügen.</cell>
-                        <cell>E.g. <hi rend="code">edition humboldt digital, ed. by Ottmar Ette. Berlin-Brandenburgische Akademie der
-                           Wissenschaften, Berlin.</hi></cell>
-                     </row>
-                     <row>
-                        <cell rend="code">/encodingDesc</cell>
-                        <cell>Im teiHeader muss die vorgegebene encodingDescription eingefügt werden, das die
-                           möglichen Werte für @ana deklariert. Diese Taxonomy wird im Template vorgegeben und kann ohne Änderungen direkt übernommen werden.</cell>
-                        <cell>E.g. <hi rend="code"/></cell>
-                     </row>
-                     <row>
-                        <cell rend="code">/encodingDesc/classDecl/taxonomy/category/@xml:id</cell> <!-- muss das hierzu -->
-                        <cell>Hier werden in zwei Taxonomien die möglichen Werte für @ana deklariert. </cell>
-                        <cell>E.g. <hi rend="code"></hi></cell>
-                     </row>
-                  </table>
-                  
-                  <p>Tabelle 2</p>
-                  <table>
-                     <row role="label">
-                        <cell>XPath (Relativ zu //text)</cell>
-                        <cell>Beschreibung</cell>
-                        <cell>Wert(e) und Beispiel(e)</cell>
-                     </row>
-                     <row>
-                        <cell rend="code">/div[@type="included"]</cell>
-                        <cell>Dieses div besteht aus der Liste der Grußformeln und den zugehörigen bibliographischen Angaben.</cell>
-                        <cell>E.g. <hi rend="code"/></cell>
-                     </row>
-                     <row>
-                        <cell rend="code">/div[@type="excluded"]/listRef/ref/@target</cell>
-                        <cell>Diese Liste besteht aus den Links der Briefe, die beispielsweise aufgrund von unspassender Sprache, aussortiert wurden.</cell>
-                        <cell>E.g. <hi rend="code">"edition-humboldt.de/briefe/detail.xql?id=H0015080"</hi></cell>
-                     </row>
-                     <row>
-                        <cell rend="code">/div/cit</cell>
-                        <cell>Der Body besteht aus einer Liste von &lt;cit&gt;-Elementen, die die
-                           Grußformeln und die bibliographischen Angabend enthalten</cell>
-                        <cell>E.g. <hi rend="code"/></cell>
-                     </row>
-                     <row>
-                        <cell rend="code">/div/cit/quote</cell>
-                        <cell/>
-                        <cell>E.g. <hi rend="code"/></cell>
-                     </row>
-                     <row>
-                        <cell rend="code">/div/cit/quote/@ana</cell>
-                        <cell>Hier wird das semantische Tagging zu Geschlecht und Formalitätsgrad vorgenommen.
-                           </cell>
-                        <cell>E.g. <hi rend="code">"#informal #s-f #r-m"</hi></cell>
-                     </row>
-                     <row>
-                        <cell rend="code">/div/cit/quote/@xml:lang</cell>
-                        <cell>Hier wird die Sprache der Grußformel verzeichnet nach <ref target="https://iso639-3.sil.org/code_tables/639/data/d">ISO-Code 639-3</ref>.</cell>
-                        <cell>E.g. <hi rend="code">"deu"</hi></cell>
-                     </row>
-                     <row>
-                        <cell rend="code">/div/cit/title[@type="letter"]</cell>
-                        <cell>Titel des Briefs aus der die Grußformel stammt, so wie er in der jeweiligen Edition angegeben ist.</cell>
-                        <cell>E.g. <hi rend="code"/></cell>
-                     </row>
-                     <row>
-                        <cell rend="code">/div/cit/title[@type="edition"]</cell>
-                        <cell>Titel der Edition aus der die Grußformel stammt.</cell>
-                        <cell>E.g. <hi rend="code"/></cell>
-                     </row>
-                     <row>
-                        <cell rend="code">/div/cit/bibl/ref/@target</cell>
-                        <cell>Das @target enthält die URL, die auf den Brief in der digitalen
-                           Edition verlinkt.</cell>
-                        <cell>E.g. <hi rend="code"/>"http://edition-humboldt.de/H0002656"</cell>
-                     </row>
-                  </table>
+                  <head>Was ist quoteSalute</head>
+                  <p>quoteSalute bietet inspirierende Grußformeln aus digitalen Briefeditionen für
+                     Ihre E-Mail-Korrespondenz. Die Anwendung schafft so einen spielerischen Zugang
+                     in die Welt historischer Korrespondenzen und ermöglicht die Einbindung
+                     wissenschaflicher Editionsarbeit in Ihre Alltagskommunikation.</p>
+                  <p>quoteSalute ist ein Studierendenprojekt der TELOTA-Initiative an der
+                     Berlin-Brandenburgischen Akademie der Wissenschaften.</p>
+               </div>
+               <div>
+                  <head>Grußformeln suchen</head>
+                  <p>Auf der Webseite können Sie direkt nach Grußformeln stöbern. Wenn Ihnen die
+                     angezeigte Grußformel nicht gefällt, generieren Sie sich einfach mit Klick auf
+                     den orangenen Refresh-Button eine andere. Mit Filtern können Sie die
+                     Suchanfrage außerdem nach Ihren Wünschen einschränken. Haben Sie die passende
+                     Grußformel gefunden, können Sie sie mit dem Copy-Button ganz einfach kopieren.
+                     Öffnen Sie das E-Mail-Programm Ihrer Wahl und dann einfach in die nächste Mail
+                     einfügen und versenden!</p>
+               </div>
+               <div>
+                  <head>Textkorpus</head>
+                  <p>Ein kuratiertes Korpus aus Grußformeln verschiedener digitaler Briefeditionen
+                     ist die Grundlage von quoteSalute. Dafür wurden &lt;salute&gt;-Elemente aus den
+                     TEI/XML-Daten der Editionen automatisiert extrahiert und für jede Edition eine
+                     TEI/XML-Datei erstellt, die eine Liste der Grußformeln sowie dazugehörige
+                     bibliographische Angaben enhält. Bei der Kuratierung wurden die Daten (1) von
+                     Wiederholungen, unpassenden Inhalten und sehr kurzen Grußformeln bereinigt und
+                     (2) mit einem eigenen Tagging versehen, um ein späteres Filtern der Grußformlen
+                     zu ermöglichen. Die Grußformeln wurden nach drei Kriterien getaggt. Zum einen
+                     wurde festgestellt, ob die Grußformel inhaltlich eher formal oder
+                     freundschaftlich anmutet. Zum anderen wurde verzeichnet, ob das Geschlecht von
+                     Sender*in oder Empfänger*in aus dem Sinnzusammenhang deutlich wird. Und
+                     schließlich wurde die jeweilige Sprache ausgezeichnet. Dieses tagging
+                     ermöglicht die spätere Filterfunktion und macht, zusammen mit der o.g.
+                     Bereinigung, eine Kuratierung der Daten notwendig.</p>
+                  <p>Der Textkorpus wird derzeit von folgenden digitalen Briefeditionen gespeist: </p>
+                  <list>
+                     <item>
+                        <ref target="http://edition-humboldt.de/index.xql">edition humboldt digital,
+                           hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften,
+                           Berlin.</ref>
+                     </item>
+                     <item>
+                        <ref target="http://jean-paul.bbaw.de/">Jean Paul Edition. Hrsg. von Markus
+                           Bernauer. Berlin-Brandenburgische Akademie der Wissenschaften </ref>
+                        <!-- noch herauszufinden -->
+                     </item>
+                     <item>
+                        <ref target="http://iffland.bbaw.de/index.xql">August Wilhelm Ifflands
+                           dramaturgisches und administratives Archiv. Digitale Edition hrsg. von
+                           Klaus Gerlach. Berlin-Brandenburgische Akademie der Wissenschaften,
+                           Berlin.</ref>
+                     </item>
+                     <item>
+                        <ref target="https://wvh-briefe.bbaw.de/">Wilhelm von Humboldt -
+                           Spachwissenschaftliche Korrepondenz. Hrsg. von Martin Grötschel.
+                           Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                     </item>
+                     <item>
+                        <ref target="http://aloys-hirt.bbaw.de/index.xql">Aloys Hirt. Briefwechsel
+                           1787–1837. Digitale Edition hrsg. von Uta Motschmann</ref>
+                     </item>
+                     <item>
+                        <ref target="http://lebenswelten-lehndorff.bbaw.de/index.xql">Lebenswelten,
+                           Erfahrungsräume und politische Horizonte der ostpreußischen Adelsfamilie
+                           Lehndorff vom 18. bis in das 20.Jahrhundert. Digitale Edition. Bearbeitet
+                           von Gaby Huch. Berlin-Brandenburgische Akademie der Wissenschaften.
+                           Berlin 2017-2018.</ref>
+                     </item>
+                     <item>
+                        <ref target="http://www.weber-gesamtausgabe.de"
+                           >Carl-Maria-von-Weber-Gesamtausgabe. Digitale Edition (Version 3.2.1 vom
+                           8. Januar 2018).</ref>
+                        <!-- steht so im cS, ist das vollständig? -->
+                     </item>
+                     <item>
+                        <ref target="http://www.berliner-intellektuelle.eu/">Briefe und Texte aus
+                           dem intellektuellen Berlin um 1800. Hrsg. v. Anne Baillot. Berlin:
+                           Humboldt-Universität zu Berlin.</ref>
+                     </item>
+                     <item>
+                        <ref target="http://www.deutschestextarchiv.de/sanders-briefe">Briefwechsel
+                           Daniel Sanders. Digitale Edition (Version vom 8. Februar 2018).</ref>
+                        <!-- steht so im cS, ist das vollständig? -->
+                     </item>
+                     <item>
+                        <ref target="http://erdmuthe.thulb.uni-jena.de/">Prell, Martin u.
+                           Schmidt-Funke, Julia (Hg.): Digitale Edition der Briefe Erdmuthe Benignas
+                           von Reuß-Ebersdorf (1670-1732). Jena 2017 [Work in Progress]. </ref>
+                     </item>
+                  </list>
+               </div>
+               <div>
+                  <head>Technologien</head>
+                  <p>Das Generieren der Grußformeln wurde in einer Webapplikation umgesetzt. Diese
+                     wurde mit HTML, CSS und Javascript realisiert. Zusätzlich benutzen wir das
+                     Front-End-Framework VueJS für die Verarbeitung der Daten und für den
+                     dynamischen Austausch von HTML-Elementen und ziehen Bootstrap zur einheitlichen
+                     Darstellung auf der Website zur Hilfe. Als Datenbank nutzen wir eXist db, die
+                     Datenbankabfrage erfolgt mittels XQuery und die Response-Daten werden im
+                     JSON-Format ausgegeben.</p>
                </div>
             </div>
+            <div>
+               <head>Dokumentation</head>
+               <div>
+                  <head>Mitmachen</head>
+                  <p> Sie arbeiten an einer Digitalen Briefedition und finden die Grußformeln Ihrer
+                     Korrespondenz sollten auch dabei sein? Gerne möchten wir den
+                     quoteSalute-Bestand erweitern. Jede digitale Briefedition, die auf dem
+                     TEI-Format basiert, kann partizipieren.</p>
+                  <p> Für eine Beteiligung Ihres Projektes benötigen wir eine TEI-XML-Datei mit den
+                     Grußformeln Ihrer digitalen Briefedition. Damit Sie diese möglichst einfach
+                     generieren können, stellen wir Ihnen eine <ref target="../examples/example.xml"
+                        >Beispieldatei</ref> und eine leere <ref target="../templates/template.xml"
+                        >template-Datei</ref> zur Verfügung. Ihre Datei sollte neben den Grußformeln
+                     auch zugehörige bibliographische Angaben (Titel der Edition, Titel des Briefs)
+                     und einen Link zur Webansicht des jeweiligen Quell-Briefes in der digitalen
+                     Edition enthalten. Technische Details entnehmen Sie bitte der untenstehenden
+                     Tabelle, in der die TEI-Elemente und ihre Funktion aufgelistet sind, sowie den
+                     Kommentaren in der Template-Datei. </p>
+               </div>
+               <div>
+                  <head>Filtern ermöglichen</head>
+                  <p> Wenn Sie möchten, dass Ihre Grußformeln mit der Filterfunktion durchsuchbar
+                     sind, müssen Sie die Grußformeln inhaltlich prüfen. Dabei erhält jede
+                     Grußformel ein @ana, indem markiert wird, ob (1) aus dem Sinnzusammenhang der
+                     Grußformel das Geschlecht von Sender*in und/oder Empfänger*in deutlich wird und
+                     ob (2) das Zitat formal oder freundschaftlich zu verstehen ist. Zudem sollten
+                     Sie die Sprache der Grußformel auszeichnen. Ansonsten werden Ihre Grußformeln
+                     nur dann angezeigt, wenn KEINE Filter gesetzt sind. </p>
+                  <p>Um Ihnen die Abfrage Ihrer Daten und Transformation in unser benötigtes Format
+                     zu erleichter, stellen wir Ihnen eine <ref target="../templates/template.xslt"
+                        >XSLT Datei</ref> bereit. Diese müssen Sie gegebenenfalls an die
+                     spezifischen Anforderungen Ihrer Edition anpassen.</p>
+               </div>
+               <div>
+                  <head>Details</head>
+                  <div>
+                     <p>Die folgenden Tabellen bieten detaillierte Informationen über die Struktur
+                        der benötigten TEI XML Datei, die für eine Einbindung Ihrer Grußformeln
+                        erforderlich ist.</p>
+                     <table>
+                        <row role="label">
+                           <cell>XPath (relativ zu //teiHeader)</cell>
+                           <!-- FN: grundsätzlich würde ich vorschlagen, als ersten Pfad zwischen //teiHeader 
+und //text zu differenzieren -->
+                           <cell>Beschreibung</cell>
+                           <cell>Wert(e) und Beispiel(e)</cell>
+                        </row>
+                        <row>
+                           <cell rend="code">/fileDesc/titleStmt/title</cell>
+                           <cell>Das ist der Titel der Datei. Er sollte den Namen Ihrer Edition
+                              enthalten.</cell>
+                           <cell>E.g. <hi rend="code">&lt;salute&gt;-elements of "edition humboldt
+                                 digital"</hi></cell>
+                        </row>
+                        <row>
+                           <cell rend="code">/fileDesc/titleStmt/respStmt/note</cell>
+                           <cell/>
+                           <!-- was kommt hier hin? -->
+                           <cell>E.g. <hi rend="code">Collection, curation and processing of
+                                 data</hi></cell>
+                        </row>
+                        <row>
+                           <cell rend="code">/fileDesc/noteStmt/note/@tpye="data_integration"</cell>
+                           <cell>Angaben und Link zur Edition, aus der die Grußformeln
+                              stammen.</cell>
+                           <!-- was kommt hier hin? -->
+                           <cell>E.g. <hi rend="code">The data was taken over from <ref
+                                    target="https://edition-humboldt.de"
+                                    >https://edition-humboldt.de</ref> on 15.3.2018. Later published
+                                 contents of the edition may be added in the future.</hi></cell>
+                        </row>
+                        <row>
+                           <cell rend="code">/fileDesc/noteStmt/note/@tpye="selection"</cell>
+                           <cell/>
+                           <!-- was kommt hier hin? -->
+                           <cell>E.g. <hi rend="code">For quoteSalute, those salutes were selected
+                                 that are relevant for the application in terms of content, form and
+                                 length.</hi></cell>
+                        </row>
+                        <row>
+                           <cell rend="code">/fileDesc/sourceDesc/bibl</cell>
+                           <cell>Hier ist die vollständige Quellenagabe der Edition
+                              einzufügen.</cell>
+                           <cell>E.g. <hi rend="code">edition humboldt digital, ed. by Ottmar Ette.
+                                 Berlin-Brandenburgische Akademie der Wissenschaften,
+                              Berlin.</hi></cell>
+                        </row>
+                        <row>
+                           <cell rend="code">/encodingDesc</cell>
+                           <cell>Im teiHeader muss die vorgegebene encodingDescription eingefügt
+                              werden, das die möglichen Werte für @ana deklariert. Diese Taxonomy
+                              wird im Template vorgegeben und kann ohne Änderungen direkt übernommen
+                              werden.</cell>
+                           <cell>E.g. <hi rend="code"/></cell>
+                        </row>
+                        <row>
+                           <cell rend="code"
+                              >/encodingDesc/classDecl/taxonomy/category/@xml:id</cell>
+                           <!-- muss das hierzu -->
+                           <cell>Hier werden in zwei Taxonomien die möglichen Werte für @ana
+                              deklariert. </cell>
+                           <cell>E.g. <hi rend="code"/></cell>
+                        </row>
+                     </table>
 
+                     <p>Tabelle 2</p>
+                     <table>
+                        <row role="label">
+                           <cell>XPath (Relativ zu //text)</cell>
+                           <cell>Beschreibung</cell>
+                           <cell>Wert(e) und Beispiel(e)</cell>
+                        </row>
+                        <row>
+                           <cell rend="code">/div[@type="included"]</cell>
+                           <cell>Dieses div besteht aus der Liste der Grußformeln und den
+                              zugehörigen bibliographischen Angaben.</cell>
+                           <cell>E.g. <hi rend="code"/></cell>
+                        </row>
+                        <row>
+                           <cell rend="code">/div[@type="excluded"]/listRef/ref/@target</cell>
+                           <cell>Diese Liste besteht aus den Links der Briefe, die beispielsweise
+                              aufgrund von unspassender Sprache, aussortiert wurden.</cell>
+                           <cell>E.g. <hi rend="code"
+                                 >"edition-humboldt.de/briefe/detail.xql?id=H0015080"</hi></cell>
+                        </row>
+                        <row>
+                           <cell rend="code">/div/cit</cell>
+                           <cell>Der Body besteht aus einer Liste von &lt;cit&gt;-Elementen, die die
+                              Grußformeln und die bibliographischen Angabend enthalten</cell>
+                           <cell>E.g. <hi rend="code"/></cell>
+                        </row>
+                        <row>
+                           <cell rend="code">/div/cit/quote</cell>
+                           <cell/>
+                           <cell>E.g. <hi rend="code"/></cell>
+                        </row>
+                        <row>
+                           <cell rend="code">/div/cit/quote/@ana</cell>
+                           <cell>Hier wird das semantische Tagging zu Geschlecht und Formalitätsgrad
+                              vorgenommen. </cell>
+                           <cell>E.g. <hi rend="code">"#informal #s-f #r-m"</hi></cell>
+                        </row>
+                        <row>
+                           <cell rend="code">/div/cit/quote/@xml:lang</cell>
+                           <cell>Hier wird die Sprache der Grußformel verzeichnet nach <ref
+                                 target="https://iso639-3.sil.org/code_tables/639/data/d">ISO-Code
+                                 639-3</ref>.</cell>
+                           <cell>E.g. <hi rend="code">"deu"</hi></cell>
+                        </row>
+                        <row>
+                           <cell rend="code">/div/cit/title[@type="letter"]</cell>
+                           <cell>Titel des Briefs aus der die Grußformel stammt, so wie er in der
+                              jeweiligen Edition angegeben ist.</cell>
+                           <cell>E.g. <hi rend="code"/></cell>
+                        </row>
+                        <row>
+                           <cell rend="code">/div/cit/title[@type="edition"]</cell>
+                           <cell>Titel der Edition aus der die Grußformel stammt.</cell>
+                           <cell>E.g. <hi rend="code"/></cell>
+                        </row>
+                        <row>
+                           <cell rend="code">/div/cit/bibl/ref/@target</cell>
+                           <cell>Das @target enthält die URL, die auf den Brief in der digitalen
+                              Edition verlinkt.</cell>
+                           <cell>E.g. <hi rend="code"/>"http://edition-humboldt.de/H0002656"</cell>
+                        </row>
+                     </table>
+                  </div>
+               </div>
+            </div>
          </div>
       </body>
    </text>
