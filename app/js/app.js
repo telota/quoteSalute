@@ -10,13 +10,22 @@ Vue.use(VueResouorce);
 Vue.http.headers.common['Access-Control-Allow-Origin'] = '*';
 
 class Salute {
-  constructor(quote, title, edition, fullURL) {
+  constructor(quote, title, edition, fullURL, licence, licenceUrl) {
     this.quote = quote;
     this.title = title;
     this.edition = edition;
     this.fullURL = fullURL;
+    this.licence = licenceDisplay[licence];
+    this.licenceUrl = licence;
   }
 }
+
+const licenceDisplay = {
+    "http://creativecommons.org/licenses/by-sa/4.0/": "CC BY-SA 4.0",
+    "https://creativecommons.org/licenses/by/4.0/": "CC BY 4.0"
+}
+
+const licenceUrl = licence;
 
 const clearSender = [];
 const clearReceiver = [];
@@ -102,7 +111,7 @@ const app = new Vue({
     i18n,
     el: '#app',
     data: {
-        salute: new Salute('Hier steht eine Grußformel', 'quoteSalute TechSprint Gruppe', 'TELOTA', 'http://www.bbaw.de/telota/telota'),
+        salute: new Salute('Hier steht eine Grußformel', 'quoteSalute TechSprint Gruppe', 'TELOTA', 'http://www.bbaw.de/telota/telota', 'licence'),
         // all defined filter values, to have boxes pre-checked
         filter_sender: defaultSender,
         filter_receiver: defaultReceiver,
@@ -156,8 +165,8 @@ const app = new Vue({
                     language: this.lanugageParam
                 }
             }).then(response => {
-                const { quote, title, edition, url } = response.body;
-                this.salute = new Salute(quote, title, edition, url);
+                const { quote, title, edition, url, licence } = response.body;
+                this.salute = new Salute(quote, title, edition, url, licence, licenceUrl);
                 this.error = false;
             }).catch(error => {
                 console.log(error);

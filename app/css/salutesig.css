@@ -91,3 +91,8 @@ font-family: PTSans;
 h3.first {
     font-weight: bold;
 }
+
+#licence {
+    font: 0.75em sans-serif;
+    color: grey;
+}
