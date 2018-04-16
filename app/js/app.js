@@ -9,23 +9,25 @@ Vue.use(VueResouorce);
 
 Vue.http.headers.common['Access-Control-Allow-Origin'] = '*';
 
-class Salute {
-  constructor(quote, title, edition, fullURL, licence, licenceUrl) {
-    this.quote = quote;
-    this.title = title;
-    this.edition = edition;
-    this.fullURL = fullURL;
-    this.licence = licenceDisplay[licence];
-    this.licenceUrl = licence;
-  }
-}
-
 const licenceDisplay = {
     "http://creativecommons.org/licenses/by-sa/4.0/": "CC BY-SA 4.0",
     "https://creativecommons.org/licenses/by/4.0/": "CC BY 4.0"
 }
 
-const licenceUrl = licence;
+class Salute {
+  constructor(quote, title, edition, fullURL, licenceUrl) {
+    this.quote = this.decode(quote);
+    this.title = this.decode(title);
+    this.edition = this.decode(edition);
+    this.fullURL = fullURL;
+    this.licenceUrl = licenceUrl;
+    this.licence = licenceDisplay[licenceUrl];
+  }
+
+  decode(input) {
+    return input.replace('&amp;', '&');
+  }
+}
 
 const clearSender = [];
 const clearReceiver = [];
@@ -166,7 +168,7 @@ const app = new Vue({
                 }
             }).then(response => {
                 const { quote, title, edition, url, licence } = response.body;
-                this.salute = new Salute(quote, title, edition, url, licence, licenceUrl);
+                this.salute = new Salute(quote, title, edition, url.target, licence);
                 this.error = false;
             }).catch(error => {
                 console.log(error);
