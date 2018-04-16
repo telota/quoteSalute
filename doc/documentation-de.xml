@@ -3,7 +3,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>quoteSalute – Dokumentation</title>
+            <title type="main">quoteSalute</title>
+            <title type="sub">Dokumentation</title>
             <respStmt>
                <resp>
                   <note>Collection, curation and processing of data</note>
@@ -52,8 +53,6 @@
    </teiHeader>
    <text>
       <body>
-         <div>
-            <head>quoteSalute - Dokumentation</head>
             <div>
                <head>Über das Projekt</head>
                   <p>quoteSalute bietet inspirierende Grußformeln aus digitalen Briefeditionen für
@@ -304,7 +303,6 @@
                         <row>
                            <cell rend="code">#informal</cell>
                            <cell>Grußformel ist freundschaftlich.</cell>
-                           <cell>E.g. <hi rend="code"/></cell>
                         </row>
                         <row>
                            <cell rend="code">#s-m</cell>
@@ -324,34 +322,36 @@
                         </row>
                         <row>
                            <cell rend="code">#r-f</cell>
-                           <cell>Grußformel impliziert eine weibliche Empfänger</cell>
+                           <cell>Grußformel impliziert eine weibliche Empfängerin</cell>
                         </row>
                         <row>
                            <cell rend="code">#r-n</cell>
                            <cell>Grußformel impliziert kein Geschlecht der Empfängerin/des Empfängers</cell>
                         </row>
+                     </table>
+                     <table>
+                        <head>Beispiele für die Annotation</head>
                         <row>
-                        <cell>Beispiel: Grußformel ist formal</cell>
-                        <cell><hi rend="code"/>&lt;quote xml:lang="deu" ana="#formal #s-n #r-n"&gt;Bis dahin empfiehlt sich Ihrem Wohlwollen
-                     hochachtungsvoll&lt;/quote&gt;</cell>
+                        <cell>Grußformel ist formal</cell>
+                           <cell><hi rend="code">&lt;quote xml:lang="deu" ana="#formal #s-n #r-n"&gt;Bis dahin empfiehlt sich Ihrem Wohlwollen
+                              hochachtungsvoll&lt;/quote&gt;</hi></cell>
                         </row>
                         <row>
-                        <cell>Beispiel: Grußformel impliziert kein erkennbares Geschlecht</cell>
-                        <cell><hi rend="code"/>&lt;quote xml:lang="deu" ana="#informal #s-n #r-n"&gt;Leb wohl.&lt;/quote&gt;</cell>
+                        <cell>Grußformel impliziert kein erkennbares Geschlecht</cell>
+                           <cell><hi rend="code">&lt;quote xml:lang="deu" ana="#informal #s-n #r-n"&gt;Leb wohl.&lt;/quote&gt;</hi></cell>
                         </row>
                         <row>
-                        <cell>Beispiel: Grußformel impliziert männlichen Absender</cell>
-                        <cell><hi rend="code"/>&lt;quote xml:lang="deu" ana="#formal #s-m #r-n"&gt;Ihr treuer Diener&lt;/quote&gt;</cell>
+                        <cell>Grußformel impliziert männlichen Absender</cell>
+                           <cell><hi rend="code">&lt;quote xml:lang="deu" ana="#formal #s-m #r-n"&gt;Ihr treuer Diener&lt;/quote&gt;</hi></cell>
                         </row>
                         <row>
-                        <cell>Beispiel: Grußformel impliziert weibliche Empfängerin</cell>
-                        <cell><hi rend="code"/>&lt;quote xml:lang="deu" ana="#formal #s-n #r-f"&gt;Gottes Segen über Sie, meine teure Mutter&lt;/quote&gt;</cell>
+                        <cell>Grußformel impliziert weibliche Empfängerin</cell>
+                           <cell><hi rend="code">&lt;quote xml:lang="deu" ana="#formal #s-n #r-f"&gt;Gottes Segen über Sie, meine teure Mutter&lt;/quote&gt;</hi></cell>
                         </row>
                      </table>
                   </div>
                </div>
             </div>
-         </div>
       </body>
    </text>
 </TEI>
