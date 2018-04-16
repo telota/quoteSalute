@@ -221,7 +221,7 @@
                            <cell>Im teiHeader muss die vorgegebene encodingDescription eingefügt
                               werden, das die möglichen Werte für @ana deklariert. Diese Taxonomy
                               wird im Template vorgegeben und kann ohne Änderungen direkt übernommen
-                              werden.</cell>
+                              werden. Weitere Informationen in der Tabelle weiter unten.</cell>
                            <cell>E.g. <hi rend="code"/></cell>
                            <!-- SD: @Lou: Taxonomie unten in einer dritten Tabelle spezifizieren!!! -->
                         </row>
@@ -291,6 +291,38 @@
                      </table>
                      
                      <!-- Hier Taxonomie erläutern: Tabelle mit Wert, Definition und (?) Beispiel -->
+                     <table>
+                        <row role="label">
+                           <cell>XPath (Relativ zu //teiHeader)</cell>
+                           <cell>Beschreibung</cell>
+                           <cell>Wert(e) und Beispiel(e)</cell>
+                        </row>
+                        <row>
+                           <cell rend="code">/encodingDesc/classDecl/taxonomy</cell>
+                           <cell>Hier wird die Taxonomie deklariert. Sie besteht aus zwei Kategorien in der die jeweiligen Attribute und möglichen Attributwerte zur Filterbereitstellung beschrieben werden.</cell>
+                           <cell>E.g. <hi rend="code"/></cell>
+                        </row>
+                        <row>
+                           <cell rend="code">/encodingDesc/classDecl/taxonomy/category</cell>
+                           <cell>Die Taxonomie enthält zwei Kategorien, in der jeweils der Attributname, sowie die zugehörigen Werte angegeben sind.</cell>
+                           <cell>E.g. <hi rend="code"/></cell>
+                        </row>
+                        <row>
+                           <cell rend="code">/encodingDesc/classDecl/taxonomy/category/catDesc</cell>
+                           <cell>Beschreibt welches Attribut (also Type oder Relation) an dieser Stelle deklariert wird.</cell>
+                           <cell>E.g. <hi rend="code"/>Type</cell>
+                        </row>
+                        <row>
+                           <cell rend="code">/encodingDesc/classDecl/taxonomy/category/category/@xml:id</cell>
+                           <cell>Enthält den zugehörigen Wert für das jeweilige Attribut</cell>
+                           <cell>E.g. <hi rend="code"/>"formal"</cell>
+                        </row>
+                        <row>
+                           <cell rend="code">/encodingDesc/classDecl/taxonomy/category/category/catDesc</cell>
+                           <cell>Enthält eine Beschreibung der Bedeutung des Attributwertes.</cell>
+                           <cell>E.g. <hi rend="code"/>content implies female sender</cell>
+                        </row>
+                     </table>
                   </div>
                </div>
             </div>
