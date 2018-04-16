@@ -337,7 +337,7 @@
                         </row>
                         <row>
                         <cell>Beispiel: Grußformel impliziert kein erkennbares Geschlecht</cell>
-                        <cell><hi rend="code"/>&lt;quote xml:lang="deu" ana="#informal #s-n #r-n"&gt;Leb wohl.&lt;/quote&gt;</cell></cell>
+                        <cell><hi rend="code"/>&lt;quote xml:lang="deu" ana="#informal #s-n #r-n"&gt;Leb wohl.&lt;/quote&gt;</cell>
                         </row>
                         <row>
                         <cell>Beispiel: Grußformel impliziert männlichen Absender</cell>
