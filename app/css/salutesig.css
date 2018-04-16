@@ -20,12 +20,19 @@ button#refresh {
     }
     
 #filter-refresh {
-    background-color: #3098D1;
-    color: white;
     margin-right: 0.5em;
+    background-color: rgb(233, 232, 232);
+    font-family: PTSans;
+}
+#filter-clear {
+    margin-right: 0.5em;
+    background-color: rgb(233, 232, 232);
     font-family: PTSans;
 }
 
+#filter-headline {
+    padding-bottom: 0.5em; 
+}
 
 #filter {
     margin-top: 1em;
@@ -33,7 +40,6 @@ button#refresh {
 
 .filterLabel {
     position: relative;
-    
     font-size: large;
 }
 

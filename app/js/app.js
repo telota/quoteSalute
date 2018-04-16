@@ -34,10 +34,12 @@ const clearReceiver = [];
 const clearType = [];
 const clearLanguage = [];
 
-const defaultSender = ["s-f","s-m","s-n"];
-const defaultReceiver = ["r-f","r-m","r-n"];
-const defaultType = ["formal","informal"];
-const defaultLanguage = ["deu","eng","spa","fra","ita", "grc", "lat"];
+const allSender = ["s-f","s-m","s-n"];
+const allReceiver = ["r-f","r-m","r-n"];
+const allType = ["formal","informal"];
+const allLanguage = ["deu","eng","spa","fra","ita", "grc", "lat"];
+
+
 
 const messages = {
     de: {
@@ -120,10 +122,10 @@ const app = new Vue({
     data: {
         salute: new Salute('Hier steht eine Grußformel', 'quoteSalute TechSprint Gruppe', 'TELOTA', 'http://www.bbaw.de/telota/telota', 'licence'),
         // all defined filter values, to have boxes pre-checked
-        filter_sender: defaultSender,
-        filter_receiver: defaultReceiver,
-        filter_type: defaultType,
-        filter_language: defaultLanguage,
+        filter_sender: clearSender,
+        filter_receiver: clearReceiver,
+        filter_type: clearType,
+        filter_language: clearLanguage,
         error: false,
     },
     computed: {
@@ -131,25 +133,25 @@ const app = new Vue({
             if (this.filter_sender.length) {
                 return this.filter_sender.join('X');
             }
-            return defaultSender.join('X');
+            return allSender.join('X');
         },
         receiverParam() {
             if (this.filter_receiver.length) {
                 return this.filter_receiver.join('X');
             }
-            return defaultReceiver.join('X');
+            return allReceiver.join('X');
         },
         typeParam() {
             if (this.filter_type.length) {
                 return this.filter_type.join('X');
             }
-            return defaultType.join('X');
+            return allType.join('X');
         },
         lanugageParam() {
             if (this.filter_language.length) {
                 return this.filter_language.join('X');
             }
-            return defaultLanguage.join('X');
+            return allLanguage.join('X');
         },
         copyMessage() {
             return `»${this.salute.quote}« \n
