@@ -10,6 +10,7 @@ button#refresh {
     background-color: #F7931E;
     color: white;
     margin-right: 0.5em;
+    font-family: PTSans;
 }
 
 #filter {
