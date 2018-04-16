@@ -66,7 +66,7 @@ const messages = {
         filters: {
             sender: 'From',
             receiver: 'To',
-            form: 'Polinetess',
+            form: 'Politeness',
             language: 'Language',
             female: 'Female',
             male: 'Male',
