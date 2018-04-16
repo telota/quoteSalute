@@ -1,7 +1,9 @@
 import Vue from 'vue';
 import VueClipboard from 'vue-clipboard2';
 import VueResouorce from 'vue-resource';
+import VueI18n from 'vue-i18n'
 
+Vue.use(VueI18n)
 Vue.use(VueClipboard);
 Vue.use(VueResouorce);
 
@@ -26,8 +28,78 @@ const defaultReceiver = ["r-f","r-m","r-n"];
 const defaultType = ["formal","informal"];
 const defaultLanguage = ["deu","eng","spa","fra","ita"];
 
+const messages = {
+    de: {
+        general: {
+            filterGreetings: 'Grußformel-Suche filtern',
+            newGreeting: 'Neuer Gruß',
+            applyFilters: 'Filter anwenden',
+            resetFilters: 'Filter zurücksetzen',
+        },
+        filters: {
+            sender: 'Von',
+            receiver: 'An',
+            form: 'Form',
+            language: 'Sprache',
+            female: 'Weiblich',
+            male: 'Männlich',
+            neutral: 'Neutral',
+            formal: 'Formal',
+            informal: 'Informal',
+            english: 'Englisch',
+            french: 'Französisch',
+            german: 'Deutsch',
+            italian: 'Italienisch',
+            spanish: 'Spanisch'
+        },
+        errors: {
+            noMatches: 'Es wurde leider keine passende Grußformel gefunden. Bitte nutzen Sie eine andere Filterkombination.'
+        }
+    },
+    en: {
+        general: {
+            filterGreetings: 'Filter Greetings-Lookup',
+            newGreeting: 'New Greeting',
+            applyFilters: 'Apply Filters',
+            resetFilters: 'Reset Filters',
+        },
+        filters: {
+            sender: 'From',
+            receiver: 'To',
+            form: 'Polinetess',
+            language: 'Language',
+            female: 'Female',
+            male: 'Male',
+            neutral: 'Neutral',
+            formal: 'Formal',
+            informal: 'Informal',
+            english: 'English',
+            french: 'French',
+            german: 'German',
+            italian: 'Italian',
+            spanish: 'Spanish',
+        },
+        errors: {
+            noMatches: 'We could not find a matching greeting. Please try some other filters.'
+        }
+    }
+};
+
+function checkLocale() {
+    const selectedLanguage = document.querySelector("#languageSelect").value;
+    if (selectedLanguage === 'English') {
+        return 'en';
+    }
+    return 'de';
+}
+
+const i18n = new VueI18n({
+    locale: checkLocale(),
+    messages
+});
 
 const app = new Vue({
+    i18n,
     el: '#app',
     data: {
         salute: new Salute('Hier steht eine Grußformel', 'quoteSalute TechSprint Gruppe', 'TELOTA', 'http://www.bbaw.de/telota/telota'),
