@@ -1,17 +1,17 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js webpack
+  /usr/bin/node /usr/bin/yarn webpack
 
 PATH: 
-  C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\MiKTeX 2.9\miktex\bin\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Calibre2\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\OpenVPN\bin;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Users\Lou\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Microsoft VS Code\bin;C:\Users\Lou\AppData\Roaming\npm;C:\Users\Lou\AppData\Local\Yarn\bin
+  /usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/opt/php71/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
 
 Yarn version: 
   1.5.1
 
 Node version: 
-  8.9.4
+  9.11.1
 
 Platform: 
-  win32 x64
+  linux x64
 
 npm manifest: 
   {
@@ -25,8 +25,13 @@ npm manifest:
     "dependencies": {
       "vue": "^2.5.16",
       "vue-clipboard2": "^0.1.0",
+  <<<<<<< HEAD
       "vue-resource": "^1.5.0",
       "webpack-dev-server": "^3.1.3"
+  =======
+      "vue-i18n": "^7.6.0",
+      "vue-resource": "^1.5.0"
+  >>>>>>> intl
     },
     "scripts": {
       "build": "webpack"
@@ -5356,6 +5361,10 @@ Lockfile:
       clipboard "^2.0.0"
       vue "^2.0.0"
   
+  vue-i18n@^7.6.0:
+    version "7.6.0"
+    resolved "https://registry.yarnpkg.com/vue-i18n/-/vue-i18n-7.6.0.tgz#8745807756f6ca5090fd85629e9cab99b1c6e442"
+  
   vue-resource@^1.5.0:
     version "1.5.0"
     resolved "https://registry.yarnpkg.com/vue-resource/-/vue-resource-1.5.0.tgz#ba0c6ef7af2eeace03cf24a91f529471be974c72"
@@ -5647,17 +5656,10 @@ Lockfile:
       yeoman-environment "^2.0.5"
 
 Trace: 
-  Error: Command failed.
-  Exit code: 2
-  Command: C:\WINDOWS\system32\cmd.exe
-  Arguments: /d /s /c C:\Users\Lou\Desktop\salutesig\app\node_modules\.bin\webpack
-  Directory: C:\Users\Lou\Desktop\salutesig\app
-  Output:
-  
-      at ProcessTermError.MessageError (C:\Program Files (x86)\Yarn\lib\cli.js:186:110)
-      at new ProcessTermError (C:\Program Files (x86)\Yarn\lib\cli.js:226:113)
-      at ChildProcess.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:30281:17)
-      at emitTwo (events.js:126:13)
-      at ChildProcess.emit (events.js:214:7)
-      at maybeClose (internal/child_process.js:925:16)
-      at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+  SyntaxError: /home/suchmaske/Projekte/salutesig/app/package.json: Unexpected token < in JSON at position 251
+      at JSON.parse (<anonymous>)
+      at /usr/lib/node_modules/yarn/lib/cli.js:1036:59
+      at Generator.next (<anonymous>)
+      at step (/usr/lib/node_modules/yarn/lib/cli.js:98:30)
+      at /usr/lib/node_modules/yarn/lib/cli.js:109:13
+      at <anonymous>
