@@ -31,10 +31,10 @@ const defaultLanguage = ["deu","eng","spa","fra","ita"];
 const messages = {
     de: {
         general: {
-            filterGreetings: 'Grußformel-Suche filtern',
+            filterGreetings: 'Grußformeln filtern',
             newGreeting: 'Neuer Gruß',
             applyFilters: 'Filter anwenden',
-            resetFilters: 'Filter zurücksetzen',
+            resetFilters: 'Filter aufheben',
         },
         filters: {
             sender: 'Von',
@@ -58,10 +58,10 @@ const messages = {
     },
     en: {
         general: {
-            filterGreetings: 'Filter Greetings-Lookup',
+            filterGreetings: 'Filter Greetings',
             newGreeting: 'New Greeting',
             applyFilters: 'Apply Filters',
-            resetFilters: 'Reset Filters',
+            resetFilters: 'Clear Filters',
         },
         filters: {
             sender: 'From',
@@ -140,7 +140,7 @@ const app = new Vue({
             ${this.salute.title}
             ${this.salute.edition}
             ${this.salute.fullURL}
-            powered by quoteSalute, https://correspsearch.net/salute/abfrage.xql
+            powered by quoteSalute, https://correspsearch.net/salute/index.xql
             `;
         }
 
