@@ -3,11 +3,40 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>quoteSalute</title>
+            <title>quoteSalute – Dokumentation</title>
+            <respStmt>
+               <resp>
+                  <note>Collection, curation and processing of data</note>
+               </resp>
+               <persName ref="http://d-nb.info/gnd/1034877364">
+                  <surname>Dumont</surname>
+                  <forename>Stefan</forename>
+               </persName>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+               <persName>
+                  <surname>Kullick</surname>
+                  <forename>Marvin</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+               <persName>
+                  <surname>Philipp</surname>
+                  <forename>Luisa</forename>
+               </persName>
+               <persName>
+                  <surname>Pohl</surname>
+                  <forename>Oliver</forename>
+               </persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>
-               <ref target=""/>
+               <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
             </publisher>
             <idno type="url"
                >https://github.com/telota/salutesig/tree/master/doc/documentation_de.xml</idno>
@@ -27,15 +56,12 @@
             <head>quoteSalute - Dokumentation</head>
             <div>
                <head>Über das Projekt</head>
-               <div>
-                  <head>Was ist quoteSalute</head>
                   <p>quoteSalute bietet inspirierende Grußformeln aus digitalen Briefeditionen für
                      Ihre E-Mail-Korrespondenz. Die Anwendung schafft so einen spielerischen Zugang
                      in die Welt historischer Korrespondenzen und ermöglicht die Einbindung
                      wissenschaflicher Editionsarbeit in Ihre Alltagskommunikation.</p>
                   <p>quoteSalute ist ein Studierendenprojekt der TELOTA-Initiative an der
                      Berlin-Brandenburgischen Akademie der Wissenschaften.</p>
-               </div>
                <div>
                   <head>Grußformeln suchen</head>
                   <p>Auf der Webseite können Sie direkt nach Grußformeln stöbern. Wenn Ihnen die
@@ -98,7 +124,6 @@
                         <ref target="http://www.weber-gesamtausgabe.de"
                            >Carl-Maria-von-Weber-Gesamtausgabe. Digitale Edition (Version 3.2.1 vom
                            8. Januar 2018).</ref>
-                        <!-- steht so im cS, ist das vollständig? -->
                      </item>
                      <item>
                         <ref target="http://www.berliner-intellektuelle.eu/">Briefe und Texte aus
@@ -108,7 +133,6 @@
                      <item>
                         <ref target="http://www.deutschestextarchiv.de/sanders-briefe">Briefwechsel
                            Daniel Sanders. Digitale Edition (Version vom 8. Februar 2018).</ref>
-                        <!-- steht so im cS, ist das vollständig? -->
                      </item>
                      <item>
                         <ref target="http://erdmuthe.thulb.uni-jena.de/">Prell, Martin u.
@@ -155,23 +179,22 @@
                      Grußformel das Geschlecht von Sender*in und/oder Empfänger*in deutlich wird und
                      ob (2) das Zitat formal oder freundschaftlich zu verstehen ist. Zudem sollten
                      Sie die Sprache der Grußformel auszeichnen. Ansonsten werden Ihre Grußformeln
-                     nur dann angezeigt, wenn KEINE Filter gesetzt sind. </p>
+                     nur dann angezeigt, wenn <hi rendition="#b">keine</hi> Filter gesetzt sind!</p>
                   <p>Um Ihnen die Abfrage Ihrer Daten und Transformation in unser benötigtes Format
                      zu erleichter, stellen wir Ihnen eine <ref target="../templates/template.xslt"
                         >XSLT Datei</ref> bereit. Diese müssen Sie gegebenenfalls an die
                      spezifischen Anforderungen Ihrer Edition anpassen.</p>
                </div>
                <div>
-                  <head>Details</head>
+                  <head>Kodierung</head>
                   <div>
                      <p>Die folgenden Tabellen bieten detaillierte Informationen über die Struktur
                         der benötigten TEI XML Datei, die für eine Einbindung Ihrer Grußformeln
                         erforderlich ist.</p>
                      <table>
+                        <head>Metaangaben im teiHeader</head>
                         <row role="label">
                            <cell>XPath (relativ zu //teiHeader)</cell>
-                           <!-- FN: grundsätzlich würde ich vorschlagen, als ersten Pfad zwischen //teiHeader 
-und //text zu differenzieren -->
                            <cell>Beschreibung</cell>
                            <cell>Wert(e) und Beispiel(e)</cell>
                         </row>
@@ -184,25 +207,19 @@ und //text zu differenzieren -->
                         </row>
                         <row>
                            <cell rend="code">/fileDesc/titleStmt/respStmt/note</cell>
-                           <cell/>
-                           <!-- was kommt hier hin? -->
-                           <cell>E.g. <hi rend="code">Collection, curation and processing of
-                                 data</hi></cell>
+                           <cell>Spezifizierung der Verantwortlichkeit, d.h. hier konkret nebenstehenden Wert.</cell>
+                           <cell><hi rend="code">Collection, curation and processing of data</hi></cell>
                         </row>
                         <row>
                            <cell rend="code">/fileDesc/noteStmt/note/@tpye="data_integration"</cell>
-                           <cell>Angaben und Link zur Edition, aus der die Grußformeln
-                              stammen.</cell>
-                           <!-- was kommt hier hin? -->
-                           <cell>E.g. <hi rend="code">The data was taken over from <ref
-                                    target="https://edition-humboldt.de"
-                                    >https://edition-humboldt.de</ref> on 15.3.2018. Later published
+                           <cell>Angabe, wann Daten aus der Edition entnommen wurden und dass eine Auswahl erfolgte.</cell>
+                           <cell>E.g. <hi rend="code">The data was taken over from &lt;ref target="https://edition-humboldt.de"&gt;
+                                    https://edition-humboldt.de&lt;/ref&gt; on 15.3.2018. Later published
                                  contents of the edition may be added in the future.</hi></cell>
                         </row>
                         <row>
                            <cell rend="code">/fileDesc/noteStmt/note/@tpye="selection"</cell>
-                           <cell/>
-                           <!-- was kommt hier hin? -->
+                           <cell>Angabe, dass die Grußformeln aus der Edition kuratiert und aufbereitet wurden.</cell>
                            <cell>E.g. <hi rend="code">For quoteSalute, those salutes were selected
                                  that are relevant for the application in terms of content, form and
                                  length.</hi></cell>
@@ -222,19 +239,12 @@ und //text zu differenzieren -->
                               wird im Template vorgegeben und kann ohne Änderungen direkt übernommen
                               werden.</cell>
                            <cell>E.g. <hi rend="code"/></cell>
-                        </row>
-                        <row>
-                           <cell rend="code"
-                              >/encodingDesc/classDecl/taxonomy/category/@xml:id</cell>
-                           <!-- muss das hierzu -->
-                           <cell>Hier werden in zwei Taxonomien die möglichen Werte für @ana
-                              deklariert. </cell>
-                           <cell>E.g. <hi rend="code"/></cell>
+                           <!-- SD: @Lou: Taxonomie unten in einer dritten Tabelle spezifizieren!!! -->
                         </row>
                      </table>
 
-                     <p>Tabelle 2</p>
                      <table>
+                        <head>Grußformeln in //text</head>
                         <row role="label">
                            <cell>XPath (Relativ zu //text)</cell>
                            <cell>Beschreibung</cell>
@@ -244,30 +254,30 @@ und //text zu differenzieren -->
                            <cell rend="code">/div[@type="included"]</cell>
                            <cell>Dieses div besteht aus der Liste der Grußformeln und den
                               zugehörigen bibliographischen Angaben.</cell>
-                           <cell>E.g. <hi rend="code"/></cell>
+                           <cell/>
                         </row>
                         <row>
                            <cell rend="code">/div[@type="excluded"]/listRef/ref/@target</cell>
-                           <cell>Diese Liste besteht aus den Links der Briefe, die beispielsweise
-                              aufgrund von unspassender Sprache, aussortiert wurden.</cell>
+                           <cell>Diese Liste besteht aus den Links der Briefe, deren Grußformeln nicht
+                              im Korpus aufgenommen werden sollen (z.B. weil sie zu kurz sind).</cell>
                            <cell>E.g. <hi rend="code"
-                                 >"edition-humboldt.de/briefe/detail.xql?id=H0015080"</hi></cell>
+                                 >"edition-humboldt.de/H0015080"</hi></cell>
                         </row>
                         <row>
                            <cell rend="code">/div/cit</cell>
-                           <cell>Der Body besteht aus einer Liste von &lt;cit&gt;-Elementen, die die
-                              Grußformeln und die bibliographischen Angabend enthalten</cell>
-                           <cell>E.g. <hi rend="code"/></cell>
+                           <cell>Ein oder mehrere &lt;cit&gt;-Elemente, die die
+                              Grußformeln und die entsprechenden bibliographischen Angaben enthalten</cell>
+                           <cell/>
                         </row>
                         <row>
                            <cell rend="code">/div/cit/quote</cell>
+                           <cell>Die Grußformel als einfacher Text, ohne Anführungszeichen</cell>
                            <cell/>
-                           <cell>E.g. <hi rend="code"/></cell>
                         </row>
                         <row>
                            <cell rend="code">/div/cit/quote/@ana</cell>
-                           <cell>Hier wird das semantische Tagging zu Geschlecht und Formalitätsgrad
-                              vorgenommen. </cell>
+                           <cell>Hier wird das Tagging zu sprechendem und angsprochenem Geschlecht und Formalitätsgrad
+                              vorgenommen. Siehe dazu auch unten die Taxonomie.</cell>
                            <cell>E.g. <hi rend="code">"#informal #s-f #r-m"</hi></cell>
                         </row>
                         <row>
@@ -281,12 +291,12 @@ und //text zu differenzieren -->
                            <cell rend="code">/div/cit/title[@type="letter"]</cell>
                            <cell>Titel des Briefs aus der die Grußformel stammt, so wie er in der
                               jeweiligen Edition angegeben ist.</cell>
-                           <cell>E.g. <hi rend="code"/></cell>
+                           <cell/>
                         </row>
                         <row>
                            <cell rend="code">/div/cit/title[@type="edition"]</cell>
                            <cell>Titel der Edition aus der die Grußformel stammt.</cell>
-                           <cell>E.g. <hi rend="code"/></cell>
+                           <cell/>
                         </row>
                         <row>
                            <cell rend="code">/div/cit/bibl/ref/@target</cell>
@@ -295,6 +305,8 @@ und //text zu differenzieren -->
                            <cell>E.g. <hi rend="code"/>"http://edition-humboldt.de/H0002656"</cell>
                         </row>
                      </table>
+                     
+                     <!-- Hier Taxonomie erläutern: Tabelle mit Wert, Definition und (?) Beispiel -->
                   </div>
                </div>
             </div>
