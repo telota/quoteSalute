@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -66,8 +63,9 @@
          </publicationStmt>
          <notesStmt>
             <note type="data_integration">The data was taken over from <ref
-               target="http://erdmuthe.thulb.uni-jena.de">http://erdmuthe.thulb.uni-jena.de</ref> on
-               12.4.2018. Later published contents of the edition may be added in the future.</note>
+                  target="http://erdmuthe.thulb.uni-jena.de">http://erdmuthe.thulb.uni-jena.de</ref>
+               on 12.4.2018. Later published contents of the edition may be added in the
+               future.</note>
             <note type="selection">For quoteSalute, those salutes were selected that are relevant
                for the application in terms of content, form and length. More information on
                selection and tagging can be found in the <ref
@@ -256,8 +254,6 @@
                   />
                </bibl>
             </cit>
-                  
-            
             <cit>
                <quote xml:lang="deu" ana="#formal #s-f #r-n">bleibe aber <choice>
                      <orig>alle Zeit</orig>
@@ -282,7 +278,7 @@
                      target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-7c55edf5-7d47-4b6f-b497-0fe857eb17634"
                   />
                </bibl>
-            </cit>            
+            </cit>
             <cit>
                <quote xml:lang="deu" ana="#formal #s-f #r-n">ich bleibe<lb/> ihre aufrichtich
                   treüe</quote>
@@ -347,7 +343,6 @@
                   />
                </bibl>
             </cit>
-            
             <cit>
                <quote xml:lang="deu" ana="#formal #s-f #r-m">ich bleibe meines liben 24ſten vetters<lb/>
                   <hi rend="align-right">treüe</hi>
@@ -362,7 +357,6 @@
                   />
                </bibl>
             </cit>
-            
             <cit>
                <quote xml:lang="deu" ana="#formal #s-f #r-n">
                   <del rend="erasure">h</del>
@@ -382,7 +376,6 @@
                   />
                </bibl>
             </cit>
-
             <cit>
                <quote xml:lang="deu" ana="#formal #s-f #r-n">bleibe <choice>
                      <abbr>Erldt</abbr>
@@ -398,7 +391,6 @@
                   />
                </bibl>
             </cit>
-                   
             <cit>
                <quote xml:lang="deu" ana="#formal #s-f #r-n">ich bleibe ihre aufrichtich treüe<lb/>
                   <hi rend="align-right">dinerin</hi>
@@ -413,8 +405,6 @@
                   />
                </bibl>
             </cit>
-           
-                    
             <cit>
                <quote xml:lang="deu" ana="#formal #s-f #r-n">und ich bleibe<lb/>
                   <hi rend="align-right">
@@ -438,8 +428,6 @@
                   />
                </bibl>
             </cit>
-            
-                 
             <cit>
                <quote xml:lang="deu" ana="#formal #s-f #r-n">
                   <hi rend="mark color(#CCCCCC)" hand="#heinrichxxiv_hand3"
@@ -477,7 +465,6 @@
                   />
                </bibl>
             </cit>
-            
             <cit>
                <quote xml:lang="deu" ana="#formal #s-f #r-n">
                   <hi rend="mark color(#FA5858)" hand="#heinrichxxiv_hand" cert="high"
@@ -497,9 +484,6 @@
                   />
                </bibl>
             </cit>
-            
-                  
-               
             <cit>
                <quote xml:lang="deu" ana="#formal #s-f #r-n">ich bleibe <choice>
                      <abbr>Erl</abbr>
@@ -586,7 +570,6 @@
                   />
                </bibl>
             </cit>
-               
             <cit>
                <quote xml:lang="deu" ana="#formal #s-f #r-n">ich bleibe <subst>
                      <del rend="overwritten">d<gap reason="illegible" unit="chars" quantity="4"/>
@@ -606,7 +589,6 @@
                   />
                </bibl>
             </cit>
-               
             <cit>
                <quote xml:lang="deu" ana="#formal #s-f #r-n">ich empfehle <choice>
                      <abbr>Erl</abbr>
@@ -625,7 +607,6 @@
                   />
                </bibl>
             </cit>
-               
             <cit>
                <quote xml:lang="deu" ana="#formal #s-f #r-n">werde <choice>
                      <orig>alle Zeit</orig>
@@ -684,8 +665,7 @@
                      target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-bff0273d-46da-4192-9493-9fc34579a0e61"
                   />
                </bibl>
-            
-                  
+            </cit>
             <cit>
                <quote xml:lang="deu" ana="#formal #s-f #r-n">ich bleibe ihre treüe</quote>
                <bibl>
@@ -698,7 +678,6 @@
                   />
                </bibl>
             </cit>
-                 
             <cit>
                <quote xml:lang="deu" ana="#formal #s-f #r-n">leben ſie<lb/>
                   <choice>
@@ -723,7 +702,6 @@
                   />
                </bibl>
             </cit>
-            
             <cit>
                <quote xml:lang="deu" ana="#formal #s-f #r-n">bleibe <choice>
                      <orig>alle Zeit</orig>
@@ -746,7 +724,6 @@
                   />
                </bibl>
             </cit>
-             
             <cit>
                <quote xml:lang="deu" ana="#formal #s-f #r-n">diſem liben gott und treüen<lb/> vatter
                   ſein ſie auf ewig empfohle<choice>
@@ -788,7 +765,6 @@
                   />
                </bibl>
             </cit>
-            
             <cit>
                <quote xml:lang="deu" ana="#formal #s-f #r-n">es bleibt dabeÿ d<choice>
                      <unclear reason="illegible" cert="high" resp="#MP">a</unclear>
@@ -809,7 +785,6 @@
                   />
                </bibl>
             </cit>
-                        
             <cit>
                <quote xml:lang="deu" ana="#formal #s-f #r-n">
                   <choice>
@@ -830,7 +805,6 @@
                   />
                </bibl>
             </cit>
-                          
             <cit>
                <quote xml:lang="deu" ana="#formal #s-f #r-n">kißen ſie mir <persName
                      corresp="#marie_eleonore_koestritz" resp="#MP">lorel</persName>
@@ -852,7 +826,6 @@
                   />
                </bibl>
             </cit>
-            
             <cit>
                <quote xml:lang="deu" ana="#formal #s-f #r-n">ich bleibe ihre von<lb/> hertzen
                   Ergebne dinerin</quote>
@@ -866,7 +839,6 @@
                   />
                </bibl>
             </cit>
-                             
             <cit>
                <quote xml:lang="deu" ana="#formal #s-f #r-n">
                   <hi rend="mark color(#FA5858)" hand="#heinrichxxiv_hand" cert="high"
@@ -896,7 +868,6 @@
                   />
                </bibl>
             </cit>
-              
             <cit>
                <quote xml:lang="deu" ana="#formal #s-f #r-n">ich bleibe wie<lb/> alle Zeit <choice>
                      <orig>ge weſt</orig>
@@ -919,7 +890,6 @@
                   />
                </bibl>
             </cit>
-           
             <cit>
                <quote xml:lang="deu" ana="#formal #s-f #r-n">bleibe biß inſ grab <del rend="erasure">
                      <unclear reason="incomplete" cert="high" resp="#MP">E</unclear>
@@ -941,11 +911,6 @@
                   />
                </bibl>
             </cit>
-            
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-66f6e0cd-f3a9-412f-949f-0666618ece665"
-                  />
-               
             <cit>
                <quote xml:lang="deu" ana="#formal #s-f #r-n">nuhn ich bleibe<lb/> eüer beÿder
                   treüeſte</quote>
@@ -959,8 +924,6 @@
                   />
                </bibl>
             </cit>
-            
-                 
             <cit>
                <quote xml:lang="deu" ana="#formal #s-f #r-n">ich bleibe die ich <choice>
                      <orig>alle Zeit</orig>
@@ -990,7 +953,6 @@
                   />
                </bibl>
             </cit>
-            
             <cit>
                <quote xml:lang="deu" ana="#formal #s-f #r-n">nuhn ich bleibe<lb/> biß inß grab <choice>
                      <abbr>Erl</abbr>
@@ -1018,8 +980,6 @@
                   />
                </bibl>
             </cit>
-
-  
             <cit>
                <quote xml:lang="deu" ana="#formal #s-f #r-n">
                   <hi rend="mark color(#FA5858)" hand="#heinrichxxiv_hand" cert="high"
@@ -1036,7 +996,6 @@
                   />
                </bibl>
             </cit>
- 
             <cit>
                <quote xml:lang="deu" ana="#formal #s-f #r-n">ſie ſein gott <choice>
                      <orig>be fohlen</orig>
@@ -1053,8 +1012,6 @@
                   />
                </bibl>
             </cit>
-  
-                             
             <cit>
                <quote xml:lang="deu" ana="#formal #s-f #r-m">
                   <hi rend="latin">
@@ -1129,7 +1086,6 @@
                   />
                </bibl>
             </cit>
-            
             <cit>
                <quote xml:lang="deu" ana="#formal #s-f #r-n">Die ich ſchl<unclear reason="illegible"
                      cert="high" resp="#MP">ü</unclear>ßlichen unter <choice>
@@ -1162,291 +1118,178 @@
                   />
                </bibl>
             </cit>
-             
-                  
          </div>
          <!-- hier beginnt die Ausschlussliste -->
          <div type="excluded">
             <listRef>
-               <ref target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-e109097f-09b8-41e5-ab46-4ce2de0aa4798"/>
-                <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-a7ae7d6d-2df4-435c-83dd-501db290bb164"
-                  />
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-3789e43e-dfc9-421e-9105-8a5b9102722e3"
-                  />
-                   <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-fdc0319d-083f-45cb-a2e8-c57f0940b3541"
-                  />
-                     <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-dac4f468-da26-4767-86a2-9157fe3580268"
-                  />
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-0284a1c4-0b61-4b69-94f9-e3d54330e2e52"
-                  />
-               
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-826c643a-8886-4f18-a81b-98d35c473bcd1"
-                  />
-            
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-6bfe7038-4ea6-47f3-b829-b0ca494537b43"
-                  />
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-6da36c50-6978-4892-b187-c47caa50667d3"
-                  />
-               
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-f807c583-f754-4e7e-a606-b6211a6536616"
-                  />
                <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-c98bc8d4-78bb-4b61-85d3-a5cd22e42e198"
-                  />
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-e109097f-09b8-41e5-ab46-4ce2de0aa4798"/>
                <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-23f01892-1f40-4325-9d13-13c710234f483"
-                  />
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-6c65c368-cb1a-4ce3-9fd3-6bbe199394b42"
-                  />
-                  <ref target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-1663e26e-2492-412b-95b7-47d5c975726b0"
-                  />
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-66bf9150-90f7-4449-acfb-f7a8358200732"
-                  />
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-8ee37105-1401-4f74-99f8-c0003e51d8a28"
-                  />
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-a7ae7d6d-2df4-435c-83dd-501db290bb164"/>
                <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-4d6566d7-141a-4451-bc3c-740483a39a4a3"
-                  />
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-3789e43e-dfc9-421e-9105-8a5b9102722e3"/>
                <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-bff0273d-46da-4192-9493-9fc34579a0e61"
-                  />
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-6d8482ab-0fb4-489a-b862-ca41d6f875c42"
-                  />
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-8bc38afd-2658-40c8-9e86-dece5e083bc34"
-                  />
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-fdc0319d-083f-45cb-a2e8-c57f0940b3541"/>
                <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-e07e3740-422a-40e7-9bba-211a708027ba6"
-                  />
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-9a691c0b-0b04-4dcb-9f4a-8eefc6fd04236"
-                  />
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-6595fc4d-acbf-417f-b333-2cf816bbb0db9"
-                  />
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-9edd6d7d-3e39-4147-9119-6a9f79e9b0f99"
-                  />
-                <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-332f67f3-c1d4-4747-a971-89dfcb9eab1d3"
-                  />
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-804359b5-bea1-4dca-b2d3-cba6417736c47"
-                  />
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-caf8bc3d-096b-478c-98dd-7ef841b4c79f0"
-                  />
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-dac4f468-da26-4767-86a2-9157fe3580268"/>
                <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-76b747dc-959b-41ab-85ee-4de72143e4ce9"
-                  />
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-76b747dc-959b-41ab-85ee-4de72143e4ce9"
-                  />
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-b3e98f42-aaa2-49a7-8538-5633b984d4043"
-                  />
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-b3e98f42-aaa2-49a7-8538-5633b984d4043"
-                  />
-               
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-b0215828-5d0f-4cab-8ade-f4c48136557d6"
-                  />
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-85672ae6-e513-47fc-ade0-7566a241c2a65"
-                  />
-             <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-bcd03b44-0e7b-4971-89fa-c8717ce22a3a6"
-                  />
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-5fe8cd30-c333-4bf4-ab95-8e7caae778a64"
-                  />
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-e4328860-997d-4a95-b6d1-6499eb193e233"
-                  />
-                   <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-0bf56989-1c7a-480f-95a8-84413428059c6"
-                  />
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-e4328860-997d-4a95-b6d1-6499eb193e233"
-                  />
-             
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-f91aeb4e-3cb6-4fb3-bd89-2109f240bc619"
-                  />
-               
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-f91aeb4e-3cb6-4fb3-bd89-2109f240bc619"
-                  />
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-fd95c296-929e-48d1-99c0-43d7575c44e66"
-                  />
-
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-fd95c296-929e-48d1-99c0-43d7575c44e66"
-                  />
-
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-35c6148e-3d42-4b26-a4a0-0bb8da46018d6"
-                  />
-
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-35c6148e-3d42-4b26-a4a0-0bb8da46018d6"
-                  />
-      
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-be5c5ca1-a24b-406a-812e-406bda362cc06"
-                  />
-             <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-f6f1abb8-0760-4c06-b5ca-869c3b6534501"
-                  />
-                    <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-f6f1abb8-0760-4c06-b5ca-869c3b6534501"
-                  />
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-4c9889ee-5262-4dc9-ae1d-f343a10b598c6"
-                  />
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-4c9889ee-5262-4dc9-ae1d-f343a10b598c6"
-                  />
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-eab52c85-f599-413f-996d-275741df99369"
-                  />
-           <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-64b06e29-deb6-4f76-b1bc-1595c84a7c549"
-                  />
-                        <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-64b06e29-deb6-4f76-b1bc-1595c84a7c549"
-                  />
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-471c45d5-cf59-4ed8-a52d-e646a66a84e06"
-                  />
- 
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-471c45d5-cf59-4ed8-a52d-e646a66a84e06"
-                  />
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-b2d8fbdd-52d8-4675-981d-2188761c21609"
-                  />
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-b2d8fbdd-52d8-4675-981d-2188761c21609"
-                  />
-                 
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-a293eb24-cef7-41d3-b30c-4fda02c8d72e0"
-                  />
-               
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-a293eb24-cef7-41d3-b30c-4fda02c8d72e0"
-                  />
-              
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-b7b93f53-cd94-450e-a3c2-747bd4fbbd880"
-                  />
-                <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-e91cd7c6-ebae-4c83-9d3e-25e770fed8c29"
-                  />
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-0284a1c4-0b61-4b69-94f9-e3d54330e2e52"/>
                <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-e91cd7c6-ebae-4c83-9d3e-25e770fed8c29"
-                  />
-                
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-fac3877b-78f9-410b-9990-8f56c30a54706"
-                  />
-             
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-fac3877b-78f9-410b-9990-8f56c30a54706"
-                  />
- 
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-d545f927-257b-463a-bdbd-2861d114cf389"
-                  />
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-d545f927-257b-463a-bdbd-2861d114cf389"
-                  />
-                
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-14131094-a1d1-4f4d-bf79-0ee2cfac7b603"
-                  />
-              
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-14131094-a1d1-4f4d-bf79-0ee2cfac7b603"
-                  />
-                 
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-6d2a65ea-4c8e-4512-8b09-0de332fbc4359"
-                  />
-                
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-6d2a65ea-4c8e-4512-8b09-0de332fbc4359"
-                  />
-                
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-1e493e32-85ba-4ca3-b168-82c791afbcc05"
-                  />
-                
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-1e493e32-85ba-4ca3-b168-82c791afbcc05"
-                  />
-                
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-9cacf818-433b-49d6-9876-11fabef526b57"
-                  />
-                
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-9cacf818-433b-49d6-9876-11fabef526b57"
-                  />
-                
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-6ef73966-c45b-4993-898f-c10997dbdb671"
-                  />
-               
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-6ef73966-c45b-4993-898f-c10997dbdb671"
-                  />
-                
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-d31ffd45-8acf-42b4-8215-a069606749313"
-                  />
-                
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-d31ffd45-8acf-42b4-8215-a069606749313"
-                  />
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-82bd934f-4237-4b98-8aaa-6fb1235447cb5"
-                  />
-  
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-82bd934f-4237-4b98-8aaa-6fb1235447cb5"
-                  />
-             
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-82bd934f-4237-4b98-8aaa-6fb1235447cb5"
-                  />
-               
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-b523a1e5-30de-4acf-b7cf-04964db472850"
-                  />
-                <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-389ea54b-e686-4e3f-bcbf-377aedce4b8a9"
-                  />
-                  <ref
-                     target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-7c55edf5-7d47-4b6f-b497-0fe857eb17634"
-                  />
-                
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-826c643a-8886-4f18-a81b-98d35c473bcd1"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-6bfe7038-4ea6-47f3-b829-b0ca494537b43"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-6da36c50-6978-4892-b187-c47caa50667d3"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-f807c583-f754-4e7e-a606-b6211a6536616"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-c98bc8d4-78bb-4b61-85d3-a5cd22e42e198"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-23f01892-1f40-4325-9d13-13c710234f483"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-6c65c368-cb1a-4ce3-9fd3-6bbe199394b42"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-1663e26e-2492-412b-95b7-47d5c975726b0"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-66bf9150-90f7-4449-acfb-f7a8358200732"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-8ee37105-1401-4f74-99f8-c0003e51d8a28"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-4d6566d7-141a-4451-bc3c-740483a39a4a3"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-bff0273d-46da-4192-9493-9fc34579a0e61"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-6d8482ab-0fb4-489a-b862-ca41d6f875c42"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-8bc38afd-2658-40c8-9e86-dece5e083bc34"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-e07e3740-422a-40e7-9bba-211a708027ba6"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-9a691c0b-0b04-4dcb-9f4a-8eefc6fd04236"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-6595fc4d-acbf-417f-b333-2cf816bbb0db9"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-9edd6d7d-3e39-4147-9119-6a9f79e9b0f99"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-332f67f3-c1d4-4747-a971-89dfcb9eab1d3"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-804359b5-bea1-4dca-b2d3-cba6417736c47"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-caf8bc3d-096b-478c-98dd-7ef841b4c79f0"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-76b747dc-959b-41ab-85ee-4de72143e4ce9"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-76b747dc-959b-41ab-85ee-4de72143e4ce9"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-b3e98f42-aaa2-49a7-8538-5633b984d4043"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-b3e98f42-aaa2-49a7-8538-5633b984d4043"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-b0215828-5d0f-4cab-8ade-f4c48136557d6"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-85672ae6-e513-47fc-ade0-7566a241c2a65"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-bcd03b44-0e7b-4971-89fa-c8717ce22a3a6"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-5fe8cd30-c333-4bf4-ab95-8e7caae778a64"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-e4328860-997d-4a95-b6d1-6499eb193e233"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-0bf56989-1c7a-480f-95a8-84413428059c6"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-e4328860-997d-4a95-b6d1-6499eb193e233"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-f91aeb4e-3cb6-4fb3-bd89-2109f240bc619"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-f91aeb4e-3cb6-4fb3-bd89-2109f240bc619"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-fd95c296-929e-48d1-99c0-43d7575c44e66"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-fd95c296-929e-48d1-99c0-43d7575c44e66"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-35c6148e-3d42-4b26-a4a0-0bb8da46018d6"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-35c6148e-3d42-4b26-a4a0-0bb8da46018d6"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-be5c5ca1-a24b-406a-812e-406bda362cc06"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-f6f1abb8-0760-4c06-b5ca-869c3b6534501"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-f6f1abb8-0760-4c06-b5ca-869c3b6534501"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-4c9889ee-5262-4dc9-ae1d-f343a10b598c6"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-4c9889ee-5262-4dc9-ae1d-f343a10b598c6"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-eab52c85-f599-413f-996d-275741df99369"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-64b06e29-deb6-4f76-b1bc-1595c84a7c549"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-64b06e29-deb6-4f76-b1bc-1595c84a7c549"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-471c45d5-cf59-4ed8-a52d-e646a66a84e06"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-471c45d5-cf59-4ed8-a52d-e646a66a84e06"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-b2d8fbdd-52d8-4675-981d-2188761c21609"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-b2d8fbdd-52d8-4675-981d-2188761c21609"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-a293eb24-cef7-41d3-b30c-4fda02c8d72e0"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-a293eb24-cef7-41d3-b30c-4fda02c8d72e0"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-b7b93f53-cd94-450e-a3c2-747bd4fbbd880"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-e91cd7c6-ebae-4c83-9d3e-25e770fed8c29"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-e91cd7c6-ebae-4c83-9d3e-25e770fed8c29"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-fac3877b-78f9-410b-9990-8f56c30a54706"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-fac3877b-78f9-410b-9990-8f56c30a54706"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-d545f927-257b-463a-bdbd-2861d114cf389"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-d545f927-257b-463a-bdbd-2861d114cf389"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-14131094-a1d1-4f4d-bf79-0ee2cfac7b603"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-14131094-a1d1-4f4d-bf79-0ee2cfac7b603"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-6d2a65ea-4c8e-4512-8b09-0de332fbc4359"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-6d2a65ea-4c8e-4512-8b09-0de332fbc4359"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-1e493e32-85ba-4ca3-b168-82c791afbcc05"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-1e493e32-85ba-4ca3-b168-82c791afbcc05"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-9cacf818-433b-49d6-9876-11fabef526b57"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-9cacf818-433b-49d6-9876-11fabef526b57"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-6ef73966-c45b-4993-898f-c10997dbdb671"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-6ef73966-c45b-4993-898f-c10997dbdb671"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-d31ffd45-8acf-42b4-8215-a069606749313"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-d31ffd45-8acf-42b4-8215-a069606749313"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-82bd934f-4237-4b98-8aaa-6fb1235447cb5"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-82bd934f-4237-4b98-8aaa-6fb1235447cb5"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-82bd934f-4237-4b98-8aaa-6fb1235447cb5"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-b523a1e5-30de-4acf-b7cf-04964db472850"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-389ea54b-e686-4e3f-bcbf-377aedce4b8a9"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-7c55edf5-7d47-4b6f-b497-0fe857eb17634"/>
+               <ref
+                  target="http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:urmel-66f6e0cd-f3a9-412f-949f-0666618ece665"/>
             </listRef>
          </div>
       </body>
