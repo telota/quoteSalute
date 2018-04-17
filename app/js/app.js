@@ -60,7 +60,7 @@ function checkLocale() {
         return 'en';
     }
     
-    return 'en';
+    return 'de';
 }
 
 const i18n = new VueI18n({
