@@ -43,6 +43,12 @@ export default {
         title: 'Schöner Grüßen',
         paragraph: 'Auf dieser Webseite können Sie nach historischen Grußformeln stöbern. Haben Sie die passende Grußformel gefunden, können Sie sie mit dem "quote me!"-Button ganz einfach kopieren. Öffnen Sie das E-Mail-Programm Ihrer Wahl und dann einfach in die nächste Mail einfügen und versenden! Wenn Ihnen die angezeigte Grußformel nicht gefällt, generieren Sie sich einfach mit Klick auf "Neuer Gruß" eine andere. Mit Filtern können Sie die Suchanfrage außerdem nach Ihren Wünschen einschränken.'
     },
+    plugin: {
+        title: 'NEU: Thunderbird Plugin',
+        paragraph: 'Sie möchten Grußformeln direkt in Ihrem E-Mail Programm abrufen? Mit dem quoteSalute Thunderbird Plugin wird das möglich. Einfach runterladen, installieren und dann schöner Grüßen!',
+        download: 'Download',
+        documentation: 'Mehr Informationen',
+    },
     errors: {
         noMatches: 'Es wurde leider keine passende Grußformel gefunden. Bitte nutzen Sie eine andere Filterkombination.'
     }
