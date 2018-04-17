@@ -58,7 +58,7 @@
             <head>Über das Projekt</head>
             <p>quoteSalute bietet inspirierende Grußformeln aus digitalen Briefeditionen für Ihre
                E-Mail-Korrespondenz. Die Anwendung schafft so einen spielerischen Zugang in die Welt
-               historischer Korrespondenzen und ermöglicht die Einbindung wissenschaflicher
+               historischer Korrespondenzen und ermöglicht die Einbindung wissenschaftlicher
                Editionsarbeit in Ihre Alltagskommunikation.</p>
             <p>Entstanden ist quoteSalute durch ein studentisches Projekt von Lou Klappenbach,
                Marvin Kullick und Louisa Philipp, betreut von Stefan Dumont, Frederike Neuber und
@@ -81,14 +81,14 @@
                   die Grundlage von quoteSalute. Dafür wurden &lt;salute&gt;-Elemente aus den
                   TEI/XML-Daten der Editionen automatisiert extrahiert und für jede Edition eine
                   TEI/XML-Datei erstellt, die eine Liste der Grußformeln sowie dazugehörige
-                  bibliographische Angaben enhält. Bei der Kuratierung wurden die Daten (1) von
+                  bibliographische Angaben enthält. Bei der Kuratierung wurden die Daten (1) von
                   Wiederholungen, unpassenden Inhalten und sehr kurzen Grußformeln bereinigt und (2)
-                  mit einem eigenen Tagging versehen, um ein späteres Filtern der Grußformlen zu
+                  mit einem eigenen Tagging versehen, um ein späteres Filtern der Grußformeln zu
                   ermöglichen. Die Grußformeln wurden nach drei Kriterien getaggt. Zum einen wurde
                   festgestellt, ob die Grußformel inhaltlich eher formal oder freundschaftlich
                   anmutet. Zum anderen wurde verzeichnet, ob das Geschlecht von Sender*in oder
                   Empfänger*in aus dem Sinnzusammenhang deutlich wird. Und schließlich wurde die
-                  jeweilige Sprache ausgezeichnet. Dieses tagging ermöglicht die spätere
+                  jeweilige Sprache ausgezeichnet. Dieses Tagging ermöglicht die
                   Filterfunktion und macht, zusammen mit der o.g. Bereinigung, eine Kuratierung der
                   Daten notwendig.</p>
                <p>Der Textkorpus wird derzeit von folgenden digitalen Briefeditionen gespeist: </p>
@@ -281,7 +281,7 @@
                      </row>
                      <row>
                         <cell rend="code">/div/cit/quote/@ana</cell>
-                        <cell>Hier wird das Tagging zu sprechendem und angsprochenem Geschlecht und
+                        <cell>Hier wird das Tagging zu sprechendem und angesprochenem Geschlecht und
                            Formalitätsgrad vorgenommen. Siehe dazu auch unten die Taxonomie.</cell>
                         <cell>E.g. <hi rend="code">"#informal #s-f #r-m"</hi></cell>
                      </row>

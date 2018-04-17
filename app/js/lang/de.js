@@ -29,7 +29,7 @@ export default {
     },
     about: {
         title: 'Über das Projekt',
-        paragraph1: 'quoteSalute bietet inspirierende Grußformeln aus digitalen Briefeditionen für Ihre E-Mail-Korrespondenz. Die Anwendung schafft so einen spielerischen Zugang in die Welt historischer Korrespondenzen und ermöglicht die Einbindung wissenschaflicher Editionsarbeit in Ihre Alltagskommunikation.',
+        paragraph1: 'quoteSalute bietet inspirierende Grußformeln aus digitalen Briefeditionen für Ihre E-Mail-Korrespondenz. Die Anwendung schafft so einen spielerischen Zugang in die Welt historischer Korrespondenzen und ermöglicht die Einbindung wissenschaftlicher Editionsarbeit in Ihre Alltagskommunikation.',
         paragraph2: 'Entstanden ist quoteSalute durch ein studentisches Projekt von Lou Klappenbach, Marvin Kullick und Luisa Philipp, betreut von Stefan Dumont, Frederike Neuber und Oliver Pohl im Rahmen der DH-Arbeitsgruppe TELOTA und dem Projekt “correspSearch - Briefeditionen vernetzen” an der Berlin-Brandenburgischen Akademie der Wissenschaften.',
         more: 'Mehr über das Projekt',
         questions: 'Fragen?',
