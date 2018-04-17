@@ -21,6 +21,7 @@
 </head>
 
 <body>    
+    <div id="app">
         <div id="navbar" class="outerWrap">
                 <div class="innerWrap">
                     <div id="language"><select id="languageSelect">
@@ -46,7 +47,7 @@
             <div class="grid_12 center">
                 <img id="betabutton" src="http://correspsearch.net/resources/images/button_beta2.png" />
                 <h1>quoteSalute</h1>
-                <h2>Inspirierende Grußformeln für Ihre Korrespondenz</h2>
+                <h2>{{ $t("general.subtitle") }}</h2>
             </div>
         </div>
     </div>
@@ -54,7 +55,7 @@
         <!-- CMIF Creator -->
         <!-- vue.js Application -->
         <div class="container_12">
-            <div id="app" class="grid_8">
+            <div class="grid_8">
                 <div class="card">
                     <div class="card-header" id="mainHeader">
                         <button id="refresh" class="btn btn-default" v-on:click="refresh()">
@@ -220,6 +221,7 @@
 
         </div>
     </div>
+</div>
     <script src="js/salutesig.js"></script>
 </body>
 
