@@ -127,7 +127,9 @@ const app = new Vue({
                     language: this.lanugageParam
                 }
             }).then(response => {
-                _paq.push(['trackEvent', 'Refresh quoteSalute'], response.url);
+                if (_paq !== undefined) {
+                    _paq.push(['trackEvent', 'Refresh quoteSalute', response.url]);
+                }
                 const { quote, title, edition, url, licence } = response.body;
                 this.salute = new Salute(quote, title, edition, url, licence);
                 this.error = false;
