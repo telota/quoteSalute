@@ -54,7 +54,7 @@
    </teiHeader>
    <text>
       <body>
-         <div>
+         <div xml:id="a1">
             <head>Über das Projekt</head>
             <p>quoteSalute bietet inspirierende Grußformeln aus digitalen Briefeditionen für Ihre
                E-Mail-Korrespondenz. Die Anwendung schafft so einen spielerischen Zugang in die Welt
@@ -65,7 +65,8 @@
                Oliver Pohl im Rahmen der DH-Arbeitsgruppe <ref target="http://www.bbaw.de/telota">TELOTA</ref> und dem Projekt <ref target="http:/correspSearch.net?l=de">“correspSearch -
                Briefeditionen vernetzen”</ref> an der Berlin-Brandenburgischen Akademie der
                Wissenschaften. </p>
-            <div>
+            </div>
+            <div xml:id="a2">
                <head>Grußformeln suchen</head>
                <p>Auf der Webseite können Sie direkt nach Grußformeln stöbern. Wenn Ihnen die
                   angezeigte Grußformel nicht gefällt, generieren Sie sich einfach mit Klick auf den
@@ -75,7 +76,7 @@
                   E-Mail-Programm Ihrer Wahl und dann einfach in die nächste Mail einfügen und
                   versenden!</p>
             </div>
-            <div>
+            <div xml:id="a3">
                <head>Textkorpus</head>
                <p>Ein kuratiertes Korpus aus Grußformeln verschiedener digitaler Briefeditionen ist
                   die Grundlage von quoteSalute. Dafür wurden &lt;salute&gt;-Elemente aus den
@@ -147,7 +148,7 @@
                   </item>
                </list>
             </div>
-            <div>
+            <div xml:id="a4">
                <head>Technologien</head>
                <p>Das Generieren der Grußformeln wurde in einer Webapplikation umgesetzt. Diese
                   wurde mit HTML, CSS und Javascript realisiert. Zusätzlich benutzen wir das
@@ -157,10 +158,7 @@
                   erfolgt mittels XQuery und die Response-Daten werden im JSON-Format
                   ausgegeben.</p>
             </div>
-         </div>
-         <div>
-            <head>Dokumentation</head>
-            <div>
+            <div xml:id="a9">
                <head>Mitmachen</head>
                <p> Sie arbeiten an einer Digitalen Briefedition und finden die Grußformeln Ihrer
                   Korrespondenz sollten auch dabei sein? Gerne möchten wir den quoteSalute-Bestand
@@ -177,7 +175,7 @@
                   der die TEI-Elemente und ihre Funktion aufgelistet sind, sowie den Kommentaren in
                   der Template-Datei. </p>
             </div>
-            <div>
+            <div xml:id="a6">
                <head>Filtern ermöglichen</head>
                <p> Wenn Sie möchten, dass Ihre Grußformeln mit der Filterfunktion durchsuchbar sind,
                   müssen Sie die Grußformeln inhaltlich prüfen. Dabei erhält jede Grußformel ein
@@ -187,9 +185,8 @@
                   Grußformel auszeichnen. Ansonsten werden Ihre Grußformeln nur dann angezeigt, wenn
                      <hi rendition="#b">keine</hi> Filter gesetzt sind!</p>
             </div>
-            <div>
+            <div xml:id="a7">
                <head>Kodierung</head>
-               <div>
                   <p>Die folgenden Tabellen bieten detaillierte Informationen über die Struktur der
                      benötigten TEI XML Datei, die für eine Einbindung Ihrer Grußformeln
                      erforderlich ist.</p>
@@ -215,7 +212,7 @@
                            data</hi></cell>
                      </row>
                      <row>
-                        <cell rend="code">/fileDesc/noteStmt/note/@tpye="data_integration"</cell>
+                        <cell rend="code">/fileDesc/noteStmt/note/<lb/>@type="data_integration"</cell>
                         <cell>Angabe, wann Daten aus der Edition entnommen wurden und dass eine
                            Auswahl erfolgte.</cell>
                         <cell>E.g. <hi rend="code">The data was taken over from &lt;ref
@@ -224,7 +221,7 @@
                               contents of the edition may be added in the future.</hi></cell>
                      </row>
                      <row>
-                        <cell rend="code">/fileDesc/noteStmt/note/@tpye="selection"</cell>
+                        <cell rend="code">/fileDesc/noteStmt/note/<lb/>@type="selection"</cell>
                         <cell>Angabe, dass die Grußformeln aus der Edition kuratiert und aufbereitet
                            wurden.</cell>
                         <cell>E.g. <hi rend="code">For quoteSalute, those salutes were selected that
@@ -263,7 +260,7 @@
                         <cell/>
                      </row>
                      <row>
-                        <cell rend="code">/div[@type="excluded"]/listRef/ref/@target</cell>
+                        <cell rend="code">/div[@type="excluded"]/<lb/>listRef/ref/@target</cell>
                         <cell>Diese Liste besteht aus den Links der Briefe, deren Grußformeln nicht
                            im Korpus aufgenommen werden sollen (z.B. weil sie zu kurz sind).</cell>
                         <cell>E.g. <hi rend="code">"edition-humboldt.de/H0015080"</hi></cell>
@@ -310,10 +307,12 @@
                         <cell>E.g. <hi rend="code"/>"http://edition-humboldt.de/H0002656"</cell>
                      </row>
                   </table>
-
+                  
+               
+               <div xml:id="a8">
+                  <head>Taxonomie für die Filterfunktion</head>
                   <!-- Hier Taxonomie erläutern: Tabelle mit Wert, Definition und (?) Beispiel -->
                   <table>
-                     <head>Die Taxonomie für die Filterfunktion</head>
                      <row role="label">
                         <cell>Wert</cell>
                         <cell>Beschreibung</cell>
@@ -380,7 +379,6 @@
                   </table>
                </div>
             </div>
-         </div>
       </body>
    </text>
 </TEI>
