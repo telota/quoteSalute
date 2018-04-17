@@ -1,11 +1,15 @@
 import Vue from 'vue';
 import VueClipboard from 'vue-clipboard2';
 import VueResouorce from 'vue-resource';
-import VueI18n from 'vue-i18n'
+import VueI18n from 'vue-i18n';
+import VueTippy from 'vue-tippy';
+import de from './lang/de';
+import en from './lang/en';
 
 Vue.use(VueI18n)
 Vue.use(VueClipboard);
 Vue.use(VueResouorce);
+Vue.use(VueTippy);
 
 Vue.http.headers.common['Access-Control-Allow-Origin'] = '*';
 
@@ -42,75 +46,21 @@ const allLanguage = ["deu","eng","spa","fra","ita", "grc", "lat"];
 
 
 const messages = {
-    de: {
-        general: {
-            filterGreetings: 'Grußformeln filtern',
-            newGreeting: 'Neuer Gruß',
-            applyFilters: 'Filter anwenden',
-            resetFilters: 'Filter aufheben',
-            allFilters: 'Alle Filter',
-        },
-        filters: {
-            sender: 'Von',
-            receiver: 'An',
-            form: 'Form',
-            language: 'Sprache',
-            female: 'Weiblich',
-            male: 'Männlich',
-            neutral: 'Neutral',
-            formal: 'Formal',
-            informal: 'Informal',
-            english: 'Englisch',
-            french: 'Französisch',
-            german: 'Deutsch',
-            italian: 'Italienisch',
-            spanish: 'Spanisch',
-            greek: 'Griechisch',
-            latin: 'Latein'
-
-        },
-        errors: {
-            noMatches: 'Es wurde leider keine passende Grußformel gefunden. Bitte nutzen Sie eine andere Filterkombination.'
-        }
-    },
-    en: {
-        general: {
-            filterGreetings: 'Filter Greetings',
-            newGreeting: 'New Greeting',
-            applyFilters: 'Apply Filters',
-            resetFilters: 'Clear Filters',
-            allFilters: 'All Filters',
-        },
-        filters: {
-            sender: 'From',
-            receiver: 'To',
-            form: 'Politeness',
-            language: 'Language',
-            female: 'Female',
-            male: 'Male',
-            neutral: 'Neutral',
-            formal: 'Formal',
-            informal: 'Informal',
-            english: 'English',
-            french: 'French',
-            german: 'German',
-            italian: 'Italian',
-            spanish: 'Spanish',
-            greek: 'Greek',
-            latin: 'Latin'
-        },
-        errors: {
-            noMatches: 'We could not find a matching greeting. Please try some other filters.'
-        }
-    }
+    de,
+    en
 };
 
 function checkLocale() {
-    const selectedLanguage = document.querySelector("#languageSelect").value;
-    if (selectedLanguage === 'English') {
+    const selectedLanguage = document.querySelector("#languageSelect");
+    if (selectedLanguage === null) {
+        return 'de';
+    }
+
+    if (selectedLanguage.value === 'English') {
         return 'en';
     }
-    return 'de';
+    
+    return 'en';
 }
 
 const i18n = new VueI18n({
