@@ -27,18 +27,6 @@
                     <div id="language"><select id="languageSelect">
                         <option value="search.xql?l=en" title="This page in english">English</option>
                         <option selected="selected" title="Diese Seite in deutsch">Deutsch</option></select>
-                        <script>
-                            $(function(){
-                            // bind change event to select
-                            $('#languageSelect').on('change', function () {
-                            var url = $(this).val(); // get selected value
-                            if (url) { // require a URL
-                            window.location = url; // redirect
-                            }
-                            return false;
-                            });
-                            });
-                        </script>
                     </div>
                 </div>
             </div>
@@ -60,7 +48,7 @@
                     <div class="card-header" id="mainHeader">
                         <button id="refresh" class="btn btn-default" v-on:click="refresh()">
                             <i class="fa fa-redo-alt"></i> {{ $t("general.newGreeting") }}</button>
-                        <button id="copy" class="btn button" v-clipboard:copy="copyMessage">
+                        <button id="copy" class="btn button" v-clipboard:copy="copyMessage" v-tippy='{ trigger: "click", arrow: true }' v-bind:title="$t('general.copyTooltip')">
                             <i class="fa fa-copy"></i> quote me!</button>
                     </div>
                     <div id="quote" class="card-body">
@@ -187,34 +175,31 @@
 
                 <div class="card" id="project-desc">
                     <div class="card-body">
-                        <h3 class="first">Über das Projekt</h3>
+                        <h3 class="first">{{ $t("about.title") }}</h3>
                         <p>
-                            <span>quoteSalute</span> bietet inspirierende Grußformeln aus digitalen Briefeditionen für Ihre E-Mail-Korrespondenz.
-                            Die Anwendung schafft so einen spielerischen Zugang in die Welt historischer Korrespondenzen
-                            und ermöglicht die Einbindung wissenschaflicher Editionsarbeit in Ihre Alltagskommunikation.
-                            <a target="_blank" href="about.html">Mehr über das Projekt.</a>
+                                {{ $t("about.paragraph1") }}
+                            <a target="_blank" href="about.html">{{ $t("about.more") }}</a>
                             </p>
-                            <p>
-                                <span>quoteSalute</span>
-                                ist ein Studierendenprojekt der TELOTA-Initiative an der Berlin-Brandenburgischen Akademie der Wissenschaften. </p>
-                            <p>Fragen? 
+                            <p>{{ $t("about.paragraph2") }}</p>
+                            <p>{{ $t("about.questions") }}
                                 <a href="mailto:telota@bbaw.de">
                                     <i class="fa fa-envelope"></i> telota@bbaw.de
                                 </a>
                             </p>
-
                     </div>
                 </div>
 
             </div>
 
             <div xmlns="" id="description" class="grid_4">
-
+                    <div id="information" class="box">
+                            <h3 class="first">{{ $t("description.title") }}</h3>
+                            <p>{{ $t("description.paragraph") }}</p>
+                        </div>
                 <div id="participate" class="box orange">
-                    <h3 class="first">Mitmachen</h3>
-                    <p>Die Grußformeln Ihrer digitalen Briefedition sollen bei quoteSalute dabei sein? 
-                        Gerne! Mehr Informationen finden Sie in der
-                        <a href="index.xql?id=doc&amp;l=de">Dokumentation</a>.
+                    <h3 class="first">{{ $t("contribute.title") }}</h3>
+                    <p>{{ $t("contribute.paragraph") }}
+                        <a href="index.xql?id=doc&amp;l=de">{{ $t("contribute.documentation") }}</a>.
                     </p>
                 </div>
             </div>
@@ -222,7 +207,20 @@
         </div>
     </div>
 </div>
+<script>
+        $(function(){
+        // bind change event to select
+        $('#languageSelect').on('change', function () {
+        var url = $(this).val(); // get selected value
+        if (url) { // require a URL
+        window.location = url; // redirect
+        }
+        return false;
+        });
+        });
+    </script>
     <script src="js/salutesig.js"></script>
+    
 </body>
 
 </html>

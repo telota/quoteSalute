@@ -1,13 +1,15 @@
 import Vue from 'vue';
 import VueClipboard from 'vue-clipboard2';
 import VueResouorce from 'vue-resource';
-import VueI18n from 'vue-i18n'
+import VueI18n from 'vue-i18n';
+import VueTippy from 'vue-tippy';
 import de from './lang/de';
 import en from './lang/en';
 
 Vue.use(VueI18n)
 Vue.use(VueClipboard);
 Vue.use(VueResouorce);
+Vue.use(VueTippy);
 
 Vue.http.headers.common['Access-Control-Allow-Origin'] = '*';
 
