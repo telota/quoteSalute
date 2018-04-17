@@ -299,14 +299,13 @@
                   <cell rend="code">/div/cit/bibl/ref/@target</cell>
                   <cell>Das @target enthält die URL, die auf den Brief in der digitalen Edition
                      verlinkt.</cell>
-                  <cell>E.g. <hi rend="code"/>"http://edition-humboldt.de/H0002656"</cell>
+                  <cell>E.g. <hi rend="code">"http://edition-humboldt.de/H0002656"</hi></cell>
                </row>
             </table>
 
 
             <div xml:id="a8">
                <head>Taxonomien</head>
-               <!-- Hier Taxonomie erläutern: Tabelle mit Wert, Definition und (?) Beispiel-->
                <div>
                   <head>Formalität</head>
                   <p>Je nachdem, ob die Grußformel eher formellen oder eher informellen Charakter
