@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -11,30 +7,12 @@
                <resp>
                   <note>Collection, curation and processing of data</note>
                </resp>
-               <persName ref="http://d-nb.info/gnd/1034877364">
-                  <surname>Dumont</surname>
-                  <forename>Stefan</forename>
-               </persName>
-               <persName>
-                  <surname>Klappenbach</surname>
-                  <forename>Lou</forename>
-               </persName>
-               <persName>
-                  <surname>Kullick</surname>
-                  <forename>Marvin</forename>
-               </persName>
-               <persName ref="http://d-nb.info/gnd/1121508855">
-                  <surname>Neuber</surname>
-                  <forename>Frederike</forename>
-               </persName>
-               <persName>
-                  <surname>Philipp</surname>
-                  <forename>Luisa</forename>
-               </persName>
-               <persName>
-                  <surname>Pohl</surname>
-                  <forename>Oliver</forename>
-               </persName>
+               <persName ref="http://d-nb.info/gnd/1034877364"><surname>Dumont</surname><forename>Stefan</forename></persName>
+               <persName><surname>Klappenbach</surname><forename>Lou</forename></persName>
+               <persName><surname>Kullick</surname><forename>Marvin</forename></persName>
+               <persName ref="http://d-nb.info/gnd/1121508855"><surname>Neuber</surname><forename>Frederike</forename></persName>
+               <persName><surname>Philipp</surname><forename>Luisa</forename></persName>
+               <persName><surname>Pohl</surname><forename>Oliver</forename></persName>
             </respStmt>
             <respStmt>
                <resp>
@@ -64,15 +42,12 @@
             </availability>
          </publicationStmt>
          <notesStmt>
-            <note type="data_integration">The data was provided by the project <ref
-                  target="http://www.bbaw.de/forschung/jean_paul/uebersicht"
-                  >http://www.bbaw.de/forschung/jean_paul/uebersicht</ref> on 12.3.2018. Later
+            <note type="data_integration">The data was provided by the project <ref target="http://www.bbaw.de/forschung/jean_paul/uebersicht">http://www.bbaw.de/forschung/jean_paul/uebersicht</ref> on 12.3.2018. Later
                published contents of the edition may be added in the future. Links will be updated
                as soon as the digital edition will be published.</note>
             <note type="selection">For quoteSalute, those salutes were selected that are relevant
                for the application in terms of content, form and length. More information on
-               selection and tagging can be found in the <ref
-                  target="https://correspsearch.net/salute/dokumentation">documentation of the
+               selection and tagging can be found in the <ref target="https://correspsearch.net/salute/dokumentation">documentation of the
                   project</ref>.</note>
          </notesStmt>
          <sourceDesc>
@@ -190,7 +165,7 @@
             </cit>
             <cit>
                <quote ana="#informal #s-n #r-m" xml:lang="deu">Kräftiger
-                  <persName>Jacobi</persName>, erkennst du in diesem Bilde den Sohn deines Vaters?
+                  Jacobi, erkennst du in diesem Bilde den Sohn deines Vaters?
                   —</quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>
@@ -219,8 +194,8 @@
             </cit>
             <cit>
                <quote ana="#informal #s-n #r-m" xml:lang="deu">Zum Andenken unserer gestrigen
-                  Stunden, lieber <persName>Bursy</persName>, schriebs <persName>Jean
-                     Paul</persName>
+                  Stunden, lieber Bursy, schriebs Jean
+                     Paul
                </quote>
                <bibl>
                   <title type="edition">Jean Paul Briefwechsel</title>

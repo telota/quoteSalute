@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -12,30 +8,12 @@
                <resp>
                   <note>Collection, curation and processing of data</note>
                </resp>
-               <persName ref="http://d-nb.info/gnd/1034877364">
-                  <surname>Dumont</surname>
-                  <forename>Stefan</forename>
-               </persName>
-               <persName>
-                  <surname>Klappenbach</surname>
-                  <forename>Lou</forename>
-               </persName>
-               <persName>
-                  <surname>Kullick</surname>
-                  <forename>Marvin</forename>
-               </persName>
-               <persName ref="http://d-nb.info/gnd/1121508855">
-                  <surname>Neuber</surname>
-                  <forename>Frederike</forename>
-               </persName>
-               <persName>
-                  <surname>Philipp</surname>
-                  <forename>Luisa</forename>
-               </persName>
-               <persName>
-                  <surname>Pohl</surname>
-                  <forename>Oliver</forename>
-               </persName>
+               <persName ref="http://d-nb.info/gnd/1034877364"><surname>Dumont</surname><forename>Stefan</forename></persName>
+               <persName><surname>Klappenbach</surname><forename>Lou</forename></persName>
+               <persName><surname>Kullick</surname><forename>Marvin</forename></persName>
+               <persName ref="http://d-nb.info/gnd/1121508855"><surname>Neuber</surname><forename>Frederike</forename></persName>
+               <persName><surname>Philipp</surname><forename>Luisa</forename></persName>
+               <persName><surname>Pohl</surname><forename>Oliver</forename></persName>
             </respStmt>
             <respStmt>
                <resp>
@@ -65,14 +43,11 @@
             </availability>
          </publicationStmt>
          <notesStmt>
-            <note type="data_integration">The data was taken over from <ref
-               target="www.berliner-intellektuelle.eu/"
-               >www.berliner-intellektuelle.eu/</ref> on
+            <note type="data_integration">The data was taken over from <ref target="www.berliner-intellektuelle.eu/">www.berliner-intellektuelle.eu/</ref> on
                12.4.2018. Later published contents of the edition may be added in the future.</note>
             <note type="selection">For quoteSalute, those salutes were selected that are relevant
                for the application in terms of content, form and length. More information on
-               selection and tagging can be found in the <ref
-                  target="https://correspsearch.net/salute/dokumentation">documentation of the
+               selection and tagging can be found in the <ref target="https://correspsearch.net/salute/dokumentation">documentation of the
                   project</ref>.</note>
          </notesStmt>
          <sourceDesc>
@@ -121,83 +96,41 @@
          <div type="citList">
             <cit>
                <quote xml:lang="grc" ana="#informal #s-m #r-m">
-                  <foreign xml:lang="grc">
-                     <hi rend="greek">Χαιρε αφιδ</hi>
-                  </foreign>.<note resp="#anna.busch">
-                     <seg xml:lang="de">Zeittypisches Griechisch ohne Akzente. Übersetzung: "Sei
-                        gegrüßt, (mein) Bester!" Im Druck der <title ref="#w00253">Correspondance
-                           d'Adalbert de Chamisso, Fragments inédits</title> wird die griechische
-                        Grußformel ausgelassen.</seg>
-                     <seg xml:lang="en">Greek phrase that translates "All hail, (my) best!" In the
-                        print version of the <title ref="#w00253">Correspondance d'Adalbert de
-                           Chamisso, Fragments inédits</title>, the phrase is being omitted.</seg>
-                     <seg xml:lang="fr">Expression grecque signifiant: "Salut à toi, (mon) très
-                        cher!" Ce passage a été supprimé dans la version imprimée dans la <title
-                           ref="#w00253">Correspondance d'Adalbert de Chamisso, Fragments
-                           inédits</title>.</seg>
-                  </note>
+                  Χαιρε αφιδ.
                </quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Adelbert von Chamisso an Louis de La Foye(ohne Ort,
                      zwischen 1804 und 1806)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief002ChamissoandeLaFoye"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief002ChamissoandeLaFoye"/>
                </bibl>
             </cit>
             <cit>
                <quote xml:lang="deu" ana="#informal #s-n #r-n">leb' wohl, sollt ich dir dies mal
-                  nicht<lb/>langer schreiben so erhälst du nächstens einen<lb/>sehr langen
-                     B<supplied reason="wax">ri</supplied>efen von mir.<lb/>
-                  <hi rend="latin">
-                     <persName ref="#p2119">Schirstedt</persName>
-                  </hi> hat ein <hi rend="latin">Regiment</hi>.<note resp="#sabine.seifert">Seit
-                        <date when-iso="1804">1804</date> befehligte <persName ref="#p2119"
-                        >Schirstedt</persName> das Infanterieregiment Nr. 33.</note>
-                  <lb/>
-                  <foreign xml:lang="grc">
-                     <hi rend="greek">
-                        <choice>
-                           <abbr>τ τ π α.</abbr>
-                           <expan>τὸ του πόλοῦ ἄστρον</expan>
-                        </choice>
-                     </hi>
-                  </foreign>
-                  <note resp="#sabine.seifert">Das Kürzel steht für <foreign xml:lang="grc">τò τоυ
-                        πόλου αστρον</foreign> ("Polarstern") und war das Erkennungszeichen des
-                        <orgName ref="#g0031">Nordsternbunds</orgName>, dem <persName ref="#p0237"
-                        >Chamisso</persName> und <persName ref="#p0248">de La Foye</persName> seit
-                        <date when-iso="1804">1804</date> zusammen mit anderen jungen Dichtern und
-                     Gelehrten angehörten.</note>
+                  nicht langer schreiben so erhälst du nächstens einen sehr langen
+                     Briefen von mir. 
+                  Schirstedt hat ein Regiment.
+                   
+                  τὸ του πόλοῦ ἄστρον
+                  
                </quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Adelbert von Chamisso an Louis de La Foye(Berlin,
                      15. August 1804)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief006ChamissoandeLaFoye"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief006ChamissoandeLaFoye"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-n #r-n">lebe du wohl inde<subst>
-                     <del rend="overwritten">s</del>
-                     <add place="across">ß</add>
-                  </subst> denn<lb/>mein Licht ist aus und ich sehe mich umsonst nach ein<lb/>and<subst>
-                     <del rend="overwritten">res</del>
-                     <add place="across">eres</add>
-                  </subst> um.</quote>
+               <quote xml:lang="deu" ana="#informal #s-n #r-n">lebe du wohl indeß denn mein Licht ist aus und ich sehe mich umsonst nach ein anderes um.</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Adelbert von Chamisso an Louis de La Foye(ohne Ort,
                      Ende Oktober 1804)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief008ChamissoandeLaFoye"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief008ChamissoandeLaFoye"/>
                </bibl>
             </cit>
             <cit>
@@ -207,164 +140,107 @@
                      1800</title>
                   <title type="letter">Brief von Adelbert von Chamisso an Louis de La Foye(ohne Ort,
                      Ende Oktober 1804)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief008ChamissoandeLaFoye"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief008ChamissoandeLaFoye"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-n #r-m">leb'<lb/>wohl süsser jung<note
-                     resp="#janine.katins">Im Druck der <title ref="#w00253">Correspondance
-                        d'Adalbert de Chamisso. Fragments inédits</title> steht "lieber
-                     Junge".</note>, ich weis <subst>
-                     <del rend="overwritten">d</del>
-                     <add place="across">n</add>
-                  </subst>icht den wie<subst>
-                     <del rend="overwritten">f</del>
-                     <add place="across">v</add>
-                  </subst>ielten <hi rend="latin">
-                     <date when-iso="1804-10">October</date>
-                  </hi>
-                  <lb/>wir haben, doch schreiben wir gar bald <hi rend="latin">
-                     <date when-iso="1804-11">November</date>
-                  </hi> und<lb/>der grässliche Winter ist da — <hi rend="underline">
-                     <persName ref="#p0345">Augusta</persName>
-                  </hi>.<lb/>Sie hat meinen Stam̄buch. <milestone unit="none"
-                     rend="horizontal-rule align(right)"/>
+               <quote xml:lang="deu" ana="#informal #s-n #r-m">leb' wohl süsser jung, ich weis nicht den wievielten October
+                   wir haben, doch schreiben wir gar bald November und der grässliche Winter ist da — Augusta. Sie hat meinen Stam̄buch. 
                </quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Adelbert von Chamisso an Louis de La Foye(ohne Ort,
                      Ende Oktober 1804)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief008ChamissoandeLaFoye"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief008ChamissoandeLaFoye"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-n #r-m">Verehrtester <rs ref="#p0572">Herr
-                     Professor</rs>
+               <quote xml:lang="deu" ana="#formal #s-n #r-m">Verehrtester Herr
+                     Professor
                </quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Immanuel Hermann Fichte an Friedrich Wilken
                      (Berlin, 17. Juli 1818)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief008fichteanwilken"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief008fichteanwilken"/>
                </bibl>
             </cit>
             <cit>
                <quote xml:lang="deu" ana="#formal #s-n #r-n">
-                  <hi rend="mark" hand="#pencil_3">Bis dahin empfiehlt sich Ihrem Wohlwollen
-                     hochachtungsvoll</hi>
+                  Bis dahin empfiehlt sich Ihrem Wohlwollen
+                     hochachtungsvoll
                </quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Immanuel Hermann Fichte an Friedrich Wilken
                      (Berlin, 17. Juli 1818)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief008fichteanwilken"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief008fichteanwilken"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-n #r-n">lebe du recht<lb/>wohl und schreibe mir
-                  nicht kurze, sondern lange<lb/>Briefe und man muß dem Teufel nichts
-                  schenken<lb/>der die Briefe <del rend="strikethrough">zu</del> bezahl<subst>
-                     <del rend="overwritten">en</del>
-                     <add place="across">bar</add>
-                  </subst> zu machen ersann<lb/>lebe wohl guter <subst>
-                     <del rend="overwritten">h</del>
-                     <add place="across">H</add>
-                  </subst>erlicher auch ich liebe dich<lb/>und wir gehen uns nie verloren.</quote>
+               <quote xml:lang="deu" ana="#informal #s-n #r-n">lebe du recht wohl und schreibe mir
+                  nicht kurze, sondern lange Briefe und man muß dem Teufel nichts
+                  schenken der die Briefe  bezahlbar zu machen ersann lebe wohl guter Herlicher auch ich liebe dich und wir gehen uns nie verloren.</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Adelbert von Chamisso an Louis de La Foye(ohne Ort,
                      6. Dezember 1804)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief009ChamissoandeLaFoye"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief009ChamissoandeLaFoye"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="grc" ana="#informal #s-n #r-n">lebe du wohl.<lb/>
-                  <foreign xml:lang="grc" rend="align(center)">
-                     <hi rend="greek">
-                        <cit>
-                           <quote>
-                              <lg>
-                                 <l>Λαλιστέρον μ’ ἔθηκας,</l>
-                                 <l>Ἄνθρωπε, και κορωνης.</l>
-                              </lg>
-                           </quote>
-                        </cit>
-                     </hi>
-                     <note resp="#janine.katins">
-                        <persName ref="#p0237">Chamisso</persName> zitiert hier aus <persName
-                           ref="#p0343">Anakreons</persName>
-                        <title ref="#w03304">Ode</title> 9, V. 36-37. Übersetzung: "Hast du mich
-                        doch so schwatzhaft / Gemacht, als eine Krähe." (nach <rs ref="#w03305"
-                           >Ramler</rs>, S. 29).</note>
-                  </foreign>
+               <quote xml:lang="grc" ana="#informal #s-n #r-n">lebe du wohl. 
+                  
+                           
+                              Λαλιστέρον μ’ ἔθηκας,Ἄνθρωπε, και κορωνης.
+                           
+                        
                </quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Adelbert von Chamisso an Louis de La Foye(ohne Ort,
                      1. März 1805)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief011ChamissoandeLaFoye"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief011ChamissoandeLaFoye"/>
                </bibl>
             </cit>
             <cit>
                <quote xml:lang="grc" ana="#informal #s-n #r-m">
-                  <foreign xml:lang="grc">
-                     <hi rend="greek">Χαιρε ἀδελφε </hi>
-                     <note resp="#janine.katins">Übersetzung: "Sei mir gegrüßt, (mein)
-                        Bruder."</note>
-                  </foreign>
+                  Χαιρε ἀδελφε 
                </quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Adelbert von Chamisso an Louis de La Foye(ohne Ort,
                      1. März 1805)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief011ChamissoandeLaFoye"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief011ChamissoandeLaFoye"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-n #r-n">Meine <rs ref="#p0233">Mutter</rs>,<lb/>
-                  <rs ref="#p0218">Schwester</rs> und die <rs ref="#p0232">Gräfinn</rs>
-                  grüßen<lb/>Sie herzlich, und ich bin mit der größten<lb/>Hochachtung</quote>
+               <quote xml:lang="deu" ana="#formal #s-n #r-n">Meine Mutter, 
+                  Schwester und die Gräfinn
+                  grüßen Sie herzlich, und ich bin mit der größten Hochachtung</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Dorothea Tieck an Friedrich von Uechtritz(Dresden,
                      15. Juli 1831)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief01DorotheaTieckanUechtritz"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief01DorotheaTieckanUechtritz"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-m #r-n">Ganz der Ihrige<lb/>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Ganz der Ihrige 
                </quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Ludwig Tieck an Friedrich von Raumer (Ziebingen,
                      30. März 1815)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief01TieckanRaumer"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief01TieckanRaumer"/>
                </bibl>
             </cit>
             <cit>
@@ -374,99 +250,77 @@
                      1800</title>
                   <title type="letter">Brief von Adolf von Buch an Louis de Beausobre(Blumenow, 30.
                      April 1759)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief01vonBuchanBeausobre"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief01vonBuchanBeausobre"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="fr" ana="#informal #s-n #r-m">Monsieur <lb/>Mon très chèr et très
+               <quote xml:lang="fr" ana="#informal #s-n #r-m">Monsieur  Mon très chèr et très
                   honoré Oncle!</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Johann Albrecht Euler an Jean Henri Samuel
                      Formey(Sankt Petersburg, 5. Dezember 1761)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief01vonJAEuleranJHSFormey"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief01vonJAEuleranJHSFormey"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="fr" ana="#formal #s-m #r-n">Votre très humble et <lb/>très
-                  Obeissant Serviteur <lb/>Et Neveu</quote>
+               <quote xml:lang="fr" ana="#formal #s-m #r-n">Votre très humble et  très
+                  Obeissant Serviteur  Et Neveu</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Johann Albrecht Euler an Jean Henri Samuel
                      Formey(Sankt Petersburg, 5. Dezember 1761)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief01vonJAEuleranJHSFormey"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief01vonJAEuleranJHSFormey"/>
                </bibl>
             </cit>
             <cit>
                <quote xml:lang="grc" ana="#informal #s-n #r-m">
-                  <foreign xml:lang="grc">
-                     <hi rend="greek">χαιρε τεκνον</hi>
-                  </foreign>
-                  <note resp="#sabine.seifert">Die Übersetzung der Grußformel lautet: "Sei gegrüßt,
-                     Nachkomme".</note>
+                  χαιρε τεκνον
+                  
                </quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Adelbert von Chamisso an Louis de La Foye (Vertus,
                      16. Januar 1807)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief023ChamissoandeLaFoye"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief023ChamissoandeLaFoye"/>
                </bibl>
             </cit>
             <cit>
                <quote xml:lang="grc" ana="#informal #s-n #r-n">
-                  <foreign xml:lang="grc">
-                     <hi rend="greek">χαιρe</hi>
-                  </foreign>
-                  <note resp="#sabine.seifert">Übersetzung: "Sei gegrüßt!"</note>
+                  χαιρe
+                  
                </quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Adelbert von Chamisso an Louis de La Foye (Vertus,
                      29. Januar 1807)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief024ChamissoandeLaFoye"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief024ChamissoandeLaFoye"/>
                </bibl>
             </cit>
             <cit>
                <quote xml:lang="grc" ana="#informal #s-n #r-n">
-                  <foreign xml:lang="grc">
-                     <hi rend="greek">χαiρε τεκvov</hi>
-                  </foreign>.</quote>
+                  χαiρε τεκvov.</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Adelbert von Chamisso an Louis de La Foye(Vertus,
                      zwischen dem 10. und 27. Januar 1807)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief026ChamissoandeLaFoye"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief026ChamissoandeLaFoye"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-n #r-n">Meine <rs ref="#p0233 #p0133"
-                     >Eltern</rs>
-                  <lb/>und <rs ref="#p0218">Schwester</rs> grüßen Sie herzlich</quote>
+               <quote xml:lang="deu" ana="#formal #s-n #r-n">Meine Eltern
+                   und Schwester grüßen Sie herzlich</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Dorothea Tieck an Friedrich von Uechtritz(Dresden,
                      17. Oktober 1831)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief02DorotheaTieckanUechtritz"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief02DorotheaTieckanUechtritz"/>
                </bibl>
             </cit>
             <cit>
@@ -476,9 +330,7 @@
                      1800</title>
                   <title type="letter">Brief von Ludwig Tieck an Friedrich von Raumer(Ziebingen, 2.
                      Februar 1818)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief02TieckanRaumer"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief02TieckanRaumer"/>
                </bibl>
             </cit>
             <cit>
@@ -488,22 +340,18 @@
                      1800</title>
                   <title type="letter">Brief von Adolf von Buch an Louis de Beausobre(Magdeburg, 31.
                      Oktober 1760)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief02vonBuchanBeausobre"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief02vonBuchanBeausobre"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="fr" ana="#formal #s-m #r-m">Monsieur<lb/> Votre tres humble
+               <quote xml:lang="fr" ana="#formal #s-m #r-m">Monsieur  Votre tres humble
                   serviteur B.</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Adolf von Buch an Louis de Beausobre(Magdeburg, 31.
                      Oktober 1760)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief02vonBuchanBeausobre"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief02vonBuchanBeausobre"/>
                </bibl>
             </cit>
             <cit>
@@ -514,53 +362,41 @@
                      1800</title>
                   <title type="letter">Brief von Johann Albrecht Euler an Jean Henri Samuel
                      Formey(Sankt Petersburg, 15. August 1766)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief02vonJAEuleranJHSFormey"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief02vonJAEuleranJHSFormey"/>
                </bibl>
             </cit>
             <cit>
                <quote xml:lang="fr" ana="#informal #s-n #r-m">Monsieur mon très cher et cher et très
-                  honoré <lb/>Oncle</quote>
+                  honoré  Oncle</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Johann Albrecht Euler an Jean Henri Samuel
                      Formey(Sankt Petersburg, 15. August 1766)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief02vonJAEuleranJHSFormey"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief02vonJAEuleranJHSFormey"/>
                </bibl>
             </cit>
             <cit>
                <quote xml:lang="fr" ana="#informal #s-n #r-m">Monsieur mon très cher et très honnoré
-                  Oncle <lb/>Votre tres heumble et tres obeissante Niesse et Servante</quote>
+                  Oncle  Votre tres heumble et tres obeissante Niesse et Servante</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Johann Albrecht Euler an Jean Henri Samuel
                      Formey(Sankt Petersburg, 15. August 1766)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief02vonJAEuleranJHSFormey"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief02vonJAEuleranJHSFormey"/>
                </bibl>
             </cit>
             <cit>
                <quote xml:lang="fr" ana="#informal #s-n #r-n">
-                  <foreign xml:lang="fr">
-                     <hi rend="latin">adieu</hi>
-                  </foreign>
-                  <lb/> Guter<note resp="#lena.ebert">Im Druck der <title ref="#w00253"
-                        >Correspondance d'Adalbert de Chamisso, Fragments inédits</title> fehlt der
-                     folgende Rest des Briefs.</note> und tausend Seegen.</quote>
+                  adieu
+                    Guter und tausend Seegen.</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Adelbert von Chamisso an Louis de La Foye (Genf
                      oder Coppet, Juni oder Juli 1812)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief039ChamissoandeLaFoye"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief039ChamissoandeLaFoye"/>
                </bibl>
             </cit>
             <cit>
@@ -570,22 +406,18 @@
                      1800</title>
                   <title type="letter">Brief von Dorothea Tieck an Friedrich von Uechtritz(Dresden,
                      31. Januar 1832)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief03DorotheaTieckanUechtritz"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief03DorotheaTieckanUechtritz"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-n #r-n">Alle die<lb/>Meinigen tragen mir die
-                  herzlichsten Grüße<lb/>auf.</quote>
+               <quote xml:lang="deu" ana="#informal #s-n #r-n">Alle die Meinigen tragen mir die
+                  herzlichsten Grüße auf.</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Dorothea Tieck an Friedrich von Uechtritz(Dresden,
                      31. Januar 1832)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief03DorotheaTieckanUechtritz"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief03DorotheaTieckanUechtritz"/>
                </bibl>
             </cit>
             <cit>
@@ -595,9 +427,7 @@
                      1800</title>
                   <title type="letter">Brief von Ludwig Tieck an Friedrich von Raumer (ohne Ort und
                      Datum, wahrscheinlich Dresden, November 1821)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief03TieckanRaumer"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief03TieckanRaumer"/>
                </bibl>
             </cit>
             <cit>
@@ -608,9 +438,7 @@
                      1800</title>
                   <title type="letter">Brief von Johann Albrecht Euler an Jean Henri Samuel
                      Formey(Sankt Petersburg, 21. November 1766)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief03vonJAEuleranJHSFormey"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief03vonJAEuleranJHSFormey"/>
                </bibl>
             </cit>
             <cit>
@@ -620,61 +448,43 @@
                      1800</title>
                   <title type="letter">Brief von Johann Albrecht Euler an Jean Henri Samuel
                      Formey(Sankt Petersburg, 21. November 1766)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief03vonJAEuleranJHSFormey"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief03vonJAEuleranJHSFormey"/>
                </bibl>
             </cit>
             <cit>
                <quote xml:lang="fr" ana="#formal #s-n #r-n">Votre très humble et très obeissant
-                  Servi. <lb rend="align (centre)"/>Et neveu</quote>
+                  Servi.  Et neveu</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Johann Albrecht Euler an Jean Henri Samuel
                      Formey(Sankt Petersburg, 21. November 1766)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief03vonJAEuleranJHSFormey"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief03vonJAEuleranJHSFormey"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-n #r-n">leb wohl und gedenke meiner, auf<lb/>
-                  wiedersehn <unclear reason="illegible" cert="high">ir</unclear>gendwo in dieser
+               <quote xml:lang="deu" ana="#informal #s-n #r-n">leb wohl und gedenke meiner, auf 
+                  wiedersehn irgendwo in dieser
                   oder der neuen oder doch jener Welt.</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Adelbert von Chamisso an Louis de La Foye (Genf
                      oder Coppet, 16. August 1811)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief043ChamissoandeLaFoye"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief043ChamissoandeLaFoye"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-n #r-n">lebe wohl, ich lebe immer mit dir,<lb/>
-                  deiner liebe,<note resp="#lena.ebert">Im Druck der <title ref="#w00253"
-                        >Correspondance d'Adalbert de Chamisso, Fragments inédits</title> fehlt
-                        <quote>"deiner liebe"</quote>. Die Lücke ist nicht mit Auslassungspunkten
-                     gekennzeichnet.</note> deinen Jungen, <del rend="strikethrough">und</del>
-                  <lb/> und deinen Rauch wolken. lebe wohl<lb/> und mögen die Türken die Schwere
-                  noht<lb/> kriegen!<note resp="#lena.ebert">Eventuell gibt es hier einen Bezug auf
-                        <persName ref="#???">Kleists</persName>
-                     <title ref="#???">Anekdote aus dem letzten preußischen Kriege</title>
-                     <date when-iso="1810">(1810)</date>, in der der folgende Satz vorkommt:
-                        <quote>"Na!" sagt der Kerl, die Pfeife, die er sich angeschmaucht, im Maul:
-                        "nun sollen doch die Franzosen die Schwerenot kriegen!" In: <title
-                           ref="#???">Sämtliche Erzählungen und Anekdoten</title>, S. 264 f.</quote>
-                  </note> - </quote>
+               <quote xml:lang="deu" ana="#informal #s-n #r-n">lebe wohl, ich lebe immer mit dir, 
+                  deiner liebe, deinen Jungen, 
+                    und deinen Rauch wolken. lebe wohl  und mögen die Türken die Schwere
+                  noht  kriegen! - </quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Adelbert von Chamisso an Louis de La Foye (Genf,
                      Anfang 1812)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief047ChamissoandeLaFoye"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief047ChamissoandeLaFoye"/>
                </bibl>
             </cit>
             <cit>
@@ -684,48 +494,40 @@
                      1800</title>
                   <title type="letter">Brief von Adelbert von Chamisso an Louis de La Foye
                      (wahrscheinlich Coppet, Mai oder Juni 1811)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief048ChamissoandeLaFoye"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief048ChamissoandeLaFoye"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-n #r-n">leb wohl mein<lb/> Herz</quote>
+               <quote xml:lang="deu" ana="#informal #s-n #r-n">leb wohl mein  Herz</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Adelbert von Chamisso an Louis de La Foye
                      (wahrscheinlich Genf, Herbst oder Winter 1811)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief049ChamissoandeLaFoye"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief049ChamissoandeLaFoye"/>
                </bibl>
             </cit>
             <cit>
                <quote xml:lang="deu" ana="#informal #s-n #r-n">Leben Sie wohl. Ich umarme Sie von
-                  Herzen.<lb/>
+                  Herzen. 
                </quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Ludwig Tieck an Friedrich von Raumer(Dresden, den
                      6. Dezember 1822)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief04TieckanRaumer"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief04TieckanRaumer"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="fr" ana="#informal #s-n #r-n">Adieu <lb/>portés Vous bien et jouissés
+               <quote xml:lang="fr" ana="#informal #s-n #r-n">Adieu  portés Vous bien et jouissés
                   de tous les agrements, que Vous pouvés vous procurer.</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Adolf von Buch an Louis de Beausobre(Magdeburg, 13.
                      August 1761)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief04vonBuchanBeausobre"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief04vonBuchanBeausobre"/>
                </bibl>
             </cit>
             <cit>
@@ -736,9 +538,7 @@
                      1800</title>
                   <title type="letter">Brief von Johann Albrecht Euler an Jean Henri Samuel
                      Formey(Sankt Petersburg, 25. Dezember 1766)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief04vonJAEuleranJHSFormey"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief04vonJAEuleranJHSFormey"/>
                </bibl>
             </cit>
             <cit>
@@ -748,135 +548,90 @@
                      1800</title>
                   <title type="letter">Brief von Johann Albrecht Euler an Jean Henri Samuel
                      Formey(Sankt Petersburg, 25. Dezember 1766)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief04vonJAEuleranJHSFormey"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief04vonJAEuleranJHSFormey"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="fr" ana="#informal #s-m #r-n">Votre très humble et très obeïssant <lb/>Serviteur<lb/>
+               <quote xml:lang="fr" ana="#informal #s-m #r-n">Votre très humble et très obeïssant  Serviteur 
                </quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Johann Albrecht Euler an Jean Henri Samuel
                      Formey(Sankt Petersburg, 25. Dezember 1766)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief04vonJAEuleranJHSFormey"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief04vonJAEuleranJHSFormey"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-n #r-m">lebewohl, mein<lb/> vielguter, <del
-                     rend="strikethrough">
-                     <gap reason="illegible" extent="2c"/>
-                  </del> schreibe mir bald noch<lb/> einmal hier und gut – ich umarme<lb/> dich
+               <quote xml:lang="deu" ana="#informal #s-n #r-m">lebewohl, mein  vielguter,  schreibe mir bald noch  einmal hier und gut – ich umarme  dich
                   herzlich,</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Adelbert von Chamisso an Louis de La Foye (Genf
                      oder Coppet, Frühling 1812)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief050ChamissoandeLaFoye"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief050ChamissoandeLaFoye"/>
                </bibl>
             </cit>
             <cit>
                <quote xml:lang="grc" ana="#formal #s-n #r-n">
-                  <foreign xml:lang="grc">
-                     <hi rend="greek">Χαιρε <gap reason="illegible" extent="1w"/>
-                     </hi>
-                  </foreign>
+                  Χαιρε 
                </quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Adelbert von Chamisso an Louis de La Foye (Genf
                      oder Coppet, Frühling 1812)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief050ChamissoandeLaFoye"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief050ChamissoandeLaFoye"/>
                </bibl>
             </cit>
             <cit>
                <quote xml:lang="grc" ana="#informal #s-n #r-f">
-                  <foreign xml:lang="grc">
-                     <hi rend="grc">χαιρετε <unclear cert="medium" reason="illegible">ϑερινοι
-                           διοι</unclear>.</hi>
-                  </foreign>
-                  <note resp="#sabine.seifert">
-                     <seg xml:lang="de">Übersetzung: „Seid gegrüßt, sommerlich Leuchtende“. In
-                           <persName ref="#p0261">Riegels</persName> Edition der <title
-                           ref="#w00253">Correspondance d'Adalbert de Chamisso, Fragments
-                           inédits</title> wird die Grußformel ausgelassen.</seg>
-                     <seg xml:lang="en">Translation: „All hail, you summerly glowing“. In <persName
-                           ref="#p0261">Riegel's</persName>
-                        <title ref="#w00253">Correspondance d'Adalbert de Chamisso, Fragments
-                           inédits</title>, the salutation is being omitted.</seg>
-                     <seg xml:lang="fr">Translation: „All hail, you summerly glowing“. Dans la
-                        version imprimée dans la <title ref="#w00253">Correspondance d'Adalbert de
-                           Chamisso, Fragments inédits</title> de <persName ref="#p0261"
-                           >Riegel</persName>, ce passage a été supprimé.</seg>
-                  </note>
+                  χαιρετε ϑερινοι
+                           διοι.
+                  
                </quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Adelbert von Chamisso an Louis de La
                      Foye(wahrscheinlich Berlin, wahrscheinlich 22. März 1821)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief054ChamissoandeLaFoye"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief054ChamissoandeLaFoye"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-n #r-m">lebe so wohl du kannst<lb/>lieber
-                  junge, und <foreign xml:lang="grc">
-                     <hi rend="greek">Χαιρε</hi>
-                  </foreign>
-                  <note resp="#stefanie.hasler">Übersetzung (lat.): Sei gegrüßt.</note> wenn du
-                  es<lb/>vermagst, – wir werden allmälig<lb/>schon alt <foreign xml:lang="fr">
-                     <hi rend="latin">et le plus fort en est fait:<note resp="#stefanie.hasler"
-                           >Übersetzung (frz.): Und der größte Teil [i.e. des Lebens] ist schon
-                           geschafft.</note>
-                     </hi>
-                  </foreign>
+               <quote xml:lang="deu" ana="#informal #s-n #r-m">lebe so wohl du kannst lieber
+                  junge, und Χαιρε
+                   wenn du
+                  es vermagst, – wir werden allmälig schon alt et le plus fort en est fait:
                </quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Adelbert von Chamisso an Louis de la
                      Foye(wahrscheinlich Berlin, 23. Januar 1815)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief059ChamissoandeLaFoye"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief059ChamissoandeLaFoye"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-n #r-n">Meine <rs ref="#p0233 #p0133"
-                     >Eltern</rs> grüßen Sie herzlich.</quote>
+               <quote xml:lang="deu" ana="#formal #s-n #r-n">Meine Eltern grüßen Sie herzlich.</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Dorothea Tieck an Friedrich von Uechtritz
                      (Fragment)(ohne Ort, ohne Datum)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief05DorotheaTieckanUechtritz"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief05DorotheaTieckanUechtritz"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-n #r-n">Bald also hofft Sie zu umarmen<lb/>
+               <quote xml:lang="deu" ana="#informal #s-n #r-n">Bald also hofft Sie zu umarmen 
                </quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Ludwig Tieck an Friedrich von Raumer(Teplitz, 30.
                      Juli 1823)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief05TieckanRaumer"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief05TieckanRaumer"/>
                </bibl>
             </cit>
             <cit>
@@ -887,9 +642,7 @@
                      1800</title>
                   <title type="letter">Brief von Adolf von Buch an Louis de Beausobre(Magdeburg, 19.
                      November 1761)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief05vonBuchanBeausobre"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief05vonBuchanBeausobre"/>
                </bibl>
             </cit>
             <cit>
@@ -900,22 +653,18 @@
                      1800</title>
                   <title type="letter">Brief von Johann Albrecht Euler an Jean Henri Samuel
                      Formey(Sankt Petersburg, 2. Januar 1767)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief05vonJAEuleranJHSFormey"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief05vonJAEuleranJHSFormey"/>
                </bibl>
             </cit>
             <cit>
                <quote xml:lang="fr" ana="#formal #s-n #r-m">Monsieur mon très-chèr et très honoré
-                  <lb/>Oncle ! Votre <lb/>très humble et très obeïssant Serviteur</quote>
+                   Oncle ! Votre  très humble et très obeïssant Serviteur</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Johann Albrecht Euler an Jean Henri Samuel
                      Formey(Sankt Petersburg, 2. Januar 1767)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief05vonJAEuleranJHSFormey"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief05vonJAEuleranJHSFormey"/>
                </bibl>
             </cit>
             <cit>
@@ -926,48 +675,32 @@
                      1800</title>
                   <title type="letter">Brief von Adelbert von Chamisso an Louis de La
                      Foye(wahrscheinlich Schöneberg (Berlin), 30. Januar 1821)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief067ChamissoandeLaFoye"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief067ChamissoandeLaFoye"/>
                </bibl>
             </cit>
             <cit>
                <quote xml:lang="grc" ana="#informal #s-n #r-f">
-                  <foreign xml:lang="grc">
-                     <hi rend="greek">Χαιρε ἀδελφε</hi>
-                  </foreign>.</quote>
+                  Χαιρε ἀδελφε.</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Adelbert von Chamisso an Louis de La
                      Foye(wahrscheinlich Schöneberg (Berlin), 30. Januar 1821)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief067ChamissoandeLaFoye"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief067ChamissoandeLaFoye"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-n #r-n">Ich warte auf Briefe von dir.<lb/>Ich
-                  befinde mich ganz wohl mit den <subst>
-                     <del rend="overwritten">m</del>
-                     <add place="across">M</add>
-                  </subst>einen, hoffe daß es dir<lb/>auch wohl ergehen möge, und erwarte daß du es
-                  mir selber<lb/>meldest.<lb/>
-                  <foreign xml:lang="grc">
-                     <hi rend="greek align(center)">Χαιρε<note resp="#sabine.seifert">Übersetzung:
-                           "Sei gegrüßt!" Die griechische Formel, die Unterschrift sowie die Adresse
-                           werden bei <persName ref="#p0261">Riegel</persName> weggelassen.</note>
-                     </hi>
-                  </foreign>
+               <quote xml:lang="deu" ana="#informal #s-n #r-n">Ich warte auf Briefe von dir. Ich
+                  befinde mich ganz wohl mit den Meinen, hoffe daß es dir auch wohl ergehen möge, und erwarte daß du es
+                  mir selber meldest. 
+                  Χαιρε
                </quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Adelbert von Chamisso an Louis de La
                      Foye(wahrscheinlich Schöneberg (Berlin), 1. März 1821)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief068ChamissoandeLaFoye"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief068ChamissoandeLaFoye"/>
                </bibl>
             </cit>
             <cit>
@@ -977,9 +710,7 @@
                      1800</title>
                   <title type="letter">Brief von Dorothea Tieck an Friedrich von Uechtritz(Dresden,
                      15. Dezember 1832)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief06DorotheaTieckanUechtritz"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief06DorotheaTieckanUechtritz"/>
                </bibl>
             </cit>
             <cit>
@@ -989,38 +720,31 @@
                      1800</title>
                   <title type="letter">Brief von Ludwig Tieck an Friedrich von Raumer(Dresden, 15.
                      September 1823)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief06TieckanRaumer"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief06TieckanRaumer"/>
                </bibl>
             </cit>
             <cit>
                <quote xml:lang="fr" ana="#informal #s-n #r-m">Commencés, cher Ami, l'année qui va
-                  commencer dans une santé et prospérité parfaite et conservés moi <lb/>Votre
+                  commencer dans une santé et prospérité parfaite et conservés moi  Votre
                   amitié.</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Adolf von Buch an Louis de Beausobre(Magdeburg, 28.
                      Dezember 1761)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief06vonBuchanBeausobre"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief06vonBuchanBeausobre"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-n #r-f">tausend Grüße von meinen <rs
-                     ref="#p0233 #p0133">Eltern</rs> und<lb/>
-                  <persName ref="#p0218">Agnes</persName>, wir alle haben keinen größeren<lb/>Wunsch
+               <quote xml:lang="deu" ana="#informal #s-n #r-f">tausend Grüße von meinen Eltern und 
+                  Agnes, wir alle haben keinen größeren Wunsch
                   als Sie bald wieder zu sehen.</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Dorothea Tieck an Friedrich von Uechtritz(Dresden,
                      8. März 1833)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief07DorotheaTieckanUechtritz"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief07DorotheaTieckanUechtritz"/>
                </bibl>
             </cit>
             <cit>
@@ -1030,69 +754,53 @@
                      1800</title>
                   <title type="letter">Brief von Ludwig Tieck an Friedrich von Raumer(Dresden, 6.
                      Oktober 1823)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief07TieckanRaumer"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief07TieckanRaumer"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-n #r-m">Meine Grüsse <rs ref="#p0201">Ihrer
-                     Frau</rs>
-                  <choice>
-                     <abbr>u</abbr>
-                     <expan>und</expan>
-                  </choice>
-                  <rs ref="#p2962 #p3508">Kindern</rs>, <hi rend="latin">
-                     <persName ref="#p0195">Krause</persName>
-                  </hi>
-                  <lb/> meinen herzlichen Dank.</quote>
+               <quote xml:lang="deu" ana="#informal #s-n #r-m">Meine Grüsse Ihrer
+                     Frau
+                  und
+                  Kindern, Krause
+                    meinen herzlichen Dank.</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Ludwig Tieck an Friedrich von Raumer(Dresden, 6.
                      Oktober 1823)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief07TieckanRaumer"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief07TieckanRaumer"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-n #r-n">Ich <unclear reason="illegible"
-                     cert="medium">umarme</unclear> Sie mit der herzlichsten Freundschaft</quote>
+               <quote xml:lang="deu" ana="#informal #s-n #r-n">Ich umarme Sie mit der herzlichsten Freundschaft</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Ludwig Tieck an Friedrich von Raumer(Dresden, 6.
                      Oktober 1823)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief07TieckanRaumer"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief07TieckanRaumer"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="fr" ana="#informal #s-n #r-n">Portés vous bien et n’oubliés <lb/>pas
+               <quote xml:lang="fr" ana="#informal #s-n #r-n">Portés vous bien et n’oubliés  pas
                   Votre ami.</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Adolf von Buch an Louis de Beausobre(Magdeburg, 4.
                      Januar 1762)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief07vonBuchanBeausobre"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief07vonBuchanBeausobre"/>
                </bibl>
             </cit>
             <cit>
                <quote xml:lang="deu" ana="#informal #s-n #r-m">Nehmen Sie meinen Dank, mein
-                  theuerster<lb/>vortrefflichster Freund,</quote>
+                  theuerster vortrefflichster Freund,</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Dorothea Tieck an Friedrich von Uechtritz(Dresden,
                      20. Mai 1833)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief08DorotheaTieckanUechtritz"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief08DorotheaTieckanUechtritz"/>
                </bibl>
             </cit>
             <cit>
@@ -1102,21 +810,17 @@
                      1800</title>
                   <title type="letter">Brief von Dorothea Tieck an Friedrich von Uechtritz(Dresden,
                      20. Mai 1833)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief08DorotheaTieckanUechtritz"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief08DorotheaTieckanUechtritz"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-n #r-n">Alle grüßen<lb/>Sie.</quote>
+               <quote xml:lang="deu" ana="#informal #s-n #r-n">Alle grüßen Sie.</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Dorothea Tieck an Friedrich von Uechtritz(Dresden,
                      22. Juli 1833)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief09DorotheaTieckanUechtritz"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief09DorotheaTieckanUechtritz"/>
                </bibl>
             </cit>
             <cit>
@@ -1127,9 +831,7 @@
                      1800</title>
                   <title type="letter">Brief von Adolf von Buch an Louis de Beausobre(Magdeburg, 21.
                      Januar 1762)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief09vonBuchanBeausobre"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief09vonBuchanBeausobre"/>
                </bibl>
             </cit>
             <cit>
@@ -1140,22 +842,18 @@
                      1800</title>
                   <title type="letter">Brief von Johann Albrecht Euler an Jean Henri Samuel
                      Formey(Sankt Petersburg, 20. April 1767)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief09vonJAEuleranJHSFormey"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief09vonJAEuleranJHSFormey"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="fr" ana="#formal #s-m #r-n">Votre très humble <lb/>et très
+               <quote xml:lang="fr" ana="#formal #s-m #r-n">Votre très humble  et très
                   obeïssant Serviteur et Neveu</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Johann Albrecht Euler an Jean Henri Samuel
                      Formey(Sankt Petersburg, 20. April 1767)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief09vonJAEuleranJHSFormey"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief09vonJAEuleranJHSFormey"/>
                </bibl>
             </cit>
             <cit>
@@ -1166,24 +864,17 @@
                      1800</title>
                   <title type="letter">Brief von Karl August Varnhagen von Ense an August
                      Boeckh(Berlin, 17. April 1830)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief101VarnhagenanBoeckh"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief101VarnhagenanBoeckh"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-n #r-n">Mit der ausgezeichnetsten Hochachtung <choice>
-                     <abbr>u</abbr>
-                     <expan>und</expan>
-                  </choice> Verehrung</quote>
+               <quote xml:lang="deu" ana="#formal #s-n #r-n">Mit der ausgezeichnetsten Hochachtung und Verehrung</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von August Boeckh an Karl August Varnhagen von
                      Ense(Berlin, 21. April 1830)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief102BoeckhanVarnhagen"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief102BoeckhanVarnhagen"/>
                </bibl>
             </cit>
             <cit>
@@ -1193,9 +884,7 @@
                      1800</title>
                   <title type="letter">Brief von August Boeckh an Karl August Varnhagen von
                      Ense(Berlin, 21. April 1830)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief102BoeckhanVarnhagen"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief102BoeckhanVarnhagen"/>
                </bibl>
             </cit>
             <cit>
@@ -1206,9 +895,7 @@
                      1800</title>
                   <title type="letter">Brief von August Boeckh an Karl August Varnhagen von
                      Ense(Berlin, 28. März 1834)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief103BoeckhanVarnhagen"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief103BoeckhanVarnhagen"/>
                </bibl>
             </cit>
             <cit>
@@ -1218,37 +905,28 @@
                      1800</title>
                   <title type="letter">Brief von August Boeckh an Karl August Varnhagen von
                      Ense(Berlin, 20. Juni 1834)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief104BoeckhanVarnhagen"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief104BoeckhanVarnhagen"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-n #r-n">Mit der herzlichsten Verehrung <choice>
-                     <abbr>u</abbr>
-                     <expan>und</expan>
-                  </choice> Ergebenheit</quote>
+               <quote xml:lang="deu" ana="#informal #s-n #r-n">Mit der herzlichsten Verehrung und Ergebenheit</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von August Boeckh an Karl August Varnhagen von
                      Ense(Berlin, 20. Juni 1834)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief104BoeckhanVarnhagen"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief104BoeckhanVarnhagen"/>
                </bibl>
             </cit>
             <cit>
                <quote xml:lang="deu" ana="#formal #s-n #r-n">Mit herzlicher Verehrung
-                  und<lb/>Hochachtung</quote>
+                  und Hochachtung</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von August Boeckh an Karl August Varnhagen von
                      Ense(Berlin, 7. Juni 1836)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief105BoeckhanVarnhagen"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief105BoeckhanVarnhagen"/>
                </bibl>
             </cit>
             <cit>
@@ -1258,9 +936,7 @@
                      1800</title>
                   <title type="letter">Brief von August Boeckh an Karl August Varnhagen von
                      Ense(Berlin, 1. Juni 1837)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief106BoeckhanVarnhagen"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief106BoeckhanVarnhagen"/>
                </bibl>
             </cit>
             <cit>
@@ -1270,22 +946,18 @@
                      1800</title>
                   <title type="letter">Brief von August Boeckh an Karl August Varnhagen von
                      Ense(Berlin, 3. Dezember 1840)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief107BoeckhanVarnhagen"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief107BoeckhanVarnhagen"/>
                </bibl>
             </cit>
             <cit>
                <quote xml:lang="deu" ana="#informal #s-m #r-n">Mit der innigsten Verehrung und
-                  Ergebenheit <lb/>Ihr</quote>
+                  Ergebenheit  Ihr</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von August Boeckh an Karl August Varnhagen von
                      Ense(Berlin, 3. Dezember 1840)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief107BoeckhanVarnhagen"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief107BoeckhanVarnhagen"/>
                </bibl>
             </cit>
             <cit>
@@ -1295,48 +967,40 @@
                      1800</title>
                   <title type="letter">Brief von August Boeckh an Karl August Varnhagen von
                      Ense(Berlin, 3. Dezember 1840)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief107BoeckhanVarnhagen"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief107BoeckhanVarnhagen"/>
                </bibl>
             </cit>
             <cit>
                <quote xml:lang="deu" ana="#informal #s-m #r-n">Mit der herzlichsten
-                  Verehrung<lb/>Ihr</quote>
+                  Verehrung Ihr</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von August Boeckh an Karl August Varnhagen von
                      Ense(Berlin, 29. Mai 1841)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief108BoeckhanVarnhagen"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief108BoeckhanVarnhagen"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-m #r-n">Mit höchster Verehrung und herzlicher Ergebenheit<lb/>
-                  <seg rend="align(right)">stets der Ihrige</seg>
+               <quote xml:lang="deu" ana="#informal #s-m #r-n">Mit höchster Verehrung und herzlicher Ergebenheit 
+                  stets der Ihrige
                </quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von August Boeckh an Karl August Varnhagen von
                      Ense(Berlin, 29. März 1844)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief109BoeckhanVarnhagen"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief109BoeckhanVarnhagen"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-n #r-n">Alle<lb/>grüßen Sie herzlich.</quote>
+               <quote xml:lang="deu" ana="#informal #s-n #r-n">Alle grüßen Sie herzlich.</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Dorothea Tieck an Friedrich von Uechtritz(Dresden,
                      12. September 1833)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief10DorotheaTieckanUechtritz"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief10DorotheaTieckanUechtritz"/>
                </bibl>
             </cit>
             <cit>
@@ -1346,9 +1010,7 @@
                      1800</title>
                   <title type="letter">Brief von Ludwig Tieck an Friedrich von Raumer (Dresden, 14.
                      März 1824)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief10TieckanRaumer"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief10TieckanRaumer"/>
                </bibl>
             </cit>
             <cit>
@@ -1359,9 +1021,7 @@
                      1800</title>
                   <title type="letter">Brief von August Boeckh an Karl August Varnhagen von
                      Ense(Berlin, 30. November 1845)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief110BoeckhanVarnhagen"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief110BoeckhanVarnhagen"/>
                </bibl>
             </cit>
             <cit>
@@ -1371,9 +1031,7 @@
                      1800</title>
                   <title type="letter">Brief von August Boeckh an Karl August Varnhagen von
                      Ense(Berlin, 30. November 1845)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief110BoeckhanVarnhagen"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief110BoeckhanVarnhagen"/>
                </bibl>
             </cit>
             <cit>
@@ -1383,9 +1041,7 @@
                      1800</title>
                   <title type="letter">Brief von August Boeckh an Ludmilla Assing(Berlin, 16. April
                      1858)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief111BoeckhanAssing"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief111BoeckhanAssing"/>
                </bibl>
             </cit>
             <cit>
@@ -1395,9 +1051,7 @@
                      1800</title>
                   <title type="letter">Brief von August Boeckh an Ludmilla Assing(Berlin, 16. April
                      1859)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief112BoeckhanAssing"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief112BoeckhanAssing"/>
                </bibl>
             </cit>
             <cit>
@@ -1407,9 +1061,7 @@
                      1800</title>
                   <title type="letter">Brief von Dorothea Tieck an Friedrich von Uechtritz(Dresden,
                      30. Oktober 1833)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief11DorotheaTieckanUechtritz"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief11DorotheaTieckanUechtritz"/>
                </bibl>
             </cit>
             <cit>
@@ -1420,9 +1072,7 @@
                      1800</title>
                   <title type="letter">Brief von Adolf von Buch an Louis de Beausobre(Magdeburg, 23.
                      Februar 1762)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief11vonBuchanBeausobre"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief11vonBuchanBeausobre"/>
                </bibl>
             </cit>
             <cit>
@@ -1432,48 +1082,38 @@
                      1800</title>
                   <title type="letter">Brief von Johann Albrecht Euler an Jean Henri Samuel
                      Formey(Sankt Petersburg, 20. April 1767)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief11vonJAEuleranJHSFormey"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief11vonJAEuleranJHSFormey"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-n #r-n">viele<lb/>Grüße von Allen.</quote>
+               <quote xml:lang="deu" ana="#informal #s-n #r-n">viele Grüße von Allen.</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Dorothea Tieck an Friedrich von Uechtritz(Dresden,
                      20. Juni 1834)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief12DorotheaTieckanUechtritz"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief12DorotheaTieckanUechtritz"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-m #r-n">Mit allen Herzensempfindungen <lb/> Ihr
+               <quote xml:lang="deu" ana="#informal #s-m #r-n">Mit allen Herzensempfindungen   Ihr
                   ganz eigner</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Ludwig Tieck an Friedrich von Raumer (Dresden, 6.
                      Dezember 1825)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief12TieckanRaumer"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief12TieckanRaumer"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-n #r-n">Meine <rs ref="#p0133 #p0233"
-                     >Eltern</rs> und <persName ref="#p0218">Agnes</persName> grüßen herz<lb
-                     break="no"/>lich</quote>
+               <quote xml:lang="deu" ana="#informal #s-n #r-n">Meine Eltern und Agnes grüßen herzlich</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Dorothea Tieck an Friedrich von Uechtritz(Dresden,
                      30. September 1834)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief13DorotheaTieckanUechtritz"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief13DorotheaTieckanUechtritz"/>
                </bibl>
             </cit>
             <cit>
@@ -1483,64 +1123,54 @@
                      1800</title>
                   <title type="letter">Brief von Ludwig Tieck an Friedrich von Raumer (Dresden, 10.
                      Dezember 1825)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief13TieckanRaumer"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief13TieckanRaumer"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-n #r-n">Die <rs ref="#p0133 #p0233">Eltern</rs>
-                  und <persName ref="#p0218">Agnes</persName> tragen mir<lb/>tausend herzliche Grüße
-                  auf, auch die<lb/>
-                  <rs ref="#p0232">Gräfin</rs> empfiehlt sich Ihnen. Leben Sie<lb/>wohl und erfreuen
-                  Sie bald mit einem<lb/>Brief</quote>
+               <quote xml:lang="deu" ana="#informal #s-n #r-n">Die Eltern
+                  und Agnes tragen mir tausend herzliche Grüße
+                  auf, auch die 
+                  Gräfin empfiehlt sich Ihnen. Leben Sie wohl und erfreuen
+                  Sie bald mit einem Brief</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Dorothea Tieck an Friedrich von Uechtritz(Dresden,
                      21. November 1834)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief14DorotheaTieckanUechtritz"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief14DorotheaTieckanUechtritz"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-m #r-n">Ihr <lb/> Sie ehrender liebender – </quote>
+               <quote xml:lang="deu" ana="#informal #s-m #r-n">Ihr   Sie ehrender liebender – </quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Ludwig Tieck an Friedrich von Raumer (Dresden, 11.
                      Januar 1826)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief14TieckanRaumer"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief14TieckanRaumer"/>
                </bibl>
             </cit>
             <cit>
                <quote xml:lang="fr" ana="#informal #s-m #r-n">
-                  <lb/>Votre très humble &amp; très obe£issant Serviteur et <lb/>Neveu</quote>
+                   Votre très humble &amp; très obe£issant Serviteur et  Neveu</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Johann Albrecht Euler an Jean Henri Samuel
                      Formey(Sankt Petersburg, 14. August 1767)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief14vonJAEuleranJHSFormey"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief14vonJAEuleranJHSFormey"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-n #r-n">Die <rs ref="#p0133 #p0233">Eltern</rs>
-                  und <persName ref="#p0218">Agnes</persName> tragen mir die<lb/>herzlichsten Grüße
-                  an Sie auf, und ich<lb/>bleibe mit herzlicher Liebe</quote>
+               <quote xml:lang="deu" ana="#informal #s-n #r-n">Die Eltern
+                  und Agnes tragen mir die herzlichsten Grüße
+                  an Sie auf, und ich bleibe mit herzlicher Liebe</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Dorothea Tieck an Friedrich von Uechtritz(Dresden,
                      21. Januar 1835)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief15DorotheaTieckanUechtritz"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief15DorotheaTieckanUechtritz"/>
                </bibl>
             </cit>
             <cit>
@@ -1550,9 +1180,7 @@
                      1800</title>
                   <title type="letter">Brief von Ludwig Tieck an Friedrich von Raumer (Dresden, 18.
                      Februar 1826)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief15TieckanRaumer"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief15TieckanRaumer"/>
                </bibl>
             </cit>
             <cit>
@@ -1562,216 +1190,169 @@
                      1800</title>
                   <title type="letter">Brief von Adolf von Buch an Louis de Beausobre(Dresden, 21.
                      Oktober 1763)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief15vonBuchanBeausobre"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief15vonBuchanBeausobre"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-n #r-n">Tausend Grüße von den <rs
-                     ref="#p0133 #p0233 #p0218">Meinigen</rs>
+               <quote xml:lang="deu" ana="#informal #s-n #r-n">Tausend Grüße von den Meinigen
                </quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Dorothea Tieck an Friedrich von Uechtritz(Dresden,
                      10. April 1835)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief16DorotheaTieckanUechtritz"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief16DorotheaTieckanUechtritz"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-n #r-n">Tausend Grüße<lb/>von den <rs
-                     ref="#p0133 #p0233 #p0218">Meinigen</rs>. Auch die <persName ref="#p2766"
-                     >Scholz</persName> läßt grü<lb break="no"/>ßen, obwohl sie böse ist.</quote>
+               <quote xml:lang="deu" ana="#informal #s-n #r-n">Tausend Grüße von den Meinigen. Auch die Scholz läßt grüßen, obwohl sie böse ist.</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Dorothea Tieck an Friedrich von Uechtritz(Dresden,
                      27. Juli 1835)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief17DorotheaTieckanUechtritz"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief17DorotheaTieckanUechtritz"/>
                </bibl>
             </cit>
             <cit>
                <quote xml:lang="fr" ana="#informal #s-n #r-m">j’ai l’honneur d’être avec un profond
-                  <lb/>respect Monsieur mon très-honoré Oncle</quote>
+                   respect Monsieur mon très-honoré Oncle</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Johann Albrecht Euler an Jean Henri Samuel
                      Formey(Sankt Petersburg, 7. September 1767)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief17vonJAEuleranJHSFormey"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief17vonJAEuleranJHSFormey"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-n #r-n">die Mei<lb break="no"/>nigen grüßen
+               <quote xml:lang="deu" ana="#informal #s-n #r-n">die Meinigen grüßen
                   herzlich</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Dorothea Tieck an Friedrich von Uechtritz(Dresden,
                      20. Januar 1836)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief20DorotheaTieckanUechtritz"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief20DorotheaTieckanUechtritz"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="fr" ana="#informal #s-m #r-n">je suis avec le plus <lb/>profond
+               <quote xml:lang="fr" ana="#informal #s-m #r-n">je suis avec le plus  profond
                   respect Votre très-humble Serviteur et Neveu</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Johann Albrecht Euler an Jean Henri Samuel
                      Formey(Sankt Petersburg, 3. Dezember 1767)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief20vonJAEuleranJHSFormey"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief20vonJAEuleranJHSFormey"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-n #r-n">Leben Sie wohl, die <rs
-                     ref="#p0133 #p0233">Eltern</rs> und <persName ref="#p0218">Agnes</persName>
-                  <lb/>grüßen herzlich,</quote>
+               <quote xml:lang="deu" ana="#informal #s-n #r-n">Leben Sie wohl, die Eltern und Agnes
+                   grüßen herzlich,</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Dorothea Tieck an Friedrich von Uechtritz(Dresden,
                      7. April 1836)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief21DorotheaTieckanUechtritz"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief21DorotheaTieckanUechtritz"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-n #r-n">Tausend Grü<lb break="no"/>ße von den
+               <quote xml:lang="deu" ana="#informal #s-n #r-n">Tausend Grüße von den
                   Meinigen.</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Dorothea Tieck an Friedrich von Uechtritz(Dresden,
                      10. Juli 1836)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief22DorotheaTieckanUechtritz"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief22DorotheaTieckanUechtritz"/>
                </bibl>
             </cit>
             <cit>
                <quote xml:lang="deu" ana="#informal #s-n #r-n">
-                  <rs ref="#p0133">Vater</rs>
-                  <rs ref="#p0233">Mutter</rs> und <rs ref="#p0218">Schwester</rs> grüßen
+                  Vater
+                  Mutter und Schwester grüßen
                   herzlich</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Dorothea Tieck an Friedrich von Uechtritz
                      (Fragment)(ohne Ort, ohne Datum)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief24DorotheaTieckanUechtritz"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief24DorotheaTieckanUechtritz"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-n #r-n">Grüßen Sie <persName ref="#p3493"
-                     >Marie</persName> auf das herzlichste<lb/>von mir</quote>
+               <quote xml:lang="deu" ana="#informal #s-n #r-n">Grüßen Sie Marie auf das herzlichste von mir</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Dorothea Tieck an Friedrich von Uechtritz(Dresden,
                      1. November 1836)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief25DorotheaTieckanUechtritz"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief25DorotheaTieckanUechtritz"/>
                </bibl>
             </cit>
             <cit>
                <quote xml:lang="deu" ana="#informal #s-n #r-n">Deshalb will ich heut mit den
-                  herzlichsten<lb/>Grüßen von allen Meinigen schließen,</quote>
+                  herzlichsten Grüßen von allen Meinigen schließen,</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Dorothea Tieck an Friedrich von Uechtritz(Dresden,
                      27. Dezember 1836)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief26DorotheaTieckanUechtritz"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief26DorotheaTieckanUechtritz"/>
                </bibl>
             </cit>
             <cit>
                <quote xml:lang="deu" ana="#informal #s-n #r-n">Ich umarme den treuen, herzlichen,
-                  Schmerzen dulden, alten lieben <lb/> Raumer hundertmal in Gedanken.<lb/>
+                  Schmerzen dulden, alten lieben   Raumer hundertmal in Gedanken. 
                </quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Ludwig Tieck an Friedrich von Raumer (Dresden, 7.
                      oder 5. August 1832)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief26TieckanRaumer"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief26TieckanRaumer"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-n #r-n">Grüßen Sie <persName ref="#p3493"
-                     >Marie</persName> herzlich</quote>
+               <quote xml:lang="deu" ana="#informal #s-n #r-n">Grüßen Sie Marie herzlich</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Dorothea Tieck an Friedrich von Uechtritz(Dresden,
                      25. September 1837)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief30DorotheaTieckanUechtritz"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief30DorotheaTieckanUechtritz"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-n #r-m">Sagen<lb/>Sie Ihrer lieben <rs
-                     ref="#p3493">Frau</rs> und <rs ref="#p3494">Schwiegermutter</rs>
-                  <note resp="#sophia.zeil">
-                     <persName ref="#p3494">Elisabeth Wilhelmine Balan (geb.
-                     Lecoq)</persName>.</note>
-                  <lb/>die herzlichsten Grüße von mir, die <rs ref="#p0133">Vater</rs>
-                  <lb/>mir auch für Sie aufträgt. Mit unverän<lb break="no"/>derter
+               <quote xml:lang="deu" ana="#informal #s-n #r-m">Sagen Sie Ihrer lieben Frau und Schwiegermutter
+                  
+                   die herzlichsten Grüße von mir, die Vater
+                   mir auch für Sie aufträgt. Mit unveränderter
                   Freundschaft.</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Dorothea Tieck an Friedrich von Uechtritz(Dresden,
                      7. Januar 1839)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief31DorotheaTieckanUechtritz"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief31DorotheaTieckanUechtritz"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-n #r-n">Grüßen Sie doch <rs ref="#p3534 #p3535"
-                     >Schnasens</rs>
-                  <note resp="#sophia.zeil">
-                     <persName ref="#p3534">Karl Schnaase</persName> und dessen Frau <persName
-                        ref="#p3535">Charlotte (geb. von Schoenowska)</persName>. Mit dem
-                     Oberlandgerichtsrat <persName ref="#p3534">Karl Schnaase</persName> verband
-                        <persName ref="#p0711">Uechtritz</persName> seit <date when-iso="1829"
-                        >1829</date> eine innige Freundschaft. Er widmete ihm seine Abhandlung
-                        <title ref="#w05544">Blicke in das Düsseldorfer Kunst- und
-                        Künstlerleben</title>.</note> von mir, ich<lb/>denke mit Vergnügen an diese
-                     erfreu<lb break="no"/>liche Bekanntschaft. Vor allem grüßen<lb/>Sie aber Ihre
-                  liebe <rs ref="#p3493">Frau</rs>. Wenn Sie mö<lb break="no"/>gen auch die
-                     <persName ref="#p3527">Immermann</persName>, der aber<lb/>wohl dies jetzt zu
-                  unwichtig seyn wird<lb/>Gott schenke Ihnen ein freudiges<lb/>Weihnachtsfest und
-                  einen glücklichen<lb/>Anfang des neuen Jahres.</quote>
+               <quote xml:lang="deu" ana="#informal #s-n #r-n">Grüßen Sie doch Schnasens
+                   von mir, ich denke mit Vergnügen an diese
+                     erfreuliche Bekanntschaft. Vor allem grüßen Sie aber Ihre
+                  liebe Frau. Wenn Sie mögen auch die
+                     Immermann, der aber wohl dies jetzt zu
+                  unwichtig seyn wird Gott schenke Ihnen ein freudiges Weihnachtsfest und
+                  einen glücklichen Anfang des neuen Jahres.</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Dorothea Tieck an Friedrich von Uechtritz(Dresden,
                      28. Dezember 1840)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?Brief33DorotheaTieckanUechtritz"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief33DorotheaTieckanUechtritz"/>
                </bibl>
             </cit>
             <cit>
@@ -1781,213 +1362,121 @@
                      1800</title>
                   <title type="letter">Brief von Henriette von Finckenstein an Friedrich von Raumer
                      (Dresden, 4. November 1836)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?HvF-an-FvR_1836-11-04"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?HvF-an-FvR_1836-11-04"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-n #r-n">Gruß Ihnen <choice>
-                     <abbr>u</abbr>
-                     <expan>und</expan>
-                  </choice> den Ihrigen von <lb/> mir <choice>
-                     <abbr>u</abbr>
-                     <expan>und</expan>
-                  </choice> allen den Meinigen.</quote>
+               <quote xml:lang="deu" ana="#informal #s-n #r-n">Gruß Ihnen und den Ihrigen von   mir und allen den Meinigen.</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Ludwig Tieck an Friedrich von Raumer (Dresden, 27.
                      Juli 1837)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?LT-an-FvR_1837-07-27"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?LT-an-FvR_1837-07-27"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-n #r-n">Grüssen Sie doch <rs ref="#p0858"
-                     >meinen Bruder</rs>. Er soll kom̄en!</quote>
+               <quote xml:lang="deu" ana="#informal #s-n #r-n">Grüssen Sie doch meinen Bruder. Er soll kom̄en!</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Ludwig Tieck an Friedrich von Raumer (Dresden, 27.
                      Juli 1837)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?LT-an-FvR_1837-07-27"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?LT-an-FvR_1837-07-27"/>
                </bibl>
             </cit>
             <cit>
                <quote xml:lang="deu" ana="#informal #s-n #r-n">Auf Wiedersehn! recht bald! Wenden Sie
-                  wieder <lb/> eine halbe Stunde an</quote>
+                  wieder   eine halbe Stunde an</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
                   <title type="letter">Brief von Ludwig Tieck an Friedrich von Raumer (Dresden, 15.
                      November 1838)</title>
-                  <ref
-                     target="http://www.berliner-intellektuelle.eu/manuscript?LT-an-FvR_1838-11-15"
-                  />
+                  <ref target="http://www.berliner-intellektuelle.eu/manuscript?LT-an-FvR_1838-11-15"/>
                </bibl>
             </cit>
          </div>
          <!-- hier beginnt die Ausschlussliste -->
          <div type="exclude">
             <listRef>
-               <ref
-                  target="http://www.berliner-intellektuelle.eu/manuscript?Brief005ChamissoandeLaFoye.xml"/>
-               <ref
-                  target="http://www.berliner-intellektuelle.eu/manuscript?Brief011ChamissoandeLaFoye.xml"/>
-			   <ref
-				  target="http://www.berliner-intellektuelle.eu/manuscript?Brief01vonBuchanBeausobre.xml"/>
-			   <ref
-				  target="http://www.berliner-intellektuelle.eu/manuscript?Brief01vonJAEuleranJHSFormey.xml"/>
-			   <ref
-				  target="http://www.berliner-intellektuelle.eu/manuscript?Brief02vonJAEuleranJHSFormey.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief04vonJAEuleranJHSFormey.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief05vonBuchanBeausobre.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief05vonJAEuleranJHSFormey.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief06vonBuchanBeausobre.xml"/>
-			   <ref
-				  target="http://www.berliner-intellektuelle.eu/manuscript?Brief06vonJAEuleranJHSFormey.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief06vonJAEuleranJHSFormey.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief06vonJAEuleranJHSFormey.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief07DorotheaTieckanUechtritz.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief07vonBuchanBeausobre.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief07vonJAEuleranJHSFormey.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief07vonJAEuleranJHSFormey.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief07vonJAEuleranJHSFormey.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief08TieckanRaumer.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief09vonBuchanBeausobre.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief09vonJAEuleranJHSFormey.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief101VarnhagenanBoeckh.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief08vonBuchanBeausobre.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief08vonJAEuleranJHSFormey.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief08vonJAEuleranJHSFormey.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief09DorotheaTieckanUechtritz.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief09TieckanRaumer.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief102BoeckhanVarnhagen.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief106BoeckhanVarnhagen.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief108BoeckhanVarnhagen.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief108BoeckhanVarnhagen.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief10DorotheaTieckanUechtritz.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief10vonBuchanBeausobre.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief11TieckanRaumer.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief11vonBuchanBeausobre.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief11vonJAEuleranJHSFormey.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief11vonJAEuleranJHSFormey.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief11vonJAEuleranJHSFormey.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief12DorotheaTieckanUechtritz.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief12TieckanRaumer.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief12vonBuchanBeausobre.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief12vonJAEuleranJHSFormey.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief12vonJAEuleranJHSFormey.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief12vonJAEuleranJHSFormey.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief13TieckanRaumer.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief13vonBuchanBeausobre.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief13vonJAEuleranJHSFormey.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief13vonJAEuleranJHSFormey.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief14TieckanRaumer.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief14vonBuchanBeausobre.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief14vonJAEuleranJHSFormey.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief15vonJAEuleranJHSFormey.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief16TieckanRaumer.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief16vonBuchanBeausobre.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief16vonJAEuleranJHSFormey.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief17vonBuchanBeausobre.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief17vonJAEuleranJHSFormey.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief18DorotheaTieckanUechtritz.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief18vonBuchanBeausobre.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief19TieckanRaumer.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief19vonBuchanBeausobre.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief20TieckanRaumer.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief20vonJAEuleranJHSFormey.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief21vonJAEuleranJHSFormey.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief22vonJAEuleranJHSFormey.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief23vonJAEuleranJHSFormey.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief24TieckanRaumer.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief24vonJAEuleranJHSFormey.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief25TieckanRaumer.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief25vonJAEuleranJHSFormey.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?Brief26TieckanRaumer.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?LT-an-FvR_1834-02-28.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?LT-an-FvR_1836-11-11.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?LT-an-FvR_1837-07-27.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?LT-an-FvR_1838-03-27.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?LT-an-FvR_1838-11-15.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?LT-an-FvR_1839-11-09.xml"/>
-			   <ref
-			      target="http://www.berliner-intellektuelle.eu/manuscript?LT-an-FvR_1840-02-18f.xml"/>
+               <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief005ChamissoandeLaFoye.xml"/>
+               <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief011ChamissoandeLaFoye.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief01vonBuchanBeausobre.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief01vonJAEuleranJHSFormey.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief02vonJAEuleranJHSFormey.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief04vonJAEuleranJHSFormey.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief05vonBuchanBeausobre.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief05vonJAEuleranJHSFormey.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief06vonBuchanBeausobre.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief06vonJAEuleranJHSFormey.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief06vonJAEuleranJHSFormey.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief06vonJAEuleranJHSFormey.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief07DorotheaTieckanUechtritz.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief07vonBuchanBeausobre.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief07vonJAEuleranJHSFormey.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief07vonJAEuleranJHSFormey.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief07vonJAEuleranJHSFormey.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief08TieckanRaumer.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief09vonBuchanBeausobre.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief09vonJAEuleranJHSFormey.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief101VarnhagenanBoeckh.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief08vonBuchanBeausobre.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief08vonJAEuleranJHSFormey.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief08vonJAEuleranJHSFormey.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief09DorotheaTieckanUechtritz.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief09TieckanRaumer.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief102BoeckhanVarnhagen.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief106BoeckhanVarnhagen.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief108BoeckhanVarnhagen.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief108BoeckhanVarnhagen.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief10DorotheaTieckanUechtritz.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief10vonBuchanBeausobre.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief11TieckanRaumer.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief11vonBuchanBeausobre.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief11vonJAEuleranJHSFormey.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief11vonJAEuleranJHSFormey.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief11vonJAEuleranJHSFormey.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief12DorotheaTieckanUechtritz.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief12TieckanRaumer.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief12vonBuchanBeausobre.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief12vonJAEuleranJHSFormey.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief12vonJAEuleranJHSFormey.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief12vonJAEuleranJHSFormey.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief13TieckanRaumer.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief13vonBuchanBeausobre.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief13vonJAEuleranJHSFormey.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief13vonJAEuleranJHSFormey.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief14TieckanRaumer.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief14vonBuchanBeausobre.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief14vonJAEuleranJHSFormey.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief15vonJAEuleranJHSFormey.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief16TieckanRaumer.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief16vonBuchanBeausobre.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief16vonJAEuleranJHSFormey.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief17vonBuchanBeausobre.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief17vonJAEuleranJHSFormey.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief18DorotheaTieckanUechtritz.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief18vonBuchanBeausobre.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief19TieckanRaumer.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief19vonBuchanBeausobre.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief20TieckanRaumer.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief20vonJAEuleranJHSFormey.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief21vonJAEuleranJHSFormey.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief22vonJAEuleranJHSFormey.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief23vonJAEuleranJHSFormey.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief24TieckanRaumer.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief24vonJAEuleranJHSFormey.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief25TieckanRaumer.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief25vonJAEuleranJHSFormey.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?Brief26TieckanRaumer.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?LT-an-FvR_1834-02-28.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?LT-an-FvR_1836-11-11.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?LT-an-FvR_1837-07-27.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?LT-an-FvR_1838-03-27.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?LT-an-FvR_1838-11-15.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?LT-an-FvR_1839-11-09.xml"/>
+			   <ref target="http://www.berliner-intellektuelle.eu/manuscript?LT-an-FvR_1840-02-18f.xml"/>
             </listRef>
          </div> 
       </body>

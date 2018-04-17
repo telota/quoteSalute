@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -12,30 +8,12 @@
                <resp>
                   <note>Collection, curation and processing of data</note>
                </resp>
-               <persName ref="http://d-nb.info/gnd/1034877364">
-                  <surname>Dumont</surname>
-                  <forename>Stefan</forename>
-               </persName>
-               <persName>
-                  <surname>Klappenbach</surname>
-                  <forename>Lou</forename>
-               </persName>
-               <persName>
-                  <surname>Kullick</surname>
-                  <forename>Marvin</forename>
-               </persName>
-               <persName ref="http://d-nb.info/gnd/1121508855">
-                  <surname>Neuber</surname>
-                  <forename>Frederike</forename>
-               </persName>
-               <persName>
-                  <surname>Philipp</surname>
-                  <forename>Luisa</forename>
-               </persName>
-               <persName>
-                  <surname>Pohl</surname>
-                  <forename>Oliver</forename>
-               </persName>
+               <persName ref="http://d-nb.info/gnd/1034877364"><surname>Dumont</surname><forename>Stefan</forename></persName>
+               <persName><surname>Klappenbach</surname><forename>Lou</forename></persName>
+               <persName><surname>Kullick</surname><forename>Marvin</forename></persName>
+               <persName ref="http://d-nb.info/gnd/1121508855"><surname>Neuber</surname><forename>Frederike</forename></persName>
+               <persName><surname>Philipp</surname><forename>Luisa</forename></persName>
+               <persName><surname>Pohl</surname><forename>Oliver</forename></persName>
             </respStmt>
             <respStmt>
                <resp>
@@ -65,13 +43,11 @@
             </availability>
          </publicationStmt>
          <notesStmt>
-            <note type="data_integration">The data was taken over from <ref
-                  target="https://wvh-briefe.bbaw.de/">https://wvh-briefe.bbaw.de/</ref> on
+            <note type="data_integration">The data was taken over from <ref target="https://wvh-briefe.bbaw.de/">https://wvh-briefe.bbaw.de/</ref> on
                15.3.2018. Later published contents of the edition may be added in the future.</note>
             <note type="selection">For quoteSalute, those salutes were selected that are relevant
                for the application in terms of content, form and length. More information on
-               selection and tagging can be found in the <ref
-                  target="https://correspsearch.net/salute/dokumentation">documentation of the
+               selection and tagging can be found in the <ref target="https://correspsearch.net/salute/dokumentation">documentation of the
                   project</ref>.</note>
          </notesStmt>
          <sourceDesc>
@@ -151,7 +127,7 @@
             </cit>
             <cit>
                <quote ana="#formal #s-n #r-n" xml:lang="deu">
-                  <pb n="2*"/>Ich freue mich sehr diese Gelegenheit benutzen zu können Ew die
+                  Ich freue mich sehr diese Gelegenheit benutzen zu können Ew die
                   Versicherung meiner ausgezeichnetsten Hochachtung zu wiederholen. </quote>
                <bibl>
                   <title type="edition">Wilhelm von Humboldt - Spachwissenschaftliche
@@ -187,7 +163,7 @@
             </cit>
             <cit>
                <quote ana="#informal #s-n #r-m" xml:lang="deu">Erhalten Sie mir theuerster Freund
-                  Ihr wohlwollendes Andenken und <pb n="4*"/>nehmen Sie die erneuerte Versicherung
+                  Ihr wohlwollendes Andenken und nehmen Sie die erneuerte Versicherung
                   meiner herzlichsten und hochachtungsvollen Freundschaft an. </quote>
                <bibl>
                   <title type="edition">Wilhelm von Humboldt - Spachwissenschaftliche
@@ -299,7 +275,7 @@
             </cit>
             <cit>
                <quote ana="#informal #s-n #r-n" xml:lang="deu">Leben Sie recht wohl! mit herzlicher
-                  Freundschaft. <handShift scribe="wvh"/>der Ihrige </quote>
+                  Freundschaft. der Ihrige </quote>
                <bibl>
                   <title type="edition">Wilhelm von Humboldt - Spachwissenschaftliche
                      Korrespondenz</title>
@@ -515,7 +491,7 @@
             </cit>
             <cit>
                <quote ana="#formal #s-n #r-n" xml:lang="deu">Ich habe Nichts beizufügen, als den
-                  innigsten Wunsch, daß <placeName ref="Norderney">Norderney</placeName> seine ganze
+                  innigsten Wunsch, daß Norderney seine ganze
                   Kraft erproben möge, und den Ausdruck der aufrichtigsten Ehrerbietung und
                   Ergebenheit. </quote>
                <bibl>
@@ -722,7 +698,7 @@
             <cit>
                <quote ana="#informal #s-m #r-n" xml:lang="deu">Verzeihen Sie die vielen Bitten und
                   leben Sie recht herzlich wohl. Mit der aufrichtigsten und Hochachtungsvollsten
-                  Freundschaft. <handShift scribe="wvh"/>Der Ihrige, </quote>
+                  Freundschaft. Der Ihrige, </quote>
                <bibl>
                   <title type="edition">Wilhelm von Humboldt - Spachwissenschaftliche
                      Korrespondenz</title>
@@ -732,7 +708,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ew Excellenz <sic>Unterthanig</sic>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ew Excellenz Unterthanig
                   gehorsamster </quote>
                <bibl>
                   <title type="edition">Wilhelm von Humboldt - Spachwissenschaftliche
@@ -743,10 +719,10 @@
             </cit>
             <cit>
                <quote ana="#formal #s-m #r-m" xml:lang="deu">
-                  <add>Je Vous supplie, M<hi rend="superscript">r</hi>. le Baron, d’agréer
+                  Je Vous supplie, Mr. le Baron, d’agréer
                      l’assurance renouvellée de la haute considération avec laquelle j’ai l’honneur
-                     d’être, M<hi rend="superscript">r</hi>. le Baron de VE. le très-humble &amp;
-                     très obéissant serviteur,</add>
+                     d’être, Mr. le Baron de VE. le très-humble &amp;
+                     très obéissant serviteur,
                </quote>
                <bibl>
                   <title type="edition">Wilhelm von Humboldt - Spachwissenschaftliche
@@ -758,7 +734,7 @@
             </cit>
             <cit>
                <quote ana="#formal #s-m #r-m" xml:lang="fra">Veuillez, Monsieur, agréer
-                     l’<unclear>assurance</unclear> réitérée des sentimens très-distingués avec
+                     l’assurance réitérée des sentimens très-distingués avec
                   lesquels j’ai l’honneur d’être, Monsieur, Votre très-humble &amp; très-obéissant
                   serviteur, </quote>
                <bibl>
@@ -823,7 +799,7 @@
             </cit>
             <cit>
                <quote ana="#informal #s-n #r-m" xml:lang="deu">Mit der hochachtungsvollsten
-                  Freundschaft <handShift scribe="wvh"/>der Ihrige, </quote>
+                  Freundschaft der Ihrige, </quote>
                <bibl>
                   <title type="edition">Wilhelm von Humboldt - Spachwissenschaftliche
                      Korrespondenz</title>
@@ -877,7 +853,7 @@
             <cit>
                <quote ana="#informal #s-m #r-n" xml:lang="deu">Sagen Sie mir doch ob ich bald etwas
                   von Ihnen erhalten kann, und leben Sie recht wohl. Mit der innigsten Freundschaft
-                     <handShift scribe="wvh"/> der Ihrige </quote>
+                      der Ihrige </quote>
                <bibl>
                   <title type="edition">Wilhelm von Humboldt - Spachwissenschaftliche
                      Korrespondenz</title>
@@ -899,7 +875,7 @@
             </cit>
             <cit>
                <quote ana="#informal #s-m #r-n" xml:lang="deu">
-                  <handShift scribe="wvh"/> Mit herzlicher Freundschaft Ihr </quote>
+                   Mit herzlicher Freundschaft Ihr </quote>
                <bibl>
                   <title type="edition">Wilhelm von Humboldt - Spachwissenschaftliche
                      Korrespondenz</title>
@@ -1009,7 +985,7 @@
             </cit>
             <cit>
                <quote ana="#formal #s-m #r-m" xml:lang="eng">I have the honor to remain Sir Your
-                  most obliged &amp; faithful Ser.<hi rend="superscript">t</hi>
+                  most obliged &amp; faithful Ser.t
                </quote>
                <bibl>
                   <title type="edition">Wilhelm von Humboldt - Spachwissenschaftliche
@@ -1156,8 +1132,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-m" xml:lang="fra">&amp; c’est en Vous <pb n="83v"
-                  />réitérant mes sincères remerciemens aussi que l’assurance de ma profonde éstime
+               <quote ana="#formal #s-m #r-m" xml:lang="fra">&amp; c’est en Vous réitérant mes sincères remerciemens aussi que l’assurance de ma profonde éstime
                   &amp; de ma considération très-distinguée que je suis, Monsieur, Vôtre très-humble
                   &amp; très-obéissant Serviteur, </quote>
                <bibl>
@@ -1170,7 +1145,7 @@
             </cit>
             <cit>
                <quote ana="#informal #s-m #r-n" xml:lang="deu">Leben Sie herzlich wohl! Mit der
-                  aufrichtigsten Freundschaft <handShift scribe="wvh"/> der Ihrige </quote>
+                  aufrichtigsten Freundschaft  der Ihrige </quote>
                <bibl>
                   <title type="edition">Wilhelm von Humboldt - Spachwissenschaftliche
                      Korrespondenz</title>
@@ -1248,7 +1223,7 @@
             </cit>
             <cit>
                <quote ana="#formal #s-m #r-n" xml:lang="spa">soy con la mayor consideracion su
-                     att.<hi rend="superscript">o</hi> y S. S. </quote>
+                     att.o y S. S. </quote>
                <bibl>
                   <title type="edition">Wilhelm von Humboldt - Spachwissenschaftliche
                      Korrespondenz</title>
@@ -1371,9 +1346,7 @@
             </cit>
             <cit>
                <quote ana="#formal #s-n #r-n" xml:lang="deu">Leben Sie recht wohl, grüßen Sie
-                     <persName ref="bopp" xml:lang="deu">
-                     <hi rend="antiqua">Bopp</hi>
-                  </persName> herzlich von mir, und seyn Sie der ununterbrochnen Dauer meiner
+                     Bopp herzlich von mir, und seyn Sie der ununterbrochnen Dauer meiner
                   vorzüglichen Hochachtung gewiß. </quote>
                <bibl>
                   <title type="edition">Wilhelm von Humboldt - Spachwissenschaftliche
@@ -1432,8 +1405,7 @@
             </cit>
             <cit>
                <quote ana="#informal #s-m #r-n" xml:lang="deu">Mit herzlicher Hochachtung und
-                  Freundschaft. Der<note type="footnote" resp="editor">Leitzmann ändert
-                     „Freundschaft. |Absatz| Der“ zu „Freundschaft |Absatz| der“.</note> Ihrige, </quote>
+                  Freundschaft. Der Ihrige, </quote>
                <bibl>
                   <title type="edition">Wilhelm von Humboldt - Spachwissenschaftliche
                      Korrespondenz</title>
@@ -1537,7 +1509,7 @@
             </cit>
             <cit>
                <quote ana="#informal #s-n #r-n" xml:lang="deu">Leben Sie herzlich wohl. Mit der
-                  innigsten und hochachtungsvollsten Freundschaft, <handShift scribe="wvh"/> der
+                  innigsten und hochachtungsvollsten Freundschaft,  der
                   Ihrige, </quote>
                <bibl>
                   <title type="edition">Wilhelm von Humboldt - Spachwissenschaftliche
@@ -1580,8 +1552,8 @@
             </cit>
             <cit>
                <quote ana="#formal #s-n #r-m" xml:lang="deu">
-                  <add>J’ai l’honneur d’être avec la considération la plus distinguée,
-                     Monsieur,</add>
+                  J’ai l’honneur d’être avec la considération la plus distinguée,
+                     Monsieur,
                </quote>
                <bibl>
                   <title type="edition">Wilhelm von Humboldt - Spachwissenschaftliche
@@ -1592,7 +1564,7 @@
             </cit>
             <cit>
                <quote ana="#formal #s-m #r-m" xml:lang="fra">J’ai l’honneur d’offrir à votre
-                  Excellence quatre ouvrages cijoints <add>ou dans quelques jours</add> comme
+                  Excellence quatre ouvrages cijoints ou dans quelques jours comme
                   tèmoignage de la parfaite bienveillance et de l’affection la plus distinguée avec
                   lesquelles j’ai l’honneur d’être. Monseigneur! De votre Excellence le plus
                   obèissant et le plus devoué Serviteur </quote>
@@ -1695,7 +1667,7 @@
             <cit>
                <quote ana="#informal #s-m #r-n" xml:lang="deu">Leben Sie herzlich wohl, u. lassen
                   Sie mich bald hören, daß der Frühling jede der Klagen verscheucht hat, die Ihr
-                     <ref type="link" target="1076">Brief</ref> über Ihre Gesundheit enthält. Ich
+                     Brief über Ihre Gesundheit enthält. Ich
                   bin sehr wohl, u. habe auch von dem Winter wenig gelitten, allein mich ihm auch
                   fast nicht ausgesetzt. Mit der hochachtungsvollsten Freundschaft, der Ihrige, </quote>
                <bibl>
@@ -1721,7 +1693,7 @@
             </cit>
             <cit>
                <quote ana="#informal #s-m #r-n" xml:lang="deu">Leben Sie herzlich wohl Mit innigster
-                  Freundschaft <handShift scribe="wvh"/> der Ihrige, </quote>
+                  Freundschaft  der Ihrige, </quote>
                <bibl>
                   <title type="edition">Wilhelm von Humboldt - Spachwissenschaftliche
                      Korrespondenz</title>
@@ -1798,7 +1770,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Mit der <sic>grösten</sic> Hochachtung
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Mit der grösten Hochachtung
                   Ew. Excellenz ganz ergebenster </quote>
                <bibl>
                   <title type="edition">Wilhelm von Humboldt - Spachwissenschaftliche
@@ -1874,9 +1846,9 @@
             </cit>
             <cit>
                <quote ana="#informal #s-n #r-m" xml:lang="deu">Ich danke Ihnen herzlich, theuerster
-                  Freund, für Ihre <pb n="2*"/>gütigen Wünsche zum neuen Jahr, die ich mit der Bitte
+                  Freund, für Ihre gütigen Wünsche zum neuen Jahr, die ich mit der Bitte
                   um Ihr fortdauerndes Wohlwollen, für Sie und die Ihrigen von ganzem Herzen
-                  erwiedere. Mit unveränderlicher Freundschaft <handShift scribe="wvh"/> Ihr </quote>
+                  erwiedere. Mit unveränderlicher Freundschaft  Ihr </quote>
                <bibl>
                   <title type="edition">Wilhelm von Humboldt - Spachwissenschaftliche
                      Korrespondenz</title>
@@ -1906,7 +1878,7 @@
             </cit>
             <cit>
                <quote ana="#informal #s-n #r-n" xml:lang="deu">Leben Sie herzlich wohl mit
-                  hochachtungsvollster Freundschaft <handShift scribe="wvh"/> der Ihrige, </quote>
+                  hochachtungsvollster Freundschaft  der Ihrige, </quote>
                <bibl>
                   <title type="edition">Wilhelm von Humboldt - Spachwissenschaftliche
                      Korrespondenz</title>
@@ -1929,7 +1901,7 @@
             </cit>
             <cit>
                <quote ana="#formal #s-n #r-n" xml:lang="eng">for which I will ever Remain your most
-                     <sic>obednt</sic> Servent </quote>
+                     obednt Servent </quote>
                <bibl>
                   <title type="edition">Wilhelm von Humboldt - Spachwissenschaftliche
                      Korrespondenz</title>
@@ -1940,7 +1912,7 @@
             </cit>
             <cit>
                <quote ana="#formal #s-n #r-m" xml:lang="eng">I have the honor to be My dear Sir,
-                  Your faithful humble S.<hi rend="superscript">t</hi>
+                  Your faithful humble S.t
                </quote>
                <bibl>
                   <title type="edition">Wilhelm von Humboldt - Spachwissenschaftliche
@@ -1961,7 +1933,7 @@
             </cit>
             <cit>
                <quote ana="#informal #s-m #r-n" xml:lang="deu">Ich verbleibe mit der
-                  hochachtungsvollsten Freundschaft <handShift scribe="wvh"/> der Ihrige, </quote>
+                  hochachtungsvollsten Freundschaft  der Ihrige, </quote>
                <bibl>
                   <title type="edition">Wilhelm von Humboldt - Spachwissenschaftliche
                      Korrespondenz</title>

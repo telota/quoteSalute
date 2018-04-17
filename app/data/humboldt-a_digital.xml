@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -11,30 +7,12 @@
                <resp>
                   <note>Collection, curation and processing of data</note>
                </resp>
-               <persName ref="http://d-nb.info/gnd/1034877364">
-                  <surname>Dumont</surname>
-                  <forename>Stefan</forename>
-               </persName>
-               <persName>
-                  <surname>Klappenbach</surname>
-                  <forename>Lou</forename>
-               </persName>
-               <persName>
-                  <surname>Kullick</surname>
-                  <forename>Marvin</forename>
-               </persName>
-               <persName ref="http://d-nb.info/gnd/1121508855">
-                  <surname>Neuber</surname>
-                  <forename>Frederike</forename>
-               </persName>
-               <persName>
-                  <surname>Philipp</surname>
-                  <forename>Luisa</forename>
-               </persName>
-               <persName>
-                  <surname>Pohl</surname>
-                  <forename>Oliver</forename>
-               </persName>
+               <persName ref="http://d-nb.info/gnd/1034877364"><surname>Dumont</surname><forename>Stefan</forename></persName>
+               <persName><surname>Klappenbach</surname><forename>Lou</forename></persName>
+               <persName><surname>Kullick</surname><forename>Marvin</forename></persName>
+               <persName ref="http://d-nb.info/gnd/1121508855"><surname>Neuber</surname><forename>Frederike</forename></persName>
+               <persName><surname>Philipp</surname><forename>Luisa</forename></persName>
+               <persName><surname>Pohl</surname><forename>Oliver</forename></persName>
             </respStmt>
             <respStmt>
                <resp>
@@ -64,13 +42,11 @@
             </availability>
          </publicationStmt>
          <notesStmt>
-            <note type="data_integration">The data was taken over from <ref
-                  target="https://edition-humboldt.de">https://edition-humboldt.de</ref> on
+            <note type="data_integration">The data was taken over from <ref target="https://edition-humboldt.de">https://edition-humboldt.de</ref> on
                15.3.2018. Later published contents of the edition may be added in the future.</note>
             <note type="selection">For quoteSalute, those salutes were selected that are relevant
                for the application in terms of content, form and length. More information on
-               selection and tagging can be found in the <ref
-                  target="https://correspsearch.net/salute/dokumentation">documentation of the
+               selection and tagging can be found in the <ref target="https://correspsearch.net/salute/dokumentation">documentation of the
                   project</ref>.</note>
          </notesStmt>
          <sourceDesc>
@@ -119,8 +95,8 @@
       <body>
          <div type="included">
             <cit>
-               <quote ana="#informal #s-m #r-n" xml:lang="deu">Mit innigster Verehrung <lb/>Ihr
-                  <lb/>dankbar ergebenster</quote>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Mit innigster Verehrung  Ihr
+                   dankbar ergebenster</quote>
                <bibl>
                   <title type="edition">edition humboldt digital</title>
                   <title type="letter">Carl Sigismund Kunth an Alexander von Humboldt. [Berlin],
@@ -147,7 +123,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-n #r-n" xml:lang="fra">Je Vous <lb/>embrasse
+               <quote ana="#informal #s-n #r-n" xml:lang="fra">Je Vous  embrasse
                   tendrement</quote>
                <bibl>
                   <title type="edition">edition humboldt digital</title>
@@ -158,7 +134,7 @@
             </cit>
             <cit>
                <quote ana="#informal #s-m #r-n" xml:lang="deu">Mit tiefster Verehrung Ihr
-                  <lb/>dankbar ergebenster</quote>
+                   dankbar ergebenster</quote>
                <bibl>
                   <title type="edition">edition humboldt digital</title>
                   <title type="letter">Carl Sigismund Kunth an Alexander von Humboldt. [Berlin], 1.
@@ -167,8 +143,8 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n" xml:lang="deu">Mit inniger Freundschaft <lb/>Ihr
-                  <lb/>AlHumboldt</quote>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Mit inniger Freundschaft  Ihr
+                   AlHumboldt</quote>
                <bibl>
                   <title type="edition">edition humboldt digital</title>
                   <title type="letter">Alexander von Humboldt an Carl Sigismund Kunth. [Berlin],
@@ -178,17 +154,11 @@
             </cit>
             <cit>
                <quote ana="#informal #s-n #r-f" xml:lang="fra">Mes tendres respects à
-                  <lb/>l'excellente <persName key="H0001516">Madame Kunth</persName>
-                  <supplied cert="high" prev="Kunth">.</supplied>
-                  <lb/>Elle aura eu ma lettre <lb/>par <choice>
-                     <abbr>Mr</abbr>
-                     <expan>Monsieur</expan>
-                  </choice>
-                  <unclear reason="illegible" cert="high">Pechenc</unclear> à tems <lb/>j'<choice>
-                     <orig>espere</orig>
-                     <reg>espère</reg>
-                  </choice>
-                  <supplied cert="high" prev="espere">.</supplied>
+                   l'excellente Madame Kunth
+                  .
+                   Elle aura eu ma lettre  par Monsieur
+                  Pechenc à tems  j'espère
+                  .
                </quote>
                <bibl>
                   <title type="edition">edition humboldt digital</title>
@@ -245,8 +215,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-n #r-n" xml:lang="deu">Mit innigster Freund<lb break="no"
-                  />schaft und Hochschäzung</quote>
+               <quote ana="#informal #s-n #r-n" xml:lang="deu">Mit innigster Freundschaft und Hochschäzung</quote>
                <bibl>
                   <title type="edition">edition humboldt digital</title>
                   <title type="letter">Alexander von Humboldt an Franz Julius Ferdinand Meyen.
@@ -255,8 +224,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-n #r-n" xml:lang="deu">Mit freundschaft<lb break="no"
-                  />licher Anhänglichkeit,</quote>
+               <quote ana="#informal #s-n #r-n" xml:lang="deu">Mit freundschaftlicher Anhänglichkeit,</quote>
                <bibl>
                   <title type="edition">edition humboldt digital</title>
                   <title type="letter">Alexander von Humboldt an Franz Julius Ferdinand Meyen.
@@ -284,12 +252,7 @@
             </cit>
             <cit>
                <quote ana="#informal #s-n #r-n" xml:lang="deu">Ich umarme Sie herzlich. Schreiben
-                  <lb/>Sie mir <hi rendition="#u" xml:lang="deu">nach <rs type="place"
-                        key="H0005176">Bayreuth </rs>
-                  </hi>, wo ich den <lb/>15ten sein werde u von wo <lb/>aus Sie <choice>
-                     <abbr>MSS.</abbr>
-                     <expan>Manuscripte</expan>
-                  </choice> erhalten.</quote>
+                   Sie mir nach Bayreuth , wo ich den  15ten sein werde u von wo  aus Sie Manuscripte erhalten.</quote>
                <bibl>
                   <title type="edition">edition humboldt digital</title>
                   <title type="letter">Alexander von Humboldt an Samuel Thomas Soemmerring. Berlin,
@@ -298,14 +261,11 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-m" xml:lang="deu">Leben Sie wohl, mein Bester!<lb/>
-                  <seg type="comment">
-                     <orig>Forsters</orig>
-                     <note corresp="nsvt_kqh_1cb">
-                        <persName key="H0000177">Georg Forster</persName> und dessen Ehefrau
-                           <persName key="H0012030">Therese Huber</persName>, die wie Soemmerring in
-                           <placeName key="H0008587">Mainz</placeName> lebten.</note>
-                  </seg> und vergessen Sie nicht Ihren</quote>
+               <quote ana="#formal #s-n #r-m" xml:lang="deu">Leben Sie wohl, mein Bester! 
+                  
+                     Forsters
+                     
+                   und vergessen Sie nicht Ihren</quote>
                <bibl>
                   <title type="edition">edition humboldt digital</title>
                   <title type="letter">Alexander von Humboldt an Samuel Thomas Soemmerring. Hamburg,

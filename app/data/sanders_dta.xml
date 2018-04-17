@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -11,30 +7,12 @@
                <resp>
                   <note>Collection, curation and processing of data</note>
                </resp>
-               <persName ref="http://d-nb.info/gnd/1034877364">
-                  <surname>Dumont</surname>
-                  <forename>Stefan</forename>
-               </persName>
-               <persName>
-                  <surname>Klappenbach</surname>
-                  <forename>Lou</forename>
-               </persName>
-               <persName>
-                  <surname>Kullick</surname>
-                  <forename>Marvin</forename>
-               </persName>
-               <persName ref="http://d-nb.info/gnd/1121508855">
-                  <surname>Neuber</surname>
-                  <forename>Frederike</forename>
-               </persName>
-               <persName>
-                  <surname>Philipp</surname>
-                  <forename>Luisa</forename>
-               </persName>
-               <persName>
-                  <surname>Pohl</surname>
-                  <forename>Oliver</forename>
-               </persName>
+               <persName ref="http://d-nb.info/gnd/1034877364"><surname>Dumont</surname><forename>Stefan</forename></persName>
+               <persName><surname>Klappenbach</surname><forename>Lou</forename></persName>
+               <persName><surname>Kullick</surname><forename>Marvin</forename></persName>
+               <persName ref="http://d-nb.info/gnd/1121508855"><surname>Neuber</surname><forename>Frederike</forename></persName>
+               <persName><surname>Philipp</surname><forename>Luisa</forename></persName>
+               <persName><surname>Pohl</surname><forename>Oliver</forename></persName>
             </respStmt>
             <respStmt>
                <resp>
@@ -64,14 +42,11 @@
             </availability>
          </publicationStmt>
          <notesStmt>
-            <note type="data_integration">The data was taken over from <ref
-               target="http://www.deutschestextarchiv.de/search/metadata?corpus=sanders-briefe"
-               >http://www.deutschestextarchiv.de/search/metadata?corpus=sanders-briefe</ref> on
+            <note type="data_integration">The data was taken over from <ref target="http://www.deutschestextarchiv.de/search/metadata?corpus=sanders-briefe">http://www.deutschestextarchiv.de/search/metadata?corpus=sanders-briefe</ref> on
                12.4.2018. Later published contents of the edition may be added in the future.</note>
             <note type="selection">For quoteSalute, those salutes were selected that are relevant
                for the application in terms of content, form and length. More information on
-               selection and tagging can be found in the <ref
-                  target="https://correspsearch.net/salute/dokumentation">documentation of the
+               selection and tagging can be found in the <ref target="https://correspsearch.net/salute/dokumentation">documentation of the
                   project</ref>.</note>
          </notesStmt>
          <sourceDesc>
@@ -120,8 +95,8 @@
          <div type="included">
             <cit>
                <quote xml:lang="deu" ana="#informal #s-n #r-n">Zur Eriñerung an
-                     <placeName>Warnemünde</placeName>
-                  <lb/> und den „am 29ten angekom̃enen“<lb/>
+                     Warnemünde
+                    und den „am 29ten angekom̃enen“ 
                </quote>
                <bibl>
                   <title type="edition">Briefwechsel Daniel Sanders im Deutschen Textarchiv.</title>
@@ -132,7 +107,7 @@
             </cit>
             <cit>
                <quote xml:lang="deu" ana="#formal #s-m #r-n"> Mit besten Grüßen von der – an die
-                  Glaßbreñei<lb/> treu ergeben<lb/> der Eure<lb/>
+                  Glaßbreñei  treu ergeben  der Eure 
                </quote>
                <bibl>
                   <title type="edition">Briefwechsel Daniel Sanders im Deutschen Textarchiv.</title>
@@ -143,7 +118,7 @@
             </cit>
             <cit>
                <quote xml:lang="deu" ana="#informal #s-m #r-n">Mit freundschaftlichen Grüßen u. besten
-                  Wünschen<lb/> von Haus zu Haus<lb/> getreulich ergebenst<lb/> der Ihre<lb/>
+                  Wünschen  von Haus zu Haus  getreulich ergebenst  der Ihre 
                </quote>
                <bibl>
                   <title type="edition">Briefwechsel Daniel Sanders im Deutschen Textarchiv.</title>
@@ -153,10 +128,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-n #r-n">Mit Hochachtung <choice>
-                     <abbr>u</abbr>
-                     <expan>und</expan>
-                  </choice> freundschaftlichem Gruß<lb/>
+               <quote xml:lang="deu" ana="#informal #s-n #r-n">Mit Hochachtung und freundschaftlichem Gruß 
                </quote>
                <bibl>
                   <title type="edition">Briefwechsel Daniel Sanders im Deutschen Textarchiv.</title>
@@ -166,8 +138,8 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-m #r-n">herzlichen Grüßen<lb/> hochachtungsvoll
-                  Ihr<lb/>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">herzlichen Grüßen  hochachtungsvoll
+                  Ihr 
                </quote>
                <bibl>
                   <title type="edition">Briefwechsel Daniel Sanders im Deutschen Textarchiv.</title>
@@ -178,7 +150,7 @@
             </cit>
             <cit>
                <quote xml:lang="deu" ana="#formal #s-m #r-n">Leben Sie recht wohl und seien Sie
-                  meiner auf-<lb/> richtiger Hochachtung versichert.<lb/> Der Ihre<lb/>
+                  meiner auf-  richtiger Hochachtung versichert.  Der Ihre 
                </quote>
                <bibl>
                   <title type="edition">Briefwechsel Daniel Sanders im Deutschen Textarchiv.</title>
@@ -189,7 +161,7 @@
             </cit>
             <cit>
                <quote xml:lang="deu" ana="#formal #s-m #r-n">Mit bestem Dank im Voraus und mit
-                  freundlichsten<lb/> Grüßen<lb/> Ihr hochachtungsvoll ergebenster<lb/>
+                  freundlichsten  Grüßen  Ihr hochachtungsvoll ergebenster 
                </quote>
                <bibl>
                   <title type="edition">Briefwechsel Daniel Sanders im Deutschen Textarchiv.</title>
@@ -199,9 +171,8 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-m #r-n"> In alter Freundschaft Ihr <unclear
-                     reason="illegible">hochehrungsvoll</unclear>
-                  <lb/> ergebenster<lb/>
+               <quote xml:lang="deu" ana="#informal #s-m #r-n"> In alter Freundschaft Ihr hochehrungsvoll
+                    ergebenster 
                </quote>
                <bibl>
                   <title type="edition">Briefwechsel Daniel Sanders im Deutschen Textarchiv.</title>
@@ -211,20 +182,8 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-m #r-n">Meinen<lb/> Arbeiten <choice>
-                     <abbr>u.</abbr>
-                     <expan>und</expan>
-                  </choice> mich selbst Ihrem geneigten Wohlwollen angelegentlichst empfehlend (zur
-                  nach-<lb/> halten Förderung) bin ich mit den besten Wünschen <choice>
-                     <abbr>u.</abbr>
-                     <expan>und</expan>
-                  </choice> Grüßen für Sie <choice>
-                     <abbr>u.</abbr>
-                     <expan>und</expan>
-                  </choice> die Ihrigen in auf-<lb/> richtiger Verehrung <choice>
-                     <abbr>u.</abbr>
-                     <expan>und</expan>
-                  </choice> Dankbarkeit ergebnst der Ihre</quote>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Meinen  Arbeiten und mich selbst Ihrem geneigten Wohlwollen angelegentlichst empfehlend (zur
+                  nach-  halten Förderung) bin ich mit den besten Wünschen und Grüßen für Sie und die Ihrigen in auf-  richtiger Verehrung und Dankbarkeit ergebnst der Ihre</quote>
                <bibl>
                   <title type="edition">Briefwechsel Daniel Sanders im Deutschen Textarchiv.</title>
                   <title type="letter">Sanders, Daniel: Brief an Moritz Lazarus. Altstrelitz, 14.
@@ -233,8 +192,8 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-m #r-n">In vorzüglicher Hochachtung<lb/>
-                  treulich ergebenst der Ihre<lb/>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">In vorzüglicher Hochachtung 
+                  treulich ergebenst der Ihre 
                </quote>
                <bibl>
                   <title type="edition">Briefwechsel Daniel Sanders im Deutschen Textarchiv.</title>
@@ -245,8 +204,8 @@
             </cit>
             <cit>
                <quote xml:lang="deu" ana="#formal #s-m #r-n">Mit den besten Wünschen und Grüßen für
-                  Sie und die Ihrigen<lb/> Ihr hochachtungsvoll und freundschaftlich<lb/>
-                  ergebenster<lb/>
+                  Sie und die Ihrigen  Ihr hochachtungsvoll und freundschaftlich 
+                  ergebenster 
                </quote>
                <bibl>
                   <title type="edition">Briefwechsel Daniel Sanders im Deutschen Textarchiv.</title>
@@ -256,35 +215,31 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-n #r-n">Geneigter Antwort entgegensehend,<lb/>
-                  in vorzüglicher Hochachtung ergebenst<lb/>
+               <quote xml:lang="deu" ana="#formal #s-n #r-n">Geneigter Antwort entgegensehend, 
+                  in vorzüglicher Hochachtung ergebenst 
                </quote>
                <bibl>
                   <title type="edition">Briefwechsel Daniel Sanders im Deutschen Textarchiv.</title>
                   <title type="letter">Sanders, Daniel: Brief an die Literaturarchivgesellschaft.
                      Altstrelitz, 28. Februar 1892.</title>
-                  <ref
-                     target="http://www.deutschestextarchiv.de/sanders_literaturarchivgesellschaft2_1892"
-                  />
+                  <ref target="http://www.deutschestextarchiv.de/sanders_literaturarchivgesellschaft2_1892"/>
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-n #r-n">Geneigter Antwort entgegensehend<lb/>
-                  hochachtungsvoll ergebenst<lb/>
+               <quote xml:lang="deu" ana="#formal #s-n #r-n">Geneigter Antwort entgegensehend 
+                  hochachtungsvoll ergebenst 
                </quote>
                <bibl>
                   <title type="edition">Briefwechsel Daniel Sanders im Deutschen Textarchiv.</title>
                   <title type="letter">Sanders, Daniel: Brief an die Literaturarchivgesellschaft.
                      Altstrelitz, 3. März 1892.</title>
-                  <ref
-                     target="http://www.deutschestextarchiv.de/sanders_literaturarchivgesellschaft_1892"
-                  />
+                  <ref target="http://www.deutschestextarchiv.de/sanders_literaturarchivgesellschaft_1892"/>
                </bibl>
             </cit>
             <cit>
                <quote xml:lang="deu" ana="#formal #s-m #r-n">Und nun schließe ich mit wiederholtem
-                  Dank, mit besten Grüßen und<lb/> Wünschen und der Bitte, mir Ihre wohlwollende
-                  Gesiñung zu erhalten<lb/> als Ihrem<lb/> hochachtungsvoll ergebensten<lb/>
+                  Dank, mit besten Grüßen und  Wünschen und der Bitte, mir Ihre wohlwollende
+                  Gesiñung zu erhalten  als Ihrem  hochachtungsvoll ergebensten 
                </quote>
                <bibl>
                   <title type="edition">Briefwechsel Daniel Sanders im Deutschen Textarchiv.</title>
@@ -295,8 +250,8 @@
             </cit>
             <cit>
                <quote xml:lang="deu" ana="#formal #s-m #r-n">Mit den freundlichsten Grüßen mich
-                  Ihrem Wohl-<lb/> wollen angelegentlichst empfehlend,<lb/> in aufrichtiger
-                  Hochachtung<lb/> Ihr ergebenster<lb/>
+                  Ihrem Wohl-  wollen angelegentlichst empfehlend,  in aufrichtiger
+                  Hochachtung  Ihr ergebenster 
                </quote>
                <bibl>
                   <title type="edition">Briefwechsel Daniel Sanders im Deutschen Textarchiv.</title>
@@ -307,9 +262,9 @@
             </cit>
             <cit>
                <quote xml:lang="deu" ana="#formal #s-m #r-n">Mit der Bitte, die Flüchtigkeit dieser
-                  Zeilen zu<lb/> entschuldigen und mir Ihre freundliche und wohlwollende Ge-<lb/>
-                  siñung zu erhalten, bin ich in aufrichtiger Hochachtung<lb/> Ihr treu
-                  ergebener<lb/>
+                  Zeilen zu  entschuldigen und mir Ihre freundliche und wohlwollende Ge- 
+                  siñung zu erhalten, bin ich in aufrichtiger Hochachtung  Ihr treu
+                  ergebener 
                </quote>
                <bibl>
                   <title type="edition">Briefwechsel Daniel Sanders im Deutschen Textarchiv.</title>
@@ -319,8 +274,8 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-m #r-n">In größter Hochachtung<lb/> Ihr treu
-                  ergebener<lb/>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">In größter Hochachtung  Ihr treu
+                  ergebener 
                </quote>
                <bibl>
                   <title type="edition">Briefwechsel Daniel Sanders im Deutschen Textarchiv.</title>
@@ -331,8 +286,8 @@
             </cit>
             <cit>
                <quote xml:lang="deu" ana="#formal #s-m #r-n">Mich Ihrem freundlichen Wohlwollen aufs
-                  angelegentlichste<lb/> empfehlend, bin ich<lb/> Ihr hochachtungsvoll
-                  ergebenster<lb/>
+                  angelegentlichste  empfehlend, bin ich  Ihr hochachtungsvoll
+                  ergebenster 
                </quote>
                <bibl>
                   <title type="edition">Briefwechsel Daniel Sanders im Deutschen Textarchiv.</title>
@@ -342,9 +297,9 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-m #r-n">Mit freundlichen Grüßen und dem<lb/>
-                  Wunsch besten Ergehens – auch für die Hand – <lb/> Ihr hochachtungsvoll
-                  ergebenster<lb/>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Mit freundlichen Grüßen und dem 
+                  Wunsch besten Ergehens – auch für die Hand –   Ihr hochachtungsvoll
+                  ergebenster 
                </quote>
                <bibl>
                   <title type="edition">Briefwechsel Daniel Sanders im Deutschen Textarchiv.</title>
@@ -355,9 +310,9 @@
             </cit>
             <cit>
                <quote xml:lang="deu" ana="#formal #s-m #r-n">Mit dem Wunsche, daß es Ihnen ganz nach
-                  Wunsch<lb/> ergehen möge, und mit der Bitte, mich recht bald von Sich hören<lb/>
-                  zu lassen <space dim="horizontal"/> Ihr in aufrichtiger Hochachtung treu
-                  ergeben<lb/>
+                  Wunsch  ergehen möge, und mit der Bitte, mich recht bald von Sich hören 
+                  zu lassen  Ihr in aufrichtiger Hochachtung treu
+                  ergeben 
                </quote>
                <bibl>
                   <title type="edition">Briefwechsel Daniel Sanders im Deutschen Textarchiv.</title>
@@ -368,7 +323,7 @@
             </cit>
             <cit>
                <quote xml:lang="deu" ana="#formal #s-m #r-n"> Mit den besten Grüßen und
-                  ausgezeichneter<lb/> Hochachtung <space dim="horizontal"/>Ihr ergebenster<lb/>
+                  ausgezeichneter  Hochachtung Ihr ergebenster 
                </quote>
                <bibl>
                   <title type="edition">Briefwechsel Daniel Sanders im Deutschen Textarchiv.</title>
@@ -379,7 +334,7 @@
             </cit>
             <cit>
                <quote xml:lang="deu" ana="#formal #s-m #r-n">Mit den besten Grüßen in
-                  hochachtungsvoller Ergebenheit<lb/> getreulich der Ihre<lb/>
+                  hochachtungsvoller Ergebenheit  getreulich der Ihre 
                </quote>
                <bibl>
                   <title type="edition">Briefwechsel Daniel Sanders im Deutschen Textarchiv.</title>
@@ -390,7 +345,7 @@
             </cit>
             <cit>
                <quote xml:lang="deu" ana="#formal #s-m #r-n">Einen baldigen Bescheid
-                  entgegensehend<lb/> bin ich<lb/> hochachtungsvoll ergebenst<lb/>
+                  entgegensehend  bin ich  hochachtungsvoll ergebenst 
                </quote>
                <bibl>
                   <title type="edition">Briefwechsel Daniel Sanders im Deutschen Textarchiv.</title>
@@ -400,8 +355,8 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-m #r-n">Mit treuem landsmäñischem Gruß <lb/>
-                  Ihr ergebenster<lb/>
+               <quote xml:lang="deu" ana="#informal #s-m #r-n">Mit treuem landsmäñischem Gruß  
+                  Ihr ergebenster 
                </quote>
                <bibl>
                   <title type="edition">Briefwechsel Daniel Sanders im Deutschen Textarchiv.</title>
@@ -412,14 +367,9 @@
             </cit>
             <cit>
                <quote xml:lang="deu" ana="#informal #s-m #r-n">Mit treuem landsmäñischen Gruß und den
-                  besten Wünschen<lb/> für Sie und die Ihrigen, wie auch für <choice>
-                     <abbr>Hr</abbr>
-                     <expan>Herrn</expan>
-                  </choice>
-                  <hi rendition="#aq">
-                     <persName ref="http://d-nb.info/gnd/101134541">F. Hoffmann</persName>
-                  </hi>
-                  <lb/> hochachtungsvoll ergebenst<lb/> der Ihrige<lb/>
+                  besten Wünschen  für Sie und die Ihrigen, wie auch für Herrn
+                  F. Hoffmann
+                    hochachtungsvoll ergebenst  der Ihrige 
                </quote>
                <bibl>
                   <title type="edition">Briefwechsel Daniel Sanders im Deutschen Textarchiv.</title>
@@ -429,8 +379,8 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-m #r-n">Mit landsmännischem Gruß<lb/>
-                  hochachtungsvoll und freundschaftlich er-<lb/> gebenst der Ihre<lb/>
+               <quote xml:lang="deu" ana="#informal #s-m #r-n">Mit landsmännischem Gruß 
+                  hochachtungsvoll und freundschaftlich er-  gebenst der Ihre 
                </quote>
                <bibl>
                   <title type="edition">Briefwechsel Daniel Sanders im Deutschen Textarchiv.</title>
@@ -440,8 +390,8 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-m #r-n">Mit treuem landsmäñischen Gruß<lb/>
-                  freundschaftlich ergebenst<lb/> der Ihre<lb/>
+               <quote xml:lang="deu" ana="#informal #s-m #r-n">Mit treuem landsmäñischen Gruß 
+                  freundschaftlich ergebenst  der Ihre 
                </quote>
                <bibl>
                   <title type="edition">Briefwechsel Daniel Sanders im Deutschen Textarchiv.</title>
@@ -452,7 +402,7 @@
             </cit>
             <cit>
                <quote xml:lang="deu" ana="#formal #s-m #r-n"> Mit vorzüglichster Hochachtung Ihr
-                  ergebenster<lb/>
+                  ergebenster 
                </quote>
                <bibl>
                   <title type="edition">Briefwechsel Daniel Sanders im Deutschen Textarchiv.</title>
@@ -465,22 +415,14 @@
          <!-- hier beginnt die Ausschlussliste -->
          <div type="exclude">
             <listRef>
-               <ref
-                  target="http://www.deutschestextarchiv.de/eck_sanders_1877"/>
-               <ref
-                  target="http://www.deutschestextarchiv.de/sanders_lazarus2_1882"/>
-               <ref 
-                  target="http://www.deutschestextarchiv.de/sanders_lazarus_1882"/>
-               <ref
-                  target="http://www.deutschestextarchiv.de/sanders_lazarus_1884"/>
-               <ref
-                  target="http://www.deutschestextarchiv.de/sanders_reichskanzleramt2_1877"/>
-               <ref 
-                  target="http://www.deutschestextarchiv.de/sanders_reichskanzleramt_1877"/>
-               <ref
-                  target="http://www.deutschestextarchiv.de/sanders_ziel2_1880"/>
-               <ref 
-                  target="http://www.deutschestextarchiv.de/sanders_ziel_1880"/>
+               <ref target="http://www.deutschestextarchiv.de/eck_sanders_1877"/>
+               <ref target="http://www.deutschestextarchiv.de/sanders_lazarus2_1882"/>
+               <ref target="http://www.deutschestextarchiv.de/sanders_lazarus_1882"/>
+               <ref target="http://www.deutschestextarchiv.de/sanders_lazarus_1884"/>
+               <ref target="http://www.deutschestextarchiv.de/sanders_reichskanzleramt2_1877"/>
+               <ref target="http://www.deutschestextarchiv.de/sanders_reichskanzleramt_1877"/>
+               <ref target="http://www.deutschestextarchiv.de/sanders_ziel2_1880"/>
+               <ref target="http://www.deutschestextarchiv.de/sanders_ziel_1880"/>
             </listRef>
          </div>
       </body>
