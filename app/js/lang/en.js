@@ -28,8 +28,8 @@ export default {
     },
     about: {
         title: 'About the project',
-	    paragraph1: 'quoteSalute provides you with inspiring salutations taken from digital editions of letters for usage in your e-mail correspondence. The application allows an easy entrance to the world of 			historic correspondence and makes it possible to include academic work into your daily life.',
-        paragraph2: 'quoteSalute was developed as a students project by Lou Klappenbach, Marvin Kullick and Luisa Philipp with the assistance of Stefan Dumont, Frederike Neuber and Oliver Pohl as part of the the digital humanities work group TELOTA and the project “correspSearch - Briefeditionen vernetzen” of the Berlin-Brandenburg Academy of Sciences and Humanities.',
+	    paragraph1: 'quoteSalute provides you with inspiring salutations taken from digital editions of letters for usage in your e-mail correspondence. The application allows an easy entrance to the world of historical correspondences and makes it possible to include academic work into your daily life.',
+        paragraph2: 'quoteSalute was developed as a student project by Lou Klappenbach, Marvin Kullick and Luisa Philipp under the supervison of Stefan Dumont, Frederike Neuber and Oliver Pohl as part of the the digital humanities working group TELOTA and the project “correspSearch - Search scholarly editions of letters” of the Berlin-Brandenburg Academy of Sciences and Humanities.',
         more: 'More about the project',
         questions: 'Any questions?',
     },
@@ -40,11 +40,11 @@ export default {
     },
     description: {
         title: 'Creative Correspondence',
-        paragraph: 'On this website you can discover an array of historic salutations. When you found a matching ending for your email you can easily copy it by clicking on the “quote me!”-button and then paste it at the end of your email. If you don’t like the displayed salutation just click on “New Greeting” and you get another one that might fit the bill. To help you find the fitting quote you can use the filter function.'
+        paragraph: 'On this website you can discover an array of historical salutations. When you found a matching ending for your e-mail you can easily copy it by clicking on the “quote me!”-button and then paste it at the end of your e-mail. If you don’t like the displayed salutation just click on “New Greeting” and you get another one that might fit the bill. To help you finding the fitting quote you can use the filter function.'
     },
     plugin: {
         title: 'NEW: Thunderbird Plugin',
-        paragraph: 'You want to insert greetings even easier? With the quoteSalute Thunderbird Plugin this is possible. Just download and install the plugin into your Thunderbird Mailclient! Lets quote salute!',
+        paragraph: 'You want to insert greetings even easier? With the quoteSalute-Thunderbird Plugin this is possible. Just download and install the plugin into your Thunderbird Mailclient! Let’s quote salute!',
         download: 'Download',
         documentation: 'More informationen',
     },
