@@ -62,7 +62,7 @@
                Editionsarbeit in Ihre Alltagskommunikation.</p>
             <p>Entstanden ist quoteSalute durch ein studentisches Projekt von Lou Klappenbach,
                Marvin Kullick und Louisa Philipp, betreut von Stefan Dumont, Frederike Neuber und
-               Oliver Pohl im Rahmen der DH-Arbeitsgruppe <ref target="http://www.bbaw.de/telota">TELOTA</ref> und dem Projekt <ref target="http:/correspSearch.net?l=de">“correspSearch -
+               Oliver Pohl im Rahmen der Digital Humanities-Arbeitsgruppe <ref target="http://www.bbaw.de/telota">TELOTA</ref> und dem Projekt <ref target="http:/correspSearch.net?l=de">“correspSearch -
                Briefeditionen vernetzen”</ref> an der Berlin-Brandenburgischen Akademie der
                Wissenschaften. </p>
             </div>
@@ -161,25 +161,24 @@
             <div xml:id="a9">
                <head>Mitmachen</head>
                <p> Sie arbeiten an einer Digitalen Briefedition und finden die Grußformeln Ihrer
-                  Korrespondenz sollten auch dabei sein? Gerne möchten wir den quoteSalute-Bestand
-                  erweitern. Jede digitale Briefedition, die auf dem TEI-Format basiert, kann
-                  partizipieren.</p>
+                  Korrespondenz sollten auch in quoteSalute mit dabei sein? Gerne möchten wir unseren Datenbestand
+                  erweitern. Jede digitale Briefedition, die auf dem TEI-Format basiert, kommt grundsätzlich für eine Integration in quoteSalute in Frage.</p>
                <p> Für eine Beteiligung Ihres Projektes benötigen wir eine TEI-XML-Datei mit den
                   Grußformeln Ihrer digitalen Briefedition. Damit Sie diese möglichst einfach
                   generieren können, stellen wir Ihnen eine <ref target="../examples/example.xml"
                      >Beispieldatei</ref> und eine leere <ref target="../templates/template.xml"
                      >template-Datei</ref> zur Verfügung. Ihre Datei sollte neben den Grußformeln
                   auch zugehörige bibliographische Angaben (Titel der Edition, Titel des Briefs) und
-                  einen Link zur Webansicht des jeweiligen Quell-Briefes in der digitalen Edition
-                  enthalten. Technische Details entnehmen Sie bitte der untenstehenden Tabelle, in
-                  der die TEI-Elemente und ihre Funktion aufgelistet sind, sowie den Kommentaren in
-                  der Template-Datei. </p>
+                  einen Link zur Webansicht des jeweiligen Briefes in der digitalen Edition
+                  enthalten. Technische Details zur Erstellung der quoteSalute-konformen TEI-XML-Datei entnehmen Sie bitte der untenstehenden Tabelle, in
+                  der die TEI-Elemente und ihre Funktion aufgelistet sind sowie den Kommentaren in
+                  der Template- und Beispieldatei. </p>
             </div>
             <div xml:id="a6">
                <head>Filtern ermöglichen</head>
                <p> Wenn Sie möchten, dass Ihre Grußformeln mit der Filterfunktion durchsuchbar sind,
                   müssen Sie die Grußformeln inhaltlich prüfen. Dabei erhält jede Grußformel ein
-                  @ana, indem markiert wird, ob (1) aus dem Sinnzusammenhang der Grußformel das
+                  Attribut @ana, mit dem verzeichnet wird, ob (1) aus dem Sinnzusammenhang der Grußformel das
                   Geschlecht von Sender*in und/oder Empfänger*in deutlich wird und ob (2) das Zitat
                   formal oder freundschaftlich zu verstehen ist. Zudem sollten Sie die Sprache der
                   Grußformel auszeichnen. Ansonsten werden Ihre Grußformeln nur dann angezeigt, wenn
@@ -188,7 +187,7 @@
             <div xml:id="a7">
                <head>Kodierung</head>
                   <p>Die folgenden Tabellen bieten detaillierte Informationen über die Struktur der
-                     benötigten TEI XML Datei, die für eine Einbindung Ihrer Grußformeln
+                     benötigten TEI XML Datei, die für eine Einbindung Ihrer Grußformeln in quoteSalute
                      erforderlich ist.</p>
                   <table>
                      <head>Metaangaben im teiHeader</head>
@@ -205,11 +204,9 @@
                               digital"</hi></cell>
                      </row>
                      <row>
-                        <cell rend="code">/fileDesc/titleStmt/respStmt/note</cell>
-                        <cell>Spezifizierung der Verantwortlichkeit, d.h. hier konkret
-                           nebenstehenden Wert.</cell>
-                        <cell><hi rend="code">Collection, curation and processing of
-                           data</hi></cell>
+                        <cell rend="code">/fileDesc/titleStmt/respStmt</cell>
+                        <cell>Spezifizierung der Verantwortlichkeit in <note>, das <respStmt>-Element sollte dann weitere <persName>-Elemente mit dem/n Namen der Ersteller*innen enthalten.</cell>
+                        <cell>E.g. <hi rend="code">Collection and curation of data</hi></cell>
                      </row>
                      <row>
                         <cell rend="code">/fileDesc/noteStmt/note/<lb/>@type="data_integration"</cell>
@@ -240,7 +237,7 @@
                         <cell>Im teiHeader muss die vorgegebene encodingDescription eingefügt
                            werden, das die möglichen Werte für @ana deklariert. Diese Taxonomy wird
                            im Template vorgegeben und kann ohne Änderungen direkt übernommen werden.
-                           Weitere Informationen in der Tabelle weiter unten.</cell>
+                           Weitere Informationen in untenstehender Tabelle.</cell>
                         <cell>E.g. <hi rend="code"/></cell>
                         <!-- SD: @Lou: Taxonomie unten in einer dritten Tabelle spezifizieren!!! -->
                      </row>
@@ -311,7 +308,9 @@
                
                <div xml:id="a8">
                   <head>Taxonomie für die Filterfunktion</head>
-                  <!-- Hier Taxonomie erläutern: Tabelle mit Wert, Definition und (?) Beispiel -->
+                  <!-- Hier Taxonomie erläutern: Tabelle mit Wert, Definition und (?) Beispiel-->
+                  <!-- FN das sind eigentlich zwei Taxonomien, und das sollte klar werden. 1. Kategorie: Formalität, kann zwei Werte annehmen,
+2. Kategorie Geschlecht, muss zwei Werte annehmen, #s-* und #r-* -->
                   <table>
                      <row role="label">
                         <cell>Wert</cell>
@@ -355,24 +354,24 @@
                   <table>
                      <head>Beispiele für die Annotation</head>
                      <row>
-                        <cell>Grußformel ist formal</cell>
+                        <cell>Grußformel ist in Deutscher Sprache, von formellem Charakter und impliziert sowohl für Sender und Empfänger kein erkennbares Geschlecht.</cell>
                         <cell><hi rend="code">&lt;quote xml:lang="deu" ana="#formal #s-n
                               #r-n"&gt;Bis dahin empfiehlt sich Ihrem Wohlwollen
                               hochachtungsvoll&lt;/quote&gt;</hi></cell>
                      </row>
-                     <row>
+                  <!-- FN: kann m.E. raus <row>
                         <cell>Grußformel impliziert kein erkennbares Geschlecht</cell>
                         <cell><hi rend="code">&lt;quote xml:lang="deu" ana="#informal #s-n
                               #r-n"&gt;Leb wohl.&lt;/quote&gt;</hi></cell>
-                     </row>
+                     </row> -->
                      <row>
-                        <cell>Grußformel impliziert männlichen Absender</cell>
-                        <cell><hi rend="code">&lt;quote xml:lang="deu" ana="#formal #s-m
+                        <cell>Grußformel ist in Deutscher Sprache, von informellem Charakter und impliziert, dass der Sender männlich ist und für den Empfänger kein Geschlecht spezifiziert werden kann.</cell>
+                        <cell><hi rend="code">&lt;quote xml:lang="deu" ana="#informal #s-m
                               #r-n"&gt;Ihr treuer Diener&lt;/quote&gt;</hi></cell>
                      </row>
                      <row>
-                        <cell>Grußformel impliziert weibliche Empfängerin</cell>
-                        <cell><hi rend="code">&lt;quote xml:lang="deu" ana="#formal #s-n
+                        <cell>Grußformel ist in Lateinischer Sprache, von formellem Charakter und impliziert, dass der Sender männlichen und die Empfängerin weiblichen Geschlechts ist.</cell>
+                        <cell><hi rend="code">&lt;quote xml:lang="lat" ana="#formal #s-m
                               #r-f"&gt;Gottes Segen über Sie, meine teure
                            Mutter&lt;/quote&gt;</hi></cell>
                      </row>
