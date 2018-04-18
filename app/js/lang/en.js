@@ -29,7 +29,7 @@ export default {
     about: {
         title: 'About the project',
 	    paragraph1: 'quoteSalute provides you with inspiring salutations taken from digital editions of letters for usage in your e-mail correspondence. The application allows an easy entrance to the world of historical correspondences and makes it possible to include academic work into your daily life.',
-        paragraph2: 'quoteSalute was developed as a student project by Lou Klappenbach, Marvin Kullick and Luisa Philipp under the supervison of Stefan Dumont, Frederike Neuber and Oliver Pohl as part of the the digital humanities working group TELOTA and the project “correspSearch - Search scholarly editions of letters” of the Berlin-Brandenburg Academy of Sciences and Humanities.',
+        paragraph2: 'quoteSalute was developed as a student project by Lou Klappenbach, Marvin Kullick and Luisa Philipp under the supervision of Stefan Dumont, Frederike Neuber and Oliver Pohl as part of the the digital humanities working group TELOTA and the project “correspSearch - Search scholarly editions of letters” of the Berlin-Brandenburg Academy of Sciences and Humanities.',
         more: 'More about the project',
         questions: 'Any questions?',
     },
