@@ -46,6 +46,7 @@ export default {
         title: 'NEW: Thunderbird Plugin',
         paragraph: 'You want to insert greetings even easier? With the quoteSalute-Thunderbird Plugin this is possible. Just download and install the plugin into your Thunderbird Mailclient! Let’s quote salute!',
         download: 'Download',
+        tooltip: 'Right-click, save as..., Install the downloaded .xpi-file using Thunderbird',
         documentation: 'More informationen',
     },
 

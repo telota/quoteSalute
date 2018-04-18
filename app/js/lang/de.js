@@ -47,6 +47,7 @@ export default {
         title: 'NEU: Thunderbird Plugin',
         paragraph: 'Sie möchten Grußformeln direkt in Ihrem E-Mail Programm abrufen? Mit dem quoteSalute Thunderbird Plugin wird das möglich. Einfach runterladen, installieren und dann schöner Grüßen!',
         download: 'Download',
+        tooltip: 'Rechtsklick, speichern unter. Anschließend die heruntergeladene .xpi-Datei mit Thunderbird installieren',
         documentation: 'Mehr Informationen',
     },
     errors: {
