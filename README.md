@@ -13,3 +13,4 @@ Die Grußformel Ihrer digitalen Briefedition sollen bei quoteSalute dabei sein? 
 * eine [Beispieldatei](https://github.com/telota/salutesig/blob/master/doc/examples/example.xml) der benötigten Datenstruktur.
 * eine [Vorlage](https://github.com/telota/salutesig/blob/master/doc/templates/template.xml) zur schnellen Erstellung Ihrer quoteSalute Daten.
 * ein [XSLT-Skript](https://github.com/telota/salutesig/blob/master/doc/templates/template.xslt) für eine leichtere Datentransformation.
+* ein [Thunderbird-Addon](https://github.com/telota/quoteSalute_xpi/releases/download/v0.2.5/quotesalute-0.2.5_build11.xpi) (siehe [quoteSalute_xpi](https://github.com/telota/quotesalute_xpi))
