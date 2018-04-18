@@ -27,6 +27,18 @@ Der Textkorpus wird derzeit von folgenden digitalen Briefeditionen gespeist:
 * Marx-Engels-Gesamtausgabe digital, hg. von der Internationalen Marx-Engels-Stiftung. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. URL: [http://megadigital.bbaw.de/](http://megadigital.bbaw.de/)
 * Wilhelm von Humboldt - Sprachwissenschaftliche Korrespondenz. Hg. von der Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. URL: [https://wvh-briefe.bbaw.de](https://wvh-briefe.bbaw.de/)
 
+# Hintergrund
+
+Anrede und Grußformel waren (und sind) wesentliche Elemente der schriftlichen Kommunikation, insbesondere des Briefes.Sie weisen zum einen daraufhin, dass Briefe „ad-hoc Schriftlichkeit“ abbilden und ihnen eine gewisse Nähe zur Mündlichkeit innewohnt (Elspaß 2011, 24 u. 27), denn der formale Aufbau eines Briefes folgt dem Ablauf eines Gesprächs: Hinwendung zum Partner – Vortrag der Information, der Bitte etc. – und Abwendung vom Partner (Nickisch 1991, 9-10). Nicht grundlos wurden Briefe schon im 18. und 19. Jahrhundert als „Gespräch unter Abwesenden“ verstanden, obwohl sie letzten Endes dann doch kein Gespräch sind, sondern es nur zu ersetzen suchen und dabei spezifischen Bedingungen unterliegen (Bürgel 1976, 287-288; Reinlein 2003, 54-55).
+
+Zum anderen dienen Anrede und Grußformeln als „Indikator für die Beziehungen, die der Briefschreiber zu dem -empfänger hat oder zu haben glaubt“ (Ermert 1979, 104). Im Hinblick auf historische Briefe verraten sie also dem modernen Leser etwas über die soziale Beziehung zwischen Absender und Adressat – sofern man nicht nur einen, sondern mehrere Briefe der Korrespondenz liest. So können zwanglose Anreden und Grußformeln ein Hinweis auf ein freundschaftliches Verhältnis sein, eher förmliche dagegen auf eine eher distanzierte Beziehung. Auch professionelle oder ständische Hierarchieunterschiede drücken sich in Anreden und Grußformeln von Briefen aus. Schließlich offenbaren Grußformeln als persönliche Anrede an den Briefpartner manchmal auch Unausgesprochenes bzw. ,Ungeschriebenes'. Wandeln sich Grußformeln im zeitlichen Verlauf einer Korrespondenz von überaus herzlich zu distanziert und förmlich, so könnte man das als Zeichen dafür deuten, dass die Beziehung zwischen den Korrespondenten abgekühlt ist, ohne dass die mögliche Zerrüttung aus den Briefinhalten hervorgehen muss.
+
+Die Übernahme von Anrede und Grußformel ist daher äußerst wichtig für Briefeditionen. Aus diesen Gründen bieten die Richtlinien der Text Encoding Initiative mit dem [Element `<salute>`](http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-salute.html) auch seit langem eine entsprechende Kodierungsmöglichkeit (die allerdings noch ein paar Beschränkungen unterworfen ist, wie etwa die fehlende Möglichkeit, `<salute>` in Absätzen (`<p>`) verwenden zu können). Im Rahmen von quoteSalute wird genau diese Kodierung ausgewertet und mit weiterer semantischer Information angereichert (Grad an Formalität, Geschlecht, Sprache).
+
+Ausgewertet wurden allerdings nur die Grußformeln – nicht die Anreden. Das ist natürlich zum einen dem Ziel geschuldet, dass die Grußformeln in der eigenen Korrespondenz verwendbar werden sollen, um die Kommunikation zu beleben – und nicht um sie zu stören. Letzteres wäre wohl aber der Fall, wenn man die Anrede, also die zweite Zeile, die der Adressat nach dem Betreff liest, „historisieren“ würde. Darüber hinaus ist es aber auch so, dass im ausgehenden 18. und im 19. Jahrhundert die Anreden häufig je kürzer werden, desto freundschaftlicher die soziale Beziehung zwischen den Korrespondenten ist – bis sie u.U. gänzlich entfallen. Für den Zweck von quoteSalute wäre das natürlich abträglich.
+
+Gleichwohl quoteSalute in erster Linie einen spielerischen Umgang mit dem Material ermöglicht, zeigt es doch den wissenschaftlichen und literarischen Wert von Grußformeln in Briefen auf.
+
 # Technologien
 
 Das Generieren der Grußformeln wurde in einer Webapplikation umgesetzt. Diese wurde mit HTML, CSS und Javascript realisiert. Zusätzlich benutzen wir das Front-End-Framework VueJS für die Verarbeitung der Daten und für den dynamischen Austausch von HTML-Elementen und ziehen Bootstrap zur einheitlichen Darstellung auf der Website zur Hilfe. Als Datenbank nutzen wir eXist db, die Datenbankabfrage erfolgt mittels XQuery und die Response-Daten werden im JSON-Format ausgegeben.
@@ -111,3 +123,12 @@ Grußformel ist in deutscher Sprache, von informellem Charakter und impliziert, 
 Grußformel ist in lateinischer Sprache, von formellem Charakter und impliziert, dass der Sender männlichen und die Empfängerin weiblichen Geschlechts ist.
 
 `<quote xml:lang="lat" ana="#formal #s-m #r-f">Gottes Segen über Sie, meine teure Mutter</quote>`
+
+### Verwendete Literatur
+
+* Bürgel, Peter. 1976. „Der Privatbrief. Entwurf eines heuristischen Modells“. Deutsche Vierteljahresschrift für Literaturwissenschaft und Geistesgeschichte 50: 281–97. 
+* Elspaß, Stephan. 2011. Sprachgeschichte von unten. Untersuchungen zum geschriebenen Alltagsdeutsch im 19. Jahrhundert. Reihe Germanistische Linguistik 263. Berlin, Boston: De Gruyter.
+* Ermert, Karl. 1979. Briefsorten : Untersuchungen zu Theorie und Empirie der Textklassifikation. Reihe germanistische Linguistik 20. Tübingen: Niemeyer. 
+* Nickisch, Reinhard M. G. 1991. Brief. Sammlung Metzler. Realien zur Literatur, Bd. 260. Stuttgart: Metzler. 
+* Reinlein, Tanja. 2003. Der Brief als Medium der Empfindsamkeit: erschriebene Identitäten und Inszenierungspotentiale. Würzburg: Königshausen & Neumann. 
+* TEI Consortium (Hg.). 2018. TEI P5: Guidelines for Electronic Text Encoding and Interchange. [Version 3.3.0 vom 31. Januar 2018]. TEI Consortium. [http://www.tei-c.org/Guidelines/P5/](http://www.tei-c.org/Guidelines/P5/).
