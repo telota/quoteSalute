@@ -43,8 +43,8 @@ export default {
         paragraph: 'On this website you can discover an array of historical salutations. When you found a matching ending for your e-mail you can easily copy it by clicking on the “quote me!”-button and then paste it at the end of your e-mail. If you don’t like the displayed salutation just click on “New Greeting” and you get another one that might fit the bill. To help you finding the fitting quote you can use the filter function.'
     },
     plugin: {
-        title: 'NEW: Thunderbird Plugin',
-        paragraph: 'You want to insert greetings even easier? With the quoteSalute-Thunderbird Plugin this is possible. Just download and install the plugin into your Thunderbird Mailclient! Let’s quote salute!',
+        title: 'Thunderbird Plugin',
+        paragraph: 'You want to insert greetings even easier? With the quoteSalute-Thunderbird Plugin (beta-version) this is possible. Just download and install the plugin into your Thunderbird Mailclient! Let’s quote salute!',
         download: 'Download',
         tooltip: 'Right-click, save as..., Install the downloaded .xpi-file using Thunderbird',
         documentation: 'More informationen',

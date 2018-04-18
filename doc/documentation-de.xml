@@ -7,7 +7,7 @@
             <title type="sub">Dokumentation</title>
             <respStmt>
                <resp>
-                  <note>Collection, curation and processing of data</note>
+                  <note>Team quoteSalute</note>
                </resp>
                <persName ref="http://d-nb.info/gnd/1034877364">
                   <surname>Dumont</surname>
@@ -146,8 +146,57 @@
                </item>
             </list>
          </div>
+         <div xml:id="a10">
+            <head>Hintergrund</head>
+            <p>Anrede und Grußformel waren (und sind) wesentliche Elemente der schriftlichen
+               Kommunikation, insbesondere des Briefes.Sie weisen zum einen daraufhin, dass Briefe
+               „ad-hoc Schriftlichkeit“ abbilden und ihnen eine gewisse Nähe zur Mündlichkeit
+               innewohnt (Elspaß 2011, 24 u. 27), denn der formale Aufbau eines Briefes folgt dem
+               Ablauf eines Gesprächs: Hinwendung zum Partner – Vortrag der Information, der Bitte
+               etc. – und Abwendung vom Partner (Nickisch 1991, 9-10). Nicht grundlos wurden Briefe
+               schon im 18. und 19. Jahrhundert als „Gespräch unter Abwesenden“ verstanden, obwohl
+               sie letzten Endes dann doch kein Gespräch sind, sondern es nur zu ersetzen suchen und
+               dabei spezifischen Bedingungen unterliegen (Bürgel 1976, 287-288; Reinlein 2003,
+               54-55).</p>
+            <p>Zum anderen dienen Anrede und Grußformeln als „Indikator für die Beziehungen, die der
+               Briefschreiber zu dem -empfänger hat oder zu haben glaubt“ (Ermert 1979, 104). Im
+               Hinblick auf historische Briefe verraten sie also dem modernen Leser etwas über die
+               soziale Beziehung zwischen Absender und Adressat – sofern man nicht nur einen,
+               sondern mehrere Briefe der Korrespondenz liest. So können zwanglose Anreden und
+               Grußformeln ein Hinweis auf ein freundschaftliches Verhältnis sein, eher förmliche
+               dagegen auf eine eher distanzierte Beziehung. Auch professionelle oder ständische
+               Hierarchieunterschiede drücken sich in Anreden und Grußformeln von Briefen aus.
+               Schließlich offenbaren Grußformeln als persönliche Anrede an den Briefpartner
+               manchmal auch Unausgesprochenes bzw. ,Ungeschriebenes'. Wandeln sich Grußformeln im
+               zeitlichen Verlauf einer Korrespondenz von überaus herzlich zu distanziert und
+               förmlich, so könnte man das als Zeichen dafür deuten, dass die Beziehung zwischen den
+               Korrespondenten abgekühlt ist, ohne dass die mögliche Zerrüttung aus den
+               Briefinhalten hervorgehen muss.</p>
+            <p>Die Übernahme von Anrede und Grußformel ist daher äußerst wichtig für Briefeditionen.
+               Aus diesen Gründen bieten die Richtlinien der Text Encoding Initiative mit dem <ref
+                  target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-salute.html"
+                  >Element <hi rend="code">&lt;salute&gt;</hi></ref> auch seit langem eine
+               entsprechende Kodierungsmöglichkeit (die allerdings noch ein paar Beschränkungen
+               unterworfen ist, wie etwa die fehlende Möglichkeit, <hi rend="code"
+                  >&lt;salute&gt;</hi> in Absätzen (<hi rend="code">&lt;p&gt;</hi>) verwenden zu
+               können). Im Rahmen von quoteSalute wird genau diese Kodierung ausgewertet und mit
+               weiterer semantischer Information angereichert (Grad an Formalität, Geschlecht,
+               Sprache).</p>
+            <p>Ausgewertet wurden allerdings nur die Grußformeln – nicht die Anreden. Das ist
+               natürlich zum einen dem Ziel geschuldet, dass die Grußformeln in der eigenen
+               Korrespondenz verwendbar werden sollen, um die Kommunikation zu beleben – und nicht
+               um sie zu stören. Letzteres wäre wohl aber der Fall, wenn man die Anrede, also die
+               zweite Zeile, die der Adressat nach dem Betreff liest, „historisieren“ würde. Darüber
+               hinaus ist es aber auch so, dass im ausgehenden 18. und im 19. Jahrhundert die
+               Anreden häufig je kürzer werden, desto freundschaftlicher die soziale Beziehung
+               zwischen den Korrespondenten ist – bis sie u.U. gänzlich entfallen. Für den Zweck von
+               quoteSalute wäre das natürlich abträglich.</p>
+            <p>Gleichwohl quoteSalute in erster Linie einen spielerischen Umgang mit dem Material
+               ermöglicht, zeigt es doch den wissenschaftlichen und literarischen Wert von
+               Grußformeln in Briefen auf.</p>
+         </div>
          <div xml:id="a4">
-            <head>Technologien</head>
+            <head>Verwendete Technologien</head>
             <p>Das Generieren der Grußformeln wurde in einer Webapplikation umgesetzt. Diese wurde
                mit HTML, CSS und Javascript realisiert. Zusätzlich benutzen wir das
                Front-End-Framework VueJS für die Verarbeitung der Daten und für den dynamischen
@@ -171,16 +220,16 @@
                Technische Details zur Erstellung der quoteSalute-konformen TEI-XML-Datei entnehmen
                Sie bitte der untenstehenden Tabelle, in der die TEI-Elemente und ihre Funktion
                aufgelistet sind sowie den Kommentaren in der Template- und Beispieldatei. </p>
-         </div>
-         <div xml:id="a6">
-            <head>Filtern ermöglichen</head>
-            <p> Wenn Sie möchten, dass Ihre Grußformeln mit der Filterfunktion durchsuchbar sind,
-               müssen Sie die Grußformeln inhaltlich prüfen. Dabei erhält jede Grußformel ein
-               Attribut @ana, mit dem verzeichnet wird, ob (1) aus dem Sinnzusammenhang der
-               Grußformel das Geschlecht von Sender*in und/oder Empfänger*in deutlich wird und ob
-               (2) das Zitat formal oder freundschaftlich zu verstehen ist. Zudem sollten Sie die
-               Sprache der Grußformel auszeichnen. Ansonsten werden Ihre Grußformeln nur dann
-               angezeigt, wenn <hi rendition="#b">keine</hi> Filter gesetzt sind!</p>
+            <div xml:id="a6">
+               <head>Filtern ermöglichen</head>
+               <p> Wenn Sie möchten, dass Ihre Grußformeln mit der Filterfunktion durchsuchbar sind,
+                  müssen Sie die Grußformeln inhaltlich prüfen. Dabei erhält jede Grußformel ein
+                  Attribut @ana, mit dem verzeichnet wird, ob (1) aus dem Sinnzusammenhang der
+                  Grußformel das Geschlecht von Sender*in und/oder Empfänger*in deutlich wird und ob
+                  (2) das Zitat formal oder freundschaftlich zu verstehen ist. Zudem sollten Sie die
+                  Sprache der Grußformel auszeichnen. Ansonsten werden Ihre Grußformeln nur dann
+                  angezeigt, wenn <hi rendition="#b">keine</hi> Filter gesetzt sind!</p>
+            </div>
          </div>
          <div xml:id="a7">
             <head>Kodierung</head>
@@ -302,7 +351,7 @@
                   <cell>E.g. <hi rend="code">"http://edition-humboldt.de/H0002656"</hi></cell>
                </row>
             </table>
-
+         </div>
 
             <div xml:id="a8">
                <head>Taxonomien</head>
@@ -391,8 +440,30 @@
                      <p><hi rend="code">&lt;quote xml:lang="lat" ana="#formal #s-m #r-f"&gt;Gottes
                            Segen über Sie, meine teure Mutter&lt;/quote&gt;</hi></p>
                   </div>
-               </div>
             </div>
+         </div>
+         <div xml:id="a11">
+            <head>Verwendete Literatur</head>
+            <list>
+               <item>Bürgel, Peter. 1976. „Der Privatbrief. Entwurf eines heuristischen
+                  Modells“. Deutsche Vierteljahresschrift für Literaturwissenschaft und
+                  Geistesgeschichte 50: 281–97. </item>
+               <item>Elspaß, Stephan. 2011. Sprachgeschichte von unten. Untersuchungen zum
+                  geschriebenen Alltagsdeutsch im 19. Jahrhundert. Reihe Germanistische
+                  Linguistik 263. Berlin, Boston: De Gruyter.</item>
+               <item>Ermert, Karl. 1979. Briefsorten : Untersuchungen zu Theorie und Empirie
+                  der Textklassifikation. Reihe germanistische Linguistik 20. Tübingen:
+                  Niemeyer. </item>
+               <item>Nickisch, Reinhard M. G. 1991. Brief. Sammlung Metzler. Realien zur
+                  Literatur, Bd. 260. Stuttgart: Metzler. </item>
+               <item>Reinlein, Tanja. 2003. Der Brief als Medium der Empfindsamkeit:
+                  erschriebene Identitäten und Inszenierungspotentiale. Würzburg: Königshausen
+                  &amp; Neumann. </item>
+               <item>TEI Consortium (Hg.). 2018. TEI P5: Guidelines for Electronic Text
+                  Encoding and Interchange. [Version 3.3.0 vom 31. Januar 2018]. TEI
+                  Consortium. <ref target="http://www.tei-c.org/Guidelines/P5/"
+                     >http://www.tei-c.org/Guidelines/P5/</ref>.</item>
+            </list>
          </div>
       </body>
    </text>
