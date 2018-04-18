@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="de">Brief von Immanuel Hermann Fichte an den Dekan und die
+                    Philosophische Fakultät (Berlin, 13. November 1817)</title>
+                <title xml:lang="en">Letter from Immanuel Hermann Fichte to the dean and the faculty
+                    of philosophy (Berlin, 13 November 1817)</title>
+                <title xml:lang="fr">Lettre de Immanuel Hermann Fichte au doyen et à la Faculté des
+                    Lettres (Berlin, 13 novembre 1817)</title>
+                <funder>Deutsche Forschungsgemeinschaft: Emmy Noether-Programm</funder>
+                <principal>
+                    <persName ref="#anne.baillot">
+                        <forename>Anne</forename>
+                        <surname>Baillot</surname>
+                    </persName>
+                    <affiliation>
+                        <orgName ref="#hu.berlin">Humboldt-Universität zu Berlin</orgName>
+                        <address>
+                          <street>Unter den Linden 6</street>
+                          <postCode>10099</postCode>
+                          <settlement>Berlin</settlement>
+                          <country key="DE">Deutschland</country>
+                       </address>
+                    </affiliation>
+                </principal>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <persName ref="#eva.schneider">
+                        <forename>Eva</forename>
+                        <surname>Schneider</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Prepared by</resp>
+                    <persName ref="#eva.schneider">
+                        <forename>Eva</forename>
+                        <surname>Schneider</surname>
+                    </persName>
+                    <persName ref="#anne.baillot">
+                        <forename>Anne</forename>
+                        <surname>Baillot</surname>
+                    </persName>
+                    <persName ref="#denny.becker">
+                        <forename>Denny</forename>
+                        <surname>Becker</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>In collaboration with</resp>
+                    <persName ref="#johanna.preusse">
+                        <forename>Johanna</forename>
+                        <surname>Preusse</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Digitization by</resp>
+                    <orgName ref="#ub.hu.berlin">Historische Sammlungen der Universitätsbibliothek
+                        der Humboldt-Universität zu Berlin</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/de/deed.en"
+                        >Attribution 3.0 Germany (CC BY 3.0)</licence>
+                </availability>
+                <date when-iso="2014-12">Dezember 2014</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Briefe und Texte aus dem intellektuellen Berlin um 1800</title>
+                <title type="genre">Briefe</title>
+                <title type="topic">Berliner Universität</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country key="DE">
+                            <seg xml:lang="de">Deutschland</seg>
+                            <seg xml:lang="en">Germany</seg>
+                            <seg xml:lang="fr">Allemagne</seg>
+                        </country>
+                        <settlement>
+                            <seg xml:lang="de">Berlin</seg>
+                            <seg xml:lang="en">Berlin</seg>
+                            <seg xml:lang="fr">Berlin</seg>
+                        </settlement>
+                        <institution ref="#ub.hu.berlin">
+                            <seg xml:lang="de">Universitätsbibliothek der Humboldt-Universität zu
+                                Berlin</seg>
+                            <seg xml:lang="en">University Library, Humboldt University of
+                                Berlin</seg>
+                            <seg xml:lang="fr">Bibliothèque universitaire de l'Université Humboldt
+                                de Berlin</seg>
+                        </institution>
+                        <repository>
+                            <seg xml:lang="de">Historische Sammlungen</seg>
+                            <seg xml:lang="en">Historical Collections</seg>
+                            <seg xml:lang="fr">Collections Historiques</seg>
+                        </repository>
+                        <collection>
+                            <seg xml:lang="de">Acta der Königl. Friedrich-Wilhelms-Universität zu
+                                Berlin betreffend die Promotionen. Von 1812 bis 1822. Philosophische
+                                Facultät</seg>
+                            <seg xml:lang="en">Acta of the Royal Friedrich-Wilhelm University of
+                                Berlin concerning the graduations. From 1812 to 1822. Faculty of
+                                philosophy</seg>
+                            <seg xml:lang="fr">Acta de l'Université Royale Friedrich-Wilhelm de
+                                Berlin en matière des promotions. De 1812 à 1822. Faculté des
+                                Lettres</seg>
+                        </collection>
+                        <idno type="ub.hu.berlin">
+                            <seg xml:lang="de">Blatt 105r-151v</seg>
+                            <seg xml:lang="en">Folios 105r-151v</seg>
+                            <seg xml:lang="fr">Feuillets 105r-151v</seg>
+                        </idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <docDate when="1817-11-13"/>
+                            <note resp="#eva.schneider">Begleitschreiben zur Einreichung der
+                                Promotionsschrift sowie Lebenslauf</note>
+                            <note type="keyword" resp="#eva.schneider">Promotionsverfahren</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>
+                                        <seg xml:lang="de">Feingeripptes Papier</seg>
+                                        <seg xml:lang="en">Laid paper</seg>
+                                        <seg xml:lang="fr">Papier finement vergé</seg>
+                                    </material>
+                                </support>
+                                <extent>
+                                    <measure type="folio">
+                                        <seg xml:lang="de">2 Blätter</seg>
+                                        <seg xml:lang="en">2 folios</seg>
+                                        <seg xml:lang="fr">2 feuillets</seg>
+                                    </measure>
+                                    <!-- <dimensions unit="cm">
+                                        <height/>
+                                        <width/>
+                                    </dimensions> -->
+                                </extent>
+                                <foliation corresp="#pencil_1">
+                                    <seg xml:lang="de">Foliierung eines Archivars mit
+                                        Bleistift</seg>
+                                    <seg xml:lang="en">Foliation by an archivist, with pencil</seg>
+                                    <seg xml:lang="fr">Numérotation des pages par d'un archiviste,
+                                        au crayon de papier</seg>
+                                </foliation>
+                                <foliation corresp="#pencil_2">
+                                    <seg xml:lang="de">Foliierung eines anderen Archivars mit
+                                        Bleistift</seg>
+                                    <seg xml:lang="en">Foliation by another archivist, with
+                                        pencil</seg>
+                                    <seg xml:lang="fr">Numérotation des pages par d'un autre
+                                        archiviste, au crayon de papier</seg>
+                                </foliation>
+                                <foliation corresp="#blue_hand">
+                                    <seg xml:lang="de">Foliierung eines Archivars mit blauem
+                                        Stift</seg>
+                                    <seg xml:lang="en">Foliation by an archivist, with blue
+                                        pen</seg>
+                                    <seg xml:lang="fr">Numérotation des pages par d'un archiviste,
+                                        au crayon bleu</seg>
+                                </foliation>
+                                <foliation corresp="#ink">
+                                    <seg xml:lang="de">Foliierung eines Archivars mit schwarzer
+                                        Tinte</seg>
+                                    <seg xml:lang="en">Foliation with black ink by an
+                                        archivist</seg>
+                                    <seg xml:lang="fr">Numérotation des pages par d'un archiviste, à
+                                        l'encre noir</seg>
+                                </foliation>
+                                <foliation corresp="#pencil_3">
+                                    <seg xml:lang="de">Foliierung wieder eines anderen Archivars mit
+                                        Bleistift</seg>
+                                    <seg xml:lang="en">Foliation by yet another archivist, with
+                                        pencil</seg>
+                                    <seg xml:lang="fr">Numérotation des pages par d'un autre
+                                        archiviste, au crayon de papier</seg>
+                                </foliation>
+                                <condition>
+                                    <seg xml:lang="de">Guter Erhaltungszustand</seg>
+                                    <seg xml:lang="en">In a good state of preservation</seg>
+                                    <seg xml:lang="fr">Bon état de conervation</seg>
+                                </condition>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote xml:id="major_hand" scope="major" medium="ink" scribe="author"
+                                scribeRef="#p0662">
+                                <seg xml:lang="de">Hand des Verfassers Immanuel Hermann Fichte, Brieftext in brauer Tinte,
+                                    vorwiegend in lateinischer Schrift</seg>
+                                <seg xml:lang="en">Hand of the sender Immanuel Hermann Fichte, text of letter in brown ink,
+                                    mainly latin script</seg>
+                                <seg xml:lang="fr">Main de l'auteur Immanuel Hermann Fichte, text de la lettre en encre marron,
+                                    majoritairement à l'écriture latine</seg>
+                            </handNote>
+                            <handNote xml:id="minor_hand" scope="minor" medium="ink" scribe="author"
+                                scribeRef="#p0613">
+                                <seg xml:lang="de">Hand des Verfassers Christian Samuel Weiß, Brieftext in brauer Tinte
+                                    vorwiegend in Kurrentschrift</seg>
+                                <seg xml:lang="en">Hand of the sender Christian Samuel Weiß, text of letter in brown ink, mainly
+                                    old German script</seg>
+                                <seg xml:lang="fr">Main de l'auteur Christian Samuel Weiß, text de la lettre en encre marron,
+                                    majoritairement à l'écriture gothique</seg>
+                            </handNote>
+                            <handNote xml:id="pencil_1" scope="minor" medium="pencil"
+                                scribe="archivist">
+                                <seg xml:lang="de">Hand eines Archivars, mit Bleistift</seg>
+                                <seg xml:lang="en">Hand of an archivist, with pencil</seg>
+                                <seg xml:lang="fr">Main d'un archiviste, au crayon de papier</seg>
+                            </handNote>
+                            <handNote xml:id="pencil_2" scope="minor" medium="pencil"
+                                scribe="archivist">
+                                <seg xml:lang="de">Hand eines Archivars, mit Bleistift</seg>
+                                <seg xml:lang="en">Hand of an archivist, with pencil</seg>
+                                <seg xml:lang="fr">Main d'un archiviste, au crayon de papier</seg>
+                            </handNote>
+                            <handNote xml:id="blue_hand" scope="minor" medium="blue_pen"
+                                scribe="archivist">
+                                <seg xml:lang="de">Hand eines Archivars, mit blauem Stift</seg>
+                                <seg xml:lang="en">Hand of an archivist, with blue pen</seg>
+                                <seg xml:lang="fr">Main d'un archiviste, au crayon bleu</seg>
+                            </handNote>
+                            <handNote xml:id="ink" scope="minor" medium="ink" scribe="archivist">
+                                <seg xml:lang="de">Hand eines Archivars, mit schwarzer Tinte</seg>
+                                <seg xml:lang="en">Hand of an archivist, with black ink</seg>
+                                <seg xml:lang="fr">Main d'un archiviste, à l'encre noir</seg>
+                            </handNote>
+                            <handNote xml:id="pencil_3" scope="minor" medium="pencil"
+                                scribe="archivist">
+                                <seg xml:lang="de">Hand eines Archivars, mit Bleistift</seg>
+                                <seg xml:lang="en">Hand of an archivist, with pencil</seg>
+                                <seg xml:lang="fr">Main d'un archiviste, au crayon de papier</seg>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <seg xml:lang="de">Der Brief wurde in <origPlace ref="#l1103"
+                                    >Berlin</origPlace> am <origDate when-iso="1817-11-13">13.
+                                    November 1817</origDate> verfasst</seg>
+                            <seg xml:lang="en">The letter was composed in <origPlace ref="#l1103"
+                                    >Berlin</origPlace> at <origDate when-iso="1817-11-13">13
+                                    November 1817</origDate></seg>
+                            <seg xml:lang="fr">La lettre a été composée à <origPlace ref="#l1103"
+                                    >Berlin</origPlace> le <origDate when-iso="1817-11-13">13
+                                    novembre 1817</origDate></seg>
+                        </origin>
+                        <acquisition>
+                            <seg xml:lang="de">Die Akte befindet sich seit Gründung des Universitätsarchivs im Jahre 1954 in dessen Verwahrung</seg>
+                            <seg xml:lang="en">The file is stored in the university archive since it's foundation in 1954</seg>
+                            <seg xml:lang="fr">Le dossier est déposé dans l’archive de l’université depuis sa fondation en 1954</seg>
+                        </acquisition>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Nachwuchsgruppe Berliner Intellektuelle 1800-1830</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction method="markup">
+                    <seg xml:lang="de">Keine Korrekturen</seg>
+                    <seg xml:lang="en">No corrections</seg>
+                    <seg xml:lang="fr">Sans de corrections</seg>
+                </correction>
+                <hyphenation eol="hard" rend="dh"/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la" usage="90"/>
+                <language ident="de" usage="10"/>
+            </langUsage>
+           <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="#p0662">Immanuel Hermann Fichte</persName>
+                       <placeName ref="#l1103"
+                                    >Berlin</placeName>
+                       <date when-iso="1817-11-13"/>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="#g0028">Die Professoren der Philosophischen
+                            Fakultät</persName>
+                    </correspAction>
+                   <correspContext><ref type="next" target="Brief006fichteanfakultaet.xml"/></correspContext>
+                </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when-iso="2014-12-09" who="#eva.schneider">I still found one little mistake in the encoding, which I corrected.</change>
+            <change when-iso="2014-12-05" who="#eva.schneider">I found some little mistakes in the encoding, which I corrected.</change>
+            <change when-iso="2014-08-18" who="#eva.schneider">I completed the header.</change>
+            <change when-iso="2014-07-16" who="#eva.schneider">I have finished encoding as far as possible. In the header some information is still missing.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription">
+                <pb n="1" facs="00000219.jpg"/>
+                <note type="foliation" hand="#pencil_1"
+                    place="top-right"><del rend="strikethrough" hand="#pencil_2">120</del></note>
+                <note type="foliation" hand="#blue_hand" place="top-right">103</note>
+                <p><address><addrLine rend="align(center)"><hi rend="large"><rs ref="#p0572">Decano</rs> &amp; <orgName ref="#g0028">Facultati philosophicae</orgName></hi></addrLine><addrLine rend="align(center)">summe venerandis.<note resp="#eva.schneider">Bei diesem und folgendem Dokument handelt es sich um das Promotionsgesuch von <persName ref="#p0662">Immanuel Hermann Fichte</persName>, das er im November 1817 an der <orgName ref="#g0137">Philosophischen Fakultät</orgName> der <orgName ref="#g0122">Berliner Universität</orgName> einreichte. Es bestand aus einem Gesuch und einem Lebenslauf mit einer Übersicht über seine bisherige Studien.</note></addrLine></address></p>
+                <p>Cum indulgentiae Vestrae non sine timore hancce dissertationem trado,<lb/> ut ex
+                    ea iudicare Vobis placeat, <unclear cert="low" reason="illegible">ea</unclear>
+                    dignus sim, qui ad tentamen<lb/> Doctoris Philosophiae admittar: libere
+                    confiteor, me ipsum mi<lb break="no"/>nime esse <add place="above"
+                        >contentum</add> opusculo meo, &amp;, nisi defuisset tempus, alia sultem
+                        for<lb break="no"/>ma iudicio Vestro illud oblaturum fuisse. Nihil enim,
+                    nisi<lb/> partem dissertationis, quam antea examini subiicere volue<lb
+                        break="no"/>ram, tradere licet, eamque &amp; <choice>
+                        <unclear reason="illegible" cert="high">ea</unclear>
+                        <unclear reason="illegible" cert="low">quae</unclear>
+                    </choice> materia &amp; forma imper<lb break="no"/>fectam: ceterorum, quae
+                    retinui, argumentum brevi coropectu<lb/> Vobis proposui. <unclear
+                        reason="illegible" cert="high">T</unclear>am igitur Vestrum <add
+                        place="above">erit</add>, spectare non quid fece<lb break="no"/>rit auctor,
+                    sed quid facere voluerit. &#8211; Omnino autem in<lb/> philosophia a provectiore
+                        <add place="above">demum</add> &amp; firmata aetate, atque post<lb/> multas
+                    variasque exercitationes, probi ac perfecti quid ex<lb break="no"/>spectari
+                    potest; illam nondum nactus sum, his adhuc<lb/> careo. Specimini igitur sit,
+                        <add place="above">quod porrigo</add>, <choice>
+                        <unclear reason="illegible" cert="high">an</unclear>
+                        <unclear reason="illigible" cert="low">un</unclear>
+                    </choice>
+                    <hi rend="underline">futuro</hi> tempore litteris ali<lb break="no"/>qua tenus
+                    profuturum me sperare possim. Sed quid pluribus<lb/> opus est! Sum&#772;a
+                    fiducia se suuque Vestrae commendat indul<lb break="no"/>gentiae.</p>
+                <closer><choice>
+                        <abbr>Scrib.</abbr>
+                        <expan>Scriba</expan>
+                    </choice>
+                    <placeName ref="#l1103">Berolini</placeName>
+                    <choice>
+                        <abbr>d.</abbr>
+                        <expan>der</expan>
+                    </choice>
+                    <date when-iso="1817-11-13">13 <choice>
+                            <abbr>Novembr.</abbr>
+                            <expan>November</expan>
+                        </choice> 1817</date>. <hi rend="align(right)">devotus
+                            discipulus<lb/><persName ref="#p0662"><signed>Imanuelis
+                            Fichte</signed></persName>.</hi></closer>
+                <p><hi rend="underline align(right)">verte</hi></p>
+                <p>
+                    <handShift new="#minor_hand"/>
+                    <hi rend="kurrent">Als Parthei trete ich in dieser Sache <unclear
+                            reason="illegible" cert="high">zugleich</unclear> ab! Ich freue mich
+                        aufrichtig, wen&#772; die <orgName ref="#g0028">Fakultät</orgName><lb/> von
+                        der Weissheit der Schrift sich überzeugt hat. Mein Lob der Schrift, selbst
+                        habe ich bereits<lb/> auf das stärkste ausgesprochen. Hat sie einen so jungen
+                        Verfaßer &#8211; wohl uns und ihm!</hi> &#8211; <persName ref="#p0613">
+                            <signed>Weiss</signed></persName>.</p>
+
+                <pb n="2" facs="00000220.jpg"/>
+                <note type="foliation" hand="#ink" place="top">86.</note> 
+                <note type="foliation" hand="#pencil_3" place="margin-left-vertical">36</note>
+                
+                
+                <pb n="3" facs="00000221.jpg"/>
+                <note type="foliation" hand="blue_hand" place="top-right">104</note>
+                <handShift new="#major_hand"/>
+                <p>Quae de vita hucusque peracta dicenda mihi sunt, brevibus<lb/> absolveri possum.
+                    &#8211; Natus sum <placeName ref="#l0100">Jenae</placeName>
+                    <choice>
+                        <abbr>a.D.</abbr>
+                        <expan>Anno Domini</expan>
+                    </choice>
+                    <date when-iso="1796">MDCCXCVI</date>,<lb/> ubi <rs ref="#p0251">pater</rs> meus
+                    munere doctoris academici fungebatur. Cum<lb/> parentibus mox <placeName
+                        ref="#l1103">Berolinum</placeName>
+                    <choice>
+                        <unclear reason="illegible" cert="high">profectus</unclear>
+                        <unclear reason="illegible" cert="low">praefectus</unclear>
+                    </choice>, ibi omnibus iis sum<lb/> eruditus, quae decent puerum honestum,
+                    partim <choice>
+                        <unclear reason="illegible" cert="high">privates</unclear>
+                        <unclear reason="illegible" cert="low">privatis</unclear>
+                    </choice> stu<lb break="no"/>diis, cum patris ipsius, optimi disciplina
+                    gauderem, partim<lb/> in publicis urbis nostrae lyceis. Deinde, cum tempus ad<lb
+                        break="no"/>esset, quo iam in Academia eruditio esset persequenda, <orgName
+                        ref="#g0122">Univer<lb break="no"/>sitatis</orgName> nostrae cives factus,
+                    ad antiquas litteras me conver<lb break="no"/>ti, &amp; disciplinis Virorum
+                    Clariss. <persName ref="#p0175">Wolfii</persName>, <persName ref="#p0146"
+                        >Solgeri</persName>, <persName ref="#p0178">Boe<lb break="no"
+                        />ckhii</persName>, <persName ref="#p0624">Ideleri</persName> me commisi:
+                    per triennium etiam <orgName ref="#g0079">Se<lb break="no"/>minarii
+                        Philologici</orgName> sodalis, non possum, quin impri<lb break="no"/>mis
+                        <persName ref="#p0178">Boeckhio</persName> &amp; <persName ref="#p0394"
+                        >Buttmanno</persName>, celeberrimis eius <orgName ref="#g0079"
+                        >instituti</orgName><lb/> moderatoribus &amp; praeceptoribus meis pie
+                    colendis, intimo<lb/> ex animo gratias agam propter multa &amp; varia,
+                    quibus<lb/> mihi profuerunt. &#8211; Mox, antiquas litteras relinquens, per<lb/>
+                    triennium fere privato studio philosophiae totis viribus<lb/> operam dedi.<lb/>
+                <milestone unit="none" rend="horizontal-rule" n="2"/>    
+                
+                    <pb n="4" facs="00000222.jpg"/>
+                    <note type="foliation" hand="#ink" place="top">86<hi rend="superscript latin">a</hi></note>
+                    <note type="foliation" hand="#pencil_3" place="margin-left-vertical">35</note>
+                        
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

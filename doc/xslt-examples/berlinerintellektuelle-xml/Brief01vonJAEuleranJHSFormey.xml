@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="de">Brief von Johann Albrecht Euler an Jean Henri Samuel
+                    Formey<lb/>(Sankt Petersburg, 5. Dezember 1761)</title>
+                <title xml:lang="fr">Lettre de Jean Albert Euler à Jean Henri Samuel
+                    Formey<lb/>(Sankt Petersburg, 5 décembre 1761)</title>
+                <title xml:lang="en">Letter from John Albert Euler to Jean Henri Samuel
+                    Formey<lb/>(Sankt Petersburg, 5 december 1761)</title>
+                <funder>Deutsche Forschungsgemeinschaft: Emmy Noether-Programm</funder>
+                <principal>
+                    <persName ref="#anne.baillot">
+                        <forename>Anne</forename>
+                        <surname>Baillot</surname></persName>
+                    <affiliation><orgName><seg xml:lang="de">Humboldt-Universität zu
+                                Berlin</seg><seg xml:lang="en">Humboldt University in
+                                Berlin</seg><seg xml:lang="fr">Université Humboldt de
+                            Berlin</seg></orgName><address><street>Unter den Linden 6</street><postCode>10099</postCode><settlement>Berlin</settlement><country key="DE">Deutschland</country></address></affiliation>
+                </principal>
+                <respStmt>
+                    <resp>Encoding by</resp>
+                    <persName ref="#emmanuelle.chaze"><forename>Emmanuelle</forename>
+                        <surname>Chaze</surname></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription by</resp>
+                    <persName ref="#emmanuelle.chaze"><forename>Emmanuelle</forename>
+                        <surname>Chaze</surname></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Annotations by</resp>
+                    <persName ref="#emmanuelle.chaze"
+                            ><forename>Emmanuelle</forename><surname>Chaze</surname></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Digitization by</resp>
+                    <orgName ref="#stabi.berlin">Staatsbibliothek zu Berlin - Preußischer
+                        Kulturbesitz</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/de/deed.en"
+                        >Attribution 3.0 Germany (CC BY 3.0)</licence>
+                </availability>
+                <date when="2012-09">September 2012</date>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Briefe und Texte aus dem intellektuellen Berlin um 1800</title>
+                <title type="topic">Französische Kultur</title>
+                <title type="genre">Briefe</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country key="DE"><seg xml:lang="de">Deutschland</seg><seg xml:lang="en"
+                                >Germany</seg><seg xml:lang="fr">Allemagne</seg></country>
+                        <settlement>Berlin</settlement>
+                        <institution ref="#stabi.berlin"><seg xml:lang="de">Staatsbibliothek zu
+                                Berlin-Preußischer Kulturbesitz</seg><seg xml:lang="en">Berlin State
+                                Library</seg><seg xml:lang="de">Bibliothèque d'État de
+                            Berlin</seg></institution>
+                        <repository><seg xml:lang="de">Handschriftenabteilung</seg><seg
+                                xml:lang="en">Manuscripts section</seg><seg xml:lang="fr">Section
+                                des manuscrits</seg></repository>
+                        <collection><seg xml:lang="de">Nachlaß Formey</seg><seg xml:lang="en">Formey
+                                Papers</seg><seg xml:lang="fr">Papiers Formey</seg> (NL
+                            235)</collection>
+                        <idno type="stabi.berlin">
+                            <seg xml:lang="de">Kasten 43 (Folio 1)</seg>
+                            <seg xml:lang="en">Box 43 (Folio 1)</seg>
+                            <seg xml:lang="fr">Boîte 43 (Folio 1)</seg>
+                        </idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <docDate when="1761-12-05">5. Dezember 1761</docDate>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <!--  <support><material>Art des Papiers, Qualität
+                                    usw.</material></support> -->
+                                <extent>
+                                    <measure type="leaf">1 Blatt</measure>
+                                    <!--  <dimensions unit="cm">
+                                    <height>die Höhe</height>
+                                        <width>die Breite</width>
+                                        </dimensions> -->
+                                </extent>
+                                <foliation corresp="#pencil">
+                                    <seg xml:lang="de">Foliierung in Bleistift oben rechts der
+                                        jeweiligen Vorderseiten durch das Archiv.</seg>
+                                    <seg xml:lang="en">Foliation in pencil by the archive.</seg>
+                                    <seg xml:lang="fr">Numérotation des pages par les
+                                        archives.</seg>
+                                </foliation>
+                                <condition xml:lang="de">Der Brief ist gut erhalten. Leichte
+                                    Siegelspuren</condition>
+                                <condition xml:lang="en">The letter is well preserved. Light traces
+                                    of the seal.</condition>
+                                <condition xml:lang="fr">La lettre est en bon état de conservation.
+                                    Légères traces du sceau.</condition>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote xml:id="major_hand" scope="major" medium="black_ink"
+                                scribe="author" scribeRef="#p2284">
+                                <seg xml:lang="de">Hand des Absenders Johann Albrecht Euler,
+                                    Brieftext in schwarzer Tinte, in lateinischer Schrift
+                                    (französische Sprache).</seg>
+                                <seg xml:lang="en">Hand of sender John Albert Euler, body text in
+                                    black ink, in latin script (language: French).</seg>
+                                <seg xml:lang="fr">Main de l'expéditeur Jean Albert Euler, texte à
+                                    l'encre noire, en écriture latine (langue: français).</seg>
+                            </handNote>
+                            <handNote xml:id="pencil" scope="minor" medium="pencil"
+                                scribe="archivist">
+                                <seg xml:lang="de">Hand des Archivars, der die Foliierung des
+                                    Konvoluts in Bleistift vorgenommen hat.</seg>
+                                <seg xml:lang="en">Hand of the archivist who numbered the bundle
+                                    (pencil).</seg>
+                                <seg xml:lang="fr">Main de l'archiviste ayant numéroté la liasse
+                                    (crayon).</seg>
+                            </handNote>
+                        </handDesc>
+                        <!--  <sealDesc></sealDesc> -->
+                        <!-- <accMat></accMat>  -->
+                    </physDesc>
+                    <history>
+                        <origin xml:lang="de">Der Brief wurde in <origPlace ref="#l0020">Sankt
+                                Petersburg</origPlace> am <origDate when-iso="1761-12-05">5.
+                                Dezember 1761</origDate> verfasst.</origin>
+                        <origin xml:lang="en">The letter was written in <origPlace ref="#l0020"
+                                >Saint Petersburg</origPlace> on <origDate when-iso="1761-12-05">5
+                                December 1761</origDate>.</origin>
+                        <origin xml:lang="fr">La lettre a été écrite à <origPlace ref="#l0020"
+                                >Saint-Pétersbourg</origPlace> le <origDate when-iso="1761-12-05">5
+                                décembre 1761</origDate>.</origin>
+                        <acquisition/>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projekt: "Berliner Intellektuelle 1800-1830"</p>
+            </projectDesc>
+            <editorialDecl>
+                <!--  correction>
+                    <p>Keine.</p>
+                </correction>
+                <normalization>
+                    <p>Keine.</p>
+                    </normalization> -->
+                <hyphenation eol="hard" rend="sh">
+                    <p><seg xml:lang="de">Worttrennungen an Zeilenumbrüchen werden in der Regel
+                            durch einen einfachen Bindestrich angezeigt.</seg>
+                        <seg xml:lang="en">Line breaks will normally be shown by a hyphen.</seg>
+                        <seg xml:lang="fr">Les coupures en fin de ligne sont signalées par des
+                            tirets simples.</seg></p>
+                </hyphenation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr" usage="100">Französisch</language>
+
+            </langUsage>
+           <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="#p2284">Johann Albrecht Euler</persName>
+                       <placeName ref="#l0020">Sankt
+                                Petersburg</placeName>
+                       <date when-iso="1761-12-05"/>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="#p2285">Jean-Henri Samuel Formey</persName>
+                    </correspAction>
+                   <correspContext><ref type="next" target="Brief02vonJAEuleranJHSFormey.xml"/></correspContext>
+                </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-09-21" who="#emmanuelle.chaze">Edited lb.</change>
+            <change when="2014-05-09" who="#emmanuelle.chaze">Edited lb.</change>
+            <change when="2014-05-02" who="#emmanuelle.chaze">Edited metadata.</change>
+            <change when="2014-04-11" who="#emmanuelle.chaze">Edited metadata and body.</change>
+            <change when="2014-02-28" who="#emmanuelle.chaze">Edited metadata and body.</change>
+            <change when="2014-03-01" who="#emmanuelle.chaze">Entered metadata and body.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="transcription">
+                <pb n="1" facs="00000001.jpg"/>
+                <note type="foliation" hand="#pencil" place="margin-right">1</note>
+                <opener rend="align(left)">
+                    <salute>Monsieur <lb/>Mon très chèr et très honoré Oncle!</salute></opener>
+                <p> Oserai-je bien Vous demander la grace de me mander <lb/>le nom de batème de feu
+                        <rs>ma belle mère</rs> avec la date <lb/>de sa naissance, de son mariage et
+                    de sa mort.</p>
+                <p><persName ref="#p???">Mr Lelong</persName> de <placeName ref="#l0080"
+                        >Francfourth</placeName> mon oncle du coté de <rs rs="#p2406">ma mère</rs>
+                    <lb/>me tourmente et me presse pour que je lui en donne toute <lb/>les
+                    eclaircissemens possibles : il se tient un gros Journal de tous ce qui se passe
+                    dans la famille.</p>
+                <p>Je Vous demande mille pardon, mon chèr Oncle, de cette <lb/>incommodité [le m est
+                    doublé] ; <rs ref="#p2456">mon beau-père</rs> n’est pas encore de retour et
+                    <lb/>d’ailleurs <rs ref="#p2328">ma femme</rs> m’assure que Vous savez le mieux
+                    donner <lb/>des ecclaircissemens [sic] de tout ce qui regarde la famille.</p>
+                <p><rs ref="#p2328">Ma femme</rs> aussi bien que moi Vous présentons nos <lb/>très
+                    humbles respects de même qu’à <rs>Madame notre chère Tante</rs>
+                    <lb/>nous embrassons toute la chère famille. Je suis en attendant <lb/>l’honneur
+                    de Vous voir demain avec tout le respect imaginable</p>
+                <closer><salute rend="align (left)">Monsieur <lb/>Mon très chèr et très honoré Oncle
+                        !</salute>
+                    <salute rend="align (right)">Votre très humble et <lb/>très Obeissant Serviteur
+                        <lb/>Et Neveu</salute>
+                    <signed>JA Euler</signed>
+                    <p rend="align(left)">Ce <dateline>5 de Decembre 1761</dateline></p></closer>
+                <pb n="2" facs="00000002.jpg"/>
+                <p><address>
+                    <addrLine>A Monsieur <persName ref="#p2285"><lb/>Monsieur le Professeur <lb/>Formey ec <rs ref="#l1103"><lb/>chez <lb/>Lui</rs></persName></addrLine>
+                </address></p>
+            </div>
+        </body>
+    </text>
+</TEI>
