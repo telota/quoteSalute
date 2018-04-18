@@ -9,7 +9,7 @@ quoteSalute bietet inspirierende Grußformeln aus digitalen Briefeditionen für 
 ## Mitmachen
 
 Die Grußformel Ihrer digitalen Briefedition sollen bei quoteSalute dabei sein? Informationen finden Sie im Ordner [doc](https://github.com/telota/quoteSalute/tree/master/doc). Hier stellen wir Ihnen bereit:
-* unsere [Dokumentation](https://github.com/telota/quoteSalute/blob/master/doc/docs/documentation-de.xml)
+* unsere [Dokumentation](https://github.com/telota/quoteSalute/blob/master/doc/documentation-de.md)
 * eine [Beispieldatei](https://github.com/telota/quoteSalute/blob/master/doc/example.xml) der benötigten Datenstruktur.
 * eine [Vorlage](https://github.com/telota/quoteSalute/blob/master/doc/template.xml) zur schnellen Erstellung Ihrer quoteSalute Daten.
 * [XSLT-Skripte](https://github.com/telota/quoteSalute/tree/master/doc/xslt-examples) dokumentieren anhand von Beispieldaten die Extraktion von salute-Elementen.
