@@ -126,7 +126,7 @@
                     <div type="include">
                         <!-- Wählt aus der collection überhaupt nur die Dateien aus, die "salute" beinhalten -->
                         <xsl:for-each
-                            select="collection('hirt-xml')//closer/salute[string-length(.) > 6]">
+                            select="collection('hirt-xml')//closer/salute">
                             <cit>
                                 <!-- Filter müssen sukzessive manuell ausgefüllt werden -->
                                 <quote xml:lang="#" ana="#">
