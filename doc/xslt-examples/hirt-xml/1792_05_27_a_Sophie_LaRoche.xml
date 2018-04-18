@@ -1,0 +1,319 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="letter hirt" xml:lang="de" xml:id="prov_xxp_ymv_w5">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>An Marie Sophie von La Roche. Rom, den 27. Mai 1792. Sonntag</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <title>Alois Hirt - Briefausgabe</title>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Klassik Stiftung Weimar, Goethe- und
+                            Schiller-Archiv</institution>
+                        <repository/>
+                        <collection/>
+                        <idno>
+                            <idno type="shelfmark">56/29, Bl. 1-2</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="prov_ztg_3sx_sr">Hirt, Aloys(1759 - 1837)</persName>
+                    <placeName key="prov_vkl_ndl_js">Rom</placeName>
+                    <date when="1792-05-27" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="prov_dyh_pnv_w5">La Roche, Marie Sophie von, geb. Gutermann von
+                        Gutershofen(1730 - 1807)</persName>
+                </correspAction>
+                <correspContext>
+                    <ref type="prev" target="hirt_abg_br5_fz"/>
+                </correspContext>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline rend="align(right)">Rom den 27<hi rendition="#u">
+                            <hi rendition="#sup">ten</hi>
+                        </hi> May 1792.</dateline>
+                    <salute/>
+                </opener>
+                <p>Ich bin Ihnen, meine Gnädige Frau, so viel schuldig, daß ich erröthe, wenn ich
+                    daran denke, auf so viele zuvorkommende, trauliche Güte noch kein Zeichen meines
+                    Lebens, meiner Dankbarkeit gegeben zu haben. Entschuldigen will und kann ich
+                    mich nicht. Ich hatte zwar seit 6 Monaten her im strengsten Verstande nicht
+                    einen Tag frey für mich; in einem anhaltenden Wirrwarr mußte ich mit einer Menge
+                    Fremden meiner Bekanntschaft, die dieß Jahr <placeName key="prov_vxr_xxr_js">Italien</placeName> besuchten, fortleben. In einem solchen tumultuösen
+                    Zustande findet sich das Gemüth wenig aufgelegt, mit Abwesenden sich zu
+                    unterhalten, mit denen man ein Wort vertraulich, mit Gefühl, mit Seele sprechen
+                    möchte. Man zögert, man erwartet immer diesen ruhigern Augenblick, und so eilet
+                    die Zeit mit einer Schnelligkeit vorüber, derer zurückgelegten Raum man erst bey
+                    ruhiger Überlegung gewahr wird. Noch dauert täglich meine Beschäftigung mit
+                    Fremden fort, und vor <seg type="critical">
+                        <orig>S. Peter</orig>
+                        <note xml:id="nb1p_qqv_w5">Im Gedenken an den überlieferten Todestag der
+                            Apostel Peter und Paul wird der 29. Juni als Festtag begangen.</note>
+                    </seg> wird <subst>
+                        <del rendition="#ow">s</del>
+                        <add>dieselbe</add>
+                    </subst> auch nicht aufhören.</p>
+                <p>Unter dieser Strenge lernte ich verschiedene sehr schäzbare Personen kennen,
+                    worunter auch allerdings diejenigen gehören, die <del rendition="#s" next="vermittelst">ich</del> vermittelst Ihrer Zuschrift an mich kamen. Die
+                        <seg type="critical">
+                        <orig>
+                            <persName key="prov_zzs_ptw_w5">Gräfin v. Egloffstein</persName>
+                        </orig>
+                        <note xml:id="np1j_d5w_w5">Henriette von Egloffstein hielt sich mit ihrem
+                            Mann von Sommer 1791 bis Juni 1792 auf einer Bildungsreise in Italien
+                            auf. </note>
+                    </seg>verbindet mit einem edlen Herzen mannigfältig schöne Fähigkeiten, welche
+                        <del rendition="#s" next="sie">S</del>sie hier mit vielem Fleiß
+                    auszubilden suchte. Sie reiste von Anfang dieses Monats nach <placeName key="prov_tgx_1c3_g5">Venedig</placeName> ab. Dem Braven <pb n="2"/>
+                    <persName key="prov_rrp_jww_w5">Stuve</persName> war ich sehr zugethan; <seg type="critical">
+                        <orig>sein Schicksaal</orig>
+                        <note xml:id="nmrh_pww_w5">Wegen seines schlechten Gesundheitszustandes trat
+                            Johann Stuve am 18. April 1791 eine einjährige Reise in die Schweiz und
+                            nach Italien an. Anfang Juni 1792 kehrte er nach einer längeren Seereise
+                            nach Braunschweig zurück; kurz darauf, am 25. Juni 1792, starb seine
+                            Frau; er selbst ein Jahr später, am 12. Juli 1793.</note>
+                    </seg> gieng mir nahe, auf den Rath der Ärzte machte er seine Rückreise von
+                        <placeName key="prov_myp_lbv_35">Neapel</placeName> aus zur See. Seither
+                    hörte ich nichts von ihm. <seg type="critical">
+                        <orig>Mit dem <persName key="prov_hgm_jkw_w5">Gr<ex>afen</ex> v.
+                                Stolberg</persName> brachte ich auch einen herrlichen Monat
+                            zu.</orig>
+                        <note xml:id="nvqp_xlw_w5">Friedrich Leopold Graf zu Stolberg-Stolberg hielt
+                            sich mit seiner Frau Agnes 1791 bis 1792 in Italien auf, begleitet von
+                            Georg Arnold Jacobi und Georg Heinrich Ludwig Nicolovius. Die Reise
+                            beschrieb er in dem Werk "Reise in Deutschland, der Schweiz, Italien und
+                            Sicilien in den Jahren 1791 und 1792" (Königsberg und Leipzig 1794).
+                            Darin berichtet Stolberg auch über den Kursus mit Hirt, der im Dezember
+                            1791 begann: "Diesen Morgen besahen wir mit und unter der Leitung des
+                            Alterthum- und Kunstkundigen, Herrn Hirt, die Ueberbleibsel der Thermen
+                            des Diocletian. Der Name Thermen kann leicht irre führen; man vermuthet
+                            nur warme Bäder, und diese waren eine Nebensache. Die Hauptsache der
+                            sogenanntenThermen war, Anstalten anzulegen zu Uebungen des Leibes und
+                            des Geistes. Der Plan und die Ausführung übersteigt alle Vorstellung.
+                            […] Nahe bei diesen Thermen ist die schöne fontana dell' acqua Felice
+                            […] Von dort gingen wir in die Kirche Santa Maria Maggiore" (zitiert
+                            nach: Reise in Deutschland, der Schweiz, Italien und Sicilien [...] Neu
+                            hrsg., 1. Bd., Mainz 1877, S. 306-308). Vermutlich hat er auch viele der
+                            im Folgenden beschriebenen Besichtigungen unter Führung Hirts gemacht.
+                            Vgl. dazu den Brief Stolbergs an Gerhard Anton von Halem vom 11. Januar
+                            1792 : "Wie beleben sich, unter den grossen Trümmern Roms die
+                            Geschichtsschreiber! Wie lebendig fliegen, gleich dem Phönix, hier die
+                            alten Dichter aus ihrer Asche empor! Virgil u[nd] Horaz, Catull, Ovid,
+                            Properz, der zartempfindende Tibull, reden einem hier viel vernehmlicher
+                            u[nd] tönender, wenn man mit dem Klima, den Gegenden, dem Local
+                            überhaupt bekannt wird. Alle Vormittage irren wir, oder vielmehr werden
+                            von Hirt, einem sehr alterthumskundigen Cicerone geleitet, zwischen den
+                            Ruinen in u[nd] vor der Stadt; in die Musäums, in die Gallerien. Hier
+                            sind Meisterstücke der Kunst von so vielen Zeiten u[nd] Völkern! "
+                            (zitiert nach: Friedrich Leopold Graf zu Stolberg. Briefe, hg. von
+                            Jürgen Behrens. Neumünster 1966, S. 279–280). - Am 2. Februar 1792
+                            reiste die Gesellschaft nach Neapel weiter. </note>
+                    </seg> Sein Sinn hat sich für viel ein gesehenes, ein Gefühltes sehr geöfnet.
+                        <persName key="prov_zb2_2lw_w5">Die Gräfin</persName>, eine brave Frau, wenn
+                    man sie näher kennet, ist bereits vor Ostern in <placeName key="prov_myp_lbv_35">Neapel</placeName> glücklich von einer <seg type="critical">
+                        <orig>
+                            <persName key="prov_znw_klw_w5">Tochter</persName>
+                        </orig>
+                        <note xml:id="nfzt_slw_w5">Die am 2. April 1792 geborene Sybille Johanna
+                            Amalie zu Stolberg-Stolberg starb bereits am 29. August desselben
+                            Jahres.</note>
+                    </seg> entbunden worden. Bey der Rückkunft aus <placeName key="prov_kw2_j4g_w5">Sizilien</placeName> werde ich diese ganze Familie wieder sehen. Er brachte
+                    mir Ihre <seg type="critical">
+                        <orig>
+                            <bibl sameAs="ed_tlw_5bv_fz">Briefe über Manheim</bibl>
+                        </orig>
+                        <note xml:id="nxtv_14w_w5">Sophie von La Roche: Briefe über Mannheim.
+                            Mannheim: Schwan und Götz, 1791. - Dass. Zürich: Orell, Geßner, Füßli
+                            &amp; Co., 1791 (374 S. 8°).</note>
+                    </seg>, und das Paket <seg type="critical">
+                        <orig>
+                            <persName key="prov_okf_rsw_w5">Ihres Sohnes</persName>
+                        </orig>
+                        <note xml:id="no3q_msw_w5">Wohl Friedrich Karl (Fritz) von La Roche gemeint.
+                            Möglich ist auch Georg Karl (geb. 1766).</note>
+                    </seg> richtig zu. <anchor type="verweisziel" xml:id="start_grd_qsl_1v"/>Auch
+                    hatte ich schon vor dem Empfang <seg type="critical">
+                        <orig>Ihres lezten Briefes</orig>
+                        <note xml:id="ntcc_zsc_x5">Brief(e) erschlossen: [Von Sophie von La Roche,
+                            1792-05-vor27]. Die Formulierung "letzter Brief" weist auf weitere
+                            frühere Briefe hin.</note>
+                    </seg>, und <seg type="critical">
+                        <orig>dem zweyten <persName key="prov_okf_rsw_w5">Ihres Sohnes</persName>
+                        </orig>
+                        <note xml:id="nxd5_3tc_x5">Zu erschließen sind zwei Schreiben [Von Fritz von
+                            La Roche, 1792-05-vor27] .</note>
+                    </seg>
+                    <seg type="comment">
+                        <orig>das Paket an den bestimmten
+                                    Ort nach <placeName key="prov_ad5_cbx_w5">Frankreich</placeName>
+                        </orig>
+                        <note xml:id="nv5h_tdv_fz">Sachverhalt
+                            nicht ermittelt.</note>
+                    </seg> abgesandt.<anchor type="verweisziel" xml:id="stop_grd_qsl_1v"/> Ich erhielt seither keine Antwort, und bin daher
+                    noch in Furcht, daß bey den herschenden Unruhen es auf der Post nicht verloren
+                    gegangen seyn möchte. - Ihre <bibl sameAs="ed_tlw_5bv_fz">Briefe über <placeName key="prov_lfw_2bx_w5">Manheim</placeName>
+                    </bibl> habe ich mit dem
+                    Intereße g<subst>
+                        <del rendition="#ow">l</del>
+                        <add>e</add>
+                    </subst>lesen, das dieselben verdienen, und mit welchem ich alle Ihre Schriften
+                    lese. Man muß Ihren leichten, offenen Beobachtungsgeist, Ihr inniges Gefühl von
+                    Güte, Ihren heitern, und über das menschliche Schicksaal so geprüften Geist
+                    haben, um alle Situationen so lebhaft, mit so viel inniger Theilnahme, und mit
+                    so viel Leichtigkeit des Ausdruckes schildern zu können. <persName key="prov_lyk_c3g_f5">Wieland</persName> mein Lieblingsschriftsteller, und
+                    Frau v. LaRoche der weibliche <persName key="prov_lyk_c3g_f5">Wieland</persName>! - die nemliche Grazie des Geistes, die nemliche Fülle des
+                    Gefühls, eben jener biegsame, der Sache sich anpaßende, volle Ausdruck der
+                    Sprache. - Meinen Dank auch in dieser Rücksicht!<pb n="3"/>
+                </p>
+                <p>Ich nehme den innigsten Antheil an dem Leyden über den <seg type="critical">
+                        <orig>Verlust Ihres <persName key="prov_blc_vbx_w5">jüngsten
+                                Sohnes</persName>
+                        </orig>
+                        <note xml:id="nkmq_gwb_x5">Franz Wilhelm von La Roche war am 11. September
+                            1791 im Alter von 23 Jahren "an einer Entzündungskolik" gestorben,
+                            nachdem er erst kurz zuvor seine erste Stellung als
+                            hessisch-darmstädtischer Forstassessor angetreten und sich verlobt hatte
+                            (vgl. den Brief von Sophie von La Roche an Elise zu Solms-Laubach,
+                            Offenbach, 14.9.1791, in: Michael Maurer: Sophie von La Roche - Ein
+                            Lebensbild in Briefen: Ich bin mehr Herz als Kopf, Leipzig 1985, Nr.
+                            207, S. 331).</note>
+                    </seg> Ich begreiffe, welcher Schmerz es für eine Mutter - um einen solchen
+                    Jüngling - seyn muß. Der Himmel gebe Ihnen Stärke, und laße Sie selbst Trost in
+                    dem Gedanken finden, daß er seiner Mutter, und des Himmels werth war. - Auch
+                    thut mir sehr leid, <seg type="critical">
+                        <orig>daß Sie von Ihren vortrefflichen Kindern <persName key="prov_mzn_gcx_w5">Friz</persName>, und <persName key="prov_wnb_5cx_w5">Elzy</persName> entfernt leben müßen</orig>
+                        <note xml:id="nixx_pyb_x5">Fritz von La Roche hatte nach seiner Heirat mit
+                            der vermögenden holländischen Witwe Elsy de l'Espinasse ein Haus in
+                            Offenbach, in der Nähe seiner Mutter, gekauft, was diese auf einen
+                            soliden Lebenswandel und ein glückliches Familienleben ihres Sohnes
+                            hoffen ließ, der zu dieser Zeit als Kavalleriehauptmann in französischen
+                            Diensten stand. Sophie von La Roche beschreibt ihren ältesten Sohn als
+                            schön und talentiert, aber auch als leichtsinnig, unstet und
+                            eigennützig. 1792 wanderte er mit seiner Familie nach Amerika aus,
+                            zerstritt sich mit seiner Frau, die er mittellos verließ. Zeitweilig war
+                            er in Rußland verschollen (vgl. Maurer, 1983, S. 266, 31). - Wie aus
+                            einem Brief Hirts an Fritz von La Roche vom 9. Oktober 1797 hervorgeht,
+                            hielt sich dieser zusammen mit seiner Frau und seiner jüngsten Tochter
+                            vor seiner Ausreise nach Amerika in Rom auf und traf dort mit Hirt
+                            zusammen. </note>
+                    </seg>, und der Himmel weiß, auf wie lange. Zwar versprechen Sie mir im Jahre
+                    -95 <seg type="critical">
+                        <orig>wieder in <placeName key="prov_vkl_ndl_js">Rom</placeName> zu
+                            seyn</orig>
+                        <note xml:id="nj2s_jzb_x5">Eine Reise nach Italien hatte Sophie von La Roche
+                            bereits nach dem Tod ihres Mannes 1789 geplant; diese kam jedoch nicht
+                            zustande, so wie auch spätere Vorhaben nicht realisiert wurden.
+                            Wiederholt hatte sie Wieland vorgeschlagen, sie nach Italien zu
+                            begleiten. Als ihre Tochter Maximiliane Brentano bereits 1793 starb,
+                            nahm sie von deren acht unmündigen Kindern drei Mädchen bei sich auf,
+                            was wohl weiteren Reisen vorerst im Wege stand.</note>
+                    </seg>, mit Sehnsucht werde ich der Erfüllung dieses Versprechens entgegen
+                    sehen. -</p>
+                <p>Und Sie, meine gnädige Freundin! <seg type="critical">
+                        <orig>entfernen sich zum drittenmal</orig>
+                        <note xml:id="njs3_1dc_x5">Sophie von La Roche unternahm 1784, 1789 und 1792
+                            Reisen in die Schweiz (vgl. "Tagebuch einer Reise durch die Schweiz",
+                            Altenburg 1787; "Erinnerungen aus meiner ditten Schweizerreise. Meinem
+                            verwundeten Herzen zur Linderung vielleicht auch mancher traurenden
+                            Seele zum Trost geschrieben von Sophie, Wittwe von la Roche", Offenbach
+                            1793), des weiteren 1785 nach Frankreich (siehe ihr "Journal einer Reise
+                            durch Frankreich, von der Verfasserin von Rosaliens Briefen", Altenburg
+                            1787), und 1787 nach Holland und England (siehe "Tagebuch einer Reise
+                            durch Holland und England von der Verfasserin von Rosaliens Briefen",
+                            Offenbach 1788).</note>
+                    </seg> von den Grenzen <placeName key="prov_vxr_xxr_js">Italiens</placeName>.
+                    Wie? sollen denn meine besten Wünsche immer getäuscht werden? - Gewiß sollte es
+                    mir unaussprechlich lieb seyn, die Frau, welche so viele Güte des Herzens für
+                    mich hat, die ich seit meiner ersten Jugend so sehr verehre, die Mutter
+                        von<persName key="prov_mzn_gcx_w5"> Friz</persName> und <persName key="prov_wnb_5cx_w5">Elzy La Roche</persName>, in den Mauren <placeName key="prov_vkl_ndl_js">Rom</placeName>'s persönlich kennen zu lernen, und bey
+                    jedem Schritt, den sie in der unvergänglichen Stadt thun würde, ihr Begleiter,
+                    ihr Mitfühlender zu seyn. Sie haben viel gereiset, viel gesehen, viel
+                    beobachtet, und mit welchem Auge, mit welcher Vorkenntniß! - kommen Sie nach
+                        <placeName key="prov_vxr_xxr_js">Italien</placeName>, nach <placeName key="prov_vkl_ndl_js">Rom</placeName>, und Sie finden eine neue Welt - in
+                    Trümmern zwar, aber Ihr Geist schaffet dieselbe sich lebendig, gegenwärtig. Sie
+                    werden in ihr wandeln - und mit einem Blick in sich gekehrt ausrufen: Es waren
+                    Menschen. - Auch das moderne <placeName key="prov_vxr_xxr_js">Italien</placeName> verdient Ihre Aufmerksamkeit: Die Frauenwelt dieses
+                    Landes möchte ich von Ihnen geschildert sehen. Sie würden gewiß unpartheyisch
+                    seyn. - Sie würden manches, was diesem Geschlechte hier mangelt, und so sehr zu
+                    wünschen wäre, <pb n="4"/> in dem Quell aufspüren, und die herrlichen Spuren,
+                    die da und dort durchblicken, nicht verkennen - mit Nachsicht beurtheilen.
+                    Kommen Sie: Die Reise ist weniger beschwerlich als man gemeiniglich denkt. Ich
+                    reise Ihnen entgegen, und bin bey Ihnen, wo Sie mich haben wollen. Im August
+                    müßten Sie abreisen, den September in <placeName key="prov_ctz_ldx_w5">Oberitalien</placeName>, und im Oktober zu <placeName key="prov_vkl_ndl_js">Rom</placeName> seyn.</p>
+                <p>Ich hätte diesen Sommer auch gerne eine kleine Reise nach <placeName key="prov_xym_pdx_w5">Deutschland</placeName> gemacht, um meine lieben
+                        <persName key="prov_ncf_42x_w5">
+                        <persName key="prov_xnl_c2x_w5">Ältern</persName>
+                    </persName> auf dem <placeName key="prov_xd3_rdx_w5">Schwarzwald</placeName> zu
+                    besuchen. Aber ich konnte seit mehr als einem Jahre so wenig für mein eigen
+                    Studium thun, daß ich diese Sommermonate nothwendig für mich verwenden muß, weil
+                    ich gedenke auf den Herbst <seg type="critical">
+                        <orig>ein Buch</orig>
+                        <note xml:id="nqd3_vgx_w5">Eine solche Publikation konnte nicht nachgewiesen
+                            werden.</note>
+                    </seg> zum Behuf der Fremden, die mit mir <placeName key="prov_vkl_ndl_js">Rom</placeName> besehen, in französischer Sprache drucken zu laßen. Auch
+                    möchte ich <seg type="comment">
+                        <orig>meine Papiere über <placeName key="prov_kw2_j4g_w5">Sicilien</placeName>, <placeName key="prov_o5z_ypg_w5">Calabrien</placeName>, und <placeName key="prov_rm1_drg_w5">Malta</placeName>
+                        </orig>
+                        <note xml:id="nvgt_t3v_fz">Vgl. dazu die später gedruckten Auszüge "Aus meinen
+                            Reiseheften; Mittheilungen des Herrn Hofrath Hirt. I. Erinnerungen aus
+                            Sicilien" (vgl. die Anmerkung in 1791-05-11-a-SWuW-AnnaAmalia).
+                        </note>
+                    </seg> in Ordnung bringen. Unter den vielen Fremden, die ich diesen
+                    Winter begleitete, war auch der <persName key="prov_o12_bfx_w5">Prinz August von
+                            <placeName key="prov_npf_ydx_w5">England</placeName>
+                    </persName>, und in wenigen Tagen erwarte ich die Rückkunft des <persName key="prov_knn_djc_x5">Fürsten v. Auersperg</persName> aus <placeName key="prov_myp_lbv_35">Neapel</placeName>.</p>
+                <p>Herr <seg type="critical">
+                        <orig>
+                            <persName key="prov_mwm_xnc_x5">Abbe Giuntotardi</persName>
+                        </orig>
+                        <note xml:id="nnj2_f4c_x5">Pietro Giuntotardi wurde von den Rom-Besuchern
+                            des öfteren als Italienischlehrer engagiert, so 1803 von dem
+                            Erbgroßherzog Georg von Mecklenburg-Strelitz, später auch von Elisa von
+                            der Recke. Während ihres Aufenthaltes in Rom 1805 erteilte er Germaine
+                            de Stael Italienischunterricht (vgl. dazu Adelheid Müller: Sehnsucht
+                            nach Wissen. Friederike Brun, Elisa von der Recke und die Altertumskunde
+                            um 1800. Berlin 2012, S. 43). -  Der Dichter gehörte, wie auch der mit
+                            ihm befreundete Fernow, der ihm später seine italienische Grammatik
+                            widmete, Ende der 1790er Jahre einem republikanischen Zirkel in Rom an,
+                            der "Repubblica Romana". Am 25. Mai 1798 schreibt Zoega an Friederike
+                            Brun: "Sie finden den sanften guthmüthigen furchtsamen Giuntotardi unter
+                            den gesezgebenden tribunen, und Fernow den abstracten Kantianer als
+                            volksprediger das evangelium von menschenrecht und pflicht verkündend
+                            von der tribune des circolo constituzionale. stat der vorlesungen in
+                            Domeyer's zimmerchen in deutscher sprache und bey verschlossener thüre,
+                            und mit auflauern vor der thüre und innerhalb" (Zoega, Briefe und
+                            Dokumente, Bd. 3, Nr. ?, S.?). Er floh nach dem Ende der Repubblica
+                            Romana (Auflösung Ende Mai 1798) nach England. Am 29. August 1801
+                            schreibt Zoega an Friederike Brun: "Giuntotardi ist in England" und am
+                            3. Juli 1802 aus Rom: "Giuntotardi grüßt. Er ist seit anfang Winters
+                            wiederum hier" ( Bd. 4, Nr. 901, S. 388; Nr. 965, S. 499).</note>
+                    </seg>, den ich öfters sehe, und mir unter allen seinen Landsleuten der liebste
+                    ist, empfiehlt sich Ihnen.</p>
+                <p>Dank für so viele Güte - gedenken Sie meiner in Freundschaft, und nehmen Sie die
+                    Zusicherung an, daß einer Ihrer eifrigsten Verehrer in den Mauern <placeName key="prov_vkl_ndl_js">Rom's</placeName> weilet</p>
+                <closer rend="paragraph">
+                    <salute>Meiner gnädigen Frau<lb/>ganz ergeb<ex>enster</ex> gehorsamster</salute>
+                    <signed>Aloys Hirt.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

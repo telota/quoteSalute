@@ -8,9 +8,9 @@ quoteSalute bietet inspirierende Grußformeln aus digitalen Briefeditionen für 
 
 ## Mitmachen
 
-Die Grußformel Ihrer digitalen Briefedition sollen bei quoteSalute dabei sein? Informationen finden Sie im Ordner [doc](https://github.com/telota/salutesig/tree/master/doc). Hier stellen wir Ihnen bereit:
-* unsere [Dokumentation](https://github.com/telota/salutesig/blob/master/doc/docs/documentation-de.xml)
-* eine [Beispieldatei](https://github.com/telota/salutesig/blob/master/doc/examples/example.xml) der benötigten Datenstruktur.
-* eine [Vorlage](https://github.com/telota/salutesig/blob/master/doc/templates/template.xml) zur schnellen Erstellung Ihrer quoteSalute Daten.
-* ein [XSLT-Skript](https://github.com/telota/salutesig/blob/master/doc/templates/template.xslt) für eine leichtere Datentransformation.
+Die Grußformel Ihrer digitalen Briefedition sollen bei quoteSalute dabei sein? Informationen finden Sie im Ordner [doc](https://github.com/telota/quoteSalute/tree/master/doc). Hier stellen wir Ihnen bereit:
+* unsere [Dokumentation](https://github.com/telota/quoteSalute/blob/master/doc/documentation-de.md)
+* eine [Beispieldatei](https://github.com/telota/quoteSalute/blob/master/doc/example.xml) der benötigten Datenstruktur.
+* eine [Vorlage](https://github.com/telota/quoteSalute/blob/master/doc/template.xml) zur schnellen Erstellung Ihrer quoteSalute Daten.
+* [XSLT-Skripte](https://github.com/telota/quoteSalute/tree/master/doc/xslt-examples) dokumentieren anhand von Beispieldaten die Extraktion von salute-Elementen.
 * ein [Thunderbird-Addon](https://github.com/telota/quoteSalute_xpi/releases/download/v0.2.5/quotesalute-0.2.5_build11.xpi) (siehe [quoteSalute_xpi](https://github.com/telota/quotesalute_xpi))
