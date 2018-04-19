@@ -212,8 +212,8 @@
                kommt grundsätzlich für eine Integration in quoteSalute in Frage.</p>
             <p> Für eine Beteiligung Ihres Projektes benötigen wir eine TEI-XML-Datei mit den
                Grußformeln Ihrer digitalen Briefedition. Damit Sie diese möglichst einfach
-               generieren können, stellen wir Ihnen eine <ref target="../examples/example.xml"
-                  >Beispieldatei</ref> und eine leere <ref target="../templates/template.xml"
+               generieren können, stellen wir Ihnen eine <ref target="https://github.com/telota/quoteSalute/blob/master/doc/example.xml"
+                  >Beispieldatei</ref> und eine leere <ref target="https://github.com/telota/quoteSalute/blob/master/doc/template.xml"
                   >template-Datei</ref> zur Verfügung. Ihre Datei sollte neben den Grußformeln auch
                zugehörige bibliographische Angaben (Titel der Edition, Titel des Briefs) und einen
                Link zur Webansicht des jeweiligen Briefes in der digitalen Edition enthalten.
