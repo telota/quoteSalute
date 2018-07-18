@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>&lt;salute&gt;-elements of "Jean Paul Briefwechsel, Digitale Edition"</title>
+            <respStmt>
+               <resp>
+                  <note>Collection, curation and processing of data</note>
+               </resp>
+               <persName ref="http://d-nb.info/gnd/1034877364">
+                  <surname>Dumont</surname>
+                  <forename>Stefan</forename>
+               </persName>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+               <persName>
+                  <surname>Kullick</surname>
+                  <forename>Marvin</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+               <persName>
+                  <surname>Philipp</surname>
+                  <forename>Luisa</forename>
+               </persName>
+               <persName>
+                  <surname>Pohl</surname>
+                  <forename>Oliver</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>
+                  <note>Hosting and provision of data and application</note>
+               </resp>
+               <orgName ref="http://www.bbaw.de/telota">TELOTA - The Electronic Life of the
+                  Academy</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Berlin-Brandenburg Academy of Sciences and Humanities</orgName>
+               <orgName>TELOTA</orgName>
+               <email>telota@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018-07-18</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>Distributed under the Creative Commons Attribution - 4.0 International license
+                     (CC BY 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="data_integration">The data was provided on 18.7.2018 by the project Fanny
+               Lewald an Hermann Hettner - Briefe aus den Jahren 1847-1857. Hrsg. v. Frederike
+               Neuber. In: Berliner Beiträge zur Editionswissenschaft. Bd. 18. Hrsg: Jörg Jungmayr
+               u. Marcus Schotte. 2017.</note>
+            <note type="selection">For quoteSalute, those salutes were selected that are relevant
+               for the application in terms of content, form and length. More information on
+               selection and tagging can be found in the <ref
+                  target="https://correspsearch.net/salute/dokumentation">documentation of the
+                  project</ref>.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>Fanny Lewald an Hermann Hettner - Briefe aus den Jahren 1847-1857. Hrsg. v.
+               Frederike Neuber. In: Berliner Beiträge zur Editionswissenschaft. Bd. 18. Hrsg: Jörg
+               Jungmayr u. Marcus Schotte. 2017.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category>
+                  <catDesc>Type</catDesc>
+                  <category xml:id="formal">
+                     <catDesc>formal</catDesc>
+                  </category>
+                  <category xml:id="informal">
+                     <catDesc>informal</catDesc>
+                  </category>
+               </category>
+               <category>
+                  <catDesc>Relation</catDesc>
+                  <category xml:id="s-m">
+                     <catDesc>content implies male sender</catDesc>
+                  </category>
+                  <category xml:id="s-f">
+                     <catDesc>content implies female sender</catDesc>
+                  </category>
+                  <category xml:id="s-n">
+                     <catDesc>content implies neutral sender</catDesc>
+                  </category>
+                  <category xml:id="r-f">
+                     <catDesc>content implies female receiver</catDesc>
+                  </category>
+                  <category xml:id="r-m">
+                     <catDesc>content implies male receiver</catDesc>
+                  </category>
+                  <category xml:id="r-n">
+                     <catDesc>content implies neutral receiver</catDesc>
+                  </category>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="included">
+            <cit>
+               <quote ana="#informal #s-f #r-n" xml:lang="deu">Ich drücke Ihnen die Hand im Geiste
+                  und bin mit der warmen, treuen Freundschaft, die ich immer für Sie gehabt die
+                  Alte.</quote>
+               <bibl>
+                  <title type="edition">Fanny Lewald an Hermann Hettner. Briefe aus den Jahren
+                     1847-1857.</title>
+                  <title type="letter">Berlin, 27.8.1847: Fanny Lewald an Hermann Hettner [Brief Nr.
+                     1]</title>
+                  <ref
+                     target="https://correspsearch.net/search.xql?correspondent=all&cmiFile=intern2"/>
+                  <!-- Was ist hier der Fehler?? -->
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#informal #s-n #r-n" xml:lang="deu">Adieú Hettner! ich habe Sie lieb und
+                  gebe Ihnen die Hand. Schonen Sie Ihre Ge¬sundheit, ich war seit dem Frühjahr nicht
+                  ohne Besorgniß deshalb um Sie und schrieb es auch Stahr – Grüssen Sie Marie
+                  freundlichst.</quote>
+               <bibl>
+                  <title type="edition">Fanny Lewald an Hermann Hettner. Briefe aus den Jahren
+                     1847-1857.</title>
+                  <title type="letter">Berlin, 8.9.1847: Fanny Lewald an Hermann Hettner [Brief Nr.
+                     2]</title>
+                  <ref
+                     target="https://correspsearch.net/search.xql?correspondent=all&cmiFile=intern2"
+                  />
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#informal #s-f #r-n" xml:lang="deu">Lassen Sie sich um dieser Schwäche
+                  willen, auch den kleinen Brief genügen. das Schreiben greift mich noch an. Ich
+                  lasse aber bald [2r] einmal mehr von mir hören. Grüssen Sie Marie und möge der
+                  Tag, an dem Sie das Moirenkleid anlegt, Ihnen ein Tag des Glückes werden. Von
+                  Herzen grüssend Ihre Freundinn </quote>
+               <bibl>
+                  <title type="edition">Fanny Lewald an Hermann Hettner. Briefe aus den Jahren
+                     1847-1857.</title>
+                  <title type="letter">Hamburg, 30.11.1847: Fanny Lewald an Hermann Hettner [Brief
+                     Nr. 3]</title>
+                  <ref
+                     target="https://correspsearch.net/search.xql?correspondent=all&cmiFile=intern2"
+                  />
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#informal #s-n #r-m" xml:lang="deu">Leben Sie glücklich lieber Sohn!
+                  darin liegt zuletzt alle Weisheit. Alles Gute sei mit Ihnen!</quote>
+               <bibl>
+                  <title type="edition">Fanny Lewald an Hermann Hettner. Briefe aus den Jahren
+                     1847-1857.</title>
+                  <title type="letter">Berlin, 21.6.1848: Fanny Lewald an Hermann Hettner [Brief Nr.
+                     4]</title>
+                  <ref
+                     target="https://correspsearch.net/search.xql?correspondent=all&cmiFile=intern2"
+                  />
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#informal #s-n #r-m" xml:lang="deu">Adieu lieber, guter Hettner! viel
+                  Grüsse für Ihre Frau und die besten Wünsche für ein glückliches Jahr. In aller
+                  Freundschaft.</quote>
+               <bibl>
+                  <title type="edition">Fanny Lewald an Hermann Hettner. Briefe aus den Jahren
+                     1847-1857.</title>
+                  <title type="letter">Berlin, 9.3.1849: Fanny Lewald an Hermann Hettner [Brief Nr.
+                     5.1]</title>
+                  <ref
+                     target="https://correspsearch.net/search.xql?correspondent=all&cmiFile=intern2"
+                  />
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Soviel zum Gruß dem lieben Freunde,
+                  den ich in mein Herz drücke in alter Liebe Ihr </quote>
+               <bibl>
+                  <title type="edition">Fanny Lewald an Hermann Hettner. Briefe aus den Jahren
+                     1847-1857.</title>
+                  <title type="letter">Berlin, 9.3.1849: Adolf Stahr an Hermann Hettner [Brief Nr.
+                     5.2]</title>
+                  <ref
+                     target="https://correspsearch.net/search.xql?correspondent=all&cmiFile=intern2"
+                  />
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">In alter Gesinnung</quote>
+               <bibl>
+                  <title type="edition">Fanny Lewald an Hermann Hettner. Briefe aus den Jahren
+                     1847-1857.</title>
+                  <title type="letter">Berlin, 17.4.1849: Fanny Lewald an Hermann Hettner [Brief Nr.
+                     6.1]</title>
+                  <ref
+                     target="https://correspsearch.net/search.xql?correspondent=all&cmiFile=intern2"
+                  />
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">der Ihrige</quote>
+               <bibl>
+                  <title type="edition">Fanny Lewald an Hermann Hettner. Briefe aus den Jahren
+                     1847-1857.</title>
+                  <title type="letter">Berlin, vmtl. 17.4.1849: Adolf Stahr an Hermann Hettner
+                     [Brief Nr. 6.2]</title>
+                  <ref
+                     target="https://correspsearch.net/search.xql?correspondent=all&cmiFile=intern2"
+                  />
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Herzlich zugethan</quote>
+               <bibl>
+                  <title type="edition">Fanny Lewald an Hermann Hettner. Briefe aus den Jahren
+                     1847-1857.</title>
+                  <title type="letter">Berlin, 3.12.1849: Fanny Lewald an Hermann Hettner [Brief Nr.
+                     7]</title>
+                  <ref
+                     target="https://correspsearch.net/search.xql?correspondent=all&cmiFile=intern2"
+                  />
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Adieú! Sie werden dem Briefe anmerken,
+                  ob Sie auf mich zählen können.</quote>
+               <bibl>
+                  <title type="edition">Fanny Lewald an Hermann Hettner. Briefe aus den Jahren
+                     1847-1857.</title>
+                  <title type="letter">Berlin, 6.1.1850: Fanny Lewald an Hermann Hettner [Brief Nr.
+                     8]</title>
+                  <ref
+                     target="https://correspsearch.net/search.xql?correspondent=all&cmiFile=intern2"
+                  />
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Adieú! Ich schreibe sehr bald.</quote>
+               <bibl>
+                  <title type="edition">Fanny Lewald an Hermann Hettner. Briefe aus den Jahren
+                     1847-1857.</title>
+                  <title type="letter">Berlin, 27.1.1850: Fanny Lewald an Hermann Hettner [Brief Nr.
+                     9]</title>
+                  <ref
+                     target="https://correspsearch.net/search.xql?correspondent=all&cmiFile=intern2"
+                  />
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#formal #s-f #r-n" xml:lang="deu">Ich will den Brief nicht länger
+                  aufhalten, es müsste Sie sonst wundern, daß ich nicht schreibe. Grüssen Sie Ihre
+                  Frau und denkt Beide, daß ich den aufrichtigsten Antheil an Allem nehme, was Euch
+                  begegnet. Ganz die Ihre </quote>
+               <bibl>
+                  <title type="edition">Fanny Lewald an Hermann Hettner. Briefe aus den Jahren
+                     1847-1857.</title>
+                  <title type="letter">Berlin, 8.2.1850: Fanny Lewald an Hermann Hettner [Brief Nr.
+                     10]</title>
+                  <ref
+                     target="https://correspsearch.net/search.xql?correspondent=all&cmiFile=intern2"
+                  />
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#informal #s-f #r-n" xml:lang="deu">In warmer Theilnahme Ihre</quote>
+               <bibl>
+                  <title type="edition">Fanny Lewald an Hermann Hettner. Briefe aus den Jahren
+                     1847-1857.</title>
+                  <title type="letter">Berlin, 12.2.1850: Fanny Lewald an Hermann Hettner [Brief Nr.
+                     11]</title>
+                  <ref
+                     target="https://correspsearch.net/search.xql?correspondent=all&cmiFile=intern2"
+                  />
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#informal #s-f #r-n" xml:lang="deu">Gehe es Ihnen wohl! Grüssen Sie Ihre
+                  Frau herzlich von mir und denken Sie an mich, als an eine treue Freundinn.</quote>
+               <bibl>
+                  <title type="edition">Fanny Lewald an Hermann Hettner. Briefe aus den Jahren
+                     1847-1857.</title>
+                  <title type="letter">Berlin, 2.3.1850: Fanny Lewald an Hermann Hettner [Brief Nr.
+                     12]</title>
+                  <ref
+                     target="https://correspsearch.net/search.xql?correspondent=all&cmiFile=intern2"
+                  />
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#formal #s-f #r-n" xml:lang="deu">Im Uebrigen, treulich wie immer die
+                  Alte.</quote>
+               <bibl>
+                  <title type="edition">Fanny Lewald an Hermann Hettner. Briefe aus den Jahren
+                     1847-1857.</title>
+                  <title type="letter">Bonn, 26.4.1850: Fanny Lewald an Hermann Hettner [Brief Nr.
+                     13.1]</title>
+                  <ref
+                     target="https://correspsearch.net/search.xql?correspondent=all&cmiFile=intern2"
+                  />
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#informal #s-n #r-n" xml:lang="deu">Mit alter treuer Liebe</quote>
+               <bibl>
+                  <title type="edition">Fanny Lewald an Hermann Hettner. Briefe aus den Jahren
+                     1847-1857.</title>
+                  <title type="letter">Bonn, vmtl. 26.4.1850: Adolf Stahr an Hermann Hettner [Brief
+                     Nr. 13.2]</title>
+                  <ref
+                     target="https://correspsearch.net/search.xql?correspondent=all&cmiFile=intern2"
+                  />
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#informal #s-n #r-m" xml:lang="deu">Adieú mein lieber Freund! ich habe
+                  Sie sehr lieb.</quote>
+               <bibl>
+                  <title type="edition">Fanny Lewald an Hermann Hettner. Briefe aus den Jahren
+                     1847-1857.</title>
+                  <title type="letter">Bonn, 8.5.1850: Fanny Lewald an Hermann Hettner [Brief Nr.
+                     14]</title>
+                  <ref
+                     target="https://correspsearch.net/search.xql?correspondent=all&cmiFile=intern2"
+                  />
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#informal #s-f #r-n" xml:lang="deu">Ich muß aber schliessen, denn ich
+                  habe eine Pflichtvisite zu machen. Nehmen Sie mit dem Freundschaftszeichen fürlieb
+                  – wie viel Treue in mir ist, wissen Sie. Die Ihre </quote>
+               <bibl>
+                  <title type="edition">Fanny Lewald an Hermann Hettner. Briefe aus den Jahren
+                     1847-1857.</title>
+                  <title type="letter">Paris, 2.10.1850: Fanny Lewald an Hermann Hettner [Brief Nr.
+                     15]</title>
+                  <ref
+                     target="https://correspsearch.net/search.xql?correspondent=all&cmiFile=intern2"
+                  />
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#informal #s-f #r-n" xml:lang="deu">Ihr Geld, die drei Thaler habe ich
+                  erhalten – machen Sie, daß ich ein Gleiches bald von Ihrem Briefe sagen kann.
+                  Treulich die Ihre</quote>
+               <bibl>
+                  <title type="edition">Fanny Lewald an Hermann Hettner. Briefe aus den Jahren
+                     1847-1857.</title>
+                  <title type="letter">Berlin, 16.2.1851: Fanny Lewald an Hermann Hettner [Brief Nr.
+                     16]</title>
+                  <ref
+                     target="https://correspsearch.net/search.xql?correspondent=all&cmiFile=intern2"
+                  />
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#formal #s-f #r-n" xml:lang="deu">Um so herzlicher lassen Sie mich Ihnen
+                  Glück wünschen, zu Ihrem häuslichen Glück. Erhalte [3v] Ihnen dies das Schicksal,
+                  das Ihnen so günstig war, und bewahren Sie sich die Freudigkeit, die dazu gehört,
+                  das Glück zu geniessen. Treulich und herzlich die Ihre. Grüssen Sie Ihre Frau
+                  herzlichst von mir.</quote>
+               <bibl>
+                  <title type="edition">Fanny Lewald an Hermann Hettner. Briefe aus den Jahren
+                     1847-1857.</title>
+                  <title type="letter">Berlin, 16.2.1851: Fanny Lewald an Hermann Hettner [Brief Nr.
+                     17]</title>
+                  <ref
+                     target="https://correspsearch.net/search.xql?correspondent=all&cmiFile=intern2"
+                  />
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#formal #s-f #r-n" xml:lang="deu">Leben Sie wohl! und auf freundliches
+                  Wiedersehen. Ihre ergebene </quote>
+               <bibl>
+                  <title type="edition">Fanny Lewald an Hermann Hettner. Briefe aus den Jahren
+                     1847-1857.</title>
+                  <title type="letter">Berlin, 20.4.1855: Fanny Lewald-Stahr an Marie Hettner [Brief
+                     Nr. 18]</title>
+                  <ref
+                     target="https://correspsearch.net/search.xql?correspondent=all&cmiFile=intern2"
+                  />
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#formal #s-n #r-m" xml:lang="deu">Adieú lieber Hettner! wir denken sehr
+                  an Sie! – In alter Gesinnung </quote>
+               <bibl>
+                  <title type="edition">Fanny Lewald an Hermann Hettner. Briefe aus den Jahren
+                     1847-1857.</title>
+                  <title type="letter">Berlin, 10.3.1857: Fanny Lewald-Stahr an Hermann Hettner
+                     [Brief Nr. 19.1]</title>
+                  <ref
+                     target="https://correspsearch.net/search.xql?correspondent=all&cmiFile=intern2"
+                  />
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Alles Weitere was ich mit Ihnen zu
+                  besprechen hätte, und es ist dessen nicht wenig spare ich auf bessere Gelegenheit,
+                  die Sie uns bald geben mögen. treulich der Ihrige </quote>
+               <bibl>
+                  <title type="edition">Fanny Lewald an Hermann Hettner. Briefe aus den Jahren
+                     1847-1857.</title>
+                  <title type="letter">Berlin, vmtl. 11.3.1857: Adolf Stahr an Hermann Hettner
+                     [Brief Nr. 19.2]</title>
+                  <ref
+                     target="https://correspsearch.net/search.xql?correspondent=all&cmiFile=intern2"
+                  />
+               </bibl>
+            </cit>
+            <cit>
+               <quote ana="#formal #s-f #r-n" xml:lang="deu">Mein Kopf thut mir sehr weh. ich
+                  schliesse also. Gehe es Ihnen wohl, wie Stahr und ich es Ihnen wünschen. und wenn
+                  Sie Zeit haben, lassen Sie von sich hören. Treulich Ihre </quote>
+               <bibl>
+                  <title type="edition">Fanny Lewald an Hermann Hettner. Briefe aus den Jahren
+                     1847-1857.</title>
+                  <title type="letter">Berlin, 27.4.1857: Fanny Lewald-Stahr an Hermann Hettner
+                     [Brief Nr. 20]</title>
+                  <ref
+                     target="https://correspsearch.net/search.xql?correspondent=all&cmiFile=intern2"
+                  />
+               </bibl>
+            </cit>
+         </div>
+         <div type="excluded">
+            <listRef>
+               <ref target=""/>
+            </listRef>
+         </div>
+      </body>
+   </text>
+</TEI>
