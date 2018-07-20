@@ -26,6 +26,7 @@ Der Textkorpus wird derzeit von folgenden digitalen Briefeditionen gespeist:
 * Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert, ed. by Gaby Huch. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. URL: [https://lebenswelten-lehndorff.bbaw.de/](http://lebenswelten-lehndorff.bbaw.de/)
 * Marx-Engels-Gesamtausgabe digital, hg. von der Internationalen Marx-Engels-Stiftung. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. URL: [http://megadigital.bbaw.de/](http://megadigital.bbaw.de/)
 * Wilhelm von Humboldt - Sprachwissenschaftliche Korrespondenz. Hg. von der Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. URL: [https://wvh-briefe.bbaw.de](https://wvh-briefe.bbaw.de/)
+* Fanny Lewald an Hermann Hettner - Briefe aus den Jahren 1847-1857. Hrsg. v. Frederike Neuber. In: Berliner Beiträge zur Editionswissenschaft. Bd. 18. Hrsg: Jörg Jungmayr u. Marcus Schotte. 2017.
 
 # Hintergrund
 
