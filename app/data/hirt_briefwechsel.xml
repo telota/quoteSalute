@@ -95,7 +95,7 @@
       <body>
          <div type="included">
             <cit>
-               <quote ana="#formal #s-n #r-m" xml:lang="deu">adieu lieber guter! 
+               <quote ana="#informal #s-n #r-m" xml:lang="deu">adieu lieber guter! 
                </quote>
                <bibl>
                   <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
@@ -194,7 +194,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-n" xml:lang="deu">Leben Sie wohl, u. bleiben Sie von
+               <quote ana="#informal #s-n #r-n" xml:lang="deu">Leben Sie wohl, u. bleiben Sie von
                   meiner dauernden Freundschaft überzeugt</quote>
                <bibl>
                   <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
@@ -286,7 +286,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Erhalten Sie mich in freundschaftlichem
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Erhalten Sie mich in freundschaftlichem
                   Andenken, und bleiben Sie von meiner ganzen Hochachtung überzeugt  Ihr
                   ergebenster</quote>
                <bibl>
@@ -799,7 +799,7 @@
             </cit>
 
             <cit>
-               <quote ana="#informal #s-m #r-n" xml:lang="deu">Mit steter anhänglicher Gesinnung
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Mit steter anhänglicher Gesinnung
                    Ihr ergebenster</quote>
                <bibl>
                   <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
@@ -963,7 +963,7 @@
             </cit>
 
             <cit>
-               <quote ana="#formal #s-m #r-m" xml:lang="deu">Ich zähle, mein lieber Herr Pfarrer,
+               <quote ana="#informal #s-m #r-m" xml:lang="deu">Ich zähle, mein lieber Herr Pfarrer,
                   auf Ihre Freundschaft, wenn Sie mich nicht unwürdig finden sollen. Befehlen
                   Sie Ihrem ergebensten Diener 
                </quote>
@@ -1105,7 +1105,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-n #r-n" xml:lang="deu">Dieß zum freundschaftlichen Andenken
+               <quote ana="#formal #s-n #r-n" xml:lang="deu">Dieß zum freundschaftlichen Andenken
                   von</quote>
                <bibl>
                   <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
