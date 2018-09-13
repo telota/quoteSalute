@@ -1,0 +1,2499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Salutes of "Arthur Schnitzler, Hermann Bahr: Briefwechsel, Materialien, Dokumente
+               1891–1931"</title>
+            <respStmt>
+               <resp>
+                  <note>Collection, curation and processing of data</note>
+               </resp>
+               <persName ref="http://d-nb.info/gnd/1034877364">
+                  <surname>Dumont</surname>
+                  <forename>Stefan</forename>
+               </persName>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+               <persName>
+                  <surname>Kullick</surname>
+                  <forename>Marvin</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+               <persName>
+                  <surname>Philipp</surname>
+                  <forename>Luisa</forename>
+               </persName>
+               <persName>
+                  <surname>Pohl</surname>
+                  <forename>Oliver</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>
+                  <note>Hosting and provision of data and application</note>
+               </resp>
+               <orgName ref="http://www.bbaw.de/telota">TELOTA - The Electronic Life of the
+                  Academy</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>Berlin-Brandenburg Academy of Sciences and Humanities</orgName>
+               <orgName>TELOTA</orgName>
+               <email>telota@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018-04-18</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>Distributed under the Creative Commons Attribution - 4.0 International license
+                     (CC BY 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="data_integration">The data was taken over from <ref
+                  target="https://github.com/martinantonmueller/Hermann-Bahr_Arthur-Schnitzler"
+                  >https://github.com/martinantonmueller/Hermann-Bahr_Arthur-Schnitzler</ref> on
+               10.8.2018. Later published contents of the edition may be added in the future.</note>
+            <note type="selection">For quoteSalute, those salutes (in the case of this edition
+               contained by &lt;closer&gt;-elements) were selected that are relevant for the
+               application in terms of content, form and length. More information on selection and
+               tagging can be found in the <ref
+                  target="https://correspsearch.net/salute/dokumentation">documentation of the
+                  project</ref>.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>Arthur Schnitzler, Hermann Bahr: Briefwechsel, Materialien, Dokumente 1891–1931.
+               Herausgegeben von Kurt Ifkovits und Martin Anton Müller. 2018.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category>
+                  <catDesc>Type</catDesc>
+                  <category xml:id="formal">
+                     <catDesc>formal</catDesc>
+                  </category>
+                  <category xml:id="informal">
+                     <catDesc>informal</catDesc>
+                  </category>
+               </category>
+               <category>
+                  <catDesc>Relation</catDesc>
+                  <category xml:id="s-m">
+                     <catDesc>content implies male sender</catDesc>
+                  </category>
+                  <category xml:id="s-f">
+                     <catDesc>content implies female sender</catDesc>
+                  </category>
+                  <category xml:id="s-n">
+                     <catDesc>content implies neutral sender</catDesc>
+                  </category>
+                  <category xml:id="r-f">
+                     <catDesc>content implies female receiver</catDesc>
+                  </category>
+                  <category xml:id="r-m">
+                     <catDesc>content implies male receiver</catDesc>
+                  </category>
+                  <category xml:id="r-n">
+                     <catDesc>content implies neutral receiver</catDesc>
+                  </category>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="include">
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">– Mit herzlichen Grüßen<lb/>Ihr sehr
+                  ergebner<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 7. 11. 1893</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041001"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#informal #s-m #r-n">Herzlich grüßt dich<lb/>dein</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 11. 7. 1897</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041003"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Herzliche Grüße von Deinem
+                  ergeb</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 17. 7. 1895</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041004"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Herzlich grüßt dich dein</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 28. 11. 1896</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041007"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Herzlich dein</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 26. 2. 1897</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041010"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Mit herzlichem Dank und
+                  Gruss<lb/>dein</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 26. 2. 1897</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041011"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Herzlich grüßend Dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 11. 11. 1897</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041015"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Herzlichen Gruss, dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 1[4?]. 11. 1897</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041016"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-n #r-n">Mit vorzüglicher Hochachtung<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an [Paul Dorff oder Robert Ress], [April] 1913</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041022"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Herzlichen Gruss. Dein ergebner<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, [2.–6.?] 3. 1899</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041025"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Besten Gruss. Dein ergebner<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 7. 3. 1899</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041026"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Ich grüß dich bestens.<lb/>Dein</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 9. 3. 1899</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041027"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Herzlich grüßend<lb/>dein</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 19. 5. 1900</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041028"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Auf Wiedersehen.<lb/>Herzlichst
+                  dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 18. 10. 1900</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041031"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Auf baldiges
+                  Wiedersehen.<lb/>Herzlichst dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, [6.] 12. 1900</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041032"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#informal #s-n #r-n">Ich habe den sehnlichsten Wunsch,
+                  Ihnen #recht bald einmal zu begegnen und umarme Sie heute herzlichst als</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Anna Bahr-Mildenburg an Olga Schnitzler, 7. 4. 1936</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041033"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Ich danke dir sehr und bin mit
+                  herzlichen Grüßen dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 25. 1. 1901</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041034"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#informal #s-m #r-n">In dieser Voraussicht drücke ich dir
+                  von Herzen die Hand und grüße dich vielmals<lb/> dein</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 26. 6. 1901</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041036"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Herzlichst dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 3. 7. 1901</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041037"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Viele herzliche Grüße<lb/>dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, [14. 3.? 1901]</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041038"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">herzlich grüßt dich<lb/>dein</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 10.–12. 9. 1901</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041039"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">herzlichst</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 10.–12. 9. 1901</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041039"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Herzlichen Gruß. Dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, [1]3. 9. 1901</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041040"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Mit herzlichem Gruss<lb/>dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 18. 10. 1901</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041041"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Ich grüß dich herzlich<lb/>dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 26. 10. 1901</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041042"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Auf baldgs Wiedersehen<lb/>dein
+                  treuer<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 11. 12. 1901</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041044"/>
+               </bibl>
+            </cit>
+
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Herzlichst der Deine<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 30. 3. 1902</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041046"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">In Treue dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 16. 5. 1902</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041049"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Auf baldg Wiedersehn,<lb/>herzlichst
+                  dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 13. 7. 1902</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041050"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Herzlichen Gruss, und auf sehr baldiges
+                  Wiedersehen.<lb/>Dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 3. 10. 1902</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041051"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">herzlich getreuen<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 20. 2. 1903</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041054"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">herzlichen Gruss<lb/>dein getreuer<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 6. 4. 1903</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041055"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Entschuldg die
+                  Belästigung<lb/>Herzlichst dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 18. 5. 1903</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041056"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Ich grüße dich von Herzen als<lb/>dein
+                  getreuer<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 28. 3. 1903</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041062"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Auf bald,<lb/>herzlichst dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 13. 11. 1903</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041066"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">
+                  <handShift/>Herzliche Grüße, auch von meiner <rs type="person" key="A002038"
+                     >Frau</rs>
+                  <lb/>dein</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 8. 1. 1904</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041068"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">herzliche Grüße!<lb/>Dein getreuer<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 27. 1. 1904</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041069"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Dein getreuer<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 1. 2. 1904</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041070"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Von Herzen<lb/>dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 17. 8. 1904</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041072"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Auf Wiedersehen und herzliche
+                  Grüße<pb/> auch von meiner <rs type="person" key="A002038"
+                  >Frau</rs>.<lb/>Dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 5. 12. 1904</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041074"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Herzlichst der deine<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 14. 12. 1904</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041075"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Herzlichst, mit vielen Grüßen auch von
+                     <persName key="A002038">Olga</persName>
+                  <lb/>dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 28. 9. 1905</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041084"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-n #r-n">
+                  <hi rend="latintype">Herzliche Erwiderung Ihrer lieben Grüsse!</hi>
+                  <space unit="chars" quantity="1"/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur und Olga Schnitzler an Hermann Bahr, 14. 7. 1906</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041089"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Herzlichst, mit Grüßen von<lb/>meiner
+                     <rs type="person" key="A002038">Frau</rs> u mir<lb/>dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 18. 10. 1906 </title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041091"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Mit guten Sommerwünschen und<pb/>
+                  Grüßen von <persName key="A002038">Olga</persName> u mir<lb/>herzlichst der
+                  Deine<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 24.–25. 6. 1906</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041092"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Ich freue mich sehr dich wieder zu
+                  sehen.<lb/>Herzlichst mit Grüßen von <rs type="person" key="A002083 A002038"
+                     >uns</rs> allen<lb/>dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 16. 4. 1907</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041094"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Meine <rs type="person" key="A002038"
+                     >Frau</rs> grüßt dich vielmals. Von Herzen<lb/>Dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 15. 2. 1907</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041096"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">
+                  <handShift/>herzlichste Grüße, auch von meiner <rs type="person" key="A002038"
+                     >Frau</rs>.<lb/>laß doch, von Zeit zu Zeit ein Wort von dir
+                  hören.<lb/>Dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 11. 10. 1907</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041100"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">herzlichst der Deine,<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 16. 12. 1907</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041101"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Herzlichst grüßt dich (u meine <rs
+                     type="person" key="A002038">Frau</rs> thut desgleichen)<lb/>dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 20. 12. 1907</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041102"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Für heut viele treue
+                  Grüße.<lb/>Dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 15. 11. 1908</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041108"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">
+                  <rs type="person" key="A002038">Wir</rs> grüßen dich herzlichst.<lb/>Dein
+                  getreuer<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 22. 6. 1909</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041109"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Leb wohl und sei herzlich
+                  gegrüßt.<lb/>Dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 1. 7. 1901</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041110"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Immer dein</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 28. 8. 1909</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041111"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Herzlichst, mit guten Grüßen von Haus
+                  zu Haus dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 22. 12. 1909</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041115"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Herzlichst Dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 8. 10. 1910</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041118"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Schöne Grüße von Haus zu
+                  Haus.<lb/>Herzlichst dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 20. 10. 1910</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041119"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">
+                  <handShift/>Mit vielen treuen Grüßen<lb/>Dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 17. 11. 1910</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041120"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Pedantisch und herzlichst dein
+                  .</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 19. 11. 1910</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041121"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Auf Wiedersehen, u alles gute von Haus
+                  zu Haus.<lb/>Dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 2[5]. 4. 1913</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041128"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-n #r-n">herzlichst<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 19. 7. 1913</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041130"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">
+                  <rs type="person" key="A002038">Wir</rs> grüßen dich herzlichst! Und sage deiner
+                     <rs type="person" key="A002080">Gattin</rs> dass wir sie bewundern. Auf
+                  Wiedersehen doch hoffentlich einmal! Dein</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 30. 3. 1914</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041131"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Mit herzlichem Gruss<lb/>Dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 12. 6. 1914</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041132"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Viele Grüße von <rs type="person"
+                     key="A002038">uns</rs> zu <rs type="person" key="A002080"
+                  >Euch</rs>!<lb/>Dein</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 12. 10. 1913</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041133"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Von Herzen mit Grüßen von Haus zu
+                  Haus<lb/>dein</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 9. 2. 1915</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041134"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Auf Wiedersehen!<lb/>Dein getreuer<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 26. 6. 192[2]</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041136"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-f #r-n">Von Herzen ergeben<lb/>Ihre<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Olga Schnitzler an Hermann Bahr, 16. 12. 1921</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041138"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Mit tausen<supplied>d</supplied>
+                  Grüßen,<lb/>Dein getreuer<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 6. 6. 1922</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041139"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Ich grüße dich herzlich in alter
+                  Freundschaft<lb/>Dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 16. 2. 1930</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041140"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Von Herzen Dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 17. 3. 1930</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041141"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">
+                  <handShift/>Mit vielen Grüßen und der Bitte mich deiner verehrten <rs
+                     type="person" key="A002080">Gattin</rs> zu empfehlen<lb/>Dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hermann Bahr, 5. 9. 1931</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041142"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Mit den besten Grüßen Ihr ergebner<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Julius Schnitzler an Hermann Bahr, 12. 11. 1903</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041143"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-f #r-n">Seien Sie innigst gegrüsst von
+                  Ihrer<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Olga Schnitzler an Anna Bahr-Mildenburg, 24. 3. 1936</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041144"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Mit vielen Grüßen an Frau <persName
+                     key="A002038">Olga</persName>
+                  <lb/>herzlichst<lb/>Dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, 29. 1. 1906</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041145"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-n #r-n">Ergbst<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an S. Fischer, 17. 1. 1892</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041150"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Mit besten Grüßen<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, 20. 8. 1892</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041155"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">In großer Hast<lb/>Ihr treuer<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, [12. 8. 1893]</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041158"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">In herzlicher Freundschaft<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, 25. 10. 1893</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041161"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Mit herzlichen Grüßen Ihr treuer<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, 3. 11. 1893</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041162"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Deinem treuen<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, 2. 4. 1894</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041164"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-n #r-n">Herzlichst grüßt<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, [17.? 7. 1894]</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041169"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Deinem alten<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, [8.? 5. 1895]</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041173"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">als Dein treuer<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, 23. 7. 1895</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041176"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Herzlich dankend<lb/>Dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, [4. 10. 1895]</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041178"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Deinen Dich herzlich grüßenden<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, 3. 3. 1896</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041182"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Nochmals dankt herzlich<lb/>mit besten
+                  Grüßen<lb/>Dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, 8. 10. 1896</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041188"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Herzlichst<lb/>Dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, 5. 11. 1896</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041190"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Hochachtungsvoll grüßend<lb/>Ihr ganz
+                  ergebener<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Erich Schmidt an Hermann Bahr, 2. 3. 1896</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041192"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Mit freundlichen
+                  Grüßen<lb/>Ihr<lb/>sehr ergebener<lb/>
+                  <handShift/>Ihr</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Albert von Speidel an Hermann Bahr, 26. 1. 1906</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041193"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #f-m #r-n">
+                  <handShift/>Ihrer Sie bestens grüssenden<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Anna Bahr-Mildenburg an Heinrich Schnitzler, 29. 2. 1936</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041194"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-f #r-n">Ihrer aufrichtig ergebenen<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Olga Schnitzler an Anna Bahr-Mildenburg, 11. 5. 1921</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041195"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-f #r-n">In herzlicher Verehrung Ihnen
+                  ergeben<lb/>Ihre</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Olga Schnitzler an Anna Bahr-Mildenburg, 8. 6. 1932</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041196"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-f #r-n">Ich grüsse Sie von Herzen und kann
+                  nichts als Ihnen danken.<lb/>Ihre<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Olga Schnitzler an Anna Bahr-Mildenburg, 24. 11. 1932</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041197"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#informal #s-f #r-n">Ich wünsche mir sehr, Ihnen wieder
+                  einmal zu begegnen und Ihnen zu sagen, wie sehr ich Sie verehre, bewundere und
+                  liebe.<lb/>Ihre</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Olga Schnitzler an Anna Bahr-Mildenburg, 24. 1. 1934</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041198"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-n #r-n">Leben Sie herzlich wohl und seien Sie
+                  in Erinnerung an alles frühere wärmstens gegrüsst von</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Anna Bahr-Mildenburg an Olga Schnitzler, 5. 3. 1936</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041199"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">In aufrichtiger Verehrung<lb/>Ihr sehr
+                  ergebener<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Heinrich Schnitzler an Anna Bahr-Mildenburg, 5. 3. 1936</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041200"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-n #r-n">Viele Grüße<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hugo von Hofmannsthal und Arthur Schnitzler an Hermann Bahr, 3. 7.
+                     1902</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041201"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Dein treuer<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, [17. 12. 1896]</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041204"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Mit herzlichen Grüßen<lb/>Dein
+                  treuer<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, 21. 12. 1896</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041205"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Herzlichst<lb/>Ihr<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an S. Fischer, 20. 3. 1897</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041207"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Herzlichst<lb/>in großer
+                  Eile<lb/>Dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, 22. 3. 1897</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041208"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Morgen bei Dir<lb/>herzl<damage
+                     agent="ink">
+                     <supplied>ich</supplied>
+                  </damage>st<lb/>Dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, 23. 3. 1897</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041209"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Herzlichst<lb/>Ihr treuer<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an S. Fischer, 21. 6. 1897</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041210"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Dein alter treuer<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, 8. 7. 1897</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041211"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Nochmals
+                  dankend<lb/>herzlichst<lb/>Dein alter<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, 28. 9. 1897</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041212"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Herzlichst<lb/>Dein alter<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, 10. 11. 1897</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041213"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Im Voraus dankt Dir bestens<lb/>Dein
+                  alter<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, [19. 5. 1900]</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041228"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Verzeih die
+                  Störung<lb/>Deinem<lb/>herzlich grüßenden<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, 20. 2. 1901</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041235"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Einen guten Sommer wünscht
+                  Dir<lb/>herzlichst<lb/>Dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, 5. 7. 1901</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041238"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Herzlichst<lb/>in Eile<lb/>Dein
+                  alter<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, 1. 4. 1902</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041247"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Es dankt Dir sehr<lb/>Dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, 20. 5. 1902</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041249"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Mit Grüßen an <persName key="A002065"
+                     >Brahm</persName> u. alle Bekannten<lb/>herzlichst Dein dankbarer</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, 22. 2. 1903</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041253"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Verzeih die Hast dieser
+                  Zeilen<lb/>Deinem abgehetzten<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, 10. 11. 1903</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041263"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Deine <rs type="person" key="A002038"
+                     >Frau</rs> bestens grüßend bin ich<lb/>herzlichst<lb/>Dein alter<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, 7. 1. 1904</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041268"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Entschuldige den verworrenen Ton dieses
+                  Briefes, grüße Frau <persName key="A002038">Olga</persName> und den <persName
+                     key="A002083">Heinrich</persName> herzlichst und sei es selbst
+                  von<lb/>Deinem<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, 4. [12.] 1904</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041286"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Herzlichst<lb/>mit den wärmsten
+                  Weihnachtswünschen<lb/>Dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, 23. 12. 1907</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041314"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Herzlichst<lb/>immer Dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, 18. 1. 1909</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041316"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Grüß herzlichst Deine liebe <rs
+                     type="person" key="A002038">Frau</rs>.<lb/>In alter, sehr wirklicher
+                  Freundschaft<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, 28. 6. 1909</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041319"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Herzlichst, mit schönen Grüßen an <rs
+                     type="person" key="A002038">Frau</rs>, <rs type="person" key="A002083"
+                     >Sohn</rs> und <rs type="person" key="A002097">Tochter</rs>,<lb/>Dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, 2. 12. 1909</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041323"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Herzlichst mit den schönsten Grüssen an
+                     <rs type="person" key="A002038">Frau</rs> und <rs type="person"
+                     key="A002083 A002097">Kinder</rs>
+                  <lb/>Dein alter<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, 11. 12. 1909</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041324"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Mit den schönsten Grüßen von Haus zu
+                  Haus<lb/>immer Ihr alternder<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Olga Schnitzler, 27. 4. 1912</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041333"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">
+                  <anchor type="commentary" xml:id="KL338-4">Immer derselbe</anchor>
+                  <lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, 23. 4. 1913</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041338"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Dich u. die <rs type="person"
+                     key="A002038 A002083 A002097">Deinen</rs> herzlichst grüßend<lb/>Dein
+                  alter<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, 9. 2. 1921</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041345"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Dein alter, allzu alter<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, 18. 2. 1930</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041350"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Verzeih die lange Epistel<space
+                     unit="chars" quantity="5"/>Deinem getreuen<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, 20. 3. 1930</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041351"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Dein mitalternder<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, 15. 5. 1912</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041353"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="fra" ana="#formal #s-m #r-n">Croyez-mois trés
+                  affectueusements<lb/>Votre<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arturo Lambri an Arthur Schnitzler, [28. 9. 1900]</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041354"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-n #r-n">Mit der Bitte um
+                     fr<supplied>e</supplied>undlichen Bescheid<lb/>Ihnen sehr ergeben<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Rudolph Kayser an Arthur Schnitzler, 21. 3. 1923</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041360"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m r-n">Aber immer
+                  aufrecht!<lb/>Herzlichst<lb/>Dein getreuer<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Arthur Schnitzler, 7. 9. 1931</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041363"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="eng" ana="#formal #s-n r-n">Most gratefully yours,<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Scofield Thayer an Arthur Schnitzler, 9. 7. 1922</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041368"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-n r-n">– Leben Sie wohl, schreiben Sie mir bald
+                  und seien Sie herzlich gegrüßt.<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Else Singer, 12. 12. 1894</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041380"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#informal #s-m r-n">Ich drücke dich ans Herz und küsse
+                  deine süßen Augen!<lb/>Dein</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Marie Reinhard, 23. 8. 1896</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041383"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#informal #s-m r-n">Tausend Küsse!<lb/>Dein</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Marie Reinhard, 22. 6. 1897</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041386"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m r-n">Herzlich grüßt Sie<lb/>Ihr Ihnen
+                  wärmstens ergebner<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Gerhart Hauptmann, 15. 7. 1899</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041390"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m r-n">Schreiben Sie bald Ihrem<lb/>herzlich
+                  grüssenden treuen<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>W. Fred an Hermann Bahr, 10. 2. 1904</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041696"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m r-n">Seien Sie herzlichst gegrüßt, auch von
+                  meiner <rs type="person" key="A002038">Frau</rs>, die sich auf der Terrasse
+                  sonnt.<lb/>Ihr</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Otto Brahm, 4. 10. 1911</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041401"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#informal #s-m r-n">Leb wohl mein geliebtes! Küss mir die
+                  Kinder!<lb/>Dein</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur an Olga Schnitzler, 30. 10. 1911</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041402"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m r-n">Ich bin mit herzlichen
+                  Grüßen<lb/>Ihr</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hugo von Hofmannsthal, [21. 4. 1893?]</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041429"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m r-n">Leben Sie wohl. Von Herzen Ihr</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Hugo von Hofmannsthal, 6. 7. 1899</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041438"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m r-n">Ich hin sehr bekümmert und wünsche mir
+                  sehr mit Ihnen darüber zu reden. Von Herzen<lb/>Ihr</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hugo von Hofmannsthal an Arthur Schnitzler, [8.–9. 1. 1904]</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041446"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m r-n">Tausend Grüße.<lb/>Dein</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Elisabeth Steinrück, 13. 12. 1915</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041456"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m r-n">Das Beste an <persName key="A002134"
+                     >Gerty</persName>
+                  <lb/>herzlichst<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Hugo von Hofmannsthal, [nach dem 23. 9. 1902]</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041482"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m r-n">Gruß,</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Max Reinhardt an Arthur Schnitzler, [August? 1907]</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041497"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m r-n">Ihr poste restante</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Karl Rosner auf Karte von Karl Kraus an Arthur Schnitzler, 30. 9.
+                     1893</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041524"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-f r-n">Auf lange lange Zeit<lb/>Ihre<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Adele Sandrock an Arthur Schnitzler, [4. 12. 1893]</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041529"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#informal #s-n r-n">Ich küsse die bleichen schönen
+                  Hände.<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Adele Sandrock, 3. 1. 1894</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041530"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#informal #s-m r-n">Ich küsse die geliebten Augen<lb/>
+                  Dein</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Adele Sandrock, 27. 1. 1894</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041531"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#informal #s-m r-n">Tausend Küsse<lb/>Dein</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Adele Sandrock, [4.] 6. 1894</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041533"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#informal #s-m r-n">Für heute tausend innige Grüsse und
+                  Küsse von Deinem<lb/>Dich anbetenden Diltsch.<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Adele Sandrock an Arthur Schnitzler, [5. 8. 1894]</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041535"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#informal #s-m r-n">Auf Wiederseh’n–!–<lb/>Ewig Dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Adele Sandrock an Arthur Schnitzler, [5. 8. 1894]</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041535"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m r-n">Bestens Ihr</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Brahm an Arthur Schnitzler, 10. 7. 1909</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041548"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m r-n">Mit herzlichen Grüßen von uns zu Ihnen
+                  Ihr ergebener<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>S. Fischer an Arthur Schnitzler, 18. 5. 1908</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041563"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m r-n">Ich selbst drücke Ihre Hand und
+                  bin<lb/>in treuer Verehrung der Ihrige<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Josef Redlich an Hermann Bahr, 29. 2. 1904</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041568"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#informal #s-m r-n">Ich bete Dich an<space unit="chars"
+                     quantity="5"/>Dein</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Marie Reinhard, 25. 6. 1897</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041584"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#informal #s-m r-n">Ich küsse Deine geliebten Augen
+                  tausendmal! Dein</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur Schnitzler an Marie Reinhard, 7. 11. 1896</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041586"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m r-n">Ihr unglückseliger<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Peter Altenberg an Arthur Schnitzler, [7. 11. 1912]</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041590"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m r-n">Mit diesen Andeutungen schliesse ich
+                  als<lb/>Ihr herzlich ergebener<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Eduard Pötzl an Hermann Bahr, 14. 3. 1903</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041592"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m r-n">Mit vielen Grüssen<lb/>Der
+                  Beschwichtigungshofrat:<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Eduard Pötzl an Hermann Bahr, 17. 3. 1903</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041593"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-f r-n">Es grüßt dich herzlich Deine<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Adele Sandrock an Hermann Bahr, 29. 12. 1893</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041595"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m r-n">Auf Wiederseh’n<lb/>Dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Adele Sandrock an Hermann Bahr, 8. 4. 1894</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041597"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#informal #s-m r-n">tausend innige Grüße<lb/>Dein
+                  treuer<lb/>Freund</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Adele Sandrock an Hermann Bahr, 15. 8. 1894</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041598"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m r-n">Also, auf baldiges enormes
+                  Wiederseh’n.<lb/>Herzlichst der<lb/>Deinige.</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Adele Sandrock an Hermann Bahr, 17. 8. 1894</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041599"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-f r-n">Ich grüße Dich innig<lb/>Deine ewig ewig
+                  dankbare<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Adele Sandrock an Hermann Bahr, [um den 4. 2. 1895?]</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041604"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m r-n">In herzlicher Erwartung Ihnen entgegen
+                  und aufrichtig<lb/>ergeben Ihr<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Stefan Zweig an Arthur Schnitzler, 28. 7. 1923</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041615"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-f r-n">Wie immer<space unit="chars"
+                     quantity="5"/>Ihre<space unit="chars" quantity="5"/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Rosa Freudenthal an Arthur Schnitzler, [31. 10. – 3. 11. 1897]</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041625"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-n r-n">Mit vorzüglicher Hochachtung<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Paul Block an Hermann Bahr, 8. 12. 1903</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041628"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m r-n">Das Beste und Schönste wünscht<lb/>Ihr
+                  alter<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Richard Beer-Hofmann, 6. 7. 1905</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041631"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-n r-n">Herzlichst<lb/>gez:</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Willi Handl, 20. 10. [1905]</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041633"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m r-n">In Eile<lb/>Ihr<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Hermann Bahr an Felix Salten, 24. 8. 1904</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041635"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m r-n">Mit den herzlichsten Grüßen und
+                  Wünschen, bin ich<lb/>Ihr sehr aufrichtig getreuer<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Siegfried Trebitsch an Hermann Bahr, 22. 1. 1904</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041638"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-f r-n">Ihre getreue<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Berta Zuckerkandl an Hermann Bahr, 26. 10. 1918</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041644"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#informal #s-m r-n">Faul, Innigst<lb/>Dein<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur an Olga Schnitzler, 22. 8. 1918</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041654"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-n r-n">Sei von Herzen gegrüßt!<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Arthur an Olga Schnitzler, 3. 1. 1923</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041656"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#informal #s-m r-n">Leb wol, küss die <rs type="person"
+                     key="A002083 A002097">Kinder</rs> tausendmal.<lb/>Innigst<space unit="chars"
+                     quantity="5"/>Dein</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Olga an Arthur Schnitzler, 29. 8. 1919</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041660"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#informal #s-m r-n">Viele Küsse an mein <rs type="person"
+                     key="A002097">Haserl</rs>, an <persName key="A002083">Heini</persName> schreib
+                     ich.<space unit="chars" quantity="5"/>Innigst dein</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Olga an Arthur Schnitzler, 16. 9. 1919</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041664"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-n r-m">Leb wol, Lieber, alles Herzlichste.<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Olga an Arthur Schnitzler, 21. 11. 1921</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041668"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-f r-n">Indessen viele herzliche
+                  Grüße!<lb/>Ihre</quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Olga an Arthur Schnitzler, [20. 12. 1921]</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041671"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-n r-n">Leb wol, alles Gute und Innigste!<space
+                     unit="chars" quantity="5"/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Olga an Arthur Schnitzler, 26. 4. 1922</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041673"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-n r-n">In steter Verehrung<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Elsa Plessner an Arthur Schnitzler, [22. 4. 1897]</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041678"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-n r-n">Viele viele dankbare Grüße<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Elsa Plessner an Arthur Schnitzler, 7. 8. [1897]</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041681"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#informal #s-m r-n">Ich bleibe herzlich Der Deine<lb/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Leopold von Andrian an Robert Michel, 27. 2. 1900</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041694"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-n r-n">
+                  <handShift scribe="A002134"/>Beneiden Sie uns ein bisserl, ja?<space unit="chars"
+                     quantity="5"/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Fritz Schlesinger u. a. an Hermann Bahr, 21. 4. 1898</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041697"/>
+               </bibl>
+            </cit>
+            <cit>
+               <quote xml:lang="deu" ana="#formal #s-m r-n">
+                  <handShift scribe="A002001"/>HerzGruss<space unit="chars" quantity="5"/>
+               </quote>
+               <bibl>
+                  <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
+                     1891–1931</edition>
+                  <title>Fritz Schlesinger u. a. an Hermann Bahr, 21. 4. 1898</title>
+                  <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041697"/>
+               </bibl>
+            </cit>
+         </div>
+         <div type="exclude">
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041000"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041002"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041005"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041006"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041008"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041012"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041013"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041014"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041017"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041018"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041019"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041021"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041023"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041024"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041029"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041035"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041043"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041045"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041047"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041048"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041053"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041059"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041060"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041063"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041064"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041065"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041071"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041076"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041077"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041078"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041079"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041080"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041081"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041082"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041083"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041086"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041087"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041088"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041089"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041090"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041093"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041095"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041097"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041098"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041099"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041103"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041104"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041105"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041105"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041106"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041106"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041107"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041112"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041113"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041114"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041116"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041117"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041123"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041124"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041125"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041126"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041127"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041137"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041146"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041147"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041148"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041149"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041151"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041154"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041156"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041157"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041159"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041160"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041165"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041166"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041167"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041168"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041170"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041171"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041172"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041174"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041175"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041177"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041179"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041180"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041181"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041183"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041184"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041185"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041186"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041187"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041189"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041191"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041201"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041202"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041203"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041206"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041219"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041221"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041222"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041224"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041225"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041214"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041215"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041217"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041218"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041220"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041223"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041226"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041227"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041229"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041230"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041231"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041232"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041233"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041234"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041236"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041237"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041239"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041240"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041241"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041242"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041243"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041244"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041245"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041246"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041248"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041250"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041251"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041252"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041254"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041255"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041256"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041257"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041258"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041259"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041260"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041261"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041262"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041264"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041265"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041266"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041267"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041267"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041269"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041270"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041271"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041272"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041273"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041274"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041275"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041276"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041277"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041278"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041279"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041280"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041281"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041282"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041283"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041284"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041285"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041287"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041288"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041289"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041290"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041291"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041293"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041294"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041296"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041298"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041300"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041301"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041302"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041303"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041304"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041305"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041306"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041307"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041308"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041309"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041310"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041311"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041312"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041313"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041315"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041317"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041318"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041320"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041321"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041322"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041325"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041326"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041327"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041329"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041330"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041331"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041332"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041334"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041335"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041336"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041337"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041339"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041340"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041341"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041342"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041343"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041344"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041346"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041347"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041348"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041349"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041355"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041356"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041357"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041359"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041361"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041362"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041364"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041365"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041366"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041367"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041369"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041370"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041373"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041374"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041375"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041376"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041377"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041378"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041379"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041381"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041382"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041384"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041385"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041387"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041388"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041389"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041391"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041392"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041393"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041394"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041395"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041396"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041397"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041398"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041400"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041403"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041404"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041405"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041406"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041407"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041408"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041409"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041410"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041411"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041412"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041415"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041416"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041417"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041418"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041419"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041420"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041421"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041422"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041423"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041424"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041425"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041426"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041427"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041428"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041430"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041431"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041432"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041433"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041434"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041435"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041436"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041437"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041439"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041440"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041441"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041442"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041443"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041444"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041445"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041447"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041448"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041449"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041450"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041451"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041452"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041453"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041455"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041457"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041458"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041459"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041460"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041461"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041462"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041463"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041465"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041470"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041479"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041480"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041481"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041483"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041498"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041499"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041501"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041502"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041503"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041509"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041510"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041511"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041518"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041521"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041524"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041525"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041526"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041527"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041527"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041528"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041536"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041537"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041539"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041540"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041541"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041542"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041543"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041544"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041545"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041546"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041547"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041549"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041550"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041551"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041552"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041553"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041554"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041554"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041555"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041556"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041557"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041558"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041559"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041560"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041561"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041562"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041564"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041565"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041566"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041567"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041569"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041570"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041571"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041572"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041574"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041575"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041576"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041577"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041578"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041579"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041580"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041581"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041582"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041583"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041585"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041587"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041588"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041589"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041591"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041594"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041596"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041599"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041600"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041601"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041602"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041603"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041605"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041606"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041607"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041607"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041609"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041611"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041612"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041613"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041614"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041616"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041617"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041618"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041619"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041620"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041621"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041622"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041623"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041624"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041626"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041629"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041632"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041634"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041636"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041637"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041639"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041640"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041641"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041642"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041643"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041645"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041646"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041647"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041648"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041649"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041650"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041653"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041655"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041657"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041658"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041659"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041661"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041662"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041663"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041665"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041666"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041667"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041669"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041670"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041671"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041672"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041674"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041675"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041676"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041677"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041679"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041680"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041682"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041683"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041684"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041685"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041686"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041687"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041688"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041689"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041690"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041691"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041692"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041693"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041695"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041697"/>
+            <ref target="https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=L041697"/>
+         </div>
+      </body>
+   </text>
+</TEI>
