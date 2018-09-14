@@ -27,6 +27,9 @@ Der Textkorpus wird derzeit von folgenden digitalen Briefeditionen gespeist:
 * Marx-Engels-Gesamtausgabe digital, hg. von der Internationalen Marx-Engels-Stiftung. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. URL: [http://megadigital.bbaw.de/](http://megadigital.bbaw.de/)
 * Wilhelm von Humboldt - Sprachwissenschaftliche Korrespondenz. Hg. von der Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. URL: [https://wvh-briefe.bbaw.de](https://wvh-briefe.bbaw.de/)
 * Fanny Lewald an Hermann Hettner - Briefe aus den Jahren 1847-1857. Hrsg. v. Frederike Neuber. In: Berliner Beiträge zur Editionswissenschaft. Bd. 18. Hrsg: Jörg Jungmayr u. Marcus Schotte. 2017.
+* Arthur Schnitzler, Hermann Bahr: Briefwechsel, Materialien, Dokumente 1891–1931. Herausgegeben von Kurt Ifkovits und Martin Anton Müller. 2018. URL: [https://bahrschnitzler.acdh.oeaw.ac.at](https://bahrschnitzler.acdh.oeaw.ac.at)
+* DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade, Mainz, Akademie der Wissenschaften und der Literatur, 2018. URL: [https://sturm-edition.de/quellen/briefe.html](https://sturm-edition.de/quellen/briefe.html)
+
 
 # Hintergrund
 
