@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>&lt;salute&gt;-elements of "DER STURM - Digitale Quellenedition zur
+                    Geschichte der Avantgarde"</title>
+                <respStmt>
+                    <resp>
+                        <note>Collection, curation and processing of data</note>
+                    </resp>
+                    <persName ref="http://d-nb.info/gnd/1034877364">
+                        <surname>Dumont</surname>
+                        <forename>Stefan</forename>
+                    </persName>
+                    <persName>
+                        <surname>Klappenbach</surname>
+                        <forename>Lou</forename>
+                    </persName>
+                    <persName>
+                        <surname>Kullick</surname>
+                        <forename>Marvin</forename>
+                    </persName>
+                    <persName ref="http://d-nb.info/gnd/1121508855">
+                        <surname>Neuber</surname>
+                        <forename>Frederike</forename>
+                    </persName>
+                    <persName>
+                        <surname>Philipp</surname>
+                        <forename>Luisa</forename>
+                    </persName>
+                    <persName>
+                        <surname>Pohl</surname>
+                        <forename>Oliver</forename>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>
+                        <note>Hosting and provision of data and application</note>
+                    </resp>
+                    <orgName ref="http://www.bbaw.de/telota">TELOTA - The Electronic Life of the
+                        Academy</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName>Berlin-Brandenburg Academy of Sciences and Humanities</orgName>
+                    <orgName>TELOTA</orgName>
+                    <email>telota@bbaw.de</email>
+                    <address>
+                        <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                        <country>Germany</country>
+                    </address>
+                </publisher>
+                <pubPlace>Berlin</pubPlace>
+                <date>2018-04-18</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">
+                        <p>Distributed under the Creative Commons Attribution - 4.0 International
+                            license (CC BY 4.0)</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note type="data_integration">The data was taken over from <ref
+                        target="https://github.com/digicademy/sturm-exist-app"
+                        >https://github.com/digicademy/sturm-exist-app</ref> on 10.8.2018. Later
+                    published contents of the edition may be added in the future.</note>
+                <note type="selection">For quoteSalute, those salutes were selected that are
+                    relevant for the application in terms of content, form and length. More
+                    information on selection and tagging can be found in the <ref
+                        target="https://correspsearch.net/salute/dokumentation">documentation of the
+                        project</ref>.</note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>DER STURM. Digitale Quellenedition zur Geschichte der internationalen
+                    Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten
+                    Schrade, Mainz, Akademie der Wissenschaften und der Literatur, 2018.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category>
+                        <catDesc>Type</catDesc>
+                        <category xml:id="formal">
+                            <catDesc>formal</catDesc>
+                        </category>
+                        <category xml:id="informal">
+                            <catDesc>informal</catDesc>
+                        </category>
+                    </category>
+                    <category>
+                        <catDesc>Relation</catDesc>
+                        <category xml:id="s-m">
+                            <catDesc>content implies male sender</catDesc>
+                        </category>
+                        <category xml:id="s-f">
+                            <catDesc>content implies female sender</catDesc>
+                        </category>
+                        <category xml:id="s-n">
+                            <catDesc>content implies neutral sender</catDesc>
+                        </category>
+                        <category xml:id="r-f">
+                            <catDesc>content implies female receiver</catDesc>
+                        </category>
+                        <category xml:id="r-m">
+                            <catDesc>content implies male receiver</catDesc>
+                        </category>
+                        <category xml:id="r-n">
+                            <catDesc>content implies neutral receiver</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="include">
+                <cit>
+                    <quote xml:lang="deu" ana="#formal #s-n #r-n">Hrzl. Gruß</quote>
+                    <bibl>
+                        <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
+                        <title>Franz Marc an Herwarth Walden, 19. Januar 1914, Sindelsdorf</title>
+                        <ref target="https://sturm-​edition.de/id/Q.01.19140119.FMA.01"/>
+                    </bibl>
+                </cit>
+                <cit>
+                    <quote xml:lang="deu" ana="#formal #s-n #r-n">Herzl.</quote>
+                    <bibl>
+                        <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
+                        <title>Franz Marc an Herwarth Walden, 9. April 1914, Sindelsdorf</title>
+                        <ref target="https://sturm-​edition.de/id/Q.01.19140409.FMA.01"/>
+                    </bibl>
+                </cit>
+                <cit>
+                    <quote xml:lang="deu" ana="#informal #s-n #r-n">viel Grüße von mir</quote>
+                    <bibl>
+                        <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
+                        <title>Franz Marc an Herwarth Walden, 21. April 1914, Sindelsdorf</title>
+                        <ref target="https://sturm-​edition.de/id/Q.01.19140421.FMA.01"/>
+                    </bibl>
+                </cit>
+                <cit>
+                    <quote xml:lang="deu" ana="#formal #s-n #r-n">besten Gruß</quote>
+                    <bibl>
+                        <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
+                        <title>Franz Marc an Herwarth Walden, 7. Mai 1914, Benediktbeuren</title>
+                        <ref target="https://sturm-​edition.de/id/Q.01.19140507.FMA.01"/>
+                    </bibl>
+                </cit>
+               <cit>
+                    <quote xml:lang="deu" ana="#informal #s-n #r-n">Also gut Glück für nächste Zukunft, die etwas grau
+                        vor mir steht</quote>
+                    <bibl>
+                        <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
+                        <title>Franz Marc an Herwarth Walden, 10. Juni 1914, Benediktbeuren</title>
+                        <ref target="https://sturm-​edition.de/id/Q.01.19140610.FMA.01"/>
+                    </bibl>
+                </cit>
+                <cit>
+                    <quote xml:lang="deu" ana="#informal #s-m #r-n">Hrzl. Gruß von Eurem Freund in Waffen</quote>
+                    <bibl>
+                        <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
+                        <title>Franz Marc an Herwarth Walden, 31. August 1914, Straßburg</title>
+                        <ref target="https://sturm-​edition.de/id/Q.01.19140831.FMA.01"/>
+                    </bibl>
+                </cit>
+                <cit>
+                    <quote xml:lang="deu" ana="#formal #s-n #r-n">Hrzl. Gruß 1 x 2</quote>
+                    <bibl>
+                        <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
+                        <title>Franz Marc an Herwarth Walden, 13. November 1914, unbekannter
+                            Ort</title>
+                        <ref target="https://sturm-​edition.de/id/Q.01.19141113.FMA.01"/>
+                    </bibl>
+                </cit>
+                <cit>
+                    <quote xml:lang="deu" ana="#formal #s-n #r-n">Viele herzliche Grüszen für Ihnen und Ihre <persName
+                            key="P.0000002" ref="http://d-nb.info/gnd/118891456" instant="false"
+                            full="yes">Frau</persName> auch von Fräulein <persName key="P.0000008"
+                            ref="http://d-nb.info/gnd/136128289" instant="false" full="yes"
+                            >Tak</persName>. Hochachtungsvoll</quote>
+                    <bibl>
+                        <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
+                        <title>Jacoba van Heemskerck an Herwarth Walden, 22. März 1914, Den
+                            Haag</title>
+                        <ref target="https://sturm-​edition.de/id/Q.01.19140322.JVH.01"/>
+                    </bibl>
+                </cit>
+                <cit>
+                    <quote xml:lang="deu" ana="#formal #s-n #r-n">Herzliche Grüssen</quote>
+                    <bibl>
+                        <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
+                        <title>Jacoba van Heemskerck an Herwarth Walden, 14. Mai 1914,
+                            Bretagne</title>
+                        <ref target="https://sturm-​edition.de/id/Q.01.19140514.JVH.01"/>
+                    </bibl>
+                </cit>
+                <cit>
+                    <quote xml:lang="deu" ana="#formal #s-n #r-n">Mit herzlichsten Grüssen</quote>
+                    <bibl>
+                        <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
+                        <title>Jacoba van Heemskerck an Herwarth Walden, 1. Juni 1914, Loverendale,
+                            Domburg</title>
+                        <ref target="https://sturm-​edition.de/id/Q.01.19140601.JVH.01"/>
+                    </bibl>
+                </cit>
+                <cit>
+                    <quote xml:lang="deu" ana="#formal #s-n #r-n">Mit herzliche Grüssen für Sie beiden</quote>
+                    <bibl>
+                        <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
+                        <title>Jacoba van Heemskerck an Herwarth Walden, 27. Juli 1914, Loverendale,
+                            Domburg</title>
+                        <ref target="https://sturm-​edition.de/id/Q.01.19140727.JVH.01"/>
+                    </bibl>
+                </cit>
+                <cit>
+                    <quote xml:lang="deu" ana="#formal #s-n #r-n">Viele herzliche Grüssen für Sie beiden</quote>
+                    <bibl>
+                        <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
+                        <title>Jacoba van Heemskerck an Herwarth Walden, 21. August 1914,
+                            Domburg</title>
+                        <ref target="https://sturm-​edition.de/id/Q.01.19140820.JVH.01"/>
+                    </bibl>
+                </cit>
+                <cit>
+                    <quote xml:lang="deu" ana="#informal #s-n #r-n">Herzlichste Grüssen von uns allen</quote>
+                    <bibl>
+                        <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
+                        <title>Jacoba van Heemskerck an Herwarth Walden, 23. August 1914,
+                            Loverendale, Domburg</title>
+                        <ref target="https://sturm-​edition.de/id/Q.01.19140822.JVH.01"/>
+                    </bibl>
+                </cit>
+                <cit>
+                    <quote xml:lang="deu" ana="#informal #s-n #r-n">Viel liebes für Sie beiden</quote>
+                    <bibl>
+                        <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
+                        <title>Jacoba van Heemskerck an Herwarth Walden, 25. September 1914,
+                            Domburg</title>
+                        <ref target="https://sturm-​edition.de/id/Q.01.19140925.JVH.01"/>
+                    </bibl>
+                </cit>
+                <cit>
+                    <quote xml:lang="deu" ana="#informal #s-n #r-n">Mit herzlichsten Grüssen und hoffentlich auf ein
+                        baldigstes Wiedersehen</quote>
+                    <bibl>
+                        <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
+                        <title>Jacoba van Heemskerck an Herwarth Walden, 27. Oktober 1914, 35,
+                            Nassau Zuilensteinstraat, Den Haag</title>
+                        <ref target="https://sturm-​edition.de/id/Q.01.19141027.JVH.01"/>
+                    </bibl>
+                </cit>
+                <cit>
+                    <quote xml:lang="deu" ana="#informal #s-n #r-n">Sehr viele Herzlichsten Grüssen für Sie beiden und
+                        hoffentlich auf ein sehr baldig wiedersehen.</quote>
+                    <bibl>
+                        <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
+                        <title>Jacoba van Heemskerck an Herwarth Walden, 5. November 1914, 35,
+                            Nassau Zuilensteinstraat, Den Haag</title>
+                        <ref target="https://sturm-​edition.de/id/Q.01.19141105.JVH.01"/>
+                    </bibl>
+                </cit>
+                <cit>
+                    <quote xml:lang="deu" ana="#formal #s-n #r-n">In grösser Eile mit herzlichste Grüssen</quote>
+                    <bibl>
+                        <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
+                        <title>Jacoba van Heemskerck an Herwarth Walden, 3. Dezember 1914, 35,
+                            Nassau Zuilensteinstraat, Den Haag</title>
+                        <ref target="https://sturm-​edition.de/id/Q.01.19141203.JVH.01"/>
+                    </bibl>
+                </cit>
+                <cit>
+                    <quote xml:lang="deu" ana="#informal #s-n #r-n">Herzlichste Grüssen für Sie beiden und in diese
+                        Zeiten ein so möglich fröhliches Weihnachten.</quote>
+                    <bibl>
+                        <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
+                        <title>Jacoba van Heemskerck an Herwarth Walden, 19. Dezember 1914, Den
+                            Haag</title>
+                        <ref target="https://sturm-​edition.de/id/Q.01.19141219.JVH.01"/>
+                    </bibl>
+                </cit>
+               <cit>
+                    <quote xml:lang="deu" ana="#formal #s-n #r-n">Mit herzl. Gruß Ihnen beiden</quote>
+                    <bibl>
+                        <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
+                        <title>Franz Marc an Herwarth Walden, 16. Januar 1915, Feldpoststation A.A.
+                            Falkenhausen</title>
+                        <ref target="https://sturm-​edition.de/id/Q.01.19150116.FMA.01"/>
+                    </bibl>
+                </cit>
+                <cit>
+                    <quote xml:lang="deu" ana="#formal #s-n #r-n">Grüße 1 x 2</quote>
+                    <bibl>
+                        <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
+                        <title>Franz Marc an Herwarth Walden, 15. März 1915, unbekannter Ort</title>
+                        <ref target="https://sturm-​edition.de/id/Q.01.19150315.FMA.01"/>
+                    </bibl>
+                </cit>
+                <cit>
+                    <quote xml:lang="deu" ana="#informal #s-n #r-n">Dank für alles u. herzlichste Grüßen Ihnen
+                        beiden</quote>
+                    <bibl>
+                        <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
+                        <title>Franz Marc an Herwarth Walden, 15. März 1915, unbekannter Ort</title>
+                        <ref target="https://sturm-​edition.de/id/Q.01.19150315.FMA.02"/>
+                    </bibl>
+                </cit>
+                <cit>
+                    <quote xml:lang="deu" ana="#formal #s-n #r-n">Gruß</quote>
+                    <bibl>
+                        <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
+                        <title>Franz Marc an Herwarth Walden, 18. September 1915, unbekannter
+                            Ort</title>
+                        <ref target="https://sturm-​edition.de/id/Q.01.19150918.FMA.01"/>
+                    </bibl>
+                </cit>
+                <cit>
+                    <quote xml:lang="deu" ana="#formal #s-m #r-n">Gruß Ihrer</quote>
+                    <bibl>
+                        <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
+                        <title>Franz Marc an Herwarth Walden, 22. September 1915, unbekannter
+                            Ort</title>
+                        <ref target="https://sturm-​edition.de/id/Q.01.19150922.FMA.01"/>
+                    </bibl>
+                </cit>
+                <cit>
+                    <quote xml:lang="deu" ana="#formal #s-n #r-n">Hrzl. Grüße 2 x 2</quote>
+                    <bibl>
+                        <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
+                        <title>Franz Marc an Herwarth Walden, 1. Oktober 1915, unbekannter
+                            Ort</title>
+                        <ref target="https://sturm-​edition.de/id/Q.01.19151001.FMA.01"/>
+                    </bibl>
+                </cit>
+                <cit>
+                    <quote xml:lang="deu" ana="#formal #s-n #r-n">Herzl. Grüße beiderseits</quote>
+                    <bibl>
+                        <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
+                        <title>Franz Marc an Herwarth Walden, 6. November 1915, München</title>
+                        <ref target="https://sturm-​edition.de/id/Q.01.19151106.FMA.01"/>
+                    </bibl>
+                </cit>
+               <cit>
+                    <quote xml:lang="deu" ana="#formal #s-n #r-n">Für heute herzlichste Grüsse für Sie beiden</quote>
+                    <bibl>
+                        <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
+                        <title>Jacoba van Heemskerck an Herwarth Walden, 9. Februar 1915, 35, Nassau
+                            Zuilensteinstraat, Den Haag</title>
+                        <ref target="https://sturm-​edition.de/id/Q.01.19150209.JVH.01"/>
+                    </bibl>
+                </cit>
+                <cit>
+                    <quote xml:lang="deu" ana="#informal #s-n #r-n">Viel liebes für Sie beiden</quote>
+                    <bibl>
+                        <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
+                        <title>Jacoba van Heemskerck an Herwarth Walden, 17. Mai 1915, Assen</title>
+                        <ref target="https://sturm-​edition.de/id/Q.01.19150517.JVH.01"/>
+                    </bibl>
+                </cit>
+                <cit>
+                    <quote xml:lang="deu" ana="#formal #s-n #r-n">Für diesen Abend nur noch herzlichste <hi
+                            rend="underline">Grüss</hi>e für Sie beide</quote>
+                    <bibl>
+                        <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
+                        <title>Jacoba van Heemskerck an Herwarth Walden, 18. Juni 1915, Loverendale,
+                            Domburg</title>
+                        <ref target="https://sturm-​edition.de/id/Q.01.19150618.JVH.01"/>
+                    </bibl>
+                </cit>
+                <cit>
+                    <quote xml:lang="deu" ana="#formal #s-n #r-n">Für heute noch meine herzlichste Grüsse und viel
+                        Dank</quote>
+                    <bibl>
+                        <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
+                        <title>Jacoba van Heemskerck an Herwarth Walden, 7. Oktober 1915,
+                            Loverendale, Domburg</title>
+                        <ref target="https://sturm-​edition.de/id/Q.01.19151007.JVH.01"/>
+                    </bibl>
+                </cit>
+                <cit>
+                    <quote xml:lang="deu" ana="#informal #s-n #r-n">Jetzt <foreign>adieu</foreign> auf ein baldiges
+                        Wiedersehen</quote>
+                    <bibl>
+                        <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
+                        <title>Jacoba van Heemskerck an Herwarth Walden, 18. Oktober 1915, 35,
+                            Nassau Zuilensteinstraat, Den Haag</title>
+                        <ref target="https://sturm-​edition.de/id/Q.01.19151018.JVH.01"/>
+                    </bibl>
+                </cit>
+                <cit>
+                    <quote xml:lang="deu" ana="#informal #s-n #r-n">Herzlichste Wünschen für Sie beiden</quote>
+                    <bibl>
+                        <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
+                        <title>Jacoba van Heemskerck an Herwarth Walden, 23. Dezember 1915, 35,
+                            Nassau Zuilensteinstraat, Den Haag</title>
+                        <ref target="https://sturm-​edition.de/id/Q.01.19151223.JVH.01"/>
+                    </bibl>
+                </cit>
+                <cit>
+                    <quote xml:lang="deu" ana="#informal #s-n #r-n">Für heute herzlichste Grüsse und Wünsche</quote>
+                    <bibl>
+                        <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
+                        <title>Jacoba van Heemskerck an Herwarth Walden, 25. Dezember 1915, 35,
+                            Nassau Zuilensteinstraat, Den Haag</title>
+                        <ref target="https://sturm-​edition.de/id/Q.01.19151225.JVH.01"/>
+                    </bibl>
+                </cit>
+            </div>
+        </body>
+    </text>
+</TEI>
