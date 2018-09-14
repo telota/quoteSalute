@@ -111,7 +111,7 @@ const app = new Vue({
             ${this.salute.edition}
             ${this.salute.fullURL}
             --
-            powered by quoteSalute, https://correspsearch.net/quotesalute/
+            powered by quoteSalute, https://quoteSalute.net/
             `;
         }
 
