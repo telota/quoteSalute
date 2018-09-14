@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -100,35 +101,32 @@
             <cit>
                <quote ana="#formal #s-n #r-n" xml:lang="deu">Mit tiefster Ehrfurcht</quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Königin Karoline von Bayern. [3. Abt, Bd. VII, Nr.
-                     85]</title>
-                  <ref target="https://www.jeanpaul-edition.de/brief.html?num="/>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">An Friederike Wilhelmine Caroline. Bayreuth, 8. September 1815.</title>
+                  <ref target="https://www.jeanpaul-edition.de/brief.html?num=VII_85"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#informal #s-m #r-n" xml:lang="deu">Dein Vater</quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Max Richter in München. [3. Abt, Bd. VII, Nr. 596]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">An Max Richter. Bayreuth, 19. November 1819.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=VII_596"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-n #r-n" xml:lang="deu">Zum Andenken zu kurzer Minuten</quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">Ins stammbuch der Generalin Vincenti. [3. Abt, Bd. VII, Nr.
-                     339]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">Eintrag in ein Stammbuch. An Maria Elisabeth von Vincenti. Bayreuth, 14. Oktober 1817.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=VII_339"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-n #r-n" xml:lang="deu">Mit tiefster Ehrfurcht</quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An König Max Joseph von Bayern. [3. Abt, Bd. VII, Nr.
-                     129]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">An Maximilian IV. Joseph. Bayreuth, 13. Dezember 1815.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=VII_129"/>
                </bibl>
             </cit>
@@ -136,9 +134,8 @@
                <quote ana="#formal #s-m #r-n" xml:lang="deu">Mit Verehrung Ihr ergebenster
                   etc.</quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Frau von Ompteda in Berlin. [3. Abt, Bd. VII, Nr.
-                     612]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">An Friederike Christiane Elisabeth von Ompteda. Bayreuth, 24. Dezember 1819.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=VII_612"/>
                </bibl>
             </cit>
@@ -148,18 +145,16 @@
                   geb’ ich hier auf dessen Wunsch meine Handschrift und meine Hand dazu zum
                   Angedenken.</quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">stammbuchblatt für Ammon, Grahl und Zeschau. [3. Abt, Bd.
-                     VII, Nr. 202]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">Eintrag in ein Stammbuch. An Friedrich Wilhelm Philipp Ammon, August Grahl und Heinrich Siegmund von Zeschau. Bayreuth, Mitte Juli 1816.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=VII_202"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-m #r-n" xml:lang="deu">Der Ihrige</quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Herrn und Frau Engelmann in Heidelberg. [3. Abt, Bd. VII,
-                     Nr. 424]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">An Joseph Engelmann und seine Ehefrau. Frankfurt a. M., 12. Juni 1818.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=VII_424"/>
                </bibl>
             </cit>
@@ -168,27 +163,24 @@
                   Jacobi, erkennst du in diesem Bilde den Sohn deines Vaters?
                   —</quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">Ins stammbuch des Präsidenten Jacobi. [3. Abt, Bd. VII, Nr.
-                     336]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">Eintrag in ein Stammbuch. An Johann Friedrich Jacobi. Bayreuth, 13. Oktober 1817.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=VII_336"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-n #r-n" xml:lang="deu">Mit schuldigstem Respekt</quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Graf Montgelas in München. [3. Abt, Bd. VII, Nr.
-                     124]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">An Maximilian Graf von Montgelas. Bayreuth, 8. Dezember 1815.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=VII_124"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihr höchstachtender</quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Finanzrat Chr. Karl Barth in Bayreuth. [3. Abt, Bd. VII,
-                     Nr. 248]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">An Christian Karl Barth. Bayreuth, 11. Januar 1817.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=VII_248"/>
                </bibl>
             </cit>
@@ -198,92 +190,88 @@
                      Paul
                </quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">In Bursys Exemplar von „Jean Pauls Museum“. [3. Abt, Bd. VII,
-                     Nr. 178]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">An Karl Bursy. Bayreuth, 15. Mai 1816.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=VII_178"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-n #r-n" xml:lang="deu">Mit tiefer Ehrfurcht u.s.w.</quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Fürst Hardenberg. [3. Abt, Bd. VII, Nr. 119]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">An Karl August Freiherr von Hardenberg. Bayreuth, 5. Dezember 1815.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=VII_119"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihriger.</quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Emanuel. [3. Abt, Bd. IV, Nr. 429]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">An Emanuel. Coburg, 2. Dezember 1803 bis 2. Dezember 1803.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=IV_429"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#informal #s-m #r-n" xml:lang="deu">Ihr Alter</quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Emanuel. [3. Abt, Bd. IV, Nr. 480]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">An Emanuel. Coburg, 26. Juni 1804.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=IV_480"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-n #r-n" xml:lang="deu">Adieu, edle Seele!</quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Karoline Mayer. [3. Abt, Bd. IV, Nr. 69]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">An Caroline Richter. Berlin, 13. Januar 1801.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=IV_69"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#informal #s-n #r-n" xml:lang="deu">Abzugeben an Dich bei Dir.</quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Ahlefeldt. [3. Abt, Bd. IV, Nr. 68]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">An Johann Georg Jacob von Ahlefeldt. Berlin, Januar 1801.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=IV_68"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#informal #s-m #r-n" xml:lang="deu">Dein ewiger, ewiger Freund.</quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">In Emilie von Berlepschs Stammbuch. [3. Abt, Bd. III, Nr.
-                     273]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">Eintrag in ein Stammbuch. An Emilie von Berlepsch. Weimar, 3. Juni 1799.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=III_273"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-n #r-n" xml:lang="deu">Guten Tag!</quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Emanuel. [3. Abt, Bd. V, Nr. 344]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">An Emanuel. Bayreuth, 12. April 1807.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=V_344"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#informal #s-m #r-n" xml:lang="deu">Immer und immer Ihr Freund</quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Renate und Christoph Otto. [3. Abt, Bd. II, Nr.
-                     270]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">An Christoph Otto und Renate Otto. Hof, 22. März 1796.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=II_270"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-n #r-n" xml:lang="deu">Ihrer Hoheit ꝛc. ꝛc. ꝛc.</quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Emanuel. [3. Abt, Bd. VI, Nr. 111]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">An Emanuel. Bayreuth, 27. Juni 1809.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=VI_111"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-n #r-n" xml:lang="deu">Euerer Kaiserlichen Majestät</quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Kaiser Alexander von Rußland. [3. Abt, Bd. VI, Nr.
-                     863]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">An Alexander I., Zar von Russland. Bayreuth, 22. April 1814.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=VI_863"/>
                </bibl>
             </cit>
@@ -291,25 +279,24 @@
                <quote ana="#formal #s-m #r-n" xml:lang="deu">Der in Baireuth privatisierende
                   Einsame</quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Emanuel. [3. Abt, Bd. VI, Nr. 901]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">An Emanuel. Bayreuth, 17. Juli 1814.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=VI_901"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-m #r-n" xml:lang="deu">Der Verf.</quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Cotta. [3. Abt, Bd. VI, Nr. 678]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">An Johann Friedrich Freiherr Cotta von Cottendorf. Bayreuth, 28. September 1812.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=VI_678"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#informal #s-m #r-n" xml:lang="deu">Dein Alter.</quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Christian Otto in Bayreuth. [3. Abt, Bd. IX, Nr.
-                     15]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">An Christian Otto. Bayreuth, 21. März 1812.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=IX_15"/>
                </bibl>
             </cit>
@@ -317,18 +304,16 @@
                <quote ana="#informal #s-m #r-n" xml:lang="deu">Ew. Hochedelgeboren gehorsamster
                   Diener, Gefatter und wärmster Freund.</quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Rektor Werner in Schwarzenbach. [3. Abt, Bd. I, Nr.
-                     6]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">An Carl August Werner. Leipzig, Ende Mai 1781.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=I_6"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-m #r-n" xml:lang="deu"> Ew. Hochedelgeboren gehors. Diener </quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Buchhändler Phil. Erasmus Reich in Leipzig?[3. Abt, Bd. I,
-                     Nr. 72]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">An Philipp Erasmus Reich. Leipzig, 22. Mai 1784.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=I_72"/>
                </bibl>
             </cit>
@@ -336,17 +321,16 @@
                <quote ana="#formal #s-n #r-n" xml:lang="deu">Ich habe die Ehre zu sein Ew.
                   Hochedelgeboren</quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Buchhändler Beckmann in Gera. [3. Abt, Bd. I, Nr.
-                     230]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">An Christoph Friedrich Beckmann. Hof, 8. August 1788.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=I_230"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#informal #s-m #r-n" xml:lang="deu">Dein Freund?</quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">In Hermanns Stammbuch. [3. Abt, Bd. I, Nr. 212]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">Eintrag in ein Stammbuch. An Johann Bernhard Hermann. Töpen bei Hof, 20. März 1788.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=I_212"/>
                </bibl>
             </cit>
@@ -354,9 +338,8 @@
                <quote ana="#formal #s-f #r-n" xml:lang="deu">Euer Hoch Edelgebohren gehorsamste
                   Dienerin und Schwägerin</quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Stadtsyndikus Ruß in Wunsiedel. [3. Abt, Bd. I, Nr.
-                     178]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">An Johann Ruß (Rust). Hof, vor dem 25. Juli 1786.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=I_178"/>
                </bibl>
             </cit>
@@ -364,18 +347,16 @@
                <quote ana="#formal #s-m #r-n" xml:lang="deu">Ich bin natürlicherweise Ihr
                   ꝛc.</quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Pfarrer Chr. Morus in Töpen. [3. Abt, Bd. I, Nr.
-                     197]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">An Johann Christian Morus. Töpen bei Hof, 3. September 1787.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=I_197"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-n #r-n" xml:lang="deu">der Verfasser.</quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Emil und Luise von Herder in Bayreuth. [3. Abt, Bd. VIII,
-                     Nr. 375]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">An Emil Herder und Luise von Herder. Bayreuth, 14. Mai 1823.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=VIII_375"/>
                </bibl>
             </cit>
@@ -383,26 +364,24 @@
                <quote ana="#formal #s-n #r-n" xml:lang="deu">Zum Andenken des schönen
                   Gestern</quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">In Adelaide von Maréchaux’ Stammbuch. [3. Abt, Bd. VIII, Nr.
-                     66]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">Eintrag in ein Stammbuch. An Adelaide von Maréchaux. München, 5. Juli 1820.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=VIII_66"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihr ergebenster ꝛc.</quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Hofprediger Schmidt in Nymphenburg. [3. Abt, Bd. VIII, Nr.
-                     74]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">An Ludwig Friedrich Schmidt. München, 8. Juli 1820.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=VIII_74"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-f #r-n" xml:lang="deu">Dero Ergebene Dienerin N. N.</quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Frau. [3. Abt, Bd. VIII, Nr. 421]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">An unbekannte Korrespondenten. Bayreuth, 24. Februar 1824.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=VIII_421"/>
                </bibl>
             </cit>
@@ -410,18 +389,16 @@
                <quote ana="#formal #s-n #r-f" xml:lang="deu">Zum Andenken an die holde Tochter eines
                   dichterischen Vaters.</quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">In Dorothea Tiecks Stammbuch. [3. Abt, Bd. VIII, Nr.
-                     306]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">Eintrag in ein Stammbuch. An Dorothea Tieck. Dresden, Juni 1822.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=VIII_306"/>
                </bibl>
             </cit>
             <cit>
                <quote ana="#formal #s-m #r-n" xml:lang="deu">Euer Exzellenz ergebenster</quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">An Freiherrn von Welden in Bayreuth. [3. Abt, Bd. VIII, Nr.
-                     334]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">An Konstantin Ludwig Freiherr von Welden. Bayreuth, 25. September 1822.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=VIII_334"/>
                </bibl>
             </cit>
@@ -429,9 +406,8 @@
                <quote ana="#informal #s-m #r-n" xml:lang="deu">Aber auf Ihres gehört für Ihre Liebe
                   und Stimme nur eine wolduftende Blume von Ihrem</quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">In Luise von Müllers Stammbuch. [3. Abt, Bd. VIII, Nr.
-                     67]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">Eintrag in ein Stammbuch. An Luise von Müller. München, 5. Juli 1820.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=VIII_67"/>
                </bibl>
             </cit>
@@ -440,9 +416,8 @@
                   würdigen Gatten, die ihr Vaterland verließ, um den zu beglücken, der tausend
                   beglückt.</quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">In Frau Schützens Stammbuch. [3. Abt, Bd. VIII, Nr.
-                     288]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">Eintrag in ein Stammbuch. An Frau Schütz. Dresden, Mai 1822.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=VIII_288"/>
                </bibl>
             </cit>
@@ -450,9 +425,8 @@
                <quote ana="#formal #s-n #r-n" xml:lang="deu">Zum Andenken einer heitern
                   Stunde</quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">In Henriette von Millers Stammbuch. [3. Abt, Bd. VIII, Nr.
-                     69]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">Eintrag in ein Stammbuch. An Henriette von Miller. München, 5. Juli 1820.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=VIII_69"/>
                </bibl>
             </cit>
@@ -461,9 +435,8 @@
                   daß Sie durch die Nähe der väterlichen Verdienste den Jünglingen der Zeit un-
                   ähnlich geblieben.</quote>
                <bibl>
-                  <title type="edition">Jean Paul Briefwechsel</title>
-                  <title type="letter">In Alfred Schlichtegrolls Stammbuch. [3. Abt, Bd. VIII, Nr.
-                     70]</title>
+                  <title type="edition">Jean Paul – Sämtliche Briefe digital</title>
+                  <title type="letter">Eintrag in ein Stammbuch. An Nathanael Schlichtegroll. München, 5. Juli 1820.</title>
                   <ref target="https://www.jeanpaul-edition.de/brief.html?num=VIII_70"/>
                </bibl>
             </cit>
