@@ -130,7 +130,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-m #r-n">Herzlich grüßt dich<lb/>dein</quote>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Herzlich grüßt dich<lb/>dein</quote>
                <bibl>
                   <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
                      1891–1931</edition>
@@ -1476,7 +1476,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-m r-n">Aber immer
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Aber immer
                   aufrecht!<lb/>Herzlichst<lb/>Dein getreuer<lb/>
                </quote>
                <bibl>
@@ -1487,7 +1487,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="eng" ana="#formal #s-n r-n">Most gratefully yours,<lb/>
+               <quote xml:lang="eng" ana="#formal #s-n #r-n">Most gratefully yours,<lb/>
                </quote>
                <bibl>
                   <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
@@ -1497,7 +1497,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-n r-n">– Leben Sie wohl, schreiben Sie mir bald
+               <quote xml:lang="deu" ana="#formal #s-n #r-n">– Leben Sie wohl, schreiben Sie mir bald
                   und seien Sie herzlich gegrüßt.<lb/>
                </quote>
                <bibl>
@@ -1508,7 +1508,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-m r-n">Ich drücke dich ans Herz und küsse
+               <quote xml:lang="deu" ana="#informal #s-m #r-n">Ich drücke dich ans Herz und küsse
                   deine süßen Augen!<lb/>Dein</quote>
                <bibl>
                   <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
@@ -1518,7 +1518,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-m r-n">Tausend Küsse!<lb/>Dein</quote>
+               <quote xml:lang="deu" ana="#informal #s-m #r-n">Tausend Küsse!<lb/>Dein</quote>
                <bibl>
                   <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
                      1891–1931</edition>
@@ -1527,7 +1527,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-m r-n">Herzlich grüßt Sie<lb/>Ihr Ihnen
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Herzlich grüßt Sie<lb/>Ihr Ihnen
                   wärmstens ergebner<lb/>
                </quote>
                <bibl>
@@ -1538,7 +1538,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-m r-n">Schreiben Sie bald Ihrem<lb/>herzlich
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Schreiben Sie bald Ihrem<lb/>herzlich
                   grüssenden treuen<lb/>
                </quote>
                <bibl>
@@ -1549,7 +1549,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-m r-n">Seien Sie herzlichst gegrüßt, auch von
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Seien Sie herzlichst gegrüßt, auch von
                   meiner <rs type="person" key="A002038">Frau</rs>, die sich auf der Terrasse
                   sonnt.<lb/>Ihr</quote>
                <bibl>
@@ -1560,7 +1560,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-m r-n">Leb wohl mein geliebtes! Küss mir die
+               <quote xml:lang="deu" ana="#informal #s-m #r-n">Leb wohl mein geliebtes! Küss mir die
                   Kinder!<lb/>Dein</quote>
                <bibl>
                   <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
@@ -1570,7 +1570,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-m r-n">Ich bin mit herzlichen
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Ich bin mit herzlichen
                   Grüßen<lb/>Ihr</quote>
                <bibl>
                   <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
@@ -1580,7 +1580,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-m r-n">Leben Sie wohl. Von Herzen Ihr</quote>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Leben Sie wohl. Von Herzen Ihr</quote>
                <bibl>
                   <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
                      1891–1931</edition>
@@ -1589,7 +1589,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-m r-n">Ich hin sehr bekümmert und wünsche mir
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Ich hin sehr bekümmert und wünsche mir
                   sehr mit Ihnen darüber zu reden. Von Herzen<lb/>Ihr</quote>
                <bibl>
                   <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
@@ -1599,7 +1599,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-m r-n">Tausend Grüße.<lb/>Dein</quote>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Tausend Grüße.<lb/>Dein</quote>
                <bibl>
                   <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
                      1891–1931</edition>
@@ -1608,7 +1608,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-m r-n">Das Beste an <persName key="A002134"
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Das Beste an <persName key="A002134"
                      >Gerty</persName>
                   <lb/>herzlichst<lb/>
                </quote>
@@ -1620,7 +1620,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-m r-n">Gruß,</quote>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Gruß,</quote>
                <bibl>
                   <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
                      1891–1931</edition>
@@ -1629,7 +1629,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-m r-n">Ihr poste restante</quote>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Ihr poste restante</quote>
                <bibl>
                   <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
                      1891–1931</edition>
@@ -1639,7 +1639,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-f r-n">Auf lange lange Zeit<lb/>Ihre<lb/>
+               <quote xml:lang="deu" ana="#formal #s-f #r-n">Auf lange lange Zeit<lb/>Ihre<lb/>
                </quote>
                <bibl>
                   <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
@@ -1649,7 +1649,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-n r-n">Ich küsse die bleichen schönen
+               <quote xml:lang="deu" ana="#informal #s-n #r-n">Ich küsse die bleichen schönen
                   Hände.<lb/>
                </quote>
                <bibl>
@@ -1660,7 +1660,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-m r-n">Ich küsse die geliebten Augen<lb/>
+               <quote xml:lang="deu" ana="#informal #s-m #r-n">Ich küsse die geliebten Augen<lb/>
                   Dein</quote>
                <bibl>
                   <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
@@ -1670,7 +1670,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-m r-n">Tausend Küsse<lb/>Dein</quote>
+               <quote xml:lang="deu" ana="#informal #s-m #r-n">Tausend Küsse<lb/>Dein</quote>
                <bibl>
                   <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
                      1891–1931</edition>
@@ -1679,7 +1679,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-m r-n">Für heute tausend innige Grüsse und
+               <quote xml:lang="deu" ana="#informal #s-m #r-n">Für heute tausend innige Grüsse und
                   Küsse von Deinem<lb/>Dich anbetenden Diltsch.<lb/>
                </quote>
                <bibl>
@@ -1690,7 +1690,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-m r-n">Auf Wiederseh’n–!–<lb/>Ewig Dein<lb/>
+               <quote xml:lang="deu" ana="#informal #s-m #r-n">Auf Wiederseh’n–!–<lb/>Ewig Dein<lb/>
                </quote>
                <bibl>
                   <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
@@ -1700,7 +1700,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-m r-n">Bestens Ihr</quote>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Bestens Ihr</quote>
                <bibl>
                   <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
                      1891–1931</edition>
@@ -1709,7 +1709,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-m r-n">Mit herzlichen Grüßen von uns zu Ihnen
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Mit herzlichen Grüßen von uns zu Ihnen
                   Ihr ergebener<lb/>
                </quote>
                <bibl>
@@ -1720,7 +1720,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-m r-n">Ich selbst drücke Ihre Hand und
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Ich selbst drücke Ihre Hand und
                   bin<lb/>in treuer Verehrung der Ihrige<lb/>
                </quote>
                <bibl>
@@ -1731,7 +1731,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-m r-n">Ich bete Dich an<space unit="chars"
+               <quote xml:lang="deu" ana="#informal #s-m #r-n">Ich bete Dich an<space unit="chars"
                      quantity="5"/>Dein</quote>
                <bibl>
                   <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
@@ -1741,7 +1741,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-m r-n">Ich küsse Deine geliebten Augen
+               <quote xml:lang="deu" ana="#informal #s-m #r-n">Ich küsse Deine geliebten Augen
                   tausendmal! Dein</quote>
                <bibl>
                   <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
@@ -1751,7 +1751,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-m r-n">Ihr unglückseliger<lb/>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Ihr unglückseliger<lb/>
                </quote>
                <bibl>
                   <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
@@ -1761,7 +1761,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-m r-n">Mit diesen Andeutungen schliesse ich
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Mit diesen Andeutungen schliesse ich
                   als<lb/>Ihr herzlich ergebener<lb/>
                </quote>
                <bibl>
@@ -1772,7 +1772,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-m r-n">Mit vielen Grüssen<lb/>Der
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Mit vielen Grüssen<lb/>Der
                   Beschwichtigungshofrat:<lb/>
                </quote>
                <bibl>
@@ -1783,7 +1783,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-f r-n">Es grüßt dich herzlich Deine<lb/>
+               <quote xml:lang="deu" ana="#formal #s-f #r-n">Es grüßt dich herzlich Deine<lb/>
                </quote>
                <bibl>
                   <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
@@ -1793,7 +1793,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-m r-n">Auf Wiederseh’n<lb/>Dein<lb/>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Auf Wiederseh’n<lb/>Dein<lb/>
                </quote>
                <bibl>
                   <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
@@ -1803,7 +1803,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-m r-n">tausend innige Grüße<lb/>Dein
+               <quote xml:lang="deu" ana="#informal #s-m #r-n">tausend innige Grüße<lb/>Dein
                   treuer<lb/>Freund</quote>
                <bibl>
                   <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
@@ -1813,7 +1813,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-m r-n">Also, auf baldiges enormes
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Also, auf baldiges enormes
                   Wiederseh’n.<lb/>Herzlichst der<lb/>Deinige.</quote>
                <bibl>
                   <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
@@ -1823,7 +1823,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-f r-n">Ich grüße Dich innig<lb/>Deine ewig ewig
+               <quote xml:lang="deu" ana="#formal #s-f #r-n">Ich grüße Dich innig<lb/>Deine ewig ewig
                   dankbare<lb/>
                </quote>
                <bibl>
@@ -1834,7 +1834,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-m r-n">In herzlicher Erwartung Ihnen entgegen
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">In herzlicher Erwartung Ihnen entgegen
                   und aufrichtig<lb/>ergeben Ihr<lb/>
                </quote>
                <bibl>
@@ -1845,7 +1845,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-f r-n">Wie immer<space unit="chars"
+               <quote xml:lang="deu" ana="#formal #s-f #r-n">Wie immer<space unit="chars"
                      quantity="5"/>Ihre<space unit="chars" quantity="5"/>
                </quote>
                <bibl>
@@ -1856,7 +1856,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-n r-n">Mit vorzüglicher Hochachtung<lb/>
+               <quote xml:lang="deu" ana="#formal #s-n #r-n">Mit vorzüglicher Hochachtung<lb/>
                </quote>
                <bibl>
                   <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
@@ -1866,7 +1866,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-m r-n">Das Beste und Schönste wünscht<lb/>Ihr
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Das Beste und Schönste wünscht<lb/>Ihr
                   alter<lb/>
                </quote>
                <bibl>
@@ -1877,7 +1877,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-n r-n">Herzlichst<lb/>gez:</quote>
+               <quote xml:lang="deu" ana="#formal #s-n #r-n">Herzlichst<lb/>gez:</quote>
                <bibl>
                   <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
                      1891–1931</edition>
@@ -1886,7 +1886,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-m r-n">In Eile<lb/>Ihr<lb/>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">In Eile<lb/>Ihr<lb/>
                </quote>
                <bibl>
                   <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
@@ -1896,7 +1896,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-m r-n">Mit den herzlichsten Grüßen und
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Mit den herzlichsten Grüßen und
                   Wünschen, bin ich<lb/>Ihr sehr aufrichtig getreuer<lb/>
                </quote>
                <bibl>
@@ -1907,7 +1907,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-f r-n">Ihre getreue<lb/>
+               <quote xml:lang="deu" ana="#formal #s-f #r-n">Ihre getreue<lb/>
                </quote>
                <bibl>
                   <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
@@ -1917,7 +1917,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-m r-n">Faul, Innigst<lb/>Dein<lb/>
+               <quote xml:lang="deu" ana="#informal #s-m #r-n">Faul, Innigst<lb/>Dein<lb/>
                </quote>
                <bibl>
                   <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
@@ -1927,7 +1927,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-n r-n">Sei von Herzen gegrüßt!<lb/>
+               <quote xml:lang="deu" ana="#formal #s-n #r-n">Sei von Herzen gegrüßt!<lb/>
                </quote>
                <bibl>
                   <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
@@ -1937,7 +1937,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-m r-n">Leb wol, küss die <rs type="person"
+               <quote xml:lang="deu" ana="#informal #s-m #r-n">Leb wol, küss die <rs type="person"
                      key="A002083 A002097">Kinder</rs> tausendmal.<lb/>Innigst<space unit="chars"
                      quantity="5"/>Dein</quote>
                <bibl>
@@ -1948,7 +1948,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-m r-n">Viele Küsse an mein <rs type="person"
+               <quote xml:lang="deu" ana="#informal #s-m #r-n">Viele Küsse an mein <rs type="person"
                      key="A002097">Haserl</rs>, an <persName key="A002083">Heini</persName> schreib
                      ich.<space unit="chars" quantity="5"/>Innigst dein</quote>
                <bibl>
@@ -1959,7 +1959,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-n r-m">Leb wol, Lieber, alles Herzlichste.<lb/>
+               <quote xml:lang="deu" ana="#formal #s-n #r-m">Leb wol, Lieber, alles Herzlichste.<lb/>
                </quote>
                <bibl>
                   <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
@@ -1969,7 +1969,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-f r-n">Indessen viele herzliche
+               <quote xml:lang="deu" ana="#formal #s-f #r-n">Indessen viele herzliche
                   Grüße!<lb/>Ihre</quote>
                <bibl>
                   <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
@@ -1979,7 +1979,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-n r-n">Leb wol, alles Gute und Innigste!<space
+               <quote xml:lang="deu" ana="#formal #s-n #r-n">Leb wol, alles Gute und Innigste!<space
                      unit="chars" quantity="5"/>
                </quote>
                <bibl>
@@ -1990,7 +1990,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-n r-n">In steter Verehrung<lb/>
+               <quote xml:lang="deu" ana="#formal #s-n #r-n">In steter Verehrung<lb/>
                </quote>
                <bibl>
                   <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
@@ -2000,7 +2000,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-n r-n">Viele viele dankbare Grüße<lb/>
+               <quote xml:lang="deu" ana="#formal #s-n #r-n">Viele viele dankbare Grüße<lb/>
                </quote>
                <bibl>
                   <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
@@ -2010,7 +2010,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-m r-n">Ich bleibe herzlich Der Deine<lb/>
+               <quote xml:lang="deu" ana="#informal #s-m #r-n">Ich bleibe herzlich Der Deine<lb/>
                </quote>
                <bibl>
                   <edition>Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente
@@ -2020,7 +2020,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-n r-n">
+               <quote xml:lang="deu" ana="#formal #s-n #r-n">
                   <handShift scribe="A002134"/>Beneiden Sie uns ein bisserl, ja?<space unit="chars"
                      quantity="5"/>
                </quote>
@@ -2032,7 +2032,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#formal #s-m r-n">
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">
                   <handShift scribe="A002001"/>HerzGruss<space unit="chars" quantity="5"/>
                </quote>
                <bibl>
