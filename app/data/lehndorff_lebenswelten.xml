@@ -1562,17 +1562,6 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu"> Gott befohlen! Mit größter
-                  Hochachtung und kameradschaftlichem Gruß </quote>
-               <bibl>
-                  <title type="edition">Lebenswelten, Erfahrungsräume und politische Horizonte der
-                     ostpreußischen Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</title>
-                  <title type="letter">Paul von Hindenburg an Carol Graf von Lehndorff .
-                     Hauptquartier Ost, 8. Mai 1915</title>
-                  <ref target="http://lebenswelten-lehndorff.bbaw.de/dokumente/detail.xql?id=lehndorff_jwq_qjg_j1b"/>
-               </bibl>
-            </cit>
-            <cit>
                <quote ana="#formal #s-n #r-n" xml:lang="deu"> Mit treuer hochachtungsvoller
                   Ergebenheit </quote>
                <bibl>
@@ -2283,6 +2272,7 @@
                <ref target="http://lebenswelten-lehndorff.bbaw.de/dokumente/detail.xql?id=lehndorff_ccz_lmj_dbb"/>
                <ref target="http://lebenswelten-lehndorff.bbaw.de/dokumente/detail.xql?id=lehndorff_t25_x3c_wcb"/>
                <ref target="http://lebenswelten-lehndorff.bbaw.de/dokumente/detail.xql?id=lehndorff_knx_k3q_pz"/>
+               <ref target="http://lebenswelten-lehndorff.bbaw.de/dokumente/detail.xql?id=lehndorff_jwq_qjg_j1b"/>
             </listRef>
          </div>
       </body>
