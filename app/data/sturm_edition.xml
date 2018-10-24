@@ -137,8 +137,8 @@
                 <cit>
                     <quote xml:lang="deu" ana="#informal #s-n #r-n">viel Grüße von mir</quote>
                     <bibl>
-                        <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
-                        <title>Franz Marc an Herwarth Walden, 21. April 1914, Sindelsdorf</title>
+                        <editi
+                          anz Marc an Herwarth Walden, 21. April 1914, Sindelsdorf</title>
                         <ref target="https://sturm-​edition.de/id/Q.01.19140421.FMA.01"/>
                     </bibl>
                 </cit>
@@ -226,7 +226,7 @@
                     </bibl>
                 </cit>
                 <cit>
-                    <quote xml:lang="deu" ana="#informal #s-n #r-n">Herzlichste Grüssen von uns allen</quote>
+                    <quote xml:lang="deu" ana="#formal #s-n #r-n">Herzlichste Grüssen von uns allen</quote>
                     <bibl>
                         <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
                         <title>Jacoba van Heemskerck an Herwarth Walden, 23. August 1914,
@@ -244,7 +244,7 @@
                     </bibl>
                 </cit>
                 <cit>
-                    <quote xml:lang="deu" ana="#informal #s-n #r-n">Mit herzlichsten Grüssen und hoffentlich auf ein
+                    <quote xml:lang="deu" ana="#formal #s-n #r-n">Mit herzlichsten Grüssen und hoffentlich auf ein
                         baldigstes Wiedersehen</quote>
                     <bibl>
                         <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
@@ -254,7 +254,7 @@
                     </bibl>
                 </cit>
                 <cit>
-                    <quote xml:lang="deu" ana="#informal #s-n #r-n">Sehr viele Herzlichsten Grüssen für Sie beiden und
+                    <quote xml:lang="deu" ana="#formal #s-n #r-n">Sehr viele Herzlichsten Grüssen für Sie beiden und
                         hoffentlich auf ein sehr baldig wiedersehen.</quote>
                     <bibl>
                         <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
@@ -273,7 +273,7 @@
                     </bibl>
                 </cit>
                 <cit>
-                    <quote xml:lang="deu" ana="#informal #s-n #r-n">Herzlichste Grüssen für Sie beiden und in diese
+                    <quote xml:lang="deu" ana="#formal #s-n #r-n">Herzlichste Grüssen für Sie beiden und in diese
                         Zeiten ein so möglich fröhliches Weihnachten.</quote>
                     <bibl>
                         <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
@@ -300,7 +300,7 @@
                     </bibl>
                 </cit>
                 <cit>
-                    <quote xml:lang="deu" ana="#informal #s-n #r-n">Dank für alles u. herzlichste Grüßen Ihnen
+                    <quote xml:lang="deu" ana="#formal #s-n #r-n">Dank für alles u. herzlichste Grüßen Ihnen
                         beiden</quote>
                     <bibl>
                         <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
@@ -381,7 +381,7 @@
                     </bibl>
                 </cit>
                 <cit>
-                    <quote xml:lang="deu" ana="#informal #s-n #r-n">Jetzt <foreign>adieu</foreign> auf ein baldiges
+                    <quote xml:lang="deu" ana="#formal #s-n #r-n">Jetzt <foreign>adieu</foreign> auf ein baldiges
                         Wiedersehen</quote>
                     <bibl>
                         <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
@@ -400,7 +400,7 @@
                     </bibl>
                 </cit>
                 <cit>
-                    <quote xml:lang="deu" ana="#informal #s-n #r-n">Für heute herzlichste Grüsse und Wünsche</quote>
+                    <quote xml:lang="deu" ana="#formal #s-n #r-n">Für heute herzlichste Grüsse und Wünsche</quote>
                     <bibl>
                         <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
                         <title>Jacoba van Heemskerck an Herwarth Walden, 25. Dezember 1915, 35,
