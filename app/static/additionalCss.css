@@ -1,0 +1,281 @@
+
+.header {
+  background-color: #2A7299;
+  color: #fff;
+}
+
+body {
+  background-color: #606060 !important;
+  color: #fff;
+  font-family: 'PT Serif' !important;
+}
+
+h1 {
+  font-size: 2.0em !important;
+  font-weight: bold !important;
+  font-family: 'PT Serif' !important;
+}
+h2 {
+  font-size: 1.5em !important;
+  font-weight: bold !important;
+}
+h3 {
+  font-size: 1.2em !important;
+  font-weight: bold !important;
+  margin-bottom: 0.5em !important;
+}
+h4 {
+  font-size: 1.2em !important;
+  margin-bottom: 0.5em !important;
+}
+
+p {
+  margin-bottom: 0.1em;
+  line-height: 1.4;
+}
+
+.navbar {
+  padding: 0 !important;
+}
+
+.navbar-brand {
+  font-size: 1.0em;
+  font-weight: bold;
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+  padding: 0.8em;
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+}
+
+.navbar .nav-item {
+  padding-top: 4px;
+}
+
+.navbar .form-inline {
+  margin-bottom: 0;
+}
+
+.navbar .nav-item:hover, .navbar .nav-item.active {
+  background-color: #545454;
+}
+
+.cs-content-box {
+  padding: 1.5em 0 1em 0;
+}
+
+.cs-navbar {
+  background-color: #383838;
+  color: #fff;
+}
+
+.cs-content {
+  margin-bottom: 30px;
+  background-color: #fff;
+  padding: 15px;
+}
+
+.cs-news-item {
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+.cs-orange {
+  border-top: 10px solid #F7931E;
+}
+
+.cs-blue {
+  border-top: 10px solid #2A7299;
+}
+
+.cs-content-top {
+  position: relative;
+  padding: 2em 0 1em 0;
+  min-height: 175px;
+  font-family: PTSans;
+  background-color: #2A7299;
+  color: white;
+}
+
+.cs-col {
+  padding: 0 !important;
+  width: calc(100% / 2 - 10px);
+}
+
+.cs-row {
+  margin: 0 !important;
+}
+
+.cs-content-bottom {
+	position: relative;
+	min-height: 45%;
+	padding: 1.5em 0 1em 0;
+	background-color: #EAEAEA;
+}
+
+.cs-content-bottom a {
+  color: #205F82;
+  text-decoration: none;
+}
+
+.cs-content-bottom a:hover {
+  text-decoration: underline;
+  color: #205F82;
+}
+
+.cs-btn {
+  background-color: #205F82; /* #3098D1 @correspSearch */
+}
+
+.cs-footer {
+  position: relative;
+  min-height: 150px;
+  padding: 2em 0 1em 0;
+  background-color: #606060;
+  color: #fff;
+  font-family: "PT Sans";
+  font-size: 0.9em;
+}
+
+.cs-footer a, .cs-footer a:hover {
+  color: #fff;
+  font-family: "PT Sans";
+}
+
+.cs-footer h3 {
+  font-family: "PT Serif";
+}
+
+.cs-language-switch select {
+  background-color: #383838 !important;
+  color: #fff !important;
+  border-radius: 0;
+  border: 1px solid #545454;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.cs-language-switch {
+  position: relative;
+  width: 90px;
+}
+
+.cs-language-switch::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f078";
+  position: absolute;
+  pointer-events:none;
+  padding: 4px 7px;
+  right: 0;
+  top: 2;
+  color: #fff;
+  font-size: 0.8em;
+  z-index: 1;
+  text-align: center;
+  width: 30%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.cs-toc {
+  counter-reset: item;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.cs-toc li::before {
+  content: counters(item, ".") " ";
+  counter-increment: item;
+}
+
+.principles {
+  list-style: none;
+  margin-left: 5.5em;
+  margin-right: 4em;
+  padding: 0px;
+}
+
+.principles li {
+  clear: both;
+  margin-bottom: 10px;
+}
+
+.principles li i {
+  position: absolute;
+  left: 3em;
+}
+
+.principles li i::before {
+    display: block;
+    width: 50px;
+    text-align: center;
+    font-size: 2.5em;
+    color: #F7931E;
+}
+
+.cs-footer-website {
+  list-style-type: none;
+}
+
+blockquote {
+    margin: 2em 3em;
+    border-left: 10px solid silver;
+    padding-left: 1em;
+    font-style: italic;
+}
+
+blockquote cite {
+	font-size: 0.8em;
+	font-style: normal;
+	color: gray;
+}
+
+figure {
+  display: block;
+}
+
+figure figcaption {
+	margin-top: 1.5em;
+	font-family: "PT Sans";
+	font-size: 0.8em;
+	color: gray;
+}
+
+.qs-quote {
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+.qs-edition, .qs-letter {
+  margin-bottom: 0;
+  font-size: 0.8em;
+}
+
+.qs-licence {
+  font-size: 0.8em;
+  color: silver;
+}
+
+#app {
+  font-family: 'PT Serif' !important;
+}
+#app .nav-link {
+  background-color: #e0e0e0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border: 0;
+  color: #666;
+}
+
+#app .nav-link a {
+  color: #666;
+}
+
+#app .nav-link.active {
+  border: 0px !important;
+  background-color: #fff;
+}

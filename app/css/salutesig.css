@@ -10,24 +10,24 @@ button#refresh {
     background-color: #F7931E;
     color: white;
     margin-right: 0.5em;
-    font-family: PTSans;
+    font-family: 'PT Sans';
 }
 
 .button {
     background-color: #3098D1;
     color: white;
-    font-family: PTSans;
+    font-family: 'PT Sans';
     }
     
 #filter-refresh {
     margin-right: 0.5em;
     background-color: rgb(233, 232, 232);
-    font-family: PTSans;
+    font-family: 'PT Sans';
 }
 #filter-clear {
     margin-right: 0.5em;
     background-color: rgb(233, 232, 232);
-    font-family: PTSans;
+    font-family: 'PT Sans';
 }
 
 #filter-headline {
@@ -107,5 +107,12 @@ a#licence {
 }
 
 .tippy-popper {
-    font-family: PTSans;
+    font-family: "PT Sans";
+}
+
+img#award {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    width: 100px;
 }
