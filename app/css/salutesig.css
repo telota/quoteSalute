@@ -6,19 +6,19 @@ div img#betabutton {
     left: 210px;
 }
 
-button#refresh {
-    background-color: #F7931E;
-    color: white;
-    margin-right: 0.5em;
-    font-family: 'PT Sans';
-}
-
 .button {
     background-color: #3098D1;
     color: white;
     font-family: 'PT Sans';
-    }
+}
+ 
+button#refresh {
+    background-color: #F7931E;
+    color: white;
+    font-family: 'PT Sans';
+}    
     
+
 #filter-refresh {
     margin-right: 0.5em;
     background-color: rgb(233, 232, 232);
@@ -29,6 +29,7 @@ button#refresh {
     background-color: rgb(233, 232, 232);
     font-family: 'PT Sans';
 }
+
 
 #filter-headline {
     padding-bottom: 0.5em; 
