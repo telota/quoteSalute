@@ -2,7 +2,13 @@
 
 <head>
   <meta charset=utf-8>
+  <title>quoteSalute Prototype</title>
+
+  <!-- quoteSalute-Styles -->
   <link rel="shortcut icon" type=image/x-icon href=http://correspsearch.net/resources/images/favicon.ico>
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="https://correspsearch.net//feed/news.rss" />
+  <link href="css/salutesig.css" rel="stylesheet" />
+  <!--correspSearch-Styles -->
   <link rel=stylesheet type=text/css href=static/additionalCss.css rel=stylesheet media=all>
   <link href="https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif" rel=stylesheet>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
@@ -15,31 +21,10 @@
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9"
     crossorigin="anonymous">
-    
-    <!--TODO: clean up Schriftart der Buttons-->
-
-    <title>quoteSalute Prototype</title>
-    <link rel="shortcut icon" type="image/x-icon" href="https://correspsearch.net//resources/images/favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="https://correspsearch.net//resources/css/reset.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="https://correspsearch.net//resources/css/960.css" media="screen" />
-    <link href="css/salutesig.css" rel="stylesheet" />
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/fontawesome-all.js"></script>
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="https://correspsearch.net//feed/news.rss" />
-    
-
-
-    <!--<link href="css/bootstrap.min.css" rel="stylesheet" />
-    
-    -->
-
-    
 </head>
 
 <body>
-  
+
   <nav class="navbar navbar-expand-lg navbar-dark cs-navbar">
     <div class="container">
       <a class=navbar-brand href=#>correspSearch</a>
@@ -68,63 +53,76 @@
             <a class=nav-link href=#>Participate</a>
           </li>
           <li class=nav-item>
-              <a class="nav-link quoteSalute" href="/quotesalute/index.xql?l=de">quoteSalute</a>
-            </li>
+            <a class="nav-link quoteSalute" href="/quotesalute/index.xql?l=de">quoteSalute</a>
+          </li>
         </ul>
       </div>
       <div class=cs-language-switch>
-          <div id="language">
-            <select id="languageSelect" class="form-control form-control-sm ">
-              <option value="search.xql?l=en" title="This page in english">English</option>
-              <option selected="selected" title="Diese Seite in deutsch">Deutsch</option>
-            </select>
-          </div>
-        
+        <div id="language">
+          <select id="languageSelect" class="form-control form-control-sm ">
+            <option value="search.xql?l=en" title="This page in english">English</option>
+            <option selected="selected" title="Diese Seite in deutsch">Deutsch</option>
+          </select>
+        </div>
+
       </div>
     </div>
   </nav>
   <div id="app">
-  <div class="container-fluid header cs-content-top pt-3 pb-3">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <h1 class="align-bottom mt-5">quoteSalute</h1>
-          <h2>{{ $t("general.subtitle") }}</h2>
-          <a href="https://dhd-blog.org/?p=10396" target="_blank"><img src="../resources/images/dariah-dh-award.png" id="award"></a>
-        </div>
+    <div class="container-fluid header cs-content-top pt-3 pb-3">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1 class="align-bottom mt-5">quoteSalute</h1>
+            <h2>{{ $t("general.subtitle") }}</h2>
+            <a href="https://dhd-blog.org/?p=10396" target="_blank">
+              <img src="../resources/images/dariah-dh-award.png" id="award">
+            </a>
+          </div>
         </div>
       </div>
     </div>
-  <div class="container-fluid cs-content-bottom">
-    <div class="container cs-content-box">
-      <div class="row">
-              <div class="col-sm-12 col-md-8">
-                <div class="card">
-                  <div class="card-header" id="mainHeader">
-                    <button id="refresh" class="btn btn-default" v-on:click="refresh()">
+    <div class="cs-content-bottom">
+      <div class="container cs-content-box">
+        <div class="row">
+          <div class="col-sm-12 col-md-8">
+            <div class="card">
+              <div class="card-header" id="mainHeader">
+                <div class="row">
+                  <div class="col-md-6 col-sm-12 mb-1">
+                    <button id="refresh" class="btn btn-block button" v-on:click="refresh()">
                       <i class="fa fa-redo-alt"></i> {{ $t("general.newGreeting") }}</button>
-                    <button id="copy" class="btn button" v-clipboard:copy="copyMessage" v-tippy='{ trigger: "click", arrow: true }' v-bind:title="$t('general.copyTooltip')">
+                  </div>
+                  <div class="col-md-6 col-sm-12">
+                    <button id="copy" class="btn btn-block button" v-clipboard:copy="copyMessage" v-tippy='{ trigger: "click", arrow: true }'
+                      v-bind:title="$t('general.copyTooltip')">
                       <i class="fa fa-copy"></i> quote me!</button>
                   </div>
-                  <div id="quote" class="card-body">
-                    <p>»{{ salute.quote }}«</p>
-                  </div>
-                  <div id="source" class="card-body">
-                    <a target="_blank" class="show" v-bind:href="salute.fullURL">
-                      <i class="fa fa-arrow-circle-right"></i> {{salute.edition }} </a>
-                    <br/> {{ salute.title }}
-                    <br/>
-                    <a target="_blank" id="licence" v-bind:href="salute.licenceUrl"> {{salute.licence}}</a>
-                  </div>
 
-                  <div id="filter">
-                    <div class="card-footer">
-                      <div>
-                        <h3 id="filter-headline" class="first"> {{ $t("general.filterGreetings") }}
-                        </h3>
-                      </div>
+                </div>
+
+              </div>
+              <div id="quote" class="card-body">
+                <p>»{{ salute.quote }}«</p>
+              </div>
+              <div id="source" class="card-body">
+                <a target="_blank" class="show" v-bind:href="salute.fullURL">
+                  <i class="fa fa-arrow-circle-right"></i> {{salute.edition }} </a>
+                <br/> {{ salute.title }}
+                <br/>
+                <a target="_blank" id="licence" v-bind:href="salute.licenceUrl"> {{salute.licence}}</a>
+              </div>
+
+              <div id="filter">
+                <div class="card-footer">
+                  <div>
+                    <h3 id="filter-headline" class="first"> {{ $t("general.filterGreetings") }}
+                    </h3>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 col-sm-6 col-md-8 col-lg-9">
                       <div class="row">
-                        <div id="genderSender" class="col-md-3 col-sm-6">
+                        <div id="genderSender" class="col-12 col-md-6 col-lg-4">
                           <label class="filterLabel">{{ $t("filters.sender") }}</label>
                           <div class="custom-control custom-checkbox">
                             <input type="checkbox" class="custom-control-input" id="checkboxSender-F" value="s-f" v-model="filter_sender" />
@@ -142,7 +140,7 @@
                               <i class="fa fa-genderless"></i> {{ $t("filters.neutral") }}</label>
                           </div>
                         </div>
-                        <div id="genderReceiver" class="col-md-3 col-sm-6">
+                        <div id="genderReceiver" class="col-12 col-md-6 col-lg-4">
                           <label class="filterLabel">{{ $t("filters.receiver") }}</label>
                           <div class="custom-control custom-checkbox">
                             <input type="checkbox" class="custom-control-input" id="checkboxReceiver-F" value="r-f" v-model="filter_receiver" />
@@ -157,10 +155,10 @@
                           <div class="custom-control custom-checkbox">
                             <input type="checkbox" class="custom-control-input" id="checkboxReceiver-N" value="r-n" v-model="filter_receiver" />
                             <label class="custom-control-label" for="checkboxReceiver-N">
-                               <i class="fa fa-genderless"></i> {{ $t("filters.neutral") }}</label>
+                              <i class="fa fa-genderless"></i> {{ $t("filters.neutral") }}</label>
                           </div>
                         </div>
-                        <div id="formality" class="col-md-3 col-sm-6">
+                        <div id="formality" class="col-12 col-md-12 col-lg-4">
                           <label class="filterLabel">{{ $t("filters.form") }}</label>
                           <div class="custom-control custom-checkbox">
                             <input type="checkbox" class="custom-control-input" id="checkboxFormal" value="formal" v-model="filter_type" />
@@ -173,7 +171,11 @@
                               <i class="fa fa-heart"></i> {{ $t("filters.informal") }}</label>
                           </div>
                         </div>
-                        <div id="language" class="col-md-3 col-sm-6">
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                      <div class="row">
+                        <div id="language" class="col">
                           <label class="filterLabel">{{ $t("filters.language") }}</label>
                           <div class="custom-control custom-checkbox">
                             <input type="checkbox" class="custom-control-input" id="checkboxDeu" value="deu" v-model="filter_language" />
@@ -211,72 +213,77 @@
                               <i class=""></i> {{ $t("filters.latin") }}</label>
                           </div>
                         </div>
-
                       </div>
-                      <div>
-                        <button id="filter-refresh" class="btn btn-default" v-on:click="refresh()">
+                    </div>
+                  </div>
+                  <div>
+                    <div class="row mt-4 mb-2">
+                      <div class="col-md-6 col-sm-12 mb-1">
+                        <button id="filter-refresh" class="btn btn-block" v-on:click="refresh()">
                           <i class="fas fa-check"></i> {{ $t("general.applyFilters") }}</button>
-                        <button id="filter-clear" class="btn btn-default" v-on:click="filterClear()">
+                      </div>
+                      <div class="col-md-6 col-sm-12">
+                        <button id="filter-clear" class="btn btn-block" v-on:click="filterClear()">
                           <i class="fas fa-trash-alt"></i> {{ $t("general.resetFilters") }}</button>
                         <!--<button id="filter-clear" class="btn btn-default" v-on:click="filterAll()">
                                          {{ $t("general.allFilters") }}</button>-->
                       </div>
-                      <div>
-                        <div id="error" class="alert alert-danger" role="alert" v-if="error">
-                          {{ $t("errors.noMatches ")}}
-                        </div>
-                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div id="error" class="alert alert-danger" role="alert" v-if="error">
+                      {{ $t("errors.noMatches ")}}
                     </div>
                   </div>
                 </div>
-
-                <div class="cs-content" id="project-desc">
-                    <h3 class="first">{{ $t("about.title") }}</h3>
-                    <p>
-                      {{ $t("about.paragraph1") }}
-                      <a href="index.xql?id=doc&amp;l=de">{{ $t("about.more") }}</a>
-                    </p>
-                    <p>{{ $t("about.paragraph2") }}</p>
-                    <p>{{ $t("about.questions") }}
-
-                      <a href="mailto:telota@bbaw.de">
-                        <i class="fa fa-envelope"></i> telota@bbaw.de
-                      </a>
-                    </p>
-                </div>
-
               </div>
+            </div>
 
-              <div xmlns="" id="description" class="col-sm-12 col-md-4">
-                <div id="information" class="cs-content">
-                  <h3 class="first">{{ $t("description.title") }}</h3>
-                  <p>{{ $t("description.paragraph") }}</p>
-                </div>
-                <div id="participate" class="cs-content cs-orange">
-                  <h3 class="first">{{ $t("contribute.title") }}</h3>
-                  <p>{{ $t("contribute.paragraph") }}
-                    <a href="index.xql?id=doc&amp;l=de">{{ $t("contribute.documentation") }}</a>.
-                  </p>
-                </div>
-                <div id="plugin" class="cs-content">
-                  <h3 class="first">{{ $t("plugin.title") }}</h3>
-                  <p>{{ $t("plugin.paragraph") }}
-                    <br/>
-                    <a href="https://github.com/telota/quoteSalute_xpi/releases/download/v0.2.5/quotesalute-0.2.5_build11.xpi" v-tippy="" v-bind:title="$t('plugin.tooltip')">
-                      <i class="fas fa-download"></i> {{ $t("plugin.download") }}</a>
-                    <br/>
-                    <a href="https://github.com/telota/quotesalute_xpi" target="_blank">
-                      <i class="fab fa-github"></i> {{ $t("plugin.documentation") }}</a>
-                  </p>
-                </div>
-              </div>
+            <div class="cs-content" id="project-desc">
+              <h3 class="first">{{ $t("about.title") }}</h3>
+              <p>
+                {{ $t("about.paragraph1") }}
+                <a href="index.xql?id=doc&amp;l=de">{{ $t("about.more") }}</a>
+              </p>
+              <p>{{ $t("about.paragraph2") }}</p>
+              <p>{{ $t("about.questions") }}
+
+                <a href="mailto:telota@bbaw.de">
+                  <i class="fa fa-envelope"></i> telota@bbaw.de
+                </a>
+              </p>
+            </div>
+
+          </div>
+
+          <div xmlns="" id="description" class="col-sm-12 col-md-4">
+            <div id="information" class="cs-content">
+              <h3 class="first">{{ $t("description.title") }}</h3>
+              <p>{{ $t("description.paragraph") }}</p>
+            </div>
+            <div id="participate" class="cs-content cs-orange">
+              <h3 class="first">{{ $t("contribute.title") }}</h3>
+              <p>{{ $t("contribute.paragraph") }}
+                <a href="index.xql?id=doc&amp;l=de">{{ $t("contribute.documentation") }}</a>.
+              </p>
+            </div>
+            <div id="plugin" class="cs-content">
+              <h3 class="first">{{ $t("plugin.title") }}</h3>
+              <p>{{ $t("plugin.paragraph") }}
+                <br/>
+                <a href="https://github.com/telota/quoteSalute_xpi/releases/download/v0.2.5/quotesalute-0.2.5_build11.xpi" v-tippy="" v-bind:title="$t('plugin.tooltip')">
+                  <i class="fas fa-download"></i> {{ $t("plugin.download") }}</a>
+                <br/>
+                <a href="https://github.com/telota/quotesalute_xpi" target="_blank">
+                  <i class="fab fa-github"></i> {{ $t("plugin.documentation") }}</a>
+              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+  <!-- App -->
   <footer class="container-fluid cs-footer">
     <div class="container">
       <div class="row">
@@ -343,26 +350,29 @@
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
-  (function() {
-  var u="https://piwik.bbaw.de/";
-  _paq.push(['setTrackerUrl', u+'piwik.php']);
-  _paq.push(['setSiteId', '13']);
-  var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-  g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  (function () {
+    var u = "https://piwik.bbaw.de/";
+    _paq.push(['setTrackerUrl', u + 'piwik.php']);
+    _paq.push(['setSiteId', '13']);
+    var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+    g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
   })();
 </script>
-<noscript><img src="https://piwik.bbaw.de/piwik.php?idsite=13&amp;rec=1" style="border:0" alt="" /></noscript>
+<noscript>
+  <img src="https://piwik.bbaw.de/piwik.php?idsite=13&amp;rec=1" style="border:0" alt="" />
+</noscript>
 <script>
-      $(function(){
-      // bind change event to select
-      $('#languageSelect').on('change', function () {
+  $(function () {
+    // bind change event to select
+    $('#languageSelect').on('change', function () {
       var url = $(this).val(); // get selected value
       if (url) { // require a URL
-      window.location = url; // redirect
+        window.location = url; // redirect
       }
       return false;
-      });
-      });
-  </script>
-  <script src="js/salutesig.js"></script>
+    });
+  });
+</script>
+<script src="js/salutesig.js"></script>
+
 </html>
