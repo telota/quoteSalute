@@ -1,390 +1,431 @@
 <html xmlns=http://www.w3.org/1999/xhtml>
 
 <head>
-  <meta charset=utf-8>
-  <title>quoteSalute Prototype</title>
+    <meta charset=utf-8>
+    <title>quoteSalute Prototype</title>
 
-  <!-- quoteSalute-Styles -->
-  <link rel="shortcut icon" type=image/x-icon href=http://correspsearch.net/resources/images/favicon.ico>
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="https://correspsearch.net//feed/news.rss" />
-  <link href="css/salutesig.css" rel="stylesheet" />
-  <!--correspSearch-Styles -->
-  <link rel=stylesheet type=text/css href=static/additionalCss.css rel=stylesheet media=all>
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif" rel=stylesheet>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
-    crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
-    crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9"
-    crossorigin="anonymous">
+    <!-- quoteSalute-Styles -->
+    <link rel="shortcut icon" type=image/x-icon href=http://correspsearch.net/resources/images/favicon.ico>
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="https://correspsearch.net//feed/news.rss"/>
+    <link href="css/salutesig.css" rel="stylesheet"/>
+    <!--correspSearch-Styles -->
+    <link rel=stylesheet type=text/css href=static/additionalCss.css rel=stylesheet media=all>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif" rel=stylesheet>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+          integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+          crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+            integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+            integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css"
+          integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9"
+          crossorigin="anonymous">
 </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark cs-navbar">
+<nav class="navbar navbar-expand-lg navbar-dark cs-navbar">
     <div class="container">
-      <a class=navbar-brand href=#>correspSearch</a>
-      <button class=navbar-toggler type=button data-toggle=collapse data-target=#navbarNav aria-controls=navbarNav aria-expanded=false
-        aria-label="Toggle navigation">
-        <span class=navbar-toggler-icon></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class=navbar-nav>
-          <li class="nav-item active">
-            <a class=nav-link href=index.html>Home</a>
-          </li>
-          <li class=nav-item>
-            <a class=nav-link href=#>Search</a>
-          </li>
-          <li class=nav-item>
-            <a class=nav-link href=#>Data</a>
-          </li>
-          <li class=nav-item>
-            <a class=nav-link href=about.html>About correspSearch</a>
-          </li>
-          <li class=nav-item>
-            <a class=nav-link href=#>API</a>
-          </li>
-          <li class=nav-item>
-            <a class=nav-link href=#>Participate</a>
-          </li>
-          <li class=nav-item>
-            <a class="nav-link quoteSalute" href="/quotesalute/index.xql?l=de">quoteSalute</a>
-          </li>
-        </ul>
-      </div>
-      <div class=cs-language-switch>
-        <div id="language">
-          <select id="languageSelect" class="form-control form-control-sm ">
-            <option value="search.xql?l=en" title="This page in english">English</option>
-            <option selected="selected" title="Diese Seite in deutsch">Deutsch</option>
-          </select>
+        <a class=navbar-brand href=#>correspSearch</a>
+        <button class=navbar-toggler type=button data-toggle=collapse data-target=#navbarNav aria-controls=navbarNav
+                aria-expanded=false
+                aria-label="Toggle navigation">
+            <span class=navbar-toggler-icon></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class=navbar-nav>
+                <li class="nav-item active">
+                    <a class=nav-link href=index.html>Home</a>
+                </li>
+                <li class=nav-item>
+                    <a class=nav-link href=#>Search</a>
+                </li>
+                <li class=nav-item>
+                    <a class=nav-link href=#>Data</a>
+                </li>
+                <li class=nav-item>
+                    <a class=nav-link href=about.html>About correspSearch</a>
+                </li>
+                <li class=nav-item>
+                    <a class=nav-link href=#>API</a>
+                </li>
+                <li class=nav-item>
+                    <a class=nav-link href=#>Participate</a>
+                </li>
+                <li class=nav-item>
+                    <a class="nav-link quoteSalute" href="/quotesalute/index.xql?l=de">quoteSalute</a>
+                </li>
+            </ul>
         </div>
+        <div class=cs-language-switch>
+            <div id="language">
+                <select id="languageSelect" class="form-control form-control-sm ">
+                    <option value="search.xql?l=en" title="This page in english">English</option>
+                    <option selected="selected" title="Diese Seite in deutsch">Deutsch</option>
+                </select>
+            </div>
 
-      </div>
-    </div>
-  </nav>
-  <div id="app">
-    <div class="container-fluid header cs-content-top pt-3 pb-3">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <h1 class="align-bottom mt-5">quoteSalute</h1>
-            <h2>{{ $t("general.subtitle") }}</h2>
-            <a href="https://dhd-blog.org/?p=10396" target="_blank">
-              <img src="../resources/images/dariah-dh-award.png" id="award">
-            </a>
-          </div>
         </div>
-      </div>
+    </div>
+</nav>
+<div id="app">
+    <div class="container-fluid header cs-content-top pt-3 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="align-bottom mt-5">quoteSalute</h1>
+                    <h2>{{ $t("general.subtitle") }}</h2>
+                    <a href="https://dhd-blog.org/?p=10396" target="_blank">
+                        <img src="../resources/images/dariah-dh-award.png" id="award">
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="cs-content-bottom">
-      <div class="container cs-content-box">
-        <div class="row">
-          <div class="col-sm-12 col-md-8">
-            <div class="card">
-              <div class="card-header" id="mainHeader">
-                <div class="row">
-                  <div class="col-md-6 col-sm-12 mb-1">
-                    <button id="refresh" class="btn btn-block button" v-on:click="refresh()">
-                      <i class="fa fa-redo-alt"></i> {{ $t("general.newGreeting") }}</button>
-                  </div>
-                  <div class="col-md-6 col-sm-12">
-                    <button id="copy" class="btn btn-block button" v-clipboard:copy="copyMessage" v-tippy='{ trigger: "click", arrow: true }'
-                      v-bind:title="$t('general.copyTooltip')">
-                      <i class="fa fa-copy"></i> quote me!</button>
-                  </div>
+        <div class="container cs-content-box">
+            <div class="row">
+                <div class="col-sm-12 col-md-8">
+                    <div class="card">
+                        <div class="card-header" id="mainHeader">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12 mb-1">
+                                    <button id="refresh" class="btn btn-block button" v-on:click="refresh()">
+                                        <i class="fa fa-redo-alt"></i> {{ $t("general.newGreeting") }}
+                                    </button>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <button id="copy" class="btn btn-block button" v-clipboard:copy="copyMessage"
+                                            v-tippy='{ trigger: "click", arrow: true }'
+                                            v-bind:title="$t('general.copyTooltip')">
+                                        <i class="fa fa-copy"></i> quote me!
+                                    </button>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div id="quote" class="card-body">
+                            <p>»{{ salute.quote }}«</p>
+                        </div>
+                        <div id="source" class="card-body">
+                            <a target="_blank" class="show" v-bind:href="salute.fullURL">
+                                <i class="fa fa-arrow-circle-right"></i> {{salute.edition }} </a>
+                            <br/> {{ salute.title }}
+                            <br/>
+                            <a target="_blank" id="licence" v-bind:href="salute.licenceUrl"> {{salute.licence}}</a>
+                        </div>
+
+                        <div id="filter">
+                            <div class="card-footer">
+                                <div>
+                                    <h3 id="filter-headline" class="first"> {{ $t("general.filterGreetings") }}
+                                    </h3>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-6 col-md-8 col-lg-9">
+                                        <div class="row">
+                                            <div id="genderSender" class="col-12 col-md-6 col-lg-4">
+                                                <label class="filterLabel">{{ $t("filters.sender") }}</label>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input"
+                                                           id="checkboxSender-F" value="s-f" v-model="filter_sender"/>
+                                                    <label class="custom-control-label" for="checkboxSender-F">
+                                                        <i class="fa fa-venus"></i> {{ $t("filters.female") }}</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input"
+                                                           id="checkboxSender-M" value="s-m" v-model="filter_sender"/>
+                                                    <label class="custom-control-label" for="checkboxSender-M">
+                                                        <i class="fa fa-mars"></i> {{ $t("filters.male") }}</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input"
+                                                           id="checkboxSender-N" value="s-n" v-model="filter_sender"/>
+                                                    <label class="custom-control-label" for="checkboxSender-N">
+                                                        <i class="fa fa-genderless"></i> {{ $t("filters.neutral")
+                                                        }}</label>
+                                                </div>
+                                            </div>
+                                            <div id="genderReceiver" class="col-12 col-md-6 col-lg-4">
+                                                <label class="filterLabel">{{ $t("filters.receiver") }}</label>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input"
+                                                           id="checkboxReceiver-F" value="r-f"
+                                                           v-model="filter_receiver"/>
+                                                    <label class="custom-control-label" for="checkboxReceiver-F">
+                                                        <i class="fa fa-venus"></i> {{ $t("filters.female") }}</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input"
+                                                           id="checkboxReceiver-M" value="r-m"
+                                                           v-model="filter_receiver"/>
+                                                    <label class="custom-control-label" for="checkboxReceiver-M">
+                                                        <i class="fa fa-mars"></i> {{ $t("filters.male") }}</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input"
+                                                           id="checkboxReceiver-N" value="r-n"
+                                                           v-model="filter_receiver"/>
+                                                    <label class="custom-control-label" for="checkboxReceiver-N">
+                                                        <i class="fa fa-genderless"></i> {{ $t("filters.neutral")
+                                                        }}</label>
+                                                </div>
+                                            </div>
+                                            <div id="formality" class="col-12 col-md-12 col-lg-4">
+                                                <label class="filterLabel">{{ $t("filters.form") }}</label>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input"
+                                                           id="checkboxFormal" value="formal" v-model="filter_type"/>
+                                                    <label class="custom-control-label" for="checkboxFormal">
+                                                        <i class="fa fa-handshake"></i> {{ $t("filters.formal")
+                                                        }}</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input"
+                                                           id="checkboxInformal" value="informal"
+                                                           v-model="filter_type"/>
+                                                    <label class="custom-control-label" for="checkboxInformal">
+                                                        <i class="fa fa-heart"></i> {{ $t("filters.informal") }}</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                        <div class="row">
+                                            <div id="language" class="col">
+                                                <label class="filterLabel">{{ $t("filters.language") }}</label>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="checkboxDeu"
+                                                           value="deu" v-model="filter_language"/>
+                                                    <label class="custom-control-label" for="checkboxDeu">
+                                                        <i class=""></i> {{ $t("filters.german") }}</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="checkboxEng"
+                                                           value="eng" v-model="filter_language"/>
+                                                    <label class="custom-control-label" for="checkboxEng">
+                                                        <i class=""></i> {{ $t("filters.english") }}</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="checkboxSpa"
+                                                           value="spa" v-model="filter_language"/>
+                                                    <label class="custom-control-label" for="checkboxSpa">
+                                                        <i class=""></i> {{ $t("filters.spanish") }}</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="checkboxIta"
+                                                           value="ita" v-model="filter_language"/>
+                                                    <label class="custom-control-label" for="checkboxIta">
+                                                        <i class=""></i> {{ $t("filters.italian") }}</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="checkboxFra"
+                                                           value="fra" v-model="filter_language"/>
+                                                    <label class="custom-control-label" for="checkboxFra">
+                                                        <i class=""></i> {{ $t("filters.french") }}</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="checkboxGrc"
+                                                           value="grc" v-model="filter_language"/>
+                                                    <label class="custom-control-label" for="checkboxGrc">
+                                                        <i class=""></i> {{ $t("filters.greek") }}</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="checkboxLat"
+                                                           value="lat" v-model="filter_language"/>
+                                                    <label class="custom-control-label" for="checkboxLat">
+                                                        <i class=""></i> {{ $t("filters.latin") }}</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="row mt-4 mb-2">
+                                        <div class="col-md-6 col-sm-12 mb-1">
+                                            <button id="filter-refresh" class="btn btn-block" v-on:click="refresh()">
+                                                <i class="fas fa-check"></i> {{ $t("general.applyFilters") }}
+                                            </button>
+                                        </div>
+                                        <div class="col-md-6 col-sm-12">
+                                            <button id="filter-clear" class="btn btn-block" v-on:click="filterClear()">
+                                                <i class="fas fa-trash-alt"></i> {{ $t("general.resetFilters") }}
+                                            </button>
+                                            <!--<button id="filter-clear" class="btn btn-default" v-on:click="filterAll()">
+                                                             {{ $t("general.allFilters") }}</button>-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div id="error" class="alert alert-danger" role="alert" v-if="error">
+                                        {{ $t("errors.noMatches ")}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cs-content" id="project-desc">
+                        <h3 class="first">{{ $t("about.title") }}</h3>
+                        <p>
+                            {{ $t("about.paragraph1") }}
+                            <a href="index.xql?id=doc&amp;l=de">{{ $t("about.more") }}</a>
+                        </p>
+                        <p>{{ $t("about.paragraph2") }}</p>
+                        <p>{{ $t("about.questions") }}
+
+                            <a href="mailto:telota@bbaw.de">
+                                <i class="fa fa-envelope"></i> telota@bbaw.de
+                            </a>
+                        </p>
+                    </div>
 
                 </div>
 
-              </div>
-              <div id="quote" class="card-body">
-                <p>»{{ salute.quote }}«</p>
-              </div>
-              <div id="source" class="card-body">
-                <a target="_blank" class="show" v-bind:href="salute.fullURL">
-                  <i class="fa fa-arrow-circle-right"></i> {{salute.edition }} </a>
-                <br/> {{ salute.title }}
-                <br/>
-                <a target="_blank" id="licence" v-bind:href="salute.licenceUrl"> {{salute.licence}}</a>
-              </div>
-
-              <div id="filter">
-                <div class="card-footer">
-                  <div>
-                    <h3 id="filter-headline" class="first"> {{ $t("general.filterGreetings") }}
-                    </h3>
-                  </div>
-                  <div class="row">
-                    <div class="col-12 col-sm-6 col-md-8 col-lg-9">
-                      <div class="row">
-                        <div id="genderSender" class="col-12 col-md-6 col-lg-4">
-                          <label class="filterLabel">{{ $t("filters.sender") }}</label>
-                          <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="checkboxSender-F" value="s-f" v-model="filter_sender" />
-                            <label class="custom-control-label" for="checkboxSender-F">
-                              <i class="fa fa-venus"></i> {{ $t("filters.female") }}</label>
-                          </div>
-                          <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="checkboxSender-M" value="s-m" v-model="filter_sender" />
-                            <label class="custom-control-label" for="checkboxSender-M">
-                              <i class="fa fa-mars"></i> {{ $t("filters.male") }}</label>
-                          </div>
-                          <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="checkboxSender-N" value="s-n" v-model="filter_sender" />
-                            <label class="custom-control-label" for="checkboxSender-N">
-                              <i class="fa fa-genderless"></i> {{ $t("filters.neutral") }}</label>
-                          </div>
-                        </div>
-                        <div id="genderReceiver" class="col-12 col-md-6 col-lg-4">
-                          <label class="filterLabel">{{ $t("filters.receiver") }}</label>
-                          <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="checkboxReceiver-F" value="r-f" v-model="filter_receiver" />
-                            <label class="custom-control-label" for="checkboxReceiver-F">
-                              <i class="fa fa-venus"></i> {{ $t("filters.female") }}</label>
-                          </div>
-                          <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="checkboxReceiver-M" value="r-m" v-model="filter_receiver" />
-                            <label class="custom-control-label" for="checkboxReceiver-M">
-                              <i class="fa fa-mars"></i> {{ $t("filters.male") }}</label>
-                          </div>
-                          <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="checkboxReceiver-N" value="r-n" v-model="filter_receiver" />
-                            <label class="custom-control-label" for="checkboxReceiver-N">
-                              <i class="fa fa-genderless"></i> {{ $t("filters.neutral") }}</label>
-                          </div>
-                        </div>
-                        <div id="formality" class="col-12 col-md-12 col-lg-4">
-                          <label class="filterLabel">{{ $t("filters.form") }}</label>
-                          <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="checkboxFormal" value="formal" v-model="filter_type" />
-                            <label class="custom-control-label" for="checkboxFormal">
-                              <i class="fa fa-handshake"></i> {{ $t("filters.formal") }}</label>
-                          </div>
-                          <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="checkboxInformal" value="informal" v-model="filter_type" />
-                            <label class="custom-control-label" for="checkboxInformal">
-                              <i class="fa fa-heart"></i> {{ $t("filters.informal") }}</label>
-                          </div>
-                        </div>
-                      </div>
+                <div xmlns="" id="description" class="col-sm-12 col-md-4">
+                    <div id="information" class="cs-content">
+                        <h3 class="first">{{ $t("description.title") }}</h3>
+                        <p>{{ $t("description.paragraph") }}</p>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                      <div class="row">
-                        <div id="language" class="col">
-                          <label class="filterLabel">{{ $t("filters.language") }}</label>
-                          <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="checkboxDeu" value="deu" v-model="filter_language" />
-                            <label class="custom-control-label" for="checkboxDeu">
-                              <i class=""></i> {{ $t("filters.german") }}</label>
-                          </div>
-                          <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="checkboxEng" value="eng" v-model="filter_language" />
-                            <label class="custom-control-label" for="checkboxEng">
-                              <i class=""></i> {{ $t("filters.english") }}</label>
-                          </div>
-                          <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="checkboxSpa" value="spa" v-model="filter_language" />
-                            <label class="custom-control-label" for="checkboxSpa">
-                              <i class=""></i> {{ $t("filters.spanish") }}</label>
-                          </div>
-                          <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="checkboxIta" value="ita" v-model="filter_language" />
-                            <label class="custom-control-label" for="checkboxIta">
-                              <i class=""></i> {{ $t("filters.italian") }}</label>
-                          </div>
-                          <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="checkboxFra" value="fra" v-model="filter_language" />
-                            <label class="custom-control-label" for="checkboxFra">
-                              <i class=""></i> {{ $t("filters.french") }}</label>
-                          </div>
-                          <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="checkboxGrc" value="grc" v-model="filter_language" />
-                            <label class="custom-control-label" for="checkboxGrc">
-                              <i class=""></i> {{ $t("filters.greek") }}</label>
-                          </div>
-                          <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="checkboxLat" value="lat" v-model="filter_language" />
-                            <label class="custom-control-label" for="checkboxLat">
-                              <i class=""></i> {{ $t("filters.latin") }}</label>
-                          </div>
+                    <div id="participate" class="cs-content cs-orange">
+                        <h3 class="first">{{ $t("contribute.title") }}</h3>
+                        <p>{{ $t("contribute.paragraph") }}
+                            <a href="index.xql?id=doc&amp;l=de">{{ $t("contribute.documentation") }}</a>.
+                        </p>
+                    </div>
+                    <div id="plugin" class="cs-content">
+                        <h3 class="first">{{ $t("plugin.title") }}</h3>
+                        <p>{{ $t("plugin.paragraph") }}
+                            <br/>
+                            <a href="https://github.com/telota/quoteSalute_xpi/releases/download/v0.2.5/quotesalute-0.2.5_build11.xpi"
+                               v-tippy="" v-bind:title="$t('plugin.tooltip')">
+                                <i class="fas fa-download"></i> {{ $t("plugin.download") }}</a>
+                            <br/>
+                            <a href="https://github.com/telota/quotesalute_xpi" target="_blank">
+                                <i class="fab fa-github"></i> {{ $t("plugin.documentation") }}</a>
+                        </p>
+                    </div>
+                    <!--Bootstrap card without border and radius-->
+                    <div id="postcard" class="card" style="border: none">
+                        <img class="card-img-top" src="img/postcard-example.PNG" alt="quoteSalute Postkarte">
+                        <div class="card-body" style="padding-left: 15px; padding-right: 15px">
+                            <h3 class="card-title">{{ $t("postcard.title") }}</h3>
+                            <p class="card-text">{{ $t("postcard.paragraph") }}</p>
+                            <a class="card-link"
+                               href="https://github.com/telota/quoteSalute/tree/master/doc/postcard-templates"
+                               target="_blank">
+                                <i class="fab fa-github"></i> {{ $t("postcard.documentation") }}
+                            </a>
                         </div>
-                      </div>
                     </div>
-                  </div>
-                  <div>
-                    <div class="row mt-4 mb-2">
-                      <div class="col-md-6 col-sm-12 mb-1">
-                        <button id="filter-refresh" class="btn btn-block" v-on:click="refresh()">
-                          <i class="fas fa-check"></i> {{ $t("general.applyFilters") }}</button>
-                      </div>
-                      <div class="col-md-6 col-sm-12">
-                        <button id="filter-clear" class="btn btn-block" v-on:click="filterClear()">
-                          <i class="fas fa-trash-alt"></i> {{ $t("general.resetFilters") }}</button>
-                        <!--<button id="filter-clear" class="btn btn-default" v-on:click="filterAll()">
-                                         {{ $t("general.allFilters") }}</button>-->
-                      </div>
-                    </div>
-                  </div>
-                  <div>
-                    <div id="error" class="alert alert-danger" role="alert" v-if="error">
-                      {{ $t("errors.noMatches ")}}
-                    </div>
-                  </div>
                 </div>
-              </div>
             </div>
-
-            <div class="cs-content" id="project-desc">
-              <h3 class="first">{{ $t("about.title") }}</h3>
-              <p>
-                {{ $t("about.paragraph1") }}
-                <a href="index.xql?id=doc&amp;l=de">{{ $t("about.more") }}</a>
-              </p>
-              <p>{{ $t("about.paragraph2") }}</p>
-              <p>{{ $t("about.questions") }}
-
-                <a href="mailto:telota@bbaw.de">
-                  <i class="fa fa-envelope"></i> telota@bbaw.de
-                </a>
-              </p>
-            </div>
-
-          </div>
-
-          <div xmlns="" id="description" class="col-sm-12 col-md-4">
-            <div id="information" class="cs-content">
-              <h3 class="first">{{ $t("description.title") }}</h3>
-              <p>{{ $t("description.paragraph") }}</p>
-            </div>
-            <div id="participate" class="cs-content cs-orange">
-              <h3 class="first">{{ $t("contribute.title") }}</h3>
-              <p>{{ $t("contribute.paragraph") }}
-                <a href="index.xql?id=doc&amp;l=de">{{ $t("contribute.documentation") }}</a>.
-              </p>
-            </div>
-            <div id="plugin" class="cs-content">
-              <h3 class="first">{{ $t("plugin.title") }}</h3>
-              <p>{{ $t("plugin.paragraph") }}
-                <br/>
-                <a href="https://github.com/telota/quoteSalute_xpi/releases/download/v0.2.5/quotesalute-0.2.5_build11.xpi" v-tippy="" v-bind:title="$t('plugin.tooltip')">
-                  <i class="fas fa-download"></i> {{ $t("plugin.download") }}</a>
-                <br/>
-                <a href="https://github.com/telota/quotesalute_xpi" target="_blank">
-                  <i class="fab fa-github"></i> {{ $t("plugin.documentation") }}</a>
-              </p>
-            </div>
-            <div id="plugin" class="cs-content">
-              <h3 class="first">{{ $t("postcard.title") }}</h3>
-              <p>{{ $t("postcard.paragraph") }}
-                <div>
-                <a href="https://github.com/telota/quoteSalute/tree/master/doc/postcard-templates">
-                  <!--<img src="https://correspsearch.net//resources/images/postcard-example.PNG">-->
-                  <img id="postcard" src="img/postcard-example.PNG">
-                </a>
-              </div>
-                <a href="https://github.com/telota/quoteSalute/tree/master/doc/postcard-templates" target="_blank">
-                  <i class="fab fa-github"></i> {{ $t("postcard.documentation") }}</a>
-              </p>
-            </div>
-          </div>
         </div>
-      </div>
     </div>
-  </div>
-  <!-- App -->
-  <footer class="container-fluid cs-footer">
+</div>
+<!-- App -->
+<footer class="container-fluid cs-footer">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-3">
-          <ul class="cs-footer-website">
-            <h3>Website</h3>
-            <li>
-              <a href="/index.xql?id=about&amp;l=en">About correspSearch</a>
-            </li>
-            <li>
-              <a href="/index.xql?id=legal&amp;l=en">Legal notice &amp; privacy</a>
-            </li>
-            <li>
-              <a href="https://twitter.com/correspSearch" target="_blank">
-                <i class="fab fa-twitter"></i> Follow us on Twitter</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-sm-3">
-          <p style="line-height: normal;">
-            correspSearch is a web service analysing files which are based on the TEI extension
-            <a href="https://github.com/TEI-Correspondence-SIG/correspDesc">"correspDesc"</a> of the
-            <a href="http://www.tei-c.org/Activities/SIG/Correspondence/index.xml">TEI Correspondence SIG</a>.
-            <a href="https://correspsearch.net//index.xql?id=about&amp;l=en">[more]</a>
-          </p>
-          <p style="line-height: normal;">
-            The further development of correspSearch is funded by the German Research Foundation (DFG).
-          </p>
-        </div>
-        <div class="col-sm-6">
-          <div class="row">
+        <div class="row">
             <div class="col-sm-3">
-              <a href="http://www.tei-c.org">
-                <img src="https://correspsearch.net//resources/images/tei_logo.png">
-              </a>
+                <ul class="cs-footer-website">
+                    <h3>Website</h3>
+                    <li>
+                        <a href="/index.xql?id=about&amp;l=en">About correspSearch</a>
+                    </li>
+                    <li>
+                        <a href="/index.xql?id=legal&amp;l=en">Legal notice &amp; privacy</a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/correspSearch" target="_blank">
+                            <i class="fab fa-twitter"></i> Follow us on Twitter</a>
+                    </li>
+                </ul>
             </div>
-            <div class="col-sm-4">
-              <a href="http://www.exist-db.org">
-                <img src="https://correspsearch.net//resources/images/powered-by_white.svg" title="Powered by Open-Source-Software existdb"
-                  width="140px">
-              </a>
+            <div class="col-sm-3">
+                <p style="line-height: normal;">
+                    correspSearch is a web service analysing files which are based on the TEI extension
+                    <a href="https://github.com/TEI-Correspondence-SIG/correspDesc">"correspDesc"</a> of the
+                    <a href="http://www.tei-c.org/Activities/SIG/Correspondence/index.xml">TEI Correspondence SIG</a>.
+                    <a href="https://correspsearch.net//index.xql?id=about&amp;l=en">[more]</a>
+                </p>
+                <p style="line-height: normal;">
+                    The further development of correspSearch is funded by the German Research Foundation (DFG).
+                </p>
             </div>
-            <div class="col-sm-5">
-              <a href="http://www.bbaw.de">
-                <img src="https://correspsearch.net//resources/images/bbaw_logo.png" title="Developed by TELOTA, Berlin-Brandenburg Academy of Sciences and Humanities">
-              </a>
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <a href="http://www.tei-c.org">
+                            <img src="https://correspsearch.net//resources/images/tei_logo.png">
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="http://www.exist-db.org">
+                            <img src="https://correspsearch.net//resources/images/powered-by_white.svg"
+                                 title="Powered by Open-Source-Software existdb"
+                                 width="140px">
+                        </a>
+                    </div>
+                    <div class="col-sm-5">
+                        <a href="http://www.bbaw.de">
+                            <img src="https://correspsearch.net//resources/images/bbaw_logo.png"
+                                 title="Developed by TELOTA, Berlin-Brandenburg Academy of Sciences and Humanities">
+                        </a>
+                    </div>
+                    <div class="col-sm-7">
+                        <a href="http://www.dfg.de">
+                            <img src="https://correspsearch.net//resources/images/Logo_DFG.svg"
+                                 title="Gefördert durch die Deutsche Forschungsgemeinschaft"
+                                 width="300px">
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-7">
-              <a href="http://www.dfg.de">
-                <img src="https://correspsearch.net//resources/images/Logo_DFG.svg" title="Gefördert durch die Deutsche Forschungsgemeinschaft"
-                  width="300px">
-              </a>
-            </div>
-          </div>
         </div>
-      </div>
     </div>
-  </footer>
+</footer>
 </body>
 <script type="text/javascript">
-  var _paq = _paq || [];
-  _paq.push(["setVisitorCookieTimeout", "604800"]);
-  _paq.push(["setSessionCookieTimeout", "0"]);
-  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function () {
-    var u = "https://piwik.bbaw.de/";
-    _paq.push(['setTrackerUrl', u + 'piwik.php']);
-    _paq.push(['setSiteId', '13']);
-    var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
-    g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
-  })();
+    var _paq = _paq || [];
+    _paq.push(["setVisitorCookieTimeout", "604800"]);
+    _paq.push(["setSessionCookieTimeout", "0"]);
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function () {
+        var u = "https://piwik.bbaw.de/";
+        _paq.push(['setTrackerUrl', u + 'piwik.php']);
+        _paq.push(['setSiteId', '13']);
+        var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+        g.type = 'text/javascript';
+        g.async = true;
+        g.defer = true;
+        g.src = u + 'piwik.js';
+        s.parentNode.insertBefore(g, s);
+    })();
 </script>
 <noscript>
-  <img src="https://piwik.bbaw.de/piwik.php?idsite=13&amp;rec=1" style="border:0" alt="" />
+    <img src="https://piwik.bbaw.de/piwik.php?idsite=13&amp;rec=1" style="border:0" alt=""/>
 </noscript>
 <script>
-  $(function () {
-    // bind change event to select
-    $('#languageSelect').on('change', function () {
-      var url = $(this).val(); // get selected value
-      if (url) { // require a URL
-        window.location = url; // redirect
-      }
-      return false;
+    $(function () {
+        // bind change event to select
+        $('#languageSelect').on('change', function () {
+            var url = $(this).val(); // get selected value
+            if (url) { // require a URL
+                window.location = url; // redirect
+            }
+            return false;
+        });
     });
-  });
 </script>
 <script src="js/salutesig.js"></script>
 
