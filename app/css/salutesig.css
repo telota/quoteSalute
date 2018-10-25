@@ -11,28 +11,27 @@ div img#betabutton {
     color: white;
     font-family: 'PT Sans';
 }
- 
+
 button#refresh {
     background-color: #F7931E;
     color: white;
     font-family: 'PT Sans';
-}    
-    
+}
 
 #filter-refresh {
     margin-right: 0.5em;
     background-color: rgb(233, 232, 232);
     font-family: 'PT Sans';
 }
+
 #filter-clear {
     margin-right: 0.5em;
     background-color: rgb(233, 232, 232);
     font-family: 'PT Sans';
 }
 
-
 #filter-headline {
-    padding-bottom: 0.5em; 
+    padding-bottom: 0.5em;
 }
 
 #filter {
@@ -63,17 +62,14 @@ button#refresh {
     margin-top: auto;
     margin-bottom: 5px;
 }
+
 .card-header a:hover {
     color: #294c72;
 }
 
 img {
-/*    max-width: 100%;*/
+    /*    max-width: 100%;*/
     height: auto;
-}
-
-img#postcard {
-   max-width: auto;
 }
 
 .card-body {
@@ -93,8 +89,7 @@ img#postcard {
     color: #3098D1;
 }
 
-
-.custom-checkbox .custom-control-input:checked~.custom-control-label::after {
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
     background-color: #3098D1;
     border-radius: 0.25em;
 }
@@ -102,6 +97,7 @@ img#postcard {
 #project-desc {
     margin-top: 1em;
 }
+
 h3.first {
     font-weight: bold;
 }
