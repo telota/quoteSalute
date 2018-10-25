@@ -50,6 +50,11 @@ export default {
         tooltip: 'Rechtsklick, speichern unter. Anschließend die heruntergeladene .xpi-Datei mit Thunderbird installieren',
         documentation: 'Mehr Informationen',
     },
+    postcard: {
+        title: 'Postkarte drucken!',
+        paragraph: 'Sie möchten ihre Lieblingsgrußformel auf eine Postkarte drucken und diese an ein*e Freund*in versenden? In unserem GitHub Repository finden Sie eine ai-Vorlage!',
+        documentation: 'Postkartenvorlage',
+    },
     errors: {
         noMatches: 'Es wurde leider keine passende Grußformel gefunden. Bitte nutzen Sie eine andere Filterkombination.'
     }

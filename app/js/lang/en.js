@@ -47,7 +47,13 @@ export default {
         paragraph: 'You want to insert greetings even easier? With the quoteSalute-Thunderbird Plugin (beta-version) this is possible. Just download and install the plugin into your Thunderbird Mailclient! Let’s quote salute!',
         download: 'Download',
         tooltip: 'Right-click, save as..., Install the downloaded .xpi-file using Thunderbird',
-        documentation: 'More informationen',
+        documentation: 'More information',
+    },
+
+    postcard: {
+        title: 'Print your postcard!',
+        paragraph: 'You want to print your favourite greeting on a postcard and send it to a friend? Find an ai-template in our GitHub repository!',
+        documentation: 'Postcard template',
     },
 
     errors: {
