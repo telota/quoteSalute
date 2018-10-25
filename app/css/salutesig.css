@@ -72,6 +72,10 @@ img {
     height: auto;
 }
 
+img#postcard {
+   max-width: auto;
+}
+
 .card-body {
     background-color: white;
 }
