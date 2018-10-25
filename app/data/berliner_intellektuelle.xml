@@ -388,7 +388,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="fra" ana="#informal #s-n #r-n">
+               <quote xml:lang="deu" ana="#informal #s-n #r-n">
                   adieu
                     Guter und tausend Seegen.</quote>
                <bibl>
@@ -748,7 +748,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-n #r-m">Meine Grüsse Ihrer
+               <quote xml:lang="deu" ana="#formal #s-n #r-m">Meine Grüsse Ihrer
                      Frau
                   und
                   Kindern, Krause
@@ -961,7 +961,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-m #r-n">Mit der herzlichsten
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Mit der herzlichsten
                   Verehrung Ihr</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
@@ -972,7 +972,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-m #r-n">Mit höchster Verehrung und herzlicher Ergebenheit 
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">Mit höchster Verehrung und herzlicher Ergebenheit 
                   stets der Ihrige
                </quote>
                <bibl>
@@ -1015,7 +1015,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-m #r-n">ganz der Ihrige</quote>
+               <quote xml:lang="deu" ana="#formal #s-m #r-n">ganz der Ihrige</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um
                      1800</title>
@@ -1117,7 +1117,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="deu" ana="#informal #s-n #r-n">Die Eltern
+               <quote xml:lang="deu" ana="#formal #s-n #r-n">Die Eltern
                   und Agnes tragen mir tausend herzliche Grüße
                   auf, auch die 
                   Gräfin empfiehlt sich Ihnen. Leben Sie wohl und erfreuen
@@ -1227,7 +1227,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote xml:lang="fra" ana="#informal #s-m #r-n">je suis avec le plus  profond
+               <quote xml:lang="fra" ana="#formal #s-m #r-n">je suis avec le plus  profond
                   respect Votre très-humble Serviteur et Neveu</quote>
                <bibl>
                   <title type="edition">Briefe und Texte aus dem intellektuellen Berlin um

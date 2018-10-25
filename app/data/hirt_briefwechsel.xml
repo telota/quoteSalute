@@ -286,7 +286,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n" xml:lang="deu">Erhalten Sie mich in freundschaftlichem
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Erhalten Sie mich in freundschaftlichem
                   Andenken, und bleiben Sie von meiner ganzen Hochachtung überzeugt  Ihr
                   ergebenster</quote>
                <bibl>
@@ -459,7 +459,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n" xml:lang="deu">Hiemit wie immer der Ihrige</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Hiemit wie immer der Ihrige</quote>
                <bibl>
                   <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
                   <title type="letter">An Karl August Böttiger. Berlin, 25. November 1820.
@@ -506,7 +506,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n" xml:lang="deu">State bene, ed amate mi il vostro
+               <quote ana="#informal #s-m #r-n" xml:lang="ita">State bene, ed amate mi il vostro
                   vero amico</quote>
                <bibl>
                   <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
@@ -720,7 +720,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n" xml:lang="deu">Herzlich  Ihr ergebner</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Herzlich  Ihr ergebner</quote>
                <bibl>
                   <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
                   <title type="letter">An Friedrich Münter, Berlin, nach 12. Februar 1824</title>
@@ -1055,7 +1055,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n" xml:lang="deu">Wie immer der Ihrige</quote>
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Wie immer der Ihrige</quote>
                <bibl>
                   <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>
                   <title type="letter">An Karl August Böttiger. Berlin, den 19. November 1800.
@@ -1105,7 +1105,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-n" xml:lang="deu">Dieß zum freundschaftlichen Andenken
+               <quote ana="#informal #s-n #r-n" xml:lang="deu">Dieß zum freundschaftlichen Andenken
                   von</quote>
                <bibl>
                   <title type="edition">Aloys Hirt – Briefwechsel 1787–1837</title>

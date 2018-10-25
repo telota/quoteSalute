@@ -98,7 +98,7 @@
       <body>
          <div type="included">
             <cit>
-               <quote ana="#informal #s-m #r-n" xml:lang="deu"> Meine Frau wünscht die empfohlen zu
+               <quote ana="#informal #s-n #r-n" xml:lang="deu"> Meine Frau wünscht die empfohlen zu
                   sein und ich bitte um die Fortdauer deiner freundschaftlichen Zuneigung </quote>
                <bibl>
                   <title type="edition">Lebenswelten, Erfahrungsräume und politische Horizonte der
@@ -177,7 +177,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu"> Euer Hochgeboren ganz ergebenster </quote>
+               <quote ana="#formal #s-m #r-m" xml:lang="deu"> Euer Hochgeboren ganz ergebenster </quote>
                <bibl>
                   <title type="edition">Lebenswelten, Erfahrungsräume und politische Horizonte der
                      ostpreußischen Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</title>
@@ -187,7 +187,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu"> Der ich mit unbegrenzter Hochachtung
+               <quote ana="#formal #s-n #r-m" xml:lang="deu"> Der ich mit unbegrenzter Hochachtung
                   beharre  Ew. Hochwürden Hochgeboren ganz gehorsamster Diener </quote>
                <bibl>
                   <title type="edition">Lebenswelten, Erfahrungsräume und politische Horizonte der
@@ -272,7 +272,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu"> Vortre tres humble et tres ob...
+               <quote ana="#formal #s-m #r-n" xml:lang="fra"> Vortre tres humble et tres ob...
                   serviteur </quote>
                <bibl>
                   <title type="edition">Lebenswelten, Erfahrungsräume und politische Horizonte der
@@ -358,7 +358,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-f #r-n" xml:lang="deu"> In aufrichtiger Verehrung  Ihre
+               <quote ana="#formal #s-f #r-n" xml:lang="deu"> In aufrichtiger Verehrung  Ihre
                   ergebene </quote>
                <bibl>
                   <title type="edition">Lebenswelten, Erfahrungsräume und politische Horizonte der
@@ -369,7 +369,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-f" xml:lang="deu"> Mit tiefer Verehrung habe ich die
+               <quote ana="#formal #s-m #r-f" xml:lang="deu"> Mit tiefer Verehrung habe ich die
                   Ehre mich zu nennen Gnädigster Gräfin ganz gehorsamster </quote>
                <bibl>
                   <title type="edition">Lebenswelten, Erfahrungsräume und politische Horizonte der
@@ -414,7 +414,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-m" xml:lang="deu"> Es sind die Gesinnungen der
+               <quote ana="#formal #s-m #r-m" xml:lang="deu"> Es sind die Gesinnungen der
                   vorzüglichsten Hochachtung und wahren freundschaftlichen Anhänglichkeit, mit denen
                   ich verharre, teurer Herr Graf  Ew. Exzellenz ganz ergebenster Diener </quote>
                <bibl>
@@ -456,7 +456,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu"> Dein gehorsamster Neffe </quote>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu"> Dein gehorsamster Neffe </quote>
                <bibl>
                   <title type="edition">Lebenswelten, Erfahrungsräume und politische Horizonte der
                      ostpreußischen Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</title>
@@ -478,10 +478,10 @@
             </cit>
             <cit>
                <quote ana="#formal #s-m #r-n" xml:lang="deu">
-                  
+
                      treu der Ihrige
-                     
-                  
+
+
                </quote>
                <bibl>
                   <title type="edition">Lebenswelten, Erfahrungsräume und politische Horizonte der
@@ -696,7 +696,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu"> Bis dahin lebe wohl, erhalte immer
+               <quote ana="#informal #s-m #r-n" xml:lang="deu"> Bis dahin lebe wohl, erhalte immer
                   dein Wohlwollen deinem treu ergebenen </quote>
                <bibl>
                   <title type="edition">Lebenswelten, Erfahrungsräume und politische Horizonte der
@@ -731,11 +731,11 @@
             </cit>
             <cit>
                <quote ana="#formal #s-f #r-n" xml:lang="deu"> Die ich in tiefster Submission
-                  verbleibe  
-                  
+                  verbleibe
+
                      Euer Königlichen Majestät alleruntertänigste
-                     
-                  
+
+
                </quote>
                <bibl>
                   <title type="edition">Lebenswelten, Erfahrungsräume und politische Horizonte der
@@ -769,7 +769,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-f" xml:lang="deu"> Gottes Segen über Sie, meine teure
+               <quote ana="#informal #s-n #r-f" xml:lang="deu"> Gottes Segen über Sie, meine teure
                   Mutter </quote>
                <bibl>
                   <title type="edition">Lebenswelten, Erfahrungsräume und politische Horizonte der
@@ -800,7 +800,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-m" xml:lang="deu"> Mit dem herzlichsten Wunsche, dass
+               <quote ana="#formal #s-m #r-n" xml:lang="deu"> Mit dem herzlichsten Wunsche, dass
                   Sie und Comtesse glücklich rückkehren, verbinde ich die Bitte, Letztere wie Carol,
                   Rudolch und Mokritz von mir herzliche Grüße zu bestellen. In treuester Ergebenheit
                   bin ich Ihr gehorsamster Diener </quote>
@@ -835,7 +835,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n" xml:lang="deu"> Gott erhalte Euch und führe Euch auf
+               <quote ana="#formal #s-m #r-n" xml:lang="deu"> Gott erhalte Euch und führe Euch auf
                   ebener Bahn zu Eurem wahren Freunde </quote>
                <bibl>
                   <title type="edition">Lebenswelten, Erfahrungsräume und politische Horizonte der
@@ -1009,7 +1009,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-n #r-n" xml:lang="deu"> ganz der Deinige </quote>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu"> ganz der Deinige </quote>
                <bibl>
                   <title type="edition">Lebenswelten, Erfahrungsräume und politische Horizonte der
                      ostpreußischen Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</title>
@@ -1133,7 +1133,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-f #r-n" xml:lang="deu"> Gott segne!, Gott erhalte uns
+               <quote ana="#formal #s-f #r-m" xml:lang="deu"> Gott segne!, Gott erhalte uns
                   unseren geliebten Kaiser, das erfleht bei dem baldigen Segen meines neuen
                   Lebensjahres mit doppelter Inbrunst Euer Majestät alleruntertänigste </quote>
                <bibl>
@@ -1168,9 +1168,9 @@
             <cit>
                <quote ana="#formal #s-m #r-n" xml:lang="deu"> Mit den lebhaftesten, auch von
                   meiner Frau gesagten Wünschen für Ihro und dero verehrter Angehörigen Wohlgeboren,
-                  insbesondere auch für eine baldige 
+                  insbesondere auch für eine baldige
                      Genesung
-                     
+
                    Ihres teuren Herrn Gemahls von seinem Halsleiden zeichne ich mich unter dem
                   Ausdruck der vorzüglichsten Hochachtung der Verehrung </quote>
                <bibl>
@@ -1214,7 +1214,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu"> Meine Frau empfiehlt sich mit mir
+               <quote ana="#formal #s-n #r-f" xml:lang="deu"> Meine Frau empfiehlt sich mit mir
                   ganz untertänigst der gnädigsten Frau Gräfin und deren ganzem teuren Hause in Groß
                   und Klein. Gott der Herr segne dasselbe in Haupt und Gliedern.  In treuester
                   Dankbarkeit gehorsamst. </quote>
@@ -1284,7 +1284,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-f #r-n" xml:lang="deu"> Ich ersterbe meines allergnädigsten
+               <quote ana="#formal #s-f #r-m" xml:lang="deu"> Ich ersterbe meines allergnädigsten
                   Kaisers und Königs alleruntertänigste </quote>
                <bibl>
                   <title type="edition">Lebenswelten, Erfahrungsräume und politische Horizonte der
@@ -1295,7 +1295,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-f #r-m" xml:lang="deu"> Deine treue Mutter Lehndorff </quote>
+               <quote ana="#informal #s-f #r-n" xml:lang="deu"> Deine treue Mutter Lehndorff </quote>
                <bibl>
                   <title type="edition">Lebenswelten, Erfahrungsräume und politische Horizonte der
                      ostpreußischen Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</title>
@@ -1327,7 +1327,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-f #r-n" xml:lang="deu"> Mit den herzlichsten Grüßen für die
+               <quote ana="#formal #s-f #r-m" xml:lang="deu"> Mit den herzlichsten Grüßen für die
                   liebe Gräfin, verbleibe ich mein bester Graf, Ihre sehr ergebene </quote>
                <bibl>
                   <title type="edition">Lebenswelten, Erfahrungsräume und politische Horizonte der
@@ -1426,7 +1426,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu"> Ihr Freund </quote>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu"> Ihr Freund </quote>
                <bibl>
                   <title type="edition">Lebenswelten, Erfahrungsräume und politische Horizonte der
                      ostpreußischen Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</title>
@@ -1518,7 +1518,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-m" xml:lang="deu"> Mit der Bitte mich Ihrer
+               <quote ana="#formal #s-m #r-n" xml:lang="deu"> Mit der Bitte mich Ihrer
                   Hochverehrten Frau Gemahlin bestens zu empfehlen Ihr ganz ergebener </quote>
                <bibl>
                   <title type="edition">Lebenswelten, Erfahrungsräume und politische Horizonte der
@@ -1529,7 +1529,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-m" xml:lang="deu"> In
+               <quote ana="#formal #s-m #r-n" xml:lang="deu"> In
                   [<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>...<?oxy_custom_end?>?]
                   Hochachtung habe ich die Ehre zu sein  Ew. Hochwohlgeboren ganz ergebener </quote>
                <bibl>
@@ -1595,7 +1595,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu"> Dein treuer Bruder </quote>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu"> Dein treuer Bruder </quote>
                <bibl>
                   <title type="edition">Lebenswelten, Erfahrungsräume und politische Horizonte der
                      ostpreußischen Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</title>
@@ -1616,7 +1616,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-f" xml:lang="deu"> Indem ich mir nun noch gestatte,
+               <quote ana="#formal #s-m #r-n" xml:lang="deu"> Indem ich mir nun noch gestatte,
                   meine eigenen ehrerbietigsten Empfehlungen und an Ihren Herrn Gemahl
                   freundlichsten Gruß hinzuzufügen, verharre ich mit dem Ausdruck vorzüglichster
                   Verehrung und Hochachtung als der gnädigsten Gräfin gehorsamster Diener </quote>
@@ -1630,7 +1630,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-m" xml:lang="deu"> In der festen Hoffnung, Ew.
+               <quote ana="#informal #s-m #r-n" xml:lang="deu"> In der festen Hoffnung, Ew.
                   Hochgeboren Gnaden diesen Sommer persönlich zu sehen und zu sprechen, verharre mit
                   aller Hochschätzung und Freundschaft  Ew. Hochgeboren ganz ergebenster Freund
                   und Diener </quote>
@@ -1654,7 +1654,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n" xml:lang="deu"> Mit den herzlichsten Wünschen, dass
+               <quote ana="#formal #s-m #r-n" xml:lang="deu"> Mit den herzlichsten Wünschen, dass
                   sie gestärkt wieder zu uns kommen und mit meinen Empfehlungen an Frau Gräfin
                   Reichenbach und Ihre Kinder bin ich in tiefster Ergebenheit Ihro Hochgeboren
                   gehorsamster Diener </quote>
@@ -1740,7 +1740,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-n #r-m" xml:lang="deu"> In tiefster Ehrfurcht ersterben wir
+               <quote ana="#formal #s-n #r-n" xml:lang="deu"> In tiefster Ehrfurcht ersterben wir
                   als Euer Königlichen Majestät alleruntertänigst treu gehorsamste </quote>
                <bibl>
                   <title type="edition">Lebenswelten, Erfahrungsräume und politische Horizonte der
@@ -1860,7 +1860,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-n #r-m" xml:lang="deu"> Addio, caro amice </quote>
+               <quote ana="#informal #s-n #r-m" xml:lang="ita"> Addio, caro amice </quote>
                <bibl>
                   <title type="edition">Lebenswelten, Erfahrungsräume und politische Horizonte der
                      ostpreußischen Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</title>
@@ -1880,7 +1880,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-m" xml:lang="deu"> Ich wünsche Ihnen und Ihrer Frau
+               <quote ana="#formal #s-m #r-n" xml:lang="deu"> Ich wünsche Ihnen und Ihrer Frau
                   Gemahlin nun noch für den Rest der Ferien das schönste Wetter und schließe mit
                   einer Empfehlung als Ihr ganz gehorsamster </quote>
                <bibl>
@@ -1970,7 +1970,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-n #r-n" xml:lang="deu"> Gott erhalte Sie und sei Ihr Schutz
+               <quote ana="#formal #s-n #r-n" xml:lang="deu"> Gott erhalte Sie und sei Ihr Schutz
                   das von Herzen </quote>
                <bibl>
                   <title type="edition">Lebenswelten, Erfahrungsräume und politische Horizonte der

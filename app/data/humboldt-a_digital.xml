@@ -133,7 +133,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#informal #s-m #r-n" xml:lang="deu">Mit tiefster Verehrung Ihr
+               <quote ana="#formal #s-m #r-n" xml:lang="deu">Mit tiefster Verehrung Ihr
                    dankbar ergebenster</quote>
                <bibl>
                   <title type="edition">edition humboldt digital</title>
@@ -259,7 +259,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-m" xml:lang="deu">Leben Sie wohl, mein Bester! 
+               <quote ana="#informal #s-m #r-m" xml:lang="deu">Leben Sie wohl, mein Bester! 
                   
                      Forsters
                      
@@ -272,7 +272,7 @@
                </bibl>
             </cit>
             <cit>
-               <quote ana="#formal #s-m #r-n" xml:lang="deu">Ihren närrischen</quote>
+               <quote ana="#informal #s-m #r-n" xml:lang="deu">Ihren närrischen</quote>
                <bibl>
                   <title type="edition">edition humboldt digital</title>
                   <title type="letter">Alexander von Humboldt an Samuel Thomas Soemmerring. Berg, 5.
