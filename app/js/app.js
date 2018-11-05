@@ -106,13 +106,14 @@ const app = new Vue({
             return allLanguage.join('X');
         },
         copyMessage() {
-            return `»${this.salute.quote}« \n
+            return `»${this.salute.quote}«
+            --
             ${this.salute.title}
             ${this.salute.edition}
             ${this.salute.fullURL}
             --
             powered by http://quoteSalute.net/
-            `;
+            `.replace(/^(\s)*/gm, '');
         }
 
     },
