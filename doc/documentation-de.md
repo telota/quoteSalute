@@ -55,7 +55,7 @@ Für eine Beteiligung Ihres Projektes benötigen wir eine TEI-XML-Datei mit den 
 
 ## Filtern ermöglichen
 
-Wenn Sie möchten, dass Ihre Grußformeln mit der Filterfunktion durchsuchbar sind, müssen Sie die Grußformeln inhaltlich prüfen. Dabei erhält jede Grußformel ein Attribut @ana, mit dem verzeichnet wird, ob (1) aus dem Sinnzusammenhang der Grußformel das Geschlecht von Sender*in und/oder Empfänger*in deutlich wird und ob (2) das Zitat formal oder freundschaftlich zu verstehen ist. Zudem sollten Sie die Sprache der Grußformel auszeichnen. Ansonsten werden Ihre Grußformeln nur dann angezeigt, wenn keine Filter gesetzt sind!
+Wenn Sie möchten, dass Ihre Grußformeln mit der Filterfunktion durchsuchbar sind, müssen Sie die Grußformeln inhaltlich prüfen. Dabei erhält jede Grußformel ein Attribut @ana, mit dem verzeichnet wird, ob (1) aus dem Sinnzusammenhang der Grußformel das Geschlecht von Sender *in und/oder Empfänger* in deutlich wird und ob (2) das Zitat formal oder freundschaftlich zu verstehen ist. Zudem sollten Sie die Sprache der Grußformel auszeichnen. Ansonsten werden Ihre Grußformeln nur dann angezeigt, wenn keine Filter gesetzt sind!
 
 ## Kodierung
 
