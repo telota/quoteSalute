@@ -61,11 +61,11 @@
                of historical correspondences and enables the integration of academic Editions work
                in your everyday communication.</p>
             <p>quoteSalute was developed by a student project of Lou Klappenbach, Marvin Kullick and
-               Louisa Philipp, supervised by Stefan Dumont, Frederike Neuber and Oliver Pohl in the
+               Luisa Philipp, supervised by Stefan Dumont, Frederike Neuber and Oliver Pohl in the
                Digital Humanities Working Group <ref target="http://www.bbaw.de/telota">TELOTA</ref>
                and the project <ref target="http:/correspSearch.net?l=en">"correspSearch - Letter
                   editions network"</ref> at the Berlin-Brandenburg Academy of Sciences and
-               Humanities. </p>
+               Humanities.</p>
          </div>
          <div xml:id="a2">
             <head>Search Salutes</head>
@@ -302,7 +302,7 @@
                <head>Salutations in //text</head>
                <row role="label">
                   <cell>XPath (Relative to //text)</cell>
-                  <cell>Descrition</cell>
+                  <cell>Description</cell>
                   <cell>Value(s) and example(s)</cell>
                </row>
                <row>
@@ -378,7 +378,7 @@
                   </row>
                   <row>
                      <cell rend="code">#informal</cell>
-                     <cell>Salutation is amicably.</cell>
+                     <cell>Salutation is amicable.</cell>
                   </row>
                </table>
             </div>
@@ -388,7 +388,7 @@
                   person (if apparent in the text):</p>
                <table>
                   <row role="label">
-                     <cell>Valute</cell>
+                     <cell>Value</cell>
                      <cell>Description</cell>
                   </row>
                   <row>
@@ -423,7 +423,7 @@
             <div>
                <head>Examples of Annotation</head>
                <div>
-                  <head>Examples 1</head>
+                  <head>Example 1</head>
                   <p>Salutation is in German, of formal character and does not imply a recognizable
                      gender for both sender and recipient.</p>
                   <p>
@@ -432,7 +432,7 @@
                   </p>
                </div>
                <div>
-                  <head>Examples 2</head>
+                  <head>Example 2</head>
                   <p>Salutation is in German, informal in character and implies that the sender is
                      male and no gender can be specified for the recipient.</p>
                   <p>
@@ -441,7 +441,7 @@
                   </p>
                </div>
                <div>
-                  <head>Examples 3</head>
+                  <head>Example 3</head>
                   <p>Salutation is in German, of formal character and implies that the sender is
                      male and the recipient is female.</p>
                   <p>
@@ -450,7 +450,7 @@
                   </p>
                </div>
                <div>
-                  <head>Examples 4</head>
+                  <head>Example 4</head>
                   <p>Salutation is in English, of formal character and implies that the recipient is
                      male while there is no specification of the senders gender.</p>
                   <p>
@@ -461,7 +461,7 @@
             </div>
          </div>
          <div xml:id="a11">
-            <head>Literature</head>
+            <head>Bibliography</head>
             <list>
                <item>Bürgel, Peter. 1976. „Der Privatbrief. Entwurf eines heuristischen Modells“.
                   Deutsche Vierteljahresschrift für Literaturwissenschaft und Geistesgeschichte 50:

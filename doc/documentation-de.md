@@ -1,15 +1,16 @@
- 
-# Über das Projekt
+# quoteSalute Dokumentation
+
+## Über das Projekt
 
 quoteSalute bietet inspirierende Grußformeln aus digitalen Briefeditionen für Ihre E-Mail-Korrespondenz. Die Anwendung schafft so einen spielerischen Zugang in die Welt historischer Korrespondenzen und ermöglicht die Einbindung wissenschaftlicher Editionsarbeit in Ihre Alltagskommunikation.
 
 Entstanden ist quoteSalute durch ein studentisches Projekt von Lou Klappenbach, Marvin Kullick und Louisa Philipp, betreut von Stefan Dumont, Frederike Neuber und Oliver Pohl im Rahmen der Digital Humanities-Arbeitsgruppe [TELOTA](http://www.bbaw.de/telota) und dem Projekt [“correspSearch - Briefeditionen vernetzen”](http:/correspSearch.net?l=de) an der Berlin-Brandenburgischen Akademie der Wissenschaften.
 
-# Grußformeln suchen
+## Grußformeln suchen
 
 Auf der Webseite können Sie direkt nach Grußformeln stöbern. Wenn Ihnen die angezeigte Grußformel nicht gefällt, generieren Sie sich einfach mit Klick auf den orangenen Refresh-Button eine andere. Mit Filtern können Sie die Suchanfrage außerdem nach Ihren Wünschen einschränken. Haben Sie die passende Grußformel gefunden, können Sie sie mit dem Copy-Button ganz einfach kopieren. Öffnen Sie das E-Mail-Programm Ihrer Wahl und dann einfach in die nächste Mail einfügen und versenden!
 
-# Textkorpus
+## Textkorpus
 
 Ein kuratiertes Korpus aus Grußformeln verschiedener digitaler Briefeditionen ist die Grundlage von quoteSalute. Dafür wurden <salute>-Elemente aus den TEI/XML-Daten der Editionen automatisiert extrahiert und für jede Edition eine TEI/XML-Datei erstellt, die eine Liste der Grußformeln sowie dazugehörige bibliographische Angaben enthält. Bei der Kuratierung wurden die Daten (1) von Wiederholungen, unpassenden Inhalten und sehr kurzen Grußformeln bereinigt und (2) mit einem eigenen Tagging versehen, um ein späteres Filtern der Grußformeln zu ermöglichen. Die Grußformeln wurden nach drei Kriterien getaggt. Zum einen wurde festgestellt, ob die Grußformel inhaltlich eher formal oder freundschaftlich anmutet. Zum anderen wurde verzeichnet, ob das Geschlecht von Sender*in oder Empfänger*in aus dem Sinnzusammenhang deutlich wird. Und schließlich wurde die jeweilige Sprache ausgezeichnet. Dieses Tagging ermöglicht die Filterfunktion und macht, zusammen mit der o.g. Bereinigung, eine Kuratierung der Daten notwendig.
 
@@ -30,8 +31,7 @@ Der Textkorpus wird derzeit von folgenden digitalen Briefeditionen gespeist:
 * Arthur Schnitzler, Hermann Bahr: Briefwechsel, Materialien, Dokumente 1891–1931. Herausgegeben von Kurt Ifkovits und Martin Anton Müller. 2018. URL: [https://bahrschnitzler.acdh.oeaw.ac.at](https://bahrschnitzler.acdh.oeaw.ac.at)
 * DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade, Mainz, Akademie der Wissenschaften und der Literatur, 2018. URL: [https://sturm-edition.de/quellen/briefe.html](https://sturm-edition.de/quellen/briefe.html)
 
-
-# Hintergrund
+## Hintergrund
 
 Anrede und Grußformel waren (und sind) wesentliche Elemente der schriftlichen Kommunikation, insbesondere des Briefes.Sie weisen zum einen daraufhin, dass Briefe „ad-hoc Schriftlichkeit“ abbilden und ihnen eine gewisse Nähe zur Mündlichkeit innewohnt (Elspaß 2011, 24 u. 27), denn der formale Aufbau eines Briefes folgt dem Ablauf eines Gesprächs: Hinwendung zum Partner – Vortrag der Information, der Bitte etc. – und Abwendung vom Partner (Nickisch 1991, 9-10). Nicht grundlos wurden Briefe schon im 18. und 19. Jahrhundert als „Gespräch unter Abwesenden“ verstanden, obwohl sie letzten Endes dann doch kein Gespräch sind, sondern es nur zu ersetzen suchen und dabei spezifischen Bedingungen unterliegen (Bürgel 1976, 287-288; Reinlein 2003, 54-55).
 
@@ -43,21 +43,21 @@ Ausgewertet wurden allerdings nur die Grußformeln – nicht die Anreden. Das is
 
 Gleichwohl quoteSalute in erster Linie einen spielerischen Umgang mit dem Material ermöglicht, zeigt es doch den wissenschaftlichen und literarischen Wert von Grußformeln in Briefen auf.
 
-# Technologien
+## Technologien
 
 Das Generieren der Grußformeln wurde in einer Webapplikation umgesetzt. Diese wurde mit HTML, CSS und Javascript realisiert. Zusätzlich benutzen wir das Front-End-Framework VueJS für die Verarbeitung der Daten und für den dynamischen Austausch von HTML-Elementen und ziehen Bootstrap zur einheitlichen Darstellung auf der Website zur Hilfe. Als Datenbank nutzen wir eXist db, die Datenbankabfrage erfolgt mittels XQuery und die Response-Daten werden im JSON-Format ausgegeben.
 
-# Mitmachen
+## Mitmachen
 
 Sie arbeiten an einer Digitalen Briefedition und finden die Grußformeln Ihrer Korrespondenz sollten auch in quoteSalute mit dabei sein? Gerne möchten wir unseren Datenbestand erweitern. Jede digitale Briefedition, die auf dem TEI-Format basiert, kommt grundsätzlich für eine Integration in quoteSalute in Frage.
 
 Für eine Beteiligung Ihres Projektes benötigen wir eine TEI-XML-Datei mit den Grußformeln Ihrer digitalen Briefedition. Damit Sie diese möglichst einfach generieren können, stellen wir Ihnen eine [Beispieldatei](https://github.com/telota/quoteSalute/blob/master/doc/example.xml) und eine leere [template-Datei](https://github.com/telota/quoteSalute/blob/master/doc/template.xml) zur Verfügung. Ihre Datei sollte neben den Grußformeln auch zugehörige bibliographische Angaben (Titel der Edition, Titel des Briefs) und einen Link zur Webansicht des jeweiligen Briefes in der digitalen Edition enthalten. Technische Details zur Erstellung der quoteSalute-konformen TEI-XML-Datei entnehmen Sie bitte der untenstehenden Tabelle, in der die TEI-Elemente und ihre Funktion aufgelistet sind sowie den Kommentaren in der Template- und Beispieldatei.
 
-# Filtern ermöglichen
+## Filtern ermöglichen
 
-Wenn Sie möchten, dass Ihre Grußformeln mit der Filterfunktion durchsuchbar sind, müssen Sie die Grußformeln inhaltlich prüfen. Dabei erhält jede Grußformel ein Attribut @ana, mit dem verzeichnet wird, ob (1) aus dem Sinnzusammenhang der Grußformel das Geschlecht von Sender*in und/oder Empfänger*in deutlich wird und ob (2) das Zitat formal oder freundschaftlich zu verstehen ist. Zudem sollten Sie die Sprache der Grußformel auszeichnen. Ansonsten werden Ihre Grußformeln nur dann angezeigt, wenn keine Filter gesetzt sind!
+Wenn Sie möchten, dass Ihre Grußformeln mit der Filterfunktion durchsuchbar sind, müssen Sie die Grußformeln inhaltlich prüfen. Dabei erhält jede Grußformel ein Attribut @ana, mit dem verzeichnet wird, ob (1) aus dem Sinnzusammenhang der Grußformel das Geschlecht von Sender *in und/oder Empfänger* in deutlich wird und ob (2) das Zitat formal oder freundschaftlich zu verstehen ist. Zudem sollten Sie die Sprache der Grußformel auszeichnen. Ansonsten werden Ihre Grußformeln nur dann angezeigt, wenn keine Filter gesetzt sind!
 
-# Kodierung
+## Kodierung
 
 Die folgenden Tabellen bieten detaillierte Informationen über die Struktur der benötigten TEI XML Datei, die für eine Einbindung Ihrer Grußformeln in quoteSalute erforderlich ist.
 
@@ -82,9 +82,9 @@ Die folgenden Tabellen bieten detaillierte Informationen über die Struktur der 
 |/div/cit/title[@type="edition"]|Titel der Edition aus der die Grußformel stammt.||
 |/div/cit/bibl/ref/@target|Das @target enthält die URL, die auf den Brief in der digitalen Edition verlinkt.|E.g. `"http://edition-humboldt.de/H0002656"`|
 
-## Taxonomien
+### Taxonomien
 
-### Formalität
+#### Formalität
 
 Je nachdem, ob die Grußformel eher formellen oder eher informellen Charakter hat, kann einer der folgenden Werte gesetzt werden:
 
@@ -93,7 +93,7 @@ Je nachdem, ob die Grußformel eher formellen oder eher informellen Charakter ha
 |#formal|Grußformel ist förmlich.|
 |#informal|Grußformel ist freundschaftlich.|
 
-### Geschlecht
+#### Geschlecht
 
 Für das im Text abgebildete Geschlecht der Sprechenden bzw. Angesprochenen kann jeweils einer der folgenden Werte gesetzt werden:
 
@@ -108,27 +108,27 @@ Für das im Text abgebildete Geschlecht der Sprechenden bzw. Angesprochenen kann
 
 Ebenfalls eine Filtermöglichkeit stellt die Sprache dar, in der die Grußformel verfasst ist. Sie wird in `quote/@xml:id` notiert (siehe [oben](#note-language)).
 
-### Beispiele für die Annotation
+#### Beispiele für die Annotation
 
-#### Beispiel 1
+##### Beispiel 1
 
 Grußformel ist in deutscher Sprache, von formellem Charakter und impliziert sowohl für Sender und Empfänger kein erkennbares Geschlecht.
 
 `<quote xml:lang="deu" ana="#formal #s-n #r-n">Bis dahin empfiehlt sich Ihrem Wohlwollen hochachtungsvoll</quote>`
 
-#### Beispiel 2
+##### Beispiel 2
 
 Grußformel ist in deutscher Sprache, von informellem Charakter und impliziert, dass der Sender männlich ist und für den Empfänger kein Geschlecht spezifiziert werden kann.
 
 `<quote xml:lang="deu" ana="#informal #s-m #r-n">Ihr treuer Diener</quote>`
 
-#### Beispiel 3
+##### Beispiel 3
 
 Grußformel ist in lateinischer Sprache, von formellem Charakter und impliziert, dass der Sender männlichen und die Empfängerin weiblichen Geschlechts ist.
 
 `<quote xml:lang="lat" ana="#formal #s-m #r-f">Gottes Segen über Sie, meine teure Mutter</quote>`
 
-### Verwendete Literatur
+#### Verwendete Literatur
 
 * Bürgel, Peter. 1976. „Der Privatbrief. Entwurf eines heuristischen Modells“. Deutsche Vierteljahresschrift für Literaturwissenschaft und Geistesgeschichte 50: 281–97. 
 * Elspaß, Stephan. 2011. Sprachgeschichte von unten. Untersuchungen zum geschriebenen Alltagsdeutsch im 19. Jahrhundert. Reihe Germanistische Linguistik 263. Berlin, Boston: De Gruyter.
