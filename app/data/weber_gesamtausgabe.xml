@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -99,7 +99,7 @@
                <bibl>
                   <title type="edition">WeGA, Briefe, Digitale Edition</title>
                   <title type="letter">Carl Maria von Weber an Carl August Fesca in Wien
-                     <lb/>Dresden, Donnerstag, 27 Februar 1817</title>
+                      Dresden, Donnerstag, 27 Februar 1817</title>
                   <ref target="http://weber-gesamtausgabe.de/A041065"/>
                </bibl>
             </cit>
@@ -109,7 +109,7 @@
                <bibl>
                   <title type="edition">WeGA, Briefe, Digitale Edition</title>
                   <title type="letter">Carl Maria von Weber an Karl Graf von Brühl in Berlin
-                     <lb/>Dresden, Donnerstag, 27. Februar 1817</title>
+                      Dresden, Donnerstag, 27. Februar 1817</title>
                   <ref target="https://weber-gesamtausgabe.de/A041066"/>
                </bibl>
             </cit>
@@ -118,7 +118,7 @@
                <bibl>
                   <title type="edition">WeGA, Briefe, Digitale Edition</title>
                   <title type="letter">Carl Maria von Weber an Johann Friedrich Rochlitz in Leipzig
-                     <lb/>Dresden, Donnerstag, 27. Februar 1817</title>
+                      Dresden, Donnerstag, 27. Februar 1817</title>
                   <ref target="https://weber-gesamtausgabe.de/A041058"/>
                </bibl>
             </cit>
@@ -126,7 +126,7 @@
                <quote xml:lang="deu" ana="#formal #s-n #r-n"> Grüße an Alle. </quote>
                <bibl>
                   <title type="edition">WeGA, Briefe, Digitale Edition</title>
-                  <title type="letter">Carl Maria von Weber an Caroline Brandt in Prag <lb/>Dresden,
+                  <title type="letter">Carl Maria von Weber an Caroline Brandt in Prag  Dresden,
                      Sonntag, 23. bis Montag, 24. Februar 1817 (Nr. 29) </title>
                   <ref target="http://weber-gesamtausgabe.de/A041056"/>
                </bibl>
@@ -137,7 +137,7 @@
                <bibl>
                   <title type="edition">WeGA, Briefe, Digitale Edition</title>
                   <title type="letter">Carl Maria von Weber an Friederike Türke in Berlin
-                     <lb/>Dresden, 9. März 1818</title>
+                      Dresden, 9. März 1818</title>
                   <ref target="https://weber-gesamtausgabe.de/A041401"/>
                </bibl>
             </cit>
@@ -149,7 +149,7 @@
                   pateris, obsecro. </quote>
                <bibl>
                   <title type="edition">WeGA, Briefe, Digitale Edition</title>
-                  <title type="letter">Carl Maria von Weber an Papst Pius VII. in Rom <lb/>Dresden,
+                  <title type="letter">Carl Maria von Weber an Papst Pius VII. in Rom  Dresden,
                      1. November 1818</title>
                   <ref target="http://weber-gesamtausgabe.de/A041458"/>
                </bibl>
