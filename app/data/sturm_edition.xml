@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -62,14 +61,11 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note type="data_integration">The data was taken over from <ref
-                        target="https://github.com/digicademy/sturm-exist-app"
-                        >https://github.com/digicademy/sturm-exist-app</ref> on 10.8.2018. Later
+                <note type="data_integration">The data was taken over from <ref target="https://github.com/digicademy/sturm-exist-app">https://github.com/digicademy/sturm-exist-app</ref> on 10.8.2018. Later
                     published contents of the edition may be added in the future.</note>
                 <note type="selection">For quoteSalute, those salutes were selected that are
                     relevant for the application in terms of content, form and length. More
-                    information on selection and tagging can be found in the <ref
-                        target="https://correspsearch.net/salute/dokumentation">documentation of the
+                    information on selection and tagging can be found in the <ref target="https://correspsearch.net/salute/dokumentation">documentation of the
                         project</ref>.</note>
             </notesStmt>
             <sourceDesc>
@@ -177,11 +173,7 @@
                     </bibl>
                 </cit>
                 <cit>
-                    <quote xml:lang="deu" ana="#formal #s-n #r-n">Viele herzliche Grüszen für Ihnen und Ihre <persName
-                            key="P.0000002" ref="http://d-nb.info/gnd/118891456" instant="false"
-                            full="yes">Frau</persName> auch von Fräulein <persName key="P.0000008"
-                            ref="http://d-nb.info/gnd/136128289" instant="false" full="yes"
-                            >Tak</persName>. Hochachtungsvoll</quote>
+                    <quote xml:lang="deu" ana="#formal #s-n #r-n">Viele herzliche Grüszen für Ihnen und Ihre Frau auch von Fräulein Tak. Hochachtungsvoll</quote>
                     <bibl>
                         <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
                         <title>Jacoba van Heemskerck an Herwarth Walden, 22. März 1914, Den
@@ -361,8 +353,7 @@
                     </bibl>
                 </cit>
                 <cit>
-                    <quote xml:lang="deu" ana="#formal #s-n #r-n">Für diesen Abend nur noch herzlichste <hi
-                            rend="underline">Grüss</hi>e für Sie beide</quote>
+                    <quote xml:lang="deu" ana="#formal #s-n #r-n">Für diesen Abend nur noch herzlichste Grüsse für Sie beide</quote>
                     <bibl>
                         <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
                         <title>Jacoba van Heemskerck an Herwarth Walden, 18. Juni 1915, Loverendale,
@@ -381,7 +372,7 @@
                     </bibl>
                 </cit>
                 <cit>
-                    <quote xml:lang="deu" ana="#formal #s-n #r-n">Jetzt <foreign>adieu</foreign> auf ein baldiges
+                    <quote xml:lang="deu" ana="#formal #s-n #r-n">Jetzt adieu auf ein baldiges
                         Wiedersehen</quote>
                     <bibl>
                         <edition>DER STURM - Digitale Quellenedition zur Geschichte der Avantgarde </edition>
