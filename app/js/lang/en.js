@@ -8,6 +8,13 @@ export default {
         allFilters: 'All Filters',
         copyTooltip: "Copied!",
     },
+    newfilters: {
+        femalesender: 'I am not a man!',
+        malesender: 'I am not a woman!',
+        formal: 'I dont want anything informal!',
+        informal: 'I dont want anything formal!',
+        language: 'I want another language!'
+    },
     filters: {
         sender: 'From',
         receiver: 'To',

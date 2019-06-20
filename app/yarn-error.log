@@ -2,13 +2,13 @@ Arguments:
   C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js webpack
 
 PATH: 
-  C:\Program Files\ImageMagick-6.9.2-Q16;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\xampp\php;C:\HashiCorp\Vagrant\bin;C:\Users\klappenbach\AppData\Local\Programs\Python\Python36;C:\Program Files\Git\cmd;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\Users\klappenbach\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\klappenbach\AppData\Local\Yarn\bin;C:\Users\klappenbach\AppData\Roaming\npm
+  C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\MiKTeX 2.9\miktex\bin\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Calibre2\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\OpenVPN\bin;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Users\Lou\AppData\Local\Microsoft\WindowsApps;C:\Users\Lou\AppData\Roaming\MiKTeX\2.9\miktex\bin\x64\
 
 Yarn version: 
   1.5.1
 
 Node version: 
-  8.10.0
+  8.9.4
 
 Platform: 
   win32 x64
@@ -4738,9 +4738,9 @@ Lockfile:
 Trace: 
   Error: Command failed.
   Exit code: 2
-  Command: C:\Windows\system32\cmd.exe
-  Arguments: /d /s /c C:\Users\klappenbach\Desktop\austausch_saluteSig\app\node_modules\.bin\webpack
-  Directory: C:\Users\klappenbach\Desktop\austausch_saluteSig\app
+  Command: C:\WINDOWS\system32\cmd.exe
+  Arguments: /d /s /c C:\Users\Lou\desktop\salutesig\app\node_modules\.bin\webpack
+  Directory: C:\Users\Lou\desktop\salutesig\app
   Output:
   
       at ProcessTermError.MessageError (C:\Program Files (x86)\Yarn\lib\cli.js:186:110)
