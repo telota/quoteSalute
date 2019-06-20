@@ -2,12 +2,12 @@
 
 <head>
     <meta charset=utf-8>
-    <title>quoteSalute Prototype</title>
+    <title>quoteSalute</title>
 
     <!-- quoteSalute-Styles -->
     <link rel="shortcut icon" type=image/x-icon href=http://correspsearch.net/resources/images/favicon.ico>
     <link rel="alternate" type="application/rss+xml" title="RSS" href="https://correspsearch.net//feed/news.rss" />
-    <link href="css/salutesig.css" rel="stylesheet" />
+    <link href="css/quotesalute.css" rel="stylesheet" />
     <!--correspSearch-Styles -->
     <link rel=stylesheet type=text/css href=static/additionalCss.css rel=stylesheet media=all>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif" rel=stylesheet>
@@ -30,8 +30,8 @@
             <a class=navbar-brand href=#>correspSearch</a>
             <button class=navbar-toggler type=button data-toggle=collapse data-target=#navbarNav aria-controls=navbarNav aria-expanded=false
                 aria-label="Toggle navigation">
-            <span class=navbar-toggler-icon></span>
-        </button>
+                <span class=navbar-toggler-icon></span>
+            </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class=navbar-nav>
                     <li class="nav-item active">
@@ -60,9 +60,9 @@
             <div class=cs-language-switch>
                 <div id="language">
                     <select id="languageSelect" class="form-control form-control-sm ">
-                    <option value="search.xql?l=en" title="This page in english">English</option>
-                    <option selected="selected" title="Diese Seite in deutsch">Deutsch</option>
-                </select>
+                        <option value="search.xql?l=en" title="This page in english">English</option>
+                        <option selected="selected" title="Diese Seite in deutsch">Deutsch</option>
+                    </select>
                 </div>
 
             </div>
@@ -76,8 +76,8 @@
                         <h1 class="align-bottom mt-5">quoteSalute</h1>
                         <h2>{{ $t("general.subtitle") }}</h2>
                         <a href="https://dhd-blog.org/?p=10396" target="_blank">
-                        <img src="../resources/images/dariah-dh-award.png" id="award">
-                    </a>
+                            <img src="../resources/images/dariah-dh-award.png" id="award">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -91,23 +91,22 @@
 
                 <div id="source">
                     <a target="_blank" class="show" v-bind:href="salute.fullURL">
-                                <i class="fa fa-arrow-circle-right"></i> {{salute.edition }} </a>
+                        <i class="fa fa-arrow-circle-right"></i> {{salute.edition }} </a>
                     <br/> {{ salute.title }}
                     <br/>
                     <a target="_blank" id="licence" v-bind:href="salute.licenceUrl"> {{salute.licence}}</a>
                 </div>
-
-                <button id="refresh" class="btn button" v-on:click="refresh()">
-                        <i class="fa fa-redo-alt"></i> {{ $t("general.newGreeting") }}
+                <div id="buttons">
+                    <button id="refresh" class="btn button" v-on:click="refresh()">
+                        <i class="fa fa-redo-alt"></i>
                     </button>
-                <button id="filter" class="btn button" v-on:click="refresh()">
+                    <button id="filter" class="btn button" v-on:click="refresh()">
                         <i class="fas fa-transgender"></i> {{ $t("newfilters.femalesender") }}
-                        </button>
-                <button id="copy" class="btn button" v-clipboard:copy="copyMessage" v-tippy='{ trigger: "click", arrow: true }'
-                    v-bind:title="$t('general.copyTooltip')">
-                            <i class="fa fa-copy"></i> copy
-                        </button>
-
+                    </button>
+                    <button id="copy" class="btn button" v-clipboard:copy="copyMessage" v-tippy='{ trigger: "click", arrow: true }' v-bind:title="$t('general.copyTooltip')">
+                        <i class="fa fa-copy"></i>
+                    </button>
+                </div>
 
 
 
@@ -133,7 +132,7 @@
                         </li>
                         <li>
                             <a href="https://twitter.com/correspSearch" target="_blank">
-                            <i class="fab fa-twitter"></i> Follow us on Twitter</a>
+                                <i class="fab fa-twitter"></i> Follow us on Twitter</a>
                         </li>
                     </ul>
                 </div>
@@ -152,28 +151,25 @@
                     <div class="row">
                         <div class="col-sm-3">
                             <a href="http://www.tei-c.org">
-                            <img src="https://correspsearch.net//resources/images/tei_logo.png">
-                        </a>
+                                <img src="https://correspsearch.net//resources/images/tei_logo.png">
+                            </a>
                         </div>
                         <div class="col-sm-4">
                             <a href="http://www.exist-db.org">
-                            <img src="https://correspsearch.net//resources/images/powered-by_white.svg"
-                                 title="Powered by Open-Source-Software existdb"
-                                 width="140px">
-                        </a>
+                                <img src="https://correspsearch.net//resources/images/powered-by_white.svg" title="Powered by Open-Source-Software existdb"
+                                    width="140px">
+                            </a>
                         </div>
                         <div class="col-sm-5">
                             <a href="http://www.bbaw.de">
-                            <img src="https://correspsearch.net//resources/images/bbaw_logo.png"
-                                 title="Developed by TELOTA, Berlin-Brandenburg Academy of Sciences and Humanities">
-                        </a>
+                                <img src="https://correspsearch.net//resources/images/bbaw_logo.png" title="Developed by TELOTA, Berlin-Brandenburg Academy of Sciences and Humanities">
+                            </a>
                         </div>
                         <div class="col-sm-7">
                             <a href="http://www.dfg.de">
-                            <img src="https://correspsearch.net//resources/images/Logo_DFG.svg"
-                                 title="Gefördert durch die Deutsche Forschungsgemeinschaft"
-                                 width="300px">
-                        </a>
+                                <img src="https://correspsearch.net//resources/images/Logo_DFG.svg" title="Gefördert durch die Deutsche Forschungsgemeinschaft"
+                                    width="300px">
+                            </a>
                         </div>
                     </div>
                 </div>
