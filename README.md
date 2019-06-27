@@ -25,4 +25,4 @@ Die Grußformel Ihrer digitalen Briefedition sollen bei quoteSalute dabei sein? 
 
 ## Lizenzen Daten des Textkorpus
 
-siehe [Dokumentation](https://github.com/telota/quoteSalute/blob/master/doc/documentation-de.md#textkorpus) oder Metadaten in den einzelnen Dateien
+siehe [Dokumentation](https://github.com/telota/quoteSalute/blob/master/doc/documentation-de.md#textkorpus) oder Metadaten in den einzelnen [Dateien](https://github.com/telota/quoteSalute/tree/master/app/data)
