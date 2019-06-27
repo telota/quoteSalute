@@ -31,6 +31,39 @@ The text corpus is currently fed by the following digital letter editions:
 * Arthur Schnitzler, Hermann Bahr: Briefwechsel, Materialien, Dokumente 1891–1931. Herausgegeben von Kurt Ifkovits und Martin Anton Müller. 2018. URL: [https://bahrschnitzler.acdh.oeaw.ac.at](https://bahrschnitzler.acdh.oeaw.ac.at)
 * DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade, Mainz, Akademie der Wissenschaften und der Literatur, 2018. URL: [https://sturm-edition.de/quellen/briefe.html](https://sturm-edition.de/quellen/briefe.html)
 
+Currently the corpus contains 979 salutes (27/06/2019).
+
+### Licence Code and Documentation
+
+© Berlin-Brandenburgische Akademie der Wissenschaften 2018
+
+* Code: LGPL 3.0
+* Documentation: CC BY 4.0
+
+### Licence Data Textcorpus (in app/data)
+
+(also see metadata in the files)
+
+#### CC BY 4.0
+
+* Aloys Hirt – Briefwechsel 1787–1837
+* August Wilhelm Ifflands dramaturgisches und administratives Archiv
+* Briefe und Texte aus dem intellektuellen Berlin um 1800
+* Jean Paul Briefwechsel
+* Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert
+* Marx-Engels-Gesamtausgabe digital
+* Wilhelm von Humboldt - Sprachwissenschaftliche Korrespondenz
+* Fanny Lewald an Hermann Hettner - Briefe aus den Jahren 1847-1857
+* Arthur Schnitzler, Hermann Bahr: Briefwechsel, Materialien, Dokumente 1891–1931
+* DER STURM. 
+
+#### CC BY-SA 4.0
+
+* Digitale Edition der Briefe Erdmuthe Benignas von Reuß-Ebersdorf (1670-1732)
+* edition humboldt-digital
+* Briefwechsel Daniel Sanders im Deutschen Textarchiv
+* Carl-Maria-von-Weber-Gesamtausgabe
+
 ## Background
 
 Salutations were (and are) essential elements of the written communication, especially of the letter. They point out, on the one hand, that letters display an "ad-hoc writtenness" and that they have a certain proximity to orality (Elspaß 2011, 24 and 27), because the formal structure of a letter follows the conversation procedure: Turning to the partner - presentation of the information, the request etc. - and turning away from the partner (Nickisch 1991, 9-10). It was not without reason that letters were already understood in the 18th and 19th centuries as a "conversation among attendees", although in the end they are not a conversation, but only an attempt to replace it and are subject to specific conditions (Bürgel 1976, 287-288; Reinlein 2003, 54-55).

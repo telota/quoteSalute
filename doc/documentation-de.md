@@ -14,11 +14,11 @@ Auf der Webseite können Sie direkt nach Grußformeln stöbern. Wenn Ihnen die a
 
 Ein kuratiertes Korpus aus Grußformeln verschiedener digitaler Briefeditionen ist die Grundlage von quoteSalute. Dafür wurden <salute>-Elemente aus den TEI/XML-Daten der Editionen automatisiert extrahiert und für jede Edition eine TEI/XML-Datei erstellt, die eine Liste der Grußformeln sowie dazugehörige bibliographische Angaben enthält. Bei der Kuratierung wurden die Daten (1) von Wiederholungen, unpassenden Inhalten und sehr kurzen Grußformeln bereinigt und (2) mit einem eigenen Tagging versehen, um ein späteres Filtern der Grußformeln zu ermöglichen. Die Grußformeln wurden nach drei Kriterien getaggt. Zum einen wurde festgestellt, ob die Grußformel inhaltlich eher formal oder freundschaftlich anmutet. Zum anderen wurde verzeichnet, ob das Geschlecht von Sender*in oder Empfänger*in aus dem Sinnzusammenhang deutlich wird. Und schließlich wurde die jeweilige Sprache ausgezeichnet. Dieses Tagging ermöglicht die Filterfunktion und macht, zusammen mit der o.g. Bereinigung, eine Kuratierung der Daten notwendig.
 
-Der Textkorpus wird derzeit von folgenden digitalen Briefeditionen gespeist: 
+Das Textkorpus wird derzeit von folgenden digitalen Briefeditionen gespeist: 
 
 * Aloys Hirt – Briefwechsel 1787–1837, ed. by Uta Motschmann. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. URL: [https://aloys-hirt.bbaw.de](https://aloys-hirt.bbaw.de/)
 * August Wilhelm Ifflands dramaturgisches und administratives Archiv. Digitale Edition hrsg. Von Klaus Gerlach. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. URL: [https://iffland.bbaw.de](http://iffland.bbaw.de/)
-* Briefe und Texte aus dem intellektuellen Berlin um 1800“. Hrsg. v. Anne Baillot. Berlin: Humboldt-Universität zu Berlin. URL: [www.berliner-intellektuelle.eu/](http://www.berliner-intellektuelle.eu/)
+* Briefe und Texte aus dem intellektuellen Berlin um 1800. Hrsg. v. Anne Baillot. Berlin: Humboldt-Universität zu Berlin. URL: [www.berliner-intellektuelle.eu/](http://www.berliner-intellektuelle.eu/)
 * Briefwechsel Daniel Sanders im Deutschen Textarchiv, hg. v. Sebastian Göttel. Berlin 2017-2018. URL: [http://www.deutschestextarchiv.de/sanders-briefe](http://www.deutschestextarchiv.de/sanders-briefe)
 * Carl-Maria-von-Weber-Gesamtausgabe, Digitale Edition. URL: [http://www.weber-gesamtausgabe.de](http://www.weber-gesamtausgabe.de)
 * Digitale Edition der Briefe Erdmuthe Benignas von Reuß-Ebersdorf (1670-1732), hg. V. Prell, Martin u. Schmidt-Funke, Julia. Jena 2017 [Work in Progress]. URL: [http://erdmuthe.thulb.uni-jena.de](http://erdmuthe.thulb.uni-jena.de/)
@@ -30,6 +30,40 @@ Der Textkorpus wird derzeit von folgenden digitalen Briefeditionen gespeist:
 * Fanny Lewald an Hermann Hettner - Briefe aus den Jahren 1847-1857. Hrsg. v. Frederike Neuber. In: Berliner Beiträge zur Editionswissenschaft. Bd. 18. Hrsg: Jörg Jungmayr u. Marcus Schotte. 2017.
 * Arthur Schnitzler, Hermann Bahr: Briefwechsel, Materialien, Dokumente 1891–1931. Herausgegeben von Kurt Ifkovits und Martin Anton Müller. 2018. URL: [https://bahrschnitzler.acdh.oeaw.ac.at](https://bahrschnitzler.acdh.oeaw.ac.at)
 * DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade, Mainz, Akademie der Wissenschaften und der Literatur, 2018. URL: [https://sturm-edition.de/quellen/briefe.html](https://sturm-edition.de/quellen/briefe.html)
+
+Aktuell besteht das Korpus aus 979 Grußformeln (Stand: 27.06.2019)
+
+### Lizenzen Programmcode und Dokumentation
+
+© Berlin-Brandenburgische Akademie der Wissenschaften 2018
+
+* Programmcode: LGPL 3.0
+* Dokumentation: CC BY 4.0
+
+### Lizenzen Daten Textkorpus (in app/data)
+
+(siehe auch Metadaten in den einzelnen Dateien)
+
+#### CC BY 4.0
+
+* Aloys Hirt – Briefwechsel 1787–1837
+* August Wilhelm Ifflands dramaturgisches und administratives Archiv
+* Briefe und Texte aus dem intellektuellen Berlin um 1800
+* Jean Paul Briefwechsel
+* Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert
+* Marx-Engels-Gesamtausgabe digital
+* Wilhelm von Humboldt - Sprachwissenschaftliche Korrespondenz
+* Fanny Lewald an Hermann Hettner - Briefe aus den Jahren 1847-1857
+* Arthur Schnitzler, Hermann Bahr: Briefwechsel, Materialien, Dokumente 1891–1931
+* DER STURM. 
+
+#### CC BY-SA 4.0
+
+* Digitale Edition der Briefe Erdmuthe Benignas von Reuß-Ebersdorf (1670-1732)
+* edition humboldt-digital
+* Briefwechsel Daniel Sanders im Deutschen Textarchiv
+* Carl-Maria-von-Weber-Gesamtausgabe
+
 
 ## Hintergrund
 

@@ -145,19 +145,57 @@
                      target="https://wvh-briefe.bbaw.de/">https://wvh-briefe.bbaw.de</ref>
                </item>
                <item> Fanny Lewald an Hermann Hettner - Briefe aus den Jahren 1847-1857. Hrsg. v.
-                  Frederike Neuber. In: Berliner Beiträge zur Editionswissenschaft. Bd. 18. Hrsg: Jörg
-                  Jungmayr u. Marcus Schotte. 2017.
-               </item>
-               <item> Arthur Schnitzler, Hermann Bahr: Briefwechsel, Materialien, Dokumente 1891–1931.
-                  Herausgegeben von Kurt Ifkovits und Martin Anton Müller. 2018. URL: <ref
-                     target="https://bahrschnitzler.acdh.oeaw.ac.at">https://bahrschnitzler.acdh.oeaw.ac.at</ref>
+                  Frederike Neuber. In: Berliner Beiträge zur Editionswissenschaft. Bd. 18. Hrsg:
+                  Jörg Jungmayr u. Marcus Schotte. 2017. </item>
+               <item> Arthur Schnitzler, Hermann Bahr: Briefwechsel, Materialien, Dokumente
+                  1891–1931. Herausgegeben von Kurt Ifkovits und Martin Anton Müller. 2018. URL:
+                     <ref target="https://bahrschnitzler.acdh.oeaw.ac.at"
+                     >https://bahrschnitzler.acdh.oeaw.ac.at</ref>
                </item>
                <item> DER STURM. Digitale Quellenedition zur Geschichte der internationalen
-                  Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten
-                  Schrade, Mainz, Akademie der Wissenschaften und der Literatur, 2018. URL: <ref
-                     target="https://sturm-edition.de/quellen/briefe.html">https://sturm-edition.de/quellen/briefe.html</ref>
+                  Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade,
+                  Mainz, Akademie der Wissenschaften und der Literatur, 2018. URL: <ref
+                     target="https://sturm-edition.de/quellen/briefe.html"
+                     >https://sturm-edition.de/quellen/briefe.html</ref>
                </item>
             </list>
+            <div>
+               <head>Lizenzen Programmcode und Dokumentation</head>
+               <p>© Berlin-Brandenburgische Akademie der Wissenschaften 2018</p>
+               <item>Code: LGPL 3.0</item>
+               <item>Documentation: CC BY 4.0</item>
+            </div>
+            <div>
+               <head>Lizenzen Daten Textkorpus (in app/data)</head>
+               <p>(also see metadata in the files)</p>
+               <div>
+                  <head>CC BY 4.0</head>
+                  <list>
+                     <item>Aloys Hirt – Briefwechsel 1787–1837</item>
+                     <item>August Wilhelm Ifflands dramaturgisches und administratives Archiv</item>
+                     <item>Briefe und Texte aus dem intellektuellen Berlin um 1800</item>
+                     <item>Jean Paul Briefwechsel</item>
+                     <item>Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen
+                        Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert</item>
+                     <item>Marx-Engels-Gesamtausgabe digital</item>
+                     <item>Wilhelm von Humboldt - Sprachwissenschaftliche Korrespondenz</item>
+                     <item>Fanny Lewald an Hermann Hettner - Briefe aus den Jahren 1847-1857</item>
+                     <item>Arthur Schnitzler, Hermann Bahr: Briefwechsel, Materialien, Dokumente
+                        1891–1931</item>
+                     <item>DER STURM.</item>
+                  </list>
+               </div>
+               <div>
+                  <head>CC BY-SA 4.0</head>
+                  <list>
+                     <item>Digitale Edition der Briefe Erdmuthe Benignas von Reuß-Ebersdorf
+                        (1670-1732)</item>
+                     <item>edition humboldt-digital</item>
+                     <item>Briefwechsel Daniel Sanders im Deutschen Textarchiv</item>
+                     <item>Carl-Maria-von-Weber-Gesamtausgabe</item>
+                  </list>
+               </div>
+            </div>
          </div>
          <div xml:id="a10">
             <head>Hintergrund</head>
@@ -225,8 +263,10 @@
                kommt grundsätzlich für eine Integration in quoteSalute in Frage.</p>
             <p> Für eine Beteiligung Ihres Projektes benötigen wir eine TEI-XML-Datei mit den
                Grußformeln Ihrer digitalen Briefedition. Damit Sie diese möglichst einfach
-               generieren können, stellen wir Ihnen eine <ref target="https://github.com/telota/quoteSalute/blob/master/doc/example.xml"
-                  >Beispieldatei</ref> und eine leere <ref target="https://github.com/telota/quoteSalute/blob/master/doc/template.xml"
+               generieren können, stellen wir Ihnen eine <ref
+                  target="https://github.com/telota/quoteSalute/blob/master/doc/example.xml"
+                  >Beispieldatei</ref> und eine leere <ref
+                  target="https://github.com/telota/quoteSalute/blob/master/doc/template.xml"
                   >template-Datei</ref> zur Verfügung. Ihre Datei sollte neben den Grußformeln auch
                zugehörige bibliographische Angaben (Titel der Edition, Titel des Briefs) und einen
                Link zur Webansicht des jeweiligen Briefes in der digitalen Edition enthalten.
@@ -366,115 +406,117 @@
             </table>
          </div>
 
-            <div xml:id="a8">
-               <head>Taxonomien</head>
+         <div xml:id="a8">
+            <head>Taxonomien</head>
+            <div>
+               <head>Formalität</head>
+               <p>Je nachdem, ob die Grußformel eher formellen oder eher informellen Charakter hat,
+                  kann einer der folgenden Werte gesetzt werden:</p>
+               <table>
+                  <row role="label">
+                     <cell>Wert</cell>
+                     <cell>Beschreibung</cell>
+                  </row>
+                  <row>
+                     <cell rend="code">#formal</cell>
+                     <cell>Grußformel ist förmlich.</cell>
+                  </row>
+                  <row>
+                     <cell rend="code">#informal</cell>
+                     <cell>Grußformel ist freundschaftlich.</cell>
+                  </row>
+               </table>
+            </div>
+            <div>
+               <head>Geschlecht</head>
+               <p>Für das im Text abgebildete Geschlecht der Sprechenden bzw. Angesprochenen kann
+                  jeweils einer der folgenden Werte gesetzt werden:</p>
+               <table>
+                  <row role="label">
+                     <cell>Wert</cell>
+                     <cell>Beschreibung</cell>
+                  </row>
+                  <row>
+                     <cell rend="code">#s-m</cell>
+                     <cell>Grußformel impliziert einen männlichen Absender</cell>
+                  </row>
+                  <row>
+                     <cell rend="code">#s-f</cell>
+                     <cell>Grußformel impliziert eine weibliche Absenderin</cell>
+                  </row>
+                  <row>
+                     <cell rend="code">#s-n</cell>
+                     <cell>Grußformel impliziert kein Geschlecht der Abersenderin/des
+                        Absenders</cell>
+                  </row>
+                  <row>
+                     <cell rend="code">#r-m</cell>
+                     <cell>Grußformel impliziert einen männlichen Empfänger</cell>
+                  </row>
+                  <row>
+                     <cell rend="code">#r-f</cell>
+                     <cell>Grußformel impliziert eine weibliche Empfängerin</cell>
+                  </row>
+                  <row>
+                     <cell rend="code">#r-n</cell>
+                     <cell>Grußformel impliziert kein Geschlecht der Empfängerin/des
+                        Empfängers</cell>
+                  </row>
+               </table>
+               <p>Ebenfalls eine Filtermöglichkeit stellt die Sprache dar, in der die Grußformel
+                  verfasst ist. Sie wird in <hi rend="code">quote/@xml:id</hi> notiert (siehe <ref
+                     target="#note-language">oben</ref>).</p>
+            </div>
+            <div>
+               <head>Beispiele für die Annotation</head>
                <div>
-                  <head>Formalität</head>
-                  <p>Je nachdem, ob die Grußformel eher formellen oder eher informellen Charakter
-                     hat, kann einer der folgenden Werte gesetzt werden:</p>
-                  <table>
-                     <row role="label">
-                        <cell>Wert</cell>
-                        <cell>Beschreibung</cell>
-                     </row>
-                     <row>
-                        <cell rend="code">#formal</cell>
-                        <cell>Grußformel ist förmlich.</cell>
-                     </row>
-                     <row>
-                        <cell rend="code">#informal</cell>
-                        <cell>Grußformel ist freundschaftlich.</cell>
-                     </row>
-                  </table>
+                  <head>Beispiel 1</head>
+                  <p>Grußformel ist in deutscher Sprache, von formellem Charakter und impliziert
+                     sowohl für Sender und Empfänger kein erkennbares Geschlecht.</p>
+                  <p>
+                     <hi rend="code">&lt;quote xml:lang="deu" ana="#formal #s-n #r-n"&gt;Bis dahin
+                        empfiehlt sich Ihrem Wohlwollen hochachtungsvoll&lt;/quote&gt;</hi>
+                  </p>
                </div>
                <div>
-                  <head>Geschlecht</head>
-                  <p>Für das im Text abgebildete Geschlecht der Sprechenden bzw. Angesprochenen kann
-                     jeweils einer der folgenden Werte gesetzt werden:</p>
-                  <table>
-                     <row role="label">
-                        <cell>Wert</cell>
-                        <cell>Beschreibung</cell>
-                     </row>
-                     <row>
-                        <cell rend="code">#s-m</cell>
-                        <cell>Grußformel impliziert einen männlichen Absender</cell>
-                     </row>
-                     <row>
-                        <cell rend="code">#s-f</cell>
-                        <cell>Grußformel impliziert eine weibliche Absenderin</cell>
-                     </row>
-                     <row>
-                        <cell rend="code">#s-n</cell>
-                        <cell>Grußformel impliziert kein Geschlecht der Abersenderin/des
-                           Absenders</cell>
-                     </row>
-                     <row>
-                        <cell rend="code">#r-m</cell>
-                        <cell>Grußformel impliziert einen männlichen Empfänger</cell>
-                     </row>
-                     <row>
-                        <cell rend="code">#r-f</cell>
-                        <cell>Grußformel impliziert eine weibliche Empfängerin</cell>
-                     </row>
-                     <row>
-                        <cell rend="code">#r-n</cell>
-                        <cell>Grußformel impliziert kein Geschlecht der Empfängerin/des
-                           Empfängers</cell>
-                     </row>
-                  </table>
-                  <p>Ebenfalls eine Filtermöglichkeit stellt die Sprache dar, in der die Grußformel
-                     verfasst ist. Sie wird in <hi rend="code">quote/@xml:id</hi> notiert (siehe
-                        <ref target="#note-language">oben</ref>).</p>
+                  <head>Beispiel 2</head>
+                  <p>Grußformel ist in deutscher Sprache, von informellem Charakter und impliziert,
+                     dass der Sender männlich ist und für den Empfänger kein Geschlecht spezifiziert
+                     werden kann.</p>
+                  <p>
+                     <hi rend="code">&lt;quote xml:lang="deu" ana="#informal #s-m #r-n"&gt;Ihr
+                        treuer Diener&lt;/quote&gt;</hi>
+                  </p>
                </div>
                <div>
-                  <head>Beispiele für die Annotation</head>
-                  <div>
-                     <head>Beispiel 1</head>
-                     <p>Grußformel ist in deutscher Sprache, von formellem Charakter und impliziert
-                        sowohl für Sender und Empfänger kein erkennbares Geschlecht.</p>
-                     <p><hi rend="code">&lt;quote xml:lang="deu" ana="#formal #s-n #r-n"&gt;Bis
-                           dahin empfiehlt sich Ihrem Wohlwollen
-                        hochachtungsvoll&lt;/quote&gt;</hi></p>
-                  </div>
-                  <div>
-                     <head>Beispiel 2</head>
-                     <p>Grußformel ist in deutscher Sprache, von informellem Charakter und
-                        impliziert, dass der Sender männlich ist und für den Empfänger kein
-                        Geschlecht spezifiziert werden kann.</p>
-                     <p><hi rend="code">&lt;quote xml:lang="deu" ana="#informal #s-m #r-n"&gt;Ihr
-                           treuer Diener&lt;/quote&gt;</hi></p>
-                  </div>
-                  <div>
-                     <head>Beispiel 3</head>
-                     <p>Grußformel ist in lateinischer Sprache, von formellem Charakter und
-                        impliziert, dass der Sender männlichen und die Empfängerin weiblichen
-                        Geschlechts ist.</p>
-                     <p><hi rend="code">&lt;quote xml:lang="lat" ana="#formal #s-m #r-f"&gt;Gottes
-                           Segen über Sie, meine teure Mutter&lt;/quote&gt;</hi></p>
-                  </div>
+                  <head>Beispiel 3</head>
+                  <p>Grußformel ist in lateinischer Sprache, von formellem Charakter und impliziert,
+                     dass der Sender männlichen und die Empfängerin weiblichen Geschlechts ist.</p>
+                  <p>
+                     <hi rend="code">&lt;quote xml:lang="lat" ana="#formal #s-m #r-f"&gt;Gottes
+                        Segen über Sie, meine teure Mutter&lt;/quote&gt;</hi>
+                  </p>
+               </div>
             </div>
          </div>
          <div xml:id="a11">
             <head>Verwendete Literatur</head>
             <list>
-               <item>Bürgel, Peter. 1976. „Der Privatbrief. Entwurf eines heuristischen
-                  Modells“. Deutsche Vierteljahresschrift für Literaturwissenschaft und
-                  Geistesgeschichte 50: 281–97. </item>
+               <item>Bürgel, Peter. 1976. „Der Privatbrief. Entwurf eines heuristischen Modells“.
+                  Deutsche Vierteljahresschrift für Literaturwissenschaft und Geistesgeschichte 50:
+                  281–97. </item>
                <item>Elspaß, Stephan. 2011. Sprachgeschichte von unten. Untersuchungen zum
-                  geschriebenen Alltagsdeutsch im 19. Jahrhundert. Reihe Germanistische
-                  Linguistik 263. Berlin, Boston: De Gruyter.</item>
-               <item>Ermert, Karl. 1979. Briefsorten : Untersuchungen zu Theorie und Empirie
-                  der Textklassifikation. Reihe germanistische Linguistik 20. Tübingen:
-                  Niemeyer. </item>
-               <item>Nickisch, Reinhard M. G. 1991. Brief. Sammlung Metzler. Realien zur
-                  Literatur, Bd. 260. Stuttgart: Metzler. </item>
-               <item>Reinlein, Tanja. 2003. Der Brief als Medium der Empfindsamkeit:
-                  erschriebene Identitäten und Inszenierungspotentiale. Würzburg: Königshausen
-                  &amp; Neumann. </item>
-               <item>TEI Consortium (Hg.). 2018. TEI P5: Guidelines for Electronic Text
-                  Encoding and Interchange. [Version 3.3.0 vom 31. Januar 2018]. TEI
-                  Consortium. <ref target="http://www.tei-c.org/Guidelines/P5/"
+                  geschriebenen Alltagsdeutsch im 19. Jahrhundert. Reihe Germanistische Linguistik
+                  263. Berlin, Boston: De Gruyter.</item>
+               <item>Ermert, Karl. 1979. Briefsorten : Untersuchungen zu Theorie und Empirie der
+                  Textklassifikation. Reihe germanistische Linguistik 20. Tübingen: Niemeyer. </item>
+               <item>Nickisch, Reinhard M. G. 1991. Brief. Sammlung Metzler. Realien zur Literatur,
+                  Bd. 260. Stuttgart: Metzler. </item>
+               <item>Reinlein, Tanja. 2003. Der Brief als Medium der Empfindsamkeit: erschriebene
+                  Identitäten und Inszenierungspotentiale. Würzburg: Königshausen &amp; Neumann. </item>
+               <item>TEI Consortium (Hg.). 2018. TEI P5: Guidelines for Electronic Text Encoding and
+                  Interchange. [Version 3.3.0 vom 31. Januar 2018]. TEI Consortium. <ref
+                     target="http://www.tei-c.org/Guidelines/P5/"
                      >http://www.tei-c.org/Guidelines/P5/</ref>.</item>
             </list>
          </div>

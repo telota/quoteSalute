@@ -16,10 +16,13 @@ Die Grußformel Ihrer digitalen Briefedition sollen bei quoteSalute dabei sein? 
 * [XSLT-Skripte](https://github.com/telota/quoteSalute/tree/master/doc/xslt-examples) dokumentieren anhand von Beispieldaten die Extraktion von salute-Elementen.
 * ein [Thunderbird-Addon](https://github.com/telota/quoteSalute_xpi/releases/download/v0.2.5/quotesalute-0.2.5_build11.xpi) (siehe [quoteSalute_xpi](https://github.com/telota/quotesalute_xpi))
 
-## Lizenz
+## Lizenzen Programmcode und Dokumentation
 
 © Berlin-Brandenburgische Akademie der Wissenschaften 2018
 
 * Programmcode: LGPL 3.0
 * Dokumentation: CC BY 4.0
-* Daten in app/data: siehe Metadaten in den einzelnen Dateien
+
+## Lizenzen Daten des Textkorpus
+
+siehe Dokumentation oder Metadaten in den einzelnen Dateien
