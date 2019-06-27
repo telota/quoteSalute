@@ -14,55 +14,22 @@ On the website you can browse for greetings. If you do not like the greeting dis
 
 A curated corpus of greetings from various digital letter editions is the basis of quoteSalute. For this purpose, `<salute>` elements and associated bibliographical information were extracted automatically from the TEI-XML-files of the editions and stored into a new TEI-XML-file for each edition. During curating, the data was (1) cleared of of repetitions, inappropriate contents and very short greetings and (2) expaded by an own tagging to allow later filtering of the greetings. The greetings were tagged according to three criteria. First, it was determined whether the greeting is more formal or friendly in content. On the other hand, it was recorded, whether the gender of the sender and the receiver are apparent from the context (this was especially necessary for greetigns written in languages that classify words gender categories). And finally, the language was marked. This tagging allows the filter function and, together with the above-mentioned cleanup, makes a curation of the data necessary.
 
-The text corpus is currently fed by the following digital letter editions:
+The text corpus currently contains 979 salutes from the following digital letter editions (updated: 27/06/2019):
 
-* Aloys Hirt – Briefwechsel 1787–1837, ed. by Uta Motschmann. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. URL: [https://aloys-hirt.bbaw.de](https://aloys-hirt.bbaw.de)
-* August Wilhelm Ifflands dramaturgisches und administratives Archiv. Digitale Edition hrsg. Von Klaus Gerlach. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. URL: [https://iffland.bbaw.de](https://iffland.bbaw.de)
-* Briefe und Texte aus dem intellektuellen Berlin um 1800“. Hrsg. v. Anne Baillot. Berlin: Humboldt-Universität zu Berlin. URL: [http://www.berliner-intellektuelle.eu/](http://www.berliner-intellektuelle.eu/)
-* Briefwechsel Daniel Sanders im Deutschen Textarchiv, hg. v. Sebastian Göttel. Berlin 2017-2018. URL: [http://www.deutschestextarchiv.de/sanders-briefe](http://www.deutschestextarchiv.de/sanders-briefe)
-* Carl-Maria-von-Weber-Gesamtausgabe, Digitale Edition. URL: [http://www.weber-gesamtausgabe.de](http://www.weber-gesamtausgabe.de)
-* Digitale Edition der Briefe Erdmuthe Benignas von Reuß-Ebersdorf (1670-1732), hg. V. Prell, Martin u. Schmidt-Funke, Julia. Jena 2017 [Work in Progress]. URL: [http://erdmuthe.thulb.uni-jena.de/](http://erdmuthe.thulb.uni-jena.de/)
-* edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. URL: [http://edition-humboldt.de/](http://edition-humboldt.de/)
-* Jean Paul Briefwechsel, Digitale Edition (basierend auf der III. Abteilung der Historisch-kritischen Ausgabe, hg. v. Eduard Berend), Berlin-Brandenburgische Akademie der Wissenschaften, Berlin 2018. [Releasing soon](http://www.bbaw.de/forschung/jean_paul/)
-* Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert, ed. by Gaby Huch. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. URL: [http://lebenswelten-lehndorff.bbaw.de/](http://lebenswelten-lehndorff.bbaw.de/)
-* Marx-Engels-Gesamtausgabe digital, hg. von der Internationalen Marx-Engels-Stiftung. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. URL: [http://megadigital.bbaw.de/](http://megadigital.bbaw.de/)
-* Wilhelm von Humboldt - Sprachwissenschaftliche Korrespondenz. Hg. von der Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. URL: [https://wvh-briefe.bbaw.de/](https://wvh-briefe.bbaw.de/)
-* Fanny Lewald an Hermann Hettner - Briefe aus den Jahren 1847-1857. Hrsg. v. Frederike Neuber. In: Berliner Beiträge zur Editionswissenschaft. Bd. 18. Hrsg: Jörg Jungmayr u. Marcus Schotte. 2017.
-* Arthur Schnitzler, Hermann Bahr: Briefwechsel, Materialien, Dokumente 1891–1931. Herausgegeben von Kurt Ifkovits und Martin Anton Müller. 2018. URL: [https://bahrschnitzler.acdh.oeaw.ac.at](https://bahrschnitzler.acdh.oeaw.ac.at)
-* DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade, Mainz, Akademie der Wissenschaften und der Literatur, 2018. URL: [https://sturm-edition.de/quellen/briefe.html](https://sturm-edition.de/quellen/briefe.html)
-
-Currently the corpus contains 979 salutes (27/06/2019).
-
-### Licence Code and Documentation
-
-© Berlin-Brandenburgische Akademie der Wissenschaften 2018
-
-* Code: LGPL 3.0
-* Documentation: CC BY 4.0
-
-### Licence Data Textcorpus (in app/data)
-
-(also see metadata in the files)
-
-#### CC BY 4.0
-
-* Aloys Hirt – Briefwechsel 1787–1837
-* August Wilhelm Ifflands dramaturgisches und administratives Archiv
-* Briefe und Texte aus dem intellektuellen Berlin um 1800
-* Jean Paul Briefwechsel
-* Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert
-* Marx-Engels-Gesamtausgabe digital
-* Wilhelm von Humboldt - Sprachwissenschaftliche Korrespondenz
-* Fanny Lewald an Hermann Hettner - Briefe aus den Jahren 1847-1857
-* Arthur Schnitzler, Hermann Bahr: Briefwechsel, Materialien, Dokumente 1891–1931
-* DER STURM. 
-
-#### CC BY-SA 4.0
-
-* Digitale Edition der Briefe Erdmuthe Benignas von Reuß-Ebersdorf (1670-1732)
-* edition humboldt-digital
-* Briefwechsel Daniel Sanders im Deutschen Textarchiv
-* Carl-Maria-von-Weber-Gesamtausgabe
+* Aloys Hirt – Briefwechsel 1787–1837, ed. by Uta Motschmann. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. URL: [https://aloys-hirt.bbaw.de](https://aloys-hirt.bbaw.de), licence: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+* August Wilhelm Ifflands dramaturgisches und administratives Archiv. Digitale Edition hrsg. Von Klaus Gerlach. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. URL: [https://iffland.bbaw.de](https://iffland.bbaw.de), licence: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+* Briefe und Texte aus dem intellektuellen Berlin um 1800“. Hrsg. v. Anne Baillot. Berlin: Humboldt-Universität zu Berlin. URL: [http://www.berliner-intellektuelle.eu/](http://www.berliner-intellektuelle.eu/), licence: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+* Briefwechsel Daniel Sanders im Deutschen Textarchiv, hg. v. Sebastian Göttel. Berlin 2017-2018. URL: [http://www.deutschestextarchiv.de/sanders-briefe](http://www.deutschestextarchiv.de/sanders-briefe), licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+* Carl-Maria-von-Weber-Gesamtausgabe, Digitale Edition. URL: [http://www.weber-gesamtausgabe.de](http://www.weber-gesamtausgabe.de), licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+* Digitale Edition der Briefe Erdmuthe Benignas von Reuß-Ebersdorf (1670-1732), hg. V. Prell, Martin u. Schmidt-Funke, Julia. Jena 2017 [Work in Progress]. URL: [http://erdmuthe.thulb.uni-jena.de/](http://erdmuthe.thulb.uni-jena.de/), licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+* edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. URL: [http://edition-humboldt.de/](http://edition-humboldt.de/), licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+* Jean Paul Briefwechsel, Digitale Edition (basierend auf der III. Abteilung der Historisch-kritischen Ausgabe, hg. v. Eduard Berend), Berlin-Brandenburgische Akademie der Wissenschaften, Berlin 2018. URL: [https://www.jeanpaul-edition.de/](https://www.jeanpaul-edition.de/), licence: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+* Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen Adelsfamilie Lehndorff vom 18. bis in das 20.Jahrhundert, ed. by Gaby Huch. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. URL: [http://lebenswelten-lehndorff.bbaw.de/](http://lebenswelten-lehndorff.bbaw.de/), licence: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+* Marx-Engels-Gesamtausgabe digital, hg. von der Internationalen Marx-Engels-Stiftung. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. URL: [http://megadigital.bbaw.de/](http://megadigital.bbaw.de/), licence: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+* Wilhelm von Humboldt - Sprachwissenschaftliche Korrespondenz. Hg. von der Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. URL: [https://wvh-briefe.bbaw.de/](https://wvh-briefe.bbaw.de/), licence: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+* Fanny Lewald an Hermann Hettner - Briefe aus den Jahren 1847-1857. Hrsg. v. Frederike Neuber. In: Berliner Beiträge zur Editionswissenschaft. Bd. 18. Hrsg: Jörg Jungmayr u. Marcus Schotte. 2017, licence: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+* Arthur Schnitzler, Hermann Bahr: Briefwechsel, Materialien, Dokumente 1891–1931. Herausgegeben von Kurt Ifkovits und Martin Anton Müller. 2018. URL: [https://bahrschnitzler.acdh.oeaw.ac.at](https://bahrschnitzler.acdh.oeaw.ac.at), licence: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+* DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade, Mainz, Akademie der Wissenschaften und der Literatur, 2018. URL: [https://sturm-edition.de/quellen/briefe.html](https://sturm-edition.de/quellen/briefe.html), licence: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## Background
 
@@ -177,7 +144,7 @@ Salutation is in English, of formal character and implies that the recipient is 
 <quote xml:lang="eng" ana="#formal #s-n #r-m">Dear Sir Faithfully yours</quote>
 ```
 
-#### Bibliography
+## Bibliography
 
 * Bürgel, Peter. 1976. „Der Privatbrief. Entwurf eines heuristischen Modells“. Deutsche Vierteljahresschrift für Literaturwissenschaft und Geistesgeschichte 50:281–97.
 * Elspaß, Stephan. 2011. Sprachgeschichte von unten. Untersuchungen zum geschriebenen Alltagsdeutsch im 19. Jahrhundert. Reihe Germanistische Linguistik 263. Berlin, Boston: De Gruyter.
@@ -185,3 +152,11 @@ Salutation is in English, of formal character and implies that the recipient is 
 * Nickisch, Reinhard M. G. 1991. Brief. Sammlung Metzler. Realien zur Literatur, Bd. 260. Stuttgart: Metzler.
 * Reinlein, Tanja. 2003. Der Brief als Medium der Empfindsamkeit: erschriebene Identitäten und Inszenierungspotentiale. Würzburg: Königshausen & Neumann.
 * TEI Consortium (Hg.). 2018. TEI P5: Guidelines for Electronic Text Encoding and Interchange. [Version 3.3.0 vom 31. Januar 2018]. TEI Consortium. [http://www.tei-c.org/Guidelines/P5/"](http://www.tei-c.org/Guidelines/P5/").
+
+## Licence
+
+© Berlin-Brandenburgische Akademie der Wissenschaften 2018
+
+* Code: LGPL 3.0
+* Documentation: CC BY 4.0
+* Data Textcorpus (in app/data): see above and metadata in the files
