@@ -159,4 +159,4 @@ Salutation is in English, of formal character and implies that the recipient is 
 
 * Code: LGPL 3.0
 * Documentation: CC BY 4.0
-* Data Textcorpus (in app/data): see above and metadata in the files
+* Data Textcorpus (in app/data): see above under textcorpus and metadata in the files
